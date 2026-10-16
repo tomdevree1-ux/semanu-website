@@ -9,19 +9,19 @@ import { pageMetadata } from '@/lib/seo/metadata';
 
 // SEO description per locale. The faq namespace only holds eyebrow/h2/items, so a
 // dedicated, concise meta sentence lives here (house copy rules: no dashes, no
-// comma before und/oder, Swiss ss, AI stays "AI" in every language).
+// comma before und/oder, standard German ß, AI stays "AI" in every language).
 const FAQ_DESC: Record<string, string> = {
-  de: 'semanu beantwortet häufige Fragen zu 3D-Konfiguratoren und Unternehmenssoftware nach Mass für Schweizer KMU: Ablauf, Preise, Wartung und Sicherheit.',
-  fr: 'semanu répond aux questions fréquentes sur les configurateurs 3D et les logiciels d’entreprise sur mesure pour les PME suisses: déroulement, prix, maintenance et sécurité.',
-  en: 'semanu answers common questions about 3D configurators and custom business software for Swiss SMEs: process, pricing, maintenance and security.',
+  de: 'semanu beantwortet häufige Fragen zu 3D-Konfiguratoren und Unternehmenssoftware nach Maß für KMU in Europa: Ablauf, Preise, Wartung und Sicherheit.',
+  fr: 'semanu répond aux questions fréquentes sur les configurateurs 3D et les logiciels d’entreprise sur mesure pour les PME en Europe: déroulement, prix, maintenance et sécurité.',
+  en: 'semanu answers common questions about 3D configurators and custom business software for SMEs in Europe: process, pricing, maintenance and security.',
 };
 
 // Query-bearing titles (decoupled from the nav label "FAQ" so the <title> can
 // carry the topics people actually search for).
 const FAQ_TITLE: Record<string, string> = {
-  de: 'FAQ: Website Abo, digitale Plattformen und AI · semanu.eu',
-  fr: 'FAQ: abonnement site, plateformes digitales et AI · semanu.eu',
-  en: 'FAQ: website plans, digital platforms and AI · semanu.eu',
+  de: 'FAQ: 3D Konfiguratoren, Unternehmenssoftware und AI · semanu.eu',
+  fr: 'FAQ: configurateurs 3D, logiciels d’entreprise et AI · semanu.eu',
+  en: 'FAQ: 3D configurators, business software and AI · semanu.eu',
 };
 
 export async function generateMetadata({

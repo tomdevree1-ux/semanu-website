@@ -97,9 +97,9 @@ export const REFERENZEN: Record<RefLocale, RefContent> = {
         challenge:
           'Anfragen kamen über mehrere Kanäle gleichzeitig (Social, Kontaktformular, Email und Telefon), sodass ein Lead leicht verloren ging. Die Website liess sich intern kaum aktualisieren und brachte nicht durchgehend die richtigen Besucher.',
         solution:
-          'semanu baute eine vollständige Website mit CMS Modul, damit das Team Fotos und Inhalte selbst pflegt. Ein integriertes Offert Tool lässt Besucher eine passende Offerte anfragen und die Website läuft in vier Sprachen mit hreflang. semanu betreut die Google Ads und eine Sichtbarkeitsschleife hält SEO und GEO jeden Monat im Blick. Ein integriertes CRM Modul erfasst jeden Lead aus vier Kanälen (Meta mit Instagram und Facebook, dem Kontaktformular, Email und Telefon) und begleitet ihn vom ersten Kontakt bis zur unterschriebenen Offerte.',
+          'semanu baute eine vollständige Website mit CMS Modul, damit das Team Fotos und Inhalte selbst pflegt. Ein integriertes Angebotstool lässt Besucher ein passendes Angebot anfragen und die Website läuft in vier Sprachen mit hreflang. semanu betreut die Google Ads und eine Sichtbarkeitsschleife hält SEO und GEO jeden Monat im Blick. Ein integriertes CRM Modul erfasst jeden Lead aus vier Kanälen (Meta mit Instagram und Facebook, dem Kontaktformular, Email und Telefon) und begleitet ihn vom ersten Kontakt bis zur unterschriebenen Offerte.',
         result:
-          'Vom ersten Kundenkontakt bis zur Montage: Offerte, Produktion und Planung verbunden in einem digitalen Fluss. Poortland pflegt die eigene Website, bleibt in Suche und AI sichtbar und verfolgt jeden Lead an einem Ort, vom ersten Kontakt bis zur unterschriebenen Offerte.',
+          'Vom ersten Kundenkontakt bis zur Montage: Angebot, Produktion und Planung verbunden in einem digitalen Fluss. Poortland pflegt die eigene Website, bleibt in Suche und AI sichtbar und verfolgt jeden Lead an einem Ort, vom ersten Kontakt bis zur unterschriebenen Offerte.',
         quote: {
           text: 'semanu hat uns klar und persönlich durch den ganzen Prozess geführt. Wir fühlten uns eingebunden, ohne alles selbst managen zu müssen. Unsere Website wirkt jetzt professionell und vertrauenswürdig. Wir empfehlen semanu jedem Unternehmen, das eine moderne Website ohne Stress möchte.',
           author: 'Poortland',
@@ -112,22 +112,22 @@ export const REFERENZEN: Record<RefLocale, RefContent> = {
         status: 'live',
         href: 'https://semanu.be',
         company:
-          'SEMANU ist ein Beratungsunternehmen für Business Analyse und führt mehrere Mandate gleichzeitig. Jedes Mandat bringt Offerten, NDAs, Projektdokumente und Rechnungen mit sich.',
+          'SEMANU ist ein Beratungsunternehmen für Business Analyse und führt mehrere Mandate gleichzeitig. Jedes Mandat bringt Angebote, NDAs, Projektdokumente und Rechnungen mit sich.',
         challenge:
-          'Der ganze Ablauf lief über einzelne Tools und lange Email Verläufe: Leads qualifizieren, Offerten senden und freigeben lassen, NDAs signieren, fakturieren und Dokumente teilen. Das kostete Zeit und machte Mandate schwer nachvollziehbar.',
+          'Der ganze Ablauf lief über einzelne Tools und lange Email Verläufe: Leads qualifizieren, Angebote senden und freigeben lassen, NDAs signieren, fakturieren und Dokumente teilen. Das kostete Zeit und machte Mandate schwer nachvollziehbar.',
         solution:
-          'semanu baute eine Plattform aus einem Guss: eine öffentliche Website in vier Sprachen mit Readiness Checks und Lead Magnets, ein Ops Dashboard für SEMANU und ein Kundenportal. Offerten, NDAs und Rechnungen laufen durchgehend über die Plattform.',
+          'semanu baute eine Plattform aus einem Guss: eine öffentliche Website in vier Sprachen mit Readiness Checks und Lead Magnets, ein Ops Dashboard für SEMANU und ein Kundenportal. Angebote, NDAs und Rechnungen laufen durchgehend über die Plattform.',
         result:
-          'Eine Person führt heute Dutzende Mandate ohne administrativen Aufwand. Leads qualifizieren sich selbst, Kunden geben Offerten im Portal frei und signieren NDAs online und jedes Dokument bleibt in einer nachvollziehbaren Spur.',
+          'Eine Person führt heute Dutzende Mandate ohne administrativen Aufwand. Leads qualifizieren sich selbst, Kunden geben Angebote im Portal frei und signieren NDAs online und jedes Dokument bleibt in einer nachvollziehbaren Spur.',
       },
       {
         name: '3D Configurator',
         tag: 'Webshop',
         status: 'live',
         company:
-          'Ein Hersteller fertigt Aluminiumplatten auf Mass. Jede Platte ist anders: Abmessungen, Kantenbearbeitung, Oberfläche und Aussparungen.',
+          'Ein Hersteller fertigt Aluminiumplatten auf Maß. Jede Platte ist anders: Abmessungen, Kantenbearbeitung, Oberfläche und Aussparungen.',
         challenge:
-          'Jede Anfrage musste von Hand berechnet und offeriert werden. Das band Fachleute an repetitive Kalkulationen, verzögerte Antworten und begrenzte, wie viele Anfragen das Team bewältigen konnte.',
+          'Jede Anfrage musste von Hand berechnet und angeboten werden. Das band Fachleute an repetitive Kalkulationen, verzögerte Antworten und begrenzte, wie viele Anfragen das Team bewältigen konnte.',
         solution:
           'semanu baute einen 3D Konfigurator als Webshop. Kunden stellen ihre Platte selbst zusammen, sehen das Resultat live in 3D, erhalten sofort einen Preis und bestellen direkt online.',
         result:

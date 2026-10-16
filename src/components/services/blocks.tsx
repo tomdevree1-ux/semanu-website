@@ -223,7 +223,7 @@ export async function UseCaseCards({
 }
 
 /**
- * One recognisable Swiss SME scenario in PAS style: a short problem, the pain it
+ * One recognisable SME scenario in PAS style: a short problem, the pain it
  * causes, how semanu solves it and the result. Rendered on every service page
  * (gated by detail.scenario). Light Marine + Mint card, all copy passed in and
  * rendered as real text so crawlers and AI systems read it.

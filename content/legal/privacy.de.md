@@ -21,7 +21,7 @@ SEMANU BV (semanu), Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgien. Unternehm
 
 ## 3. Zwecke und Rechtsgrundlagen
 
-- Anfragen beantworten, im CRM weiterverfolgen und vorvertragliche Schritte: Vertrag oder vorvertragliche Massnahme (DSGVO Art. 6 Abs. 1 lit. b).
+- Anfragen beantworten, im CRM weiterverfolgen und vorvertragliche Schritte: Vertrag oder vorvertragliche Maßnahme (DSGVO Art. 6 Abs. 1 lit. b).
 - Leistungen erbringen, verwalten und abrechnen: Vertrag (Art. 6 Abs. 1 lit. b).
 - Sicherheit, Spamabwehr und stabiler Betrieb: berechtigtes Interesse (Art. 6 Abs. 1 lit. f).
 - Analyse mit Google Analytics 4: Einwilligung (Art. 6 Abs. 1 lit. a).
@@ -49,7 +49,7 @@ Google Analytics und Google Ads können Daten an Google übermitteln und Cloudfl
 - Anfragen: in der Regel bis zu 24 Monate nach dem letzten Kontakt, sofern kein Vertrag folgt.
 - Vertrags und Buchhaltungsunterlagen: gesetzliche Frist (in Belgien 10 Jahre für Buchhaltungsbelege).
 - Server und Sicherheitsprotokolle: rund 90 Tage.
-- Analysedaten: gemäss Einstellung in Google Analytics 4 (rund 14 Monate).
+- Analysedaten: gemäß Einstellung in Google Analytics 4 (rund 14 Monate).
 
 ## 7. Ihre Rechte
 
@@ -61,7 +61,7 @@ Wir verwenden notwendige Elemente (Speicherung Ihrer Einwilligung, Sicherheit), 
 
 ## 9. Sicherheit
 
-Wir schützen personenbezogene Daten mit TLS (HTTPS), Hosting auf Servern in der EU mit Firewall, Zugriffskontrollen und regelmässigen Sicherheitsupdates.
+Wir schützen personenbezogene Daten mit TLS (HTTPS), Hosting auf Servern in der EU mit Firewall, Zugriffskontrollen und regelmäßigen Sicherheitsupdates.
 
 ## 10. Änderungen
 

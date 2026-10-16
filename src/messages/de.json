@@ -9,13 +9,7 @@
   },
   "meta": {
     "title": "Webagentur Antwerpen: Websites, Plattformen und AI für KMU · semanu.eu",
-    "description": "semanu baut Websites, Kundenportale, CRM und Automatisierungen für Schweizer KMU. Ein Partner, ein klares Monatsabo, persönlich aus Antwerpen."
-  },
-  "banner": {
-    "studyText": "Neu: 2292 Schweizer KMU Websites bewertet. Nur 9 Prozent sind zeitgemäss.",
-    "studyCta": "Zur Studie",
-    "studyClose": "Hinweis schliessen",
-    "studyEyebrow": "Neue Studie"
+    "description": "semanu baut 3D Konfiguratoren und Unternehmenssoftware nach Maß für KMU in Europa: Automatisierung, Portale, CRM und AI. Persönlich aus Antwerpen."
   },
   "lang": {
     "label": "Sprache",
@@ -53,7 +47,7 @@
     "pillAi": "Unternehmenssoftware"
   },
   "funnel": {
-    "metaTitle": "Kostenlose Website Analyse Schweiz",
+    "metaTitle": "Kostenlose Website Analyse",
     "metaDescription": "Lassen Sie Ihre Website jetzt analysieren und erhalten Sie einen objektiven Bericht mit konkreten Verbesserungschancen. Kostenlos und unverbindlich.",
     "eyebrow": "Kostenlose Website Analyse",
     "title": "Lassen Sie Ihre aktuelle Website kostenlos analysieren.",
@@ -74,7 +68,7 @@
     "sampleNext": "Weiter",
     "sampleDownload": "Als PDF herunterladen",
     "sampleAlt": "Beispielbericht Seite",
-    "close": "Schliessen",
+    "close": "Schließen",
     "formTitle": "Jetzt Analyse anfordern",
     "firstName": "Vorname",
     "lastName": "Name",
@@ -96,7 +90,7 @@
     "errRateLimit": "Sie haben dieses Formular in kurzer Zeit mehrmals gesendet. Bitte versuchen Sie es in einer Stunde erneut oder schreiben Sie uns an {email}."
   },
   "footer": {
-    "tagline": "Der digitale Partner für Schweizer KMU: Beratung, Automatisierung, Massgeschneiderte Software und 3D-Konfiguratoren.",
+    "tagline": "Der digitale Partner für KMU in Europa: 3D Konfiguratoren und Unternehmenssoftware nach Maß, mit AI als Motor.",
     "servicesTitle": "Leistungen",
     "companyTitle": "Unternehmen",
     "navTitle": "Navigation",
@@ -108,15 +102,7 @@
     "topicsTitle": "Themen",
     "topics": {
       "digitalisierung": "Digitalisierung für KMU",
-      "websiteAbo": "Website Abo Schweiz",
-      "webdesign": "Webdesign für KMU",
-      "erstellen": "Website erstellen lassen",
-      "betreuung": "Website Betreuung",
-      "selbststaendig": "Für Selbständige",
-      "lokal": "Lokale Unternehmen",
-      "seo": "SEO Basis für KMU",
-      "geo": "GEO für Schweizer KMU",
-      "preise": "Website Preise Schweiz",
+      "workflow": "Workflow Automatisierung",
       "konfigurator": "3D Konfigurator"
     },
     "freeToolsTitle": "Gratis Tools",
@@ -172,13 +158,13 @@
     "website": "Website (optional)",
     "companyName": "Firmenname",
     "vat": "UID / MWST Nummer (optional)",
-    "street": "Strasse und Nummer",
+    "street": "Straße und Nummer",
     "postalCode": "PLZ",
     "city": "Ort",
     "country": "Land",
     "message": "Nachricht",
     "lang": "Sprachpräferenz",
-    "consent": "Ich stimme der Verarbeitung meiner Daten gemäss Datenschutzerklärung zu.",
+    "consent": "Ich stimme der Verarbeitung meiner Daten gemäß Datenschutzerklärung zu.",
     "send": "Nachricht senden",
     "sending": "Senden …",
     "errRequired": "Dieses Feld ist erforderlich.",
@@ -203,7 +189,7 @@
     "ctaButton": "Strategiegespräch buchen",
     "authorName": "Tom de Vree",
     "authorRole": "Gründer von semanu",
-    "authorBio": "Tom de Vree entwickelt und betreut Websites, digitale Plattformen und Automatisierungen für Schweizer KMU.",
+    "authorBio": "Tom de Vree entwickelt 3D Konfiguratoren, Unternehmenssoftware und Automatisierungen für KMU in Europa.",
     "updatedLabel": "Aktualisiert am"
   },
   "cookie": {
@@ -226,15 +212,15 @@
   "about": {
     "eyebrow": "Über uns",
     "title": "Persönlich, nicht anonym.",
-    "intro": "semanu macht digitale Lösungen für Schweizer KMU planbar und einfach. Von Websites über Kundenportale und CRM bis zu Automatisierungen und AI bekommen Sie einen klaren Partner in einem Monatsabo, der mit Ihrem Unternehmen mitwächst.",
+    "intro": "semanu macht digitale Lösungen für KMU planbar und einfach. Von 3D Konfiguratoren bis zu Unternehmenssoftware mit Automatisierung und AI bekommen Sie einen klaren Partner, der mit Ihrem Unternehmen mitwächst.",
     "nameTitle": "Woher semanu kommt",
-    "nameText": "semanu stammt aus dem Antwerpener Dialekt und damit aus dem Flämischen. Es ist ein Ausruf der Bewunderung, ein spontanes Wow, wenn etwas wirklich überzeugt. Genau dieses Gefühl soll Ihre Website bei Ihren Besuchern auslösen. Wir gestalten moderne, schnelle und mobile Auftritte mit Inhalten, die verkaufen, im Kopf bleiben und aus Besuchern Kunden machen. Alles in einem klaren Abo ohne grosse Anfangsinvestition.",
+    "nameText": "semanu stammt aus dem Antwerpener Dialekt und damit aus dem Flämischen. Es ist ein Ausruf der Bewunderung, ein spontanes Wow, wenn etwas wirklich überzeugt. Genau dieses Gefühl soll Ihre Website bei Ihren Besuchern auslösen. Wir gestalten moderne, schnelle und mobile Auftritte mit Inhalten, die verkaufen, im Kopf bleiben und aus Besuchern Kunden machen. Alles in einem klaren Abo ohne große Anfangsinvestition.",
     "missionTitle": "Unsere Idee",
     "missionText": "Viele kleine Unternehmen brauchen eine gute Website ohne technischen Ballast. Wir kümmern uns um Design, Technik, Hosting, Wartung, Sicherheit und SEO Grundlagen, damit Sie sich auf Ihr Geschäft konzentrieren können. Weil wir mit AI arbeiten, bauen wir schneller und kosteneffizienter als klassische Agenturen und bieten AI Lösungen wie Assistenten und Automatisierungen als Teil unseres Angebots.",
     "founderTitle": "Hinter semanu",
     "founderName": "Tom de Vree",
     "founderRole": "Gründer & Inhaber",
-    "founderText": "semanu wird von Tom de Vree geführt und hat den Sitz in Antwerpen. Wir arbeiten persönlich mit Selbständigen, lokalen Dienstleistern und KMU in der ganzen Schweiz. Sie sprechen direkt mit der Person, die Ihre Website betreut.",
+    "founderText": "semanu wird von Tom de Vree geführt und hat den Sitz in Antwerpen. Wir arbeiten persönlich mit KMU und Herstellern in ganz Europa. Sie sprechen direkt mit der Person, die Ihre Lösung baut.",
     "ctaTitle": "Lust auf eine Website, die mitwächst?",
     "ctaButton": "Kontakt aufnehmen"
   },
@@ -259,6 +245,6 @@
     "eyebrowOutcomes": "Ergebnisse",
     "eyebrowFaq": "FAQ",
     "relatedTitle": "Verwandte Leistungen",
-    "entityLine": "semanu ist ein digitaler Partner aus Antwerpen für Schweizer KMU: Websites, digitale Plattformen, Consultancy, Automatisierungen und AI Lösungen in einem klaren Monatsabo."
+    "entityLine": "semanu ist ein digitaler Partner aus Antwerpen für KMU in Europa: 3D Konfiguratoren und Unternehmenssoftware nach Maß mit Automatisierung und AI."
   }
 }

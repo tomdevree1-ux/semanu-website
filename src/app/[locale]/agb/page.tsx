@@ -13,7 +13,7 @@ const UPDATED_LABEL: Record<string, string> = {
 };
 
 // One-line factual meta description per locale (house copy rules: no dashes, no
-// comma before und/et/and, Swiss ss).
+// comma before und/et/and, standard German ß).
 const DESC: Record<string, string> = {
   de: 'Allgemeine Geschäftsbedingungen von semanu für Website Abos und digitale Projekte: Leistungen, Laufzeit, Preise und Zahlung.',
   fr: 'Conditions générales de semanu pour les abonnements de site web et les projets digitaux: prestations, durée, prix et paiement.',

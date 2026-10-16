@@ -23,7 +23,7 @@ import type { FaqService, FaqUi } from '@/content/faqServices';
 
 // Small inline copy block keyed by the brandTag (stable across locales). The
 // FaqUi type has no search/results strings, so the three are defined here and
-// follow the house copy rules (no dashes, Swiss ss, no comma before und/oder).
+// follow the house copy rules (no dashes, standard German ß, no comma before und/oder).
 type SearchCopy = { placeholder: string; empty: string; clear: string };
 
 function localeFromUi(ui: FaqUi): 'de' | 'fr' | 'en' {

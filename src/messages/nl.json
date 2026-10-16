@@ -9,13 +9,7 @@
   },
   "meta": {
     "title": "Webbureau Antwerpen: websites, platforms en AI voor kmo's · semanu.eu",
-    "description": "semanu bouwt websites, klantportalen, CRM en automatiseringen voor Zwitserse kmo's. Één partner, één helder maandabonnement, persoonlijk vanuit Antwerpen."
-  },
-  "banner": {
-    "studyText": "Nieuw: 2292 Zwitserse kmo websites beoordeeld. Slechts 9 procent is bij de tijd.",
-    "studyCta": "Naar de studie",
-    "studyClose": "Melding sluiten",
-    "studyEyebrow": "Nieuwe studie"
+    "description": "semanu bouwt 3D-configuratoren en bedrijfssoftware op maat voor kmo's in Europa: automatisering, portalen, CRM en AI. Persoonlijk vanuit Antwerpen."
   },
   "lang": {
     "label": "Taal",
@@ -96,7 +90,7 @@
     "errRateLimit": "U hebt dit formulier kort na elkaar meerdere keren verstuurd. Probeer het over een uur opnieuw of mail ons op {email}."
   },
   "footer": {
-    "tagline": "De digitale partner voor Zwitserse kmo’s: advies, automatisering, maatwerksoftware en 3D-configuratoren.",
+    "tagline": "De digitale partner voor kmo's in Europa: 3D-configuratoren en bedrijfssoftware op maat, met AI als motor.",
     "servicesTitle": "Diensten",
     "companyTitle": "Bedrijf",
     "navTitle": "Navigatie",
@@ -108,15 +102,7 @@
     "topicsTitle": "Onderwerpen",
     "topics": {
       "digitalisierung": "Digitalisering voor kmo's",
-      "websiteAbo": "Websiteabonnement Zwitserland",
-      "webdesign": "Webdesign voor kmo's",
-      "erstellen": "Website laten maken",
-      "betreuung": "Websiteonderhoud",
-      "selbststaendig": "Voor zelfstandigen",
-      "lokal": "Lokale ondernemingen",
-      "seo": "SEO basis voor kmo's",
-      "geo": "GEO voor Zwitserse kmo's",
-      "preise": "Websiteprijzen Zwitserland",
+      "workflow": "Workflowautomatisering",
       "konfigurator": "3D configurator"
     },
     "freeToolsTitle": "Gratis tools",
@@ -203,7 +189,7 @@
     "ctaButton": "Strategiegesprek boeken",
     "authorName": "Tom de Vree",
     "authorRole": "oprichter van semanu",
-    "authorBio": "Tom de Vree bouwt en onderhoudt websites, digitale platformen en automatiseringen voor Zwitserse kmo’s.",
+    "authorBio": "Tom de Vree bouwt 3D-configuratoren, bedrijfssoftware en automatiseringen voor kmo's in Europa.",
     "updatedLabel": "Bijgewerkt op"
   },
   "cookie": {
@@ -226,7 +212,7 @@
   "about": {
     "eyebrow": "Over ons",
     "title": "Persoonlijk, niet anoniem.",
-    "intro": "semanu maakt digitale oplossingen voor Zwitserse kmo's voorspelbaar en eenvoudig. Van websites over klantportalen en CRM tot automatiseringen en AI krijgt u één heldere partner in een maandabonnement, die met uw onderneming meegroeit.",
+    "intro": "semanu maakt digitale oplossingen voor kmo's voorspelbaar en eenvoudig. Van 3D-configuratoren tot bedrijfssoftware met automatisering en AI krijgt u één heldere partner die met uw onderneming meegroeit.",
     "nameTitle": "Waar semanu vandaan komt",
     "nameText": "semanu komt uit het Antwerpse dialect en daarmee uit het Vlaams. Het is een uitroep van bewondering, een spontane wow wanneer iets echt overtuigt. Precies dat gevoel moet uw website bij uw bezoekers oproepen. Wij bouwen moderne, snelle en mobiele websites met inhoud die verkoopt, bijblijft en van bezoekers klanten maakt. Alles in één helder abonnement zonder grote aanvangsinvestering.",
     "missionTitle": "Ons idee",
@@ -234,7 +220,7 @@
     "founderTitle": "Achter semanu",
     "founderName": "Tom de Vree",
     "founderRole": "Oprichter & eigenaar",
-    "founderText": "semanu wordt geleid door Tom de Vree en is gevestigd in Antwerpen. Wij werken persoonlijk met zelfstandigen, lokale dienstverleners en kmo's in heel Zwitserland. U spreekt rechtstreeks met de persoon die uw website beheert.",
+    "founderText": "semanu wordt geleid door Tom de Vree en is gevestigd in Antwerpen. Wij werken persoonlijk met kmo's en fabrikanten in heel Europa. U spreekt rechtstreeks met de persoon die uw oplossing bouwt.",
     "ctaTitle": "Zin in een website die meegroeit?",
     "ctaButton": "Contact opnemen"
   },
@@ -259,6 +245,6 @@
     "eyebrowOutcomes": "Resultaten",
     "eyebrowFaq": "FAQ",
     "relatedTitle": "Gerelateerde diensten",
-    "entityLine": "semanu is een digitale partner uit Antwerpen voor Zwitserse kmo's: websites, digitale platforms, consultancy, automatiseringen en AI oplossingen in één helder maandabonnement."
+    "entityLine": "semanu is een digitale partner uit Antwerpen voor kmo's in Europa: 3D-configuratoren en bedrijfssoftware op maat met automatisering en AI."
   }
 }

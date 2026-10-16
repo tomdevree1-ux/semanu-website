@@ -9,13 +9,7 @@
   },
   "meta": {
     "title": "Web agency in Antwerp: websites, platforms and AI for SMEs · semanu.eu",
-    "description": "semanu builds websites, client portals, CRM and automations for Swiss SMEs. One partner, one clear monthly plan, personal from Antwerp."
-  },
-  "banner": {
-    "studyText": "New: 2292 Swiss SME websites reviewed. Only 9 percent are up to date.",
-    "studyCta": "Read the study",
-    "studyClose": "Dismiss",
-    "studyEyebrow": "New study"
+    "description": "semanu builds 3D configurators and custom business software for SMEs in Europe: automation, portals, CRM and AI. Personal, from Antwerp."
   },
   "lang": {
     "label": "Language",
@@ -53,7 +47,7 @@
     "pillAi": "Business software"
   },
   "funnel": {
-    "metaTitle": "Free website analysis Switzerland",
+    "metaTitle": "Free website analysis",
     "metaDescription": "Have your website analysed now and get an objective report with concrete improvements. Free and no obligation.",
     "eyebrow": "Free website analysis",
     "title": "Get your current website analysed for free.",
@@ -96,7 +90,7 @@
     "errRateLimit": "You have sent this form several times in a short time. Please try again in an hour or email us at {email}."
   },
   "footer": {
-    "tagline": "The digital partner for Swiss SMEs: consultancy, automation, custom software and 3D configurators.",
+    "tagline": "The digital partner for SMEs in Europe: 3D configurators and custom business software, with AI as the engine.",
     "servicesTitle": "Services",
     "companyTitle": "Company",
     "navTitle": "Navigation",
@@ -108,15 +102,7 @@
     "topicsTitle": "Topics",
     "topics": {
       "digitalisierung": "Digitalisation for SMEs",
-      "websiteAbo": "Website subscription",
-      "webdesign": "Web design for SMEs",
-      "erstellen": "Have a website made",
-      "betreuung": "Website support",
-      "selbststaendig": "For the self employed",
-      "lokal": "Local businesses",
-      "seo": "SEO foundations",
-      "geo": "GEO for Swiss SMEs",
-      "preise": "Website prices Switzerland",
+      "workflow": "Workflow automation",
       "konfigurator": "3D configurator"
     },
     "freeToolsTitle": "Free tools",
@@ -203,7 +189,7 @@
     "ctaButton": "Book a strategy call",
     "authorName": "Tom de Vree",
     "authorRole": "founder of semanu",
-    "authorBio": "Tom de Vree builds and maintains websites, digital platforms and automations for Swiss SMEs.",
+    "authorBio": "Tom de Vree builds 3D configurators, business software and automations for SMEs in Europe.",
     "updatedLabel": "Updated"
   },
   "cookie": {
@@ -226,7 +212,7 @@
   "about": {
     "eyebrow": "About",
     "title": "Personal, not anonymous.",
-    "intro": "semanu makes digital solutions predictable and simple for Swiss SMEs. From websites to customer portals and CRM through automations and AI, you get one clear partner on a monthly subscription that grows with your business.",
+    "intro": "semanu makes digital solutions predictable and simple for SMEs. From 3D configurators to business software with automation and AI, you get one clear partner that grows with your business.",
     "nameTitle": "Where semanu comes from",
     "nameText": "semanu comes from the Antwerp dialect, rooted in Flemish. It is an exclamation of admiration, a spontaneous wow when something truly impresses. That is exactly the reaction your website should spark in your visitors. We build modern, fast and mobile sites with content that sells, stays in mind and turns visitors into customers. All in one clear subscription without a large upfront investment.",
     "missionTitle": "Our idea",
@@ -234,7 +220,7 @@
     "founderTitle": "Behind semanu",
     "founderName": "Tom de Vree",
     "founderRole": "Founder & owner",
-    "founderText": "semanu is led by Tom de Vree and is based in Antwerp. We work personally with self employed people, local service providers and SMEs across Switzerland. You talk directly to the person who looks after your website.",
+    "founderText": "semanu is led by Tom de Vree and is based in Antwerp. We work personally with SMEs and manufacturers across Europe. You talk directly to the person who builds your solution.",
     "ctaTitle": "Ready for a website that grows with you?",
     "ctaButton": "Get in touch"
   },
@@ -259,6 +245,6 @@
     "eyebrowOutcomes": "Outcomes",
     "eyebrowFaq": "FAQ",
     "relatedTitle": "Related services",
-    "entityLine": "semanu is a digital partner based in Antwerp for Swiss SMEs: websites, digital platforms, consultancy, automations and AI solutions on a clear monthly plan."
+    "entityLine": "semanu is a digital partner based in Antwerp for SMEs in Europe: 3D configurators and custom business software with automation and AI."
   }
 }

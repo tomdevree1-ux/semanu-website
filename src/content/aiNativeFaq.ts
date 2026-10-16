@@ -1,5 +1,5 @@
 // FAQ for the AI-native business software page (/services/ai-native), one block
-// per locale. The German block is Tom's original (Swiss spelling, keep verbatim);
+// per locale. The German block is Tom's original (meaning kept verbatim, standard German spelling with ß since 2026-10);
 // nl/en/fr/es are faithful translations with the same structure and order.
 // House style in every language: no em/en dashes, no comma before a
 // coordinating conjunction. The literal "semanu" is rendered as the wordmark.
@@ -86,15 +86,15 @@ export const AI_NATIVE_FAQ: Record<ServicesLocale, AiNativeFaq> = {
     ],
   },
   de: {
-    title: 'Häufige Fragen zu massgeschneiderter Unternehmenssoftware',
+    title: 'Häufige Fragen zu maßgeschneiderter Unternehmenssoftware',
     items: [
       {
         q: 'Was ist AI-native Unternehmenssoftware?',
-        a: 'AI-native Unternehmenssoftware ist eine Software, bei der künstliche Intelligenz von Anfang an mitgedacht wird. Sie unterstützt Unternehmen dabei, Geschäftsprozesse zu automatisieren, Daten intelligent zu verarbeiten und wiederkehrende Aufgaben zu reduzieren. Bei semanu kombinieren wir diesen Ansatz mit einer AI-first Entwicklungsmethode. So entsteht massgeschneiderte Software, die genau auf Ihre Geschäftsprozesse abgestimmt ist.',
+        a: 'AI-native Unternehmenssoftware ist eine Software, bei der künstliche Intelligenz von Anfang an mitgedacht wird. Sie unterstützt Unternehmen dabei, Geschäftsprozesse zu automatisieren, Daten intelligent zu verarbeiten und wiederkehrende Aufgaben zu reduzieren. Bei semanu kombinieren wir diesen Ansatz mit einer AI-first Entwicklungsmethode. So entsteht maßgeschneiderte Software, die genau auf Ihre Geschäftsprozesse abgestimmt ist.',
       },
       {
         q: 'Was kostet die Entwicklung einer individuellen Unternehmenssoftware?',
-        a: 'Die Kosten hängen vom Funktionsumfang, der Komplexität und den benötigten Integrationen ab. Dank unserer AI-first Entwicklungsmethode können wir massgeschneiderte Software effizienter entwickeln. Sie müssen nicht direkt in eine komplette Plattform investieren, sondern können mit einer einzelnen Funktion starten und diese schrittweise erweitern. In einem ersten Gespräch klären wir Ihre Anforderungen und erstellen eine passende Offerte.',
+        a: 'Die Kosten hängen vom Funktionsumfang, der Komplexität und den benötigten Integrationen ab. Dank unserer AI-first Entwicklungsmethode können wir maßgeschneiderte Software effizienter entwickeln. Sie müssen nicht direkt in eine komplette Plattform investieren, sondern können mit einer einzelnen Funktion starten und diese schrittweise erweitern. In einem ersten Gespräch klären wir Ihre Anforderungen und erstellen eine passende Offerte.',
       },
       {
         q: 'Wie lange dauert die Entwicklung einer individuellen Software?',
@@ -102,7 +102,7 @@ export const AI_NATIVE_FAQ: Record<ServicesLocale, AiNativeFaq> = {
       },
       {
         q: 'Kann die Software mit unserem bestehenden ERP oder CRM verbunden werden?',
-        a: 'Ja. Unsere massgeschneiderte Unternehmenssoftware kann mit bestehenden ERP-, CRM- und Produktionssystemen verbunden werden, sofern entsprechende Schnittstellen verfügbar sind. Dadurch können Informationen automatisch zwischen verschiedenen Systemen ausgetauscht werden. Das reduziert manuelle Dateneingaben, verhindert doppelte Arbeit und sorgt für effizientere Geschäftsprozesse.',
+        a: 'Ja. Unsere maßgeschneiderte Unternehmenssoftware kann mit bestehenden ERP-, CRM- und Produktionssystemen verbunden werden, sofern entsprechende Schnittstellen verfügbar sind. Dadurch können Informationen automatisch zwischen verschiedenen Systemen ausgetauscht werden. Das reduziert manuelle Dateneingaben, verhindert doppelte Arbeit und sorgt für effizientere Geschäftsprozesse.',
       },
       {
         q: 'Müssen wir unsere bestehende Software ersetzen?',
@@ -110,15 +110,15 @@ export const AI_NATIVE_FAQ: Record<ServicesLocale, AiNativeFaq> = {
       },
       {
         q: 'Können wir mit einer einzelnen Funktion starten und später erweitern?',
-        a: 'Ja. Unsere Unternehmenssoftware ist modular aufgebaut. Sie können beispielsweise mit einer Lösung für die Offertenerstellung, Zeiterfassung oder Produktionsplanung beginnen. Wenn Ihr Unternehmen wächst oder neue Anforderungen entstehen, lassen sich weitere Module ergänzen. So investieren Sie nur in die Funktionen, die Sie tatsächlich benötigen, und behalten die Kosten unter Kontrolle.',
+        a: 'Ja. Unsere Unternehmenssoftware ist modular aufgebaut. Sie können beispielsweise mit einer Lösung für die Angebotserstellung, Zeiterfassung oder Produktionsplanung beginnen. Wenn Ihr Unternehmen wächst oder neue Anforderungen entstehen, lassen sich weitere Module ergänzen. So investieren Sie nur in die Funktionen, die Sie tatsächlich benötigen und behalten die Kosten unter Kontrolle.',
       },
       {
         q: 'Welche Geschäftsprozesse lassen sich mit KI automatisieren?',
-        a: 'KI kann zahlreiche wiederkehrende Aufgaben in Ihrem Unternehmen unterstützen oder automatisieren. Dazu gehören beispielsweise die Verarbeitung von Kundenanfragen, die Erstellung von Offerten, die Auswertung von Dokumenten oder die Aufbereitung von Produktionsdaten. Welche Prozesse sich sinnvoll automatisieren lassen, hängt von Ihren bestehenden Abläufen ab. Wir analysieren gemeinsam, wo KI den grössten Mehrwert bietet.',
+        a: 'KI kann zahlreiche wiederkehrende Aufgaben in Ihrem Unternehmen unterstützen oder automatisieren. Dazu gehören beispielsweise die Verarbeitung von Kundenanfragen, die Erstellung von Angeboten, die Auswertung von Dokumenten oder die Aufbereitung von Produktionsdaten. Welche Prozesse sich sinnvoll automatisieren lassen, hängt von Ihren bestehenden Abläufen ab. Wir analysieren gemeinsam, wo KI den größten Mehrwert bietet.',
       },
       {
         q: 'Wem gehört die entwickelte Software und der Quellcode?',
-        a: 'Bei semanu werden Sie Eigentümer Ihrer individuell entwickelten Unternehmenssoftware, einschliesslich des Quellcodes. Dadurch behalten Sie die Kontrolle über Ihre Lösung und sind nicht dauerhaft an einen einzelnen Anbieter gebunden. Sie können Ihre Software langfristig weiterentwickeln, anpassen oder durch andere Entwickler betreuen lassen. Wir setzen auf transparente Zusammenarbeit und langfristige Flexibilität.',
+        a: 'Bei semanu werden Sie Eigentümer Ihrer individuell entwickelten Unternehmenssoftware, einschließlich des Quellcodes. Dadurch behalten Sie die Kontrolle über Ihre Lösung und sind nicht dauerhaft an einen einzelnen Anbieter gebunden. Sie können Ihre Software langfristig weiterentwickeln, anpassen oder durch andere Entwickler betreuen lassen. Wir setzen auf transparente Zusammenarbeit und langfristige Flexibilität.',
       },
     ],
   },

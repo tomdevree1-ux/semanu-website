@@ -9,13 +9,7 @@
   },
   "meta": {
     "title": "Agencia web en Amberes: sitios web, plataformas y AI para pymes · semanu.eu",
-    "description": "semanu crea sitios web, portales de clientes, CRM y automatizaciones para pymes suizas. Un socio, una suscripción mensual clara, de forma personal desde Amberes."
-  },
-  "banner": {
-    "studyText": "Nuevo: 2292 webs de pymes suizas evaluadas. Solo el 9 por ciento están al día.",
-    "studyCta": "Ver el estudio",
-    "studyClose": "Cerrar aviso",
-    "studyEyebrow": "Nuevo estudio"
+    "description": "semanu crea configuradores 3D y software empresarial a medida para pymes en Europa: automatización, portales, CRM y AI. De forma personal desde Amberes."
   },
   "lang": {
     "label": "Idioma",
@@ -96,7 +90,7 @@
     "errRateLimit": "Ha enviado este formulario varias veces en poco tiempo. Inténtelo de nuevo dentro de una hora o escríbanos a {email}."
   },
   "footer": {
-    "tagline": "El socio digital para pymes suizas: consultoría, automatización, software a medida y configuradores 3D.",
+    "tagline": "El socio digital para pymes en Europa: configuradores 3D y software empresarial a medida, con la AI como motor.",
     "servicesTitle": "Servicios",
     "companyTitle": "Empresa",
     "navTitle": "Navegación",
@@ -108,15 +102,7 @@
     "topicsTitle": "Temas",
     "topics": {
       "digitalisierung": "Digitalización para pymes",
-      "websiteAbo": "Suscripción web en Suiza",
-      "webdesign": "Diseño web para pymes",
-      "erstellen": "Encargar un sitio web",
-      "betreuung": "Soporte web",
-      "selbststaendig": "Para autónomos",
-      "lokal": "Empresas locales",
-      "seo": "Bases de SEO para pymes",
-      "geo": "GEO para pymes suizas",
-      "preise": "Precios de webs en Suiza",
+      "workflow": "Automatización de flujos",
       "konfigurator": "Configurador 3D"
     },
     "freeToolsTitle": "Herramientas gratuitas",
@@ -203,7 +189,7 @@
     "ctaButton": "Reservar una llamada estratégica",
     "authorName": "Tom de Vree",
     "authorRole": "fundador de semanu",
-    "authorBio": "Tom de Vree crea y mantiene sitios web, plataformas digitales y automatizaciones para pymes suizas.",
+    "authorBio": "Tom de Vree crea configuradores 3D, software empresarial y automatizaciones para pymes en Europa.",
     "updatedLabel": "Actualizado el"
   },
   "cookie": {
@@ -226,7 +212,7 @@
   "about": {
     "eyebrow": "Sobre nosotros",
     "title": "Personal, no anónimo.",
-    "intro": "semanu hace que las soluciones digitales sean previsibles y sencillas para las pymes suizas. Desde sitios web hasta portales de clientes y CRM, pasando por automatizaciones y AI, obtiene un socio claro en una suscripción mensual que crece con su empresa.",
+    "intro": "semanu hace que las soluciones digitales sean previsibles y sencillas para las pymes. Desde configuradores 3D hasta software empresarial con automatización y AI, obtiene un socio claro que crece con su empresa.",
     "nameTitle": "De dónde viene semanu",
     "nameText": "semanu procede del dialecto de Amberes, de raíces flamencas. Es una exclamación de admiración, un wow espontáneo cuando algo convence de verdad. Esa es exactamente la reacción que su sitio web debería provocar en sus visitantes. Creamos presencias digitales modernas, rápidas y móviles con contenidos que venden, se quedan en la memoria y convierten a los visitantes en clientes. Todo en una suscripción clara sin una gran inversión inicial.",
     "missionTitle": "Nuestra idea",
@@ -234,7 +220,7 @@
     "founderTitle": "Detrás de semanu",
     "founderName": "Tom de Vree",
     "founderRole": "Fundador y propietario",
-    "founderText": "semanu está dirigida por Tom de Vree y tiene su sede en Amberes. Trabajamos de forma personal con autónomos, proveedores de servicios locales y pymes de toda Suiza. Habla directamente con la persona que se ocupa de su sitio web.",
+    "founderText": "semanu está dirigida por Tom de Vree y tiene su sede en Amberes. Trabajamos de forma personal con pymes y fabricantes de toda Europa. Habla directamente con la persona que construye su solución.",
     "ctaTitle": "Le apetece un sitio web que crezca con usted?",
     "ctaButton": "Ponerse en contacto"
   },
@@ -259,6 +245,6 @@
     "eyebrowOutcomes": "Resultados",
     "eyebrowFaq": "FAQ",
     "relatedTitle": "Servicios relacionados",
-    "entityLine": "semanu es un socio digital de Amberes para pymes suizas: sitios web, plataformas digitales, consultoría, automatizaciones y soluciones AI en una suscripción mensual clara."
+    "entityLine": "semanu es un socio digital de Amberes para pymes en Europa: configuradores 3D y software empresarial a medida con automatización y AI."
   }
 }

@@ -8,7 +8,7 @@ const LOCALES = ['nl', 'en', 'de', 'fr', 'es'] as const;
 const GERMAN_STOPWORDS = [
   'und', 'oder', 'nicht', 'Sie', 'Ihre', 'Ihr', 'Ihren', 'Ihrem', 'wir', 'der', 'das', 'ist',
   'ein', 'eine', 'einen', 'auf', 'für', 'sich', 'werden', 'können', 'kann', 'Unternehmen',
-  'Unternehmenssoftware', 'Konfigurator', 'Offerten', 'massgeschneiderte',
+  'Unternehmenssoftware', 'Konfigurator', 'Offerten', 'Angebote', 'maßgeschneiderte',
 ];
 
 function germanWords(text: string): string[] {

@@ -9,13 +9,7 @@
   },
   "meta": {
     "title": "Agence web à Anvers: sites, plateformes et AI pour PME · semanu.eu",
-    "description": "semanu crée des sites web, portails clients, CRM et automatisations pour les PME suisses. Un partenaire, un abonnement clair, personnel depuis Anvers."
-  },
-  "banner": {
-    "studyText": "Nouveau: 2292 sites de PME suisses évalués. Seuls 9 pour cent sont à jour.",
-    "studyCta": "Voir l’étude",
-    "studyClose": "Fermer l’annonce",
-    "studyEyebrow": "Nouvelle étude"
+    "description": "semanu crée des configurateurs 3D et des logiciels d’entreprise sur mesure pour les PME en Europe: automatisation, portails, CRM et AI. Personnel, depuis Anvers."
   },
   "lang": {
     "label": "Langue",
@@ -53,7 +47,7 @@
     "pillAi": "Logiciel d’entreprise"
   },
   "funnel": {
-    "metaTitle": "Analyse gratuite de site web en Suisse",
+    "metaTitle": "Analyse gratuite de site web",
     "metaDescription": "Faites analyser votre site maintenant et recevez un rapport objectif avec des pistes concrètes. Gratuit et sans engagement.",
     "eyebrow": "Analyse gratuite de votre site",
     "title": "Faites analyser votre site actuel gratuitement.",
@@ -96,7 +90,7 @@
     "errRateLimit": "Vous avez envoyé ce formulaire plusieurs fois en peu de temps. Réessayez dans une heure ou écrivez-nous à {email}."
   },
   "footer": {
-    "tagline": "Le partenaire digital des PME suisses: conseil, automatisation, logiciels sur mesure et configurateurs 3D.",
+    "tagline": "Le partenaire digital des PME en Europe: configurateurs 3D et logiciels d’entreprise sur mesure, avec l’AI comme moteur.",
     "servicesTitle": "Services",
     "companyTitle": "Entreprise",
     "navTitle": "Navigation",
@@ -108,15 +102,7 @@
     "topicsTitle": "Thèmes",
     "topics": {
       "digitalisierung": "Digitalisation pour PME",
-      "websiteAbo": "Abonnement site web",
-      "webdesign": "Webdesign pour PME",
-      "erstellen": "Faire créer son site",
-      "betreuung": "Suivi de site web",
-      "selbststaendig": "Pour indépendants",
-      "lokal": "Entreprises locales",
-      "seo": "Bases SEO pour PME",
-      "geo": "GEO pour les PME suisses",
-      "preise": "Prix site web Suisse",
+      "workflow": "Automatisation des workflows",
       "konfigurator": "Configurateur 3D"
     },
     "freeToolsTitle": "Outils gratuits",
@@ -203,7 +189,7 @@
     "ctaButton": "Réserver un entretien stratégique",
     "authorName": "Tom de Vree",
     "authorRole": "fondateur d'semanu",
-    "authorBio": "Tom de Vree conçoit et gère des sites web, des plateformes digitales et des automatisations pour les PME suisses.",
+    "authorBio": "Tom de Vree conçoit des configurateurs 3D, des logiciels d’entreprise et des automatisations pour les PME en Europe.",
     "updatedLabel": "Mis à jour le"
   },
   "cookie": {
@@ -226,7 +212,7 @@
   "about": {
     "eyebrow": "À propos",
     "title": "Personnel, pas anonyme.",
-    "intro": "semanu rend les solutions digitales prévisibles et simples pour les PME suisses. Des sites web aux portails clients et au CRM jusqu’aux automatisations et à l’AI, vous obtenez un partenaire clair en abonnement mensuel qui évolue avec votre entreprise.",
+    "intro": "semanu rend les solutions digitales prévisibles et simples pour les PME. Des configurateurs 3D aux logiciels d’entreprise avec automatisation et AI, vous obtenez un partenaire clair qui évolue avec votre entreprise.",
     "nameTitle": "D’où vient semanu",
     "nameText": "semanu vient du dialecte d’Anvers, issu du flamand. C’est une exclamation d’admiration, un wow spontané quand quelque chose impressionne vraiment. C’est exactement la réaction que votre site doit susciter chez vos visiteurs. Nous créons des sites modernes, rapides et mobiles au contenu qui vend, reste en mémoire et transforme les visiteurs en clients. Le tout dans un abonnement clair sans gros investissement de départ.",
     "missionTitle": "Notre idée",
@@ -234,7 +220,7 @@
     "founderTitle": "Derrière semanu",
     "founderName": "Tom de Vree",
     "founderRole": "Fondateur et propriétaire",
-    "founderText": "semanu est dirigé par Tom de Vree et a son siège à Anvers. Nous travaillons personnellement avec des indépendants, des prestataires locaux et des PME dans toute la Suisse. Vous parlez directement à la personne qui s’occupe de votre site.",
+    "founderText": "semanu est dirigé par Tom de Vree et a son siège à Anvers. Nous travaillons personnellement avec des PME et des fabricants dans toute l’Europe. Vous parlez directement à la personne qui construit votre solution.",
     "ctaTitle": "Envie d’un site qui évolue avec vous ?",
     "ctaButton": "Nous contacter"
   },
@@ -259,6 +245,6 @@
     "eyebrowOutcomes": "Résultats",
     "eyebrowFaq": "FAQ",
     "relatedTitle": "Services associés",
-    "entityLine": "semanu est un partenaire digital basé à Anvers pour les PME suisses: sites web, plateformes digitales, conseil, automatisations et solutions AI dans un abonnement mensuel clair."
+    "entityLine": "semanu est un partenaire digital basé à Anvers pour les PME en Europe: configurateurs 3D et logiciels d’entreprise sur mesure avec automatisation et AI."
   }
 }
