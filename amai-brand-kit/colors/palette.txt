@@ -1,0 +1,16 @@
+amai! — Marine + Mint palette
+================================
+
+Navy               #1B2A4A   Primary brand: header, dark problem panel
+Navy deep          #142036   Navy hover/active
+Ink (teal-black)   #07221F   Dark blocks + body text on light
+Ink soft           #2C4641   Muted body text on light
+Mint               #93E6BE   Accent: the !, checks, badges, primary CTA
+Mint deep          #5FCF9E   Mint hover/active
+Paper              #EEF1F6   Cool light: page base, light sections, cards
+Paper 2            #E2E8F2   Secondary light surface
+Hero wash          #E8F5EF   Soft mint hero background
+Band tint          #E9F2EE   Light accent sections (how / trust / contact)
+Portfolio          #F4F7FA   Portfolio / showcase background
+OK                 #1F8A4C   Success states
+Danger             #D1453B   Error / danger (stays red, not brand)

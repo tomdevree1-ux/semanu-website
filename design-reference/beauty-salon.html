@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maison Rosé — Beauty &amp; Wellness</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --blush:#FCEBEF; --rose:#F6CAD7; --rose-deep:#EAA0B6; --plum:#3A2330;
+    --wine:#B14A6B; --cream:#FFFDFC; --gold:#C9A36A; --soft:#7A5B68;
+    --serif:'Cormorant Garamond',Georgia,serif; --sans:'Jost',system-ui,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:var(--sans);color:var(--plum);background:var(--cream);-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 40px}
+  a{text-decoration:none;color:inherit}
+  .btn{display:inline-flex;align-items:center;gap:9px;font-family:var(--sans);font-weight:500;font-size:15px;letter-spacing:.01em;padding:14px 26px;border-radius:100px;cursor:pointer;border:1.5px solid transparent;transition:.2s;white-space:nowrap}
+  .btn-wine{background:var(--wine);color:#fff}
+  .btn-wine:hover{background:#9c3c5b}
+  .btn-outline{background:rgba(255,255,255,.5);border-color:var(--plum);color:var(--plum)}
+  .btn-outline:hover{background:#fff}
+  .btn-sm{padding:10px 18px;font-size:13px}
+
+  /* nav */
+  .nav{position:absolute;top:0;left:0;right:0;z-index:5}
+  .nav-inner{display:flex;align-items:center;gap:34px;height:92px}
+  .logo{font-family:var(--serif);font-size:30px;font-weight:600;letter-spacing:.02em;color:var(--plum)}
+  .logo .dot{color:var(--wine)}
+  .nav-links{display:flex;gap:28px;margin-left:14px;flex:1}
+  .nav-links a{font-size:15px;font-weight:500;color:var(--plum);opacity:.85;letter-spacing:.02em;white-space:nowrap}
+  .nav-links a:hover{opacity:1;color:var(--wine)}
+
+  /* hero */
+  .hero{position:relative;min-height:720px;display:flex;align-items:center;
+    background:linear-gradient(95deg,rgba(250,224,232,.38) 0%,rgba(248,214,224,.18) 55%,rgba(245,200,212,.06) 100%),url('skincare.jpg');
+    background-size:cover;background-position:62% 14%;background-repeat:no-repeat}
+  .hero>.wrap{width:100%}
+  .hero .inner{position:relative;z-index:2;max-width:540px;width:100%;    background:rgba(253,240,244,.82);backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);
+    border:1px solid rgba(255,255,255,.55);border-radius:28px;padding:42px 44px;
+    box-shadow:0 34px 70px -34px rgba(58,35,48,.34)}
+  .eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:13px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--wine);margin-bottom:24px}
+  .eyebrow::before{content:"";width:30px;height:1.5px;background:var(--wine)}
+  .hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(42px,4vw,60px);line-height:1.06;letter-spacing:-.01em;color:var(--plum);margin-bottom:26px}
+  .hero h1 em{font-style:italic;color:var(--wine)}
+  .hero p.sub{font-size:18px;line-height:1.6;color:var(--soft);max-width:30em;margin-bottom:32px}
+  .hero-ctas{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:30px}
+  .stars{display:flex;align-items:center;gap:12px;font-size:14px;color:var(--soft)}
+  .stars .s{color:var(--gold);letter-spacing:2px;font-size:16px}
+
+  /* floating booking chip */
+  .book-chip{position:absolute;right:30px;bottom:30px;z-index:3;background:#fff;border-radius:20px;padding:20px 22px;box-shadow:0 24px 50px -24px rgba(58,35,48,.45);max-width:246px}
+  .book-chip .t{font-family:var(--serif);font-size:22px;font-weight:600;margin-bottom:4px}
+  .book-chip .d{font-size:13px;color:var(--soft);margin-bottom:14px}
+
+  /* services */
+  .services{padding:104px 0;background:var(--cream)}
+  .sec-head{text-align:center;max-width:620px;margin:0 auto 52px}
+  .sec-head .eyebrow{justify-content:center}
+  .sec-head .eyebrow::before{display:none}
+  .sec-head h2{font-family:var(--serif);font-weight:600;font-size:52px;line-height:1.04;color:var(--plum)}
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .card{background:var(--blush);border-radius:22px;padding:34px 30px;display:flex;flex-direction:column;gap:12px;border:1px solid #F4D9E1}
+  .card .ic{width:54px;height:54px;border-radius:50%;background:#fff;display:grid;place-items:center;font-size:24px;margin-bottom:8px;box-shadow:0 8px 18px -10px rgba(177,74,107,.4)}
+  .card h3{font-family:var(--serif);font-size:27px;font-weight:600}
+  .card p{font-size:14.5px;line-height:1.55;color:var(--soft);flex:1}
+  .card .price{font-size:14px;font-weight:600;color:var(--wine);letter-spacing:.02em}
+  .card .btn{align-self:flex-start;margin-top:6px}
+
+  /* cta band */
+  .cta{background:linear-gradient(120deg,var(--rose-deep),var(--rose));padding:84px 0;text-align:center}
+  .cta h2{font-family:var(--serif);font-weight:600;font-size:48px;color:var(--plum);margin-bottom:14px}
+  .cta p{font-size:17px;color:#6a3f4f;margin-bottom:28px}
+
+  footer{background:var(--plum);color:#F3DDE4;padding:54px 0 30px}
+  .ft-top{display:flex;justify-content:space-between;align-items:flex-start;gap:30px;flex-wrap:wrap;padding-bottom:30px;border-bottom:1px solid rgba(255,255,255,.14)}
+  .ft-top .logo{color:#fff}
+  .ft-top .logo .dot{color:var(--rose-deep)}
+  .ft-cols{display:flex;gap:54px;flex-wrap:wrap;font-size:14px}
+  .ft-cols b{display:block;font-family:var(--serif);font-size:17px;margin-bottom:10px;color:#fff;font-weight:600}
+  .ft-cols a,.ft-cols div{color:#E7C8D2;opacity:.85;line-height:1.9}
+  .ft-bottom{padding-top:20px;font-size:12.5px;color:#C9A6B2;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+
+  @media (max-width:880px){
+    .hero{background:linear-gradient(180deg,rgba(252,235,239,.5) 0%,rgba(250,223,231,.3) 100%),url('skincare.jpg');background-size:cover;background-position:58% 10%}
+    .hero .inner{padding:32px 26px}
+    .nav-links{display:none}.book-chip{right:18px;bottom:18px}
+    .cards{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a href="#" class="logo">Maison Rosé<span class="dot">.</span></a>
+    <nav class="nav-links">
+      <a href="#">Behandlungen</a>
+      <a href="#">Über uns</a>
+      <a href="#">Galerie</a>
+      <a href="#">Kontakt</a>
+    </nav>
+    <a href="#" class="btn btn-wine btn-sm">Termin buchen</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="inner">
+      <span class="eyebrow">Beauty &amp; Wellness · Bern</span>
+      <h1>Wo Schönheit<br><em>zur Ruhe</em> kommt.</h1>
+      <p class="sub">Gesicht, Hände und Körper – liebevoll verwöhnt in einer ruhigen Oase mitten in der Stadt. Zeit nur für Sie.</p>
+      <div class="hero-ctas">
+        <a href="#" class="btn btn-wine">Termin buchen →</a>
+        <a href="#" class="btn btn-outline">Behandlungen ansehen</a>
+      </div>
+      <div class="stars"><span class="s">★★★★★</span> Über 200 zufriedene Kundinnen</div>
+    </div>
+  </div>
+  <div class="book-chip">
+    <div class="t">Heute frei?</div>
+    <div class="d">Spontane Termine oft noch am selben Tag verfügbar.</div>
+    <a href="#" class="btn btn-wine btn-sm">Verfügbarkeit prüfen</a>
+  </div>
+</section>
+
+<section class="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Unsere Behandlungen</span>
+      <h2>Verwöhnmomente, sorgfältig ausgewählt</h2>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <div class="ic">🌸</div>
+        <h3>Gesichtspflege</h3>
+        <p>Reinigende und pflegende Behandlungen für einen frischen, strahlenden Teint.</p>
+        <div class="price">ab CHF 95</div>
+        <a href="#" class="btn btn-outline btn-sm">Mehr &amp; buchen</a>
+      </div>
+      <div class="card">
+        <div class="ic">💅</div>
+        <h3>Maniküre &amp; Nägel</h3>
+        <p>Gepflegte Hände, sanfte Farben und langanhaltender Glanz – ganz nach Ihrem Stil.</p>
+        <div class="price">ab CHF 65</div>
+        <a href="#" class="btn btn-outline btn-sm">Mehr &amp; buchen</a>
+      </div>
+      <div class="card">
+        <div class="ic">🤍</div>
+        <h3>Massage &amp; Wellness</h3>
+        <p>Entspannende Massagen, die Körper und Geist wieder ins Gleichgewicht bringen.</p>
+        <div class="price">ab CHF 110</div>
+        <a href="#" class="btn btn-outline btn-sm">Mehr &amp; buchen</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap">
+    <h2>Schenken Sie sich einen Moment Ruhe.</h2>
+    <p>Buchen Sie Ihren Termin online – einfach, schnell und unverbindlich.</p>
+    <a href="#" class="btn btn-wine">Jetzt Termin buchen →</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="ft-top">
+      <a href="#" class="logo">Maison Rosé<span class="dot">.</span></a>
+      <div class="ft-cols">
+        <div><b>Salon</b>Behandlungen<br>Galerie<br>Gutscheine</div>
+        <div><b>Kontakt</b>Marktgasse 1<br>3011 Bern<br>hallo@maisonrose.ch</div>
+        <div><b>Öffnungszeiten</b>Di–Fr 9–19 Uhr<br>Sa 9–16 Uhr</div>
+      </div>
+    </div>
+    <div class="ft-bottom"><span>© 2026 Maison Rosé</span><span>Beauty &amp; Wellness · Bern</span></div>
+  </div>
+</footer>
+
+</body>
+</html>

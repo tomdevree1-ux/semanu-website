@@ -1,0 +1,485 @@
+@import "tailwindcss";
+
+/* ============================================================
+   amai.ch — "Marine + Mint" design tokens (light & airy).
+   Brand: navy primary · teal-black ink · mint accent on a cool
+   light base. The "!" and the primary CTA are mint.
+
+   The codebase still uses the legacy utility names (bg-red,
+   text-spark, …) from the earlier palette. To avoid a risky
+   site-wide rename we (a) add clean new tokens (navy, mint,
+   hero-wash, band-tint, portfolio) AND (b) keep the legacy names
+   as aliases pointing at the new palette, so every existing
+   utility stays on-brand. Prefer the new names in new code.
+   ============================================================ */
+@theme {
+  /* ---- amai rebrand palette (navy + mint · Instrument Sans · sharp 3px) ---- */
+  --color-navy: #16233d;       /* primary brand — header, dark panels, primary CTA */
+  --color-navy-deep: #0e1830;  /* navy hover/active */
+  --color-ink: #16233d;        /* ink = navy (unified dark, body text on light) */
+  --color-ink-soft: #5b667c;   /* muted body text on light (~navy at 66%) */
+  --color-paper: #f4f6fa;      /* cool light — page base, light sections & cards */
+  --color-paper-2: #e9eef6;
+  --color-mint: #93e6be;       /* accent — checks, badges, chevron, highlights */
+  --color-mint-deep: #0a7359;  /* deep green — links, emphasis, accent labels */
+  --color-hero-wash: #e9f3ee;  /* soft mint background */
+  --color-band-tint: #eef4f1;  /* light accent sections — a whisper of mint, close to paper for soft transitions */
+  --color-portfolio: #f4f6fa;  /* portfolio / Beispiele background */
+  --color-ok: #1f8a4c;         /* success (kept) */
+  --color-danger: #d1453b;     /* error / danger (forms + portal) — stays red */
+
+  /* ---- Legacy aliases → new palette (keep existing utilities on-brand) ---- */
+  --color-red: #16233d;        /* → navy */
+  --color-red-deep: #0e1830;   /* → navy-deep */
+  --color-red-soft: #5a6b8a;   /* → soft navy */
+  --color-spark: #93e6be;      /* → mint */
+  --color-pink: #bfe3d2;       /* → soft mint (portal avatar bg) */
+
+  /* ---- Fonts (wired to next/font CSS vars applied on <html>) ---- */
+  --font-sans: var(--font-instrument), system-ui, -apple-system, sans-serif;
+  --font-display: var(--font-instrument), system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-archivo), system-ui, sans-serif;
+
+  /* ---- Radii (sharp 3px per rebrand; circles keep --radius-full) ---- */
+  --radius-card: 12px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
+  --radius-xl: 12px;
+  --radius-2xl: 14px;
+  --radius-3xl: 18px;
+  --radius-pill: 8px;
+
+  /* ---- Layout ---- */
+  /* Hard cap on content width: predictable side margins that grow with the
+     screen. Lower = narrower content / more whitespace. */
+  --container-site: 1440px;
+}
+
+/* Alpha hairlines + misc tokens that aren't utility colours. */
+:root {
+  --ink-faint: rgba(22, 35, 61, 0.60);
+  --line: rgba(22, 35, 61, 0.14);          /* hairline on light */
+  --line-strong: rgba(22, 35, 61, 0.22);
+  --line-light: rgba(255, 255, 255, 0.18); /* hairline on dark */
+  --shadow-pop: 0 16px 30px -16px rgba(22, 35, 61, 0.30);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 88px;
+  }
+  body {
+    font-family: var(--font-sans);
+    background: var(--color-paper);
+    color: var(--color-ink); /* default = on-light. Dark sections opt into text-white/paper. */
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-size: 17px; /* default body copy; un-sized paragraphs read a touch larger */
+    line-height: 1.6;
+  }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; }
+
+  /* Visible keyboard focus everywhere (:focus-visible keeps mouse clicks clean).
+     Navy ring on the light UI; switch to mint inside dark bands so it stays
+     visible. Components may still override it (e.g. the promo close button). */
+  :focus-visible {
+    outline: 2px solid var(--color-navy);
+    outline-offset: 2px;
+  }
+  .bg-ink :focus-visible,
+  .bg-navy :focus-visible {
+    outline-color: var(--color-mint);
+  }
+
+  /* Respect reduced-motion: kill entrance animations + smooth scroll. */
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+}
+
+/* ============================================================
+   Reusable primitives (ported). Sections are built from these in
+   later phases; the demo home page already uses them.
+   ============================================================ */
+@layer components {
+  .container-site {
+    max-width: var(--container-site);
+    margin-inline: auto;
+    padding-inline: clamp(20px, 4vw, 56px);
+    width: 100%;
+  }
+
+  /* Section flow: a light band holds its colour for the top ~60%, then softly
+     melts into the next band's colour, so the seams between light sections read
+     as a gentle transition instead of a hard line. Light to dark keeps a clean
+     edge (no flow class there). */
+  .flow-herowash-paper {
+    background: linear-gradient(to bottom, var(--color-hero-wash) 0%, var(--color-hero-wash) 60%, var(--color-paper) 100%);
+  }
+  .flow-paper-paper2 {
+    background: linear-gradient(to bottom, var(--color-paper) 0%, var(--color-paper) 60%, var(--color-paper-2) 100%);
+  }
+  .flow-paper2-portfolio {
+    background: linear-gradient(to bottom, var(--color-paper-2) 0%, var(--color-paper-2) 60%, var(--color-portfolio) 100%);
+  }
+  .flow-portfolio-paper {
+    background: linear-gradient(to bottom, var(--color-portfolio) 0%, var(--color-portfolio) 60%, var(--color-paper) 100%);
+  }
+  .flow-paper2-paper {
+    background: linear-gradient(to bottom, var(--color-paper-2) 0%, var(--color-paper-2) 60%, var(--color-paper) 100%);
+  }
+
+  /* Universal seam softeners for pages with a variable/conditional section order:
+     every light band fades to paper at its top + bottom edges, so any two light
+     sections meet at paper (no hard line) regardless of their own colour. Solid
+     bg-paper sections are already the seam colour, so they need no class. */
+  .flow-soft-white {
+    background: linear-gradient(to bottom, var(--color-paper) 0%, #ffffff 22%, #ffffff 78%, var(--color-paper) 100%);
+  }
+  .flow-soft-paper2 {
+    background: linear-gradient(to bottom, var(--color-paper) 0%, var(--color-paper-2) 22%, var(--color-paper-2) 78%, var(--color-paper) 100%);
+  }
+  .flow-soft-herowash {
+    background: linear-gradient(to bottom, var(--color-paper) 0%, var(--color-hero-wash) 22%, var(--color-hero-wash) 78%, var(--color-paper) 100%);
+  }
+  .flow-soft-portfolio {
+    background: linear-gradient(to bottom, var(--color-paper) 0%, var(--color-portfolio) 22%, var(--color-portfolio) 78%, var(--color-paper) 100%);
+  }
+  .flow-soft-bandtint {
+    background: linear-gradient(to bottom, var(--color-paper) 0%, var(--color-band-tint) 22%, var(--color-band-tint) 78%, var(--color-paper) 100%);
+  }
+
+  /* Eyebrows (small uppercase kicker labels) are hidden site wide by request.
+     Kept as a single rule so it is trivially reversible; the markup stays in
+     place so nothing else shifts structurally. */
+  .eyebrow {
+    display: none;
+  }
+
+  .h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(38px, 7vw, 86px); line-height: 1.06; letter-spacing: -0.04em; }
+  /* Calmer H1 for the service-page heroes: keeps the full keyword-rich headline
+     (SEO intact) but a notch smaller so long titles do not look cramped beside the visual. */
+  .h1-svc { font-family: var(--font-display); font-weight: 600; font-size: clamp(34px, 4.6vw, 60px); line-height: 1.08; letter-spacing: -0.035em; }
+  .h2 { font-family: var(--font-display); font-weight: 600; font-size: clamp(27px, 4.2vw, 50px); line-height: 1.1; letter-spacing: -0.035em; }
+  .h3 { font-family: var(--font-sans); font-weight: 600; font-size: clamp(18px, 2vw, 23px); line-height: 1.18; letter-spacing: -0.025em; }
+  .lead { font-size: clamp(17px, 1.6vw, 20px); line-height: 1.6; max-width: 64ch; text-wrap: pretty; }
+
+  /* Pill buttons. Base + variant. */
+  .btn {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: -0.01em;
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 13px 22px;
+    border-radius: var(--radius-pill);
+    border: 1px solid transparent;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+    background: transparent;
+    transition: background 0.16s, color 0.16s, border-color 0.16s;
+  }
+  /* Primary CTA ("Jetzt starten"): navy vlak, witte tekst (rebrand). */
+  .btn-primary { background: var(--color-navy); color: #fff; border-color: var(--color-navy); }
+  .btn-primary:hover { background: var(--color-navy-deep); border-color: var(--color-navy-deep); }
+  /* Solid CTA on light sections (strong navy). */
+  .btn-onink   { background: var(--color-navy); color: #fff; border-color: var(--color-navy); }
+  /* Accent CTA on dark blocks (footer / ink callouts): mint pops on teal-black. */
+  .btn-spark   { background: var(--color-mint); color: var(--color-ink); border-color: var(--color-mint); }
+  .btn-spark:hover { box-shadow: 0 12px 26px -8px rgba(147, 230, 190, 0.6); }
+  /* Outline CTA on DARK sections (white border). */
+  .btn-ghost   { background: transparent; color: #fff; border-color: rgba(255, 255, 255, 0.55); }
+  .btn-ghost:hover { background: #fff; color: var(--color-ink); }
+  /* Outline CTA on LIGHT sections (navy border). */
+  .btn-ghost-ink { background: transparent; color: var(--color-navy); border-color: rgba(27, 42, 74, 0.45); }
+  .btn-ghost-ink:hover { background: var(--color-navy); color: #fff; }
+
+  /* Native <button> defaults to an arrow cursor; make every enabled button (and
+     clickable label) show a pointer across its whole area. */
+  button:not(:disabled),
+  label:has(input[type="checkbox"]:not(:disabled)) {
+    cursor: pointer;
+  }
+
+  /* The amai! wordmark — gold "!" (spins on hover; occasional random spin via JS) */
+  .brand-mark { font-family: var(--font-sans); font-weight: 600; letter-spacing: -0.05em; white-space: nowrap; }
+  .brand-mark .spark {
+    color: var(--color-spark);
+    display: inline-block;
+    transform-origin: center;
+  }
+  .brand-mark:hover .spark,
+  .brand-mark .spark.is-spinning {
+    animation: amai-spin 0.7s cubic-bezier(0.34, 1.4, 0.5, 1);
+  }
+
+  /* Paintbrush swipe behind a word (e.g. the price in the hero): an organic
+     gold brush stroke sitting behind the text, slightly angled. */
+  .mark-spark {
+    position: relative;
+    isolation: isolate;
+    white-space: nowrap;
+  }
+  .mark-spark::before {
+    content: "";
+    position: absolute;
+    left: -0.14em;
+    right: -0.14em;
+    top: 0.02em;
+    bottom: -0.06em;
+    z-index: 1; /* in front of the text, but translucent so the number shows through */
+    opacity: 0.55;
+    pointer-events: none;
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20320%2080'%20preserveAspectRatio='none'%3E%3Cpath%20d='M5,44C26,28,72,22,128,25C188,28,236,17,294,27C313,30,322,38,306,45C262,62,196,55,138,53C84,51,44,61,16,52C3,48,-3,49,5,44Z'%20fill='%2393E6BE'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    transform: rotate(-1.4deg);
+  }
+}
+
+/* 360° spin for the wordmark "!" — used on hover and by the occasional random
+   auto-spin (BrandLogo). Disabled under prefers-reduced-motion by the global
+   reduced-motion rule in @layer base. */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes amai-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Services nav: the gold "!" ticks a single slow 360° turn on a 5s loop (mostly
+   at rest, ~0.7s of motion), and the mega panel fades + slides down on open.
+   Both are neutralised by the global prefers-reduced-motion rule in @layer base. */
+@keyframes amai-tick {
+  0%, 86% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.amai-tick {
+  display: inline-block;
+  transform-origin: 50% 55%;
+  animation: amai-tick 5s ease-in-out infinite;
+}
+@keyframes amai-mega-in {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.amai-mega { animation: amai-mega-in 0.2s ease-out; }
+
+/* ── Services page micro-interactions ───────────────────────────────
+   All are progressive + safe: content is visible by default, so search
+   engines and no-JS / unsupported browsers always see it. The global
+   prefers-reduced-motion rule (@layer base) neutralises the rest. */
+
+/* Scroll reveal — CSS scroll-driven (no JS, no library). Only applies where
+   `animation-timeline: view()` is supported and motion is allowed; otherwise
+   the element stays at its default (fully visible) state. */
+@keyframes amai-reveal-kf {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .amai-reveal {
+      animation: amai-reveal-kf both linear;
+      animation-timeline: view();
+      animation-range: entry 5% cover 22%;
+    }
+  }
+}
+
+/* Integrations logo band: a slow, continuous horizontal scroll. The track holds
+   the logos twice; translating it by -50% loops seamlessly. Paused on hover and
+   neutralised under prefers-reduced-motion (global rule in @layer base). */
+@keyframes amai-marquee-kf {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.amai-marquee-track {
+  animation: amai-marquee-kf 38s linear infinite;
+  will-change: transform;
+}
+.amai-marquee:hover .amai-marquee-track {
+  animation-play-state: paused;
+}
+
+/* AI Assistants accent: a calm pulsing status dot (~2.4s). */
+@keyframes amai-pulse-kf {
+  0%, 100% { opacity: 0.55; transform: scale(0.85); }
+  50% { opacity: 1; transform: scale(1); }
+}
+.amai-pulse { animation: amai-pulse-kf 2.4s ease-in-out infinite; }
+
+/* CTA "buzz": a short attention shake that fires on load and replays every 5s
+   (~0.5s of motion, then rest). Applied to a wrapper so the button's own hover
+   transform is unaffected. Neutralised under reduced motion. */
+@keyframes btn-buzz {
+  0%, 10%, 100% { transform: none; }
+  2% { transform: translate3d(-3px, 0, 0) rotate(-1.2deg); }
+  4% { transform: translate3d(3px, 0, 0) rotate(1.2deg); }
+  6% { transform: translate3d(-2px, 0, 0) rotate(-0.8deg); }
+  8% { transform: translate3d(2px, 0, 0) rotate(0.8deg); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .btn-buzz { animation: btn-buzz 5s ease-in-out 1s infinite; }
+}
+
+/* ── Portfolio marquee ─────────────────────────────────────────────
+   Full-width, continuously sliding showcase. The track holds THREE
+   identical copies of the tiles and translates by exactly one copy
+   (-100% / 3), so the loop is seamless. Only `transform` animates
+   (GPU-friendly, no layout thrash). Pauses on hover. Under
+   prefers-reduced-motion it stops moving and becomes a manual swipe
+   row (the duplicate copies are hidden so nothing repeats). The
+   wrapper clips overflow so the page never scrolls sideways. */
+.marquee {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.marquee-track {
+  display: flex;
+  flex-wrap: nowrap;
+  width: max-content;
+}
+@keyframes amai-marquee {
+  from { transform: translate3d(0, 0, 0); }
+  to   { transform: translate3d(calc(-100% / 3), 0, 0); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .marquee {
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent);
+            mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent);
+  }
+  .marquee-track {
+    animation: amai-marquee var(--marquee-duration, 50s) linear infinite;
+    will-change: transform;
+  }
+  .marquee:hover .marquee-track {
+    animation-play-state: paused;
+  }
+}
+@media (max-width: 640px) {
+  /* Calmer, subtler pace on phones. */
+  .marquee-track { --marquee-duration: 68s; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x proximity;
+  }
+  .marquee-dup { display: none; }
+  .marquee-item { scroll-snap-align: start; }
+}
+
+/* Native <select> closed-state branding (portal + admin filters/forms). Unlayered
+   so it beats Tailwind utility padding; the open option list stays OS-native. The
+   customer-facing checkout uses the fully branded <CustomSelect> instead. */
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='none' stroke='%232C4641' stroke-width='2'%3E%3Cpath d='M6 8l4 4 4-4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.65rem center;
+  background-size: 1.05em 1.05em;
+  padding-right: 2.1rem;
+}
+
+/* ── Branded cursor: the amai chevron (static, no animation) ─────────────────
+   Applied only on fine-pointer + hover devices so touch is unaffected. The
+   navy chevron is the default; a mint chevron signals clickable elements; text
+   fields keep their caret. Hotspot sits on the chevron tip (19,14 of 28px). */
+@media (hover: hover) and (pointer: fine) {
+  * {
+    cursor: url('/cursor.svg') 6 6, auto;
+  }
+  /* Clickable elements use the native hand/pointer cursor. */
+  a, button, [role="button"], .btn, label, summary, select,
+  .bg-navy a, .bg-navy button, .bg-navy [role="button"], .bg-navy .btn, .bg-navy label, .bg-navy summary, .bg-navy select,
+  .bg-ink a, .bg-ink button, .bg-ink [role="button"], .bg-ink .btn, .bg-ink label, .bg-ink summary, .bg-ink select {
+    cursor: pointer;
+  }
+  input, textarea, [contenteditable] {
+    cursor: text;
+  }
+  /* On dark sections the navy chevron disappears, so the default (non-clickable)
+     cursor switches to a white chevron. Clickable elements keep the hand above. */
+  .bg-navy, .bg-ink {
+    cursor: url('/cursor-white.svg') 6 6, auto;
+  }
+}
+
+/* ── Button arrow: the small amai chevron instead of a plain →. Masked, so it
+   takes the button's text colour (white on the navy CTAs). Kept small. */
+.btn-arrow {
+  display: inline-block;
+  width: 0.5em;
+  height: 0.72em;
+  margin-left: 0.2em;
+  vertical-align: -0.05em;
+  background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 20'%3E%3Cpath d='M2.2 2.2L11.8 10L2.2 17.8' fill='none' stroke='%23000' stroke-width='4.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 20'%3E%3Cpath d='M2.2 2.2L11.8 10L2.2 17.8' fill='none' stroke='%23000' stroke-width='4.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+/* ── Hero intro: gentle Ken Burns (zoom out + slight drift) on page load ───── */
+@keyframes heroKenburns {
+  from { transform: scale(1.14) translate3d(1.8%, -1.1%, 0); }
+  to   { transform: scale(1) translate3d(0, 0, 0); }
+}
+.hero-kenburns {
+  transform-origin: 60% 45%;
+  animation: heroKenburns 2.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+  will-change: transform;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-kenburns { animation: none; }
+}
+
+/* Hero copy ink-in: starts fully transparent and colours in parallel with the
+   Ken Burns background pan (same duration + easing). */
+.hero-inkin {
+  animation: heroInkIn 1.5s cubic-bezier(0.22, 1, 0.36, 1) 0.15s both;
+  will-change: opacity, filter, transform;
+}
+@keyframes heroInkIn {
+  from { opacity: 0; filter: blur(9px); transform: translateY(0.14em); }
+  to   { opacity: 1; filter: blur(0);   transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-inkin { animation: none; }
+}
+
+/* Magical word-by-word reveal: each word fades up out of a soft blur, with its
+   own delay + duration (set inline) so words overlap unevenly. */
+.hero-word {
+  display: inline-block;
+  opacity: 0;
+  animation-name: heroWordIn;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+  animation-fill-mode: both;
+  will-change: opacity, filter, transform;
+}
+@keyframes heroWordIn {
+  from { opacity: 0; filter: blur(9px); transform: translateY(0.16em); }
+  to   { opacity: 1; filter: blur(0);   transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-word { opacity: 1; animation: none; filter: none; transform: none; }
+}
+

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-label="amai! Illustration: Website Checkliste">
+  <rect width="1200" height="520" fill="#16233D"/>
+  <circle cx="1060" cy="80" r="240" fill="#F4F6FA" opacity="0.08"/>
+  <circle cx="120" cy="470" r="200" fill="#93E6BE" opacity="0.12"/>
+  <g transform="rotate(-4 430 285)">
+    <rect x="150" y="150" width="560" height="280" rx="22" fill="#16233D"/>
+    <circle cx="186" cy="186" r="9" fill="#93E6BE"/>
+    <circle cx="216" cy="186" r="9" fill="#5B667C"/>
+    <circle cx="246" cy="186" r="9" fill="#5B667C"/>
+    <rect x="280" y="177" width="390" height="18" rx="9" fill="#F4F6FA" opacity="0.16"/>
+    <rect x="168" y="212" width="524" height="200" rx="12" fill="#F4F6FA"/>
+    <rect x="168" y="212" width="524" height="50" fill="#93E6BE"/>
+    <rect x="190" y="228" width="170" height="16" rx="8" fill="#16233D"/>
+    <rect x="190" y="288" width="300" height="14" rx="7" fill="#16233D" opacity="0.18"/>
+    <rect x="190" y="316" width="240" height="14" rx="7" fill="#16233D" opacity="0.12"/>
+    <rect x="190" y="344" width="270" height="14" rx="7" fill="#16233D" opacity="0.12"/>
+    <rect x="190" y="372" width="180" height="14" rx="7" fill="#16233D" opacity="0.12"/>
+  </g>
+  <g transform="translate(880 165)">
+    <rect x="0" y="0" width="160" height="200" rx="18" fill="#F4F6FA"/>
+    <rect x="52" y="-14" width="56" height="28" rx="10" fill="#93E6BE"/>
+    <circle cx="34" cy="58" r="15" fill="#93E6BE"/>
+    <path d="M26 58 l6 7 l11 -13" fill="none" stroke="#16233D" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="60" y="50" width="78" height="14" rx="7" fill="#16233D" opacity="0.22"/>
+    <circle cx="34" cy="104" r="15" fill="#93E6BE"/>
+    <path d="M26 104 l6 7 l11 -13" fill="none" stroke="#16233D" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="60" y="96" width="64" height="14" rx="7" fill="#16233D" opacity="0.22"/>
+    <circle cx="34" cy="150" r="15" fill="#93E6BE"/>
+    <path d="M26 150 l6 7 l11 -13" fill="none" stroke="#16233D" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="60" y="142" width="72" height="14" rx="7" fill="#16233D" opacity="0.22"/>
+  </g>
+  <circle cx="820" cy="120" r="9" fill="#93E6BE"/>
+  <circle cx="1090" cy="360" r="12" fill="#93E6BE"/>
+  <circle cx="1120" cy="200" r="7" fill="#F4F6FA" opacity="0.7"/>
+</svg>

@@ -1,0 +1,50 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# python
+.venv/
+__pycache__/
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+
+# production
+/build
+# generated configurator builds (engine/build.py --out dist/...)
+/dist/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files: never commit secrets, keep only the example
+.env*
+!.env.example
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# supabase local
+/supabase/.branches
+/supabase/.temp
+/supabase/.env
+
+# vitest temp
+vitest.config.ts.timestamp-*
+
+# playwright
+/test-results/
+/playwright-report/

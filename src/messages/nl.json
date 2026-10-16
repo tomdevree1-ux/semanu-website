@@ -1,0 +1,710 @@
+{
+  "notFound": {
+    "eyebrow": "404",
+    "title": "Pagina niet gevonden",
+    "text": "De pagina die u zoekt bestaat niet of is verplaatst. Deze links helpen u weer op weg.",
+    "home": "Terug naar de startpagina",
+    "services": "Diensten bekijken",
+    "contact": "Contact opnemen"
+  },
+  "meta": {
+    "title": "Webbureau Bern: websites, platforms en AI voor kmo's · amai.ch",
+    "description": "amai! bouwt websites, klantportalen, CRM en automatiseringen voor Zwitserse kmo's. Één partner, één helder maandabonnement, persoonlijk vanuit Bern."
+  },
+  "banner": {
+    "studyText": "Nieuw: 2292 Zwitserse kmo websites beoordeeld. Slechts 9 procent is bij de tijd.",
+    "studyCta": "Naar de studie",
+    "studyClose": "Melding sluiten",
+    "studyEyebrow": "Nieuwe studie"
+  },
+  "lang": {
+    "label": "Taal",
+    "de": "DE",
+    "fr": "FR",
+    "en": "EN",
+    "es": "ES",
+    "nl": "NL"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Over ons",
+    "aboutUs": "Over ons",
+    "plans": "Prijzen",
+    "how": "Zo werkt het",
+    "work": "Referenties",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "analysis": "Website SEO analyse",
+    "strategyCall": "Strategiegesprek boeken",
+    "cta": "Nu starten",
+    "services": "Diensten",
+    "servicesMega": "Onze diensten",
+    "servicesMore": "Meer",
+    "servicesAll": "Alle diensten",
+    "howDesc": "Ons proces in vijf stappen",
+    "plansDesc": "Websiteabonnementen en prijzen",
+    "faqDesc": "Antwoorden op veelgestelde vragen",
+    "aboutDesc": "Wie er achter amai! staat",
+    "blogDesc": "Inzichten en tips over websites",
+    "contactDesc": "Laten we het over uw project hebben",
+    "start": "Nu starten",
+    "pill3d": "3D-configuratoren",
+    "pillAi": "Bedrijfssoftware"
+  },
+  "funnel": {
+    "metaTitle": "Gratis websiteanalyse",
+    "metaDescription": "Laat uw website nu analyseren en ontvang een objectief rapport met concrete verbeterkansen. Gratis en vrijblijvend.",
+    "eyebrow": "Gratis websiteanalyse",
+    "title": "Laat uw huidige website gratis analyseren.",
+    "intro": "U ontvangt een objectief rapport met concrete verbeterkansen voor zichtbaarheid, snelheid en impact. Gratis en vrijblijvend.",
+    "benefitsTitle": "Wat u ontvangt",
+    "benefits": [
+      "Een eerlijke beoordeling van uw huidige website",
+      "Concrete aanbevelingen voor meer zichtbaarheid en aanvragen",
+      "Een helder overzicht van snelheid, techniek en SEO basis"
+    ],
+    "afterTitle": "Hoe het verdergaat",
+    "afterText": "Wij nemen binnen twee werkdagen contact met u op met uw analyse. Geen verkoopdruk, alleen een heldere beoordeling.",
+    "sampleTitle": "Zo ziet uw rapport eruit",
+    "sampleIntro": "Blader door een echt voorbeeld van een gratis websiteanalyse.",
+    "samplePage": "Pagina",
+    "sampleOf": "van",
+    "samplePrev": "Vorige",
+    "sampleNext": "Volgende",
+    "sampleDownload": "Downloaden als PDF",
+    "sampleAlt": "Voorbeeldrapport pagina",
+    "close": "Sluiten",
+    "formTitle": "Vraag nu uw analyse aan",
+    "firstName": "Voornaam",
+    "lastName": "Naam",
+    "email": "Email",
+    "website": "Uw website",
+    "consent": "Ik accepteer de privacyverklaring en ga akkoord met de verwerking van mijn gegevens.",
+    "marketing": "Ik ontvang graag af en toe tips en nieuws van amai! (optioneel)",
+    "submit": "Analyse aanvragen",
+    "sending": "Wordt verzonden …",
+    "okTitle": "Hartelijk dank!",
+    "okText": "Aanvraag ontvangen! Wij nemen uw website nu grondig onder de loep en uw persoonlijke rapport belandt binnen 24 uur in uw mailbox. Houd uw mailbox in de gaten!",
+    "okButton": "Begrepen",
+    "dupTitle": "Aanvraag loopt al",
+    "dupText": "U heeft met dit Email adres op {date} al een analyse aangevraagd. Uw rapport is onderweg naar deze mailbox. Een nieuwe analyse is na 30 dagen weer mogelijk.",
+    "errRequired": "Gelieve in te vullen.",
+    "errEmail": "Voer een geldig Email adres in.",
+    "errConsent": "Ga akkoord met de privacyverklaring.",
+    "errGeneric": "Er is iets misgegaan. Probeer het opnieuw.",
+    "errRateLimit": "Te veel aanvragen. Probeer het later opnieuw."
+  },
+  "hero": {
+    "eyebrow": "Digitale oplossingen met AI",
+    "h1": "<line>1 partner</line><line>voor al het <accent>digitale</accent>.</line>",
+    "sub": "Alles wat uw onderneming digitaal nodig heeft, sneller en kostenefficiënter gebouwd met AI. <brand></brand> ontwikkelt websites, digitale platforms en automatiseringen op maat voor ondernemingen die digitaal sneller willen groeien.",
+    "cta1": "Nu starten",
+    "cta2": "Websiteabonnementen bekijken",
+    "mock": "Alles op één plek",
+    "callCta": "Strategiegesprek boeken",
+    "trust": "Voor kmo's, zelfstandigen en lokale ondernemingen in Zwitserland.",
+    "stats": {
+      "leistungen": {
+        "label": "Diensten",
+        "value": "6"
+      },
+      "ansprechpartner": {
+        "label": "Aanspreekpunt",
+        "value": "1"
+      },
+      "aboAb": {
+        "label": "Abo vanaf",
+        "value": "99 CHF/mnd"
+      },
+      "standort": {
+        "label": "Locatie",
+        "value": "Bern, Zwitserland"
+      }
+    }
+  },
+  "price": {
+    "eyebrow": "Prijzen",
+    "h2": "Transparante prijzen, vooraf afgesproken.",
+    "intro": "Een helder overzicht van uw digitale opzet, alles vooraf afgesproken en zonder verborgen kosten. Websites, digitale platforms, consultancy, automatiseringen en AI lopen als maandabonnement; alleen logo + merkrichtlijnen en business analyse zijn eenmalige diensten.",
+    "aboLink": "Hoe het website abonnement werkt",
+    "calcTitle": "Website kostencalculator: wat kost uw website per maand?",
+    "calcIntro": "Kies uw situatie, omvang en functies en u ziet meteen de maandprijs. Website vanaf 99 CHF, webshop vanaf 125 CHF, alles inbegrepen, minimale looptijd 36 maanden.",
+    "summary": "Een professionele website kost bij amai! vanaf CHF 99 per maand (Business) of CHF 125 (Webshop). Hosting, onderhoud en SEO basis zijn inbegrepen en er zijn geen hoge aanvangskosten.",
+    "metaDescription": "Wat kost een website in Zwitserland? Prijzen vanaf 99 CHF per maand, webshop vanaf 125 CHF. Design, hosting, onderhoud en SEO basis inbegrepen, minimale looptijd 36 maanden.",
+    "plansEyebrow": "Websiteabonnementen",
+    "plansTitle": "Websiteabonnementen met vaste maandprijs",
+    "plansSub": "Elk pakket bevat design, ontwikkeling en SEO. Hosting en onderhoud zijn altijd inbegrepen in het abonnement. Minimale looptijd 36 maanden, daarna maandelijks opzegbaar.",
+    "guideTitle": "Welk abonnement past bij u?",
+    "guideBusiness": "Business past als u meer pagina's, meer vertrouwen en een meegroeiende website nodig heeft.",
+    "guideWebshop": "Webshop past als u producten online verkoopt en een website met shop wilt.",
+    "guideSoftware": "Software & Applications past als u software op maat of webapplicaties nodig heeft.",
+    "guideHint": "Niet zeker? Schrijf ons kort, wij bevelen eerlijk het passende abonnement aan.",
+    "guideCta": "Contact opnemen",
+    "svcTitle": "Meer digitale oplossingen",
+    "svcIntro": "Portalen, CRM, automatiseringen, dashboards en AI assistenten stemmen wij af op uw behoefte. Omvang en prijs bespreken wij transparant vooraf.",
+    "availAddon": "Beschikbaar als add on",
+    "ctaDiscuss": "Add on bespreken",
+    "ctaAdvice": "Advies aanvragen",
+    "from": "vanaf",
+    "adsDesc": "Betaalde campagnes die u zichtbaar maken waar uw klanten zoeken.",
+    "faqTitle": "Veelgestelde vragen over prijzen en abonnementen",
+    "faq": [
+      {
+        "q": "Wat kost een website in Zwitserland?",
+        "a": "Een website start vanaf 99 CHF per maand en een webshop vanaf 125 CHF per maand. De maandprijs dekt design, hosting, onderhoud en SEO basis, zonder hoge eenmalige rekening."
+      },
+      {
+        "q": "Zijn hosting en onderhoud inbegrepen?",
+        "a": "Ja. Hosting, technische updates en lopende beveiliging zitten in het maandabonnement. Er is geen aparte rekening voor."
+      },
+      {
+        "q": "Is er een minimale looptijd?",
+        "a": "De minimale looptijd is 36 maanden, daarna is het abonnement maandelijks opzegbaar. Alle prijzen zijn excl. btw."
+      },
+      {
+        "q": "Wat zijn de webdesignprijzen in Zwitserland?",
+        "a": "Klassieke Zwitserse bureaus vragen voor een kmo website meestal een eenmalig bedrag van vier cijfers, plus hosting en onderhoud per jaar. Bij amai! betaalt u vanaf 99 CHF per maand, inclusief design, bouw, hosting en onderhoud."
+      },
+      {
+        "q": "Wat kost een website per maand in Zwitserland?",
+        "a": "Bij amai! kost een website vanaf 99 CHF per maand, een webshop vanaf 125 CHF per maand, excl. btw. Alles is inbegrepen: design, bouw, hosting, onderhoud en SEO basis. Geen aanbetaling en geen aparte hostingfactuur. De minimale looptijd is 36 maanden."
+      }
+    ],
+    "seoTitle": "Websiteprijzen Zwitserland: wat kost een website?",
+    "seoBody": "Een professionele website kost bij amai! vanaf 99 CHF per maand, een webshop vanaf 125 CHF per maand, excl. btw. In die prijs zitten design, technische bouw, hosting, onderhoud en SEO basis. In Zwitserland lopen de webdesignprijzen voor een vergelijkbaar project snel op tot enkele duizenden franken ineens, plus hosting en onderhoud daarbovenop. Wij verdelen hetzelfde werk over een maandbedrag, zodat u de prijzen vanaf het begin kent en geen nacalculatie krijgt. De exacte prijs spreken we vooraf samen af, zodra de omvang duidelijk is."
+  },
+  "plan": {
+    "b": {
+      "badge": "Populair",
+      "name": "Business Website",
+      "price": "79 CHF",
+      "per": "/ maand",
+      "desc": "Professionele multi page website voor groeiende ondernemingen",
+      "features": [
+        "Tot 10 pagina's",
+        "Design op maat",
+        "Mobile first",
+        "Contactformulier",
+        "SEO optimalisatie",
+        "Start binnen enkele werkdagen",
+        "Hosting en onderhoud inbegrepen"
+      ],
+      "cta": "Nu bestellen"
+    },
+    "w": {
+      "name": "Webshop",
+      "price": "99 CHF",
+      "per": "/ maand",
+      "desc": "Webshop op maat",
+      "features": [
+        "Volledige webshop setup",
+        "Beheer van producten en bestellingen",
+        "Online betalingen",
+        "Klantaccounts",
+        "SEO optimalisatie",
+        "Start binnen enkele werkdagen",
+        "Hosting en onderhoud inbegrepen"
+      ],
+      "cta": "Nu bestellen"
+    },
+    "p": {
+      "name": "Software & Applications",
+      "from": "vanaf",
+      "price": "99 CHF",
+      "per": "/ maand",
+      "desc": "Software op maat",
+      "features": [
+        "Verhuur en boekingssystemen",
+        "Kassasoftware",
+        "CRM op maat",
+        "Boekhoudsysteem",
+        "Database met AI analyse",
+        "Klantplatforms",
+        "Hosting en onderhoud inbegrepen"
+      ],
+      "cta": "Project bespreken"
+    }
+  },
+  "addon": {
+    "badge": "Nieuw!",
+    "title": "Logo + merkrichtlijnen",
+    "desc": "Passend logo en een compacte merkgids (kleuren, lettertypes, toepassing) voor een consistente uitstraling.",
+    "price": "+750 CHF",
+    "once": "eenmalig",
+    "cta": "Bestellen",
+    "features": [
+      "Een uniek logo",
+      "Volledig op maat gemaakt design"
+    ],
+    "guidelinesTitle": "Professionele merkrichtlijnen",
+    "guidelines": [
+      "Kleuren",
+      "Lettertypes",
+      "Labels",
+      "Do's en don'ts",
+      "Favicon"
+    ]
+  },
+  "googleAds": {
+    "eyebrow": "Google Ads",
+    "title": "Google Ads management",
+    "priceLabel": "Beheer vanaf",
+    "price": "195 CHF",
+    "per": "/ maand",
+    "cta": "Bestellen",
+    "features": [
+      "Opzet van Google Ads campagnes",
+      "Maandelijkse optimalisatie en rapportage",
+      "Shopping Ads voor webshops",
+      "Conversie tracking en doelgroepanalyse"
+    ],
+    "note": "Het advertentiebudget zelf is niet inbegrepen in deze prijs."
+  },
+  "promo": {
+    "stamp": "Actie",
+    "eyebrow": "Actie",
+    "title": "Logo + merkrichtlijnen tegen actieprijs",
+    "body": "Nu {promo} CHF in plaats van {regular} CHF. U bespaart {save} CHF.",
+    "save": "U bespaart {save} CHF",
+    "cta": "Profiteer van de actie",
+    "close": "Sluiten",
+    "until": "Nog tot {date}"
+  },
+  "footer": {
+    "tagline": "De digitale partner voor Zwitserse kmo’s: advies, automatisering, maatwerksoftware en 3D-configuratoren.",
+    "servicesTitle": "Diensten",
+    "companyTitle": "Bedrijf",
+    "navTitle": "Navigatie",
+    "legalTitle": "Juridisch",
+    "contactTitle": "Contact",
+    "location": "Wylerstrasse 75, Bern",
+    "rights": "Alle rechten voorbehouden.",
+    "langLabel": "Taal",
+    "topicsTitle": "Onderwerpen",
+    "topics": {
+      "digitalisierung": "Digitalisering voor kmo's",
+      "websiteAbo": "Websiteabonnement Zwitserland",
+      "webdesign": "Webdesign voor kmo's",
+      "erstellen": "Website laten maken",
+      "betreuung": "Websiteonderhoud",
+      "selbststaendig": "Voor zelfstandigen",
+      "lokal": "Lokale ondernemingen",
+      "seo": "SEO basis voor kmo's",
+      "geo": "GEO voor Zwitserse kmo's",
+      "preise": "Websiteprijzen Zwitserland",
+      "konfigurator": "3D configurator"
+    },
+    "freeToolsTitle": "Gratis tools",
+    "freeTools": {
+      "analysis": "Gratis websiteanalyse"
+    },
+    "legal": {
+      "imprint": "Colofon",
+      "privacy": "Privacybeleid",
+      "gtc": "Algemene voorwaarden",
+      "subTerms": "Abonnementsvoorwaarden",
+      "cookies": "Cookieverklaring",
+      "contactPrefs": "Contactvoorkeuren"
+    }
+  },
+  "common": {
+    "skipToContent": "Naar de inhoud springen",
+    "learnMore": "Meer weten",
+    "vatNote": "Alle prijzen excl. btw. Websiteabonnementen met minimale looptijd 36 maanden, daarna maandelijks opzegbaar."
+  },
+  "home": {
+    "title": "Ontdek amai!",
+    "intro": "Abonnementen, proces, antwoorden en contact in één oogopslag.",
+    "moreTitle": "Meer dan een website",
+    "moreText": "Uw website kan het startpunt worden voor marketing, automatisering en slimmere business systemen.",
+    "moreCta": "Diensten ontdekken"
+  },
+  "how": {
+    "eyebrow": "Zo werkt het",
+    "h2": "Vijf stappen, nul gedoe.",
+    "text": "Van het eerste idee tot de afgewerkte website begeleiden wij u persoonlijk, stap voor stap. Design, techniek, hosting, onderhoud en SEO horen bij het abonnement, zodat uw onderneming in Zwitserland online zichtbaar wordt en dat ook blijft.",
+    "metaDescription": "Zo werkt het websiteabonnement van amai!: kennismakingsgesprek, digitale aanmelding, uitvoering binnen enkele werkdagen en doorlopende begeleiding. Modern webdesign voor kmo's in Zwitserland.",
+    "steps": [
+      {
+        "title": "Kennismakingsgesprek",
+        "body": "We leren elkaar kennen, u stelt uw onderneming voor en deelt uw wensen, doelen en indien nodig een moodboard. Zo begrijpen wij wat uw merk kenmerkt en waar het u echt om gaat."
+      },
+      {
+        "title": "Kies het passende abonnement",
+        "chip": "Start binnen enkele werkdagen",
+        "body": "De aanmelding verloopt volledig digitaal, eenvoudig en in enkele minuten. Zodra uw eerste betaling binnen is, starten wij binnen enkele werkdagen met uw design. Geen lang wachten, geen papierwerk, u geeft het startsein en wij gaan aan de slag."
+      },
+      {
+        "title": "Wij maken uw blueprint",
+        "body": "In een gestructureerd gesprek en met een vragenlijst leggen wij uw wensen en eisen vast. Daaruit ontstaat een heldere blueprint. Pas na uw goedkeuring begint de opbouw. Zo werken wij professioneel en volgens een vaste methodiek."
+      },
+      {
+        "title": "Wij bouwen uw website",
+        "body": "Nu ontstaat uw droomwebsite, modern, snel en geoptimaliseerd voor mobiele apparaten. Op vaste contactmomenten tonen wij de voortgang, u geeft feedback en wij sturen bij waar nodig. Afhankelijk van uw abonnement blijft er ruimte voor doorlopende aanpassingen, zodat het resultaat echt past."
+      },
+      {
+        "title": "Wij onderhouden en verbeteren doorlopend",
+        "body": "Na de lancering blijven wij voor u klaarstaan. Updates, beveiliging en hosting lopen mee in het abonnement. Aanpassingen en nieuwe functies voeren wij flexibel uit, tegen het uurtarief van 95 CHF."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "h2": "Veelgestelde vragen",
+    "items": [
+      {
+        "q": "Is de website van mij?",
+        "a": "Ja. Uw inhoud en uw domeinnaam zijn van u. Design en code worden in het kader van het abonnement geleverd; de precieze voorwaarden voor de overname staan beschreven in onze abonnementsvoorwaarden."
+      },
+      {
+        "q": "Wat gebeurt er als ik opzeg?",
+        "a": "Na de afgesproken opzegtermijn eindigt het abonnement. De overname van domein en inhoud regelen wij vooraf, zodat er geen verrassingen zijn."
+      },
+      {
+        "q": "Zijn hosting en onderhoud inbegrepen?",
+        "a": "Ja. Hosting, technische updates, basisbeveiliging en het doorlopende onderhoud zijn onderdeel van het abonnement."
+      },
+      {
+        "q": "Kan ik inhoud laten wijzigen?",
+        "a": "Ja. Wijzigingen na de lancering rekenen wij transparant af tegen het uurtarief van 95 CHF. Grotere wensen ramen wij vooraf."
+      },
+      {
+        "q": "Kan ik later upgraden?",
+        "a": "Ja, u kunt altijd overstappen naar een hoger abonnement wanneer uw behoeften groeien."
+      },
+      {
+        "q": "Wat betekent SEO basis?",
+        "a": "SEO (zoekmachineoptimalisatie) zorgt ervoor dat uw website beter gevonden wordt op Google. Wij richten de technische en inhoudelijke basis in: structuur, snelheid, meta tags en lokale basis. Concrete Google rankings kunnen echter niet worden gegarandeerd."
+      },
+      {
+        "q": "Kunt u mijn bestaande website vervangen?",
+        "a": "Ja. Wij maken een nieuwe, moderne website en verzorgen de overgang van uw bestaande site netjes."
+      },
+      {
+        "q": "Ontwikkelt u ook websites met login of klantportaal?",
+        "a": "Ja, via Software & Applications: klantportalen, loginomgevingen, dashboards en workflows op maat."
+      },
+      {
+        "q": "Werkt u met Zwitserse ondernemingen?",
+        "a": "Ja. amai! richt zich op kmo's, zelfstandigen en lokale ondernemingen in Zwitserland."
+      },
+      {
+        "q": "Biedt u ook logo en merkrichtlijnen aan?",
+        "a": "Ja. Op verzoek ontwerpen wij een passend logo en een compacte merkgids (kleuren, lettertypes, toepassing), eenmalig aanvullend op uw abonnement. De actuele prijs vindt u op de prijzenpagina."
+      },
+      {
+        "q": "Bouwt u alleen websites?",
+        "a": "Nee. Websites zijn voor veel klanten het startpunt. amai! helpt ook bij Email marketing, marketing automatisering, boekingssystemen, business systemen en AI assistenten."
+      },
+      {
+        "q": "Werkt u met AI?",
+        "a": "Ja. Wij gebruiken AI in ons bouwproces, daardoor bouwen wij sneller en kostenefficiënter dan klassieke bureaus. Daarnaast bieden wij AI oplossingen zoals assistenten en automatiseringen aan als onderdeel van ons aanbod."
+      },
+      {
+        "q": "Kan ik met een website starten en later diensten aanvullen?",
+        "a": "Ja. Dat is vaak de beste weg. U start met een professionele website en voegt Email marketing, automatisering, boeking of business systemen toe wanneer uw onderneming er klaar voor is."
+      },
+      {
+        "q": "Wat is marketing automatisering?",
+        "a": "Marketing automatisering betekent dat terugkerende marketingtaken automatisch verlopen. Een lead ontvangt bijvoorbeeld een opvolgende Email na het invullen van een formulier of een klant ontvangt automatisch een afspraakherinnering."
+      },
+      {
+        "q": "Wat is een CRM?",
+        "a": "Een CRM is een systeem om leads, klanten, communicatie en opvolging te beheren. Het helpt om klantinformatie op één heldere plek te bewaren."
+      },
+      {
+        "q": "Wat is een customer portal?",
+        "a": "Een customer portal is een private online omgeving waar klanten kunnen inloggen, informatie bekijken, documenten uploaden, updates volgen of bestanden ophalen."
+      },
+      {
+        "q": "Zijn AI assistenten nuttig voor kleine ondernemingen?",
+        "a": "Ja, wanneer ze een praktisch probleem oplossen. AI assistenten kunnen veelgestelde vragen beantwoorden, leads kwalificeren, documenten doorzoeken of uw team ondersteunen bij terugkerend werk."
+      },
+      {
+        "q": "Wat is GEO?",
+        "a": "GEO staat voor Generative Engine Optimisation. Het helpt AI zoeksystemen om uw onderneming, uw diensten en uw expertise te begrijpen, zodat zij u nauwkeuriger kunnen beschrijven en aanbevelen."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "h2": "Laten we het over uw project hebben.",
+    "intro": "Een vraag, een offerte of gewoon even kort overleggen? Schrijf ons. U krijgt een persoonlijk antwoord, geen anoniem ticket.",
+    "bookHint": "Of kies meteen een afspraak: 30 minuten, vrijblijvend en gratis.",
+    "emailLabel": "Email",
+    "phoneLabel": "Telefoon",
+    "cityLabel": "Stad",
+    "city": "Bern",
+    "timeLabel": "Reactietijd",
+    "time": "Doorgaans binnen 1 werkdag",
+    "formTitle": "Bericht versturen",
+    "formSub": "Wij nemen persoonlijk contact met u op.",
+    "okTitle": "Bedankt voor uw bericht!",
+    "okText": "Wij nemen persoonlijk en zo snel mogelijk contact met u op.",
+    "sendTitle": "Wat u ons kunt sturen",
+    "sendItems": [
+      "Waar het om gaat en uw doel",
+      "Voorbeelden die u aanspreken",
+      "Uw branche en uw plaats",
+      "Bestaande website, indien aanwezig"
+    ],
+    "afterTitle": "Na het versturen",
+    "afterText": "Wij nemen binnen 1 werkdag contact met u op, geheel vrijblijvend."
+  },
+  "form": {
+    "firstname": "Voornaam",
+    "lastname": "Achternaam",
+    "email": "Email",
+    "phone": "Telefoon",
+    "phoneRecommended": "Telefoon (optioneel, aanbevolen)",
+    "company": "Bedrijf",
+    "website": "Website (optioneel)",
+    "companyName": "Bedrijfsnaam",
+    "vat": "UID / btw nummer (optioneel)",
+    "street": "Straat en nummer",
+    "postalCode": "Postcode",
+    "city": "Plaats",
+    "country": "Land",
+    "message": "Bericht",
+    "lang": "Taalvoorkeur",
+    "consent": "Ik ga akkoord met de verwerking van mijn gegevens volgens de privacyverklaring.",
+    "send": "Bericht versturen",
+    "sending": "Versturen …",
+    "errRequired": "Dit veld is verplicht.",
+    "errEmail": "Voer een geldig Email adres in.",
+    "errPhone": "Voer een geldig telefoonnummer in.",
+    "errConsent": "Ga akkoord met de verwerking.",
+    "errGeneric": "Er is een fout opgetreden. Probeer het opnieuw.",
+    "interest": "Waarin bent u geïnteresseerd?",
+    "interestNotSure": "Nog niet zeker",
+    "interestHelp": "Niet zeker wat u moet kiezen? Kies Nog niet zeker en wij helpen u de juiste volgende stap te bepalen.",
+    "messagePlaceholder": "Bijvoorbeeld: ik heb een nieuwe website nodig en wil leads automatisch opvolgen."
+  },
+  "blog": {
+    "title": "Blog",
+    "intro": "Inzichten, tips en nieuws over moderne websites.",
+    "readMore": "Verder lezen",
+    "back": "Terug naar de blog",
+    "empty": "Nog geen artikelen.",
+    "by": "door",
+    "ctaTitle": "Laten we het over uw digitale aanwezigheid hebben.",
+    "ctaButton": "Strategiegesprek boeken",
+    "authorName": "Tom de Vree",
+    "authorRole": "oprichter van amai!",
+    "authorBio": "Tom de Vree bouwt en onderhoudt websites, digitale platformen en automatiseringen voor Zwitserse kmo’s.",
+    "updatedLabel": "Bijgewerkt op"
+  },
+  "checkout": {
+    "title": "Abonnement starten",
+    "intro": "Kies uw abonnement, vul uw gegevens in en verstuur uw aanvraag. Wij nemen persoonlijk contact met u op.",
+    "payIntro": "Kies uw abonnement, vul uw gegevens in en rond de betaling veilig af.",
+    "payTitle": "Betaling",
+    "payBack": "Terug",
+    "choosePlan": "Abonnement kiezen",
+    "allIn": "Hosting, onderhoud en SEO inbegrepen",
+    "summary": "Samenvatting",
+    "selected": "Gekozen abonnement",
+    "payButton": "Verder naar betaling",
+    "requestButton": "Aanvragen",
+    "requestProcessing": "Wordt verzonden …",
+    "requestSuccessTitle": "Hartelijk dank voor uw aanvraag.",
+    "requestSuccessBody": "Wij hebben uw gegevens ontvangen en nemen zo snel mogelijk contact met u op.",
+    "requestError": "Uw aanvraag kon helaas niet worden verzonden. Probeer het opnieuw of neem rechtstreeks contact met ons op via hello@amai.ch.",
+    "consent": "Ik ga akkoord met de <privacy>privacyverklaring</privacy> en accepteer de <gtc>algemene voorwaarden</gtc>.",
+    "premiumTitle": "Iets op maat?",
+    "premiumNote": "Voor Software & Applications bespreken wij uw project persoonlijk en stellen wij een passende offerte op.",
+    "premiumCta": "Project bespreken",
+    "processing": "Wordt verwerkt …",
+    "errGeneric": "Er is een fout opgetreden. Probeer het opnieuw.",
+    "canceled": "De betaling is geannuleerd. U kunt het altijd opnieuw proberen.",
+    "successTitle": "Hartelijk dank! Uw abonnement is actief.",
+    "successBody": "Wij hebben uw bestelling ontvangen en nemen binnenkort contact op met de volgende stappen. Een bevestiging is onderweg naar uw mailbox.",
+    "successCta": "Naar de startpagina",
+    "servicesTitle": "Wilt u ook aanvullende diensten bespreken?",
+    "servicesHelp": "Deze keuze wijzigt uw huidige prijs niet. Wij bespreken ze na uw aanvraag met u.",
+    "stepperPlan": "Abonnement",
+    "stepperExtras": "Extra's",
+    "stepperData": "Gegevens",
+    "stepperPay": "Betaling",
+    "stepOf": "Stap {current} van {total}",
+    "extrasTitle": "Extra's kiezen",
+    "extrasMonthly": "Maandelijkse extra's",
+    "extrasOnce": "Eenmalige extra's",
+    "dataTitle": "Uw gegevens",
+    "continueExtras": "Verder naar de extra's",
+    "continueData": "Verder naar de gegevens",
+    "back": "Terug",
+    "orderTitle": "Bestelling",
+    "oneTime": "Eenmalig",
+    "oneTimeCosts": "Eenmalige kosten",
+    "notSelected": "niet gekozen",
+    "extrasLabel": "Extra's",
+    "payFinal": "Abonnement starten en betalen",
+    "orderAs": "Ik bestel als",
+    "asPerson": "Particulier",
+    "asCompany": "Bedrijf"
+  },
+  "portfolio": {
+    "eyebrow": "Portfolio",
+    "title": "Portfolio",
+    "intro": "Een blik op websites en digitale oplossingen die wij hebben gerealiseerd.",
+    "statusLive": "Live",
+    "statusDev": "In ontwikkeling",
+    "visit": "Naar de website"
+  },
+  "testimonial": {
+    "eyebrow": "Klantervaring",
+    "title": "Wat klanten zeggen",
+    "quote": "amai! heeft ons helder en persoonlijk door het hele proces geleid. Wij voelden ons betrokken zonder alles zelf te moeten managen. Onze website oogt nu professioneel en betrouwbaar. Wij bevelen amai! aan bij elke onderneming die een moderne website zonder stress wil.",
+    "author": "Poortland",
+    "role": "Poorten en overkappingen"
+  },
+  "cookie": {
+    "text": "Wij gebruiken cookies om onze website te verbeteren. U beslist wat u toestaat.",
+    "learnMore": "Meer weten",
+    "acceptAll": "Alles aanvaarden",
+    "necessary": "Alleen noodzakelijke",
+    "title": "Uw privacy, uw keuze",
+    "intro": "Kies zelf welke cookies we mogen gebruiken. Dit zijn de drie soorten:",
+    "necessaryTitle": "Noodzakelijk",
+    "necessaryText": "Onthoudt uw taalkeuze en deze cookiekeuze. Staat altijd aan en bevat geen persoonsgegevens.",
+    "analyticsTitle": "Analytisch (Google Analytics)",
+    "analyticsText": "Meet anoniem hoe bezoekers de site gebruiken: welke pagina's gelezen worden en waar bezoekers afhaken.",
+    "marketingTitle": "Marketing (Google Ads)",
+    "marketingText": "Meet welke campagnes tot een gesprek leiden zodat we onze advertenties kunnen verbeteren. Staat uit zonder toestemming.",
+    "analyticsOnly": "Alleen analytisch",
+    "reject": "Weigeren",
+    "privacy": "Privacybeleid"
+  },
+  "about": {
+    "eyebrow": "Over ons",
+    "title": "Persoonlijk, niet anoniem.",
+    "intro": "amai! maakt digitale oplossingen voor Zwitserse kmo's voorspelbaar en eenvoudig. Van websites over klantportalen en CRM tot automatiseringen en AI krijgt u één heldere partner in een maandabonnement, die met uw onderneming meegroeit.",
+    "nameTitle": "Waar amai! vandaan komt",
+    "nameText": "amai! komt uit het Antwerpse dialect en daarmee uit het Vlaams. Het is een uitroep van bewondering, een spontane wow wanneer iets echt overtuigt. Precies dat gevoel moet uw website bij uw bezoekers oproepen. Wij bouwen moderne, snelle en mobiele websites met inhoud die verkoopt, bijblijft en van bezoekers klanten maakt. Alles in één helder abonnement zonder grote aanvangsinvestering.",
+    "missionTitle": "Ons idee",
+    "missionText": "Veel kleine ondernemingen hebben een goede website nodig zonder technische ballast. Wij zorgen voor design, techniek, hosting, onderhoud, beveiliging en SEO basis, zodat u zich op uw zaak kunt concentreren. Omdat wij met AI werken, bouwen wij sneller en kostenefficiënter dan klassieke bureaus en bieden wij AI oplossingen zoals assistenten en automatiseringen als onderdeel van ons aanbod.",
+    "founderTitle": "Achter amai!",
+    "founderName": "Tom de Vree",
+    "founderRole": "Oprichter & eigenaar",
+    "founderText": "amai! wordt geleid door Tom de Vree en is gevestigd in Bern. Wij werken persoonlijk met zelfstandigen, lokale dienstverleners en kmo's in heel Zwitserland. U spreekt rechtstreeks met de persoon die uw website beheert.",
+    "ctaTitle": "Zin in een website die meegroeit?",
+    "ctaButton": "Contact opnemen"
+  },
+  "portal": {
+    "login": {
+      "title": "Aanmelden",
+      "intro": "Meld u aan met uw Email. Wij sturen u een aanmeldlink, geen wachtwoord nodig.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "u@bedrijf.ch",
+      "submit": "Aanmeldlink versturen",
+      "sending": "Wordt verzonden …",
+      "sentTitle": "Email onderweg",
+      "sent": "Controleer uw mailbox en open de aanmeldlink om verder te gaan.",
+      "error": "Dat is niet gelukt. Probeer het opnieuw.",
+      "backToSite": "Terug naar de website"
+    },
+    "nav": {
+      "title": "Klantomgeving",
+      "dashboard": "Overzicht",
+      "documents": "Documenten",
+      "requests": "Aanvragen",
+      "signOut": "Afmelden"
+    },
+    "dashboard": {
+      "title": "Overzicht",
+      "greeting": "Welkom, {name}",
+      "subStatus": "Uw abonnement",
+      "plan": "Plan",
+      "statusLabel": "Status",
+      "nextBilling": "Volgende facturatie",
+      "noSub": "Wij vinden nog geen actief abonnement voor uw account.",
+      "noSubHint": "Zodra uw betaling is verwerkt verschijnt uw abonnement hier. Bij vragen gebruikt u de aanvragen.",
+      "cancelNote": "Uw abonnement loopt af aan het einde van de huidige periode.",
+      "statuses": {
+        "active": "Actief",
+        "past_due": "Betaling openstaand",
+        "canceled": "Opgezegd",
+        "trialing": "Proefperiode",
+        "incomplete": "Onvolledig",
+        "incomplete_expired": "Verlopen",
+        "unpaid": "Onbetaald",
+        "paused": "Gepauzeerd"
+      }
+    },
+    "documents": {
+      "title": "Documenten",
+      "empty": "Hier verschijnen uw documenten zodra wij er voor u klaarzetten.",
+      "download": "Downloaden"
+    },
+    "requests": {
+      "title": "Aanvragen",
+      "intro": "Stel een vraag, meld een wijziging of vraag een offerte aan.",
+      "newTitle": "Nieuwe aanvraag",
+      "type": "Soort",
+      "subject": "Onderwerp",
+      "message": "Bericht",
+      "submit": "Aanvraag versturen",
+      "sent": "Bedankt, uw aanvraag is ontvangen. Wij nemen contact op.",
+      "errorMsg": "Vul onderwerp en bericht in.",
+      "listTitle": "Uw aanvragen",
+      "empty": "U heeft nog geen aanvragen ingediend.",
+      "types": {
+        "question": "Vraag",
+        "change": "Wijziging",
+        "quote": "Offerte"
+      },
+      "statuses": {
+        "new": "Nieuw",
+        "in_progress": "In behandeling",
+        "done": "Afgehandeld"
+      }
+    }
+  },
+  "serviceUi": {
+    "analysisEyebrow": "Voorbereiding",
+    "analysisTitle": "Business analyse",
+    "analysisText": "Software platforms starten altijd met een grondige business analyse. Wij brengen in kaart hoe gestandaardiseerd uw processen en werkwijzen zijn en leggen de verwachtingen en technische criteria vooraf vast. De kracht van deze projecten ligt in de voorbereiding.",
+    "before": "Voor",
+    "after": "Na",
+    "trigger": "Trigger",
+    "action": "Actie",
+    "result": "Resultaat",
+    "calendar": "Agenda",
+    "scenarioTag": "In de praktijk",
+    "scenarioProblem": "Probleem",
+    "scenarioSolution": "Oplossing",
+    "scenarioResult": "Resultaat",
+    "eyebrowChallenge": "De uitdaging",
+    "eyebrowEngine": "Zo werkt het",
+    "eyebrowExamples": "Voorbeelden",
+    "eyebrowProcess": "Zo bouwen we",
+    "eyebrowOutcomes": "Resultaten",
+    "eyebrowFaq": "FAQ",
+    "relatedTitle": "Gerelateerde diensten",
+    "entityLine": "amai! is een digitale partner uit Bern voor Zwitserse kmo's: websites, digitale platforms, consultancy, automatiseringen en AI oplossingen in één helder maandabonnement."
+  },
+  "whyAmai": {
+    "title": "Waarom amai!",
+    "lead": "Één partner voor uw hele online aanwezigheid tegen een eenvoudige maandprijs. Geen bureaus te coördineren, geen verrassende facturen, geen technisch gedoe. En omdat wij met AI werken, bouwen wij sneller en kostenefficiënter dan klassieke bureaus.",
+    "points": [
+      {
+        "title": "Eén abonnement, alles inbegrepen",
+        "text": "Design, hosting, beveiliging, onderhoud en SEO basis in één enkel maandabonnement."
+      },
+      {
+        "title": "Gebouwd om gevonden te worden",
+        "text": "SEO bepaalt hoe zoekmachines uw website vinden en rangschikken. Wij leggen deze basis vanaf het begin en vullen aan met GEO zodat ook AI assistenten u aanbevelen."
+      },
+      {
+        "title": "Zwitsers en persoonlijk",
+        "text": "Gevestigd in Bern, actief in het Duits, Frans en Engels. U bereikt een mens die antwoordt, geen anoniem ticket."
+      },
+      {
+        "title": "Geen technisch gedoe",
+        "text": "Wij nemen de techniek van begin tot einde op ons zodat u zich op uw zaak kunt concentreren."
+      }
+    ]
+  }
+}

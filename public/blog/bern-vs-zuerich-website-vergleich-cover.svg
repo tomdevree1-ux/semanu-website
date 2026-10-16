@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" role="img" aria-label="Städtevergleich: Bern 15,4 Prozent, Winterthur 11,7 Prozent, Zürich 9,7 Prozent, Basel 5,6 Prozent zeitgemässe Websites">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16233D"/><stop offset="1" stop-color="#0E1B33"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#93E6BE" stop-opacity="0.28"/><stop offset="1" stop-color="#93E6BE" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .mono{font-family:'Space Mono','DejaVu Sans Mono',monospace}
+      .sans{font-family:Archivo,'Helvetica Neue',Arial,sans-serif}
+      .black{font-family:'Archivo Black',Arial,sans-serif;font-weight:800}
+    </style>
+  </defs>
+  <rect width="1200" height="520" fill="url(#bg)"/>
+  <circle cx="1050" cy="80" r="330" fill="url(#glow)"/>
+  <text x="80" y="92" class="mono" font-size="19" letter-spacing="5" fill="#93E6BE">KMU WEBSITE BENCHMARK · STÄDTE</text>
+  <text x="78" y="168" class="black" font-size="56" fill="#FFFFFF">Bern oder Zürich: wer hat</text>
+  <text x="78" y="232" class="black" font-size="56" fill="#FFFFFF">die besseren Websites<tspan fill="#93E6BE">?</tspan></text>
+
+  <!-- mini ranked bars -->
+  <g transform="translate(80,300)" class="sans">
+    <text x="0" y="0" font-size="15" fill="#C7D0DE">Anteil zeitgemässer Websites je Stadt (Schweizer Schnitt 8,6%)</text>
+    <g transform="translate(0,22)">
+      <text x="0" y="15" font-size="16" fill="#F4F6FA">Bern</text>
+      <rect x="200" y="2" width="462" height="18" rx="4" fill="#93E6BE"/>
+      <text x="674" y="16" class="black" font-size="15" fill="#F4F6FA">15,4%</text>
+    </g>
+    <g transform="translate(0,52)">
+      <text x="0" y="15" font-size="16" fill="#F4F6FA">Winterthur</text>
+      <rect x="200" y="2" width="351" height="18" rx="4" fill="#93E6BE"/>
+      <text x="563" y="16" class="black" font-size="15" fill="#F4F6FA">11,7%</text>
+    </g>
+    <g transform="translate(0,82)">
+      <text x="0" y="15" font-size="16" fill="#F4F6FA">Zürich</text>
+      <rect x="200" y="2" width="291" height="18" rx="4" fill="#93E6BE"/>
+      <text x="503" y="16" class="black" font-size="15" fill="#F4F6FA">9,7%</text>
+    </g>
+    <g transform="translate(0,112)">
+      <text x="0" y="15" font-size="16" fill="#F4F6FA">Basel</text>
+      <rect x="200" y="2" width="168" height="18" rx="4" fill="#D1453B"/>
+      <text x="380" y="16" class="black" font-size="15" fill="#F4F6FA">5,6%</text>
+    </g>
+  </g>
+
+  <text x="80" y="470" class="black" font-size="30" fill="#F4F6FA">amai<tspan fill="#93E6BE">!</tspan> <tspan class="sans" font-weight="400" font-size="20" fill="#F4F6FA" opacity="0.7">2292 KMU Websites bewertet</tspan></text>
+</svg>

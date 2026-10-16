@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1702 630" role="img" aria-label="amai! — Moderne Websites für Schweizer Unternehmen, ab 49 CHF pro Monat">
+  <rect width="1702" height="630" fill="#E5392B"/>
+
+  <!-- decorative brand shapes -->
+  <circle cx="1560" cy="80" r="360" fill="#FBF1EF" opacity="0.06"/>
+  <circle cx="250" cy="600" r="220" fill="#4A1419" opacity="0.18"/>
+  <circle cx="1500" cy="540" r="170" fill="#F7B500" opacity="0.10"/>
+
+  <!-- left text block (kept inside the mobile safe zone) -->
+  <text x="240" y="180" font-family="'DejaVu Sans Mono',monospace" font-size="26" letter-spacing="7" fill="#F7B500">WEBSITE ABO · SCHWEIZ</text>
+
+  <g transform="translate(240 350)">
+    <text x="0" y="0" font-family="'Archivo','Arial Black',sans-serif" font-weight="900" font-size="160" fill="#FBF1EF" stroke="#FBF1EF" stroke-width="4" paint-order="stroke">amai</text>
+    <!-- custom gold "!" -->
+    <polygon points="398,-126 438,-126 429,-14 405,-14" fill="#F7B500"/>
+    <rect x="405" y="6" width="33" height="37" rx="5" fill="#F7B500"/>
+  </g>
+
+  <text x="242" y="448" font-family="'Archivo','Arial',sans-serif" font-weight="700" font-size="46" fill="#FBF1EF" stroke="#FBF1EF" stroke-width="1">Moderne Websites für Schweizer</text>
+  <text x="242" y="512" font-family="'Archivo','Arial',sans-serif" font-weight="700" font-size="46" fill="#FBF1EF" stroke="#FBF1EF" stroke-width="1">Unternehmen, ab <tspan fill="#F7B500" stroke="#F7B500">49 CHF</tspan> pro Monat.</text>
+
+  <text x="242" y="578" font-family="'DejaVu Sans Mono',monospace" font-size="26" fill="#FBF1EF" opacity="0.9">amai.ch</text>
+
+  <!-- decorative browser mock (desktop right side) -->
+  <g transform="translate(1190 200) rotate(-5)">
+    <rect x="0" y="0" width="420" height="240" rx="20" fill="#4A1419"/>
+    <circle cx="30" cy="30" r="8" fill="#F7B500"/>
+    <circle cx="56" cy="30" r="8" fill="#7A3A33"/>
+    <circle cx="82" cy="30" r="8" fill="#7A3A33"/>
+    <rect x="16" y="56" width="388" height="168" rx="12" fill="#FBF1EF"/>
+    <rect x="16" y="56" width="388" height="44" rx="12" fill="#F7B500"/>
+    <rect x="40" y="124" width="150" height="14" rx="7" fill="#4A1419" opacity="0.8"/>
+    <rect x="40" y="150" width="250" height="10" rx="5" fill="#f6e4e1"/>
+    <rect x="40" y="170" width="210" height="10" rx="5" fill="#f6e4e1"/>
+    <rect x="40" y="192" width="110" height="22" rx="11" fill="#E5392B"/>
+  </g>
+</svg>

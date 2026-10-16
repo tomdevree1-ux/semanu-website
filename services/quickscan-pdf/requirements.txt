@@ -1,0 +1,5 @@
+fastapi>=0.110
+uvicorn[standard]>=0.27
+weasyprint==69.0
+matplotlib==3.10.9
+numpy==2.2.6

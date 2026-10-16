@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" role="img" aria-label="Eine Website, die auf beiden Seiten des Röstigrabens gefunden wird">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1B2A4A"/>
+      <stop offset="1" stop-color="#0E1B33"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#93E6BE" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#93E6BE" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .mono{font-family:'Space Mono','DejaVu Sans Mono',monospace}
+      .sans{font-family:Archivo,'Helvetica Neue',Arial,sans-serif}
+      .black{font-family:'Archivo Black',Arial,sans-serif;font-weight:800}
+    </style>
+  </defs>
+
+  <rect width="1200" height="520" fill="url(#bg)"/>
+  <circle cx="1060" cy="80" r="340" fill="url(#glow)"/>
+  <circle cx="140" cy="480" r="230" fill="url(#glow)"/>
+
+  <!-- eyebrow -->
+  <text x="80" y="92" class="mono" font-size="20" letter-spacing="6" fill="#93E6BE">ZWEISPRACHIG · DE / FR / EN</text>
+  <!-- headline -->
+  <text x="78" y="168" class="black" font-size="60" fill="#FFFFFF">Gefunden auf beiden Seiten</text>
+  <text x="78" y="234" class="black" font-size="60" fill="#FFFFFF">des Röstigrabens<tspan fill="#93E6BE">!</tspan></text>
+
+  <!-- card -->
+  <g transform="translate(78,284)">
+    <rect x="0" y="0" width="1044" height="180" rx="18" fill="#FFFFFF"/>
+
+    <!-- DE search -->
+    <g transform="translate(34,30)">
+      <text x="0" y="14" class="mono" font-size="13" letter-spacing="3" fill="#6B7684">SUCHE · DE</text>
+      <rect x="0" y="26" width="300" height="40" rx="20" fill="#EEF1F6"/>
+      <text x="20" y="52" class="sans" font-size="17" fill="#1B2A4A">Schreinerei Biel</text>
+      <g transform="translate(0,84)">
+        <circle cx="13" cy="13" r="13" fill="#E9F3EE"/>
+        <path d="M7 13 L11 17 L19 9" fill="none" stroke="#1F8A4C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="40" y="19" class="sans" font-size="18" fill="#1B2A4A">Ihre Firma, Platz 1</text>
+      </g>
+    </g>
+
+    <!-- divider (the Röstigraben) -->
+    <path d="M362 26 C 352 70, 374 110, 362 154" fill="none" stroke="#93E6BE" stroke-width="4" stroke-dasharray="8 8" stroke-linecap="round"/>
+
+    <!-- FR search -->
+    <g transform="translate(392,30)">
+      <text x="0" y="14" class="mono" font-size="13" letter-spacing="3" fill="#6B7684">RECHERCHE · FR</text>
+      <rect x="0" y="26" width="300" height="40" rx="20" fill="#EEF1F6"/>
+      <text x="20" y="52" class="sans" font-size="17" fill="#1B2A4A">menuiserie Bienne</text>
+      <g transform="translate(0,84)">
+        <circle cx="13" cy="13" r="13" fill="#E9F3EE"/>
+        <path d="M7 13 L11 17 L19 9" fill="none" stroke="#1F8A4C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="40" y="19" class="sans" font-size="18" fill="#1B2A4A">Votre entreprise, 1re place</text>
+      </g>
+    </g>
+
+    <!-- side stat -->
+    <g transform="translate(720,30)">
+      <rect x="0" y="0" width="290" height="122" rx="14" fill="#EEF1F6"/>
+      <text x="24" y="40" class="mono" font-size="13" letter-spacing="3" fill="#6B7684">HAUPTSPRACHE CH</text>
+      <text x="24" y="86" class="black" font-size="36" fill="#1B2A4A">62<tspan class="mono" font-size="18" fill="#1F8A4C"> % DE </tspan>23<tspan class="mono" font-size="18" fill="#1F8A4C"> % FR</tspan></text>
+      <text x="24" y="108" class="mono" font-size="12" fill="#6B7684">Quelle: Bundesamt für Statistik</text>
+    </g>
+  </g>
+</svg>

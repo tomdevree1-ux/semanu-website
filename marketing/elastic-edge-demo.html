@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>amai! — elastische roze onderrand (demo)</title>
+<style>
+  :root{
+    --pink:#FBF1EF;      /* roze sectie */
+    --white:#ffffff;     /* sectie eronder = vulkleur van de wave */
+    --brown:#4A1419;     /* actieve kaart */
+    --line:#efe2df;
+    --gold:#F7B500;
+    --ease:cubic-bezier(0.22,1,0.36,1);
+    --dip:78px;          /* hoe ver de actieve kaart naar beneden steekt */
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#fff;color:#4A1419}
+
+  /* ===== roze sectie ===== */
+  .abo-section{
+    position:relative;
+    background:var(--pink);
+    padding:80px 0 0;          /* onderaan geen padding: de wave vormt de rand */
+    overflow:visible;
+  }
+  .abo-inner{position:relative;z-index:2;padding-bottom:120px}  /* ruimte voor de wave */
+
+  .cards{
+    display:flex;
+    align-items:flex-start;     /* belangrijk: actieve kaart mag onderaan uitsteken */
+    gap:2.5%;
+    padding:0 5%;               /* zelfde % als de wave-uitlijning */
+  }
+  .card{
+    flex:1 1 0;
+    min-height:170px;
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:16px;
+    padding:24px;
+    text-align:center;
+    transition:background .55s var(--ease), color .55s var(--ease),
+               min-height .55s var(--ease), margin-bottom .55s var(--ease);
+    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;
+  }
+  .card .ic{width:54px;height:54px;border-radius:50%;background:rgba(229,57,43,.10);
+            display:flex;align-items:center;justify-content:center;color:#E5392B;font-size:22px}
+  .card h3{margin:0;font-size:18px}
+  .card .more{max-height:0;overflow:hidden;opacity:0;font-size:14px;color:#6b4a4f;
+              transition:max-height .55s var(--ease),opacity .35s var(--ease)}
+
+  /* ===== actieve kaart: bruin + steekt naar beneden uit ===== */
+  .card:hover,.card:focus-within{
+    background:var(--brown);
+    color:#fff;
+    z-index:3;
+    min-height:calc(170px + var(--dip));   /* wordt hoger ... */
+    margin-bottom:calc(var(--dip) * -1);   /* ... maar duwt de layout niet weg → steekt uit */
+  }
+  .card:hover .ic,.card:focus-within .ic{background:rgba(255,255,255,.12);color:var(--gold)}
+  .card:hover .more,.card:focus-within .more{max-height:120px;opacity:1;color:#f3d9d4}
+
+  /* ===== de vloeiende onderrand (wave) ===== */
+  .abo-bottom-shape{
+    position:absolute;left:0;bottom:-1px;width:100%;height:130px;
+    fill:var(--white);z-index:1;pointer-events:none;display:block;
+  }
+  .abo-bottom-shape path{
+    /* DEFAULT: rechte lijn (zelfde commandostructuur als de dips, diepte 0) */
+    d:path("M0,0 H590 C665,0 645,0 720,0 C795,0 775,0 850,0 H1440 V160 H0 Z");
+    transition:d .6s var(--ease);
+  }
+  /* per kaart een uitsparing onder de juiste kolom (4 kaarten) */
+  .abo-section:has(.card:nth-child(1):hover) .abo-bottom-shape path{
+    d:path("M0,0 H55 C130,0 140,115 220,115 C300,115 310,0 385,0 H1440 V160 H0 Z");
+  }
+  .abo-section:has(.card:nth-child(2):hover) .abo-bottom-shape path{
+    d:path("M0,0 H388 C463,0 473,115 553,115 C633,115 643,0 718,0 H1440 V160 H0 Z");
+  }
+  .abo-section:has(.card:nth-child(3):hover) .abo-bottom-shape path{
+    d:path("M0,0 H721 C796,0 806,115 886,115 C966,115 976,0 1051,0 H1440 V160 H0 Z");
+  }
+  .abo-section:has(.card:nth-child(4):hover) .abo-bottom-shape path{
+    d:path("M0,0 H1054 C1129,0 1139,115 1219,115 C1299,115 1309,0 1384,0 H1440 V160 H0 Z");
+  }
+
+  /* ===== sectie eronder ===== */
+  .next-section{background:var(--white);padding:70px 5% 120px}
+  .next-section h2{margin:0 0 8px;font-size:26px}
+  .next-section p{margin:0;color:#6b4a4f;max-width:640px}
+
+  .hint{padding:16px 5% 0;color:#9a8589;font-size:14px}
+
+  /* respecteer reduced motion */
+  @media (prefers-reduced-motion: reduce){
+    .card,.card .more,.abo-bottom-shape path{transition:none}
+  }
+</style>
+</head>
+<body>
+  <p class="hint">Beweeg met de muis over een kaart. Hover de linkse kaart voor de situatie uit je screenshot.</p>
+
+  <section class="abo-section">
+    <div class="abo-inner">
+      <div class="cards">
+        <div class="card" tabindex="0">
+          <div class="ic">✎</div>
+          <h3>Website Design</h3>
+          <div class="more">Modern und auf Ihre Marke abgestimmt.</div>
+        </div>
+        <div class="card" tabindex="0">
+          <div class="ic">▤</div>
+          <h3>Hosting</h3>
+          <div class="more">Im Abo enthalten, ohne Zusatzkosten.</div>
+        </div>
+        <div class="card" tabindex="0">
+          <div class="ic">⌕</div>
+          <h3>SEO</h3>
+          <div class="more">Damit Kunden Sie bei Google finden.</div>
+        </div>
+        <div class="card" tabindex="0">
+          <div class="ic">⛨</div>
+          <h3>Sicherheit</h3>
+          <div class="more">Updates und Sicherheit, automatisch.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- de doorlopende, buigende onderrand -->
+    <svg class="abo-bottom-shape" viewBox="0 0 1440 160" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,0 H590 C665,0 645,0 720,0 C795,0 775,0 850,0 H1440 V160 H0 Z" />
+    </svg>
+  </section>
+
+  <section class="next-section">
+    <h2>Die weisse Sektion</h2>
+    <p>Diese Sektion schliesst sauber unter der gebogenen Kante an. Die Welle ist mit der Farbe dieser Sektion gefüllt, dadurch entsteht die Aussparung in der rosa Kante.</p>
+  </section>
+</body>
+</html>

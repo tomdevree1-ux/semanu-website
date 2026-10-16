@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="amai! — Moderne Websites für Schweizer Unternehmen">
+  <!-- Dark teal-black "footer" background. Mono text uses DejaVu Sans Mono because Space Mono
+       renders as tofu in cairosvg; the live site still uses real Space Mono via next/font. -->
+  <rect width="1200" height="630" fill="#07221F"/>
+  <circle cx="1060" cy="120" r="320" fill="#93E6BE" opacity="0.12"/>
+  <circle cx="60" cy="600" r="170" fill="#1B2A4A" opacity="0.35"/>
+
+  <text x="82" y="112" font-family="'DejaVu Sans Mono',monospace" font-size="25" letter-spacing="6" fill="#93E6BE">WEBSITE ABOS · SCHWEIZ</text>
+
+  <text x="80" y="272" font-family="'Archivo Black','Arial Black',system-ui,sans-serif" font-size="150"><tspan fill="#EEF1F6">amai</tspan><tspan fill="#93E6BE">!</tspan></text>
+
+  <text x="82" y="382" font-family="'Archivo','Arial',system-ui,sans-serif" font-weight="700" font-size="46" fill="#EEF1F6">Moderne Websites für Schweizer</text>
+  <text x="82" y="440" font-family="'Archivo','Arial',system-ui,sans-serif" font-weight="700" font-size="46" fill="#EEF1F6">Unternehmen, ab <tspan fill="#93E6BE">25 CHF</tspan> pro Monat.</text>
+
+  <text x="82" y="540" font-family="'DejaVu Sans Mono',monospace" font-size="23" fill="#EEF1F6" opacity="0.8">amai.ch</text>
+</svg>

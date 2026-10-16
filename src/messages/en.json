@@ -1,0 +1,710 @@
+{
+  "notFound": {
+    "eyebrow": "404",
+    "title": "Page not found",
+    "text": "The page you are looking for does not exist or has moved. These links will get you back on track.",
+    "home": "Back to homepage",
+    "services": "Browse services",
+    "contact": "Contact us"
+  },
+  "meta": {
+    "title": "Web agency in Bern: websites, platforms and AI for SMEs · amai.ch",
+    "description": "amai! builds websites, client portals, CRM and automations for Swiss SMEs. One partner, one clear monthly plan, personal from Bern."
+  },
+  "banner": {
+    "studyText": "New: 2292 Swiss SME websites reviewed. Only 9 percent are up to date.",
+    "studyCta": "Read the study",
+    "studyClose": "Dismiss",
+    "studyEyebrow": "New study"
+  },
+  "lang": {
+    "label": "Language",
+    "de": "DE",
+    "fr": "FR",
+    "en": "EN",
+    "es": "ES",
+    "nl": "NL"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "aboutUs": "About us",
+    "plans": "Pricing",
+    "how": "How it works",
+    "work": "Client stories",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "analysis": "Website SEO analysis",
+    "strategyCall": "Book a strategy call",
+    "cta": "Let’s start",
+    "services": "Services",
+    "servicesMega": "Our services",
+    "servicesMore": "More",
+    "servicesAll": "All services",
+    "howDesc": "Our process in five steps",
+    "plansDesc": "Website plans and pricing",
+    "faqDesc": "Answers to common questions",
+    "aboutDesc": "Who is behind amai!",
+    "blogDesc": "Insights and tips about websites",
+    "contactDesc": "Let us talk about your project",
+    "start": "Get started",
+    "pill3d": "3D configurators",
+    "pillAi": "Business software"
+  },
+  "funnel": {
+    "metaTitle": "Free website analysis Switzerland",
+    "metaDescription": "Have your website analysed now and get an objective report with concrete improvements. Free and no obligation.",
+    "eyebrow": "Free website analysis",
+    "title": "Get your current website analysed for free.",
+    "intro": "You get an objective report with concrete improvements for visibility, speed and impact. Free and no obligation.",
+    "benefitsTitle": "What you get",
+    "benefits": [
+      "An honest assessment of your current website",
+      "Concrete recommendations for more visibility and enquiries",
+      "A clear view of speed, tech and SEO basics"
+    ],
+    "afterTitle": "What happens next",
+    "afterText": "We get back to you within two working days with your analysis. No sales pressure, just a clear assessment.",
+    "sampleTitle": "What your report looks like",
+    "sampleIntro": "Page through a real example of a free website analysis.",
+    "samplePage": "Page",
+    "sampleOf": "of",
+    "samplePrev": "Previous",
+    "sampleNext": "Next",
+    "sampleDownload": "Download as PDF",
+    "sampleAlt": "Sample report page",
+    "close": "Close",
+    "formTitle": "Request your analysis",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "website": "Your website",
+    "consent": "I accept the privacy policy and consent to my data being processed.",
+    "marketing": "I would like to receive occasional tips and news from amai! (optional)",
+    "submit": "Request analysis",
+    "sending": "Sending …",
+    "okTitle": "Thank you!",
+    "okText": "Request received! Our team is putting your website through a thorough analysis and your personal report will land in your inbox within 24 hours. Keep an eye out!",
+    "okButton": "Got it",
+    "dupTitle": "Request already in progress",
+    "dupText": "You already requested an analysis with this email on {date}. Your report is on its way to this inbox. You can request a new analysis after 30 days.",
+    "errRequired": "Please fill in this field.",
+    "errEmail": "Please enter a valid Email address.",
+    "errConsent": "Please accept the privacy policy.",
+    "errGeneric": "Something went wrong. Please try again.",
+    "errRateLimit": "Too many requests. Please try again later."
+  },
+  "hero": {
+    "eyebrow": "Digital solutions with AI",
+    "h1": "<line>One partner</line><line>for everything <accent>digital</accent>.</line>",
+    "sub": "Everything your business needs online, built faster and more affordably with AI. <brand></brand> builds custom websites, digital platforms and automations for businesses that want to grow faster online.",
+    "cta1": "Let’s start",
+    "cta2": "View website plans",
+    "mock": "Everything in one place",
+    "callCta": "Book a strategy call",
+    "trust": "For SMEs, self employed professionals and local companies\nin Switzerland.",
+    "stats": {
+      "leistungen": {
+        "label": "Services",
+        "value": "6"
+      },
+      "ansprechpartner": {
+        "label": "Contact person",
+        "value": "1"
+      },
+      "aboAb": {
+        "label": "Plan from",
+        "value": "99 CHF/mo"
+      },
+      "standort": {
+        "label": "Location",
+        "value": "Bern, Switzerland"
+      }
+    }
+  },
+  "price": {
+    "eyebrow": "Prices",
+    "h2": "Transparent prices, agreed upfront.",
+    "intro": "A clear overview of your digital setup, all agreed upfront and with no hidden costs. Websites, digital platforms, consultancy, automations and AI run as a monthly plan; only logo + brand guidelines and business analysis are one time services.",
+    "aboLink": "How the website subscription works",
+    "calcTitle": "Website cost calculator: what does your website cost per month?",
+    "calcIntro": "Pick your situation, scope and features and you see the monthly price right away. Website from 99 CHF, webshop from 125 CHF, all inclusive, 36 month minimum term.",
+    "summary": "A professional website at amai! costs from CHF 99 per month (Business) or CHF 125 (Webshop). Hosting, maintenance and SEO foundations are included and there are no large upfront costs.",
+    "metaDescription": "What does a website cost in Switzerland? Website prices from 99 CHF per month, webshop from 125 CHF. Design, hosting, maintenance and SEO basics included, 36 month minimum term.",
+    "plansEyebrow": "Website plans",
+    "plansTitle": "Website plans with a fixed monthly price",
+    "plansSub": "Every package includes design, development and SEO. Hosting and maintenance are always included in the subscription. Minimum term 36 months, then cancellable monthly.",
+    "guideTitle": "Which plan suits you?",
+    "guideBusiness": "Business suits you if you need more pages, more trust and a website that can grow with you.",
+    "guideWebshop": "Webshop suits you if you sell products online and want a website with a shop.",
+    "guideSoftware": "Software & Applications suits you if you need custom software or web applications.",
+    "guideHint": "Not sure? Tell us briefly what you need, we honestly recommend the plan that fits.",
+    "guideCta": "Get in touch",
+    "svcTitle": "Further digital solutions",
+    "svcIntro": "Portals, CRM, automations, dashboards and AI assistants are scoped to your needs. We discuss scope and price transparently upfront.",
+    "availAddon": "Available as add on",
+    "ctaDiscuss": "Discuss this add on",
+    "ctaAdvice": "Request advice",
+    "from": "from",
+    "adsDesc": "Paid campaigns that make you visible where your customers search.",
+    "faqTitle": "Common questions about pricing and plans",
+    "faq": [
+      {
+        "q": "What does a website cost in Switzerland?",
+        "a": "A website starts from 99 CHF per month and a webshop from 125 CHF per month. The monthly price covers design, hosting, maintenance and SEO foundations without a large one time invoice."
+      },
+      {
+        "q": "Are hosting and maintenance included?",
+        "a": "Yes. Hosting, technical updates and ongoing security are part of the monthly plan. There is no separate invoice for it."
+      },
+      {
+        "q": "Is there a minimum term?",
+        "a": "The minimum term is 36 months, after that the plan is cancellable monthly. All prices are excl. VAT."
+      },
+      {
+        "q": "What are web design prices in Switzerland?",
+        "a": "Classic Swiss agencies usually charge a four figure one off amount for an SME website, plus hosting and maintenance per year. At amai! you pay from 99 CHF per month instead and design, build, hosting and maintenance are included."
+      },
+      {
+        "q": "What does a website cost per month in Switzerland?",
+        "a": "At amai! a website costs from 99 CHF per month, a webshop from 125 CHF per month, excl. VAT. Everything is included: design, build, hosting, maintenance and SEO basics. There is no deposit and no separate hosting invoice. The minimum term is 36 months."
+      }
+    ],
+    "seoTitle": "Website prices Switzerland: what does a website cost?",
+    "seoBody": "A professional website at amai! costs from 99 CHF per month, a webshop from 125 CHF per month, excl. VAT. That price covers design, technical build, hosting, maintenance and SEO basics. In Switzerland, web design prices for a comparable project quickly reach several thousand francs as a one off and hosting and maintenance come on top. We spread the same work across a monthly amount, so you know the website prices from the start and get no follow up invoice. The exact price is agreed upfront, as soon as the scope is clear."
+  },
+  "plan": {
+    "b": {
+      "badge": "Popular",
+      "name": "Business Website",
+      "price": "79 CHF",
+      "per": "/ month",
+      "desc": "Professional multi page website for growing businesses",
+      "features": [
+        "Up to 10 pages",
+        "Custom design",
+        "Mobile First",
+        "Contact form",
+        "SEO optimisation",
+        "Start within a few working days",
+        "Hosting and maintenance included"
+      ],
+      "cta": "Order now"
+    },
+    "w": {
+      "name": "Webshop",
+      "price": "99 CHF",
+      "per": "/ month",
+      "desc": "Custom webshop",
+      "features": [
+        "Full webshop setup",
+        "Product and order management",
+        "Online payments",
+        "Customer accounts",
+        "SEO optimisation",
+        "Start within a few working days",
+        "Hosting and maintenance included"
+      ],
+      "cta": "Order now"
+    },
+    "p": {
+      "name": "Software & Applications",
+      "from": "from",
+      "price": "99 CHF",
+      "per": "/ month",
+      "desc": "Custom software",
+      "features": [
+        "Rental and booking systems",
+        "Point of sale software",
+        "CRM made to measure",
+        "Accounting system",
+        "Database with AI analysis",
+        "Customer platforms",
+        "Hosting and maintenance included"
+      ],
+      "cta": "Discuss your project"
+    }
+  },
+  "addon": {
+    "badge": "New!",
+    "title": "Logo + brand guidelines",
+    "desc": "A matching logo and a compact brand guide (colours, fonts, usage) for a consistent identity.",
+    "price": "+750 CHF",
+    "once": "one time",
+    "cta": "Order",
+    "features": [
+      "A unique logo",
+      "Fully custom design"
+    ],
+    "guidelinesTitle": "Professional brand guidelines",
+    "guidelines": [
+      "Colours",
+      "Fonts",
+      "Labels",
+      "Do's and don'ts",
+      "Favicon"
+    ]
+  },
+  "googleAds": {
+    "eyebrow": "Google Ads",
+    "title": "Google Ads management",
+    "priceLabel": "Management from",
+    "price": "195 CHF",
+    "per": "/ month",
+    "cta": "Order",
+    "features": [
+      "Setup Google Ads campaigns",
+      "Monthly optimisation and reporting",
+      "Shopping Ads for webshops",
+      "Conversion tracking and audience analysis"
+    ],
+    "note": "The advertising budget itself is not included in this price."
+  },
+  "promo": {
+    "stamp": "Offer",
+    "eyebrow": "Limited offer",
+    "title": "Logo + brand guidelines at a special price",
+    "body": "Now CHF {promo} instead of CHF {regular}. You save CHF {save}.",
+    "save": "You save CHF {save}",
+    "cta": "Get the offer",
+    "close": "Close",
+    "until": "Only until {date}"
+  },
+  "footer": {
+    "tagline": "The digital partner for Swiss SMEs: consultancy, automation, custom software and 3D configurators.",
+    "servicesTitle": "Services",
+    "companyTitle": "Company",
+    "navTitle": "Navigation",
+    "legalTitle": "Legal",
+    "contactTitle": "Contact",
+    "location": "Wylerstrasse 75, Bern",
+    "rights": "All rights reserved.",
+    "langLabel": "Language",
+    "topicsTitle": "Topics",
+    "topics": {
+      "digitalisierung": "Digitalisation for SMEs",
+      "websiteAbo": "Website subscription",
+      "webdesign": "Web design for SMEs",
+      "erstellen": "Have a website made",
+      "betreuung": "Website support",
+      "selbststaendig": "For the self employed",
+      "lokal": "Local businesses",
+      "seo": "SEO foundations",
+      "geo": "GEO for Swiss SMEs",
+      "preise": "Website prices Switzerland",
+      "konfigurator": "3D configurator"
+    },
+    "freeToolsTitle": "Free tools",
+    "freeTools": {
+      "analysis": "Free website analysis"
+    },
+    "legal": {
+      "imprint": "Imprint",
+      "privacy": "Privacy policy",
+      "gtc": "General terms (GTC)",
+      "subTerms": "Subscription terms",
+      "cookies": "Cookies",
+      "contactPrefs": "Contact preferences"
+    }
+  },
+  "common": {
+    "skipToContent": "Skip to content",
+    "learnMore": "Learn more",
+    "vatNote": "All prices excl. VAT. Website plans with a 36 month minimum term, then cancellable monthly."
+  },
+  "home": {
+    "title": "Explore amai!",
+    "intro": "Plans, process, answers and contact, all in one place.",
+    "moreTitle": "More than a website",
+    "moreText": "Your website can become the starting point for marketing, automation and smarter business systems.",
+    "moreCta": "Explore services"
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "h2": "Five steps, zero hassle.",
+    "text": "From the first idea to the finished website, we guide you personally, step by step. Design, build, hosting, maintenance and SEO are part of the subscription, so your business gets found online in Switzerland and stays visible for the long run.",
+    "metaDescription": "How the amai! website subscription works: discovery call, digital signup, delivery within a few business days and ongoing support. Modern web design for SMEs in Switzerland.",
+    "steps": [
+      {
+        "title": "Discovery call",
+        "body": "We get to know each other, you introduce your company and share your wishes, your goals and a moodboard if you have one. That way we understand what makes your brand yours and what matters most to you."
+      },
+      {
+        "title": "Subscribe to the plan that fits your business",
+        "chip": "Start within a few working days",
+        "body": "Signing up is fully digital, simple and quick. As soon as your first payment arrives, we start on your design within a few working days. No waiting, no paperwork, you give the go ahead and we get moving."
+      },
+      {
+        "title": "We turn your needs into a blueprint",
+        "body": "In a structured session and with a questionnaire we capture your wishes and requirements. From these we shape a clear blueprint. The build starts only after your approval. This way we work professionally and to a fixed method."
+      },
+      {
+        "title": "We build your website",
+        "body": "Your dream website takes shape, modern, fast and mobile friendly. At fixed check ins we share progress, you give feedback and we adjust where needed. Depending on your plan, there is room for ongoing tweaks, so the result truly fits."
+      },
+      {
+        "title": "We maintain and improve continuously",
+        "body": "After launch, we stay by your side. Updates, security and hosting are part of your subscription. Changes and new features happen flexibly, at the hourly rate of 95 CHF."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "h2": "Frequently asked questions",
+    "items": [
+      {
+        "q": "Do I own the website?",
+        "a": "Yes. Your content and your domain name belong to you. Design and code are provided as part of the subscription; the exact handover terms are described in our subscription terms."
+      },
+      {
+        "q": "What happens if I cancel?",
+        "a": "After the agreed notice period the subscription ends. We clarify the handover of domain and content in advance so there are no surprises."
+      },
+      {
+        "q": "Are hosting and maintenance included?",
+        "a": "Yes. Hosting, technical updates, basic security and ongoing maintenance are part of the subscription."
+      },
+      {
+        "q": "Can I request content changes?",
+        "a": "Yes. Changes after launch are billed transparently at the hourly rate of 95 CHF. Larger requests are estimated in advance."
+      },
+      {
+        "q": "Can I upgrade later?",
+        "a": "Yes, you can move up to a higher plan whenever your needs grow."
+      },
+      {
+        "q": "What does SEO foundation mean?",
+        "a": "SEO (search engine optimisation) helps your website get found more easily on Google. We set up the technical and content basics: structure, speed, meta tags and local foundations. Specific Google rankings cannot, however, be guaranteed."
+      },
+      {
+        "q": "Can you replace my existing website?",
+        "a": "Yes. We build a new, modern website and handle the transition from your existing site cleanly."
+      },
+      {
+        "q": "Do you also build websites with login areas or customer portals?",
+        "a": "Yes, through Software & Applications: customer portals, login areas, dashboards and custom workflows."
+      },
+      {
+        "q": "Do you work with Swiss companies?",
+        "a": "Yes. amai! focuses on SMEs, self employed professionals and local companies in Switzerland."
+      },
+      {
+        "q": "Do you also offer a logo and brand guidelines?",
+        "a": "Yes. On request we design a matching logo and a compact brand guide (colours, fonts, usage), a one time add-on in addition to your subscription. You can find the current price on the pricing page."
+      },
+      {
+        "q": "Do you only build websites?",
+        "a": "No. Websites are the starting point for many clients but amai! also helps with email marketing, marketing automation, booking systems, business systems and AI assistants."
+      },
+      {
+        "q": "Do you work with AI?",
+        "a": "Yes. We use AI in our build process, so we build faster and at a lower cost than traditional agencies. We also offer AI solutions like assistants and automations as part of our service."
+      },
+      {
+        "q": "Can I start with a website and add other services later?",
+        "a": "Yes. This is often the best approach. You can start with a professional website and add email marketing, automation, booking or business systems when your company is ready."
+      },
+      {
+        "q": "What is marketing automation?",
+        "a": "Marketing automation means that repeated marketing tasks happen automatically. For example, a lead can receive a follow up email after filling in a form or a customer can receive an appointment reminder automatically."
+      },
+      {
+        "q": "What is a CRM?",
+        "a": "A CRM is a system for managing leads, customers, communication and follow up. It helps you keep customer information in one clear place."
+      },
+      {
+        "q": "What is a customer portal?",
+        "a": "A customer portal is a private online environment where customers can log in, view information, upload documents, follow updates or access files."
+      },
+      {
+        "q": "Are AI assistants useful for small businesses?",
+        "a": "Yes, when they solve a practical problem. AI assistants can help answer common questions, qualify leads, search documents or support your team with repetitive work."
+      },
+      {
+        "q": "What is GEO?",
+        "a": "GEO means Generative Engine Optimisation. It helps AI search systems understand your business, your services and your expertise so they can describe and recommend you more accurately."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "h2": "Let’s talk about your project.",
+    "intro": "A question, a quote or just a quick chat? Drop us a line. You’ll get a personal reply, not an anonymous ticket.",
+    "bookHint": "Or pick a time directly: 30 minutes, free and without obligation.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "cityLabel": "City",
+    "city": "Bern",
+    "timeLabel": "Response time",
+    "time": "Usually within 1 business day",
+    "formTitle": "Send a message",
+    "formSub": "We’ll get back to you personally.",
+    "okTitle": "Thanks for your message!",
+    "okText": "We’ll reply personally and as soon as possible.",
+    "sendTitle": "What you can send us",
+    "sendItems": [
+      "What it is about and your goal",
+      "Examples you like",
+      "Your sector and your town",
+      "An existing website, if you have one"
+    ],
+    "afterTitle": "After you send",
+    "afterText": "We get back to you within 1 working day. No obligation."
+  },
+  "form": {
+    "firstname": "First name",
+    "lastname": "Last name",
+    "email": "Email",
+    "phone": "Phone",
+    "phoneRecommended": "Phone (optional, recommended)",
+    "company": "Company",
+    "website": "Website (optional)",
+    "companyName": "Company name",
+    "vat": "UID / VAT number (optional)",
+    "street": "Street and number",
+    "postalCode": "Postal code",
+    "city": "City",
+    "country": "Country",
+    "message": "Message",
+    "lang": "Preferred language",
+    "consent": "I agree to the processing of my data in accordance with the privacy policy.",
+    "send": "Send message",
+    "sending": "Sending …",
+    "errRequired": "This field is required.",
+    "errEmail": "Please enter a valid email address.",
+    "errPhone": "Please enter a valid phone number.",
+    "errConsent": "Please accept the processing.",
+    "errGeneric": "Something went wrong. Please try again.",
+    "interest": "What are you interested in?",
+    "interestNotSure": "Not sure yet",
+    "interestHelp": "Not sure what to choose? Select Not sure yet and we will help you define the right next step.",
+    "messagePlaceholder": "For example, I need a new website and want to follow up leads automatically."
+  },
+  "blog": {
+    "title": "Blog",
+    "intro": "Insights, tips and news about modern websites.",
+    "readMore": "Read more",
+    "back": "Back to blog",
+    "empty": "No posts yet.",
+    "by": "by",
+    "ctaTitle": "Let us talk about your digital presence.",
+    "ctaButton": "Book a strategy call",
+    "authorName": "Tom de Vree",
+    "authorRole": "founder of amai!",
+    "authorBio": "Tom de Vree builds and maintains websites, digital platforms and automations for Swiss SMEs.",
+    "updatedLabel": "Updated"
+  },
+  "checkout": {
+    "title": "Start your subscription",
+    "intro": "Choose your plan, enter your details and send your enquiry. We will get back to you personally.",
+    "payIntro": "Choose your plan, enter your details and complete your payment securely.",
+    "payTitle": "Payment",
+    "payBack": "Back",
+    "choosePlan": "Choose your plan",
+    "allIn": "Hosting, maintenance and SEO included",
+    "summary": "Summary",
+    "selected": "Selected plan",
+    "payButton": "Continue to payment",
+    "requestButton": "Request",
+    "requestProcessing": "Sending …",
+    "requestSuccessTitle": "Thank you for your enquiry.",
+    "requestSuccessBody": "We have received your details and will get back to you as soon as possible.",
+    "requestError": "Your request could not be sent. Please try again or contact us directly at hello@amai.ch.",
+    "consent": "I agree to the <privacy>privacy policy</privacy> and accept the <gtc>general terms (GTC)</gtc>.",
+    "premiumTitle": "Something custom?",
+    "premiumNote": "For Software & Applications we discuss your project in person and prepare a fitting offer.",
+    "premiumCta": "Discuss your project",
+    "processing": "Processing …",
+    "errGeneric": "Something went wrong. Please try again.",
+    "canceled": "The payment was canceled. You can try again any time.",
+    "successTitle": "Thank you! Your subscription is active.",
+    "successBody": "We received your order and will reach out shortly with the next steps. A confirmation is on its way to your inbox.",
+    "successCta": "Back home",
+    "servicesTitle": "Would you also like to discuss additional services?",
+    "servicesHelp": "Selecting these options does not change your current checkout price. We will discuss them with you after your request.",
+    "stepperPlan": "Plan",
+    "stepperExtras": "Extras",
+    "stepperData": "Details",
+    "stepperPay": "Payment",
+    "stepOf": "Step {current} of {total}",
+    "extrasTitle": "Choose extras",
+    "extrasMonthly": "Monthly extras",
+    "extrasOnce": "One time extras",
+    "dataTitle": "Your details",
+    "continueExtras": "Continue to extras",
+    "continueData": "Continue to details",
+    "back": "Back",
+    "orderTitle": "Order",
+    "oneTime": "One time",
+    "oneTimeCosts": "One time costs",
+    "notSelected": "not selected",
+    "extrasLabel": "Extras",
+    "payFinal": "Start subscription and pay",
+    "orderAs": "I am ordering as",
+    "asPerson": "Private person",
+    "asCompany": "Company"
+  },
+  "portfolio": {
+    "eyebrow": "Portfolio",
+    "title": "Portfolio",
+    "intro": "A look at websites and digital solutions we have built.",
+    "statusLive": "Live",
+    "statusDev": "In development",
+    "visit": "Visit site"
+  },
+  "testimonial": {
+    "eyebrow": "Testimonial",
+    "title": "What clients say",
+    "quote": "amai! guided us clearly and personally through the whole process. We felt involved without having to manage everything ourselves. Our website now looks professional and trustworthy. We would recommend amai! to any business that wants a modern site without the stress.",
+    "author": "Poortland",
+    "role": "Architectural gates"
+  },
+  "cookie": {
+    "text": "We use cookies to improve our website. You decide what you allow.",
+    "learnMore": "Learn more",
+    "acceptAll": "Accept all",
+    "necessary": "Only necessary",
+    "title": "Your privacy, your choice",
+    "intro": "Choose which cookies we may use. There are three kinds:",
+    "necessaryTitle": "Necessary",
+    "necessaryText": "Remembers your language and this cookie choice. Always on and holds no personal data.",
+    "analyticsTitle": "Analytics (Google Analytics)",
+    "analyticsText": "Measures anonymously how visitors use the site: which pages get read and where visitors drop off.",
+    "marketingTitle": "Marketing (Google Ads)",
+    "marketingText": "Measures which campaigns lead to a conversation so we can improve our ads. Off without consent.",
+    "analyticsOnly": "Analytics only",
+    "reject": "Reject",
+    "privacy": "Privacy"
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Personal, not anonymous.",
+    "intro": "amai! makes digital solutions predictable and simple for Swiss SMEs. From websites to customer portals and CRM through automations and AI, you get one clear partner on a monthly subscription that grows with your business.",
+    "nameTitle": "Where amai! comes from",
+    "nameText": "amai! comes from the Antwerp dialect, rooted in Flemish. It is an exclamation of admiration, a spontaneous wow when something truly impresses. That is exactly the reaction your website should spark in your visitors. We build modern, fast and mobile sites with content that sells, stays in mind and turns visitors into customers. All in one clear subscription without a large upfront investment.",
+    "missionTitle": "Our idea",
+    "missionText": "Many small businesses need a good website without the technical burden. We take care of design, build, hosting, maintenance, security and SEO foundations, so you can focus on your business. Because we work with AI, we build faster and at a lower cost than traditional agencies and offer AI solutions like assistants and automations as part of our service.",
+    "founderTitle": "Behind amai!",
+    "founderName": "Tom de Vree",
+    "founderRole": "Founder & owner",
+    "founderText": "amai! is led by Tom de Vree and is based in Bern. We work personally with self employed people, local service providers and SMEs across Switzerland. You talk directly to the person who looks after your website.",
+    "ctaTitle": "Ready for a website that grows with you?",
+    "ctaButton": "Get in touch"
+  },
+  "portal": {
+    "login": {
+      "title": "Sign in",
+      "intro": "Sign in with your email. We send you a login link, no password needed.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@company.ch",
+      "submit": "Send login link",
+      "sending": "Sending …",
+      "sentTitle": "Email on its way",
+      "sent": "Check your inbox and open the login link to continue.",
+      "error": "That did not work. Please try again.",
+      "backToSite": "Back to the website"
+    },
+    "nav": {
+      "title": "Customer area",
+      "dashboard": "Overview",
+      "documents": "Documents",
+      "requests": "Requests",
+      "signOut": "Sign out"
+    },
+    "dashboard": {
+      "title": "Overview",
+      "greeting": "Welcome, {name}",
+      "subStatus": "Your subscription",
+      "plan": "Plan",
+      "statusLabel": "Status",
+      "nextBilling": "Next billing",
+      "noSub": "We cannot find an active subscription for your account yet.",
+      "noSubHint": "As soon as your payment is processed your subscription appears here. For questions use the requests.",
+      "cancelNote": "Your subscription ends at the end of the current period.",
+      "statuses": {
+        "active": "Active",
+        "past_due": "Payment due",
+        "canceled": "Canceled",
+        "trialing": "Trial",
+        "incomplete": "Incomplete",
+        "incomplete_expired": "Expired",
+        "unpaid": "Unpaid",
+        "paused": "Paused"
+      }
+    },
+    "documents": {
+      "title": "Documents",
+      "empty": "Your documents appear here once we share some with you.",
+      "download": "Download"
+    },
+    "requests": {
+      "title": "Requests",
+      "intro": "Ask a question, report a change or request a quote.",
+      "newTitle": "New request",
+      "type": "Type",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send request",
+      "sent": "Thanks, we received your request. We will be in touch.",
+      "errorMsg": "Please fill in subject and message.",
+      "listTitle": "Your requests",
+      "empty": "You have not made any requests yet.",
+      "types": {
+        "question": "Question",
+        "change": "Change",
+        "quote": "Quote"
+      },
+      "statuses": {
+        "new": "New",
+        "in_progress": "In progress",
+        "done": "Done"
+      }
+    }
+  },
+  "serviceUi": {
+    "analysisEyebrow": "Preparation",
+    "analysisTitle": "Business analysis",
+    "analysisText": "Software platforms always start with a thorough business analysis. We map how standardised your flows and processes are and set the expectations and technical criteria upfront. The strength of these projects lies in the preparation.",
+    "before": "Before",
+    "after": "After",
+    "trigger": "Trigger",
+    "action": "Action",
+    "result": "Result",
+    "calendar": "Calendar",
+    "scenarioTag": "In practice",
+    "scenarioProblem": "Problem",
+    "scenarioSolution": "Solution",
+    "scenarioResult": "Result",
+    "eyebrowChallenge": "The challenge",
+    "eyebrowEngine": "How it works",
+    "eyebrowExamples": "Examples",
+    "eyebrowProcess": "How we build",
+    "eyebrowOutcomes": "Outcomes",
+    "eyebrowFaq": "FAQ",
+    "relatedTitle": "Related services",
+    "entityLine": "amai! is a digital partner based in Bern for Swiss SMEs: websites, digital platforms, consultancy, automations and AI solutions on a clear monthly plan."
+  },
+  "whyAmai": {
+    "title": "Why amai!",
+    "lead": "One partner for your whole online presence, on a simple monthly plan. No agencies to coordinate, no surprise invoices, no technical hassle. And because we work with AI, we build faster and at a lower cost than traditional agencies.",
+    "points": [
+      {
+        "title": "One plan, everything included",
+        "text": "Design, hosting, security, maintenance and SEO foundations in a single monthly subscription."
+      },
+      {
+        "title": "Built to be found",
+        "text": "SEO is how search engines find and rank your site. We build those foundations in from day one, plus GEO so AI assistants can recommend you too."
+      },
+      {
+        "title": "Swiss and personal",
+        "text": "Based in Bern, working in German, French and English. You reach a person who replies, not an anonymous ticket."
+      },
+      {
+        "title": "No technical hassle",
+        "text": "We handle the technical side end to end so you can focus on running your business."
+      }
+    ]
+  }
+}

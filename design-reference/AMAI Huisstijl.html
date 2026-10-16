@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AMAI! — Huisstijl</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Archivo+Black&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --yellow:#E5392B;
+    --yellow-deep:#C82A1E;
+    --ink:#4A1419;
+    --ink-soft:#7A3A33;
+    --paper:#FBF1EF;
+    --paper-2:#F4E4E1;
+    --spark:#F7B500;
+    --line:rgba(74,20,25,.14);
+    --wrap:1180px;
+    --mono:'Space Mono',ui-monospace,monospace;
+    --sans:'Archivo',system-ui,sans-serif;
+    --black:'Archivo Black','Archivo',sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:var(--sans);
+    background:var(--paper);
+    color:var(--ink);
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:var(--wrap);margin:0 auto;padding:0 40px}
+  section{padding:120px 0;position:relative}
+  .eyebrow{
+    font-family:var(--mono);
+    font-size:12px;
+    letter-spacing:.18em;
+    text-transform:uppercase;
+    display:flex;align-items:center;gap:14px;
+    margin-bottom:34px;
+  }
+  .eyebrow .num{
+    background:var(--ink);color:var(--yellow);
+    font-weight:700;padding:3px 8px;border-radius:3px;
+    letter-spacing:.05em;
+  }
+  .eyebrow .ln{flex:1;height:1px;background:var(--line)}
+  h2.title{
+    font-family:var(--black);
+    font-size:clamp(34px,5vw,64px);
+    line-height:.95;
+    letter-spacing:-.02em;
+    margin-bottom:22px;
+  }
+  .lead{
+    font-size:clamp(17px,2vw,21px);
+    line-height:1.5;
+    max-width:60ch;
+    color:var(--ink-soft);
+    text-wrap:pretty;
+  }
+  .mono{font-family:var(--mono);font-size:12px;letter-spacing:.05em;color:var(--ink-soft)}
+
+  /* ---------- COVER ---------- */
+  .cover{
+    background:var(--yellow);
+    min-height:100vh;
+    display:flex;flex-direction:column;
+    padding:0;
+    overflow:hidden;
+    position:relative;
+  }
+  .cover-top{
+    display:flex;justify-content:space-between;align-items:center;
+    padding:30px 40px;
+    border-bottom:2px solid var(--ink);
+    font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;
+  }
+  .cover-mid{
+    flex:1;display:flex;flex-direction:column;justify-content:center;
+    padding:40px;position:relative;
+  }
+  .bigmark{
+    font-family:var(--black);
+    font-size:clamp(110px,30vw,440px);
+    line-height:.8;
+    letter-spacing:-.04em;
+    display:flex;align-items:flex-start;
+  }
+  .bigmark .ex{color:var(--ink);position:relative}
+  .bigmark .dot-spark{color:var(--spark)}
+  .cover-sub{
+    display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:24px;
+    margin-top:50px;
+  }
+  .cover-sub p{font-size:clamp(18px,2.4vw,28px);max-width:34ch;font-weight:600;line-height:1.25;text-wrap:balance}
+  .cover-bottom{
+    border-top:2px solid var(--ink);
+    padding:22px 40px;
+    display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;
+    font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+  }
+  .scrollcue{display:flex;align-items:center;gap:10px}
+  .scrollcue .arrow{width:22px;height:22px;border-radius:50%;background:var(--ink);color:var(--yellow);display:grid;place-items:center;font-size:12px;animation:bob 1.6s ease-in-out infinite}
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(4px)}}
+
+  /* ---------- POSITIONERING ---------- */
+  .pos-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:60px;align-items:start}
+  .voice-list{display:flex;flex-direction:column;gap:0;margin-top:10px}
+  .voice-row{
+    display:grid;grid-template-columns:120px 1fr;gap:24px;
+    padding:22px 0;border-top:1px solid var(--line);align-items:baseline;
+  }
+  .voice-row:last-child{border-bottom:1px solid var(--line)}
+  .voice-row .k{font-family:var(--mono);font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--spark)}
+  .voice-row .v{font-size:18px;line-height:1.45;color:var(--ink-soft)}
+  .voice-row .v b{color:var(--ink);font-weight:800}
+  .keywords{display:flex;flex-wrap:wrap;gap:10px;margin-top:34px}
+  .chip{
+    font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;
+    border:1.5px solid var(--ink);border-radius:100px;padding:8px 16px;
+    transition:.2s;cursor:default;
+  }
+  .chip:hover{background:var(--ink);color:var(--yellow)}
+
+  /* ---------- LOGO ---------- */
+  .logo-hero{
+    background:var(--ink);border-radius:18px;
+    aspect-ratio:16/7;display:grid;place-items:center;
+    margin-bottom:14px;position:relative;overflow:hidden;
+  }
+  .logo-hero .wm{font-family:var(--black);font-size:clamp(60px,13vw,170px);color:var(--yellow);letter-spacing:-.04em;line-height:.8}
+  .logo-hero .wm .sp{color:var(--spark)}
+  .caprow{display:flex;justify-content:space-between;align-items:center;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:60px}
+  .lock-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:60px}
+  .lock{border-radius:14px;aspect-ratio:4/3;display:grid;place-items:center;border:1px solid var(--line);position:relative;overflow:hidden}
+  .lock .lab{position:absolute;bottom:12px;left:14px;font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase}
+  .lock .m{font-family:var(--black);font-size:clamp(40px,6vw,68px);letter-spacing:-.04em;line-height:.8}
+  .lk-yellow{background:var(--yellow)}.lk-yellow .m{color:var(--ink)}.lk-yellow .m .sp{color:var(--spark)}.lk-yellow .lab{color:var(--ink)}
+  .lk-ink{background:var(--ink)}.lk-ink .m{color:var(--yellow)}.lk-ink .m .sp{color:var(--spark)}.lk-ink .lab{color:var(--yellow)}
+  .lk-paper{background:var(--paper-2)}.lk-paper .m{color:var(--ink)}.lk-paper .m .sp{color:var(--spark)}.lk-paper .lab{color:var(--ink-soft)}
+
+  .mono-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+  .mono-card{border:1px solid var(--line);border-radius:14px;padding:30px;display:flex;flex-direction:column;gap:18px}
+  .mono-card h4{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft)}
+  .badge{width:96px;height:96px;border-radius:22px;background:var(--yellow);display:grid;place-items:center;font-family:var(--black);font-size:64px;color:var(--ink);line-height:1}
+  .badge .sp{color:var(--spark)}
+  .badge.round{border-radius:50%}
+  .clearspace{position:relative;background:repeating-linear-gradient(45deg,transparent,transparent 7px,rgba(74,20,25,.05) 7px,rgba(74,20,25,.05) 8px);border:1px dashed var(--line);border-radius:14px;padding:34px;display:grid;place-items:center}
+  .clearspace .inner{background:var(--paper);padding:24px 30px;border:1px solid var(--line);font-family:var(--black);font-size:54px;letter-spacing:-.04em;line-height:.8}
+  .clearspace .inner .sp{color:var(--spark)}
+
+  .donts{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:40px}
+  .dont{border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  .dont .vis{aspect-ratio:1;display:grid;place-items:center;background:var(--paper-2);font-family:var(--black);font-size:34px;letter-spacing:-.03em}
+  .dont .cap{padding:12px 14px;font-family:var(--mono);font-size:11px;letter-spacing:.04em;display:flex;gap:8px;align-items:center;border-top:1px solid var(--line)}
+  .dont .x{color:var(--spark);font-weight:700}
+
+  /* ---------- KLEUR ---------- */
+  .sw-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:18px}
+  .sw{border-radius:14px;overflow:hidden;border:1px solid var(--line);cursor:pointer;transition:transform .18s,box-shadow .18s}
+  .sw:hover{transform:translateY(-4px);box-shadow:0 16px 30px -18px rgba(74,20,25,.5)}
+  .sw .chipc{height:150px;position:relative}
+  .sw .meta{padding:16px;background:var(--paper)}
+  .sw .nm{font-weight:800;font-size:16px;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center}
+  .sw .nm .pct{font-family:var(--mono);font-size:11px;color:var(--ink-soft);font-weight:400}
+  .sw .row{font-family:var(--mono);font-size:11px;color:var(--ink-soft);display:flex;justify-content:space-between;padding:3px 0}
+  .sw .copyhint{position:absolute;top:10px;right:12px;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;opacity:0;transition:.2s}
+  .sw:hover .copyhint{opacity:1}
+  .ratio-note{font-family:var(--mono);font-size:12px;color:var(--ink-soft);margin-top:8px}
+  .toast{position:fixed;bottom:28px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--yellow);font-family:var(--mono);font-size:12px;letter-spacing:.08em;padding:12px 20px;border-radius:100px;opacity:0;pointer-events:none;transition:.25s;z-index:60}
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+  /* ---------- TYPOGRAFIE ---------- */
+  .type-hero{border:1px solid var(--line);border-radius:16px;overflow:hidden;margin-bottom:18px}
+  .type-hero .band{background:var(--ink);color:var(--paper);padding:46px 40px}
+  .type-hero .band .aa{font-family:var(--black);font-size:clamp(80px,16vw,200px);line-height:.8;letter-spacing:-.03em;color:var(--yellow)}
+  .type-hero .band .glyphs{font-family:var(--mono);font-size:13px;letter-spacing:.1em;color:var(--paper);opacity:.7;margin-top:18px}
+  .type-hero .info{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line)}
+  .type-hero .info > div{background:var(--paper);padding:24px}
+  .type-hero .info h5{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:8px}
+  .type-hero .info p{font-size:16px;line-height:1.4}
+  .type-hero .info p b{font-weight:800}
+  .scale{border:1px solid var(--line);border-radius:16px;overflow:hidden}
+  .scale .r{display:grid;grid-template-columns:130px 1fr;gap:20px;padding:20px 24px;align-items:baseline;border-top:1px solid var(--line)}
+  .scale .r:first-child{border-top:none}
+  .scale .r .spec{font-family:var(--mono);font-size:11px;color:var(--ink-soft);letter-spacing:.04em;line-height:1.5}
+  .scale .r .samp{letter-spacing:-.02em;line-height:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .weights{display:flex;flex-wrap:wrap;gap:0;margin-top:18px;border:1px solid var(--line);border-radius:16px;overflow:hidden}
+  .weights .w{flex:1;min-width:120px;padding:24px;border-left:1px solid var(--line)}
+  .weights .w:first-child{border-left:none}
+  .weights .w .big{font-size:48px;letter-spacing:-.02em;line-height:1}
+  .weights .w .nm{font-family:var(--mono);font-size:11px;color:var(--ink-soft);margin-top:10px;letter-spacing:.04em}
+
+  /* ---------- GRAFISCHE ELEMENTEN ---------- */
+  .graf-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:18px}
+  .pattern-tile{background:var(--yellow);border-radius:16px;overflow:hidden;position:relative;min-height:340px;display:grid;place-items:center}
+  .ex-field{display:grid;grid-template-columns:repeat(6,1fr);width:100%;height:100%;position:absolute;inset:0}
+  .ex-field span{display:grid;place-items:center;font-family:var(--black);font-size:46px;color:var(--ink);opacity:.9;line-height:1}
+  .ex-field span:nth-child(2n){color:var(--spark);opacity:.85}
+  .ex-field span:nth-child(7n){opacity:.25}
+  .graf-stack{display:flex;flex-direction:column;gap:18px}
+  .graf-card{border:1px solid var(--line);border-radius:16px;padding:28px;display:flex;flex-direction:column;gap:14px}
+  .graf-card h4{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft)}
+  .graf-card p{font-size:15px;line-height:1.45;color:var(--ink-soft)}
+  .burst{height:90px;display:flex;align-items:center;gap:8px}
+  .burst .tag{background:var(--ink);color:var(--yellow);font-family:var(--black);font-size:30px;padding:6px 18px;border-radius:8px;letter-spacing:-.02em;line-height:1;transform:rotate(-3deg)}
+  .burst .tag .sp{color:var(--spark)}
+  .uline{font-family:var(--black);font-size:34px;letter-spacing:-.03em;line-height:1}
+  .uline mark{background:linear-gradient(180deg,transparent 60%,var(--yellow) 60%);color:var(--ink);padding:0 2px}
+
+  /* ---------- TOEPASSINGEN ---------- */
+  .apps{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+  .app-card{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--paper)}
+  .app-card .head{padding:14px 18px;display:flex;justify-content:space-between;align-items:center;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);border-bottom:1px solid var(--line)}
+  .app-card .body{padding:30px;background:var(--paper-2);display:grid;place-items:center;min-height:300px}
+  .bizwrap{display:flex;gap:18px;flex-wrap:wrap;justify-content:center}
+  .biz{width:300px;height:175px;border-radius:12px;box-shadow:0 22px 40px -24px rgba(74,20,25,.55);position:relative;overflow:hidden;flex-shrink:0}
+  .biz.front{background:var(--yellow);display:flex;flex-direction:column;justify-content:space-between;padding:22px}
+  .biz.front .lg{font-family:var(--black);font-size:46px;letter-spacing:-.04em;line-height:.8;color:var(--ink)}
+  .biz.front .lg .sp{color:var(--spark)}
+  .biz.front .ft{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink)}
+  .biz.back{background:var(--ink);color:var(--paper);padding:22px;display:flex;flex-direction:column;justify-content:space-between}
+  .biz.back .nm{font-weight:800;font-size:18px}
+  .biz.back .fn{font-family:var(--mono);font-size:11px;color:var(--yellow);letter-spacing:.06em;margin-top:2px}
+  .biz.back .ct{font-family:var(--mono);font-size:11px;line-height:1.7;color:var(--paper);opacity:.85}
+  .biz.back .ct b{color:var(--yellow)}
+
+  .social{width:300px;height:300px;border-radius:14px;background:var(--ink);overflow:hidden;position:relative;box-shadow:0 22px 40px -24px rgba(74,20,25,.55);display:flex;flex-direction:column}
+  .social .s-top{padding:20px;display:flex;justify-content:space-between;align-items:center;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--yellow)}
+  .social .s-mid{flex:1;display:flex;align-items:center;padding:0 24px}
+  .social .s-mid .hl{font-family:var(--black);font-size:46px;line-height:.9;letter-spacing:-.03em;color:var(--paper)}
+  .social .s-mid .hl mark{background:var(--yellow);color:var(--ink);padding:0 6px}
+  .social .s-bot{padding:20px;border-top:1px solid rgba(247,243,231,.18);font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--paper);opacity:.7}
+
+  .poster{width:280px;height:380px;border-radius:12px;overflow:hidden;position:relative;box-shadow:0 22px 40px -24px rgba(74,20,25,.55);background:var(--yellow);display:flex;flex-direction:column}
+  .poster image-slot{flex:1;width:100%}
+  .poster .p-bot{padding:18px 20px;display:flex;justify-content:space-between;align-items:flex-end}
+  .poster .p-bot .lg{font-family:var(--black);font-size:40px;letter-spacing:-.04em;line-height:.8;color:var(--ink)}
+  .poster .p-bot .lg .sp{color:var(--spark)}
+  .poster .p-bot .mt{font-family:var(--mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;text-align:right;color:var(--ink)}
+
+  .merch{display:flex;gap:18px;align-items:center;justify-content:center;flex-wrap:wrap}
+  .tote{width:200px;height:230px;background:var(--paper);border:1px solid var(--line);border-radius:6px 6px 10px 10px;position:relative;display:grid;place-items:center;box-shadow:0 20px 36px -24px rgba(74,20,25,.5)}
+  .tote:before,.tote:after{content:"";position:absolute;top:-46px;width:14px;height:60px;border:7px solid var(--ink-soft);border-bottom:none;border-radius:40px 40px 0 0}
+  .tote:before{left:46px}.tote:after{right:46px}
+  .tote .pr{font-family:var(--black);font-size:40px;letter-spacing:-.04em;color:var(--ink);line-height:.8}
+  .tote .pr .sp{color:var(--spark)}
+  .pin{width:120px;height:120px;border-radius:50%;background:var(--yellow);display:grid;place-items:center;border:5px solid var(--ink);box-shadow:0 18px 30px -20px rgba(74,20,25,.6)}
+  .pin span{font-family:var(--black);font-size:44px;color:var(--ink);letter-spacing:-.04em;line-height:.8}
+  .pin span .sp{color:var(--spark)}
+
+  /* ---------- FOOTER ---------- */
+  footer{background:var(--ink);color:var(--paper);padding:90px 0 40px}
+  footer .big{font-family:var(--black);font-size:clamp(60px,16vw,220px);line-height:.78;letter-spacing:-.04em;color:var(--yellow)}
+  footer .big .sp{color:var(--spark)}
+  footer .frow{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:20px;margin-top:30px;padding-top:26px;border-top:1px solid rgba(247,243,231,.18);font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;opacity:.8}
+
+  @media (max-width:860px){
+    section{padding:80px 0}
+    .wrap{padding:0 24px}
+    .pos-grid,.graf-grid,.apps{grid-template-columns:1fr}
+    .lock-grid,.sw-grid,.donts,.type-hero .info{grid-template-columns:1fr 1fr}
+    .mono-grid,.weights{grid-template-columns:1fr}
+    .voice-row{grid-template-columns:90px 1fr;gap:14px}
+    .cover-top,.cover-bottom,.cover-mid{padding-left:24px;padding-right:24px}
+  }
+  .bigmark .ex{color:var(--spark)}
+</style>
+</head>
+<body>
+
+<!-- ============ COVER ============ -->
+<header class="cover" data-screen-label="Cover">
+  <div class="cover-top">
+    <span>AMAI! — Merkidentiteit</span>
+    <span>Huisstijl · v1.0 · 2026</span>
+  </div>
+  <div class="cover-mid">
+    <div class="bigmark">amai<span class="ex">!</span></div>
+    <div class="cover-sub">
+      <p>De huisstijl voor een merk dat mensen wil doen zeggen: amai.</p>
+      <span class="mono">№ 001 — 008 · Merkboek</span>
+    </div>
+  </div>
+  <div class="cover-bottom">
+    <span>Rood · Inkt · Vonk</span>
+    <a href="#positionering" class="scrollcue" style="text-decoration:none;color:inherit"><span>Scroll</span><span class="arrow">↓</span></a>
+    <span>Archivo / Space Mono</span>
+  </div>
+</header>
+
+<!-- ============ 01 POSITIONERING ============ -->
+<section id="positionering" data-screen-label="Positionering">
+  <div class="wrap">
+    <div class="eyebrow"><span class="num">01</span><span>Positionering &amp; stem</span><span class="ln"></span></div>
+    <div class="pos-grid">
+      <div>
+        <h2 class="title">Verbazing, op<br>commando.</h2>
+        <p class="lead">AMAI! is jong, scherp en optimistisch. We zeggen wat we denken, houden het simpel, en zorgen dat elk contactmoment een kleine "wow" oplevert. Het uitroepteken is geen versiering — het is onze houding.</p>
+        <div class="keywords">
+          <span class="chip">Energiek</span>
+          <span class="chip">Direct</span>
+          <span class="chip">Optimistisch</span>
+          <span class="chip">Eigenwijs</span>
+          <span class="chip">Helder</span>
+          <span class="chip">Warm</span>
+        </div>
+      </div>
+      <div class="voice-list">
+        <div class="voice-row"><span class="k">Toon</span><span class="v"><b>Spreektaal, geen jargon.</b> Kort, menselijk, met een knipoog.</span></div>
+        <div class="voice-row"><span class="k">Doen</span><span class="v">Korte zinnen. Actief. Eén idee per boodschap.</span></div>
+        <div class="voice-row"><span class="k">Laten</span><span class="v">Vaag, formeel of overdreven. Geen holle superlatieven.</span></div>
+        <div class="voice-row"><span class="k">Tagline</span><span class="v"><b>"Amai, dat is straf."</b></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 02 LOGO ============ -->
+<section style="background:var(--paper-2)" data-screen-label="Logo">
+  <div class="wrap">
+    <div class="eyebrow"><span class="num">02</span><span>Logo &amp; varianten</span><span class="ln"></span></div>
+    <h2 class="title">Het wordmerk</h2>
+    <p class="lead" style="margin-bottom:46px">Eén kleinkapitaal woordmerk in Archivo Black, strak gespatieerd. Het uitroepteken staat altijd in de vonk-kleur — het is de vonk die het merk zijn naam geeft.</p>
+
+    <div class="logo-hero">
+      <div class="wm">amai<span class="sp">!</span></div>
+    </div>
+    <div class="caprow"><span>Primair woordmerk · negatief op inkt</span><span>// gebruik bij voorkeur</span></div>
+
+    <div class="lock-grid">
+      <div class="lock lk-yellow"><div class="m">amai<span class="sp">!</span></div><span class="lab">Op rood</span></div>
+      <div class="lock lk-ink"><div class="m">amai<span class="sp">!</span></div><span class="lab">Op inkt</span></div>
+      <div class="lock lk-paper"><div class="m">amai<span class="sp">!</span></div><span class="lab">Op papier</span></div>
+    </div>
+
+    <div class="mono-grid">
+      <div class="mono-card">
+        <h4>// Monogram · het "!"-merk</h4>
+        <div style="display:flex;gap:18px;align-items:center">
+          <div class="badge"><span>!</span></div>
+          <div class="badge round"><span class="sp">!</span></div>
+        </div>
+        <p class="mono">Voor favicon, avatar &amp; app-icoon. Vierkant met radius 22 of cirkel.</p>
+      </div>
+      <div class="mono-card">
+        <h4>// Vrije ruimte</h4>
+        <div class="clearspace"><div class="inner">amai<span class="sp">!</span></div></div>
+        <p class="mono">Houd minimaal de hoogte van de "a" vrij rondom het merk.</p>
+      </div>
+    </div>
+
+    <div class="donts">
+      <div class="dont"><div class="vis" style="background:#cdd6ff;color:#3355ff">amai!</div><div class="cap"><span class="x">✕</span> Niet verkleuren</div></div>
+      <div class="dont"><div class="vis" style="font-style:italic">amai!</div><div class="cap"><span class="x">✕</span> Niet schuintrekken</div></div>
+      <div class="dont"><div class="vis" style="letter-spacing:.12em">a m a i !</div><div class="cap"><span class="x">✕</span> Spatiëring niet wijzigen</div></div>
+      <div class="dont"><div class="vis" style="font-family:Georgia,serif;font-weight:400">amai!</div><div class="cap"><span class="x">✕</span> Lettertype niet wisselen</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 03 KLEUR ============ -->
+<section data-screen-label="Kleur">
+  <div class="wrap">
+    <div class="eyebrow"><span class="num">03</span><span>Kleurenpalet</span><span class="ln"></span></div>
+    <h2 class="title">Rood draagt,<br>inkt structureert.</h2>
+    <p class="lead" style="margin-bottom:46px">Rood is de hoofdrol — minstens de helft van elk ontwerp. Inkt geeft contrast en leesbaarheid, papier laat het ademen, en de vonk is de uitroep: spaarzaam, nooit meer dan een accent. <span class="mono" style="display:inline">Klik een staal om de hex te kopiëren.</span></p>
+
+    <div class="sw-grid">
+      <div class="sw" data-copy="#E5392B">
+        <div class="chipc" style="background:#E5392B"><span class="copyhint" style="color:#4A1419">klik = kopieer</span></div>
+        <div class="meta"><div class="nm">Rood <span class="pct">±60%</span></div>
+          <div class="row"><span>HEX</span><span>#E5392B</span></div>
+          <div class="row"><span>RGB</span><span>229 57 43</span></div>
+          <div class="row"><span>CMYK</span><span>0 75 81 10</span></div>
+        </div>
+      </div>
+      <div class="sw" data-copy="#4A1419">
+        <div class="chipc" style="background:#4A1419"><span class="copyhint" style="color:#E5392B">klik = kopieer</span></div>
+        <div class="meta"><div class="nm">Inkt <span class="pct">±25%</span></div>
+          <div class="row"><span>HEX</span><span>#4A1419</span></div>
+          <div class="row"><span>RGB</span><span>74 20 25</span></div>
+          <div class="row"><span>CMYK</span><span>0 73 66 71</span></div>
+        </div>
+      </div>
+      <div class="sw" data-copy="#FBF1EF">
+        <div class="chipc" style="background:#FBF1EF;border-bottom:1px solid var(--line)"><span class="copyhint" style="color:#4A1419">klik = kopieer</span></div>
+        <div class="meta"><div class="nm">Papier <span class="pct">±10%</span></div>
+          <div class="row"><span>HEX</span><span>#FBF1EF</span></div>
+          <div class="row"><span>RGB</span><span>251 241 239</span></div>
+          <div class="row"><span>CMYK</span><span>0 4 5 2</span></div>
+        </div>
+      </div>
+      <div class="sw" data-copy="#F7B500">
+        <div class="chipc" style="background:#F7B500"><span class="copyhint" style="color:#fff">klik = kopieer</span></div>
+        <div class="meta"><div class="nm">Vonk <span class="pct">±5%</span></div>
+          <div class="row"><span>HEX</span><span>#F7B500</span></div>
+          <div class="row"><span>RGB</span><span>247 181 0</span></div>
+          <div class="row"><span>CMYK</span><span>0 27 100 3</span></div>
+        </div>
+      </div>
+    </div>
+    <p class="ratio-note">// Verhouding-richtlijn: <b>rood 60 · inkt 25 · papier 10 · vonk 5</b>. Vonk uitsluitend voor het "!" en kleine highlights — nooit als vlak.</p>
+  </div>
+</section>
+
+<!-- ============ 04 TYPOGRAFIE ============ -->
+<section style="background:var(--paper-2)" data-screen-label="Typografie">
+  <div class="wrap">
+    <div class="eyebrow"><span class="num">04</span><span>Typografie</span><span class="ln"></span></div>
+    <h2 class="title">Archivo, met lef.</h2>
+    <p class="lead" style="margin-bottom:46px">Eén familie doet bijna alles: Archivo, van regular tot Black. Vet en geometrisch voor impact, helder en open voor tekst. Space Mono zorgt voor de technische labels en details.</p>
+
+    <div class="type-hero">
+      <div class="band">
+        <div class="aa">Aa</div>
+        <div class="glyphs">ABCDEFGHIJKLMNOPQRSTUVWXYZ · abcdefghijklmnopqrstuvwxyz · 0123456789 · ! ? & @ €</div>
+      </div>
+      <div class="info">
+        <div><h5>Display</h5><p><b>Archivo Black</b><br>Titels &amp; woordmerk</p></div>
+        <div><h5>Tekst</h5><p><b>Archivo</b> 400–800<br>Bodytekst &amp; UI</p></div>
+        <div><h5>Mono</h5><p style="font-family:var(--mono)"><b>Space Mono</b><br>Labels &amp; specs</p></div>
+      </div>
+    </div>
+
+    <div class="scale">
+      <div class="r"><span class="spec">Display<br>96 / .8 / Black</span><span class="samp" style="font-family:var(--black);font-size:72px">Amai, zeg!</span></div>
+      <div class="r"><span class="spec">Titel<br>44 / .95 / 900</span><span class="samp" style="font-weight:900;font-size:44px">Korte, krachtige koppen</span></div>
+      <div class="r"><span class="spec">Subtitel<br>26 / 1.1 / 700</span><span class="samp" style="font-weight:700;font-size:26px">Een laag eronder, rustiger</span></div>
+      <div class="r"><span class="spec">Tekst<br>18 / 1.5 / 400</span><span class="samp" style="font-weight:400;font-size:18px;white-space:normal">Leesbare bodytekst die prettig leest in lange stukken.</span></div>
+      <div class="r"><span class="spec">Label<br>12 / mono / 700</span><span class="samp" style="font-family:var(--mono);font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase">// Technisch label</span></div>
+    </div>
+
+    <div class="weights">
+      <div class="w"><div class="big" style="font-weight:400">Aa</div><div class="nm">Regular · 400</div></div>
+      <div class="w"><div class="big" style="font-weight:600">Aa</div><div class="nm">Semibold · 600</div></div>
+      <div class="w"><div class="big" style="font-weight:800">Aa</div><div class="nm">Extrabold · 800</div></div>
+      <div class="w"><div class="big" style="font-family:var(--black)">Aa</div><div class="nm">Black · 900</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 05 GRAFISCHE ELEMENTEN ============ -->
+<section data-screen-label="Grafische elementen">
+  <div class="wrap">
+    <div class="eyebrow"><span class="num">05</span><span>Grafische elementen</span><span class="ln"></span></div>
+    <h2 class="title">De vonk &amp; het<br>uitroepteken.</h2>
+    <p class="lead" style="margin-bottom:46px">Het "!" is het ritme van het merk: als patroon, als tag, als highlight. Gebruik het groot en met lef, nooit timide.</p>
+
+    <div class="graf-grid">
+      <div class="pattern-tile">
+        <div class="ex-field">
+          <span>!</span><span>!</span><span>!</span><span>!</span><span>!</span><span>!</span>
+          <span>!</span><span>!</span><span>!</span><span>!</span><span>!</span><span>!</span>
+          <span>!</span><span>!</span><span>!</span><span>!</span><span>!</span><span>!</span>
+          <span>!</span><span>!</span><span>!</span><span>!</span><span>!</span><span>!</span>
+        </div>
+      </div>
+      <div class="graf-stack">
+        <div class="graf-card">
+          <h4>// Tag-element</h4>
+          <div class="burst"><span class="tag">amai<span class="sp">!</span></span></div>
+          <p>Het woordmerk als sticker/tag — lichtjes gekanteld, voor social en merch.</p>
+        </div>
+        <div class="graf-card">
+          <h4>// Markering</h4>
+          <div class="uline">Dit is <mark>straf</mark>.</div>
+          <p>Rood highlight onder kernwoorden — trekt de aandacht zonder te schreeuwen.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 06 TOEPASSINGEN ============ -->
+<section style="background:var(--paper-2)" data-screen-label="Toepassingen">
+  <div class="wrap">
+    <div class="eyebrow"><span class="num">06</span><span>Toepassingen</span><span class="ln"></span></div>
+    <h2 class="title">In het wild.</h2>
+    <p class="lead" style="margin-bottom:46px">Het systeem in actie. Sleep je eigen beeld op de poster-plek om het te vervangen.</p>
+
+    <div class="apps">
+      <div class="app-card">
+        <div class="head"><span>Visitekaartje</span><span>85 × 55 mm</span></div>
+        <div class="body">
+          <div class="bizwrap">
+            <div class="biz front">
+              <div class="lg">amai<span class="sp">!</span></div>
+              <div class="ft">amai.be</div>
+            </div>
+            <div class="biz back">
+              <div>
+                <div class="nm">Voornaam Achternaam</div>
+                <div class="fn">Functie / rol</div>
+              </div>
+              <div class="ct"><b>E</b> hallo@amai.be<br><b>T</b> +32 (0)3 000 00 00<br><b>W</b> amai.be</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="app-card">
+        <div class="head"><span>Social post</span><span>1080 × 1080</span></div>
+        <div class="body">
+          <div class="social">
+            <div class="s-top"><span>amai!</span><span>!</span></div>
+            <div class="s-mid"><div class="hl">Amai, <mark>dat</mark> is straf.</div></div>
+            <div class="s-bot">@amai · #amai</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="app-card">
+        <div class="head"><span>Poster · sleep je beeld</span><span>A2</span></div>
+        <div class="body">
+          <div class="poster">
+            <image-slot id="poster-img" placeholder="Sleep hier je beeld" fit="cover"></image-slot>
+            <div class="p-bot">
+              <div class="lg">amai<span class="sp">!</span></div>
+              <div class="mt">Event · 2026<br>amai.be</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="app-card">
+        <div class="head"><span>Merch</span><span>Tote &amp; button</span></div>
+        <div class="body">
+          <div class="merch">
+            <div class="tote"><div class="pr">amai<span class="sp">!</span></div></div>
+            <div class="pin"><span>!</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer data-screen-label="Slot">
+  <div class="wrap">
+    <div class="big">amai<span class="sp">!</span></div>
+    <div class="frow">
+      <span>Huisstijl · v1.0</span>
+      <span>Rood #E5392B · Inkt #4A1419 · Vonk #F7B500</span>
+      <span>2026</span>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast">Gekopieerd</div>
+
+<script src="image-slot.js"></script>
+<script>
+  const toast=document.getElementById('toast');
+  let tId;
+  document.querySelectorAll('.sw').forEach(sw=>{
+    sw.addEventListener('click',()=>{
+      const hex=sw.dataset.copy;
+      navigator.clipboard?.writeText(hex).catch(()=>{});
+      toast.textContent=hex+' gekopieerd';
+      toast.classList.add('show');
+      clearTimeout(tId);
+      tId=setTimeout(()=>toast.classList.remove('show'),1400);
+    });
+  });
+</script>
+</body>
+</html>

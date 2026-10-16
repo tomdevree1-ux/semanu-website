@@ -1,0 +1,3151 @@
+[
+{
+"id": "mila",
+"naam": "Mila",
+"sku": "CP_160536",
+"dakvorm": "lessenaarsdak",
+"luifel": "nee",
+"deelOpen": 0,
+"wanddikte": 28,
+"ramen": 0,
+"deur": "dubbel",
+"vanaf": 1268.0,
+"tot": 2308.0,
+"oppMin": 5.0,
+"oppMax": 6.25,
+"uitvoeringen": [
+{
+"id": "250x200cm",
+"key": "250x200cm",
+"naam": "250x200cm",
+"W": 2.5,
+"L": 2.0
+},
+{
+"id": "250x250cm",
+"key": "250x250cm",
+"naam": "250x250cm",
+"W": 2.5,
+"L": 2.5
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "platinum-grijs",
+"key": "Platinum grijs",
+"naam": "Platinum grijs",
+"base": "#9A9C99",
+"dark": "#6D6F6C"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "carbon-grijs",
+"key": "Carbon grijs",
+"naam": "Carbon grijs",
+"base": "#4A4C4D",
+"dark": "#2E3031"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+},
+{
+"id": "groen-grijs",
+"key": "Groen grijs",
+"naam": "Groen grijs",
+"base": "#5E6857",
+"dark": "#3C4437"
+}
+],
+"prijs": {
+"250x250cm|Carbon grijs": 2308.0,
+"250x250cm|Carbon grijs-wit": 2308.0,
+"250x250cm|Platinum grijs": 2308.0,
+"250x250cm|Platinum grijs-wit": 2308.0,
+"250x250cm|Blank hout": 1352.0,
+"250x250cm|Groen grijs": 2308.0,
+"250x250cm|Groen grijs-wit": 2308.0,
+"250x200cm|Carbon grijs": 2128.0,
+"250x200cm|Carbon grijs-wit": 2128.0,
+"250x200cm|Platinum grijs": 2128.0,
+"250x200cm|Platinum grijs-wit": 2128.0,
+"250x200cm|Blank hout": 1268.0,
+"250x200cm|Groen grijs": 2128.0,
+"250x200cm|Groen grijs-wit": 2128.0
+},
+"sku_var": {
+"250x250cm|Carbon grijs": "160545",
+"250x250cm|Carbon grijs-wit": "160544",
+"250x250cm|Platinum grijs": "160543",
+"250x250cm|Platinum grijs-wit": "160542",
+"250x250cm|Blank hout": "160541",
+"250x200cm|Carbon grijs": "160540",
+"250x200cm|Carbon grijs-wit": "160539",
+"250x200cm|Platinum grijs": "160538",
+"250x200cm|Platinum grijs-wit": "160537",
+"250x200cm|Blank hout": "160536",
+"250x250cm|Groen grijs": "164588",
+"250x250cm|Groen grijs-wit": "164587",
+"250x200cm|Groen grijs": "164586",
+"250x200cm|Groen grijs-wit": "164585"
+}
+},
+{
+"id": "sara",
+"naam": "Sara",
+"sku": "CP_160526",
+"dakvorm": "lessenaarsdak",
+"luifel": "nee",
+"deelOpen": 0,
+"wanddikte": 28,
+"ramen": 0,
+"deur": "dubbel",
+"vanaf": 1176.0,
+"tot": 2132.0,
+"oppMin": 4.0,
+"oppMax": 5.0,
+"uitvoeringen": [
+{
+"id": "200x200cm",
+"key": "200x200cm",
+"naam": "200x200cm",
+"W": 2.0,
+"L": 2.0
+},
+{
+"id": "200x250cm",
+"key": "200x250cm",
+"naam": "200x250cm",
+"W": 2.0,
+"L": 2.5
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "platinum-grijs",
+"key": "Platinum grijs",
+"naam": "Platinum grijs",
+"base": "#9A9C99",
+"dark": "#6D6F6C"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "carbon-grijs",
+"key": "Carbon grijs",
+"naam": "Carbon grijs",
+"base": "#4A4C4D",
+"dark": "#2E3031"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+},
+{
+"id": "groen-grijs",
+"key": "Groen grijs",
+"naam": "Groen grijs",
+"base": "#5E6857",
+"dark": "#3C4437"
+}
+],
+"prijs": {
+"200x250cm|Carbon grijs": 2132.0,
+"200x250cm|Carbon grijs-wit": 2132.0,
+"200x250cm|Platinum grijs": 2132.0,
+"200x250cm|Platinum grijs-wit": 2132.0,
+"200x250cm|Blank hout": 1268.0,
+"200x250cm|Groen grijs": 2132.0,
+"200x250cm|Groen grijs-wit": 2132.0,
+"200x200cm|Carbon grijs": 1956.0,
+"200x200cm|Carbon grijs-wit": 1956.0,
+"200x200cm|Platinum grijs": 1956.0,
+"200x200cm|Platinum grijs-wit": 1956.0,
+"200x200cm|Blank hout": 1176.0,
+"200x200cm|Groen grijs": 1956.0,
+"200x200cm|Groen grijs-wit": 1956.0
+},
+"sku_var": {
+"200x250cm|Carbon grijs": "160535",
+"200x250cm|Carbon grijs-wit": "160534",
+"200x250cm|Platinum grijs": "160533",
+"200x250cm|Platinum grijs-wit": "160532",
+"200x250cm|Blank hout": "160531",
+"200x200cm|Carbon grijs": "160530",
+"200x200cm|Carbon grijs-wit": "160529",
+"200x200cm|Platinum grijs": "160528",
+"200x200cm|Platinum grijs-wit": "160527",
+"200x200cm|Blank hout": "160526",
+"200x250cm|Groen grijs": "164584",
+"200x250cm|Groen grijs-wit": "164583",
+"200x200cm|Groen grijs": "164582",
+"200x200cm|Groen grijs-wit": "164581"
+}
+},
+{
+"id": "kibo",
+"naam": "Kibo",
+"sku": "CP_160511",
+"dakvorm": "lessenaarsdak",
+"luifel": "nee",
+"deelOpen": 0,
+"wanddikte": 28,
+"ramen": 0,
+"deur": "dubbel",
+"vanaf": 1400.0,
+"tot": 2720.0,
+"oppMin": 4.0,
+"oppMax": 6.25,
+"uitvoeringen": [
+{
+"id": "200x200cm",
+"key": "200x200cm",
+"naam": "200x200cm",
+"W": 2.0,
+"L": 2.0
+},
+{
+"id": "200x250cm",
+"key": "200x250cm",
+"naam": "200x250cm",
+"W": 2.0,
+"L": 2.5
+},
+{
+"id": "250x250cm",
+"key": "250x250cm",
+"naam": "250x250cm",
+"W": 2.5,
+"L": 2.5
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "platinum-grijs",
+"key": "Platinum grijs",
+"naam": "Platinum grijs",
+"base": "#9A9C99",
+"dark": "#6D6F6C"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "carbon-grijs",
+"key": "Carbon grijs",
+"naam": "Carbon grijs",
+"base": "#4A4C4D",
+"dark": "#2E3031"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+},
+{
+"id": "groen-grijs",
+"key": "Groen grijs",
+"naam": "Groen grijs",
+"base": "#5E6857",
+"dark": "#3C4437"
+}
+],
+"prijs": {
+"250x250cm|Carbon grijs": 2720.0,
+"250x250cm|Carbon grijs-wit": 2720.0,
+"250x250cm|Platinum grijs": 2720.0,
+"250x250cm|Platinum grijs-wit": 2720.0,
+"250x250cm|Blank hout": 1612.0,
+"250x250cm|Groen grijs": 2720.0,
+"250x250cm|Groen grijs-wit": 2720.0,
+"200x250cm|Carbon grijs": 2508.0,
+"200x250cm|Carbon grijs-wit": 2508.0,
+"200x250cm|Platinum grijs": 2508.0,
+"200x250cm|Platinum grijs-wit": 2508.0,
+"200x250cm|Blank hout": 1488.0,
+"200x250cm|Groen grijs": 2508.0,
+"200x250cm|Groen grijs-wit": 2508.0,
+"200x200cm|Carbon grijs": 2304.0,
+"200x200cm|Carbon grijs-wit": 2304.0,
+"200x200cm|Platinum grijs": 2304.0,
+"200x200cm|Platinum grijs-wit": 2304.0,
+"200x200cm|Blank hout": 1400.0,
+"200x200cm|Groen grijs": 2304.0,
+"200x200cm|Groen grijs-wit": 2304.0
+},
+"sku_var": {
+"250x250cm|Carbon grijs": "160525",
+"250x250cm|Carbon grijs-wit": "160524",
+"250x250cm|Platinum grijs": "160523",
+"250x250cm|Platinum grijs-wit": "160522",
+"250x250cm|Blank hout": "160521",
+"200x250cm|Carbon grijs": "160520",
+"200x250cm|Carbon grijs-wit": "160519",
+"200x250cm|Platinum grijs": "160518",
+"200x250cm|Platinum grijs-wit": "160517",
+"200x250cm|Blank hout": "160516",
+"200x200cm|Carbon grijs": "160515",
+"200x200cm|Carbon grijs-wit": "160514",
+"200x200cm|Platinum grijs": "160513",
+"200x200cm|Platinum grijs-wit": "160512",
+"200x200cm|Blank hout": "160511",
+"250x250cm|Groen grijs": "164580",
+"250x250cm|Groen grijs-wit": "164579",
+"200x250cm|Groen grijs": "164578",
+"200x250cm|Groen grijs-wit": "164577",
+"200x200cm|Groen grijs": "164576",
+"200x200cm|Groen grijs-wit": "164575"
+}
+},
+{
+"id": "norah",
+"naam": "Norah",
+"sku": "CP_160456",
+"dakvorm": "zadeldak",
+"luifel": "nee",
+"deelOpen": 0,
+"wanddikte": 28,
+"ramen": 2,
+"deur": "dubbel",
+"vanaf": 1496.0,
+"tot": 3096.0,
+"oppMin": 6.32,
+"oppMax": 10.45,
+"uitvoeringen": [
+{
+"id": "275x230cm",
+"key": "275X230CM",
+"naam": "275X230CM",
+"W": 2.75,
+"L": 2.3
+},
+{
+"id": "275x275cm",
+"key": "275X275CM",
+"naam": "275X275CM",
+"W": 2.75,
+"L": 2.75
+},
+{
+"id": "275x380cm",
+"key": "275X380CM",
+"naam": "275X380CM",
+"W": 2.75,
+"L": 3.8
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "olijfgroen-geimpegneerd",
+"key": "Olijfgroen geimpegneerd",
+"naam": "Olijfgroen geïmpregneerd",
+"base": "#6E7350",
+"dark": "#464A31"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+}
+],
+"prijs": {
+"275X380CM|Platinum grijs-wit": 3096.0,
+"275X380CM|Carbon grijs-wit": 3096.0,
+"275X380CM|Olijfgroen geimpegneerd": 2196.0,
+"275X380CM|Blank hout": 1884.0,
+"275X380CM|Groen grijs-wit": 3096.0,
+"275X275CM|Platinum grijs-wit": 2592.0,
+"275X275CM|Carbon grijs-wit": 2592.0,
+"275X275CM|Olijfgroen geimpegneerd": 1848.0,
+"275X275CM|Blank hout": 1584.0,
+"275X275CM|Groen grijs-wit": 2592.0,
+"275X230CM|Platinum grijs-wit": 2440.0,
+"275X230CM|Carbon grijs-wit": 2440.0,
+"275X230CM|Olijfgroen geimpegneerd": 1760.0,
+"275X230CM|Blank hout": 1496.0,
+"275X230CM|Groen grijs-wit": 2440.0
+},
+"sku_var": {
+"275X380CM|Platinum grijs-wit": "160467",
+"275X380CM|Carbon grijs-wit": "160466",
+"275X380CM|Olijfgroen geimpegneerd": "160465",
+"275X380CM|Blank hout": "160464",
+"275X275CM|Platinum grijs-wit": "160463",
+"275X275CM|Carbon grijs-wit": "160462",
+"275X275CM|Olijfgroen geimpegneerd": "160461",
+"275X275CM|Blank hout": "160460",
+"275X230CM|Platinum grijs-wit": "160459",
+"275X230CM|Carbon grijs-wit": "160458",
+"275X230CM|Olijfgroen geimpegneerd": "160457",
+"275X230CM|Blank hout": "160456",
+"275X380CM|Groen grijs-wit": "164537",
+"275X275CM|Groen grijs-wit": "164536",
+"275X230CM|Groen grijs-wit": "164535"
+}
+},
+{
+"id": "ingo",
+"naam": "Ingo",
+"sku": "CP_160403",
+"dakvorm": "zadeldak",
+"luifel": "nee",
+"deelOpen": 0,
+"wanddikte": 28,
+"ramen": 2,
+"deur": "dubbel",
+"vanaf": 1184.0,
+"tot": 2136.0,
+"oppMin": 4.02,
+"oppMax": 5.29,
+"uitvoeringen": [
+{
+"id": "230x175cm",
+"key": "230x175cm",
+"naam": "230x175cm",
+"W": 2.3,
+"L": 1.75
+},
+{
+"id": "230x230cm",
+"key": "230x230cm",
+"naam": "230x230cm",
+"W": 2.3,
+"L": 2.3
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "olijfgroen-geimpegneerd",
+"key": "Olijfgroen geimpegneerd",
+"naam": "Olijfgroen geïmpregneerd",
+"base": "#6E7350",
+"dark": "#464A31"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+}
+],
+"prijs": {
+"230x230cm|Platinum grijs-wit": 2136.0,
+"230x230cm|Carbon grijs-wit": 2136.0,
+"230x230cm|Olijfgroen geimpegneerd": 1584.0,
+"230x230cm|Blank hout": 1320.0,
+"230x230cm|Groen grijs-wit": 2136.0,
+"230x175cm|Platinum grijs-wit": 1956.0,
+"230x175cm|Carbon grijs-wit": 1956.0,
+"230x175cm|Olijfgroen geimpegneerd": 1448.0,
+"230x175cm|Blank hout": 1184.0,
+"230x175cm|Groen grijs-wit": 1956.0
+},
+"sku_var": {
+"230x230cm|Platinum grijs-wit": "160410",
+"230x230cm|Carbon grijs-wit": "160409",
+"230x230cm|Olijfgroen geimpegneerd": "160408",
+"230x230cm|Blank hout": "160407",
+"230x175cm|Platinum grijs-wit": "160406",
+"230x175cm|Carbon grijs-wit": "160405",
+"230x175cm|Olijfgroen geimpegneerd": "160404",
+"230x175cm|Blank hout": "160403",
+"230x230cm|Groen grijs-wit": "164534",
+"230x175cm|Groen grijs-wit": "164533"
+}
+},
+{
+"id": "indi",
+"naam": "Indi",
+"sku": "CP_160395",
+"dakvorm": "zadeldak",
+"luifel": "nee",
+"deelOpen": 0,
+"wanddikte": 28,
+"ramen": 2,
+"deur": "dubbel",
+"vanaf": 1188.0,
+"tot": 2176.0,
+"oppMin": 4.02,
+"oppMax": 5.29,
+"uitvoeringen": [
+{
+"id": "230x175cm",
+"key": "230x175cm",
+"naam": "230x175cm",
+"W": 2.3,
+"L": 1.75
+},
+{
+"id": "230x230cm",
+"key": "230x230cm",
+"naam": "230x230cm",
+"W": 2.3,
+"L": 2.3
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "olijfgroen-geimpegneerd",
+"key": "Olijfgroen geimpegneerd",
+"naam": "Olijfgroen geïmpregneerd",
+"base": "#6E7350",
+"dark": "#464A31"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+}
+],
+"prijs": {
+"230x230cm|Platinum grijs-wit": 2176.0,
+"230x230cm|Carbon grijs-wit": 2176.0,
+"230x230cm|Olijfgroen geimpegneerd": 1536.0,
+"230x230cm|Blank hout": 1272.0,
+"230x230cm|Groen grijs-wit": 2176.0,
+"230x175cm|Platinum grijs-wit": 1972.0,
+"230x175cm|Carbon grijs-wit": 1972.0,
+"230x175cm|Olijfgroen geimpegneerd": 1448.0,
+"230x175cm|Blank hout": 1188.0,
+"230x175cm|Groen grijs-wit": 1972.0
+},
+"sku_var": {
+"230x230cm|Platinum grijs-wit": "160402",
+"230x230cm|Carbon grijs-wit": "160401",
+"230x230cm|Olijfgroen geimpegneerd": "160400",
+"230x230cm|Blank hout": "160399",
+"230x175cm|Platinum grijs-wit": "160398",
+"230x175cm|Carbon grijs-wit": "160397",
+"230x175cm|Olijfgroen geimpegneerd": "160396",
+"230x175cm|Blank hout": "160395",
+"230x230cm|Groen grijs-wit": "164542",
+"230x175cm|Groen grijs-wit": "164541"
+}
+},
+{
+"id": "amira",
+"naam": "Amira",
+"sku": "CP_160365",
+"dakvorm": "zadeldak",
+"luifel": "nee",
+"deelOpen": 0,
+"wanddikte": 28,
+"ramen": 2,
+"deur": "dubbel",
+"vanaf": 1668.0,
+"tot": 3088.0,
+"oppMin": 6.65,
+"oppMax": 10.45,
+"uitvoeringen": [
+{
+"id": "380x175cm",
+"key": "380x175cm",
+"naam": "380x175cm",
+"W": 3.8,
+"L": 1.75
+},
+{
+"id": "380x230cm",
+"key": "380x230cm",
+"naam": "380x230cm",
+"W": 3.8,
+"L": 2.3
+},
+{
+"id": "380x275cm",
+"key": "380x275cm",
+"naam": "380x275cm",
+"W": 3.8,
+"L": 2.75
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "olijfgroen-geimpegneerd",
+"key": "Olijfgroen geimpegneerd",
+"naam": "Olijfgroen geïmpregneerd",
+"base": "#6E7350",
+"dark": "#464A31"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+}
+],
+"prijs": {
+"380x275cm|Platinum grijs-wit": 3088.0,
+"380x275cm|Carbon grijs-wit": 3088.0,
+"380x275cm|Olijfgroen geimpegneerd": 2148.0,
+"380x275cm|Blank hout": 1848.0,
+"380x275cm|Groen grijs-wit": 3088.0,
+"380x230cm|Platinum grijs-wit": 2936.0,
+"380x230cm|Carbon grijs-wit": 2936.0,
+"380x230cm|Olijfgroen geimpegneerd": 2064.0,
+"380x230cm|Blank hout": 1760.0,
+"380x230cm|Groen grijs-wit": 2936.0,
+"380x175cm|Platinum grijs-wit": 2764.0,
+"380x175cm|Carbon grijs-wit": 2764.0,
+"380x175cm|Olijfgroen geimpegneerd": 1976.0,
+"380x175cm|Blank hout": 1668.0,
+"380x175cm|Groen grijs-wit": 2764.0
+},
+"sku_var": {
+"380x275cm|Platinum grijs-wit": "160376",
+"380x275cm|Carbon grijs-wit": "160375",
+"380x275cm|Olijfgroen geimpegneerd": "160374",
+"380x275cm|Blank hout": "160373",
+"380x230cm|Platinum grijs-wit": "160372",
+"380x230cm|Carbon grijs-wit": "160371",
+"380x230cm|Olijfgroen geimpegneerd": "160370",
+"380x230cm|Blank hout": "160369",
+"380x175cm|Platinum grijs-wit": "160368",
+"380x175cm|Carbon grijs-wit": "160367",
+"380x175cm|Olijfgroen geimpegneerd": "160366",
+"380x175cm|Blank hout": "160365",
+"380x275cm|Groen grijs-wit": "164548",
+"380x230cm|Groen grijs-wit": "164547",
+"380x175cm|Groen grijs-wit": "164546"
+}
+},
+{
+"id": "nadia",
+"naam": "Nadia",
+"sku": "CP_160438",
+"dakvorm": "zadeldak",
+"luifel": "nee",
+"deelOpen": 0,
+"wanddikte": 28,
+"ramen": 2,
+"deur": "dubbel",
+"vanaf": 1360.0,
+"tot": 2564.0,
+"oppMin": 4.81,
+"oppMax": 7.56,
+"uitvoeringen": [
+{
+"id": "275x175cm",
+"key": "275X175CM",
+"naam": "275X175CM",
+"W": 2.75,
+"L": 1.75
+},
+{
+"id": "275x230cm",
+"key": "275X230CM",
+"naam": "275X230CM",
+"W": 2.75,
+"L": 2.3
+},
+{
+"id": "275x275cm",
+"key": "275X275CM",
+"naam": "275X275CM",
+"W": 2.75,
+"L": 2.75
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "olijfgroen-geimpegneerd",
+"key": "Olijfgroen geimpegneerd",
+"naam": "Olijfgroen geïmpregneerd",
+"base": "#6E7350",
+"dark": "#464A31"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+}
+],
+"prijs": {
+"275X275CM|Platinum grijs-wit": 2564.0,
+"275X275CM|Carbon grijs-wit": 2564.0,
+"275X275CM|Olijfgroen geimpegneerd": 1800.0,
+"275X275CM|Blank hout": 1540.0,
+"275X275CM|Groen grijs-wit": 2564.0,
+"275X230CM|Platinum grijs-wit": 2412.0,
+"275X230CM|Carbon grijs-wit": 2412.0,
+"275X230CM|Olijfgroen geimpegneerd": 1708.0,
+"275X230CM|Blank hout": 1448.0,
+"275X230CM|Groen grijs-wit": 2412.0,
+"275X175CM|Platinum grijs-wit": 2208.0,
+"275X175CM|Olijfgroen geimpegneerd": 1624.0,
+"275X175CM|Blank hout": 1360.0,
+"275X175CM|Carbon grijs-wit": 2208.0,
+"275X175CM|Groen grijs-wit": 2208.0
+},
+"sku_var": {
+"275X275CM|Platinum grijs-wit": "160448",
+"275X275CM|Carbon grijs-wit": "160447",
+"275X275CM|Olijfgroen geimpegneerd": "160446",
+"275X275CM|Blank hout": "160445",
+"275X230CM|Platinum grijs-wit": "160444",
+"275X230CM|Carbon grijs-wit": "160443",
+"275X230CM|Olijfgroen geimpegneerd": "160442",
+"275X230CM|Blank hout": "160441",
+"275X175CM|Platinum grijs-wit": "160440",
+"275X175CM|Olijfgroen geimpegneerd": "160439",
+"275X175CM|Blank hout": "160438",
+"275X175CM|Carbon grijs-wit": "144061",
+"275X275CM|Groen grijs-wit": "164545",
+"275X230CM|Groen grijs-wit": "164544",
+"275X175CM|Groen grijs-wit": "164543"
+}
+},
+{
+"id": "nina",
+"naam": "Nina",
+"sku": "CP_160449",
+"dakvorm": "zadeldak",
+"luifel": "nee",
+"deelOpen": 0,
+"wanddikte": 28,
+"ramen": 2,
+"deur": "dubbel",
+"vanaf": 1448.0,
+"tot": 2616.0,
+"oppMin": 6.32,
+"oppMax": 7.56,
+"uitvoeringen": [
+{
+"id": "275x230cm",
+"key": "275X230CM",
+"naam": "275X230CM",
+"W": 2.75,
+"L": 2.3
+},
+{
+"id": "275x275cm",
+"key": "275X275CM",
+"naam": "275X275CM",
+"W": 2.75,
+"L": 2.75
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "olijfgroen-geimpegneerd",
+"key": "Olijfgroen geimpegneerd",
+"naam": "Olijfgroen geïmpregneerd",
+"base": "#6E7350",
+"dark": "#464A31"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+}
+],
+"prijs": {
+"275X230CM|Platinum grijs-wit": 2408.0,
+"275X230CM|Carbon grijs-wit": 2408.0,
+"275X230CM|Olijfgroen geimpegneerd": 1712.0,
+"275X230CM|Blank hout": 1448.0,
+"275X230CM|Groen grijs-wit": 2408.0,
+"275X275CM|Platinum grijs-wit": 2616.0,
+"275X275CM|Carbon grijs-wit": 2616.0,
+"275X275CM|Olijfgroen geimpegneerd": 1800.0,
+"275X275CM|Blank hout": 1528.0,
+"275X275CM|Groen grijs-wit": 2616.0
+},
+"sku_var": {
+"275X230CM|Platinum grijs-wit": "144060",
+"275X275CM|Platinum grijs-wit": "160455",
+"275X275CM|Carbon grijs-wit": "160454",
+"275X275CM|Olijfgroen geimpegneerd": "160453",
+"275X275CM|Blank hout": "160452",
+"275X230CM|Carbon grijs-wit": "160451",
+"275X230CM|Olijfgroen geimpegneerd": "160450",
+"275X230CM|Blank hout": "160449",
+"275X275CM|Groen grijs-wit": "164539",
+"275X230CM|Groen grijs-wit": "164538"
+}
+},
+{
+"id": "wels",
+"naam": "Wels",
+"sku": "CP_129858",
+"dakvorm": "zadeldak",
+"luifel": "nee",
+"deelOpen": 0,
+"wanddikte": 28,
+"ramen": 2,
+"deur": "dubbel",
+"vanaf": 1275.2,
+"tot": 2280.0,
+"oppMin": 4.0,
+"oppMax": 4.6,
+"uitvoeringen": [
+{
+"id": "200x200cm",
+"key": "200x200cm",
+"naam": "200x200cm",
+"W": 2.0,
+"L": 2.0
+},
+{
+"id": "200x230cm",
+"key": "200x230cm",
+"naam": "200x230cm",
+"W": 2.0,
+"L": 2.3
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "olijfgroen-geimpegneerd",
+"key": "Olijfgroen geimpegneerd",
+"naam": "Olijfgroen geïmpregneerd",
+"base": "#6E7350",
+"dark": "#464A31"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+}
+],
+"prijs": {
+"200x230cm|Platinum grijs-wit": 2280.0,
+"200x230cm|Carbon grijs-wit": 2280.0,
+"200x230cm|Olijfgroen geimpegneerd": 1624.0,
+"200x230cm|Groen grijs-wit": 2280.0,
+"200x230cm|Blank hout": 1363.2,
+"200x200cm|Platinum grijs-wit": 2060.0,
+"200x200cm|Carbon grijs-wit": 2060.0,
+"200x200cm|Olijfgroen geimpegneerd": 1496.0,
+"200x200cm|Blank hout": 1275.2,
+"200x200cm|Groen grijs-wit": 2060.0
+},
+"sku_var": {
+"200x230cm|Platinum grijs-wit": "160498",
+"200x230cm|Carbon grijs-wit": "160497",
+"200x230cm|Olijfgroen geimpegneerd": "160496",
+"200x200cm|Platinum grijs-wit": "160495",
+"200x200cm|Carbon grijs-wit": "160494",
+"200x200cm|Olijfgroen geimpegneerd": "160493",
+"200x200cm|Blank hout": "129858",
+"200x230cm|Groen grijs-wit": "164574",
+"200x200cm|Groen grijs-wit": "164573",
+"200x230cm|Blank hout": "129859"
+}
+},
+{
+"id": "tampa",
+"naam": "Tampa",
+"sku": "CP_160507",
+"dakvorm": "lessenaarsdak",
+"luifel": "ja",
+"deelOpen": 0.42,
+"wanddikte": 28,
+"ramen": 1,
+"deur": "dubbel",
+"vanaf": 1848.0,
+"tot": 2192.0,
+"oppMin": 14.05,
+"oppMax": 14.05,
+"uitvoeringen": [
+{
+"id": "standaard",
+"key": "standaard",
+"naam": "Standaard",
+"W": 4.81,
+"L": 2.92
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "olijfgroen-geimpegneerd",
+"key": "Olijfgroen geimpegneerd",
+"naam": "Olijfgroen geïmpregneerd",
+"base": "#6E7350",
+"dark": "#464A31"
+}
+],
+"prijs": {
+"standaard|Olijfgroen geimpegneerd": 2192.0,
+"standaard|Blank hout": 1848.0
+},
+"sku_var": {
+"standaard|Olijfgroen geimpegneerd": "160508",
+"standaard|Blank hout": "160507"
+}
+},
+{
+"id": "douglas-hr",
+"naam": "Douglas HR",
+"sku": "CP_160636",
+"dakvorm": "lessenaarsdak",
+"luifel": "nee",
+"deelOpen": 0,
+"wanddikte": 28,
+"ramen": 0,
+"deur": "enkel",
+"vanaf": 2532.0,
+"tot": 4972.0,
+"oppMin": 5.14,
+"oppMax": 5.14,
+"uitvoeringen": [
+{
+"id": "symmetrische",
+"key": "Symmetrische",
+"naam": "Symmetrische",
+"W": 2.03,
+"L": 2.53
+},
+{
+"id": "asymmetrische-2",
+"key": "Asymmetrische 2",
+"naam": "Asymmetrische 2",
+"W": 2.03,
+"L": 2.53
+},
+{
+"id": "asymmetrische-1",
+"key": "Asymmetrische 1",
+"naam": "Asymmetrische 1",
+"W": 2.03,
+"L": 2.53
+},
+{
+"id": "asymmetrische",
+"key": "Asymmetrische",
+"naam": "Asymmetrische",
+"W": 2.03,
+"L": 2.53
+}
+],
+"kleuren": [
+{
+"id": "standaard",
+"key": "Standaard",
+"naam": "Standaard",
+"base": "#C9C4BB",
+"dark": "#8E8A82"
+}
+],
+"prijs": {
+"Symmetrische|Standaard": 2532.0,
+"Asymmetrische 2|Standaard": 3992.0,
+"Asymmetrische 1|Standaard": 3944.0,
+"Asymmetrische|Standaard": 3800.0
+},
+"sku_var": {
+"Symmetrische|Standaard": "160636",
+"Asymmetrische 2|Standaard": "160645",
+"Asymmetrische 1|Standaard": "160644",
+"Asymmetrische|Standaard": "160642"
+}
+},
+{
+"id": "kjeld",
+"naam": "Kjeld",
+"sku": "CP_160561",
+"dakvorm": "lessenaarsdak",
+"luifel": "ja",
+"deelOpen": 0.46,
+"wanddikte": 28,
+"ramen": 0,
+"deur": "dubbel",
+"vanaf": 1876.0,
+"tot": 3348.0,
+"oppMin": 13.75,
+"oppMax": 13.75,
+"uitvoeringen": [
+{
+"id": "standaard",
+"key": "standaard",
+"naam": "Standaard",
+"W": 5.5,
+"L": 2.5
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "platinum-grijs",
+"key": "Platinum grijs",
+"naam": "Platinum grijs",
+"base": "#9A9C99",
+"dark": "#6D6F6C"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "carbon-grijs",
+"key": "Carbon grijs",
+"naam": "Carbon grijs",
+"base": "#4A4C4D",
+"dark": "#2E3031"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+},
+{
+"id": "groen-grijs",
+"key": "Groen grijs",
+"naam": "Groen grijs",
+"base": "#5E6857",
+"dark": "#3C4437"
+}
+],
+"prijs": {
+"standaard|Carbon grijs": 3348.0,
+"standaard|Carbon grijs-wit": 3348.0,
+"standaard|Platinum grijs": 3348.0,
+"standaard|Platinum grijs-wit": 3348.0,
+"standaard|Blank hout": 1876.0,
+"standaard|Groen grijs": 3348.0,
+"standaard|Groen grijs-wit": 3348.0
+},
+"sku_var": {
+"standaard|Carbon grijs": "160565",
+"standaard|Carbon grijs-wit": "160564",
+"standaard|Platinum grijs": "160563",
+"standaard|Platinum grijs-wit": "160562",
+"standaard|Blank hout": "160561",
+"standaard|Groen grijs": "164596",
+"standaard|Groen grijs-wit": "164595"
+}
+},
+{
+"id": "lars",
+"naam": "Lars",
+"sku": "CP_160556",
+"dakvorm": "lessenaarsdak",
+"luifel": "ja",
+"deelOpen": 0.44,
+"wanddikte": 28,
+"ramen": 0,
+"deur": "dubbel",
+"vanaf": 1788.0,
+"tot": 3268.0,
+"oppMin": 12.5,
+"oppMax": 12.5,
+"uitvoeringen": [
+{
+"id": "standaard",
+"key": "standaard",
+"naam": "Standaard",
+"W": 5.0,
+"L": 2.5
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "platinum-grijs",
+"key": "Platinum grijs",
+"naam": "Platinum grijs",
+"base": "#9A9C99",
+"dark": "#6D6F6C"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "carbon-grijs",
+"key": "Carbon grijs",
+"naam": "Carbon grijs",
+"base": "#4A4C4D",
+"dark": "#2E3031"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+},
+{
+"id": "groen-grijs",
+"key": "Groen grijs",
+"naam": "Groen grijs",
+"base": "#5E6857",
+"dark": "#3C4437"
+}
+],
+"prijs": {
+"standaard|Carbon grijs": 3268.0,
+"standaard|Carbon grijs-wit": 3268.0,
+"standaard|Platinum grijs": 3268.0,
+"standaard|Platinum grijs-wit": 3268.0,
+"standaard|Blank hout": 1788.0,
+"standaard|Groen grijs": 3268.0,
+"standaard|Groen grijs-wit": 3268.0
+},
+"sku_var": {
+"standaard|Carbon grijs": "160560",
+"standaard|Carbon grijs-wit": "160559",
+"standaard|Platinum grijs": "160558",
+"standaard|Platinum grijs-wit": "160557",
+"standaard|Blank hout": "160556",
+"standaard|Groen grijs": "164594",
+"standaard|Groen grijs-wit": "164593"
+}
+},
+{
+"id": "finn",
+"naam": "Finn",
+"sku": "CP_160551",
+"dakvorm": "lessenaarsdak",
+"luifel": "ja",
+"deelOpen": 0.42,
+"wanddikte": 28,
+"ramen": 0,
+"deur": "dubbel",
+"vanaf": 1696.0,
+"tot": 3092.0,
+"oppMin": 11.25,
+"oppMax": 11.25,
+"uitvoeringen": [
+{
+"id": "standaard",
+"key": "standaard",
+"naam": "Standaard",
+"W": 4.5,
+"L": 2.5
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "platinum-grijs",
+"key": "Platinum grijs",
+"naam": "Platinum grijs",
+"base": "#9A9C99",
+"dark": "#6D6F6C"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "carbon-grijs",
+"key": "Carbon grijs",
+"naam": "Carbon grijs",
+"base": "#4A4C4D",
+"dark": "#2E3031"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+},
+{
+"id": "groen-grijs",
+"key": "Groen grijs",
+"naam": "Groen grijs",
+"base": "#5E6857",
+"dark": "#3C4437"
+}
+],
+"prijs": {
+"standaard|Carbon grijs-wit": 3092.0,
+"standaard|Blank hout": 1696.0,
+"standaard|Platinum grijs": 3092.0,
+"standaard|Platinum grijs-wit": 3092.0,
+"standaard|Carbon grijs": 3092.0,
+"standaard|Groen grijs": 3092.0,
+"standaard|Groen grijs-wit": 3092.0
+},
+"sku_var": {
+"standaard|Carbon grijs-wit": "160554",
+"standaard|Blank hout": "160551",
+"standaard|Platinum grijs": "160553",
+"standaard|Platinum grijs-wit": "160552",
+"standaard|Carbon grijs": "160555",
+"standaard|Groen grijs": "164592",
+"standaard|Groen grijs-wit": "164591"
+}
+},
+{
+"id": "lotta",
+"naam": "Lotta",
+"sku": "CP_160546",
+"dakvorm": "lessenaarsdak",
+"luifel": "nee",
+"deelOpen": 0,
+"wanddikte": 28,
+"ramen": 0,
+"deur": "dubbel",
+"vanaf": 1436.0,
+"tot": 2484.0,
+"oppMin": 7.5,
+"oppMax": 7.5,
+"uitvoeringen": [
+{
+"id": "standaard",
+"key": "standaard",
+"naam": "Standaard",
+"W": 3.0,
+"L": 2.5
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "platinum-grijs",
+"key": "Platinum grijs",
+"naam": "Platinum grijs",
+"base": "#9A9C99",
+"dark": "#6D6F6C"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "carbon-grijs",
+"key": "Carbon grijs",
+"naam": "Carbon grijs",
+"base": "#4A4C4D",
+"dark": "#2E3031"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+},
+{
+"id": "groen-grijs",
+"key": "Groen grijs",
+"naam": "Groen grijs",
+"base": "#5E6857",
+"dark": "#3C4437"
+}
+],
+"prijs": {
+"standaard|Blank hout": 1436.0,
+"standaard|Carbon grijs": 2484.0,
+"standaard|Carbon grijs-wit": 2484.0,
+"standaard|Platinum grijs": 2484.0,
+"standaard|Platinum grijs-wit": 2484.0,
+"standaard|Groen grijs": 2484.0,
+"standaard|Groen grijs-wit": 2484.0
+},
+"sku_var": {
+"standaard|Blank hout": "160546",
+"standaard|Carbon grijs": "160550",
+"standaard|Carbon grijs-wit": "160549",
+"standaard|Platinum grijs": "160548",
+"standaard|Platinum grijs-wit": "160547",
+"standaard|Groen grijs": "164590",
+"standaard|Groen grijs-wit": "164589"
+}
+},
+{
+"id": "udo",
+"naam": "Udo",
+"sku": "CP_160489",
+"dakvorm": "zadeldak",
+"luifel": "nee",
+"deelOpen": 0,
+"wanddikte": 28,
+"ramen": 2,
+"deur": "dubbel",
+"vanaf": 2548.0,
+"tot": 4164.0,
+"oppMin": 14.4,
+"oppMax": 14.4,
+"uitvoeringen": [
+{
+"id": "standaard",
+"key": "standaard",
+"naam": "Standaard",
+"W": 4.8,
+"L": 3.0
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "olijfgroen-geimpegneerd",
+"key": "Olijfgroen geimpegneerd",
+"naam": "Olijfgroen geïmpregneerd",
+"base": "#6E7350",
+"dark": "#464A31"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+}
+],
+"prijs": {
+"standaard|Platinum grijs-wit": 4164.0,
+"standaard|Carbon grijs-wit": 4164.0,
+"standaard|Olijfgroen geimpegneerd": 2896.0,
+"standaard|Blank hout": 2548.0,
+"standaard|Groen grijs-wit": 4164.0
+},
+"sku_var": {
+"standaard|Platinum grijs-wit": "160492",
+"standaard|Carbon grijs-wit": "160491",
+"standaard|Olijfgroen geimpegneerd": "160490",
+"standaard|Blank hout": "160489",
+"standaard|Groen grijs-wit": "164540"
+}
+},
+{
+"id": "timian",
+"naam": "Timian",
+"sku": "CP_160485",
+"dakvorm": "lessenaarsdak",
+"luifel": "nee",
+"deelOpen": 0,
+"wanddikte": 28,
+"ramen": 1,
+"deur": "glas",
+"vanaf": 1972.0,
+"tot": 3112.0,
+"oppMin": 8.74,
+"oppMax": 8.74,
+"uitvoeringen": [
+{
+"id": "standaard",
+"key": "standaard",
+"naam": "Standaard",
+"W": 3.8,
+"L": 2.3
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "olijfgroen-geimpegneerd",
+"key": "Olijfgroen geimpegneerd",
+"naam": "Olijfgroen geïmpregneerd",
+"base": "#6E7350",
+"dark": "#464A31"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+}
+],
+"prijs": {
+"standaard|Platinum grijs-wit": 3112.0,
+"standaard|Carbon grijs-wit": 3112.0,
+"standaard|Olijfgroen geimpegneerd": 2328.0,
+"standaard|Blank hout": 1972.0,
+"standaard|Groen grijs-wit": 3112.0
+},
+"sku_var": {
+"standaard|Platinum grijs-wit": "160488",
+"standaard|Carbon grijs-wit": "160487",
+"standaard|Olijfgroen geimpegneerd": "160486",
+"standaard|Blank hout": "160485",
+"standaard|Groen grijs-wit": "164555"
+}
+},
+{
+"id": "sunniva",
+"naam": "Sunniva",
+"sku": "CP_160481",
+"dakvorm": "lessenaarsdak",
+"luifel": "ja",
+"deelOpen": 0.45,
+"wanddikte": 28,
+"ramen": 1,
+"deur": "dubbel",
+"vanaf": 2232.0,
+"tot": 3872.0,
+"oppMin": 15.68,
+"oppMax": 15.68,
+"uitvoeringen": [
+{
+"id": "standaard",
+"key": "standaard",
+"naam": "Standaard",
+"W": 5.7,
+"L": 2.75
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "olijfgroen-geimpegneerd",
+"key": "Olijfgroen geimpegneerd",
+"naam": "Olijfgroen geïmpregneerd",
+"base": "#6E7350",
+"dark": "#464A31"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+}
+],
+"prijs": {
+"standaard|Platinum grijs-wit": 3872.0,
+"standaard|Carbon grijs-wit": 3872.0,
+"standaard|Olijfgroen geimpegneerd": 2672.0,
+"standaard|Blank hout": 2232.0,
+"standaard|Groen grijs-wit": 3872.0
+},
+"sku_var": {
+"standaard|Platinum grijs-wit": "160484",
+"standaard|Carbon grijs-wit": "160483",
+"standaard|Olijfgroen geimpegneerd": "160482",
+"standaard|Blank hout": "160481",
+"standaard|Groen grijs-wit": "164551"
+}
+},
+{
+"id": "olenka",
+"naam": "Olenka",
+"sku": "CP_160472",
+"dakvorm": "lessenaarsdak",
+"luifel": "ja",
+"deelOpen": 0.48,
+"wanddikte": 28,
+"ramen": 1,
+"deur": "glas",
+"vanaf": 2764.0,
+"tot": 4688.0,
+"oppMin": 23.43,
+"oppMax": 23.43,
+"uitvoeringen": [
+{
+"id": "standaard",
+"key": "standaard",
+"naam": "Standaard",
+"W": 7.1,
+"L": 3.3
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "olijfgroen-geimpegneerd",
+"key": "Olijfgroen geimpegneerd",
+"naam": "Olijfgroen geïmpregneerd",
+"base": "#6E7350",
+"dark": "#464A31"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+}
+],
+"prijs": {
+"standaard|Platinum grijs-wit": 4688.0,
+"standaard|Carbon grijs-wit": 4688.0,
+"standaard|Olijfgroen geimpegneerd": 3112.0,
+"standaard|Blank hout": 2764.0,
+"standaard|Groen grijs-wit": 4688.0
+},
+"sku_var": {
+"standaard|Platinum grijs-wit": "160475",
+"standaard|Carbon grijs-wit": "160474",
+"standaard|Olijfgroen geimpegneerd": "160473",
+"standaard|Blank hout": "160472",
+"standaard|Groen grijs-wit": "164567"
+}
+},
+{
+"id": "octavio",
+"naam": "Octavio",
+"sku": "CP_160468",
+"dakvorm": "zadeldak",
+"luifel": "ja",
+"deelOpen": 0.38,
+"wanddikte": 28,
+"ramen": 2,
+"deur": "dubbel",
+"vanaf": 2896.0,
+"tot": 5028.0,
+"oppMin": 25.88,
+"oppMax": 25.88,
+"uitvoeringen": [
+{
+"id": "standaard",
+"key": "standaard",
+"naam": "Standaard",
+"W": 6.81,
+"L": 3.8
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "olijfgroen-geimpegneerd",
+"key": "Olijfgroen geimpegneerd",
+"naam": "Olijfgroen geïmpregneerd",
+"base": "#6E7350",
+"dark": "#464A31"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+}
+],
+"prijs": {
+"standaard|Platinum grijs-wit": 5028.0,
+"standaard|Carbon grijs-wit": 5028.0,
+"standaard|Olijfgroen geimpegneerd": 3376.0,
+"standaard|Blank hout": 2896.0,
+"standaard|Groen grijs-wit": 5028.0
+},
+"sku_var": {
+"standaard|Platinum grijs-wit": "160471",
+"standaard|Carbon grijs-wit": "160470",
+"standaard|Olijfgroen geimpegneerd": "160469",
+"standaard|Blank hout": "160468",
+"standaard|Groen grijs-wit": "164554"
+}
+},
+{
+"id": "mikkel",
+"naam": "Mikkel",
+"sku": "CP_160435",
+"dakvorm": "lessenaarsdak",
+"luifel": "nee",
+"deelOpen": 0,
+"wanddikte": 28,
+"ramen": 1,
+"deur": "glas",
+"vanaf": 2020.0,
+"tot": 3464.0,
+"oppMin": 10.45,
+"oppMax": 10.45,
+"uitvoeringen": [
+{
+"id": "standaard",
+"key": "standaard",
+"naam": "Standaard",
+"W": 3.8,
+"L": 2.75
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "olijfgroen-geimpegneerd",
+"key": "Olijfgroen geimpegneerd",
+"naam": "Olijfgroen geïmpregneerd",
+"base": "#6E7350",
+"dark": "#464A31"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+}
+],
+"prijs": {
+"standaard|Carbon grijs-wit": 3464.0,
+"standaard|Olijfgroen geimpegneerd": 2412.0,
+"standaard|Blank hout": 2020.0,
+"standaard|Platinum grijs-wit": 3464.0,
+"standaard|Groen grijs-wit": 3464.0
+},
+"sku_var": {
+"standaard|Carbon grijs-wit": "160437",
+"standaard|Olijfgroen geimpegneerd": "160436",
+"standaard|Blank hout": "160435",
+"standaard|Platinum grijs-wit": "144062",
+"standaard|Groen grijs-wit": "164556"
+}
+},
+{
+"id": "maribel",
+"naam": "Maribel",
+"sku": "CP_160431",
+"dakvorm": "zadeldak",
+"luifel": "ja",
+"deelOpen": 0.4,
+"wanddikte": 34,
+"ramen": 2,
+"deur": "dubbel",
+"vanaf": 3244.0,
+"tot": 5304.0,
+"oppMin": 20.4,
+"oppMax": 20.4,
+"uitvoeringen": [
+{
+"id": "standaard",
+"key": "standaard",
+"naam": "Standaard",
+"W": 6.8,
+"L": 3.0
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "olijfgroen-geimpegneerd",
+"key": "Olijfgroen geimpegneerd",
+"naam": "Olijfgroen geïmpregneerd",
+"base": "#6E7350",
+"dark": "#464A31"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+}
+],
+"prijs": {
+"standaard|Platinum grijs-wit": 5304.0,
+"standaard|Carbon grijs-wit": 5304.0,
+"standaard|Olijfgroen geimpegneerd": 3772.0,
+"standaard|Blank hout": 3244.0,
+"standaard|Groen grijs-wit": 5304.0
+},
+"sku_var": {
+"standaard|Platinum grijs-wit": "160434",
+"standaard|Carbon grijs-wit": "160433",
+"standaard|Olijfgroen geimpegneerd": "160432",
+"standaard|Blank hout": "160431",
+"standaard|Groen grijs-wit": "164565"
+}
+},
+{
+"id": "manuel",
+"naam": "Manuel",
+"sku": "CP_160427",
+"dakvorm": "lessenaarsdak",
+"luifel": "ja",
+"deelOpen": 0.44,
+"wanddikte": 28,
+"ramen": 1,
+"deur": "glas",
+"vanaf": 2324.0,
+"tot": 3900.0,
+"oppMin": 16.5,
+"oppMax": 16.5,
+"uitvoeringen": [
+{
+"id": "standaard",
+"key": "standaard",
+"naam": "Standaard",
+"W": 6.0,
+"L": 2.75
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "olijfgroen-geimpegneerd",
+"key": "Olijfgroen geimpegneerd",
+"naam": "Olijfgroen geïmpregneerd",
+"base": "#6E7350",
+"dark": "#464A31"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+}
+],
+"prijs": {
+"standaard|Platinum grijs-wit": 3900.0,
+"standaard|Carbon grijs-wit": 3900.0,
+"standaard|Olijfgroen geimpegneerd": 2672.0,
+"standaard|Blank hout": 2324.0,
+"standaard|Groen grijs-wit": 3900.0
+},
+"sku_var": {
+"standaard|Platinum grijs-wit": "160430",
+"standaard|Carbon grijs-wit": "160429",
+"standaard|Olijfgroen geimpegneerd": "160428",
+"standaard|Blank hout": "160427",
+"standaard|Groen grijs-wit": "164552"
+}
+},
+{
+"id": "jelle",
+"naam": "Jelle",
+"sku": "CP_160411",
+"dakvorm": "lessenaarsdak",
+"luifel": "ja",
+"deelOpen": 0.34,
+"wanddikte": 28,
+"ramen": 0,
+"deur": "enkel",
+"vanaf": 1320.0,
+"tot": 2236.0,
+"oppMin": 6.48,
+"oppMax": 6.48,
+"uitvoeringen": [
+{
+"id": "standaard",
+"key": "standaard",
+"naam": "Standaard",
+"W": 3.7,
+"L": 1.75
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "olijfgroen-geimpegneerd",
+"key": "Olijfgroen geimpegneerd",
+"naam": "Olijfgroen geïmpregneerd",
+"base": "#6E7350",
+"dark": "#464A31"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+}
+],
+"prijs": {
+"standaard|Platinum grijs-wit": 2236.0,
+"standaard|Carbon grijs-wit": 2236.0,
+"standaard|Olijfgroen geimpegneerd": 1584.0,
+"standaard|Blank hout": 1320.0,
+"standaard|Groen grijs-wit": 2236.0
+},
+"sku_var": {
+"standaard|Platinum grijs-wit": "160414",
+"standaard|Carbon grijs-wit": "160413",
+"standaard|Olijfgroen geimpegneerd": "160412",
+"standaard|Blank hout": "160411",
+"standaard|Groen grijs-wit": "164550"
+}
+},
+{
+"id": "aida",
+"naam": "Aida",
+"sku": "CP_160361",
+"dakvorm": "lessenaarsdak",
+"luifel": "ja",
+"deelOpen": 0.5,
+"wanddikte": 28,
+"ramen": 1,
+"deur": "dubbel",
+"vanaf": 2676.0,
+"tot": 4420.0,
+"oppMin": 20.9,
+"oppMax": 20.9,
+"uitvoeringen": [
+{
+"id": "standaard",
+"key": "standaard",
+"naam": "Standaard",
+"W": 7.6,
+"L": 2.75
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "olijfgroen-geimpegneerd",
+"key": "Olijfgroen geimpegneerd",
+"naam": "Olijfgroen geïmpregneerd",
+"base": "#6E7350",
+"dark": "#464A31"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+}
+],
+"prijs": {
+"standaard|Platinum grijs-wit": 4420.0,
+"standaard|Carbon grijs-wit": 4420.0,
+"standaard|Olijfgroen geimpegneerd": 3024.0,
+"standaard|Blank hout": 2676.0,
+"standaard|Groen grijs-wit": 4420.0
+},
+"sku_var": {
+"standaard|Platinum grijs-wit": "160364",
+"standaard|Carbon grijs-wit": "160363",
+"standaard|Olijfgroen geimpegneerd": "160362",
+"standaard|Blank hout": "160361",
+"standaard|Groen grijs-wit": "164549"
+}
+},
+{
+"id": "helena",
+"naam": "Helena",
+"sku": "CP_144471",
+"dakvorm": "lessenaarsdak",
+"luifel": "ja",
+"deelOpen": 0.44,
+"wanddikte": 28,
+"ramen": 1,
+"deur": "glas",
+"vanaf": 1712.0,
+"tot": 2884.0,
+"oppMin": 10.86,
+"oppMax": 10.86,
+"uitvoeringen": [
+{
+"id": "standaard",
+"key": "standaard",
+"naam": "Standaard",
+"W": 4.72,
+"L": 2.3
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "olijfgroen-geimpegneerd",
+"key": "Olijfgroen geimpegneerd",
+"naam": "Olijfgroen geïmpregneerd",
+"base": "#6E7350",
+"dark": "#464A31"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+}
+],
+"prijs": {
+"standaard|Platinum grijs-wit": 2884.0,
+"standaard|Carbon grijs-wit": 2884.0,
+"standaard|Olijfgroen geimpegneerd": 1972.0,
+"standaard|Blank hout": 1712.0,
+"standaard|Groen grijs-wit": 2884.0
+},
+"sku_var": {
+"standaard|Platinum grijs-wit": "160394",
+"standaard|Carbon grijs-wit": "160393",
+"standaard|Olijfgroen geimpegneerd": "160392",
+"standaard|Blank hout": "144471",
+"standaard|Groen grijs-wit": "164566"
+}
+},
+{
+"id": "fraya",
+"naam": "Fraya",
+"sku": "CP_160389",
+"dakvorm": "zadeldak",
+"luifel": "ja",
+"deelOpen": 0.4,
+"wanddikte": 28,
+"ramen": 2,
+"deur": "dubbel",
+"vanaf": 2320.0,
+"tot": 3988.0,
+"oppMin": 15.81,
+"oppMax": 15.81,
+"uitvoeringen": [
+{
+"id": "standaard",
+"key": "standaard",
+"naam": "Standaard",
+"W": 5.75,
+"L": 2.75
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "olijfgroen-geimpegneerd",
+"key": "Olijfgroen geimpegneerd",
+"naam": "Olijfgroen geïmpregneerd",
+"base": "#6E7350",
+"dark": "#464A31"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+}
+],
+"prijs": {
+"standaard|Platinum grijs-wit": 3988.0,
+"standaard|Carbon grijs-wit": 3988.0,
+"standaard|Blank hout": 2320.0,
+"standaard|Olijfgroen geimpegneerd": 2676.0,
+"standaard|Groen grijs-wit": 3988.0
+},
+"sku_var": {
+"standaard|Platinum grijs-wit": "160391",
+"standaard|Carbon grijs-wit": "160390",
+"standaard|Blank hout": "160389",
+"standaard|Olijfgroen geimpegneerd": "144468",
+"standaard|Groen grijs-wit": "164553"
+}
+},
+{
+"id": "baltimore",
+"naam": "Baltimore",
+"sku": "CP_116851",
+"dakvorm": "zadeldak",
+"luifel": "nee",
+"deelOpen": 0,
+"wanddikte": 28,
+"ramen": 2,
+"deur": "dubbel",
+"vanaf": 1276.0,
+"tot": 2500.0,
+"oppMin": 6.72,
+"oppMax": 6.72,
+"uitvoeringen": [
+{
+"id": "standaard",
+"key": "standaard",
+"naam": "Standaard",
+"W": 2.92,
+"L": 2.3
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "olijfgroen-geimpegneerd",
+"key": "Olijfgroen geimpegneerd",
+"naam": "Olijfgroen geïmpregneerd",
+"base": "#6E7350",
+"dark": "#464A31"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+}
+],
+"prijs": {
+"standaard|Carbon grijs-wit": 2500.0,
+"standaard|Olijfgroen geimpegneerd": 1712.0,
+"standaard|Blank hout": 1276.0,
+"standaard|Groen grijs-wit": 2500.0
+},
+"sku_var": {
+"standaard|Carbon grijs-wit": "160378",
+"standaard|Olijfgroen geimpegneerd": "160377",
+"standaard|Blank hout": "116851",
+"standaard|Groen grijs-wit": "164571"
+}
+},
+{
+"id": "dallas",
+"naam": "Dallas",
+"sku": "CP_116853",
+"dakvorm": "zadeldak",
+"luifel": "nee",
+"deelOpen": 0,
+"wanddikte": 28,
+"ramen": 2,
+"deur": "dubbel",
+"vanaf": 1932.0,
+"tot": 3260.0,
+"oppMin": 10.98,
+"oppMax": 10.98,
+"uitvoeringen": [
+{
+"id": "standaard",
+"key": "standaard",
+"naam": "Standaard",
+"W": 3.76,
+"L": 2.92
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "olijfgroen-geimpegneerd",
+"key": "Olijfgroen geimpegneerd",
+"naam": "Olijfgroen geïmpregneerd",
+"base": "#6E7350",
+"dark": "#464A31"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+}
+],
+"prijs": {
+"standaard|Platinum grijs-wit": 3260.0,
+"standaard|Carbon grijs-wit": 3260.0,
+"standaard|Blank hout": 1932.0,
+"standaard|Olijfgroen geimpegneerd": 2236.0,
+"standaard|Groen grijs-wit": 3260.0
+},
+"sku_var": {
+"standaard|Platinum grijs-wit": "160384",
+"standaard|Carbon grijs-wit": "160383",
+"standaard|Blank hout": "116853",
+"standaard|Olijfgroen geimpegneerd": "131755",
+"standaard|Groen grijs-wit": "164572"
+}
+},
+{
+"id": "douglas-zr",
+"naam": "Douglas ZR",
+"sku": "CP_160610",
+"dakvorm": "lessenaarsdak",
+"luifel": "nee",
+"deelOpen": 0,
+"wanddikte": 28,
+"ramen": 0,
+"deur": "enkel",
+"vanaf": 2292.0,
+"tot": 4540.0,
+"oppMin": 5.14,
+"oppMax": 5.14,
+"uitvoeringen": [
+{
+"id": "symmetrische",
+"key": "Symmetrische",
+"naam": "Symmetrische",
+"W": 2.03,
+"L": 2.53
+},
+{
+"id": "asymmetrische-2",
+"key": "Asymmetrische 2",
+"naam": "Asymmetrische 2",
+"W": 2.03,
+"L": 2.53
+},
+{
+"id": "asymmetrische-1",
+"key": "Asymmetrische 1",
+"naam": "Asymmetrische 1",
+"W": 2.03,
+"L": 2.53
+},
+{
+"id": "asymmetrische",
+"key": "Asymmetrische",
+"naam": "Asymmetrische",
+"W": 2.03,
+"L": 2.53
+}
+],
+"kleuren": [
+{
+"id": "standaard",
+"key": "Standaard",
+"naam": "Standaard",
+"base": "#C9C4BB",
+"dark": "#8E8A82"
+}
+],
+"prijs": {
+"Symmetrische|Standaard": 2292.0,
+"Asymmetrische 2|Standaard": 3636.0,
+"Asymmetrische 1|Standaard": 3600.0,
+"Asymmetrische|Standaard": 3476.0
+},
+"sku_var": {
+"Symmetrische|Standaard": "160610",
+"Asymmetrische 2|Standaard": "160619",
+"Asymmetrische 1|Standaard": "160618",
+"Asymmetrische|Standaard": "160616"
+}
+},
+{
+"id": "caroline-sgc",
+"naam": "Caroline SGC",
+"sku": "CP_160380",
+"dakvorm": "zadeldak",
+"luifel": "nee",
+"deelOpen": 0,
+"wanddikte": 40,
+"ramen": 2,
+"deur": "enkel",
+"vanaf": 6256.0,
+"tot": 6256.0,
+"oppMin": 22.43,
+"oppMax": 22.43,
+"uitvoeringen": [
+{
+"id": "standaard",
+"key": "standaard",
+"naam": "Standaard",
+"W": 3.9,
+"L": 5.75
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+}
+],
+"prijs": {
+"standaard|Blank hout": 6256.0
+},
+"sku_var": {
+"standaard|Blank hout": "160380"
+}
+},
+{
+"id": "garage-dillon",
+"naam": "Garage Dillon",
+"sku": "CP_160385",
+"dakvorm": "zadeldak",
+"luifel": "nee",
+"deelOpen": 0,
+"wanddikte": 34,
+"ramen": 1,
+"deur": "enkel",
+"vanaf": 2936.0,
+"tot": 4772.0,
+"oppMin": 16.2,
+"oppMax": 16.2,
+"uitvoeringen": [
+{
+"id": "standaard",
+"key": "standaard",
+"naam": "Standaard",
+"W": 3.0,
+"L": 5.4
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "olijfgroen-geimpegneerd",
+"key": "Olijfgroen geimpegneerd",
+"naam": "Olijfgroen geïmpregneerd",
+"base": "#6E7350",
+"dark": "#464A31"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+}
+],
+"prijs": {
+"standaard|Platinum grijs-wit": 4772.0,
+"standaard|Carbon grijs-wit": 4772.0,
+"standaard|Olijfgroen geimpegneerd": 3288.0,
+"standaard|Blank hout": 2936.0,
+"standaard|Groen grijs-wit": 4772.0
+},
+"sku_var": {
+"standaard|Platinum grijs-wit": "160388",
+"standaard|Carbon grijs-wit": "160387",
+"standaard|Olijfgroen geimpegneerd": "160386",
+"standaard|Blank hout": "160385",
+"standaard|Groen grijs-wit": "164557"
+}
+},
+{
+"id": "st-louis",
+"naam": "St. Louis",
+"sku": "CP_129856",
+"dakvorm": "lessenaarsdak",
+"luifel": "ja",
+"deelOpen": 0.5,
+"wanddikte": 28,
+"ramen": 1,
+"deur": "dubbel",
+"vanaf": 1996.0,
+"tot": 3900.0,
+"oppMin": 19.89,
+"oppMax": 19.89,
+"uitvoeringen": [
+{
+"id": "standaard",
+"key": "standaard",
+"naam": "Standaard",
+"W": 6.81,
+"L": 2.92
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "olijfgroen-geimpegneerd",
+"key": "Olijfgroen geimpegneerd",
+"naam": "Olijfgroen geïmpregneerd",
+"base": "#6E7350",
+"dark": "#464A31"
+},
+{
+"id": "platinum-grijs-wit",
+"key": "Platinum grijs-wit",
+"naam": "Platinum grijs-wit",
+"base": "#D6D5D0",
+"dark": "#A8A79F"
+},
+{
+"id": "carbon-grijs-wit",
+"key": "Carbon grijs-wit",
+"naam": "Carbon grijs-wit",
+"base": "#CFCFCC",
+"dark": "#8E8E8B"
+},
+{
+"id": "groen-grijs-wit",
+"key": "Groen grijs-wit",
+"naam": "Groen grijs-wit",
+"base": "#CBD0C6",
+"dark": "#969C8F"
+}
+],
+"prijs": {
+"standaard|Platinum grijs-wit": 3900.0,
+"standaard|Carbon grijs-wit": 3900.0,
+"standaard|Olijfgroen geimpegneerd": 2584.0,
+"standaard|Blank hout": 1996.0,
+"standaard|Groen grijs-wit": 3900.0
+},
+"sku_var": {
+"standaard|Platinum grijs-wit": "160480",
+"standaard|Carbon grijs-wit": "160479",
+"standaard|Olijfgroen geimpegneerd": "160478",
+"standaard|Blank hout": "129856",
+"standaard|Groen grijs-wit": "164570"
+}
+},
+{
+"id": "douglas-z-zr",
+"naam": "Douglas Z-ZR",
+"sku": "CP_160623",
+"dakvorm": "lessenaarsdak",
+"luifel": "nee",
+"deelOpen": 0,
+"wanddikte": 28,
+"ramen": 0,
+"deur": "enkel",
+"vanaf": 2532.0,
+"tot": 4968.0,
+"oppMin": 5.14,
+"oppMax": 5.14,
+"uitvoeringen": [
+{
+"id": "symmetrische",
+"key": "Symmetrische",
+"naam": "Symmetrische",
+"W": 2.03,
+"L": 2.53
+},
+{
+"id": "asymmetrische-2",
+"key": "Asymmetrische 2",
+"naam": "Asymmetrische 2",
+"W": 2.03,
+"L": 2.53
+},
+{
+"id": "asymmetrische-1",
+"key": "Asymmetrische 1",
+"naam": "Asymmetrische 1",
+"W": 2.03,
+"L": 2.53
+},
+{
+"id": "asymmetrische",
+"key": "Asymmetrische",
+"naam": "Asymmetrische",
+"W": 2.03,
+"L": 2.53
+}
+],
+"kleuren": [
+{
+"id": "standaard",
+"key": "Standaard",
+"naam": "Standaard",
+"base": "#C9C4BB",
+"dark": "#8E8A82"
+}
+],
+"prijs": {
+"Symmetrische|Standaard": 2532.0,
+"Asymmetrische 2|Standaard": 3988.0,
+"Asymmetrische 1|Standaard": 3944.0,
+"Asymmetrische|Standaard": 3800.0
+},
+"sku_var": {
+"Symmetrische|Standaard": "160623",
+"Asymmetrische 2|Standaard": "160632",
+"Asymmetrische 1|Standaard": "160631",
+"Asymmetrische|Standaard": "160629"
+}
+},
+{
+"id": "pernilla",
+"naam": "Pernilla",
+"sku": "CP_160578",
+"dakvorm": "lessenaarsdak",
+"luifel": "optie",
+"deelOpen": 0.4,
+"wanddikte": 28,
+"ramen": 1,
+"deur": "glas",
+"vanaf": 3004.0,
+"tot": 6396.0,
+"oppMin": 11.36,
+"oppMax": 11.36,
+"uitvoeringen": [
+{
+"id": "tuinhuis-aanbouw",
+"key": "Tuinhuis + aanbouw",
+"naam": "Tuinhuis + aanbouw",
+"W": 3.85,
+"L": 2.95
+},
+{
+"id": "tuinhuis",
+"key": "Tuinhuis",
+"naam": "Tuinhuis",
+"W": 3.85,
+"L": 2.95
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "platinum-grijs",
+"key": "Platinum grijs",
+"naam": "Platinum grijs",
+"base": "#9A9C99",
+"dark": "#6D6F6C"
+},
+{
+"id": "carbon-grijs",
+"key": "Carbon grijs",
+"naam": "Carbon grijs",
+"base": "#4A4C4D",
+"dark": "#2E3031"
+},
+{
+"id": "groen-grijs",
+"key": "Groen grijs",
+"naam": "Groen grijs",
+"base": "#5E6857",
+"dark": "#3C4437"
+}
+],
+"prijs": {
+"Tuinhuis + aanbouw|Carbon grijs": 6396.0,
+"Tuinhuis + aanbouw|Platinum grijs": 6396.0,
+"Tuinhuis + aanbouw|Blank hout": 4308.0,
+"Tuinhuis + aanbouw|Groen grijs": 6396.0,
+"Tuinhuis|Carbon grijs": 4396.0,
+"Tuinhuis|Platinum grijs": 4396.0,
+"Tuinhuis|Blank hout": 3004.0,
+"Tuinhuis|Groen grijs": 4396.0
+},
+"sku_var": {
+"Tuinhuis + aanbouw|Carbon grijs": "160583",
+"Tuinhuis + aanbouw|Platinum grijs": "160582",
+"Tuinhuis + aanbouw|Blank hout": "160581",
+"Tuinhuis|Carbon grijs": "160580",
+"Tuinhuis|Platinum grijs": "160579",
+"Tuinhuis|Blank hout": "160578",
+"Tuinhuis + aanbouw|Groen grijs": "164602",
+"Tuinhuis|Groen grijs": "164601"
+}
+},
+{
+"id": "olivia",
+"naam": "Olivia",
+"sku": "CP_160572",
+"dakvorm": "lessenaarsdak",
+"luifel": "optie",
+"deelOpen": 0.4,
+"wanddikte": 28,
+"ramen": 1,
+"deur": "glas",
+"vanaf": 2916.0,
+"tot": 6224.0,
+"oppMin": 11.36,
+"oppMax": 11.36,
+"uitvoeringen": [
+{
+"id": "tuinhuis-aanbouw",
+"key": "Tuinhuis + aanbouw",
+"naam": "Tuinhuis + aanbouw",
+"W": 3.85,
+"L": 2.95
+},
+{
+"id": "tuinhuis",
+"key": "Tuinhuis",
+"naam": "Tuinhuis",
+"W": 3.85,
+"L": 2.95
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "platinum-grijs",
+"key": "Platinum grijs",
+"naam": "Platinum grijs",
+"base": "#9A9C99",
+"dark": "#6D6F6C"
+},
+{
+"id": "carbon-grijs",
+"key": "Carbon grijs",
+"naam": "Carbon grijs",
+"base": "#4A4C4D",
+"dark": "#2E3031"
+},
+{
+"id": "groen-grijs",
+"key": "Groen grijs",
+"naam": "Groen grijs",
+"base": "#5E6857",
+"dark": "#3C4437"
+}
+],
+"prijs": {
+"Tuinhuis + aanbouw|Carbon grijs": 6224.0,
+"Tuinhuis + aanbouw|Platinum grijs": 6224.0,
+"Tuinhuis + aanbouw|Blank hout": 4224.0,
+"Tuinhuis + aanbouw|Groen grijs": 6224.0,
+"Tuinhuis|Carbon grijs": 4308.0,
+"Tuinhuis|Platinum grijs": 4308.0,
+"Tuinhuis|Blank hout": 2916.0,
+"Tuinhuis|Groen grijs": 4308.0
+},
+"sku_var": {
+"Tuinhuis + aanbouw|Carbon grijs": "160577",
+"Tuinhuis + aanbouw|Platinum grijs": "160576",
+"Tuinhuis + aanbouw|Blank hout": "160575",
+"Tuinhuis|Carbon grijs": "160574",
+"Tuinhuis|Platinum grijs": "160573",
+"Tuinhuis|Blank hout": "160572",
+"Tuinhuis + aanbouw|Groen grijs": "164600",
+"Tuinhuis|Groen grijs": "164599"
+}
+},
+{
+"id": "julia",
+"naam": "Julia",
+"sku": "CP_160566",
+"dakvorm": "lessenaarsdak",
+"luifel": "optie",
+"deelOpen": 0.4,
+"wanddikte": 28,
+"ramen": 1,
+"deur": "glas",
+"vanaf": 2660.0,
+"tot": 5836.0,
+"oppMin": 8.7,
+"oppMax": 8.7,
+"uitvoeringen": [
+{
+"id": "tuinhuis-aanbouw",
+"key": "Tuinhuis + aanbouw",
+"naam": "Tuinhuis + aanbouw",
+"W": 2.95,
+"L": 2.95
+},
+{
+"id": "tuinhuis",
+"key": "Tuinhuis",
+"naam": "Tuinhuis",
+"W": 2.95,
+"L": 2.95
+}
+],
+"kleuren": [
+{
+"id": "blank-hout",
+"key": "Blank hout",
+"naam": "Blank hout",
+"base": "#D9C093",
+"dark": "#A48B58"
+},
+{
+"id": "platinum-grijs",
+"key": "Platinum grijs",
+"naam": "Platinum grijs",
+"base": "#9A9C99",
+"dark": "#6D6F6C"
+},
+{
+"id": "carbon-grijs",
+"key": "Carbon grijs",
+"naam": "Carbon grijs",
+"base": "#4A4C4D",
+"dark": "#2E3031"
+},
+{
+"id": "groen-grijs",
+"key": "Groen grijs",
+"naam": "Groen grijs",
+"base": "#5E6857",
+"dark": "#3C4437"
+}
+],
+"prijs": {
+"Tuinhuis + aanbouw|Carbon grijs": 5836.0,
+"Tuinhuis + aanbouw|Platinum grijs": 5836.0,
+"Tuinhuis + aanbouw|Blank hout": 3960.0,
+"Tuinhuis + aanbouw|Groen grijs": 5836.0,
+"Tuinhuis|Carbon grijs": 3872.0,
+"Tuinhuis|Platinum grijs": 3872.0,
+"Tuinhuis|Blank hout": 2660.0,
+"Tuinhuis|Groen grijs": 3872.0
+},
+"sku_var": {
+"Tuinhuis + aanbouw|Carbon grijs": "160571",
+"Tuinhuis + aanbouw|Platinum grijs": "160570",
+"Tuinhuis + aanbouw|Blank hout": "160569",
+"Tuinhuis|Carbon grijs": "160568",
+"Tuinhuis|Platinum grijs": "160567",
+"Tuinhuis|Blank hout": "160566",
+"Tuinhuis + aanbouw|Groen grijs": "164598",
+"Tuinhuis|Groen grijs": "164597"
+}
+}
+]

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-label="amai! illustration">
+  <rect width="1200" height="520" fill="#16233D"/>
+  <circle cx="1060" cy="80" r="240" fill="#F4F6FA" opacity="0.08"/>
+  <circle cx="120" cy="470" r="200" fill="#93E6BE" opacity="0.12"/>
+
+  <!-- blocked threats approaching from the right -->
+  <g fill="#F4F6FA">
+    <circle cx="772" cy="150" r="7" opacity="0.55"/>
+    <circle cx="852" cy="250" r="6" opacity="0.5"/>
+    <circle cx="800" cy="360" r="7" opacity="0.5"/>
+    <circle cx="918" cy="196" r="5" opacity="0.45"/>
+    <circle cx="906" cy="330" r="6" opacity="0.45"/>
+  </g>
+
+  <!-- shield with check -->
+  <g transform="translate(430 268) rotate(-4)">
+    <path d="M-122 -104 Q0 -136 122 -104 L122 26 Q122 126 0 176 Q-122 126 -122 26 Z" fill="#93E6BE"/>
+    <path d="M-58 6 L-14 52 L68 -38" fill="none" stroke="#16233D" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- accent dots -->
+  <circle cx="980" cy="436" r="12" fill="#93E6BE"/>
+  <circle cx="1086" cy="356" r="9" fill="#93E6BE"/>
+  <circle cx="1124" cy="206" r="7" fill="#F4F6FA" opacity="0.7"/>
+  <circle cx="690" cy="436" r="8" fill="#F4F6FA" opacity="0.6"/>
+</svg>

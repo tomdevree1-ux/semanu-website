@@ -1,0 +1,233 @@
+/* ==========================================================================
+   CEVO design tokens
+   Afgeleid van de live Magento frontend van cevo.be (computed styles),
+   het geanimeerde logo (cevo.be.gif, frame 18) en de twee screenshots.
+   Gebruik dit bestand als basis voor de 3D configurator, zodat de
+   configurator aanvoelt als een onderdeel van de CEVO webshop.
+   ========================================================================== */
+
+/* Lettertype: CEVO draait op SourceSansPro.
+   Google Fonts levert de actuele release als "Source Sans 3".
+   <link rel="stylesheet"
+     href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap"> */
+
+:root {
+  /* --- Merkkleuren ------------------------------------------------------ */
+  --cevo-navy:        #004563;  /* logo, koppen, donkere banners           */
+  --cevo-navy-700:    #003a53;  /* hover op navy vlakken                   */
+  --cevo-navy-900:    #002b3e;  /* diepste navy, voetteksten op kleur      */
+  --cevo-orange:      #ec660d;  /* primaire knop (.action.primary)         */
+  --cevo-orange-600:  #d25a09;  /* hover primaire knop                     */
+  --cevo-orange-bright:#f58508; /* prijzen, actieprijs                     */
+
+  /* --- Ondersteunend ---------------------------------------------------- */
+  --cevo-steel:       #748f9d;  /* secundaire vlakken, iconen              */
+  --cevo-steel-600:   #558698;
+  --cevo-mist:        #e6ecf0;  /* navigatiebalk, lichte vlakken           */
+  --cevo-paper:       #f5f5f4;  /* paginagrond, tegels                     */
+  --cevo-panel:       #f7f9fa;  /* zachte panelen                          */
+
+  /* --- Tekst en lijnen -------------------------------------------------- */
+  --cevo-ink:         #333333;  /* body en koppen                          */
+  --cevo-ink-soft:    #6b7a82;  /* meta, artikelnummer                     */
+  --cevo-ink-mute:    #cccccc;  /* doorstreepte oude prijs                 */
+  --cevo-line:        #e5e5e5;  /* scheidingslijn in filters               */
+  --cevo-border:      #c2c2c2;  /* formuliervelden                         */
+
+  /* --- Typografie ------------------------------------------------------- */
+  --cevo-font: "Source Sans 3", SourceSansPro, "Source Sans Pro", Arial,
+               "Helvetica Neue", Helvetica, sans-serif;
+
+  --cevo-fs-h1:      40px;  --cevo-lh-h1: 44px;   /* categoriekop          */
+  --cevo-fs-h2:      30px;  --cevo-lh-h2: 33px;
+  --cevo-fs-h3:      24px;  --cevo-lh-h3: 28px;   /* bloktitel             */
+  --cevo-fs-body:    15px;  --cevo-lh-body: 21px;
+  --cevo-fs-label:   15px;                        /* filterkop, uppercase  */
+  --cevo-fs-product: 14px;                        /* productnaam, bold     */
+  --cevo-fs-price:   18px;
+  --cevo-fs-meta:    13px;
+  --cevo-fs-badge:   12px;
+
+  /* --- Vorm ------------------------------------------------------------- */
+  --cevo-radius:      5px;   /* knoppen                                    */
+  --cevo-radius-sm:   4px;   /* invoervelden                               */
+  --cevo-input-h:     50px;
+  --cevo-shadow:      0 1px 3px rgba(0, 69, 99, .10);
+  --cevo-shadow-lift: 0 4px 14px rgba(0, 69, 99, .16);
+}
+
+/* ==========================================================================
+   Basis
+   ========================================================================== */
+.cevo {
+  font-family: var(--cevo-font);
+  font-size: var(--cevo-fs-body);
+  line-height: var(--cevo-lh-body);
+  color: var(--cevo-ink);
+}
+
+.cevo h1 { font-size: var(--cevo-fs-h1); line-height: var(--cevo-lh-h1); font-weight: 700; }
+.cevo h2 { font-size: var(--cevo-fs-h2); line-height: var(--cevo-lh-h2); font-weight: 700; }
+.cevo h3 { font-size: var(--cevo-fs-h3); line-height: var(--cevo-lh-h3); font-weight: 700; }
+
+/* Sectiekop met accentbalk, zoals "Cevo's Super acties" en
+   "SELECTIE VERFIJNEN". Balk is oranje op de shop, navy in de zijbalk. */
+.cevo-section-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--cevo-navy);
+  padding-bottom: 8px;
+  border-bottom: 3px solid var(--cevo-orange);
+  display: inline-block;
+}
+.cevo-section-title--navy { border-bottom-color: var(--cevo-navy); }
+
+/* ==========================================================================
+   Knoppen
+   ========================================================================== */
+.cevo-btn {
+  font-family: var(--cevo-font);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  padding: 12px 20px;
+  border: 1px solid transparent;
+  border-radius: var(--cevo-radius);
+  cursor: pointer;
+  transition: background-color .15s ease, color .15s ease;
+}
+.cevo-btn--primary { background: var(--cevo-orange); color: #fff; }
+.cevo-btn--primary:hover { background: var(--cevo-orange-600); }
+
+.cevo-btn--navy { background: var(--cevo-navy); color: #fff; }
+.cevo-btn--navy:hover { background: var(--cevo-navy-700); }
+
+.cevo-btn--ghost {
+  background: #fff;
+  color: var(--cevo-navy);
+  border-color: var(--cevo-border);
+}
+.cevo-btn--ghost:hover { border-color: var(--cevo-navy); }
+
+.cevo-btn--block { display: block; width: 100%; text-align: center; }
+
+/* ==========================================================================
+   Formuliervelden
+   ========================================================================== */
+.cevo-input,
+.cevo-select {
+  font-family: var(--cevo-font);
+  font-size: 14px;
+  height: var(--cevo-input-h);
+  padding: 0 12px;
+  background: #fff;
+  border: 1px solid var(--cevo-border);
+  border-radius: var(--cevo-radius-sm);
+  color: var(--cevo-ink);
+  width: 100%;
+}
+.cevo-input:focus,
+.cevo-select:focus {
+  outline: 2px solid var(--cevo-navy);
+  outline-offset: 1px;
+  border-color: var(--cevo-navy);
+}
+
+/* ==========================================================================
+   Parametermenu — replica van "SELECTIE VERFIJNEN"
+   Dit is het patroon dat de configurator overneemt.
+   ========================================================================== */
+.cevo-filter {
+  background: #fff;
+  border: 1px solid var(--cevo-line);
+  padding: 20px;
+}
+.cevo-filter__title {
+  font-size: var(--cevo-fs-label);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--cevo-navy);
+  padding-bottom: 8px;
+  border-bottom: 3px solid var(--cevo-navy);
+  display: inline-block;
+  margin: 0 0 4px;
+}
+.cevo-filter__item {
+  border-bottom: 1px solid var(--cevo-line);
+  padding: 0 0 10px;
+}
+.cevo-filter__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  padding: 14px 0 4px;
+  background: none;
+  border: 0;
+  cursor: pointer;
+
+  font-family: var(--cevo-font);
+  font-size: var(--cevo-fs-label);
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--cevo-ink);
+  text-align: left;
+}
+.cevo-filter__head:hover { color: var(--cevo-navy); }
+.cevo-filter__chevron {
+  flex: none;
+  width: 12px;
+  height: 12px;
+  border-right: 2px solid var(--cevo-ink);
+  border-bottom: 2px solid var(--cevo-ink);
+  transform: rotate(45deg) translate(-2px, -2px);
+  transition: transform .2s ease;
+}
+.cevo-filter__head[aria-expanded="true"] .cevo-filter__chevron {
+  transform: rotate(225deg) translate(-2px, -2px);
+}
+.cevo-filter__body { padding: 6px 0 4px; }
+
+/* Keuzeoptie: tekstchip zoals "Blank hout" / "Olijfgroen geïmpregneerd" */
+.cevo-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--cevo-navy);
+  background: #fff;
+  border: 1px solid var(--cevo-navy);
+  border-radius: var(--cevo-radius-sm);
+  cursor: pointer;
+}
+.cevo-chip[aria-pressed="true"] { background: var(--cevo-navy); color: #fff; }
+.cevo-chip__swatch {
+  width: 16px; height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, .15);
+}
+
+/* ==========================================================================
+   Product- en prijsweergave
+   ========================================================================== */
+.cevo-product__name  { font-size: var(--cevo-fs-product); font-weight: 700; color: var(--cevo-ink); }
+.cevo-product__sku   { font-size: var(--cevo-fs-meta); color: var(--cevo-ink-soft); }
+.cevo-price          { font-size: var(--cevo-fs-price); font-weight: 700; color: var(--cevo-orange-bright); }
+.cevo-price--navy    { color: var(--cevo-navy); }
+.cevo-price__old     { font-size: var(--cevo-fs-meta); color: var(--cevo-ink-mute); text-decoration: line-through; }
+.cevo-price__vat     { font-size: var(--cevo-fs-meta); font-weight: 600; color: var(--cevo-ink); }
+
+/* Labels linksboven op de productkaart */
+.cevo-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: var(--cevo-fs-badge);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--cevo-navy);
+}
+.cevo-badge--discount { background: var(--cevo-orange); }

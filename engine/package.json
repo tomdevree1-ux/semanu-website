@@ -1,0 +1,9 @@
+{
+  "name": "semanu-configurator-engine",
+  "private": true,
+  "type": "commonjs",
+  "description": "Los van het project waarin deze map staat. Zonder dit bestand erft de engine het type module van een bovenliggende package.json en draaien de tests niet.",
+  "scripts": {
+    "test": "node data/test-prijzen.js && node data/test-dak.js"
+  }
+}
