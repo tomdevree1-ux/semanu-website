@@ -1,5 +1,5 @@
 /**
- * The amai chevron mark (the favicon mark) used as a premium list bullet,
+ * The semanu chevron mark (the favicon mark) used as a premium list bullet,
  * site-wide. Replaces plain dots on USP / feature lists. Inherits size from the
  * passed className; colour defaults to mint-deep (on light surfaces).
  */

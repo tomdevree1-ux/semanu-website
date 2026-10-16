@@ -8,8 +8,8 @@
     "contact": "Contact us"
   },
   "meta": {
-    "title": "Web agency in Bern: websites, platforms and AI for SMEs · amai.ch",
-    "description": "amai! builds websites, client portals, CRM and automations for Swiss SMEs. One partner, one clear monthly plan, personal from Bern."
+    "title": "Web agency in Bern: websites, platforms and AI for SMEs · semanu.eu",
+    "description": "semanu builds websites, client portals, CRM and automations for Swiss SMEs. One partner, one clear monthly plan, personal from Bern."
   },
   "banner": {
     "studyText": "New: 2292 Swiss SME websites reviewed. Only 9 percent are up to date.",
@@ -45,7 +45,7 @@
     "howDesc": "Our process in five steps",
     "plansDesc": "Website plans and pricing",
     "faqDesc": "Answers to common questions",
-    "aboutDesc": "Who is behind amai!",
+    "aboutDesc": "Who is behind semanu",
     "blogDesc": "Insights and tips about websites",
     "contactDesc": "Let us talk about your project",
     "start": "Get started",
@@ -81,7 +81,7 @@
     "email": "Email",
     "website": "Your website",
     "consent": "I accept the privacy policy and consent to my data being processed.",
-    "marketing": "I would like to receive occasional tips and news from amai! (optional)",
+    "marketing": "I would like to receive occasional tips and news from semanu (optional)",
     "submit": "Request analysis",
     "sending": "Sending …",
     "okTitle": "Thank you!",
@@ -130,7 +130,7 @@
     "aboLink": "How the website subscription works",
     "calcTitle": "Website cost calculator: what does your website cost per month?",
     "calcIntro": "Pick your situation, scope and features and you see the monthly price right away. Website from 99 CHF, webshop from 125 CHF, all inclusive, 36 month minimum term.",
-    "summary": "A professional website at amai! costs from CHF 99 per month (Business) or CHF 125 (Webshop). Hosting, maintenance and SEO foundations are included and there are no large upfront costs.",
+    "summary": "A professional website at semanu costs from CHF 99 per month (Business) or CHF 125 (Webshop). Hosting, maintenance and SEO foundations are included and there are no large upfront costs.",
     "metaDescription": "What does a website cost in Switzerland? Website prices from 99 CHF per month, webshop from 125 CHF. Design, hosting, maintenance and SEO basics included, 36 month minimum term.",
     "plansEyebrow": "Website plans",
     "plansTitle": "Website plans with a fixed monthly price",
@@ -164,15 +164,15 @@
       },
       {
         "q": "What are web design prices in Switzerland?",
-        "a": "Classic Swiss agencies usually charge a four figure one off amount for an SME website, plus hosting and maintenance per year. At amai! you pay from 99 CHF per month instead and design, build, hosting and maintenance are included."
+        "a": "Classic Swiss agencies usually charge a four figure one off amount for an SME website, plus hosting and maintenance per year. At semanu you pay from 99 CHF per month instead and design, build, hosting and maintenance are included."
       },
       {
         "q": "What does a website cost per month in Switzerland?",
-        "a": "At amai! a website costs from 99 CHF per month, a webshop from 125 CHF per month, excl. VAT. Everything is included: design, build, hosting, maintenance and SEO basics. There is no deposit and no separate hosting invoice. The minimum term is 36 months."
+        "a": "At semanu a website costs from 99 CHF per month, a webshop from 125 CHF per month, excl. VAT. Everything is included: design, build, hosting, maintenance and SEO basics. There is no deposit and no separate hosting invoice. The minimum term is 36 months."
       }
     ],
     "seoTitle": "Website prices Switzerland: what does a website cost?",
-    "seoBody": "A professional website at amai! costs from 99 CHF per month, a webshop from 125 CHF per month, excl. VAT. That price covers design, technical build, hosting, maintenance and SEO basics. In Switzerland, web design prices for a comparable project quickly reach several thousand francs as a one off and hosting and maintenance come on top. We spread the same work across a monthly amount, so you know the website prices from the start and get no follow up invoice. The exact price is agreed upfront, as soon as the scope is clear."
+    "seoBody": "A professional website at semanu costs from 99 CHF per month, a webshop from 125 CHF per month, excl. VAT. That price covers design, technical build, hosting, maintenance and SEO basics. In Switzerland, web design prices for a comparable project quickly reach several thousand francs as a one off and hosting and maintenance come on top. We spread the same work across a monthly amount, so you know the website prices from the start and get no follow up invoice. The exact price is agreed upfront, as soon as the scope is clear."
   },
   "plan": {
     "b": {
@@ -314,7 +314,7 @@
     "vatNote": "All prices excl. VAT. Website plans with a 36 month minimum term, then cancellable monthly."
   },
   "home": {
-    "title": "Explore amai!",
+    "title": "Explore semanu",
     "intro": "Plans, process, answers and contact, all in one place.",
     "moreTitle": "More than a website",
     "moreText": "Your website can become the starting point for marketing, automation and smarter business systems.",
@@ -324,7 +324,7 @@
     "eyebrow": "How it works",
     "h2": "Five steps, zero hassle.",
     "text": "From the first idea to the finished website, we guide you personally, step by step. Design, build, hosting, maintenance and SEO are part of the subscription, so your business gets found online in Switzerland and stays visible for the long run.",
-    "metaDescription": "How the amai! website subscription works: discovery call, digital signup, delivery within a few business days and ongoing support. Modern web design for SMEs in Switzerland.",
+    "metaDescription": "How the semanu website subscription works: discovery call, digital signup, delivery within a few business days and ongoing support. Modern web design for SMEs in Switzerland.",
     "steps": [
       {
         "title": "Discovery call",
@@ -387,7 +387,7 @@
       },
       {
         "q": "Do you work with Swiss companies?",
-        "a": "Yes. amai! focuses on SMEs, self employed professionals and local companies in Switzerland."
+        "a": "Yes. semanu focuses on SMEs, self employed professionals and local companies in Switzerland."
       },
       {
         "q": "Do you also offer a logo and brand guidelines?",
@@ -395,7 +395,7 @@
       },
       {
         "q": "Do you only build websites?",
-        "a": "No. Websites are the starting point for many clients but amai! also helps with email marketing, marketing automation, booking systems, business systems and AI assistants."
+        "a": "No. Websites are the starting point for many clients but semanu also helps with email marketing, marketing automation, booking systems, business systems and AI assistants."
       },
       {
         "q": "Do you work with AI?",
@@ -491,7 +491,7 @@
     "ctaTitle": "Let us talk about your digital presence.",
     "ctaButton": "Book a strategy call",
     "authorName": "Tom de Vree",
-    "authorRole": "founder of amai!",
+    "authorRole": "founder of semanu",
     "authorBio": "Tom de Vree builds and maintains websites, digital platforms and automations for Swiss SMEs.",
     "updatedLabel": "Updated"
   },
@@ -510,7 +510,7 @@
     "requestProcessing": "Sending …",
     "requestSuccessTitle": "Thank you for your enquiry.",
     "requestSuccessBody": "We have received your details and will get back to you as soon as possible.",
-    "requestError": "Your request could not be sent. Please try again or contact us directly at hello@amai.ch.",
+    "requestError": "Your request could not be sent. Please try again or contact us directly at hello@semanu.eu.",
     "consent": "I agree to the <privacy>privacy policy</privacy> and accept the <gtc>general terms (GTC)</gtc>.",
     "premiumTitle": "Something custom?",
     "premiumNote": "For Software & Applications we discuss your project in person and prepare a fitting offer.",
@@ -556,7 +556,7 @@
   "testimonial": {
     "eyebrow": "Testimonial",
     "title": "What clients say",
-    "quote": "amai! guided us clearly and personally through the whole process. We felt involved without having to manage everything ourselves. Our website now looks professional and trustworthy. We would recommend amai! to any business that wants a modern site without the stress.",
+    "quote": "semanu guided us clearly and personally through the whole process. We felt involved without having to manage everything ourselves. Our website now looks professional and trustworthy. We would recommend semanu to any business that wants a modern site without the stress.",
     "author": "Poortland",
     "role": "Architectural gates"
   },
@@ -580,15 +580,15 @@
   "about": {
     "eyebrow": "About",
     "title": "Personal, not anonymous.",
-    "intro": "amai! makes digital solutions predictable and simple for Swiss SMEs. From websites to customer portals and CRM through automations and AI, you get one clear partner on a monthly subscription that grows with your business.",
-    "nameTitle": "Where amai! comes from",
-    "nameText": "amai! comes from the Antwerp dialect, rooted in Flemish. It is an exclamation of admiration, a spontaneous wow when something truly impresses. That is exactly the reaction your website should spark in your visitors. We build modern, fast and mobile sites with content that sells, stays in mind and turns visitors into customers. All in one clear subscription without a large upfront investment.",
+    "intro": "semanu makes digital solutions predictable and simple for Swiss SMEs. From websites to customer portals and CRM through automations and AI, you get one clear partner on a monthly subscription that grows with your business.",
+    "nameTitle": "Where semanu comes from",
+    "nameText": "semanu comes from the Antwerp dialect, rooted in Flemish. It is an exclamation of admiration, a spontaneous wow when something truly impresses. That is exactly the reaction your website should spark in your visitors. We build modern, fast and mobile sites with content that sells, stays in mind and turns visitors into customers. All in one clear subscription without a large upfront investment.",
     "missionTitle": "Our idea",
     "missionText": "Many small businesses need a good website without the technical burden. We take care of design, build, hosting, maintenance, security and SEO foundations, so you can focus on your business. Because we work with AI, we build faster and at a lower cost than traditional agencies and offer AI solutions like assistants and automations as part of our service.",
-    "founderTitle": "Behind amai!",
+    "founderTitle": "Behind semanu",
     "founderName": "Tom de Vree",
     "founderRole": "Founder & owner",
-    "founderText": "amai! is led by Tom de Vree and is based in Bern. We work personally with self employed people, local service providers and SMEs across Switzerland. You talk directly to the person who looks after your website.",
+    "founderText": "semanu is led by Tom de Vree and is based in Bern. We work personally with self employed people, local service providers and SMEs across Switzerland. You talk directly to the person who looks after your website.",
     "ctaTitle": "Ready for a website that grows with you?",
     "ctaButton": "Get in touch"
   },
@@ -683,10 +683,10 @@
     "eyebrowOutcomes": "Outcomes",
     "eyebrowFaq": "FAQ",
     "relatedTitle": "Related services",
-    "entityLine": "amai! is a digital partner based in Bern for Swiss SMEs: websites, digital platforms, consultancy, automations and AI solutions on a clear monthly plan."
+    "entityLine": "semanu is a digital partner based in Bern for Swiss SMEs: websites, digital platforms, consultancy, automations and AI solutions on a clear monthly plan."
   },
-  "whyAmai": {
-    "title": "Why amai!",
+  "whySemanu": {
+    "title": "Why semanu",
     "lead": "One partner for your whole online presence, on a simple monthly plan. No agencies to coordinate, no surprise invoices, no technical hassle. And because we work with AI, we build faster and at a lower cost than traditional agencies.",
     "points": [
       {

@@ -4,14 +4,15 @@ import Script from 'next/script';
 import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
 
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? 'G-0LHEQCEQRD';
-const ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID ?? 'AW-18239701344';
-const COOKIE_NAME = 'amai_cc';
+// Both ids come from the environment only; empty = no Google tags at all.
+const GA_ID = (process.env.NEXT_PUBLIC_GA_ID ?? '').trim();
+const ADS_ID = (process.env.NEXT_PUBLIC_GOOGLE_ADS_ID ?? '').trim();
+const COOKIE_NAME = 'semanu_cc';
 // Owner opt-out flag. Visiting ?notrack=1 stores it so GA never loads in this
 // browser (across every network); ?notrack=0 clears it. Purely client-side
 // analytics suppression for the owner. No SEO or GEO impact: crawlers never set
 // the flag, so they always get the normal page, and the markup is unchanged.
-const NOTRACK_KEY = 'amai-notrack';
+const NOTRACK_KEY = 'semanu-notrack';
 
 type GtagWindow = Window & { gtag?: (...args: unknown[]) => void };
 
@@ -34,7 +35,7 @@ function consentPayload(choice: string) {
  * - gtag loads for every visitor, but consent DEFAULTS TO DENIED, so no
  *   analytics or ad cookies are written and pings stay cookieless until the
  *   visitor accepts. Google can still model conversions for people who decline.
- * - On "Accept all" (cookie `amai_cc=all`, or the `amai-consent` event the
+ * - On "Accept all" (cookie `semanu_cc=all`, or the `semanu-consent` event the
  *   banner dispatches) we grant analytics_storage AND the ad signals
  *   (ad_storage, ad_user_data, ad_personalization). "Only necessary" leaves
  *   everything denied.
@@ -43,7 +44,7 @@ function consentPayload(choice: string) {
  * - Page views: gtag('config') sends the first one (respecting the consent
  *   state set just before it); the effect sends one on each later SPA route
  *   change (App Router does not reload).
- * - Owner opt-out: GA is not loaded at all when the `amai-notrack` localStorage
+ * - Owner opt-out: GA is not loaded at all when the `semanu-notrack` localStorage
  *   flag is set (toggled via ?notrack=1 / ?notrack=0). The component starts in a
  *   non-tracking state and only mounts GA once the flag has been checked on the
  *   client, so an opted-out browser never loads gtag.
@@ -73,8 +74,8 @@ export function Analytics() {
     function onConsent(e: Event) {
       (window as GtagWindow).gtag?.('consent', 'update', consentPayload(String((e as CustomEvent).detail)));
     }
-    window.addEventListener('amai-consent', onConsent as EventListener);
-    return () => window.removeEventListener('amai-consent', onConsent as EventListener);
+    window.addEventListener('semanu-consent', onConsent as EventListener);
+    return () => window.removeEventListener('semanu-consent', onConsent as EventListener);
   }, [track]);
 
   // SPA page_view on route change. Skip the first render — gtag('config')
@@ -111,7 +112,7 @@ else if(c==='analytics'){gtag('consent','update',{analytics_storage:'granted'});
       <Script id="ga4-init" strategy="afterInteractive">
         {`gtag('js', new Date());
 gtag('config', '${GA_ID}');
-gtag('config', '${ADS_ID}');`}
+${ADS_ID ? `gtag('config', '${ADS_ID}');` : ''}`}
       </Script>
     </>
   );

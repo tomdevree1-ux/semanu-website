@@ -40,7 +40,7 @@ export async function generateMetadata({
   const c = pickContent(landing, locale);
   if (!c) return {};
   const meta = pageMetadata({
-    title: `${c.title} · amai.ch`,
+    title: `${c.title} · semanu.eu`,
     description: c.description,
     path: `/${landing}`,
     locale,
@@ -72,7 +72,7 @@ export default async function LandingPage({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'amai.ch', item: `${env.siteUrl}/${locale}` },
+      { '@type': 'ListItem', position: 1, name: 'semanu.eu', item: `${env.siteUrl}/${locale}` },
       { '@type': 'ListItem', position: 2, name: c.h1, item: url },
     ],
   };

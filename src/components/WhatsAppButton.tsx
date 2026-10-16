@@ -8,9 +8,9 @@ import { whatsappHref } from '@/lib/contact';
 // The aria-label is localized for screen readers (WhatsApp stays a brand name).
 const LABEL = 'Chat via WhatsApp';
 const ARIA: Record<string, string> = {
-  de: 'Auf WhatsApp mit amai! chatten',
-  fr: 'Discuter avec amai! sur WhatsApp',
-  en: 'Chat with amai! on WhatsApp',
+  de: 'Auf WhatsApp mit semanu chatten',
+  fr: 'Discuter avec semanu sur WhatsApp',
+  en: 'Chat with semanu on WhatsApp',
 };
 
 function Glyph({ size = 24 }: { size?: number }) {

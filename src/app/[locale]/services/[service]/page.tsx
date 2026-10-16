@@ -29,7 +29,7 @@ export async function generateMetadata({
   const found = serviceBySlug(loc, service);
   if (!found) return {};
   const detail = getServiceDetail(loc, found.service.id);
-  const title = detail?.metaTitle ?? `${found.service.title} · amai.ch`;
+  const title = detail?.metaTitle ?? `${found.service.title} · semanu.eu`;
   const description = detail?.metaDescription ?? found.service.description ?? found.service.short;
   const ogDescription = detail?.ogDescription ?? description;
   return pageMetadata({
@@ -63,7 +63,7 @@ export default async function ServicePage({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'amai.ch', item: `${env.siteUrl}/${locale}` },
+      { '@type': 'ListItem', position: 1, name: 'semanu.eu', item: `${env.siteUrl}/${locale}` },
       { '@type': 'ListItem', position: 2, name: navServicesLabel, item: `${env.siteUrl}/${locale}/services` },
       {
         '@type': 'ListItem',
@@ -98,7 +98,7 @@ export default async function ServicePage({
       <JsonLd data={[breadcrumbLd, serviceLd, faqLd]} />
       <ServiceFlow service={s} detail={detail} content={c} navServicesLabel={navServicesLabel} locale={locale} />
       {/* One-sentence entity summary — crawlable plain text that helps AI
-          assistants describe amai accurately (GEO). */}
+          assistants describe semanu accurately (GEO). */}
       <section className="bg-ink py-6">
         <p className="container-site text-sm text-paper/55"><BrandText>{entityLine}</BrandText></p>
       </section>

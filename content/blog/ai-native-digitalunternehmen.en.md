@@ -1,6 +1,6 @@
 ---
 title: "What it means to be an AI native digital company"
-description: "amai! is an AI native digital company and a single home for everything digital. What AI native means and how your business benefits."
+description: "semanu is an AI native digital company and a single home for everything digital. What AI native means and how your business benefits."
 date: "2026-07-10"
 updated: "2026-09-08"
 author: "Tom"
@@ -10,11 +10,11 @@ cover: "/blog/ai-native-digitalunternehmen-cover.svg"
 
 Digital technology should move a business forward and not make it more complex. Yet many businesses today work with different providers for their website, their webshop, email marketing, automations, software and AI. The result is scattered systems, slow communication and solutions that fit together too poorly. How often even the website falls behind shows in our [SME website study](/en/blog/kmu-website-studie-schweiz): only 9 percent of Swiss SME websites are up to date.
 
-At <span class="brand-mark">amai<span class="spark">!</span></span> we do it differently.
+At <span class="brand-mark">semanu<span class="spark">!</span></span> we do it differently.
 
 We are a single home for everything digital. From websites and webshops through marketing automation to software platforms and AI assistants: we bring strategy, technology and delivery together with one digital partner.
 
-But there is something else that sets us apart. <span class="brand-mark">amai<span class="spark">!</span></span> is an AI native company.
+But there is something else that sets us apart. <span class="brand-mark">semanu<span class="spark">!</span></span> is an AI native company.
 
 ## What is an AI native company?
 
@@ -46,7 +46,7 @@ Thanks to our AI native way of working, we can often deliver projects with fewer
 
 We pass that efficiency on to our clients.
 
-A lower project price does not mean a project gets less attention at <span class="brand-mark">amai<span class="spark">!</span></span> On the contrary. Because AI supports part of the executing and repetitive work, our team can give more attention to the choices that make the difference.
+A lower project price does not mean a project gets less attention at <span class="brand-mark">semanu<span class="spark">!</span></span> On the contrary. Because AI supports part of the executing and repetitive work, our team can give more attention to the choices that make the difference.
 
 Think of a user friendly structure, a strong customer experience, reliable technology and a solution that fits the processes of the business.
 
@@ -54,7 +54,7 @@ Think of a user friendly structure, a strong customer experience, reliable techn
 
 A website never stands on its own. It should collect leads, pass on information, enable appointments or connect to other business systems. A webshop should work together with payments, stock management, email campaigns and customer service. An AI assistant needs access to the right information and has to fit within existing workflows.
 
-That is why <span class="brand-mark">amai<span class="spark">!</span></span> offers different digital services under one roof: websites and webshops, email marketing and email automation, marketing automation, [digital platforms and custom software](/en/services/business-systems), CRM systems, dashboards and customer portals, AI assistants for internal and external use, plus [digital strategy and consultancy](/en/services/consultancy).
+That is why <span class="brand-mark">semanu<span class="spark">!</span></span> offers different digital services under one roof: websites and webshops, email marketing and email automation, marketing automation, [digital platforms and custom software](/en/services/business-systems), CRM systems, dashboards and customer portals, AI assistants for internal and external use, plus [digital strategy and consultancy](/en/services/consultancy).
 
 Because these disciplines are brought together by one partner, the individual parts fit together better. Clients do not have to keep switching between different agencies, developers and software specialists.
 
@@ -68,7 +68,7 @@ An [AI assistant](/en/services/ai-assistants) can help staff find information, s
 
 The best AI solution is therefore not necessarily the most eye catching. It is the solution that solves a clear problem and saves time every week.
 
-At <span class="brand-mark">amai<span class="spark">!</span></span> we do not start with the question of where we can add AI. We begin with other questions. Where is a lot of time lost today? Which questions keep coming back? Which information is hard to reach? Which steps can run smarter, faster or more consistently?
+At <span class="brand-mark">semanu<span class="spark">!</span></span> we do not start with the question of where we can add AI. We begin with other questions. Where is a lot of time lost today? Which questions keep coming back? Which information is hard to reach? Which steps can run smarter, faster or more consistently?
 
 On that basis we build an AI assistant that fits the business, the people and the existing systems.
 
@@ -78,7 +78,7 @@ A digital solution is never finished for good. Businesses change, processes evol
 
 That is why we do not believe in technology that is forgotten after launch. We build solutions that can be maintained, extended and improved. A business can start with a [professional website](/en/website-abos) and later add email automation, a customer portal or an AI assistant.
 
-Because <span class="brand-mark">amai<span class="spark">!</span></span> combines different digital disciplines, there is no need to find a new partner for every next step. The existing knowledge, technology and strategy can be built on further.
+Because <span class="brand-mark">semanu<span class="spark">!</span></span> combines different digital disciplines, there is no need to find a new partner for every next step. The existing knowledge, technology and strategy can be built on further.
 
 That makes digital growth clearer and more sustainable.
 
@@ -96,8 +96,8 @@ AI helps us work faster. Our people make sure we work on the right things.
 
 The digital world evolves fast. Still, a business does not have to follow every new tool, trend and technology itself.
 
-With <span class="brand-mark">amai<span class="spark">!</span></span> you get one partner for your entire digital environment. A partner that does not see websites, automations, platforms and AI as separate parts. It brings them together in one clear approach.
+With <span class="brand-mark">semanu<span class="spark">!</span></span> you get one partner for your entire digital environment. A partner that does not see websites, automations, platforms and AI as separate parts. It brings them together in one clear approach.
 
 Because we work AI native, we can develop faster, collaborate more efficiently and offer projects at a fairer price. Without losing sight of the human expertise, the personal support and the quality.
 
-Would you like to discover how your business can work smarter with digital technology and AI? Get in touch with <span class="brand-mark">amai<span class="spark">!</span></span> and discuss your idea with us.
+Would you like to discover how your business can work smarter with digital technology and AI? Get in touch with <span class="brand-mark">semanu<span class="spark">!</span></span> and discuss your idea with us.

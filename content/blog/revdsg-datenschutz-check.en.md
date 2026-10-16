@@ -40,7 +40,7 @@ Fines are one part of the story: up to CHF 250'000, imposed on the responsible i
 
 Personal data may leave Switzerland if the destination country offers adequate protection. For the EEA that is the case. For the United States, the [Swiss US Data Privacy Framework](https://www.edoeb.admin.ch/en/15082024-new-swiss-us-data-privacy-framework) has applied since 15 September 2024: you may transfer data to a certified US provider without extra safeguards, to an uncertified one you may not. Very few site owners know that distinction.
 
-That is why we host in the EU at <span class="brand-mark">amai<span class="spark">!</span></span>. Database and storage run on Supabase in an EU region, delivery through Cloudflare, email through Resend. All three appear by name in our own privacy notice, including purpose and location. That level of detail is what the law is asking for.
+That is why we host in the EU at <span class="brand-mark">semanu<span class="spark">!</span></span>. Database and storage run on Supabase in an EU region, delivery through Cloudflare, email through Resend. All three appear by name in our own privacy notice, including purpose and location. That level of detail is what the law is asking for.
 
 ## How do you make your website compliant in seven steps?
 

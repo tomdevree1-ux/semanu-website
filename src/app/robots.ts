@@ -9,12 +9,17 @@ import { env } from '@/lib/env';
 export const dynamic = 'force-static';
 
 export default function robots(): MetadataRoute.Robots {
+  // Staging (acc.semanu.eu) and local builds: block everything. Caddy and the
+  // app also send X-Robots-Tag: noindex there.
+  if (!env.isProduction) {
+    return { rules: [{ userAgent: '*', disallow: '/' }] };
+  }
   return {
     rules: [
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/*/styleguide', '/api/', '/app/'],
+        disallow: ['/*/styleguide', '/api/'],
       },
       {
         // AI assistants and search engines are explicitly welcome to read and cite this content.

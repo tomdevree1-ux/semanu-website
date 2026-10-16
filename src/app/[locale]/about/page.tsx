@@ -16,7 +16,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const tn = await getTranslations({ locale, namespace: 'nav' });
   const ta = await getTranslations({ locale, namespace: 'about' });
-  return pageMetadata({ title: `${tn('about')} · amai.ch`, description: ta('intro'), path: '/about', locale });
+  return pageMetadata({ title: `${tn('about')} · semanu.eu`, description: ta('intro'), path: '/about', locale });
 }
 
 export default async function AboutPage({
@@ -65,7 +65,7 @@ export default async function AboutPage({
   return (
     <SiteShell>
       <JsonLd data={[aboutPageLd, personLd, orgFounderLd]} />
-      <Breadcrumb items={[{ name: 'amai.ch', href: '/' }, { name: tnav('about') }]} locale={locale} />
+      <Breadcrumb items={[{ name: 'semanu.eu', href: '/' }, { name: tnav('about') }]} locale={locale} />
       <section className="bg-paper py-24 text-ink">
         <div className="container-site">
           {/* Intro + story on the left, founder (Tom) card sticky on the right, so
@@ -86,7 +86,7 @@ export default async function AboutPage({
             </div>
 
             <div className="w-full lg:sticky lg:top-28">
-              <div className="amai-reveal rounded-2xl border border-[var(--line)] bg-white p-6 sm:p-7">
+              <div className="semanu-reveal rounded-2xl border border-[var(--line)] bg-white p-6 sm:p-7">
                 <span className="font-mono text-xs uppercase tracking-wider text-navy"><BrandText>{t('founderTitle')}</BrandText></span>
                 <div className="mt-4 flex items-center gap-4">
                   {/* eslint-disable-next-line @next/next/no-img-element */}

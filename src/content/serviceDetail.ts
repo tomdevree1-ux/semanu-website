@@ -12,8 +12,8 @@
 // NL-first: the content is authored in Dutch and reused across all five locale
 // slots until DE/FR/EN/ES translations are added. House style (every language):
 // no dashes, no comma before a coordinating conjunction (en / of / maar / met).
-// The literal "amai!" in copy is the brand marker that BrandText renders as the
-// styled "amai" wordmark; keep it.
+// The literal "semanu" in copy is the brand marker that BrandText renders as the
+// styled "semanu" wordmark; keep it.
 
 import type { ServicesLocale } from './services';
 
@@ -70,7 +70,7 @@ export type ServiceDetail = {
   visualCaption: string;
   visualCards?: DetailCard[];
   hubCenter?: string; // centre label for the hub visual (systems flow)
-  // what amai! builds (chips come from base service.builds)
+  // what semanu builds (chips come from base service.builds)
   buildsTitle: string;
   buildsLead: string;
   // use cases
@@ -133,14 +133,14 @@ type DetailMap = Record<string, ServiceDetail>;
 // ============================================================
 const nl: DetailMap = {
   consultancy: {
-    metaTitle: 'Digitale consultancy voor kmo · amai.ch',
+    metaTitle: 'Digitale consultancy voor kmo · semanu.eu',
     metaDescription:
-      'Onafhankelijk advies over digitalisering en AI. amai analyseert uw processen en levert een heldere roadmap met prioriteiten voor Zwitserse kmo.',
+      'Onafhankelijk advies over digitalisering en AI. semanu analyseert uw processen en levert een heldere roadmap met prioriteiten voor Zwitserse kmo.',
     ogDescription:
-      'Weten wat u moet digitaliseren en waar AI echt waarde heeft, voordat u investeert. amai! brengt uw processen en opties helder in kaart.',
+      'Weten wat u moet digitaliseren en waar AI echt waarde heeft, voordat u investeert. semanu brengt uw processen en opties helder in kaart.',
     heroHeadline: 'Digitale consultancy\neerst denken\ndan bouwen',
     heroSub:
-      'amai! helpt Zwitserse kmo bepalen wat ze moeten digitaliseren en waar AI werkelijk waarde oplevert. U krijgt een onderbouwde roadmap in plaats van een verkooppraatje.',
+      'semanu helpt Zwitserse kmo bepalen wat ze moeten digitaliseren en waar AI werkelijk waarde oplevert. U krijgt een onderbouwde roadmap in plaats van een verkooppraatje.',
     trust: [
       'eerlijk advies, ook als het antwoord niet bouwen is',
       'procesanalyse en roadmap',
@@ -222,14 +222,14 @@ const nl: DetailMap = {
   },
 
   'marketing-automation': {
-    metaTitle: 'Workflowautomatisering voor kmo · amai.ch',
+    metaTitle: 'Workflowautomatisering voor kmo · semanu.eu',
     metaDescription:
-      'Automatiseer terugkerend werk en verbind uw systemen via integraties en API. amai! vermindert manueel werk en fouten voor Zwitserse kmo.',
+      'Automatiseer terugkerend werk en verbind uw systemen via integraties en API. semanu vermindert manueel werk en fouten voor Zwitserse kmo.',
     ogDescription:
-      'amai! verbindt uw bestaande software en automatiseert terugkerende stappen, van CRM en ERP tot documentverwerking.',
+      'semanu verbindt uw bestaande software en automatiseert terugkerende stappen, van CRM en ERP tot documentverwerking.',
     heroHeadline: 'Workflowautomatisering die uw systemen laat samenwerken.',
     heroSub:
-      'amai! automatiseert terugkerende stappen en verbindt uw bestaande software, zodat uw team minder overtypt en minder fouten maakt. Voor Zwitserse kmo zonder groot IT team.',
+      'semanu automatiseert terugkerende stappen en verbindt uw bestaande software, zodat uw team minder overtypt en minder fouten maakt. Voor Zwitserse kmo zonder groot IT team.',
     trust: ['koppelt bestaande systemen', 'minder manueel werk', 'AI alleen waar het telt'],
     problemTitle: 'Terugkerend handwerk kost stil elke week tijd',
     problemIntro: 'Wie met losse systemen werkt, herkent deze knelpunten.',
@@ -243,7 +243,7 @@ const nl: DetailMap = {
       'We bekijken de workflow zoals die vandaag echt verloopt, bepalen welke stappen zich lenen voor automatisering en bouwen de koppelingen via API en integraties. Zo hoeft u uw systemen niet te vervangen. AI zetten we gericht in, alleen waar een stap ongestructureerde informatie moet interpreteren.',
     visual: ['Formulier', 'Lead opgeslagen', 'Email verstuurd', 'Team verwittigd', 'Opvolging'],
     visualCaption: 'Eén gebeurtenis, de volgende stappen automatisch afgehandeld.',
-    buildsTitle: 'Wat amai! opzet',
+    buildsTitle: 'Wat semanu opzet',
     buildsLead: 'Interne en klantgerichte processen die stil op de achtergrond lopen.',
     useCasesTitle: 'Welke processen\nu kunt automatiseren',
     useCasesLead: 'Processen die terugkeren en vaste regels volgen lenen zich het best.',
@@ -270,21 +270,21 @@ const nl: DetailMap = {
       { q: 'Wat is het verschil met RPA?', a: 'RPA bootst handelingen na in de schermen van een programma. Een API koppeling werkt rechtstreeks tussen systemen en is doorgaans stabieler. We kiezen RPA alleen als een koppeling ontbreekt.' },
     ],
     finalTitle: 'Laat ons uw workflow bekijken',
-    finalText: 'Vertel welk terugkerend werk u tijd kost en we tonen wat amai! daarvan kan automatiseren.',
+    finalText: 'Vertel welk terugkerend werk u tijd kost en we tonen wat semanu daarvan kan automatiseren.',
     finalCta: 'Laat ons uw workflow bekijken',
     finalSecondaryLabel: 'Bekijk alle diensten',
     finalSecondaryHref: '/services',
   },
 
   'business-systems': {
-    metaTitle: 'Maatwerksoftware voor kmo · amai.ch',
+    metaTitle: 'Maatwerksoftware voor kmo · semanu.eu',
     metaDescription:
       'Software op maat wanneer standaardpakketten niet passen: webapplicaties, portalen en interne tools, met koppelingen naar uw systemen.',
     ogDescription:
-      'amai! bouwt software op maat die aansluit op hoe u werkt: portalen, interne tools en webapplicaties, met integraties en oog voor onderhoud.',
+      'semanu bouwt software op maat die aansluit op hoe u werkt: portalen, interne tools en webapplicaties, met integraties en oog voor onderhoud.',
     heroHeadline: 'Maatwerksoftware voor wanneer standaardpakketten niet passen.',
     heroSub:
-      'amai! bouwt webapplicaties, portalen en interne tools die aansluiten op hoe uw bedrijf echt werkt. Voor Zwitserse kmo die vastlopen op standaardsoftware.',
+      'semanu bouwt webapplicaties, portalen en interne tools die aansluiten op hoe uw bedrijf echt werkt. Voor Zwitserse kmo die vastlopen op standaardsoftware.',
     trust: ['aansluit op uw proces', 'koppelt met uw systemen', 'oog voor onderhoud en eigendom'],
     hubCenter: 'Maatwerk',
     problemTitle: 'Wanneer standaardsoftware uw bedrijf afremt',
@@ -299,7 +299,7 @@ const nl: DetailMap = {
       'We vertalen uw probleem naar concrete requirements en bouwen eerst het onderdeel met de meeste waarde. Daarna breiden we stapsgewijs uit, met integraties naar uw bestaande systemen zodat gegevens op één plek kloppen. Software blijft leven, dus we houden ze veilig, actueel en aanpasbaar.',
     visual: ['Webapplicaties', 'Portalen', 'Interne tools', 'Integraties', 'Onderhoud'],
     visualCaption: 'Een platform op maat, rond uw bedrijf gebouwd.',
-    buildsTitle: 'Wat amai! bouwt',
+    buildsTitle: 'Wat semanu bouwt',
     buildsLead: 'Maatwerk rond uw bedrijf, geen generieke sjabloon.',
     useCasesTitle: 'Wat we bouwen',
     useCasesLead: 'Een paar vormen die maatwerksoftware vaak aanneemt.',
@@ -332,11 +332,11 @@ const nl: DetailMap = {
   },
 
   '3d-configurators': {
-    metaTitle: '3D-productconfigurator laten bouwen · amai.ch',
+    metaTitle: '3D-productconfigurator laten bouwen · semanu.eu',
     metaDescription:
       'Maak configureerbare producten online verkoopbaar: realtime 3D, configuratieregels, prijslogica en koppelingen met uw webshop, CRM of ERP.',
     ogDescription:
-      'amai! bouwt 3D-configuratoren waarmee klanten uw product samenstellen, de prijs zien en een aanvraag versturen, gekoppeld aan uw systemen.',
+      'semanu bouwt 3D-configuratoren waarmee klanten uw product samenstellen, de prijs zien en een aanvraag versturen, gekoppeld aan uw systemen.',
     heroHeadline: 'Van complexe producten naar online verkoop.',
     heroSub:
       '3D-productconfiguratoren op maat voor fabrikanten, waarmee klanten complexe producten online kunnen configureren, direct de prijs zien en bestellen.',
@@ -344,7 +344,7 @@ const nl: DetailMap = {
     scenario: {
       title: 'Een meubelmaker, bedolven onder de mails',
       problem: 'Een meubelmaker beantwoordde elke maatwerkvraag met de hand, in lange mailketens over houtsoort, maten en prijs.',
-      solution: 'amai! bouwde een configurator waarin klanten hun stuk samenstellen en meteen een richtprijs zien.',
+      solution: 'semanu bouwde een configurator waarin klanten hun stuk samenstellen en meteen een richtprijs zien.',
       result: 'De aanvragen zijn nu concreet en de werkplaats verliest minder tijd met offertes met de hand.',
     },
     problemTitle: 'Configureerbare producten verkopen kost veel uitleg',
@@ -411,7 +411,7 @@ const nl: DetailMap = {
     },
     visual: ['Opties', 'Regels', 'Preview', 'Prijs', 'Aanvraag'],
     visualCaption: 'Van de eerste keuze tot een concrete aanvraag, in één flow.',
-    buildsTitle: 'Wat een amai! configurator kan',
+    buildsTitle: 'Wat een semanu configurator kan',
     buildsLead: 'Van één product tot een hele reeks varianten.',
     useCasesTitle: 'Voor welke producten\neen configurator past',
     useCasesLead: 'Vooral producten met veel varianten die anders veel offertewerk vragen.',
@@ -440,7 +440,7 @@ const nl: DetailMap = {
       { q: 'Was ist ein 3D-Produktkonfigurator?', a: 'Ein 3D-Produktkonfigurator ist eine interaktive Software, mit der Kunden Produkte online individuell zusammenstellen können. Sie wählen beispielsweise Masse, Materialien, Farben und Ausführungen aus und sehen die Änderungen direkt in einer dreidimensionalen Darstellung. Je nach Umsetzung werden auch Preise automatisch berechnet. Dadurch vereinfachen Unternehmen den Verkaufsprozess und reduzieren den Aufwand für manuelle Offerten.' },
       { q: 'Was ist der Unterschied zwischen einem 3D-Viewer und einem 3D-Konfigurator?', a: 'Ein 3D-Viewer ermöglicht es, ein Produkt aus verschiedenen Perspektiven zu betrachten. Ein 3D-Konfigurator geht einen Schritt weiter: Kunden können das Produkt selbst verändern, beispielsweise durch die Auswahl unterschiedlicher Masse, Materialien oder Ausführungen. Dabei berücksichtigt der Konfigurator technische Regeln und kann automatisch passende Preise berechnen. So wird aus einer einfachen Produktvisualisierung ein interaktives Verkaufswerkzeug.' },
       { q: 'Für welche Produkte eignet sich ein 3D-Konfigurator?', a: 'Ein 3D-Produktkonfigurator eignet sich besonders für Produkte mit vielen Varianten oder individuellen Anpassungsmöglichkeiten. Typische Beispiele sind Möbel, Fenster, Türen, Treppen, Pergolen, Maschinen und industrielle Bauteile. Besonders sinnvoll ist ein Konfigurator, wenn Kunden heute viele Rückfragen stellen oder individuelle Offerten manuell erstellt werden müssen. Ein Konfigurator vereinfacht diesen Prozess und macht komplexe Produkte leichter verständlich.' },
-      { q: 'Was kostet die Entwicklung eines 3D-Produktkonfigurators?', a: 'Die Kosten setzen sich bei amai aus einmaligen Implementierungskosten und einem festen monatlichen Abonnement zusammen. Die Implementierungskosten hängen unter anderem von der Produktkomplexität, der Anzahl der Varianten, den benötigten 3D-Modellen und den gewünschten Integrationen ab. In einem ersten Gespräch analysieren wir Ihre Anforderungen und zeigen Ihnen, welche Lösung für Ihr Produkt sinnvoll ist.' },
+      { q: 'Was kostet die Entwicklung eines 3D-Produktkonfigurators?', a: 'Die Kosten setzen sich bei semanu aus einmaligen Implementierungskosten und einem festen monatlichen Abonnement zusammen. Die Implementierungskosten hängen unter anderem von der Produktkomplexität, der Anzahl der Varianten, den benötigten 3D-Modellen und den gewünschten Integrationen ab. In einem ersten Gespräch analysieren wir Ihre Anforderungen und zeigen Ihnen, welche Lösung für Ihr Produkt sinnvoll ist.' },
       { q: 'Wie lange dauert die Entwicklung eines 3D-Konfigurators?', a: 'Die Entwicklungsdauer hängt von der Komplexität Ihres Produkts und den gewünschten Funktionen ab. Ein Konfigurator mit wenigen Varianten ist schneller umsetzbar als eine Lösung mit umfangreichen Produktregeln, automatischer Preisberechnung und ERP-Anbindung. Auch die Verfügbarkeit bestehender 3D-Modelle spielt eine Rolle. Nach einer ersten Analyse können wir den Aufwand einschätzen und einen realistischen Zeitplan erstellen.' },
       { q: 'Benötigen wir bereits 3D-Modelle unserer Produkte?', a: 'Nicht unbedingt. Wenn bereits geeignete 3D-Modelle vorhanden sind, können diese möglicherweise als Grundlage für den Konfigurator verwendet werden. Falls keine Modelle existieren, muss zunächst geprüft werden, wie die benötigten 3D-Daten erstellt werden können. Entscheidend sind die Komplexität des Produkts und die gewünschten Konfigurationsmöglichkeiten. Wir klären gemeinsam, welche Daten benötigt werden und wie sich Ihr Produkt am besten visualisieren lässt.' },
       { q: 'Kann ein 3D-Konfigurator in unsere bestehende Website oder unseren Webshop integriert werden?', a: 'Ja. Ein 3D-Produktkonfigurator kann in eine bestehende Website oder einen Webshop integriert werden, sofern die technischen Voraussetzungen erfüllt sind. Kunden können ihre Produkte dadurch direkt auf Ihrer Website konfigurieren, ohne eine separate Plattform besuchen zu müssen. Je nach Integration lassen sich Konfigurationen auch an Ihren Warenkorb, Ihr CRM oder Ihr ERP-System übertragen.' },
@@ -457,14 +457,14 @@ const nl: DetailMap = {
 
 const en: DetailMap = {
   consultancy: {
-    metaTitle: 'Digital consultancy for SMEs · amai.ch',
+    metaTitle: 'Digital consultancy for SMEs · semanu.eu',
     metaDescription:
-      'Independent advice on digitalisation and AI. amai analyses your processes and delivers a clear roadmap with priorities for Swiss SMEs.',
+      'Independent advice on digitalisation and AI. semanu analyses your processes and delivers a clear roadmap with priorities for Swiss SMEs.',
     ogDescription:
-      'Know what to digitalise and where AI truly adds value, before you invest. amai! maps your processes and options clearly.',
+      'Know what to digitalise and where AI truly adds value, before you invest. semanu maps your processes and options clearly.',
     heroHeadline: 'Digital consultancy that thinks first and builds later.',
     heroSub:
-      'amai! helps Swiss SMEs decide what to digitalise and where AI really adds value. You get a well founded roadmap instead of a sales pitch.',
+      'semanu helps Swiss SMEs decide what to digitalise and where AI really adds value. You get a well founded roadmap instead of a sales pitch.',
     trust: [
       'honest advice, even when the answer is not to build',
       'process analysis and roadmap',
@@ -546,14 +546,14 @@ const en: DetailMap = {
   },
 
   'marketing-automation': {
-    metaTitle: 'Workflow automation for SMEs · amai.ch',
+    metaTitle: 'Workflow automation for SMEs · semanu.eu',
     metaDescription:
-      'Automate repetitive work and connect your systems through integrations and API. amai! reduces manual work and errors for Swiss SMEs.',
+      'Automate repetitive work and connect your systems through integrations and API. semanu reduces manual work and errors for Swiss SMEs.',
     ogDescription:
-      'amai! connects your existing software and automates recurring steps, from CRM and ERP to document processing.',
+      'semanu connects your existing software and automates recurring steps, from CRM and ERP to document processing.',
     heroHeadline: 'Workflow automation that makes your systems work together.',
     heroSub:
-      'amai! automates recurring steps and connects your existing software, so your team retypes less and makes fewer errors. For Swiss SMEs without a large IT team.',
+      'semanu automates recurring steps and connects your existing software, so your team retypes less and makes fewer errors. For Swiss SMEs without a large IT team.',
     trust: ['connects existing systems', 'less manual work', 'AI only where it counts'],
     problemTitle: 'Recurring manual work quietly costs time every week',
     problemIntro: 'Anyone working with disconnected systems recognises these bottlenecks.',
@@ -567,7 +567,7 @@ const en: DetailMap = {
       'We look at the workflow as it really runs today, determine which steps lend themselves to automation and build the connections through API and integrations. So you do not have to replace your systems. We use AI in a targeted way, only where a step has to interpret unstructured information.',
     visual: ['Form', 'Lead saved', 'Email sent', 'Team notified', 'Follow up'],
     visualCaption: 'One event, the next steps handled automatically.',
-    buildsTitle: 'What amai! sets up',
+    buildsTitle: 'What semanu sets up',
     buildsLead: 'Internal and customer facing processes that run quietly in the background.',
     useCasesTitle: 'Which processes\nyou can automate',
     useCasesLead: 'Processes that recur and follow fixed rules lend themselves best.',
@@ -594,21 +594,21 @@ const en: DetailMap = {
       { q: 'What is the difference with RPA?', a: 'RPA imitates actions in a program’s screens. An API connection works directly between systems and is usually more stable. We choose RPA only when a connection is missing.' },
     ],
     finalTitle: 'Let us review your workflow',
-    finalText: 'Tell us which recurring work costs you time and we show what amai! can automate of it.',
+    finalText: 'Tell us which recurring work costs you time and we show what semanu can automate of it.',
     finalCta: 'Let us review your workflow',
     finalSecondaryLabel: 'See all services',
     finalSecondaryHref: '/services',
   },
 
   'business-systems': {
-    metaTitle: 'Custom software for SMEs · amai.ch',
+    metaTitle: 'Custom software for SMEs · semanu.eu',
     metaDescription:
       'Software built to fit when off the shelf packages do not: web applications, portals and internal tools, with connections to your systems.',
     ogDescription:
-      'amai! builds custom software that matches how you work: portals, internal tools and web applications, with integrations and attention to maintenance.',
+      'semanu builds custom software that matches how you work: portals, internal tools and web applications, with integrations and attention to maintenance.',
     heroHeadline: 'Custom software for when off the shelf packages do not fit.',
     heroSub:
-      'amai! builds web applications, portals and internal tools that match how your business really works. For Swiss SMEs that get stuck on standard software.',
+      'semanu builds web applications, portals and internal tools that match how your business really works. For Swiss SMEs that get stuck on standard software.',
     trust: ['fits your process', 'connects with your systems', 'attention to maintenance and ownership'],
     hubCenter: 'Custom',
     problemTitle: 'When standard software holds your business back',
@@ -623,7 +623,7 @@ const en: DetailMap = {
       'We translate your problem into concrete requirements and first build the part with the most value. Then we expand step by step, with integrations to your existing systems so data is correct in one place. Software keeps living, so we keep it secure, current and adaptable.',
     visual: ['Web applications', 'Portals', 'Internal tools', 'Integrations', 'Maintenance'],
     visualCaption: 'A custom platform, built around your business.',
-    buildsTitle: 'What amai! builds',
+    buildsTitle: 'What semanu builds',
     buildsLead: 'Custom work around your business, not a generic template.',
     useCasesTitle: 'What we build',
     useCasesLead: 'A few forms custom software often takes.',
@@ -656,11 +656,11 @@ const en: DetailMap = {
   },
 
   '3d-configurators': {
-    metaTitle: 'Have a 3D product configurator built · amai.ch',
+    metaTitle: 'Have a 3D product configurator built · semanu.eu',
     metaDescription:
       'Make configurable products sellable online: real time 3D, configuration rules, pricing logic and connections to your webshop, CRM or ERP.',
     ogDescription:
-      'amai! builds 3D configurators that let customers compose your product, see the price and send a request, connected to your systems.',
+      'semanu builds 3D configurators that let customers compose your product, see the price and send a request, connected to your systems.',
     heroHeadline: 'Turn complex products into online sales.',
     heroSub:
       'Custom 3D product configurators for manufacturers that let customers configure, price and order complex products online.',
@@ -668,7 +668,7 @@ const en: DetailMap = {
     scenario: {
       title: 'A furniture maker, buried in emails',
       problem: 'A furniture maker answered every custom question by hand, in long email chains about wood type, dimensions and price.',
-      solution: 'amai! built a configurator where customers compose their piece and see an indicative price straight away.',
+      solution: 'semanu built a configurator where customers compose their piece and see an indicative price straight away.',
       result: 'Requests are now concrete and the workshop loses less time on quotes by hand.',
     },
     problemTitle: 'Selling configurable products takes a lot of explaining',
@@ -705,7 +705,7 @@ const en: DetailMap = {
     },
     visual: ['Options', 'Rules', 'Preview', 'Price', 'Request'],
     visualCaption: 'From the first choice to a concrete request, in one flow.',
-    buildsTitle: 'What an amai! configurator can do',
+    buildsTitle: 'What an semanu configurator can do',
     buildsLead: 'From a single product to a whole range of variants.',
     useCasesTitle: 'For which products\na configurator fits',
     useCasesLead: 'Mainly products with many variants that otherwise require a lot of quoting work.',
@@ -748,14 +748,14 @@ const en: DetailMap = {
 
 const de: DetailMap = {
   consultancy: {
-    metaTitle: 'Digitale Beratung für KMU · amai.ch',
+    metaTitle: 'Digitale Beratung für KMU · semanu.eu',
     metaDescription:
-      'Unabhängige Beratung zu Digitalisierung und AI. amai analysiert Ihre Prozesse und liefert eine klare Roadmap mit Prioritäten für Schweizer KMU.',
+      'Unabhängige Beratung zu Digitalisierung und AI. semanu analysiert Ihre Prozesse und liefert eine klare Roadmap mit Prioritäten für Schweizer KMU.',
     ogDescription:
-      'Wissen, was zu digitalisieren ist und wo AI wirklich Mehrwert hat, bevor Sie investieren. amai! bildet Ihre Prozesse und Optionen klar ab.',
+      'Wissen, was zu digitalisieren ist und wo AI wirklich Mehrwert hat, bevor Sie investieren. semanu bildet Ihre Prozesse und Optionen klar ab.',
     heroHeadline: 'Digitale Beratung, die erst nachdenkt und dann baut.',
     heroSub:
-      'amai! hilft Schweizer KMU zu bestimmen, was sie digitalisieren sollten und wo AI wirklich Mehrwert bringt. Sie erhalten eine fundierte Roadmap statt eines Verkaufsgesprächs.',
+      'semanu hilft Schweizer KMU zu bestimmen, was sie digitalisieren sollten und wo AI wirklich Mehrwert bringt. Sie erhalten eine fundierte Roadmap statt eines Verkaufsgesprächs.',
     trust: [
       'ehrliche Beratung, auch wenn die Antwort nicht bauen lautet',
       'Prozessanalyse und Roadmap',
@@ -837,14 +837,14 @@ const de: DetailMap = {
   },
 
   'marketing-automation': {
-    metaTitle: 'Workflowautomatisierung für KMU · amai.ch',
+    metaTitle: 'Workflowautomatisierung für KMU · semanu.eu',
     metaDescription:
-      'Automatisieren Sie wiederkehrende Arbeit und verbinden Sie Ihre Systeme über Integrationen und API. amai! reduziert manuelle Arbeit und Fehler für Schweizer KMU.',
+      'Automatisieren Sie wiederkehrende Arbeit und verbinden Sie Ihre Systeme über Integrationen und API. semanu reduziert manuelle Arbeit und Fehler für Schweizer KMU.',
     ogDescription:
-      'amai! verbindet Ihre bestehende Software und automatisiert wiederkehrende Schritte, von CRM und ERP bis Dokumentenverarbeitung.',
+      'semanu verbindet Ihre bestehende Software und automatisiert wiederkehrende Schritte, von CRM und ERP bis Dokumentenverarbeitung.',
     heroHeadline: 'Workflowautomatisierung, die Ihre Systeme zusammenarbeiten lässt.',
     heroSub:
-      'amai! automatisiert wiederkehrende Schritte und verbindet Ihre bestehende Software, damit Ihr Team weniger abtippt und weniger Fehler macht. Für Schweizer KMU ohne grosses IT Team.',
+      'semanu automatisiert wiederkehrende Schritte und verbindet Ihre bestehende Software, damit Ihr Team weniger abtippt und weniger Fehler macht. Für Schweizer KMU ohne grosses IT Team.',
     trust: ['verbindet bestehende Systeme', 'weniger manuelle Arbeit', 'AI nur wo es zählt'],
     problemTitle: 'Wiederkehrende Handarbeit kostet still jede Woche Zeit',
     problemIntro: 'Wer mit losen Systemen arbeitet, kennt diese Engpässe.',
@@ -858,7 +858,7 @@ const de: DetailMap = {
       'Wir betrachten den Workflow, wie er heute wirklich abläuft, bestimmen, welche Schritte sich für Automatisierung eignen und bauen die Verbindungen über API und Integrationen. So müssen Sie Ihre Systeme nicht ersetzen. AI setzen wir gezielt ein, nur dort, wo ein Schritt unstrukturierte Informationen interpretieren muss.',
     visual: ['Formular', 'Lead gespeichert', 'Email versendet', 'Team benachrichtigt', 'Nachverfolgung'],
     visualCaption: 'Ein Ereignis, die nächsten Schritte automatisch erledigt.',
-    buildsTitle: 'Was amai! aufsetzt',
+    buildsTitle: 'Was semanu aufsetzt',
     buildsLead: 'Interne und kundenorientierte Prozesse, die still im Hintergrund laufen.',
     useCasesTitle: 'Welche Prozesse\nSie automatisieren können',
     useCasesLead: 'Prozesse, die wiederkehren und festen Regeln folgen, eignen sich am besten.',
@@ -885,21 +885,21 @@ const de: DetailMap = {
       { q: 'Was ist der Unterschied zu RPA?', a: 'RPA ahmt Handlungen in den Bildschirmen eines Programms nach. Eine API Verbindung arbeitet direkt zwischen Systemen und ist meist stabiler. Wir wählen RPA nur, wenn eine Verbindung fehlt.' },
     ],
     finalTitle: 'Lassen Sie uns Ihren Workflow ansehen',
-    finalText: 'Erzählen Sie, welche wiederkehrende Arbeit Sie Zeit kostet und wir zeigen, was amai! davon automatisieren kann.',
+    finalText: 'Erzählen Sie, welche wiederkehrende Arbeit Sie Zeit kostet und wir zeigen, was semanu davon automatisieren kann.',
     finalCta: 'Lassen Sie uns Ihren Workflow ansehen',
     finalSecondaryLabel: 'Alle Dienstleistungen ansehen',
     finalSecondaryHref: '/services',
   },
 
   'business-systems': {
-    metaTitle: 'Massgeschneiderte Software für KMU · amai.ch',
+    metaTitle: 'Massgeschneiderte Software für KMU · semanu.eu',
     metaDescription:
       'Software nach Mass, wenn Standardpakete nicht passen: Webanwendungen, Portale und interne Tools, mit Verbindungen zu Ihren Systemen.',
     ogDescription:
-      'amai! baut massgeschneiderte Software, die zu Ihrer Arbeitsweise passt: Portale, interne Tools und Webanwendungen, mit Integrationen und Blick auf Wartung.',
+      'semanu baut massgeschneiderte Software, die zu Ihrer Arbeitsweise passt: Portale, interne Tools und Webanwendungen, mit Integrationen und Blick auf Wartung.',
     heroHeadline: 'Massgeschneiderte Software für den Fall, dass Standardpakete nicht passen.',
     heroSub:
-      'amai! baut Webanwendungen, Portale und interne Tools, die zu Ihrer tatsächlichen Arbeitsweise passen. Für Schweizer KMU, die an Standardsoftware anstehen.',
+      'semanu baut Webanwendungen, Portale und interne Tools, die zu Ihrer tatsächlichen Arbeitsweise passen. Für Schweizer KMU, die an Standardsoftware anstehen.',
     trust: ['passt zu Ihrem Prozess', 'verbindet mit Ihren Systemen', 'Blick auf Wartung und Eigentum'],
     hubCenter: 'Massarbeit',
     problemTitle: 'Wenn Standardsoftware Ihr Unternehmen ausbremst',
@@ -914,7 +914,7 @@ const de: DetailMap = {
       'Wir übersetzen Ihr Problem in konkrete Anforderungen und bauen zuerst den Teil mit dem meisten Mehrwert. Danach erweitern wir schrittweise, mit Integrationen zu Ihren bestehenden Systemen, damit Daten an einer Stelle stimmen. Software lebt weiter, daher halten wir sie sicher, aktuell und anpassbar.',
     visual: ['Webanwendungen', 'Portale', 'Interne Tools', 'Integrationen', 'Wartung'],
     visualCaption: 'Eine Plattform nach Mass, rund um Ihr Unternehmen gebaut.',
-    buildsTitle: 'Was amai! baut',
+    buildsTitle: 'Was semanu baut',
     buildsLead: 'Massarbeit rund um Ihr Unternehmen, keine generische Vorlage.',
     useCasesTitle: 'Was wir bauen',
     useCasesLead: 'Einige Formen, die massgeschneiderte Software oft annimmt.',
@@ -947,11 +947,11 @@ const de: DetailMap = {
   },
 
   '3d-configurators': {
-    metaTitle: '3D-Produktkonfigurator bauen lassen · amai.ch',
+    metaTitle: '3D-Produktkonfigurator bauen lassen · semanu.eu',
     metaDescription:
       'Machen Sie konfigurierbare Produkte online verkäuflich: Echtzeit 3D, Konfigurationsregeln, Preislogik und Verbindungen zu Ihrem Webshop, CRM oder ERP.',
     ogDescription:
-      'amai! baut 3D-Konfiguratoren, mit denen Kunden Ihr Produkt zusammenstellen, den Preis sehen und eine Anfrage senden, verbunden mit Ihren Systemen.',
+      'semanu baut 3D-Konfiguratoren, mit denen Kunden Ihr Produkt zusammenstellen, den Preis sehen und eine Anfrage senden, verbunden mit Ihren Systemen.',
     heroHeadline: 'Komplexe Produkte erfolgreich online verkaufen.',
     heroSub:
       'Massgeschneiderte 3D-Produktkonfiguratoren für Hersteller, mit denen Kunden komplexe Produkte online konfigurieren, Preise berechnen und direkt bestellen können.',
@@ -959,7 +959,7 @@ const de: DetailMap = {
     scenario: {
       title: 'Ein Möbelbauer, begraben unter Mails',
       problem: 'Ein Möbelbauer beantwortete jede Massanfrage von Hand, in langen Mailketten über Holzart, Masse und Preis.',
-      solution: 'amai! baute einen Konfigurator, in dem Kunden ihr Stück zusammenstellen und sofort einen Richtpreis sehen.',
+      solution: 'semanu baute einen Konfigurator, in dem Kunden ihr Stück zusammenstellen und sofort einen Richtpreis sehen.',
       result: 'Die Anfragen sind nun konkret und die Werkstatt verliert weniger Zeit mit Offerten von Hand.',
     },
     problemTitle: 'Konfigurierbare Produkte zu verkaufen kostet viel Erklärung',
@@ -996,7 +996,7 @@ const de: DetailMap = {
     },
     visual: ['Optionen', 'Regeln', 'Preview', 'Preis', 'Anfrage'],
     visualCaption: 'Von der ersten Wahl zu einer konkreten Anfrage, in einem Flow.',
-    buildsTitle: 'Was ein amai! Konfigurator kann',
+    buildsTitle: 'Was ein semanu Konfigurator kann',
     buildsLead: 'Von einem Produkt bis zu einer ganzen Reihe von Varianten.',
     useCasesTitle: 'Für welche Produkte\nein Konfigurator passt',
     useCasesLead: 'Vor allem Produkte mit vielen Varianten, die sonst viel Offertenarbeit erfordern.',
@@ -1039,14 +1039,14 @@ const de: DetailMap = {
 
 const fr: DetailMap = {
   consultancy: {
-    metaTitle: 'Conseil digital pour PME · amai.ch',
+    metaTitle: 'Conseil digital pour PME · semanu.eu',
     metaDescription:
-      'Conseil indépendant en digitalisation et AI. amai analyse vos processus et livre une feuille de route claire avec des priorités pour les PME suisses.',
+      'Conseil indépendant en digitalisation et AI. semanu analyse vos processus et livre une feuille de route claire avec des priorités pour les PME suisses.',
     ogDescription:
-      'Savoir quoi digitaliser et où l’AI a vraiment de la valeur, avant d’investir. amai! cartographie clairement vos processus et vos options.',
+      'Savoir quoi digitaliser et où l’AI a vraiment de la valeur, avant d’investir. semanu cartographie clairement vos processus et vos options.',
     heroHeadline: 'Un conseil digital qui réfléchit d’abord et construit ensuite.',
     heroSub:
-      'amai! aide les PME suisses à déterminer quoi digitaliser et où l’AI apporte vraiment de la valeur. Vous obtenez une feuille de route fondée plutôt qu’un argumentaire de vente.',
+      'semanu aide les PME suisses à déterminer quoi digitaliser et où l’AI apporte vraiment de la valeur. Vous obtenez une feuille de route fondée plutôt qu’un argumentaire de vente.',
     trust: [
       'un conseil honnête, même quand la réponse est de ne pas construire',
       'analyse des processus et feuille de route',
@@ -1128,14 +1128,14 @@ const fr: DetailMap = {
   },
 
   'marketing-automation': {
-    metaTitle: 'Automatisation des workflows pour PME · amai.ch',
+    metaTitle: 'Automatisation des workflows pour PME · semanu.eu',
     metaDescription:
-      'Automatisez le travail répétitif et reliez vos systèmes via des intégrations et une API. amai! réduit le travail manuel et les erreurs pour les PME suisses.',
+      'Automatisez le travail répétitif et reliez vos systèmes via des intégrations et une API. semanu réduit le travail manuel et les erreurs pour les PME suisses.',
     ogDescription:
-      'amai! relie vos logiciels existants et automatise les étapes récurrentes, du CRM et ERP au traitement de documents.',
+      'semanu relie vos logiciels existants et automatise les étapes récurrentes, du CRM et ERP au traitement de documents.',
     heroHeadline: 'Une automatisation des workflows qui fait collaborer vos systèmes.',
     heroSub:
-      'amai! automatise les étapes récurrentes et relie vos logiciels existants, pour que votre équipe recopie moins et fasse moins d’erreurs. Pour les PME suisses sans grande équipe IT.',
+      'semanu automatise les étapes récurrentes et relie vos logiciels existants, pour que votre équipe recopie moins et fasse moins d’erreurs. Pour les PME suisses sans grande équipe IT.',
     trust: ['relie les systèmes existants', 'moins de travail manuel', 'l’AI seulement là où elle compte'],
     problemTitle: 'Le travail manuel récurrent coûte du temps chaque semaine, en silence',
     problemIntro: 'Quiconque travaille avec des systèmes dispersés reconnaît ces blocages.',
@@ -1149,7 +1149,7 @@ const fr: DetailMap = {
       'Nous regardons le workflow tel qu’il se déroule réellement aujourd’hui, déterminons quelles étapes se prêtent à l’automatisation et construisons les connexions via API et intégrations. Vous n’avez donc pas à remplacer vos systèmes. Nous utilisons l’AI de manière ciblée, seulement là où une étape doit interpréter de l’information non structurée.',
     visual: ['Formulaire', 'Lead enregistré', 'Email envoyé', 'Équipe avertie', 'Relance'],
     visualCaption: 'Un événement, les étapes suivantes traitées automatiquement.',
-    buildsTitle: 'Ce que amai! met en place',
+    buildsTitle: 'Ce que semanu met en place',
     buildsLead: 'Des processus internes et orientés client qui tournent en silence en arrière plan.',
     useCasesTitle: 'Quels processus\nvous pouvez automatiser',
     useCasesLead: 'Les processus qui reviennent et suivent des règles fixes se prêtent le mieux.',
@@ -1176,21 +1176,21 @@ const fr: DetailMap = {
       { q: 'Quelle est la différence avec le RPA?', a: 'Le RPA imite des actions dans les écrans d’un programme. Une connexion API travaille directement entre systèmes et est généralement plus stable. Nous choisissons le RPA seulement quand une connexion manque.' },
     ],
     finalTitle: 'Analysons votre workflow',
-    finalText: 'Dites nous quel travail récurrent vous coûte du temps et nous montrons ce que amai! peut en automatiser.',
+    finalText: 'Dites nous quel travail récurrent vous coûte du temps et nous montrons ce que semanu peut en automatiser.',
     finalCta: 'Analysons votre workflow',
     finalSecondaryLabel: 'Voir tous les services',
     finalSecondaryHref: '/services',
   },
 
   'business-systems': {
-    metaTitle: 'Logiciel sur mesure pour PME · amai.ch',
+    metaTitle: 'Logiciel sur mesure pour PME · semanu.eu',
     metaDescription:
       'Un logiciel sur mesure quand les solutions standard ne suffisent pas: applications web, portails et outils internes, avec des connexions à vos systèmes.',
     ogDescription:
-      'amai! construit un logiciel sur mesure qui colle à votre façon de travailler: portails, outils internes et applications web, avec des intégrations et une attention à la maintenance.',
+      'semanu construit un logiciel sur mesure qui colle à votre façon de travailler: portails, outils internes et applications web, avec des intégrations et une attention à la maintenance.',
     heroHeadline: 'Un logiciel sur mesure pour quand les solutions standard ne conviennent pas.',
     heroSub:
-      'amai! construit des applications web, des portails et des outils internes qui collent à la façon dont votre entreprise travaille vraiment. Pour les PME suisses qui bloquent sur un logiciel standard.',
+      'semanu construit des applications web, des portails et des outils internes qui collent à la façon dont votre entreprise travaille vraiment. Pour les PME suisses qui bloquent sur un logiciel standard.',
     trust: ['colle à votre processus', 'se connecte à vos systèmes', 'attention à la maintenance et à la propriété'],
     hubCenter: 'Sur mesure',
     problemTitle: 'Quand le logiciel standard freine votre entreprise',
@@ -1205,7 +1205,7 @@ const fr: DetailMap = {
       'Nous traduisons votre problème en exigences concrètes et construisons d’abord la partie à la plus grande valeur. Ensuite, nous étendons pas à pas, avec des intégrations à vos systèmes existants pour que les données soient justes à un seul endroit. Un logiciel continue de vivre, nous le gardons donc sûr, à jour et adaptable.',
     visual: ['Applications web', 'Portails', 'Outils internes', 'Intégrations', 'Maintenance'],
     visualCaption: 'Une plateforme sur mesure, construite autour de votre entreprise.',
-    buildsTitle: 'Ce que amai! construit',
+    buildsTitle: 'Ce que semanu construit',
     buildsLead: 'Du sur mesure autour de votre entreprise, pas un modèle générique.',
     useCasesTitle: 'Ce que nous construisons',
     useCasesLead: 'Quelques formes que prend souvent le logiciel sur mesure.',
@@ -1238,11 +1238,11 @@ const fr: DetailMap = {
   },
 
   '3d-configurators': {
-    metaTitle: 'Faire construire un configurateur de produit 3D · amai.ch',
+    metaTitle: 'Faire construire un configurateur de produit 3D · semanu.eu',
     metaDescription:
       'Rendez vos produits configurables vendables en ligne: 3D en temps réel, règles de configuration, logique de prix et connexions à votre boutique, CRM ou ERP.',
     ogDescription:
-      'amai! construit des configurateurs 3D qui laissent les clients composer votre produit, voir le prix et envoyer une demande, reliés à vos systèmes.',
+      'semanu construit des configurateurs 3D qui laissent les clients composer votre produit, voir le prix et envoyer une demande, reliés à vos systèmes.',
     heroHeadline: 'Transformez vos produits complexes en ventes en ligne.',
     heroSub:
       'Des configurateurs de produits 3D sur mesure pour les fabricants, permettant aux clients de configurer des produits complexes, d’obtenir leur prix et de les commander en ligne.',
@@ -1250,7 +1250,7 @@ const fr: DetailMap = {
     scenario: {
       title: 'Un fabricant de meubles, enseveli sous les mails',
       problem: 'Un fabricant de meubles répondait à chaque demande sur mesure à la main, dans de longues chaînes de mails sur l’essence de bois, les dimensions et le prix.',
-      solution: 'amai! a construit un configurateur où les clients composent leur pièce et voient tout de suite un prix indicatif.',
+      solution: 'semanu a construit un configurateur où les clients composent leur pièce et voient tout de suite un prix indicatif.',
       result: 'Les demandes sont maintenant concrètes et l’atelier perd moins de temps avec des devis à la main.',
     },
     problemTitle: 'Vendre des produits configurables demande beaucoup d’explications',
@@ -1287,7 +1287,7 @@ const fr: DetailMap = {
     },
     visual: ['Options', 'Règles', 'Aperçu', 'Prix', 'Demande'],
     visualCaption: 'Du premier choix à une demande concrète, en un seul flux.',
-    buildsTitle: 'Ce que peut un configurateur amai!',
+    buildsTitle: 'Ce que peut un configurateur semanu',
     buildsLead: 'D’un seul produit à toute une gamme de variantes.',
     useCasesTitle: 'Pour quels produits\nun configurateur convient',
     useCasesLead: 'Surtout des produits à nombreuses variantes qui demandent sinon beaucoup de travail de devis.',
@@ -1330,14 +1330,14 @@ const fr: DetailMap = {
 
 const es: DetailMap = {
   consultancy: {
-    metaTitle: 'Consultoría digital para pymes · amai.ch',
+    metaTitle: 'Consultoría digital para pymes · semanu.eu',
     metaDescription:
-      'Asesoramiento independiente sobre digitalización y AI. amai analiza sus procesos y entrega una hoja de ruta clara con prioridades para pymes suizas.',
+      'Asesoramiento independiente sobre digitalización y AI. semanu analiza sus procesos y entrega una hoja de ruta clara con prioridades para pymes suizas.',
     ogDescription:
-      'Saber qué digitalizar y dónde la AI aporta valor de verdad, antes de invertir. amai! mapea con claridad sus procesos y opciones.',
+      'Saber qué digitalizar y dónde la AI aporta valor de verdad, antes de invertir. semanu mapea con claridad sus procesos y opciones.',
     heroHeadline: 'Consultoría digital que primero piensa y luego construye.',
     heroSub:
-      'amai! ayuda a las pymes suizas a decidir qué digitalizar y dónde la AI aporta valor real. Obtiene una hoja de ruta fundamentada en lugar de un discurso de venta.',
+      'semanu ayuda a las pymes suizas a decidir qué digitalizar y dónde la AI aporta valor real. Obtiene una hoja de ruta fundamentada en lugar de un discurso de venta.',
     trust: [
       'asesoramiento honesto, también cuando la respuesta es no construir',
       'análisis de procesos y hoja de ruta',
@@ -1419,14 +1419,14 @@ const es: DetailMap = {
   },
 
   'marketing-automation': {
-    metaTitle: 'Automatización de flujos para pymes · amai.ch',
+    metaTitle: 'Automatización de flujos para pymes · semanu.eu',
     metaDescription:
-      'Automatice el trabajo repetitivo y conecte sus sistemas mediante integraciones y API. amai! reduce el trabajo manual y los errores para pymes suizas.',
+      'Automatice el trabajo repetitivo y conecte sus sistemas mediante integraciones y API. semanu reduce el trabajo manual y los errores para pymes suizas.',
     ogDescription:
-      'amai! conecta su software existente y automatiza pasos recurrentes, desde CRM y ERP hasta el procesamiento de documentos.',
+      'semanu conecta su software existente y automatiza pasos recurrentes, desde CRM y ERP hasta el procesamiento de documentos.',
     heroHeadline: 'Automatización de flujos que hace colaborar sus sistemas.',
     heroSub:
-      'amai! automatiza pasos recurrentes y conecta su software existente, para que su equipo reescriba menos y cometa menos errores. Para pymes suizas sin un gran equipo de IT.',
+      'semanu automatiza pasos recurrentes y conecta su software existente, para que su equipo reescriba menos y cometa menos errores. Para pymes suizas sin un gran equipo de IT.',
     trust: ['conecta los sistemas existentes', 'menos trabajo manual', 'AI solo donde cuenta'],
     problemTitle: 'El trabajo manual recurrente cuesta tiempo cada semana, en silencio',
     problemIntro: 'Quien trabaja con sistemas sueltos reconoce estos cuellos de botella.',
@@ -1440,7 +1440,7 @@ const es: DetailMap = {
       'Observamos el flujo tal como funciona hoy de verdad, determinamos qué pasos se prestan a la automatización y construimos las conexiones mediante API e integraciones. Así no tiene que reemplazar sus sistemas. Usamos la AI de forma específica, solo donde un paso debe interpretar información no estructurada.',
     visual: ['Formulario', 'Lead guardado', 'Correo enviado', 'Equipo avisado', 'Seguimiento'],
     visualCaption: 'Un evento, los siguientes pasos gestionados automáticamente.',
-    buildsTitle: 'Qué pone en marcha amai!',
+    buildsTitle: 'Qué pone en marcha semanu',
     buildsLead: 'Procesos internos y de cara al cliente que corren en silencio en segundo plano.',
     useCasesTitle: 'Qué procesos\npuede automatizar',
     useCasesLead: 'Los procesos que se repiten y siguen reglas fijas se prestan mejor.',
@@ -1467,21 +1467,21 @@ const es: DetailMap = {
       { q: '¿Cuál es la diferencia con el RPA?', a: 'El RPA imita acciones en las pantallas de un programa. Una conexión API trabaja directamente entre sistemas y suele ser más estable. Elegimos el RPA solo cuando falta una conexión.' },
     ],
     finalTitle: 'Analicemos su flujo de trabajo',
-    finalText: 'Cuéntenos qué trabajo recurrente le cuesta tiempo y mostramos qué puede automatizar amai! de ello.',
+    finalText: 'Cuéntenos qué trabajo recurrente le cuesta tiempo y mostramos qué puede automatizar semanu de ello.',
     finalCta: 'Analicemos su flujo de trabajo',
     finalSecondaryLabel: 'Ver todos los servicios',
     finalSecondaryHref: '/services',
   },
 
   'business-systems': {
-    metaTitle: 'Software a medida para pymes · amai.ch',
+    metaTitle: 'Software a medida para pymes · semanu.eu',
     metaDescription:
       'Software a medida cuando los paquetes estándar no encajan: aplicaciones web, portales y herramientas internas, con conexiones a sus sistemas.',
     ogDescription:
-      'amai! construye software a medida que se ajusta a su forma de trabajar: portales, herramientas internas y aplicaciones web, con integraciones y atención al mantenimiento.',
+      'semanu construye software a medida que se ajusta a su forma de trabajar: portales, herramientas internas y aplicaciones web, con integraciones y atención al mantenimiento.',
     heroHeadline: 'Software a medida para cuando los paquetes estándar no encajan.',
     heroSub:
-      'amai! construye aplicaciones web, portales y herramientas internas que se ajustan a cómo trabaja de verdad su empresa. Para pymes suizas que se atascan con el software estándar.',
+      'semanu construye aplicaciones web, portales y herramientas internas que se ajustan a cómo trabaja de verdad su empresa. Para pymes suizas que se atascan con el software estándar.',
     trust: ['se ajusta a su proceso', 'conecta con sus sistemas', 'atención al mantenimiento y la propiedad'],
     hubCenter: 'A medida',
     problemTitle: 'Cuando el software estándar frena su empresa',
@@ -1496,7 +1496,7 @@ const es: DetailMap = {
       'Traducimos su problema en requisitos concretos y construimos primero la parte con más valor. Después ampliamos paso a paso, con integraciones a sus sistemas existentes para que los datos sean correctos en un solo lugar. El software sigue vivo, así que lo mantenemos seguro, actual y adaptable.',
     visual: ['Aplicaciones web', 'Portales', 'Herramientas internas', 'Integraciones', 'Mantenimiento'],
     visualCaption: 'Una plataforma a medida, construida en torno a su empresa.',
-    buildsTitle: 'Qué construye amai!',
+    buildsTitle: 'Qué construye semanu',
     buildsLead: 'Trabajo a medida en torno a su empresa, no una plantilla genérica.',
     useCasesTitle: 'Qué construimos',
     useCasesLead: 'Algunas formas que suele tomar el software a medida.',
@@ -1529,11 +1529,11 @@ const es: DetailMap = {
   },
 
   '3d-configurators': {
-    metaTitle: 'Mandar construir un configurador de producto 3D · amai.ch',
+    metaTitle: 'Mandar construir un configurador de producto 3D · semanu.eu',
     metaDescription:
       'Haga vendibles en línea sus productos configurables: 3D en tiempo real, reglas de configuración, lógica de precios y conexiones a su tienda, CRM o ERP.',
     ogDescription:
-      'amai! construye configuradores 3D con los que los clientes componen su producto, ven el precio y envían una solicitud, conectados a sus sistemas.',
+      'semanu construye configuradores 3D con los que los clientes componen su producto, ven el precio y envían una solicitud, conectados a sus sistemas.',
     heroHeadline: 'Convierta productos complejos en ventas online.',
     heroSub:
       'Configuradores de productos 3D a medida para fabricantes, que permiten a los clientes configurar productos complejos, calcular su precio y pedirlos online.',
@@ -1541,7 +1541,7 @@ const es: DetailMap = {
     scenario: {
       title: 'Un ebanista, sepultado en correos',
       problem: 'Un ebanista respondía cada pregunta a medida a mano, en largas cadenas de correos sobre tipo de madera, medidas y precio.',
-      solution: 'amai! construyó un configurador donde los clientes componen su pieza y ven al instante un precio orientativo.',
+      solution: 'semanu construyó un configurador donde los clientes componen su pieza y ven al instante un precio orientativo.',
       result: 'Las solicitudes ahora son concretas y el taller pierde menos tiempo con presupuestos a mano.',
     },
     problemTitle: 'Vender productos configurables exige mucha explicación',
@@ -1578,7 +1578,7 @@ const es: DetailMap = {
     },
     visual: ['Opciones', 'Reglas', 'Vista previa', 'Precio', 'Solicitud'],
     visualCaption: 'De la primera elección a una solicitud concreta, en un solo flujo.',
-    buildsTitle: 'Qué puede un configurador de amai!',
+    buildsTitle: 'Qué puede un configurador de semanu',
     buildsLead: 'De un solo producto a toda una gama de variantes.',
     useCasesTitle: 'Para qué productos\nencaja un configurador',
     useCasesLead: 'Sobre todo productos con muchas variantes que de otro modo exigen mucho trabajo de presupuestos.',

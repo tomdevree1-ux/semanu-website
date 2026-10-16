@@ -1,6 +1,6 @@
 /**
- * The amai logo lockup for the header and footer (rebrand): a mint chevron mark
- * followed by the "amai" wordmark. The wordmark inherits currentColor (navy on
+ * The semanu logo lockup for the header and footer (rebrand): a mint chevron mark
+ * followed by the "semanu" wordmark. The wordmark inherits currentColor (navy on
  * light, white on dark); the chevron stays mint. No exclamation mark, no spin.
  */
 export function BrandLogo({
@@ -30,7 +30,7 @@ export function BrandLogo({
           strokeLinecap="butt"
         />
       </svg>
-      amai
+      semanu
     </span>
   );
 }

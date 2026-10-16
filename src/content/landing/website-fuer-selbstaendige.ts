@@ -8,7 +8,7 @@ export const websiteFuerSelbstaendige: LandingLocales = {
     eyebrow: 'Website für Selbständige · Schweiz',
     h1: 'Website für Selbständige in der Schweiz',
     intro:
-      'Als Selbständige brauchen Sie eine Website, die professionell wirkt, klar zeigt was Sie anbieten und Besucher zur Anfrage führt. amai! erstellt Ihre persönliche Online Präsenz inklusive Design, Texthilfe, Hosting, Wartung und SEO Grundlagen, im klaren Monatsabo ohne hohe Vorausinvestition.',
+      'Als Selbständige brauchen Sie eine Website, die professionell wirkt, klar zeigt was Sie anbieten und Besucher zur Anfrage führt. semanu erstellt Ihre persönliche Online Präsenz inklusive Design, Texthilfe, Hosting, Wartung und SEO Grundlagen, im klaren Monatsabo ohne hohe Vorausinvestition.',
     heroBullets: [
       'Ab 99 CHF pro Monat',
       'Design, Hosting und Wartung inklusive',
@@ -41,7 +41,7 @@ export const websiteFuerSelbstaendige: LandingLocales = {
     problem: {
       heading: 'Ohne professionelle Website verlieren Selbständige Aufträge',
       intro:
-        'Potenzielle Kunden googeln Sie, bevor sie anfragen. Eine fehlende oder veraltete Website macht sofort einen schlechten ersten Eindruck. Viele Selbständige schieben die Website vor sich her: kein klarer Start, keine fertigen Texte oder zu hohe Agenturkosten. amai! löst genau diese drei Probleme.',
+        'Potenzielle Kunden googeln Sie, bevor sie anfragen. Eine fehlende oder veraltete Website macht sofort einen schlechten ersten Eindruck. Viele Selbständige schieben die Website vor sich her: kein klarer Start, keine fertigen Texte oder zu hohe Agenturkosten. semanu löst genau diese drei Probleme.',
       cards: [
         {
           title: 'Kein professioneller Auftritt',
@@ -63,9 +63,9 @@ export const websiteFuerSelbstaendige: LandingLocales = {
     },
     solution: {
       heading: 'Ihre professionelle Online Präsenz, ohne Aufwand',
-      body: 'amai! erstellt Ihre Website von Grund auf, passend zu Ihrer Tätigkeit, Ihrer Zielgruppe und Ihrem Stil. Wir helfen bei Struktur und Texten, gestalten ein professionelles Design und setzen alles technisch sauber um, inklusive Hosting, Wartung und SEO Grundlagen. Sie kümmern sich um Ihre Kunden, wir kümmern uns um Ihre Website.',
+      body: 'semanu erstellt Ihre Website von Grund auf, passend zu Ihrer Tätigkeit, Ihrer Zielgruppe und Ihrem Stil. Wir helfen bei Struktur und Texten, gestalten ein professionelles Design und setzen alles technisch sauber um, inklusive Hosting, Wartung und SEO Grundlagen. Sie kümmern sich um Ihre Kunden, wir kümmern uns um Ihre Website.',
     },
-    featuresHeading: 'Was Selbständige bei amai! erhalten',
+    featuresHeading: 'Was Selbständige bei semanu erhalten',
     featuresHint: 'Fahren Sie über eine Kachel für mehr Infos',
     featuresLayout: 'cards',
     features: [
@@ -146,7 +146,7 @@ export const websiteFuerSelbstaendige: LandingLocales = {
     pricing: {
       heading: 'Was kostet eine Website für Selbständige?',
       intro:
-        'Bei amai! zahlen Sie keine hohe Einmalrechnung. Sie zahlen einen klaren Monatspreis, der Design, Umsetzung, Hosting und Wartung einschliesst. Planbar und ohne Überraschungen.',
+        'Bei semanu zahlen Sie keine hohe Einmalrechnung. Sie zahlen einen klaren Monatspreis, der Design, Umsetzung, Hosting und Wartung einschliesst. Planbar und ohne Überraschungen.',
       cards: [
         {
           name: 'Business Website',
@@ -177,9 +177,9 @@ export const websiteFuerSelbstaendige: LandingLocales = {
       cta: { label: 'Preise vergleichen', href: '/website-abos' },
     },
     reasons: {
-      heading: 'Warum amai! für Selbständige?',
+      heading: 'Warum semanu für Selbständige?',
       entitySentence:
-        'amai! ist ein Anbieter für Website Abos aus Bern und erstellt professionelle Websites für Schweizer KMU, Selbständige und lokale Unternehmen, inklusive Design, Umsetzung, Hosting, Wartung und SEO Grundlagen.',
+        'semanu ist ein Anbieter für Website Abos aus Bern und erstellt professionelle Websites für Schweizer KMU, Selbständige und lokale Unternehmen, inklusive Design, Umsetzung, Hosting, Wartung und SEO Grundlagen.',
       items: [
         {
           title: 'Verständnis für Selbständige',
@@ -208,9 +208,9 @@ export const websiteFuerSelbstaendige: LandingLocales = {
       ],
     },
     audience: {
-      heading: 'Für welche Selbständige ist amai! geeignet?',
+      heading: 'Für welche Selbständige ist semanu geeignet?',
       intro:
-        'amai! passt besonders gut wenn Sie selbständig tätig sind und eine professionelle Website möchten, ohne sich selbst mit Technik, Texten, Hosting oder Design auseinandersetzen zu müssen.',
+        'semanu passt besonders gut wenn Sie selbständig tätig sind und eine professionelle Website möchten, ohne sich selbst mit Technik, Texten, Hosting oder Design auseinandersetzen zu müssen.',
       items: [
         'Freelancer und freischaffende Fachleute',
         'Berater, Coachs und Therapeuten',
@@ -225,7 +225,7 @@ export const websiteFuerSelbstaendige: LandingLocales = {
     },
     sections: [],
     links: [
-      { href: '/referenzen', label: 'Referenzen', desc: 'Websites und digitale Lösungen von amai!' },
+      { href: '/referenzen', label: 'Referenzen', desc: 'Websites und digitale Lösungen von semanu' },
       { href: '/website-abos', label: 'Preise', desc: 'Transparente Abos für Business und Webshop.' },
       { href: '/so-funktioniert', label: 'So funktioniert\'s', desc: 'Schritt für Schritt zur fertigen Website.' },
       { href: '/website-erstellen-lassen-schweiz', label: 'Website erstellen lassen', desc: 'Professionelle Websites für Schweizer KMU und Selbständige.' },
@@ -258,11 +258,11 @@ export const websiteFuerSelbstaendige: LandingLocales = {
           a: 'Ja. Nach dem Start können Änderungen angefragt werden. Umfang und Abrechnung richten sich nach dem gewählten Abo und der Vereinbarung.',
         },
         {
-          q: 'Für welche Art von Selbständigen ist amai! geeignet?',
-          a: 'amai! passt für Selbständige aller Branchen, die eine professionelle Website möchten ohne hohe Kosten, technischen Aufwand oder komplizierte Agenturgespräche. Vom Freelancer bis zur Praxis.',
+          q: 'Für welche Art von Selbständigen ist semanu geeignet?',
+          a: 'semanu passt für Selbständige aller Branchen, die eine professionelle Website möchten ohne hohe Kosten, technischen Aufwand oder komplizierte Agenturgespräche. Vom Freelancer bis zur Praxis.',
         },
         {
-          q: 'Was kostet eine Website für Selbständige bei amai!?',
+          q: 'Was kostet eine Website für Selbständige bei semanu?',
           a: 'Das Website Abo für Selbständige startet ab 99 CHF pro Monat. Der genaue Preis hängt vom gewählten Abo und Umfang ab. Alle Preise sind exkl. MWST bei einer Mindestlaufzeit von 36 Monaten.',
         },
       ],
@@ -280,7 +280,7 @@ export const websiteFuerSelbstaendige: LandingLocales = {
     eyebrow: 'Site web pour indépendants · Suisse',
     h1: 'Site web pour indépendants en Suisse',
     intro:
-      'En tant qu’indépendant, vous avez besoin d’un site qui paraît professionnel, montre clairement ce que vous proposez et mène les visiteurs à la demande. amai! crée votre présence en ligne personnelle, design, aide aux textes, hébergement, maintenance et bases SEO compris, dans un abonnement mensuel clair sans grand investissement initial.',
+      'En tant qu’indépendant, vous avez besoin d’un site qui paraît professionnel, montre clairement ce que vous proposez et mène les visiteurs à la demande. semanu crée votre présence en ligne personnelle, design, aide aux textes, hébergement, maintenance et bases SEO compris, dans un abonnement mensuel clair sans grand investissement initial.',
     heroBullets: [
       'Dès 99 CHF par mois',
       'Design, hébergement et maintenance compris',
@@ -313,7 +313,7 @@ export const websiteFuerSelbstaendige: LandingLocales = {
     problem: {
       heading: 'Sans site professionnel, les indépendants perdent des mandats',
       intro:
-        'Les clients potentiels vous cherchent sur Google avant de vous contacter. Un site absent ou vieilli donne une mauvaise première impression. Beaucoup d’indépendants repoussent leur site: pas de départ clair, pas de textes prêts ou un coût d’agence trop élevé. amai! résout exactement ces trois problèmes.',
+        'Les clients potentiels vous cherchent sur Google avant de vous contacter. Un site absent ou vieilli donne une mauvaise première impression. Beaucoup d’indépendants repoussent leur site: pas de départ clair, pas de textes prêts ou un coût d’agence trop élevé. semanu résout exactement ces trois problèmes.',
       cards: [
         {
           title: 'Pas de présence professionnelle',
@@ -335,9 +335,9 @@ export const websiteFuerSelbstaendige: LandingLocales = {
     },
     solution: {
       heading: 'Votre présence en ligne professionnelle, sans effort',
-      body: 'amai! crée votre site de A à Z, adapté à votre activité, votre public et votre style. Nous aidons pour la structure et les textes, créons un design professionnel et réalisons tout proprement sur le plan technique, hébergement, maintenance et bases SEO compris. Vous vous occupez de vos clients, nous nous occupons de votre site.',
+      body: 'semanu crée votre site de A à Z, adapté à votre activité, votre public et votre style. Nous aidons pour la structure et les textes, créons un design professionnel et réalisons tout proprement sur le plan technique, hébergement, maintenance et bases SEO compris. Vous vous occupez de vos clients, nous nous occupons de votre site.',
     },
-    featuresHeading: 'Ce que les indépendants reçoivent chez amai!',
+    featuresHeading: 'Ce que les indépendants reçoivent chez semanu',
     featuresHint: 'Passez sur une tuile pour plus d’infos',
     featuresLayout: 'cards',
     features: [
@@ -418,7 +418,7 @@ export const websiteFuerSelbstaendige: LandingLocales = {
     pricing: {
       heading: 'Combien coûte un site pour indépendants?',
       intro:
-        'Chez amai!, vous ne payez pas une grosse facture unique. Vous payez un prix mensuel clair qui comprend design, réalisation, hébergement et maintenance. Prévisible et sans surprises.',
+        'Chez semanu, vous ne payez pas une grosse facture unique. Vous payez un prix mensuel clair qui comprend design, réalisation, hébergement et maintenance. Prévisible et sans surprises.',
       cards: [
         {
           name: 'Business Website',
@@ -449,9 +449,9 @@ export const websiteFuerSelbstaendige: LandingLocales = {
       cta: { label: 'Comparer les prix', href: '/website-abos' },
     },
     reasons: {
-      heading: 'Pourquoi amai! pour les indépendants?',
+      heading: 'Pourquoi semanu pour les indépendants?',
       entitySentence:
-        'amai! est un fournisseur d’abonnements de sites basé à Berne et crée des sites professionnels pour les PME suisses, les indépendants et les commerces locaux, design, réalisation, hébergement, maintenance et bases SEO compris.',
+        'semanu est un fournisseur d’abonnements de sites basé à Berne et crée des sites professionnels pour les PME suisses, les indépendants et les commerces locaux, design, réalisation, hébergement, maintenance et bases SEO compris.',
       items: [
         {
           title: 'Compréhension du travail indépendant',
@@ -480,9 +480,9 @@ export const websiteFuerSelbstaendige: LandingLocales = {
       ],
     },
     audience: {
-      heading: 'Pour quels indépendants amai! est adapté?',
+      heading: 'Pour quels indépendants semanu est adapté?',
       intro:
-        'amai! convient particulièrement si vous êtes indépendant et souhaitez un site professionnel sans devoir vous occuper vous-même de la technique, des textes, de l’hébergement ou du design.',
+        'semanu convient particulièrement si vous êtes indépendant et souhaitez un site professionnel sans devoir vous occuper vous-même de la technique, des textes, de l’hébergement ou du design.',
       items: [
         'Freelances et professionnels en activité indépendante',
         'Conseillers, coachs et thérapeutes',
@@ -497,7 +497,7 @@ export const websiteFuerSelbstaendige: LandingLocales = {
     },
     sections: [],
     links: [
-      { href: '/referenzen', label: 'Références', desc: 'Sites et solutions numériques d’amai!' },
+      { href: '/referenzen', label: 'Références', desc: 'Sites et solutions numériques d’semanu' },
       { href: '/website-abos', label: 'Prix', desc: 'Abonnements transparents pour Business et Webshop.' },
       { href: '/so-funktioniert', label: 'Comment ça marche', desc: 'Votre site étape par étape.' },
       { href: '/website-erstellen-lassen-schweiz', label: 'Faire créer son site', desc: 'Sites professionnels pour PME et indépendants suisses.' },
@@ -530,11 +530,11 @@ export const websiteFuerSelbstaendige: LandingLocales = {
           a: 'Oui. Après le lancement, des modifications peuvent être demandées. L’ampleur et la facturation dépendent de l’abonnement choisi et de l’accord en cours.',
         },
         {
-          q: 'amai! convient à quel type d’indépendants?',
-          a: 'amai! convient aux indépendants de tous secteurs qui veulent un site professionnel sans frais élevés, sans charge technique et sans conversations d’agence compliquées. Du freelance au cabinet.',
+          q: 'semanu convient à quel type d’indépendants?',
+          a: 'semanu convient aux indépendants de tous secteurs qui veulent un site professionnel sans frais élevés, sans charge technique et sans conversations d’agence compliquées. Du freelance au cabinet.',
         },
         {
-          q: 'Combien coûte un site pour indépendants chez amai!?',
+          q: 'Combien coûte un site pour indépendants chez semanu?',
           a: 'L’abonnement pour indépendants démarre à 99 CHF par mois. Le prix exact dépend de l’abonnement choisi et de l’ampleur. Tous les prix sont hors TVA avec une durée minimale de 36 mois.',
         },
       ],
@@ -552,7 +552,7 @@ export const websiteFuerSelbstaendige: LandingLocales = {
     eyebrow: 'Website for self employed · Switzerland',
     h1: 'Website for self employed professionals in Switzerland',
     intro:
-      'As a self employed professional you need a website that looks professional, clearly shows what you offer and leads visitors to an enquiry. amai! creates your personal online presence, including design, text support, hosting, maintenance and SEO foundations, in a clear monthly subscription without a large upfront investment.',
+      'As a self employed professional you need a website that looks professional, clearly shows what you offer and leads visitors to an enquiry. semanu creates your personal online presence, including design, text support, hosting, maintenance and SEO foundations, in a clear monthly subscription without a large upfront investment.',
     heroBullets: [
       'From 99 CHF per month',
       'Design, hosting and maintenance included',
@@ -585,7 +585,7 @@ export const websiteFuerSelbstaendige: LandingLocales = {
     problem: {
       heading: 'Without a professional website self employed people lose work',
       intro:
-        'Potential clients search for you on Google before they get in touch. A missing or dated website makes a poor first impression. Many self employed people keep putting off their website: no clear starting point, no finished texts or agency costs that feel too high. amai! solves exactly these three problems.',
+        'Potential clients search for you on Google before they get in touch. A missing or dated website makes a poor first impression. Many self employed people keep putting off their website: no clear starting point, no finished texts or agency costs that feel too high. semanu solves exactly these three problems.',
       cards: [
         {
           title: 'No professional presence',
@@ -607,9 +607,9 @@ export const websiteFuerSelbstaendige: LandingLocales = {
     },
     solution: {
       heading: 'Your professional online presence without the effort',
-      body: 'amai! builds your website from scratch, tailored to your work, your audience and your style. We help with structure and texts, create a professional design and build everything cleanly on the technical side, including hosting, maintenance and SEO foundations. You look after your clients and we look after your website.',
+      body: 'semanu builds your website from scratch, tailored to your work, your audience and your style. We help with structure and texts, create a professional design and build everything cleanly on the technical side, including hosting, maintenance and SEO foundations. You look after your clients and we look after your website.',
     },
-    featuresHeading: 'What self employed people get with amai!',
+    featuresHeading: 'What self employed people get with semanu',
     featuresHint: 'Hover over a tile for more info',
     featuresLayout: 'cards',
     features: [
@@ -690,7 +690,7 @@ export const websiteFuerSelbstaendige: LandingLocales = {
     pricing: {
       heading: 'What does a website for self employed people cost?',
       intro:
-        'At amai! you do not pay a large one time invoice. You pay a clear monthly price that covers design, build, hosting and maintenance. Predictable and without surprises.',
+        'At semanu you do not pay a large one time invoice. You pay a clear monthly price that covers design, build, hosting and maintenance. Predictable and without surprises.',
       cards: [
         {
           name: 'Business Website',
@@ -721,9 +721,9 @@ export const websiteFuerSelbstaendige: LandingLocales = {
       cta: { label: 'Compare pricing', href: '/website-abos' },
     },
     reasons: {
-      heading: 'Why amai! for self employed people?',
+      heading: 'Why semanu for self employed people?',
       entitySentence:
-        'amai! is a website subscription provider from Bern and builds professional websites for Swiss SMEs, self employed people and local businesses, including design, build, hosting, maintenance and SEO foundations.',
+        'semanu is a website subscription provider from Bern and builds professional websites for Swiss SMEs, self employed people and local businesses, including design, build, hosting, maintenance and SEO foundations.',
       items: [
         {
           title: 'Understanding of self employment',
@@ -752,9 +752,9 @@ export const websiteFuerSelbstaendige: LandingLocales = {
       ],
     },
     audience: {
-      heading: 'Which self employed people is amai! suited for?',
+      heading: 'Which self employed people is semanu suited for?',
       intro:
-        'amai! is a particularly good fit if you are self employed and want a professional website without having to deal with technology, texts, hosting or design yourself.',
+        'semanu is a particularly good fit if you are self employed and want a professional website without having to deal with technology, texts, hosting or design yourself.',
       items: [
         'Freelancers and independent professionals',
         'Consultants, coaches and therapists',
@@ -769,7 +769,7 @@ export const websiteFuerSelbstaendige: LandingLocales = {
     },
     sections: [],
     links: [
-      { href: '/referenzen', label: 'References', desc: 'Websites and digital solutions by amai!' },
+      { href: '/referenzen', label: 'References', desc: 'Websites and digital solutions by semanu' },
       { href: '/website-abos', label: 'Pricing', desc: 'Transparent plans for Business and Webshop.' },
       { href: '/so-funktioniert', label: 'How it works', desc: 'Your website step by step.' },
       { href: '/website-erstellen-lassen-schweiz', label: 'Have a website made', desc: 'Professional websites for Swiss SMEs and self employed people.' },
@@ -802,11 +802,11 @@ export const websiteFuerSelbstaendige: LandingLocales = {
           a: 'Yes. After the launch, changes can be requested. Scope and billing depend on the chosen subscription and the current agreement.',
         },
         {
-          q: 'What type of self employed people is amai! suited for?',
-          a: 'amai! is suited for self employed people across all fields who want a professional website without high costs, technical effort or complicated agency conversations. From freelancer to practice owner.',
+          q: 'What type of self employed people is semanu suited for?',
+          a: 'semanu is suited for self employed people across all fields who want a professional website without high costs, technical effort or complicated agency conversations. From freelancer to practice owner.',
         },
         {
-          q: 'What does a website for self employed people cost at amai!?',
+          q: 'What does a website for self employed people cost at semanu?',
           a: 'The subscription for self employed people starts at 99 CHF per month. The exact price depends on the chosen subscription and scope. All prices are excl. VAT with a minimum term of 36 months.',
         },
       ],

@@ -3,17 +3,17 @@ title: "Datenschutzerklärung"
 updated: "2026-06-15"
 ---
 
-Diese Datenschutzerklärung erklärt, wie Amai! personenbezogene Daten bearbeitet, wenn Sie unsere Website nutzen oder mit uns Kontakt aufnehmen. Es gelten das revidierte Schweizer Datenschutzgesetz (revDSG) und, soweit anwendbar, die DSGVO.
+Diese Datenschutzerklärung erklärt, wie Semanu! personenbezogene Daten bearbeitet, wenn Sie unsere Website nutzen oder mit uns Kontakt aufnehmen. Es gelten das revidierte Schweizer Datenschutzgesetz (revDSG) und, soweit anwendbar, die DSGVO.
 
 ## 1. Verantwortlicher
 
-SEMANU BV (amai!), Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgien. Email: hello@amai.ch
+SEMANU BV (semanu), Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgien. Email: hello@semanu.eu
 
 ## 2. Welche Daten wir bearbeiten
 
 **Daten aus Formularen.** Über das Kontaktformular und die Abo Anmeldung erfassen wir Vorname, Nachname, Email, Firma (optional), Telefon (optional), Ihre Nachricht oder Abo Auswahl, die Sprachpräferenz und Ihre Einwilligung.
 
-**Zahlungsdaten.** Zahlungen werden über Stripe abgewickelt (in Vorbereitung). Zahlungsdaten geben Sie direkt bei Stripe ein. Amai! speichert keine vollständigen Zahlungsdaten, sondern nur den Zahlungs oder Abostatus.
+**Zahlungsdaten.** Zahlungen werden über Stripe abgewickelt (in Vorbereitung). Zahlungsdaten geben Sie direkt bei Stripe ein. Semanu! speichert keine vollständigen Zahlungsdaten, sondern nur den Zahlungs oder Abostatus.
 
 **Automatisch erfasste Daten.** Server und Sicherheitsprotokolle (IP Adresse, Browser, Zeitstempel, abgerufene Seiten) über unseren Hosting und CDN Anbieter, zur Auslieferung, Stabilität und Missbrauchsabwehr. Ein Honeypot Feld filtert Spam.
 
@@ -54,7 +54,7 @@ Google Analytics und Google Ads können Daten an Google übermitteln, auch in di
 
 ## 7. Ihre Rechte
 
-Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung, Widerspruch und Datenübertragbarkeit sowie das Recht, eine Einwilligung jederzeit zu widerrufen. Wenden Sie sich dafür an hello@amai.ch. Sie können sich zudem bei einer Aufsichtsbehörde beschweren, in der Schweiz beim Eidgenössischen Datenschutz und Öffentlichkeitsbeauftragten (EDÖB).
+Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung, Widerspruch und Datenübertragbarkeit sowie das Recht, eine Einwilligung jederzeit zu widerrufen. Wenden Sie sich dafür an hello@semanu.eu. Sie können sich zudem bei einer Aufsichtsbehörde beschweren, in der Schweiz beim Eidgenössischen Datenschutz und Öffentlichkeitsbeauftragten (EDÖB).
 
 ## 8. Cookies
 

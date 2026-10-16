@@ -44,7 +44,7 @@ export async function FlowSystemsIntelligence({ service, detail, content, navSer
             <span className="relative inline-flex h-12 w-12 items-center justify-center rounded-xl bg-navy text-mint">
               <ServiceIcon id={service.icon} className="h-6 w-6" />
               {service.id === 'ai-assistants' ? (
-                <span aria-hidden className="amai-pulse absolute -right-1 -top-1 h-2.5 w-2.5 rounded-full bg-mint ring-2 ring-white" />
+                <span aria-hidden className="semanu-pulse absolute -right-1 -top-1 h-2.5 w-2.5 rounded-full bg-mint ring-2 ring-white" />
               ) : null}
             </span>
             <h1 className="h1-svc mt-5 text-balance"><BrandText>{detail.heroHeadline}</BrandText></h1>
@@ -94,7 +94,7 @@ export async function FlowSystemsIntelligence({ service, detail, content, navSer
           {service.subs ? (
             <div className="mt-10 grid gap-4 md:grid-cols-3">
               {service.subs.map((sub) => (
-                <div key={sub.title} className="amai-reveal rounded-2xl border border-[var(--line)] bg-white p-6">
+                <div key={sub.title} className="semanu-reveal rounded-2xl border border-[var(--line)] bg-white p-6">
                   <h3 className="font-display text-lg text-ink"><BrandText>{sub.title}</BrandText></h3>
                   <p className="mt-2 text-sm leading-relaxed text-ink-soft"><BrandText>{sub.short}</BrandText></p>
                   <div className="mt-4 rounded-lg bg-paper p-3.5">
@@ -116,7 +116,7 @@ export async function FlowSystemsIntelligence({ service, detail, content, navSer
             </div>
           ) : (
             <div className="mt-10 grid items-start gap-6 lg:grid-cols-[1.15fr_0.85fr]">
-              <div className="amai-reveal rounded-2xl border border-[var(--line)] bg-white p-6 sm:p-8">
+              <div className="semanu-reveal rounded-2xl border border-[var(--line)] bg-white p-6 sm:p-8">
                 <ChipGroup label={detail.buildsTitle} items={service.builds} />
                 <div className="mt-7 border-t border-[var(--line)] pt-7">
                   <ChipGroup label={content.forWhoLabel} items={service.audience} />
@@ -157,7 +157,7 @@ export async function FlowSystemsIntelligence({ service, detail, content, navSer
         <UseCaseCards title={detail.useCasesTitle} lead={detail.useCasesLead} cards={detail.useCases} variant="cards" />
         {detail.example ? (
           <div className="container-site mt-8">
-            <div className="amai-reveal max-w-3xl rounded-2xl border border-[var(--line)] bg-white p-6">
+            <div className="semanu-reveal max-w-3xl rounded-2xl border border-[var(--line)] bg-white p-6">
               <span className="font-mono text-xs uppercase tracking-wider text-navy"><BrandText>{detail.example.label}</BrandText></span>
               <p className="mt-3 text-sm leading-relaxed text-ink-soft"><BrandText>{detail.example.text}</BrandText></p>
               <Link

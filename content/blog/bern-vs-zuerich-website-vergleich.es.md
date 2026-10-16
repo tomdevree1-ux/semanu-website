@@ -11,7 +11,7 @@ Berna queda por delante. De las 39 webs de Berna en nuestro estudio, el 15,4 por
 
 ## Cómo lo medimos
 
-En <span class="brand-mark">amai<span class="spark">!</span></span> evaluamos de forma continua webs de pymes suizas con una rejilla fija. Cada sitio recibe una nota de 1 a 5, donde 5 significa la mayor necesidad de trabajo y 1 una presencia al día. La valoración es indicativa y se basa en elementos visibles del sitio. Para la comparación entre ciudades usamos solo localidades donde habíamos evaluado suficientes webs. Todo el detalle y los resultados globales están en el [estudio de webs de pymes](/es/blog/kmu-website-studie-schweiz).
+En <span class="brand-mark">semanu<span class="spark">!</span></span> evaluamos de forma continua webs de pymes suizas con una rejilla fija. Cada sitio recibe una nota de 1 a 5, donde 5 significa la mayor necesidad de trabajo y 1 una presencia al día. La valoración es indicativa y se basa en elementos visibles del sitio. Para la comparación entre ciudades usamos solo localidades donde habíamos evaluado suficientes webs. Todo el detalle y los resultados globales están en el [estudio de webs de pymes](/es/blog/kmu-website-studie-schweiz).
 
 ## La comparación entre ciudades
 

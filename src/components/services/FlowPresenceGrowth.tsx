@@ -91,7 +91,7 @@ export async function FlowPresenceGrowth({ service, detail, content, navServices
             <h2 className="mt-3 font-display leading-[0.98] tracking-[-0.025em] text-white whitespace-pre-line text-[clamp(30px,3.6vw,44px)]"><BrandText>{detail.engineTitle}</BrandText></h2>
             <p className="lead mt-4 text-paper/80"><BrandText>{detail.engineText}</BrandText></p>
           </div>
-          <div className="amai-reveal rounded-2xl border border-white/10 bg-white/5 p-6 sm:p-8">
+          <div className="semanu-reveal rounded-2xl border border-white/10 bg-white/5 p-6 sm:p-8">
             <div className="grid gap-8 sm:grid-cols-2">
               <ChipGroup label={detail.buildsTitle} items={service.builds} variant="onDark" />
               <div className="border-t border-white/10 pt-8 sm:border-l sm:border-t-0 sm:pl-8 sm:pt-0">
@@ -112,7 +112,7 @@ export async function FlowPresenceGrowth({ service, detail, content, navServices
         />
         {detail.example ? (
           <div className="container-site mt-10">
-            <div className="amai-reveal flex flex-col gap-5 rounded-2xl border border-mint/40 bg-hero-wash p-7 sm:flex-row sm:items-center sm:justify-between sm:p-8">
+            <div className="semanu-reveal flex flex-col gap-5 rounded-2xl border border-mint/40 bg-hero-wash p-7 sm:flex-row sm:items-center sm:justify-between sm:p-8">
               <div className="max-w-2xl">
                 <span className="font-mono text-xs uppercase tracking-wider text-navy"><BrandText>{detail.example.label}</BrandText></span>
                 <p className="mt-2.5 text-sm leading-relaxed text-ink-soft"><BrandText>{detail.example.text}</BrandText></p>
@@ -145,7 +145,7 @@ export async function FlowPresenceGrowth({ service, detail, content, navServices
           </div>
           <ul className="mt-10 grid gap-2.5 sm:grid-cols-2 lg:grid-cols-3">
             {content.seoGeo.points.map((p) => (
-              <li key={p} className="amai-reveal flex items-start gap-2.5 rounded-xl border border-[var(--line)] bg-paper p-3.5 text-sm text-ink">
+              <li key={p} className="semanu-reveal flex items-start gap-2.5 rounded-xl border border-[var(--line)] bg-paper p-3.5 text-sm text-ink">
                 <span aria-hidden className="mt-0.5 font-bold text-navy">
                   ✓
                 </span>
@@ -162,7 +162,7 @@ export async function FlowPresenceGrowth({ service, detail, content, navServices
       {detail.seoStandard ? (
         <section className="bg-paper py-16 sm:py-20">
           <div className="container-site">
-            <div className="amai-reveal mx-auto max-w-3xl rounded-2xl border border-mint/50 bg-hero-wash p-7 sm:p-9">
+            <div className="semanu-reveal mx-auto max-w-3xl rounded-2xl border border-mint/50 bg-hero-wash p-7 sm:p-9">
               <h2 className="h3 text-ink"><BrandText>{detail.seoStandard.heading}</BrandText></h2>
               <p className="mt-3 text-ink-soft"><BrandText>{detail.seoStandard.body}</BrandText></p>
               <a
@@ -183,7 +183,7 @@ export async function FlowPresenceGrowth({ service, detail, content, navServices
       {detail.subTheme ? (
         <section className="flow-soft-white py-16 sm:py-20">
           <div className="container-site">
-            <div className="amai-reveal mx-auto max-w-3xl rounded-2xl border border-mint/50 bg-hero-wash p-7 sm:p-9">
+            <div className="semanu-reveal mx-auto max-w-3xl rounded-2xl border border-mint/50 bg-hero-wash p-7 sm:p-9">
               <span className="font-mono text-xs uppercase tracking-wider text-navy"><BrandText>{detail.subTheme.label}</BrandText></span>
               <h2 className="h3 mt-2 text-ink"><BrandText>{detail.subTheme.heading}</BrandText></h2>
               <p className="mt-3 leading-relaxed text-ink-soft"><BrandText>{detail.subTheme.body}</BrandText></p>

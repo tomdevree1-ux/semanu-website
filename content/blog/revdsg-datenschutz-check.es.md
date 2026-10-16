@@ -40,7 +40,7 @@ Las multas son una parte: hasta 250'000 francos, impuestas a la persona física 
 
 Los datos personales pueden salir de Suiza si el país de destino ofrece una protección adecuada. Para el EEE es el caso. Para Estados Unidos rige desde el 15 de septiembre de 2024 el [Swiss US Data Privacy Framework](https://www.edoeb.admin.ch/en/15082024-new-swiss-us-data-privacy-framework): puedes transferir datos a un proveedor estadounidense certificado sin garantías adicionales, a uno no certificado no. Muy pocos responsables de webs conocen ese matiz.
 
-Por eso en <span class="brand-mark">amai<span class="spark">!</span></span> alojamos en la UE. La base de datos y el almacenamiento corren sobre Supabase en una región europea, la entrega pasa por Cloudflare, el correo por Resend. Los tres aparecen por su nombre en nuestra propia política, incluyendo finalidad además de ubicación. Ese es el nivel de detalle al que apunta la ley.
+Por eso en <span class="brand-mark">semanu<span class="spark">!</span></span> alojamos en la UE. La base de datos y el almacenamiento corren sobre Supabase en una región europea, la entrega pasa por Cloudflare, el correo por Resend. Los tres aparecen por su nombre en nuestra propia política, incluyendo finalidad además de ubicación. Ese es el nivel de detalle al que apunta la ley.
 
 ## ¿Cómo pones tu web en regla en siete pasos?
 

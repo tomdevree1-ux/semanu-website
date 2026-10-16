@@ -1,4 +1,4 @@
-// Unified service-page layout (2026-10) in the iO-inspired structure, amai style:
+// Unified service-page layout (2026-10) in the iO-inspired structure, semanu style:
 // visible breadcrumb, a navy hero banner with a trust strip, an answer-first
 // definition block (GEO), a statement + author card, a big Q&A accordion (the
 // questions are real headings and mirror the FAQPage schema emitted by the page),
@@ -24,7 +24,7 @@ type Props = {
 
 const Arrow = () => <span aria-hidden className="btn-arrow" />;
 
-// Live cabinet configurator per site language (hosted on SEMANU, same look as amai).
+// Live cabinet configurator per site language (hosted on SEMANU, same look as semanu).
 // The "#e30" hash is an empty default state that makes the configurator skip its
 // landing page and open straight on the configurator screen.
 const CONFIGURATOR_URL: Record<string, string> = {
@@ -88,7 +88,7 @@ export function ServiceFlow({ service, detail, content, navServicesLabel, locale
                   <div className="relative aspect-[16/10] overflow-hidden rounded-[7px] bg-white">
                     <iframe
                       src="/configurator-tafel/index.html"
-                      title="amai tafelconfigurator"
+                      title="semanu tafelconfigurator"
                       loading="lazy"
                       className="absolute left-0 top-0 h-[200%] w-[200%] origin-top-left scale-50 border-0"
                     />
@@ -292,7 +292,7 @@ export function ServiceFlow({ service, detail, content, navServicesLabel, locale
               {/* Continuous logo band of known platforms (soft fade at both edges). */}
               {detail.integrations.logos && detail.integrations.logos.length > 0 && (
                 <div
-                  className="amai-marquee relative mt-[clamp(32px,4vw,56px)] overflow-hidden"
+                  className="semanu-marquee relative mt-[clamp(32px,4vw,56px)] overflow-hidden"
                   style={{
                     maskImage:
                       'linear-gradient(to right, transparent, #000 10%, #000 90%, transparent)',
@@ -300,7 +300,7 @@ export function ServiceFlow({ service, detail, content, navServicesLabel, locale
                       'linear-gradient(to right, transparent, #000 10%, #000 90%, transparent)',
                   }}
                 >
-                  <div className="amai-marquee-track flex w-max items-center gap-[clamp(32px,4vw,64px)] pr-[clamp(32px,4vw,64px)]">
+                  <div className="semanu-marquee-track flex w-max items-center gap-[clamp(32px,4vw,64px)] pr-[clamp(32px,4vw,64px)]">
                     {[...detail.integrations.logos, ...detail.integrations.logos].map((logo, i) => (
                       <span
                         key={`${logo.name}-${i}`}

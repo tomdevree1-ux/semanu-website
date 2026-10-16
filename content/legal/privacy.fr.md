@@ -3,17 +3,17 @@ title: "Politique de confidentialité"
 updated: "2026-06-15"
 ---
 
-Cette politique explique comment Amai! traite les données personnelles lorsque vous utilisez notre site ou nous contactez. La loi suisse révisée sur la protection des données (nLPD) et, le cas échéant, le RGPD s’appliquent.
+Cette politique explique comment Semanu! traite les données personnelles lorsque vous utilisez notre site ou nous contactez. La loi suisse révisée sur la protection des données (nLPD) et, le cas échéant, le RGPD s’appliquent.
 
 ## 1. Responsable
 
-SEMANU BV (amai!), Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgique. Email : hello@amai.ch
+SEMANU BV (semanu), Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgique. Email : hello@semanu.eu
 
 ## 2. Quelles données nous traitons
 
 **Données des formulaires.** Via le formulaire de contact et l’inscription à un abonnement, nous collectons le prénom, le nom, l’email, l’entreprise (optionnel), le téléphone (optionnel), votre message ou votre choix d’abonnement, la langue préférée et votre consentement.
 
-**Données de paiement.** Les paiements passent par Stripe (en préparation). Vous saisissez vos données de paiement directement chez Stripe. Amai! ne conserve pas les données de paiement complètes, uniquement le statut du paiement ou de l’abonnement.
+**Données de paiement.** Les paiements passent par Stripe (en préparation). Vous saisissez vos données de paiement directement chez Stripe. Semanu! ne conserve pas les données de paiement complètes, uniquement le statut du paiement ou de l’abonnement.
 
 **Données collectées automatiquement.** Journaux serveur et de sécurité (adresse IP, navigateur, horodatage, pages consultées) via notre hébergeur et CDN, pour la diffusion, la stabilité et la prévention des abus. Un champ honeypot filtre le spam.
 
@@ -54,7 +54,7 @@ Google Analytics et Google Ads peuvent transférer des données à Google, y com
 
 ## 7. Vos droits
 
-Vous avez le droit d’accès, de rectification, d’effacement, de limitation, d’opposition et de portabilité, ainsi que le droit de retirer votre consentement à tout moment. Pour cela, écrivez à hello@amai.ch. Vous pouvez aussi déposer une réclamation auprès d’une autorité de contrôle, en Suisse le Préposé fédéral à la protection des données et à la transparence (PFPDT).
+Vous avez le droit d’accès, de rectification, d’effacement, de limitation, d’opposition et de portabilité, ainsi que le droit de retirer votre consentement à tout moment. Pour cela, écrivez à hello@semanu.eu. Vous pouvez aussi déposer une réclamation auprès d’une autorité de contrôle, en Suisse le Préposé fédéral à la protection des données et à la transparence (PFPDT).
 
 ## 8. Cookies
 

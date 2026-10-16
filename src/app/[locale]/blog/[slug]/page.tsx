@@ -9,6 +9,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { routing } from '@/i18n/routing';
 import { getAllPosts, getPost } from '@/lib/blog';
 import { pageMetadata } from '@/lib/seo/metadata';
+import { env } from '@/lib/env';
 
 export function generateStaticParams() {
   const params: { locale: string; slug: string }[] = [];
@@ -35,12 +36,12 @@ export async function generateMetadata({
     getAllPosts(l).some((p) => p.slug === slug),
   );
   return pageMetadata({
-    title: `${post.meta.title} · amai.ch`,
+    title: `${post.meta.title} · semanu.eu`,
     description: post.meta.description,
     path: `/blog/${slug}`,
     locale,
     availableLocales,
-    image: post.meta.cover || '/og.png?v=3',
+    image: post.meta.cover || '/og.png?v=4',
     // A blog post is an article, not a generic website page.
     ogType: 'article',
   });
@@ -67,7 +68,7 @@ export default async function BlogPostPage({
   if (!post) notFound();
 
   const { meta } = post;
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://amai.ch';
+  const siteUrl = env.siteUrl;
   const articleLd = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
@@ -92,7 +93,7 @@ export default async function BlogPostPage({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'amai.ch', item: `${siteUrl}/${locale}` },
+      { '@type': 'ListItem', position: 1, name: 'semanu.eu', item: `${siteUrl}/${locale}` },
       { '@type': 'ListItem', position: 2, name: tn('blog'), item: `${siteUrl}/${locale}/blog` },
       {
         '@type': 'ListItem',
@@ -107,7 +108,7 @@ export default async function BlogPostPage({
     <SiteShell>
       <JsonLd data={[articleLd, breadcrumbLd]} />
       <Breadcrumb
-        items={[{ name: 'amai.ch', href: '/' }, { name: tn('blog'), href: '/blog' }, { name: meta.title }]}
+        items={[{ name: 'semanu.eu', href: '/' }, { name: tn('blog'), href: '/blog' }, { name: meta.title }]}
         locale={locale}
         jsonLd={false}
       />

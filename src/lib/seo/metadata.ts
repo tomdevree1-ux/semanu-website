@@ -12,7 +12,7 @@ import { localizedAlternates } from './alternates';
  * shares of inner pages showed the wrong title. Routing every page through this
  * helper keeps the three titles aligned and can't drift again.
  *
- * @param title  The full page title (already including the "· amai.ch" suffix).
+ * @param title  The full page title (already including the "· semanu.eu" suffix).
  * @param description Optional meta + OG description.
  * @param path   Locale relative path, '' for the home page, '/kontakt' etc.
  * @param locale Current locale (for canonical + OG url).
@@ -26,7 +26,7 @@ export function pageMetadata({
   path,
   locale,
   availableLocales,
-  image = '/og.png?v=3',
+  image = '/og.png?v=4',
   ogType = 'website',
   ogTitle,
   ogDescription,
@@ -55,7 +55,7 @@ export function pageMetadata({
     openGraph: {
       title: socialTitle,
       ...socialDesc,
-      siteName: 'amai',
+      siteName: 'semanu',
       url: `/${locale}${path}`,
       type: ogType,
       // alt mirrors the page title (not one sitewide brand line) for

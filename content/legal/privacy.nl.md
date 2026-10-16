@@ -3,17 +3,17 @@ title: "Privacyverklaring"
 updated: "2026-06-15"
 ---
 
-Deze privacyverklaring legt uit hoe amai! persoonsgegevens verwerkt wanneer u onze website gebruikt of contact met ons opneemt. Van toepassing zijn de herziene Zwitserse wet op de gegevensbescherming (revDSG) en, voor zover van toepassing, de AVG.
+Deze privacyverklaring legt uit hoe semanu persoonsgegevens verwerkt wanneer u onze website gebruikt of contact met ons opneemt. Van toepassing zijn de herziene Zwitserse wet op de gegevensbescherming (revDSG) en, voor zover van toepassing, de AVG.
 
 ## 1. Verantwoordelijke
 
-SEMANU BV (amai!), Kattendijkdok-Oostkaai 9, 2000 Antwerpen, België. Email: hello@amai.ch
+SEMANU BV (semanu), Kattendijkdok-Oostkaai 9, 2000 Antwerpen, België. Email: hello@semanu.eu
 
 ## 2. Welke gegevens wij verwerken
 
 **Gegevens uit formulieren.** Via het contactformulier en de aanmelding voor het abonnement verzamelen wij voornaam, achternaam, email, bedrijf (optioneel), telefoon (optioneel), uw bericht of abonnementskeuze, de taalvoorkeur en uw toestemming.
 
-**Betaalgegevens.** Betalingen worden afgehandeld via Stripe (in voorbereiding). Betaalgegevens voert u rechtstreeks bij Stripe in. amai! bewaart geen volledige betaalgegevens. Enkel de betaal of abonnementsstatus wordt opgeslagen.
+**Betaalgegevens.** Betalingen worden afgehandeld via Stripe (in voorbereiding). Betaalgegevens voert u rechtstreeks bij Stripe in. semanu bewaart geen volledige betaalgegevens. Enkel de betaal of abonnementsstatus wordt opgeslagen.
 
 **Automatisch verzamelde gegevens.** Server en beveiligingslogboeken (IP adres, browser, tijdstempel, opgevraagde paginas) via onze hosting en CDN aanbieder, voor levering, stabiliteit en misbruikbestrijding. Een honeypot veld filtert spam.
 
@@ -54,7 +54,7 @@ Google Analytics en Google Ads kunnen gegevens doorgeven aan Google, ook naar de
 
 ## 7. Uw rechten
 
-U heeft het recht op inzage, rectificatie, wissing, beperking, bezwaar en gegevensoverdraagbaarheid en het recht om een toestemming te allen tijde in te trekken. Wend u zich hiervoor tot hello@amai.ch. U kunt zich bovendien beklagen bij een toezichthoudende autoriteit, in Zwitserland bij de Eidgenössischer Datenschutz und Öffentlichkeitsbeauftragter (EDÖB).
+U heeft het recht op inzage, rectificatie, wissing, beperking, bezwaar en gegevensoverdraagbaarheid en het recht om een toestemming te allen tijde in te trekken. Wend u zich hiervoor tot hello@semanu.eu. U kunt zich bovendien beklagen bij een toezichthoudende autoriteit, in Zwitserland bij de Eidgenössischer Datenschutz und Öffentlichkeitsbeauftragter (EDÖB).
 
 ## 8. Cookies
 

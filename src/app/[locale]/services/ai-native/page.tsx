@@ -15,7 +15,7 @@ import { env } from '@/lib/env';
 // 3D-configurators page (fonts, colours, rounded corners, cards, dark blocks).
 // Authored NL-first; the body copy is shown in every locale until translated.
 const AI = {
-  metaTitle: 'Bedrijfssoftware op maat & AI-native software · amai.ch',
+  metaTitle: 'Bedrijfssoftware op maat & AI-native software · semanu.eu',
   metaDescription:
     'AI-first ontwikkelde bedrijfssoftware op maat voor KMO. Van offertebeheer tot productieplanning. Modulair, intelligent en uitbreidbaar.',
   heroHeadline: 'Bedrijfssoftware opnieuw uitgevonden.',
@@ -28,7 +28,7 @@ const AI = {
   featTitle: 'Van offerte tot levering.\nEén verbonden proces.',
   featSub:
     'Wij bouwen alleen de modules die uw onderneming nu nodig heeft, sneller en betaalbaar door onze AI-first aanpak. U start klein en breidt uit wanneer het nodig is.',
-  diffKicker: 'WAAROM AMAI',
+  diffKicker: 'WAAROM SEMANU',
   diffTitle: 'Wat ons anders maakt.',
   diffCards: [
     { n: '01', title: 'Sneller met AI', text: 'Wij zetten AI in tijdens het volledige ontwikkelproces, zodat u sneller en betaalbaar maatwerk krijgt.' },
@@ -48,7 +48,7 @@ const AI = {
     'Traditionele maatwerksoftware vraagt vaak grote budgetten en lange ontwikkeltrajecten. Wij gebruiken AI tijdens het volledige ontwikkelproces. Zo bouwen we efficiënter software op maat en maken we geavanceerde oplossingen toegankelijk voor KMO.',
   aiOldLabel: 'Traditioneel maatwerk',
   aiOld: ['Lange ontwikkeltrajecten', 'Hoge ontwikkelkosten', 'Grote investering vooraf'],
-  aiNewLabel: 'amai · AI-first',
+  aiNewLabel: 'semanu · AI-first',
   aiNew: ['Sneller van idee naar software', 'Efficiënter ontwikkelen met AI', 'Klein starten, flexibel groeien'],
   modTitle: 'Start klein.\nGroei zonder grenzen.',
   modText:
@@ -67,7 +67,7 @@ const AI = {
   faq: [
     {
       q: 'Was ist AI-native Unternehmenssoftware?',
-      a: 'AI-native Unternehmenssoftware ist eine Software, bei der künstliche Intelligenz von Anfang an mitgedacht wird. Sie unterstützt Unternehmen dabei, Geschäftsprozesse zu automatisieren, Daten intelligent zu verarbeiten und wiederkehrende Aufgaben zu reduzieren. Bei amai kombinieren wir diesen Ansatz mit einer AI-first Entwicklungsmethode. So entsteht massgeschneiderte Software, die genau auf Ihre Geschäftsprozesse abgestimmt ist.',
+      a: 'AI-native Unternehmenssoftware ist eine Software, bei der künstliche Intelligenz von Anfang an mitgedacht wird. Sie unterstützt Unternehmen dabei, Geschäftsprozesse zu automatisieren, Daten intelligent zu verarbeiten und wiederkehrende Aufgaben zu reduzieren. Bei semanu kombinieren wir diesen Ansatz mit einer AI-first Entwicklungsmethode. So entsteht massgeschneiderte Software, die genau auf Ihre Geschäftsprozesse abgestimmt ist.',
     },
     {
       q: 'Was kostet die Entwicklung einer individuellen Unternehmenssoftware?',
@@ -95,7 +95,7 @@ const AI = {
     },
     {
       q: 'Wem gehört die entwickelte Software und der Quellcode?',
-      a: 'Bei amai werden Sie Eigentümer Ihrer individuell entwickelten Unternehmenssoftware, einschliesslich des Quellcodes. Dadurch behalten Sie die Kontrolle über Ihre Lösung und sind nicht dauerhaft an einen einzelnen Anbieter gebunden. Sie können Ihre Software langfristig weiterentwickeln, anpassen oder durch andere Entwickler betreuen lassen. Wir setzen auf transparente Zusammenarbeit und langfristige Flexibilität.',
+      a: 'Bei semanu werden Sie Eigentümer Ihrer individuell entwickelten Unternehmenssoftware, einschliesslich des Quellcodes. Dadurch behalten Sie die Kontrolle über Ihre Lösung und sind nicht dauerhaft an einen einzelnen Anbieter gebunden. Sie können Ihre Software langfristig weiterentwickeln, anpassen oder durch andere Entwickler betreuen lassen. Wir setzen auf transparente Zusammenarbeit und langfristige Flexibilität.',
     },
   ],
   finalTitle: 'Bespreek uw softwareproject.',
@@ -139,7 +139,7 @@ export default async function AiNativePage({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'amai.ch', item: `${env.siteUrl}/${locale}` },
+      { '@type': 'ListItem', position: 1, name: 'semanu.eu', item: `${env.siteUrl}/${locale}` },
       { '@type': 'ListItem', position: 2, name: navServicesLabel, item: `${env.siteUrl}/${locale}/services` },
       { '@type': 'ListItem', position: 3, name: 'AI-native bedrijfssoftware', item: url },
     ],

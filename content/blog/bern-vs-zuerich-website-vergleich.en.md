@@ -11,7 +11,7 @@ Bern comes out on top. Of the 39 Bern sites in our study, 15.4 percent are up to
 
 ## How we measured
 
-At <span class="brand-mark">amai<span class="spark">!</span></span> we continuously review Swiss SME websites against a fixed grid. Each site gets a rating from 1 to 5, where 5 means the greatest need for work and 1 an up to date presence. The rating is indicative and based on visible website elements. For the city comparison we only used places where we had rated enough sites. All the detail and the overall results are in the [SME website study](/en/blog/kmu-website-studie-schweiz).
+At <span class="brand-mark">semanu<span class="spark">!</span></span> we continuously review Swiss SME websites against a fixed grid. Each site gets a rating from 1 to 5, where 5 means the greatest need for work and 1 an up to date presence. The rating is indicative and based on visible website elements. For the city comparison we only used places where we had rated enough sites. All the detail and the overall results are in the [SME website study](/en/blog/kmu-website-studie-schweiz).
 
 ## The city comparison
 

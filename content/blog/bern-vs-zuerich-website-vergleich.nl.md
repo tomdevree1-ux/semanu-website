@@ -11,7 +11,7 @@ Bern staat voorop. Van de 39 Bernse sites in onze studie is 15,4 procent bij de 
 
 ## Zo hebben we gemeten
 
-Bij <span class="brand-mark">amai<span class="spark">!</span></span> beoordelen we doorlopend websites van Zwitserse kmo's volgens een vast raster. Elke site krijgt een inschaling van 1 tot 5, waarbij 5 de grootste behoefte aan werk betekent en 1 een bij de tijd zijnde uitstraling. De inschaling is indicatief en berust op zichtbare website elementen. Voor de stedenvergelijking namen we alleen plaatsen waar we genoeg sites beoordeeld hebben. Alle details en de totaalresultaten staan in de [kmo website studie](/nl/blog/kmu-website-studie-schweiz).
+Bij <span class="brand-mark">semanu<span class="spark">!</span></span> beoordelen we doorlopend websites van Zwitserse kmo's volgens een vast raster. Elke site krijgt een inschaling van 1 tot 5, waarbij 5 de grootste behoefte aan werk betekent en 1 een bij de tijd zijnde uitstraling. De inschaling is indicatief en berust op zichtbare website elementen. Voor de stedenvergelijking namen we alleen plaatsen waar we genoeg sites beoordeeld hebben. Alle details en de totaalresultaten staan in de [kmo website studie](/nl/blog/kmu-website-studie-schweiz).
 
 ## De stedenvergelijking
 

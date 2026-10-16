@@ -1,6 +1,6 @@
 ---
 title: "Study: only 9% of Swiss SME websites are up to date"
-description: "amai! reviewed 2292 Swiss SME websites. Only 9 percent are up to date, a third need real work. All the numbers and the patterns."
+description: "semanu reviewed 2292 Swiss SME websites. Only 9 percent are up to date, a third need real work. All the numbers and the patterns."
 date: "2026-08-11"
 author: "Tom"
 authorImage: "/team/tom.png"
@@ -11,7 +11,7 @@ Fewer than one in ten Swiss SME websites is genuinely up to date. Of 2292 sites 
 
 ## Why this study
 
-At <span class="brand-mark">amai<span class="spark">!</span></span> we continuously review Swiss SME websites: structured, against a fixed grid and with the same criteria for every site. That has produced a dataset that gives an honest answer to a simple question: how fit are Swiss SME websites really?
+At <span class="brand-mark">semanu<span class="spark">!</span></span> we continuously review Swiss SME websites: structured, against a fixed grid and with the same criteria for every site. That has produced a dataset that gives an honest answer to a simple question: how fit are Swiss SME websites really?
 
 ## Two layers, so the numbers stay honest
 
@@ -92,8 +92,8 @@ The good news: almost all of it is fixed in a few hours. Five steps that work ri
 
 Most Swiss SME websites are not a write-off. Almost all stay below their potential though: only just under 9 percent are up to date and a third need real work. That is good news for anyone who acts now. Get the basics right and you quickly reach the top of your sector.
 
-Want to know where your website stands? We run exactly this analysis for your website free of charge: [Request a free website analysis](/en/website-analyse). Read more on the basics under [SEO basics for SMEs](/en/seo-basis-fuer-kmu) and how we build websites that get found under [Websites by amai!](/en/services/websites).
+Want to know where your website stands? We run exactly this analysis for your website free of charge: [Request a free website analysis](/en/website-analyse). Read more on the basics under [SEO basics for SMEs](/en/seo-basis-fuer-kmu) and how we build websites that get found under [Websites by semanu](/en/services/websites).
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Dataset","name":"Digital maturity of Swiss SME websites (amai! study)","description":"Indicative rating of 2292 Swiss SME websites on a maturity scale of five levels, plus an eight category deep analysis (0 to 10) of the 638 sites with the greatest need. Collected 14 June to 20 July 2026 across German speaking Switzerland.","url":"https://amai.ch/en/blog/kmu-website-studie-schweiz","creator":{"@id":"https://amai.ch/#organization"},"publisher":{"@id":"https://amai.ch/#organization"},"dateModified":"2026-08-11","temporalCoverage":"2026-06-14/2026-07-20","spatialCoverage":{"@type":"Place","name":"German speaking Switzerland"},"measurementTechnique":"Indicative rating based on visible website elements, not on analytics or lab measurements.","variableMeasured":["Digital maturity (five levels)","First impression","Positioning","Conversion","UX and structure","Visual design","SEO and content","Trust and proof","Mobile experience"]}
+{"@context":"https://schema.org","@type":"Dataset","name":"Digital maturity of Swiss SME websites (semanu study)","description":"Indicative rating of 2292 Swiss SME websites on a maturity scale of five levels, plus an eight category deep analysis (0 to 10) of the 638 sites with the greatest need. Collected 14 June to 20 July 2026 across German speaking Switzerland.","url":"https://www.semanu.eu/en/blog/kmu-website-studie-schweiz","creator":{"@id":"https://www.semanu.eu/#organization"},"publisher":{"@id":"https://www.semanu.eu/#organization"},"dateModified":"2026-08-11","temporalCoverage":"2026-06-14/2026-07-20","spatialCoverage":{"@type":"Place","name":"German speaking Switzerland"},"measurementTechnique":"Indicative rating based on visible website elements, not on analytics or lab measurements.","variableMeasured":["Digital maturity (five levels)","First impression","Positioning","Conversion","UX and structure","Visual design","SEO and content","Trust and proof","Mobile experience"]}
 </script>

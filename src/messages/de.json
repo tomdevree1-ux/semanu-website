@@ -8,8 +8,8 @@
     "contact": "Kontakt aufnehmen"
   },
   "meta": {
-    "title": "Webagentur Bern: Websites, Plattformen und AI für KMU · amai.ch",
-    "description": "amai! baut Websites, Kundenportale, CRM und Automatisierungen für Schweizer KMU. Ein Partner, ein klares Monatsabo, persönlich aus Bern."
+    "title": "Webagentur Bern: Websites, Plattformen und AI für KMU · semanu.eu",
+    "description": "semanu baut Websites, Kundenportale, CRM und Automatisierungen für Schweizer KMU. Ein Partner, ein klares Monatsabo, persönlich aus Bern."
   },
   "banner": {
     "studyText": "Neu: 2292 Schweizer KMU Websites bewertet. Nur 9 Prozent sind zeitgemäss.",
@@ -45,7 +45,7 @@
     "howDesc": "Unser Ablauf in fünf Schritten",
     "plansDesc": "Website Abos und Preise",
     "faqDesc": "Antworten auf häufige Fragen",
-    "aboutDesc": "Wer hinter amai! steht",
+    "aboutDesc": "Wer hinter semanu steht",
     "blogDesc": "Einblicke und Tipps rund um Websites",
     "contactDesc": "Sprechen wir über Ihr Projekt",
     "start": "Jetzt starten",
@@ -81,7 +81,7 @@
     "email": "Email",
     "website": "Ihre Website",
     "consent": "Ich akzeptiere die Datenschutzerklärung und bin mit der Bearbeitung meiner Angaben einverstanden.",
-    "marketing": "Ich möchte gelegentlich Tipps und Neuigkeiten von amai! erhalten. (optional)",
+    "marketing": "Ich möchte gelegentlich Tipps und Neuigkeiten von semanu erhalten. (optional)",
     "submit": "Analyse anfordern",
     "sending": "Wird gesendet …",
     "okTitle": "Vielen Dank!",
@@ -130,7 +130,7 @@
     "aboLink": "Wie das Website Abo funktioniert",
     "calcTitle": "Website Kostenrechner: was kostet Ihre Website monatlich?",
     "calcIntro": "Wählen Sie Situation, Umfang und Funktionen und Sie sehen sofort den Monatspreis. Website ab 99 CHF, Webshop ab 125 CHF, alles inklusive, Mindestlaufzeit 36 Monate.",
-    "summary": "Eine professionelle Website kostet bei amai! ab CHF 99 pro Monat (Business) oder CHF 125 (Webshop). Hosting, Wartung und SEO Grundlagen sind inbegriffen und es gibt keine hohen Anfangskosten.",
+    "summary": "Eine professionelle Website kostet bei semanu ab CHF 99 pro Monat (Business) oder CHF 125 (Webshop). Hosting, Wartung und SEO Grundlagen sind inbegriffen und es gibt keine hohen Anfangskosten.",
     "metaDescription": "Was kostet eine Website in der Schweiz? Website Preise ab 99 CHF pro Monat, Webshop ab 125 CHF. Design, Hosting, Wartung und SEO Grundlagen inbegriffen, Mindestlaufzeit 36 Monate.",
     "plansEyebrow": "Website Abos",
     "plansTitle": "Website Abos mit festem Monatspreis",
@@ -164,15 +164,15 @@
       },
       {
         "q": "Wie hoch sind die Webdesign Preise in der Schweiz?",
-        "a": "Klassische Schweizer Agenturen verlangen für eine KMU Website meist einen einmaligen Betrag im vierstelligen Bereich, dazu Hosting und Wartung pro Jahr. Bei amai! zahlen Sie stattdessen ab 99 CHF pro Monat, in dem Design, Umsetzung, Hosting und Wartung enthalten sind."
+        "a": "Klassische Schweizer Agenturen verlangen für eine KMU Website meist einen einmaligen Betrag im vierstelligen Bereich, dazu Hosting und Wartung pro Jahr. Bei semanu zahlen Sie stattdessen ab 99 CHF pro Monat, in dem Design, Umsetzung, Hosting und Wartung enthalten sind."
       },
       {
         "q": "Was kostet eine Website monatlich in der Schweiz?",
-        "a": "Eine Website kostet bei amai! ab 99 CHF pro Monat, ein Webshop ab 125 CHF pro Monat, exkl. MWST. Alles ist inklusive: Design, Umsetzung, Hosting, Wartung und SEO Grundlagen. Es gibt keine Anzahlung und keine separate Hosting Rechnung. Die Mindestlaufzeit beträgt 36 Monate."
+        "a": "Eine Website kostet bei semanu ab 99 CHF pro Monat, ein Webshop ab 125 CHF pro Monat, exkl. MWST. Alles ist inklusive: Design, Umsetzung, Hosting, Wartung und SEO Grundlagen. Es gibt keine Anzahlung und keine separate Hosting Rechnung. Die Mindestlaufzeit beträgt 36 Monate."
       }
     ],
     "seoTitle": "Website Preise Schweiz: was kostet eine Website?",
-    "seoBody": "Eine professionelle Website kostet bei amai! ab 99 CHF pro Monat, ein Webshop ab 125 CHF pro Monat, jeweils exkl. MWST. In diesem Preis stecken Design, technische Umsetzung, Hosting, Wartung und SEO Grundlagen. In der Schweiz liegen die Webdesign Preise für ein vergleichbares Projekt sonst schnell bei mehreren tausend Franken einmalig, plus Hosting und Wartung obendrauf. Wir verteilen denselben Aufwand auf einen Monatsbetrag, damit Sie die Webseiten Preise von Anfang an kennen und keine Nachrechnung bekommen. Den genauen Preis legen wir vorab gemeinsam fest, sobald der Umfang klar ist."
+    "seoBody": "Eine professionelle Website kostet bei semanu ab 99 CHF pro Monat, ein Webshop ab 125 CHF pro Monat, jeweils exkl. MWST. In diesem Preis stecken Design, technische Umsetzung, Hosting, Wartung und SEO Grundlagen. In der Schweiz liegen die Webdesign Preise für ein vergleichbares Projekt sonst schnell bei mehreren tausend Franken einmalig, plus Hosting und Wartung obendrauf. Wir verteilen denselben Aufwand auf einen Monatsbetrag, damit Sie die Webseiten Preise von Anfang an kennen und keine Nachrechnung bekommen. Den genauen Preis legen wir vorab gemeinsam fest, sobald der Umfang klar ist."
   },
   "plan": {
     "b": {
@@ -314,7 +314,7 @@
     "vatNote": "Alle Preise exkl. MWST. Website Abos mit Mindestlaufzeit 36 Monate, danach monatlich kündbar."
   },
   "home": {
-    "title": "Entdecken Sie amai!",
+    "title": "Entdecken Sie semanu",
     "intro": "Abos, Ablauf, Antworten und Kontakt auf einen Blick.",
     "moreTitle": "Mehr als eine Website",
     "moreText": "Ihre Website kann der Ausgangspunkt für Marketing, Automatisierung und smartere Business Systeme werden.",
@@ -324,7 +324,7 @@
     "eyebrow": "So funktioniert’s",
     "h2": "Fünf Schritte, null Aufwand.",
     "text": "Von der ersten Idee bis zur fertigen Website begleiten wir Sie persönlich, Schritt für Schritt. Design, Technik, Hosting, Wartung und SEO gehören zum Abo, damit Ihr Unternehmen in der Schweiz online sichtbar wird und es auch bleibt.",
-    "metaDescription": "So funktioniert das Website Abo von amai!: Kennenlerngespräch, digitale Anmeldung, Umsetzung in wenigen Werktagen und laufende Betreuung. Modernes Webdesign für KMU in der Schweiz.",
+    "metaDescription": "So funktioniert das Website Abo von semanu: Kennenlerngespräch, digitale Anmeldung, Umsetzung in wenigen Werktagen und laufende Betreuung. Modernes Webdesign für KMU in der Schweiz.",
     "steps": [
       {
         "title": "Kennenlerngespräch",
@@ -387,7 +387,7 @@
       },
       {
         "q": "Arbeiten Sie mit Schweizer Unternehmen?",
-        "a": "Ja. amai! konzentriert sich auf KMU, Selbständige und lokale Unternehmen in der Schweiz."
+        "a": "Ja. semanu konzentriert sich auf KMU, Selbständige und lokale Unternehmen in der Schweiz."
       },
       {
         "q": "Bieten Sie auch Logo und Markenrichtlinien an?",
@@ -395,7 +395,7 @@
       },
       {
         "q": "Bauen Sie nur Websites?",
-        "a": "Nein. Websites sind für viele Kunden der Einstieg. amai! hilft auch bei Email Marketing, Marketing Automatisierung, Buchungssystemen, Business Systemen und AI Assistenten."
+        "a": "Nein. Websites sind für viele Kunden der Einstieg. semanu hilft auch bei Email Marketing, Marketing Automatisierung, Buchungssystemen, Business Systemen und AI Assistenten."
       },
       {
         "q": "Arbeiten Sie mit AI?",
@@ -491,7 +491,7 @@
     "ctaTitle": "Sprechen wir über Ihre digitale Präsenz.",
     "ctaButton": "Strategiegespräch buchen",
     "authorName": "Tom de Vree",
-    "authorRole": "Gründer von amai!",
+    "authorRole": "Gründer von semanu",
     "authorBio": "Tom de Vree entwickelt und betreut Websites, digitale Plattformen und Automatisierungen für Schweizer KMU.",
     "updatedLabel": "Aktualisiert am"
   },
@@ -510,7 +510,7 @@
     "requestProcessing": "Wird gesendet …",
     "requestSuccessTitle": "Vielen Dank für Ihre Anfrage.",
     "requestSuccessBody": "Wir haben Ihre Angaben erhalten und melden uns so schnell wie möglich bei Ihnen.",
-    "requestError": "Ihre Anfrage konnte leider nicht gesendet werden. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt unter hello@amai.ch.",
+    "requestError": "Ihre Anfrage konnte leider nicht gesendet werden. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt unter hello@semanu.eu.",
     "consent": "Ich stimme der <privacy>Datenschutzerklärung</privacy> zu und akzeptiere die <gtc>AGB</gtc>.",
     "premiumTitle": "Etwas Individuelles?",
     "premiumNote": "Für Software & Applications besprechen wir Ihr Projekt persönlich und erstellen ein passendes Angebot.",
@@ -556,7 +556,7 @@
   "testimonial": {
     "eyebrow": "Kundenstimme",
     "title": "Was Kunden sagen",
-    "quote": "amai! hat uns klar und persönlich durch den ganzen Prozess geführt. Wir fühlten uns eingebunden, ohne alles selbst managen zu müssen. Unsere Website wirkt jetzt professionell und vertrauenswürdig. Wir empfehlen amai! jedem Unternehmen, das eine moderne Website ohne Stress möchte.",
+    "quote": "semanu hat uns klar und persönlich durch den ganzen Prozess geführt. Wir fühlten uns eingebunden, ohne alles selbst managen zu müssen. Unsere Website wirkt jetzt professionell und vertrauenswürdig. Wir empfehlen semanu jedem Unternehmen, das eine moderne Website ohne Stress möchte.",
     "author": "Poortland",
     "role": "Tore und Überdachungen"
   },
@@ -580,15 +580,15 @@
   "about": {
     "eyebrow": "Über uns",
     "title": "Persönlich, nicht anonym.",
-    "intro": "amai! macht digitale Lösungen für Schweizer KMU planbar und einfach. Von Websites über Kundenportale und CRM bis zu Automatisierungen und AI bekommen Sie einen klaren Partner in einem Monatsabo, der mit Ihrem Unternehmen mitwächst.",
-    "nameTitle": "Woher amai! kommt",
-    "nameText": "amai! stammt aus dem Antwerpener Dialekt und damit aus dem Flämischen. Es ist ein Ausruf der Bewunderung, ein spontanes Wow, wenn etwas wirklich überzeugt. Genau dieses Gefühl soll Ihre Website bei Ihren Besuchern auslösen. Wir gestalten moderne, schnelle und mobile Auftritte mit Inhalten, die verkaufen, im Kopf bleiben und aus Besuchern Kunden machen. Alles in einem klaren Abo ohne grosse Anfangsinvestition.",
+    "intro": "semanu macht digitale Lösungen für Schweizer KMU planbar und einfach. Von Websites über Kundenportale und CRM bis zu Automatisierungen und AI bekommen Sie einen klaren Partner in einem Monatsabo, der mit Ihrem Unternehmen mitwächst.",
+    "nameTitle": "Woher semanu kommt",
+    "nameText": "semanu stammt aus dem Antwerpener Dialekt und damit aus dem Flämischen. Es ist ein Ausruf der Bewunderung, ein spontanes Wow, wenn etwas wirklich überzeugt. Genau dieses Gefühl soll Ihre Website bei Ihren Besuchern auslösen. Wir gestalten moderne, schnelle und mobile Auftritte mit Inhalten, die verkaufen, im Kopf bleiben und aus Besuchern Kunden machen. Alles in einem klaren Abo ohne grosse Anfangsinvestition.",
     "missionTitle": "Unsere Idee",
     "missionText": "Viele kleine Unternehmen brauchen eine gute Website ohne technischen Ballast. Wir kümmern uns um Design, Technik, Hosting, Wartung, Sicherheit und SEO Grundlagen, damit Sie sich auf Ihr Geschäft konzentrieren können. Weil wir mit AI arbeiten, bauen wir schneller und kosteneffizienter als klassische Agenturen und bieten AI Lösungen wie Assistenten und Automatisierungen als Teil unseres Angebots.",
-    "founderTitle": "Hinter amai!",
+    "founderTitle": "Hinter semanu",
     "founderName": "Tom de Vree",
     "founderRole": "Gründer & Inhaber",
-    "founderText": "amai! wird von Tom de Vree geführt und hat den Sitz in Bern. Wir arbeiten persönlich mit Selbständigen, lokalen Dienstleistern und KMU in der ganzen Schweiz. Sie sprechen direkt mit der Person, die Ihre Website betreut.",
+    "founderText": "semanu wird von Tom de Vree geführt und hat den Sitz in Bern. Wir arbeiten persönlich mit Selbständigen, lokalen Dienstleistern und KMU in der ganzen Schweiz. Sie sprechen direkt mit der Person, die Ihre Website betreut.",
     "ctaTitle": "Lust auf eine Website, die mitwächst?",
     "ctaButton": "Kontakt aufnehmen"
   },
@@ -683,10 +683,10 @@
     "eyebrowOutcomes": "Ergebnisse",
     "eyebrowFaq": "FAQ",
     "relatedTitle": "Verwandte Leistungen",
-    "entityLine": "amai! ist ein digitaler Partner aus Bern für Schweizer KMU: Websites, digitale Plattformen, Consultancy, Automatisierungen und AI Lösungen in einem klaren Monatsabo."
+    "entityLine": "semanu ist ein digitaler Partner aus Bern für Schweizer KMU: Websites, digitale Plattformen, Consultancy, Automatisierungen und AI Lösungen in einem klaren Monatsabo."
   },
-  "whyAmai": {
-    "title": "Warum amai!",
+  "whySemanu": {
+    "title": "Warum semanu",
     "lead": "Ein Partner für Ihren ganzen Online Auftritt zu einem einfachen Monatspreis. Keine Agenturen zu koordinieren, keine überraschenden Rechnungen, kein technischer Aufwand. Und weil wir mit AI arbeiten, bauen wir schneller und kosteneffizienter als klassische Agenturen.",
     "points": [
       {

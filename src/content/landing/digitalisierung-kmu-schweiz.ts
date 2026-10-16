@@ -8,7 +8,7 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
     eyebrow: 'Digitalisierung Schweiz · für KMU',
     h1: 'Digitalisierung für KMU in der Schweiz',
     intro:
-      'Website, Kundenportal, Automatisierung oder AI: amai! begleitet Schweizer KMU bei der Digitalisierung. Sie erhalten einen persönlichen Partner, der Ihre digitale Aufstellung Schritt für Schritt aufbaut und betreut. Ohne grosse Einmalinvestition und ohne Technikfrust.',
+      'Website, Kundenportal, Automatisierung oder AI: semanu begleitet Schweizer KMU bei der Digitalisierung. Sie erhalten einen persönlichen Partner, der Ihre digitale Aufstellung Schritt für Schritt aufbaut und betreut. Ohne grosse Einmalinvestition und ohne Technikfrust.',
     heroBullets: [
       'Alles aus einer Hand statt vieler Dienstleister',
       'Website, Plattformen, Automatisierung und AI',
@@ -63,9 +63,9 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'Ein Partner für Ihre gesamte Digitalisierung',
-      body: 'amai! ist Ihr digitaler Partner für den ganzen Weg. Wir starten dort, wo der Nutzen am grössten ist: meist bei der Website oder einem zentralen Ablauf. Danach bauen wir Ihre digitale Aufstellung Schritt für Schritt aus. Website, Kundenportal, Dashboard, CRM, Automatisierung und AI kommen aus einer Hand und greifen ineinander, statt zu einem Flickwerk aus einzelnen Tools zu werden. So entsteht ein System, das mitwächst, im transparenten Monatsmodell und persönlich betreut aus Bern.',
+      body: 'semanu ist Ihr digitaler Partner für den ganzen Weg. Wir starten dort, wo der Nutzen am grössten ist: meist bei der Website oder einem zentralen Ablauf. Danach bauen wir Ihre digitale Aufstellung Schritt für Schritt aus. Website, Kundenportal, Dashboard, CRM, Automatisierung und AI kommen aus einer Hand und greifen ineinander, statt zu einem Flickwerk aus einzelnen Tools zu werden. So entsteht ein System, das mitwächst, im transparenten Monatsmodell und persönlich betreut aus Bern.',
     },
-    featuresHeading: 'Was Digitalisierung mit amai! umfasst',
+    featuresHeading: 'Was Digitalisierung mit semanu umfasst',
     featuresHint: 'Fahren Sie über eine Kachel für mehr Infos',
     featuresLayout: 'cards',
     features: [
@@ -119,7 +119,7 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
       },
     ],
     process: {
-      heading: 'So läuft Ihre Digitalisierung mit amai!',
+      heading: 'So läuft Ihre Digitalisierung mit semanu',
       steps: [
         {
           title: 'Standortbestimmung',
@@ -146,7 +146,7 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
     pricing: {
       heading: 'Was kostet die Digitalisierung?',
       intro:
-        'Bei amai! gibt es keine grosse Einmalrechnung. Sie zahlen ein transparentes monatliches Abo, das Aufbau, Hosting, Pflege und Betreuung enthält. Grössere Plattformen und Automatisierungen werden individuell offeriert.',
+        'Bei semanu gibt es keine grosse Einmalrechnung. Sie zahlen ein transparentes monatliches Abo, das Aufbau, Hosting, Pflege und Betreuung enthält. Grössere Plattformen und Automatisierungen werden individuell offeriert.',
       cards: [
         {
           name: 'Website Abo',
@@ -186,9 +186,9 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
       cta: { label: 'Leistungen und Preise ansehen', href: '/website-abos' },
     },
     reasons: {
-      heading: 'Warum amai! als Digitalisierungspartner?',
+      heading: 'Warum semanu als Digitalisierungspartner?',
       entitySentence:
-        'amai! ist ein digitaler Partner aus Bern und unterstützt Schweizer KMU bei der Digitalisierung mit Websites, digitalen Plattformen, Automatisierung und AI, alles aus einer Hand im transparenten Monatsmodell.',
+        'semanu ist ein digitaler Partner aus Bern und unterstützt Schweizer KMU bei der Digitalisierung mit Websites, digitalen Plattformen, Automatisierung und AI, alles aus einer Hand im transparenten Monatsmodell.',
       items: [
         {
           title: 'Alles aus einer Hand',
@@ -217,9 +217,9 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
       ],
     },
     audience: {
-      heading: 'Für wen ist amai! als Digitalisierungspartner geeignet?',
+      heading: 'Für wen ist semanu als Digitalisierungspartner geeignet?',
       intro:
-        'amai! passt besonders, wenn Sie Ihr Unternehmen digitaler aufstellen möchten und dafür einen festen Partner suchen statt vieler einzelner Dienstleister.',
+        'semanu passt besonders, wenn Sie Ihr Unternehmen digitaler aufstellen möchten und dafür einen festen Partner suchen statt vieler einzelner Dienstleister.',
       items: [
         'Schweizer KMU, die ihre Abläufe modernisieren möchten',
         'Unternehmen mit veralteter Website und manuellen Prozessen',
@@ -234,7 +234,7 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
     },
     sections: [],
     links: [
-      { href: '/services', label: 'Leistungen', desc: 'Alle digitalen Leistungen von amai! im Überblick.' },
+      { href: '/services', label: 'Leistungen', desc: 'Alle digitalen Leistungen von semanu im Überblick.' },
       { href: '/services/ai-native', label: 'Digitale Plattformen', desc: 'Portale, Dashboards und CRM für Ihre Abläufe.' },
       { href: '/services/ai-native', label: 'Workflow Automatisierung', desc: 'Wiederkehrende Abläufe laufen automatisch.' },
       { href: '/services/ai-assistants', label: 'AI Assistenten', desc: 'AI, die in Ihre Abläufe eingebettet ist.' },
@@ -248,7 +248,7 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
       items: [
         {
           q: 'Was bedeutet Digitalisierung für ein KMU konkret?',
-          a: 'Digitalisierung heisst, Ihre Abläufe und Ihren Auftritt mit digitalen Werkzeugen einfacher und wirksamer zu machen. Das reicht von einer modernen Website über ein Kundenportal bis zu automatisierten Abläufen und AI. Bei amai! kommt alles aus einer Hand.',
+          a: 'Digitalisierung heisst, Ihre Abläufe und Ihren Auftritt mit digitalen Werkzeugen einfacher und wirksamer zu machen. Das reicht von einer modernen Website über ein Kundenportal bis zu automatisierten Abläufen und AI. Bei semanu kommt alles aus einer Hand.',
         },
         {
           q: 'Womit sollten wir anfangen?',
@@ -259,7 +259,7 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
           a: 'Nein. Wir digitalisieren Schritt für Schritt in sinnvollen Etappen. So bleiben Aufwand, Risiko und Budget jederzeit unter Kontrolle.',
         },
         {
-          q: 'Was kostet die Digitalisierung mit amai!?',
+          q: 'Was kostet die Digitalisierung mit semanu?',
           a: 'Website Abos starten bei 99 CHF pro Monat inklusive Hosting und Wartung. Grössere Plattformen, CRM Systeme und Automatisierungen werden nach Aufwand offeriert. Sie zahlen ein transparentes monatliches Abo statt einer hohen Einmalrechnung.',
         },
         {
@@ -280,15 +280,15 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
         },
         {
           q: 'Was ist eine Digitalisierungsberatung?',
-          a: 'Eine Digitalisierungsberatung hilft Ihnen zu bestimmen, welche digitalen Schritte für Ihr KMU zuerst zählen. amai! prüft Ihre Ausgangslage, empfiehlt passende Lösungen und liefert einen klaren Fahrplan, unabhängig und ohne unnötige Komplexität.',
+          a: 'Eine Digitalisierungsberatung hilft Ihnen zu bestimmen, welche digitalen Schritte für Ihr KMU zuerst zählen. semanu prüft Ihre Ausgangslage, empfiehlt passende Lösungen und liefert einen klaren Fahrplan, unabhängig und ohne unnötige Komplexität.',
         },
         {
-          q: 'Bietet amai! auch digitale Strategieberatung?',
+          q: 'Bietet semanu auch digitale Strategieberatung?',
           a: 'Ja. Neben der Umsetzung beraten wir Sie strategisch: welche digitalen Prioritäten sich lohnen, welche Tools und Systeme zu Ihrem Unternehmen passen und wie Sie Schritt für Schritt digitalisieren. Diese Beratung ist auch einzeln möglich, als Consultancy.',
         },
         {
           q: 'Gibt es Fördermittel für die Digitalisierung von KMU in der Schweiz?',
-          a: 'Ja, es gibt kantonale und eidgenössische Förderprogramme für die Digitalisierung von Schweizer KMU, die Konditionen unterscheiden sich je nach Kanton und Branche. amai! berät Sie zur konkreten Umsetzung Ihres Digitalisierungsprojekts, eine Förderberatung selbst ist keine amai! Kernleistung. Wir empfehlen, sich zusätzlich bei Ihrer kantonalen Wirtschaftsförderung oder Innosuisse zu informieren.',
+          a: 'Ja, es gibt kantonale und eidgenössische Förderprogramme für die Digitalisierung von Schweizer KMU, die Konditionen unterscheiden sich je nach Kanton und Branche. semanu berät Sie zur konkreten Umsetzung Ihres Digitalisierungsprojekts, eine Förderberatung selbst ist keine semanu Kernleistung. Wir empfehlen, sich zusätzlich bei Ihrer kantonalen Wirtschaftsförderung oder Innosuisse zu informieren.',
         },
       ],
     },
@@ -305,7 +305,7 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
     eyebrow: 'Digitalisation Suisse · pour PME',
     h1: 'Digitalisation pour PME en Suisse',
     intro:
-      'Site web, portail client, automatisation ou AI: amai! accompagne les PME suisses dans leur digitalisation. Vous avez un partenaire personnel qui construit et entretient votre présence digitale étape par étape. Sans grosse facture unique et sans tracas technique.',
+      'Site web, portail client, automatisation ou AI: semanu accompagne les PME suisses dans leur digitalisation. Vous avez un partenaire personnel qui construit et entretient votre présence digitale étape par étape. Sans grosse facture unique et sans tracas technique.',
     heroBullets: [
       'Tout chez un seul partenaire au lieu de plusieurs prestataires',
       'Site web, plateformes, automatisation et AI',
@@ -360,9 +360,9 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'Un partenaire pour toute votre digitalisation',
-      body: 'amai! est votre partenaire digital pour tout le parcours. Nous commençons là où l’utilité est la plus grande: souvent le site web ou un processus central. Ensuite nous développons votre présence digitale étape par étape. Site web, portail client, tableau de bord, CRM, automatisation et AI viennent d’une seule source et s’imbriquent, au lieu de former un patchwork d’outils isolés. Ainsi se crée un système qui grandit avec vous, dans un modèle mensuel transparent et avec un suivi personnel depuis Berne.',
+      body: 'semanu est votre partenaire digital pour tout le parcours. Nous commençons là où l’utilité est la plus grande: souvent le site web ou un processus central. Ensuite nous développons votre présence digitale étape par étape. Site web, portail client, tableau de bord, CRM, automatisation et AI viennent d’une seule source et s’imbriquent, au lieu de former un patchwork d’outils isolés. Ainsi se crée un système qui grandit avec vous, dans un modèle mensuel transparent et avec un suivi personnel depuis Berne.',
     },
-    featuresHeading: 'Ce que comprend la digitalisation avec amai!',
+    featuresHeading: 'Ce que comprend la digitalisation avec semanu',
     featuresHint: 'Passez sur une tuile pour plus d’infos',
     featuresLayout: 'cards',
     features: [
@@ -416,7 +416,7 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
       },
     ],
     process: {
-      heading: 'Comment se déroule votre digitalisation avec amai!',
+      heading: 'Comment se déroule votre digitalisation avec semanu',
       steps: [
         {
           title: 'État des lieux',
@@ -443,7 +443,7 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
     pricing: {
       heading: 'Combien coûte la digitalisation?',
       intro:
-        'Chez amai! il n’y a pas de grosse facture unique. Vous payez un abonnement mensuel transparent qui comprend la mise en place, l’hébergement, l’entretien et le suivi. Les plateformes et automatisations plus importantes sont offertes individuellement.',
+        'Chez semanu il n’y a pas de grosse facture unique. Vous payez un abonnement mensuel transparent qui comprend la mise en place, l’hébergement, l’entretien et le suivi. Les plateformes et automatisations plus importantes sont offertes individuellement.',
       cards: [
         {
           name: 'Abonnement de site',
@@ -483,9 +483,9 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
       cta: { label: 'Voir prestations et prix', href: '/website-abos' },
     },
     reasons: {
-      heading: 'Pourquoi amai! comme partenaire de digitalisation?',
+      heading: 'Pourquoi semanu comme partenaire de digitalisation?',
       entitySentence:
-        'amai! est un partenaire digital depuis Berne et soutient les PME suisses dans leur digitalisation avec des sites web, des plateformes digitales, de l’automatisation et de l’AI, le tout d’une seule source dans un modèle mensuel transparent.',
+        'semanu est un partenaire digital depuis Berne et soutient les PME suisses dans leur digitalisation avec des sites web, des plateformes digitales, de l’automatisation et de l’AI, le tout d’une seule source dans un modèle mensuel transparent.',
       items: [
         {
           title: 'Tout en un',
@@ -514,9 +514,9 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
       ],
     },
     audience: {
-      heading: 'À qui s’adresse amai! comme partenaire de digitalisation?',
+      heading: 'À qui s’adresse semanu comme partenaire de digitalisation?',
       intro:
-        'amai! convient particulièrement si vous voulez rendre votre entreprise plus digitale et cherchez pour cela un partenaire fixe au lieu de plusieurs prestataires isolés.',
+        'semanu convient particulièrement si vous voulez rendre votre entreprise plus digitale et cherchez pour cela un partenaire fixe au lieu de plusieurs prestataires isolés.',
       items: [
         'PME suisses qui veulent moderniser leurs processus',
         'Entreprises avec un site vieilli et des processus manuels',
@@ -531,7 +531,7 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
     },
     sections: [],
     links: [
-      { href: '/services', label: 'Prestations', desc: 'Toutes les prestations digitales d’amai! en aperçu.' },
+      { href: '/services', label: 'Prestations', desc: 'Toutes les prestations digitales d’semanu en aperçu.' },
       { href: '/services/ai-native', label: 'Plateformes digitales', desc: 'Portails, tableaux de bord et CRM pour vos processus.' },
       { href: '/services/ai-native', label: 'Automatisation des workflows', desc: 'Les tâches récurrentes tournent automatiquement.' },
       { href: '/services/ai-assistants', label: 'Assistants AI', desc: 'De l’AI intégrée à vos processus.' },
@@ -545,7 +545,7 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
       items: [
         {
           q: 'Que signifie concrètement la digitalisation pour une PME?',
-          a: 'La digitalisation, c’est rendre vos processus et votre présence plus simples et plus efficaces avec des outils digitaux. Cela va d’un site moderne à un portail client jusqu’à des processus automatisés et de l’AI. Chez amai! tout vient d’une seule source.',
+          a: 'La digitalisation, c’est rendre vos processus et votre présence plus simples et plus efficaces avec des outils digitaux. Cela va d’un site moderne à un portail client jusqu’à des processus automatisés et de l’AI. Chez semanu tout vient d’une seule source.',
         },
         {
           q: 'Par où commencer?',
@@ -556,7 +556,7 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
           a: 'Non. Nous digitalisons pas à pas par étapes utiles. Ainsi l’effort, le risque et le budget restent à tout moment sous contrôle.',
         },
         {
-          q: 'Combien coûte la digitalisation avec amai!?',
+          q: 'Combien coûte la digitalisation avec semanu?',
           a: 'Les abonnements de site démarrent à 99 CHF par mois, hébergement et maintenance compris. Les plateformes, systèmes CRM et automatisations plus importants sont offerts selon l’effort. Vous payez un abonnement mensuel transparent au lieu d’une grosse facture unique.',
         },
         {
@@ -577,15 +577,15 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
         },
         {
           q: 'Qu’est ce qu’un conseil en digitalisation?',
-          a: 'Un conseil en digitalisation vous aide à déterminer quelles étapes digitales comptent en premier pour votre PME. amai! évalue votre situation, recommande les bonnes solutions et livre une feuille de route claire, de façon indépendante et sans complexité inutile.',
+          a: 'Un conseil en digitalisation vous aide à déterminer quelles étapes digitales comptent en premier pour votre PME. semanu évalue votre situation, recommande les bonnes solutions et livre une feuille de route claire, de façon indépendante et sans complexité inutile.',
         },
         {
-          q: 'amai! propose aussi du conseil en stratégie digitale?',
+          q: 'semanu propose aussi du conseil en stratégie digitale?',
           a: 'Oui. Au delà de la réalisation, nous vous conseillons sur le plan stratégique: quelles priorités digitales valent la peine, quels outils et systèmes conviennent à votre entreprise et comment digitaliser étape par étape. Ce conseil est aussi possible séparément, en Consultancy.',
         },
         {
           q: 'Existe t il des aides ou subventions pour la digitalisation des PME en Suisse?',
-          a: 'Oui, il existe des programmes cantonaux et fédéraux de soutien à la digitalisation des PME suisses, les conditions varient selon le canton et le secteur. amai! vous conseille sur la mise en œuvre concrète de votre projet de digitalisation, le conseil sur les aides lui même n’est pas une prestation cœur d’amai!. Nous recommandons de vous renseigner en complément auprès de votre promotion économique cantonale ou d’Innosuisse.',
+          a: 'Oui, il existe des programmes cantonaux et fédéraux de soutien à la digitalisation des PME suisses, les conditions varient selon le canton et le secteur. semanu vous conseille sur la mise en œuvre concrète de votre projet de digitalisation, le conseil sur les aides lui même n’est pas une prestation cœur d’semanu. Nous recommandons de vous renseigner en complément auprès de votre promotion économique cantonale ou d’Innosuisse.',
         },
       ],
     },
@@ -602,7 +602,7 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
     eyebrow: 'Digitalisation Switzerland · for SMEs',
     h1: 'Digitalisation for SMEs in Switzerland',
     intro:
-      'Website, customer portal, automation or AI: amai! guides Swiss SMEs through digitalisation. You get a personal partner who builds and maintains your digital setup step by step. Without a large one off investment and without technical hassle.',
+      'Website, customer portal, automation or AI: semanu guides Swiss SMEs through digitalisation. You get a personal partner who builds and maintains your digital setup step by step. Without a large one off investment and without technical hassle.',
     heroBullets: [
       'Everything from one partner instead of many providers',
       'Website, platforms, automation and AI',
@@ -657,9 +657,9 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'One partner for your entire digitalisation',
-      body: 'amai! is your digital partner for the whole journey. We start where the value is greatest: usually the website or a central process. Then we build out your digital setup step by step. Website, customer portal, dashboard, CRM, automation and AI come from a single source and fit together, instead of a patchwork of isolated tools. The result is a system that grows with you, in a transparent monthly model and with personal support from Bern.',
+      body: 'semanu is your digital partner for the whole journey. We start where the value is greatest: usually the website or a central process. Then we build out your digital setup step by step. Website, customer portal, dashboard, CRM, automation and AI come from a single source and fit together, instead of a patchwork of isolated tools. The result is a system that grows with you, in a transparent monthly model and with personal support from Bern.',
     },
-    featuresHeading: 'What digitalisation with amai! includes',
+    featuresHeading: 'What digitalisation with semanu includes',
     featuresHint: 'Hover over a tile for more info',
     featuresLayout: 'cards',
     features: [
@@ -713,7 +713,7 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
       },
     ],
     process: {
-      heading: 'How your digitalisation with amai! works',
+      heading: 'How your digitalisation with semanu works',
       steps: [
         {
           title: 'Assessment',
@@ -740,7 +740,7 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
     pricing: {
       heading: 'What does digitalisation cost?',
       intro:
-        'At amai! there is no large one off invoice. You pay a transparent monthly subscription that covers build, hosting, maintenance and support. Larger platforms and automations are quoted individually.',
+        'At semanu there is no large one off invoice. You pay a transparent monthly subscription that covers build, hosting, maintenance and support. Larger platforms and automations are quoted individually.',
       cards: [
         {
           name: 'Website subscription',
@@ -780,9 +780,9 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
       cta: { label: 'See services and pricing', href: '/website-abos' },
     },
     reasons: {
-      heading: 'Why amai! as your digitalisation partner?',
+      heading: 'Why semanu as your digitalisation partner?',
       entitySentence:
-        'amai! is a digital partner from Bern and supports Swiss SMEs with their digitalisation through websites, digital platforms, automation and AI, all from a single source in a transparent monthly model.',
+        'semanu is a digital partner from Bern and supports Swiss SMEs with their digitalisation through websites, digital platforms, automation and AI, all from a single source in a transparent monthly model.',
       items: [
         {
           title: 'Everything in one place',
@@ -811,9 +811,9 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
       ],
     },
     audience: {
-      heading: 'Who is amai! as a digitalisation partner for?',
+      heading: 'Who is semanu as a digitalisation partner for?',
       intro:
-        'amai! is a particularly good fit when you want to make your business more digital and are looking for one fixed partner instead of many separate providers.',
+        'semanu is a particularly good fit when you want to make your business more digital and are looking for one fixed partner instead of many separate providers.',
       items: [
         'Swiss SMEs that want to modernise their processes',
         'Businesses with a dated website and manual processes',
@@ -828,7 +828,7 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
     },
     sections: [],
     links: [
-      { href: '/services', label: 'Services', desc: 'All digital services from amai! at a glance.' },
+      { href: '/services', label: 'Services', desc: 'All digital services from semanu at a glance.' },
       { href: '/services/ai-native', label: 'Digital platforms', desc: 'Portals, dashboards and CRM for your processes.' },
       { href: '/services/ai-native', label: 'Workflow automation', desc: 'Recurring tasks run automatically.' },
       { href: '/services/ai-assistants', label: 'AI assistants', desc: 'AI embedded in your processes.' },
@@ -842,7 +842,7 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
       items: [
         {
           q: 'What does digitalisation mean for an SME in practice?',
-          a: 'Digitalisation means making your processes and your presence simpler and more effective with digital tools. It ranges from a modern website through a customer portal to automated processes and AI. At amai! everything comes from a single source.',
+          a: 'Digitalisation means making your processes and your presence simpler and more effective with digital tools. It ranges from a modern website through a customer portal to automated processes and AI. At semanu everything comes from a single source.',
         },
         {
           q: 'Where should we start?',
@@ -853,7 +853,7 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
           a: 'No. We digitalise step by step in sensible stages. That keeps effort, risk and budget under control at all times.',
         },
         {
-          q: 'What does digitalisation with amai! cost?',
+          q: 'What does digitalisation with semanu cost?',
           a: 'Website subscriptions start at 99 CHF per month including hosting and maintenance. Larger platforms, CRM systems and automations are quoted by effort. You pay a transparent monthly subscription instead of a high one off invoice.',
         },
         {
@@ -874,15 +874,15 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
         },
         {
           q: 'What is digitalisation consulting?',
-          a: 'Digitalisation consulting helps you decide which digital steps matter first for your SME. amai! reviews your situation, recommends the right solutions and delivers a clear roadmap, independently and without unnecessary complexity.',
+          a: 'Digitalisation consulting helps you decide which digital steps matter first for your SME. semanu reviews your situation, recommends the right solutions and delivers a clear roadmap, independently and without unnecessary complexity.',
         },
         {
-          q: 'Does amai! also offer digital strategy consulting?',
+          q: 'Does semanu also offer digital strategy consulting?',
           a: 'Yes. Beyond the build we advise you strategically: which digital priorities are worth it, which tools and systems fit your business and how to digitalise step by step. This advice is also available on its own, as Consultancy.',
         },
         {
           q: 'Are there subsidies for digitalising SMEs in Switzerland?',
-          a: 'Yes, cantonal and federal support programmes exist for digitalising Swiss SMEs, conditions vary by canton and sector. amai! advises on the actual implementation of your digitalisation project, subsidy advice itself is not a core amai! service. We recommend also checking with your cantonal economic development office or Innosuisse.',
+          a: 'Yes, cantonal and federal support programmes exist for digitalising Swiss SMEs, conditions vary by canton and sector. semanu advises on the actual implementation of your digitalisation project, subsidy advice itself is not a core semanu service. We recommend also checking with your cantonal economic development office or Innosuisse.',
         },
       ],
     },

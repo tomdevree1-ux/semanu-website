@@ -1,5 +1,5 @@
 /**
- * Simple line icons for the seven amai services. The `id` matches the `icon`
+ * Simple line icons for the seven semanu services. The `id` matches the `icon`
  * key in `src/content/services.ts` (websites, email, automation, booking,
  * systems, ai, audit). Stroke uses currentColor so the colour is set by the
  * parent. Decorative only (aria-hidden).

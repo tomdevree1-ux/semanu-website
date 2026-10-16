@@ -3,8 +3,8 @@
 // Maatwerksoftware and 3D-configuratoren. Authored NL-first, then translated to
 // EN/DE/FR/ES (2026-10). English is the source for the translations; NL stays
 // as the original. House style (every language): no dashes, no comma before a
-// coordinating conjunction, Swiss ss (never ß) in German. The literal "amai!" is
-// the brand marker rendered as the styled "amai" wordmark by BrandText.
+// coordinating conjunction, Swiss ss (never ß) in German. The literal "semanu" is
+// the brand marker rendered as the styled "semanu" wordmark by BrandText.
 
 export type ServicesLocale = 'de' | 'fr' | 'en' | 'es' | 'nl';
 
@@ -489,32 +489,32 @@ function build(svc: Service[], f: ContentFields): ServicesContent {
 }
 
 const enFields: ContentFields = {
-  metaTitle: 'Services for Swiss SMEs · amai.ch',
+  metaTitle: 'Services for Swiss SMEs · semanu.eu',
   metaDescription:
-    'Consultancy, workflow automation, custom software and 3D configurators for Swiss SMEs. amai! digitalises your processes with AI as the engine.',
+    'Consultancy, workflow automation, custom software and 3D configurators for Swiss SMEs. semanu digitalises your processes with AI as the engine.',
   ogTitle: 'Digital services for Swiss SMEs',
   ogDescription:
-    'From strategic advice to automation, custom software and 3D configurators. amai! is the digital partner for Swiss SMEs.',
+    'From strategic advice to automation, custom software and 3D configurators. semanu is the digital partner for Swiss SMEs.',
   eyebrow: 'What we do',
   h1: 'Four services that move your business forward digitally.',
   heroSub:
-    'amai! is the digital partner for Swiss SMEs. From strategic advice to automation, custom software and 3D configurators, with AI as the engine.',
+    'semanu is the digital partner for Swiss SMEs. From strategic advice to automation, custom software and 3D configurators, with AI as the engine.',
   ctaExplore: 'Explore services',
   ctaContact: 'Discuss your project',
-  introTitle: 'What does amai! do?',
+  introTitle: 'What does semanu do?',
   introText:
-    'amai! helps Swiss SMEs make their processes, software and digital operations smarter. We combine strategic advice, technology, automation and AI, where it is demonstrably useful.',
+    'semanu helps Swiss SMEs make their processes, software and digital operations smarter. We combine strategic advice, technology, automation and AI, where it is demonstrably useful.',
   introLead:
-    'amai! brings advice, automation and custom work together in one partner. You start with one clear need and build from there.',
+    'semanu brings advice, automation and custom work together in one partner. You start with one clear need and build from there.',
   quickLinksLabel: 'Jump to a service',
   forWhoLabel: 'For whom',
-  buildsLabel: 'What amai! can build or set up',
+  buildsLabel: 'What semanu can build or set up',
   benefitsLabel: 'Benefits',
   examplesLabel: 'Examples',
   seoGeo: {
     title: 'Built for search, AI discoverability and real customers',
     intro:
-      'A modern website has to be clear for people, search engines and AI systems. amai! structures your content so customers understand what you offer and search engines can read it correctly.',
+      'A modern website has to be clear for people, search engines and AI systems. semanu structures your content so customers understand what you offer and search engines can read it correctly.',
     explainerTitle: 'What is GEO?',
     explainerText:
       'GEO stands for Generative Engine Optimisation. It helps AI search systems understand your business, your services and your expertise so they can describe and recommend you more accurately.',
@@ -524,7 +524,7 @@ const enFields: ContentFields = {
   },
   howTitle: 'How these services work together',
   howIntro:
-    'You do not need everything at once. Most companies start with one clear need. amai! helps you step by step.',
+    'You do not need everything at once. Most companies start with one clear need. semanu helps you step by step.',
   howSteps: [
     { title: 'Decide what matters', text: 'Consultancy maps your processes and determines where digitalisation and AI add value.' },
     { title: 'Connect and automate', text: 'Workflow automation removes repetitive work and connects your existing systems.' },
@@ -533,7 +533,7 @@ const enFields: ContentFields = {
   ],
   faqTitle: 'Questions about our services',
   faq: [
-    { q: 'Which services does amai! offer?', a: 'Consultancy, workflow automation, custom software and 3D configurators. Together they help you decide, connect, build and sell.' },
+    { q: 'Which services does semanu offer?', a: 'Consultancy, workflow automation, custom software and 3D configurators. Together they help you decide, connect, build and sell.' },
     { q: 'Do I have to take everything at once?', a: 'No. Most companies start with one clear need, often an advisory track. From there they build further.' },
     { q: 'Do you always use AI?', a: 'No. AI is a means, not a goal. We use it where it is demonstrably useful and choose classic technology where that fits better.' },
     { q: 'What is GEO?', a: 'GEO stands for Generative Engine Optimisation. It helps AI search systems understand your business, your services and your expertise so they can describe and recommend you more accurately.' },
@@ -546,32 +546,32 @@ const enFields: ContentFields = {
 };
 
 const deFields: ContentFields = {
-  metaTitle: 'Dienstleistungen für Schweizer KMU · amai.ch',
+  metaTitle: 'Dienstleistungen für Schweizer KMU · semanu.eu',
   metaDescription:
-    'Consultancy, Workflowautomatisierung, massgeschneiderte Software und 3D-Konfiguratoren für Schweizer KMU. amai! digitalisiert Ihre Prozesse mit AI als Motor.',
+    'Consultancy, Workflowautomatisierung, massgeschneiderte Software und 3D-Konfiguratoren für Schweizer KMU. semanu digitalisiert Ihre Prozesse mit AI als Motor.',
   ogTitle: 'Digitale Dienstleistungen für Schweizer KMU',
   ogDescription:
-    'Von strategischer Beratung bis Automatisierung, massgeschneiderte Software und 3D-Konfiguratoren. amai! ist der digitale Partner für Schweizer KMU.',
+    'Von strategischer Beratung bis Automatisierung, massgeschneiderte Software und 3D-Konfiguratoren. semanu ist der digitale Partner für Schweizer KMU.',
   eyebrow: 'Was wir tun',
   h1: 'Vier Dienstleistungen, die Ihr Unternehmen digital voranbringen.',
   heroSub:
-    'amai! ist der digitale Partner für Schweizer KMU. Von strategischer Beratung bis Automatisierung, massgeschneiderte Software und 3D-Konfiguratoren, mit AI als Motor.',
+    'semanu ist der digitale Partner für Schweizer KMU. Von strategischer Beratung bis Automatisierung, massgeschneiderte Software und 3D-Konfiguratoren, mit AI als Motor.',
   ctaExplore: 'Dienstleistungen entdecken',
   ctaContact: 'Ihr Projekt besprechen',
-  introTitle: 'Was macht amai!?',
+  introTitle: 'Was macht semanu?',
   introText:
-    'amai! hilft Schweizer KMU, ihre Prozesse, Software und digitale Abläufe intelligenter zu machen. Wir kombinieren strategische Beratung, Technologie, Automatisierung und AI, wo es nachweisbar nützlich ist.',
+    'semanu hilft Schweizer KMU, ihre Prozesse, Software und digitale Abläufe intelligenter zu machen. Wir kombinieren strategische Beratung, Technologie, Automatisierung und AI, wo es nachweisbar nützlich ist.',
   introLead:
-    'amai! bringt Beratung, Automatisierung und Massarbeit in einem Partner zusammen. Sie starten mit einem klaren Bedarf und bauen von dort weiter.',
+    'semanu bringt Beratung, Automatisierung und Massarbeit in einem Partner zusammen. Sie starten mit einem klaren Bedarf und bauen von dort weiter.',
   quickLinksLabel: 'Zu einer Dienstleistung',
   forWhoLabel: 'Für wen',
-  buildsLabel: 'Was amai! bauen oder aufsetzen kann',
+  buildsLabel: 'Was semanu bauen oder aufsetzen kann',
   benefitsLabel: 'Vorteile',
   examplesLabel: 'Beispiele',
   seoGeo: {
     title: 'Gebaut für Suche, AI Auffindbarkeit und echte Kunden',
     intro:
-      'Eine moderne Website muss für Menschen, Suchmaschinen und AI Systeme klar sein. amai! strukturiert Ihre Inhalte, damit Kunden verstehen, was Sie anbieten und Suchmaschinen sie korrekt lesen können.',
+      'Eine moderne Website muss für Menschen, Suchmaschinen und AI Systeme klar sein. semanu strukturiert Ihre Inhalte, damit Kunden verstehen, was Sie anbieten und Suchmaschinen sie korrekt lesen können.',
     explainerTitle: 'Was ist GEO?',
     explainerText:
       'GEO steht für Generative Engine Optimisation. Es hilft AI Suchsystemen, Ihr Unternehmen, Ihre Dienstleistungen und Ihre Expertise zu verstehen, damit sie Sie genauer beschreiben und empfehlen können.',
@@ -581,7 +581,7 @@ const deFields: ContentFields = {
   },
   howTitle: 'Wie diese Dienstleistungen zusammenwirken',
   howIntro:
-    'Sie brauchen nicht alles auf einmal. Die meisten Unternehmen starten mit einem klaren Bedarf. amai! hilft Ihnen Schritt für Schritt.',
+    'Sie brauchen nicht alles auf einmal. Die meisten Unternehmen starten mit einem klaren Bedarf. semanu hilft Ihnen Schritt für Schritt.',
   howSteps: [
     { title: 'Bestimmen, was zählt', text: 'Consultancy bildet Ihre Prozesse ab und bestimmt, wo Digitalisierung und AI Mehrwert bringen.' },
     { title: 'Verbinden und automatisieren', text: 'Workflowautomatisierung nimmt wiederkehrende Arbeit ab und verbindet Ihre bestehenden Systeme.' },
@@ -590,7 +590,7 @@ const deFields: ContentFields = {
   ],
   faqTitle: 'Fragen zu unseren Dienstleistungen',
   faq: [
-    { q: 'Welche Dienstleistungen bietet amai!?', a: 'Consultancy, Workflowautomatisierung, massgeschneiderte Software und 3D-Konfiguratoren. Zusammen helfen sie Ihnen zu bestimmen, zu verbinden, zu bauen und zu verkaufen.' },
+    { q: 'Welche Dienstleistungen bietet semanu?', a: 'Consultancy, Workflowautomatisierung, massgeschneiderte Software und 3D-Konfiguratoren. Zusammen helfen sie Ihnen zu bestimmen, zu verbinden, zu bauen und zu verkaufen.' },
     { q: 'Muss ich alles auf einmal nehmen?', a: 'Nein. Die meisten Unternehmen starten mit einem klaren Bedarf, oft einem Beratungstrack. Von dort bauen sie weiter.' },
     { q: 'Setzen Sie immer AI ein?', a: 'Nein. AI ist ein Mittel, kein Ziel. Wir setzen es ein, wo es nachweisbar nützlich ist und wählen klassische Technologie, wo sie besser passt.' },
     { q: 'Was ist GEO?', a: 'GEO steht für Generative Engine Optimisation. Es hilft AI Suchsystemen, Ihr Unternehmen, Ihre Dienstleistungen und Ihre Expertise zu verstehen, damit sie Sie genauer beschreiben und empfehlen können.' },
@@ -603,32 +603,32 @@ const deFields: ContentFields = {
 };
 
 const frFields: ContentFields = {
-  metaTitle: 'Services pour PME suisses · amai.ch',
+  metaTitle: 'Services pour PME suisses · semanu.eu',
   metaDescription:
-    'Consultancy, automatisation des workflows, logiciels sur mesure et configurateurs 3D pour PME suisses. amai! digitalise vos processus avec l’AI comme moteur.',
+    'Consultancy, automatisation des workflows, logiciels sur mesure et configurateurs 3D pour PME suisses. semanu digitalise vos processus avec l’AI comme moteur.',
   ogTitle: 'Services digitaux pour PME suisses',
   ogDescription:
-    'Du conseil stratégique à l’automatisation, aux logiciels sur mesure et aux configurateurs 3D. amai! est le partenaire digital des PME suisses.',
+    'Du conseil stratégique à l’automatisation, aux logiciels sur mesure et aux configurateurs 3D. semanu est le partenaire digital des PME suisses.',
   eyebrow: 'Ce que nous faisons',
   h1: 'Quatre services qui font avancer votre entreprise sur le plan digital.',
   heroSub:
-    'amai! est le partenaire digital des PME suisses. Du conseil stratégique à l’automatisation, aux logiciels sur mesure et aux configurateurs 3D, avec l’AI comme moteur.',
+    'semanu est le partenaire digital des PME suisses. Du conseil stratégique à l’automatisation, aux logiciels sur mesure et aux configurateurs 3D, avec l’AI comme moteur.',
   ctaExplore: 'Découvrir les services',
   ctaContact: 'Parler de votre projet',
-  introTitle: 'Que fait amai!?',
+  introTitle: 'Que fait semanu?',
   introText:
-    'amai! aide les PME suisses à rendre leurs processus, leurs logiciels et leur fonctionnement digital plus intelligents. Nous combinons conseil stratégique, technologie, automatisation et AI, là où c’est réellement utile.',
+    'semanu aide les PME suisses à rendre leurs processus, leurs logiciels et leur fonctionnement digital plus intelligents. Nous combinons conseil stratégique, technologie, automatisation et AI, là où c’est réellement utile.',
   introLead:
-    'amai! réunit conseil, automatisation et sur mesure chez un seul partenaire. Vous démarrez avec un besoin clair et construisez à partir de là.',
+    'semanu réunit conseil, automatisation et sur mesure chez un seul partenaire. Vous démarrez avec un besoin clair et construisez à partir de là.',
   quickLinksLabel: 'Vers un service',
   forWhoLabel: 'Pour qui',
-  buildsLabel: 'Ce que amai! peut construire ou mettre en place',
+  buildsLabel: 'Ce que semanu peut construire ou mettre en place',
   benefitsLabel: 'Avantages',
   examplesLabel: 'Exemples',
   seoGeo: {
     title: 'Conçu pour la recherche, la visibilité AI et de vrais clients',
     intro:
-      'Un site moderne doit être clair pour les personnes, les moteurs de recherche et les systèmes AI. amai! structure votre contenu pour que les clients comprennent votre offre et que les moteurs de recherche la lisent correctement.',
+      'Un site moderne doit être clair pour les personnes, les moteurs de recherche et les systèmes AI. semanu structure votre contenu pour que les clients comprennent votre offre et que les moteurs de recherche la lisent correctement.',
     explainerTitle: 'GEO, c’est quoi?',
     explainerText:
       'GEO signifie Generative Engine Optimisation. Cela aide les systèmes de recherche AI à comprendre votre entreprise, vos services et votre expertise pour vous décrire et vous recommander plus précisément.',
@@ -638,7 +638,7 @@ const frFields: ContentFields = {
   },
   howTitle: 'Comment ces services fonctionnent ensemble',
   howIntro:
-    'Vous n’avez pas besoin de tout en même temps. La plupart des entreprises démarrent avec un besoin clair. amai! vous aide pas à pas.',
+    'Vous n’avez pas besoin de tout en même temps. La plupart des entreprises démarrent avec un besoin clair. semanu vous aide pas à pas.',
   howSteps: [
     { title: 'Déterminer ce qui compte', text: 'Le conseil cartographie vos processus et détermine où la digitalisation et l’AI apportent de la valeur.' },
     { title: 'Relier et automatiser', text: 'L’automatisation des workflows supprime le travail répétitif et relie vos systèmes existants.' },
@@ -647,7 +647,7 @@ const frFields: ContentFields = {
   ],
   faqTitle: 'Questions sur nos services',
   faq: [
-    { q: 'Quels services propose amai!?', a: 'Consultancy, automatisation des workflows, logiciels sur mesure et configurateurs 3D. Ensemble, ils vous aident à déterminer, relier, construire et vendre.' },
+    { q: 'Quels services propose semanu?', a: 'Consultancy, automatisation des workflows, logiciels sur mesure et configurateurs 3D. Ensemble, ils vous aident à déterminer, relier, construire et vendre.' },
     { q: 'Vous devez tout prendre en même temps?', a: 'Non. La plupart des entreprises démarrent avec un besoin clair, souvent une mission de conseil. À partir de là, elles construisent.' },
     { q: 'Vous utilisez toujours l’AI?', a: 'Non. l’AI est un moyen, pas un but. Nous l’utilisons là où elle est réellement utile et choisissons une technologie classique là où elle convient mieux.' },
     { q: 'GEO, c’est quoi?', a: 'GEO signifie Generative Engine Optimisation. Cela aide les systèmes de recherche AI à comprendre votre entreprise, vos services et votre expertise pour vous décrire et vous recommander plus précisément.' },
@@ -660,32 +660,32 @@ const frFields: ContentFields = {
 };
 
 const esFields: ContentFields = {
-  metaTitle: 'Servicios para pymes suizas · amai.ch',
+  metaTitle: 'Servicios para pymes suizas · semanu.eu',
   metaDescription:
-    'Consultancy, automatización de flujos, software a medida y configuradores 3D para pymes suizas. amai! digitaliza sus procesos con la AI como motor.',
+    'Consultancy, automatización de flujos, software a medida y configuradores 3D para pymes suizas. semanu digitaliza sus procesos con la AI como motor.',
   ogTitle: 'Servicios digitales para pymes suizas',
   ogDescription:
-    'Desde el asesoramiento estratégico hasta la automatización, el software a medida y los configuradores 3D. amai! es el socio digital para pymes suizas.',
+    'Desde el asesoramiento estratégico hasta la automatización, el software a medida y los configuradores 3D. semanu es el socio digital para pymes suizas.',
   eyebrow: 'Lo que hacemos',
   h1: 'Cuatro servicios que impulsan su empresa en lo digital.',
   heroSub:
-    'amai! es el socio digital para pymes suizas. Desde el asesoramiento estratégico hasta la automatización, el software a medida y los configuradores 3D, con la AI como motor.',
+    'semanu es el socio digital para pymes suizas. Desde el asesoramiento estratégico hasta la automatización, el software a medida y los configuradores 3D, con la AI como motor.',
   ctaExplore: 'Descubrir los servicios',
   ctaContact: 'Hablar de su proyecto',
-  introTitle: '¿Qué hace amai!?',
+  introTitle: '¿Qué hace semanu?',
   introText:
-    'amai! ayuda a las pymes suizas a hacer más inteligentes sus procesos, su software y su funcionamiento digital. Combinamos asesoramiento estratégico, tecnología, automatización y AI, donde resulta demostrablemente útil.',
+    'semanu ayuda a las pymes suizas a hacer más inteligentes sus procesos, su software y su funcionamiento digital. Combinamos asesoramiento estratégico, tecnología, automatización y AI, donde resulta demostrablemente útil.',
   introLead:
-    'amai! reúne asesoramiento, automatización y trabajo a medida en un solo socio. Empieza con una necesidad clara y construye a partir de ahí.',
+    'semanu reúne asesoramiento, automatización y trabajo a medida en un solo socio. Empieza con una necesidad clara y construye a partir de ahí.',
   quickLinksLabel: 'Ir a un servicio',
   forWhoLabel: 'Para quién',
-  buildsLabel: 'Lo que amai! puede construir o poner en marcha',
+  buildsLabel: 'Lo que semanu puede construir o poner en marcha',
   benefitsLabel: 'Ventajas',
   examplesLabel: 'Ejemplos',
   seoGeo: {
     title: 'Diseñado para la búsqueda, la visibilidad en AI y clientes reales',
     intro:
-      'Un sitio web moderno debe ser claro para las personas, los motores de búsqueda y los sistemas de AI. amai! estructura su contenido para que los clientes entiendan lo que ofrece y los motores de búsqueda lo lean correctamente.',
+      'Un sitio web moderno debe ser claro para las personas, los motores de búsqueda y los sistemas de AI. semanu estructura su contenido para que los clientes entiendan lo que ofrece y los motores de búsqueda lo lean correctamente.',
     explainerTitle: '¿Qué es GEO?',
     explainerText:
       'GEO significa Generative Engine Optimisation. Ayuda a los sistemas de búsqueda de AI a entender su empresa, sus servicios y su experiencia para describirle y recomendarle con más precisión.',
@@ -695,7 +695,7 @@ const esFields: ContentFields = {
   },
   howTitle: 'Cómo funcionan juntos estos servicios',
   howIntro:
-    'No necesita todo a la vez. La mayoría de las empresas empiezan con una necesidad clara. amai! le ayuda paso a paso.',
+    'No necesita todo a la vez. La mayoría de las empresas empiezan con una necesidad clara. semanu le ayuda paso a paso.',
   howSteps: [
     { title: 'Definir lo que importa', text: 'La consultoría mapea sus procesos y determina dónde la digitalización y la AI aportan valor.' },
     { title: 'Conectar y automatizar', text: 'La automatización de flujos elimina el trabajo repetitivo y conecta sus sistemas existentes.' },
@@ -704,7 +704,7 @@ const esFields: ContentFields = {
   ],
   faqTitle: 'Preguntas sobre nuestros servicios',
   faq: [
-    { q: '¿Qué servicios ofrece amai!?', a: 'Consultancy, automatización de flujos, software a medida y configuradores 3D. Juntos le ayudan a definir, conectar, construir y vender.' },
+    { q: '¿Qué servicios ofrece semanu?', a: 'Consultancy, automatización de flujos, software a medida y configuradores 3D. Juntos le ayudan a definir, conectar, construir y vender.' },
     { q: '¿Tengo que contratarlo todo a la vez?', a: 'No. La mayoría de las empresas empiezan con una necesidad clara, a menudo un proyecto de asesoramiento. A partir de ahí construyen.' },
     { q: '¿Usan siempre AI?', a: 'No. La AI es un medio, no un fin. La usamos donde resulta demostrablemente útil y elegimos tecnología clásica donde encaja mejor.' },
     { q: '¿Qué es GEO?', a: 'GEO significa Generative Engine Optimisation. Ayuda a los sistemas de búsqueda de AI a entender su empresa, sus servicios y su experiencia para describirle y recomendarle con más precisión.' },
@@ -717,32 +717,32 @@ const esFields: ContentFields = {
 };
 
 const nlFields: ContentFields = {
-  metaTitle: 'Diensten voor Zwitserse kmo · amai.ch',
+  metaTitle: 'Diensten voor Zwitserse kmo · semanu.eu',
   metaDescription:
-    'Consultancy, workflowautomatisering, maatwerksoftware en 3D-configuratoren voor Zwitserse kmo. amai! digitaliseert uw processen met AI als motor.',
+    'Consultancy, workflowautomatisering, maatwerksoftware en 3D-configuratoren voor Zwitserse kmo. semanu digitaliseert uw processen met AI als motor.',
   ogTitle: 'Digitale diensten voor Zwitserse kmo',
   ogDescription:
-    'Van strategisch advies tot automatisering, maatwerksoftware en 3D-configuratoren. amai! is de digitale partner voor Zwitserse kmo.',
+    'Van strategisch advies tot automatisering, maatwerksoftware en 3D-configuratoren. semanu is de digitale partner voor Zwitserse kmo.',
   eyebrow: 'Wat we doen',
   h1: 'Vier diensten die uw bedrijf digitaal vooruit helpen.',
   heroSub:
-    'amai! is de digitale partner voor Zwitserse kmo. Van strategisch advies tot automatisering, maatwerksoftware en 3D-configuratoren, met AI als motor.',
+    'semanu is de digitale partner voor Zwitserse kmo. Van strategisch advies tot automatisering, maatwerksoftware en 3D-configuratoren, met AI als motor.',
   ctaExplore: 'Diensten ontdekken',
   ctaContact: 'Uw project bespreken',
-  introTitle: 'Wat doet amai!?',
+  introTitle: 'Wat doet semanu?',
   introText:
-    'amai! helpt Zwitserse kmo hun processen, software en digitale werking slimmer te maken. We combineren strategisch advies, technologie, automatisering en AI, waar het aantoonbaar nuttig is.',
+    'semanu helpt Zwitserse kmo hun processen, software en digitale werking slimmer te maken. We combineren strategisch advies, technologie, automatisering en AI, waar het aantoonbaar nuttig is.',
   introLead:
-    'amai! brengt advies, automatisering en maatwerk samen in één partner. U start met één duidelijke behoefte en bouwt van daaruit verder.',
+    'semanu brengt advies, automatisering en maatwerk samen in één partner. U start met één duidelijke behoefte en bouwt van daaruit verder.',
   quickLinksLabel: 'Naar een dienst',
   forWhoLabel: 'Voor wie',
-  buildsLabel: 'Wat amai! kan bouwen of opzetten',
+  buildsLabel: 'Wat semanu kan bouwen of opzetten',
   benefitsLabel: 'Voordelen',
   examplesLabel: 'Voorbeelden',
   seoGeo: {
     title: 'Gebouwd voor zoekopdrachten, AI vindbaarheid en echte klanten',
     intro:
-      'Een moderne website moet duidelijk zijn voor mensen, zoekmachines en AI systemen. amai! structureert uw inhoud zodat klanten begrijpen wat u aanbiedt en zoekmachines het correct kunnen lezen.',
+      'Een moderne website moet duidelijk zijn voor mensen, zoekmachines en AI systemen. semanu structureert uw inhoud zodat klanten begrijpen wat u aanbiedt en zoekmachines het correct kunnen lezen.',
     explainerTitle: 'Wat is GEO?',
     explainerText:
       'GEO staat voor Generative Engine Optimisation. Het helpt AI zoeksystemen om uw bedrijf, uw diensten en uw expertise te begrijpen zodat ze u nauwkeuriger kunnen beschrijven en aanbevelen.',
@@ -752,7 +752,7 @@ const nlFields: ContentFields = {
   },
   howTitle: 'Hoe deze diensten samenwerken',
   howIntro:
-    'U hebt niet alles tegelijk nodig. De meeste bedrijven starten met één duidelijke behoefte. amai! helpt u stap voor stap.',
+    'U hebt niet alles tegelijk nodig. De meeste bedrijven starten met één duidelijke behoefte. semanu helpt u stap voor stap.',
   howSteps: [
     { title: 'Bepalen wat telt', text: 'Consultancy brengt uw processen in kaart en bepaalt waar digitalisering en AI waarde opleveren.' },
     { title: 'Verbinden en automatiseren', text: 'Workflowautomatisering neemt terugkerend werk weg en koppelt uw bestaande systemen.' },
@@ -761,7 +761,7 @@ const nlFields: ContentFields = {
   ],
   faqTitle: 'Vragen over onze diensten',
   faq: [
-    { q: 'Welke diensten biedt amai!?', a: 'Consultancy, workflowautomatisering, maatwerksoftware en 3D-configuratoren. Samen helpen ze u bepalen, verbinden, bouwen en verkopen.' },
+    { q: 'Welke diensten biedt semanu?', a: 'Consultancy, workflowautomatisering, maatwerksoftware en 3D-configuratoren. Samen helpen ze u bepalen, verbinden, bouwen en verkopen.' },
     { q: 'Moet ik alles tegelijk afnemen?', a: 'Nee. De meeste bedrijven starten met één duidelijke behoefte, vaak een adviestraject. Van daaruit bouwen ze verder.' },
     { q: 'Gebruiken jullie altijd AI?', a: 'Nee. AI is een middel, geen doel. We zetten het in waar het aantoonbaar nuttig is en kiezen klassieke technologie waar die beter past.' },
     { q: 'Wat is GEO?', a: 'GEO staat voor Generative Engine Optimisation. Het helpt AI zoeksystemen om uw bedrijf, uw diensten en uw expertise te begrijpen zodat ze u nauwkeuriger kunnen beschrijven en aanbevelen.' },

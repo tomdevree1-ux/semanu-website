@@ -11,7 +11,7 @@ Veel Zwitserse kmo websites zijn voor Google en AI assistenten bijna niet te vin
 
 ## Zo hebben we gemeten
 
-Bij <span class="brand-mark">amai<span class="spark">!</span></span> beoordelen we doorlopend websites van Zwitserse kmo's volgens een vast raster. We hebben 2292 sites ingedeeld op een volwassenheidsschaal met vijf niveaus. Voor de 638 sites met de grootste behoefte aan werk hebben we daarnaast een score van 0 tot 10 gegeven in acht categorieën, waaronder SEO en inhoud. De cijfers beschrijven dus deze zwakste groep en niet het gemiddelde van alle kmo's. De beoordeling is indicatief en berust op zichtbare website elementen. Alle details staan in de [kmo website studie](/nl/blog/kmu-website-studie-schweiz).
+Bij <span class="brand-mark">semanu<span class="spark">!</span></span> beoordelen we doorlopend websites van Zwitserse kmo's volgens een vast raster. We hebben 2292 sites ingedeeld op een volwassenheidsschaal met vijf niveaus. Voor de 638 sites met de grootste behoefte aan werk hebben we daarnaast een score van 0 tot 10 gegeven in acht categorieën, waaronder SEO en inhoud. De cijfers beschrijven dus deze zwakste groep en niet het gemiddelde van alle kmo's. De beoordeling is indicatief en berust op zichtbare website elementen. Alle details staan in de [kmo website studie](/nl/blog/kmu-website-studie-schweiz).
 
 ## De cijfers
 

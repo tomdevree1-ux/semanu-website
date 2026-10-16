@@ -11,7 +11,7 @@ Las visitas llegan. Clientes no se convierten. En las webs de pymes suizas con m
 
 ## Cómo lo medimos
 
-En <span class="brand-mark">amai<span class="spark">!</span></span> evaluamos de forma continua webs de pymes suizas con una rejilla fija. Clasificamos 2292 sitios en una escala de madurez de cinco niveles. Los 638 sitios con mayor necesidad de trabajo los puntuamos además en ocho categorías de 0 a 10 puntos, entre ellas la conversión. Las cifras de este artículo describen por tanto justo ese grupo más débil, no la media de todas las pymes. La valoración es indicativa y se basa en elementos visibles del sitio. Todo el detalle y los resultados globales están en el [estudio de webs de pymes](/es/blog/kmu-website-studie-schweiz).
+En <span class="brand-mark">semanu<span class="spark">!</span></span> evaluamos de forma continua webs de pymes suizas con una rejilla fija. Clasificamos 2292 sitios en una escala de madurez de cinco niveles. Los 638 sitios con mayor necesidad de trabajo los puntuamos además en ocho categorías de 0 a 10 puntos, entre ellas la conversión. Las cifras de este artículo describen por tanto justo ese grupo más débil, no la media de todas las pymes. La valoración es indicativa y se basa en elementos visibles del sitio. Todo el detalle y los resultados globales están en el [estudio de webs de pymes](/es/blog/kmu-website-studie-schweiz).
 
 ## Las cifras
 

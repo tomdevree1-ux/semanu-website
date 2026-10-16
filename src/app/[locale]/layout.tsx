@@ -8,7 +8,8 @@ import { CookieBanner } from '@/components/CookieBanner';
 import { Analytics } from '@/components/Analytics';
 import { JsonLd } from '@/components/JsonLd';
 import { WhatsAppButton } from '@/components/WhatsAppButton';
-import { PHONE_DISPLAY } from '@/lib/contact';
+import { CONTACT_EMAIL, PHONE_E164 } from '@/lib/contact';
+import { env } from '@/lib/env';
 import '../globals.css';
 
 // Self-hosted at build time by next/font; exposed as CSS vars used in globals.css @theme.
@@ -37,42 +38,52 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'meta' });
+  // hreflang for every locale + x-default (the routing default locale).
+  const languages: Record<string, string> = Object.fromEntries(
+    routing.locales.map((l) => [l, `/${l}`]),
+  );
+  languages['x-default'] = `/${routing.defaultLocale}`;
+  const gscVerification = (process.env.NEXT_PUBLIC_GSC_VERIFICATION ?? '').trim();
 
   return {
-    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://amai.ch'),
+    metadataBase: new URL(env.siteUrl),
     title: t('title'),
     description: t('description'),
-    robots: {
-      index: true,
-      follow: true,
-      'max-snippet': -1,
-      'max-image-preview': 'large',
-      'max-video-preview': -1,
-    },
+    // Only the live site is indexable; staging (acc.semanu.eu) and local are noindex.
+    robots: env.isProduction
+      ? {
+          index: true,
+          follow: true,
+          'max-snippet': -1,
+          'max-image-preview': 'large',
+          'max-video-preview': -1,
+        }
+      : { index: false, follow: false },
+    ...(gscVerification ? { verification: { google: gscVerification } } : {}),
     other: {
-      'geo.region': 'CH-BE',
-      'geo.placename': 'Bern',
-      'geo.position': '46.9577;7.4521',
-      ICBM: '46.9577, 7.4521',
+      'geo.region': 'BE-VAN',
+      'geo.placename': 'Antwerpen',
+      'geo.position': '51.2194;4.4025',
+      ICBM: '51.2194, 4.4025',
     },
     alternates: {
       canonical: `/${locale}`,
-      languages: { de: '/de', fr: '/fr', en: '/en', es: '/es', nl: '/nl', 'x-default': '/de' },
+      languages,
     },
     openGraph: {
       title: t('title'),
       description: t('description'),
-      siteName: 'amai',
+      siteName: 'semanu',
       locale,
       alternateLocale: routing.locales.filter((l) => l !== locale),
       type: 'website',
-      images: ['/og.png?v=3'],
+      images: ['/og.png?v=4'],
     },
     twitter: {
       card: 'summary_large_image',
       title: t('title'),
       description: t('description'),
-      images: ['/og.png?v=3'],
+      images: ['/og.png?v=4'],
     },
   };
 }
@@ -92,55 +103,48 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
   const messages = await getMessages();
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://amai.ch';
+  const siteUrl = env.siteUrl;
   // Single canonical organisation node. Every other page references it by this
   // @id instead of repeating a partial Organization, so search + AI see one
-  // unambiguous entity for amai.
+  // unambiguous entity for SEMANU.
   const orgId = `${siteUrl}/#organization`;
-  // Dedicated Person node for E-E-A-T: AI systems and Google weigh provable
-  // human expertise. The organisation links to it via founder/@id.
+  // Dedicated Person node for E-E-A-T: the organisation links to it via founder/@id.
   const personId = `${siteUrl}/#tom-de-vree`;
   const person = {
     '@context': 'https://schema.org',
     '@type': 'Person',
     '@id': personId,
     name: 'Tom de Vree',
-    jobTitle: 'Gründer und Inhaber',
+    jobTitle: 'Founder and managing director',
     image: `${siteUrl}/team/tom.png`,
     worksFor: { '@id': orgId },
     knowsAbout: [
-      'Web design',
-      'Customer portals',
-      'CRM systems',
-      'Marketing automation',
-      'Business dashboards',
-      'AI assistants',
-      'Search engine optimization',
-      'Generative engine optimisation',
+      '3D product configurators',
+      'Custom business software',
+      'ERP integration',
+      'Workflow automation',
+      'Business analysis',
     ],
-    sameAs: ['https://www.instagram.com/amai.swiss'],
+    sameAs: ['https://www.linkedin.com/in/tom-de-vree-06910494/'],
   };
   const organization = {
     '@context': 'https://schema.org',
     '@type': 'ProfessionalService',
     '@id': orgId,
-    name: 'amai',
-    alternateName: ['amai Bern', 'amai.ch'],
+    name: 'SEMANU',
+    alternateName: ['semanu', 'semanu.eu'],
     legalName: 'SEMANU BV',
-    // Entity disambiguation: several unrelated companies share the "amai" token
-    // (notably AMAI GmbH / am.ai in Karlsruhe, Germany). State plainly who we are
-    // so search and AI models resolve amai.ch to the Swiss agency, not the others.
-    disambiguatingDescription:
-      'amai! (amai.ch) is a Swiss digital agency based in Bern, Switzerland, serving Swiss SMEs. It is a separate company from AMAI GmbH (am.ai) in Karlsruhe, Germany, and from other businesses named Amai.',
+    vatID: 'BE0828.291.116',
+    taxID: '0828.291.116',
     founder: { '@type': 'Person', '@id': personId, name: 'Tom de Vree' },
     url: siteUrl,
     logo: `${siteUrl}/icon-512.png`,
-    image: `${siteUrl}/og.png?v=3`,
+    image: `${siteUrl}/og.png?v=4`,
     description:
-      'amai! is a digital partner from Bern for Swiss SMEs: 3D product configurators and custom business software, built AI-first, including design, build, hosting and ongoing support.',
-    email: 'hello@amai.ch',
-    telephone: PHONE_DISPLAY,
-    areaServed: ['CH', 'Bern', 'Canton of Bern'],
+      'SEMANU is a digital partner from Antwerp, Belgium: 3D product configurators and custom business software, built AI-first, including design, build, hosting and ongoing support.',
+    email: CONTACT_EMAIL,
+    telephone: PHONE_E164,
+    areaServed: ['BE', 'NL', 'DE', 'FR', 'CH', 'EU'],
     knowsAbout: [
       '3D Product Configurators',
       'Custom Business Software',
@@ -152,11 +156,7 @@ export default async function LocaleLayout({
       '3D Product Configurators',
       'Custom Business Software',
     ].map((name) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name } })),
-    sameAs: [
-      'https://www.instagram.com/amai.swiss',
-      'https://www.linkedin.com/company/137144354',
-      'https://share.google/Z0fKFASrxVzu9Ko4i',
-    ],
+    sameAs: ['https://www.linkedin.com/company/semanu', 'https://www.semanu.be'],
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Kattendijkdok-Oostkaai 9',
@@ -178,7 +178,7 @@ export default async function LocaleLayout({
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     '@id': `${siteUrl}/#website`,
-    name: 'amai',
+    name: 'semanu',
     url: siteUrl,
     inLanguage: locale,
     publisher: { '@id': orgId },

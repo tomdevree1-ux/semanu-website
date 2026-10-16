@@ -1,6 +1,6 @@
 ---
 title: "Studie: 9% van de kmo websites is bij de tijd"
-description: "amai! beoordeelde 2292 Zwitserse kmo websites. Amper 9 procent is bij de tijd, een derde heeft echt werk nodig. Alle cijfers en patronen."
+description: "semanu beoordeelde 2292 Zwitserse kmo websites. Amper 9 procent is bij de tijd, een derde heeft echt werk nodig. Alle cijfers en patronen."
 date: "2026-08-11"
 author: "Tom"
 authorImage: "/team/tom.png"
@@ -11,7 +11,7 @@ Minder dan een op de tien Zwitserse kmo websites is echt bij de tijd. Van 2292 s
 
 ## Waarom deze studie
 
-Bij <span class="brand-mark">amai<span class="spark">!</span></span> beoordelen we doorlopend de websites van Zwitserse kmo's: gestructureerd, volgens een vast raster en met dezelfde criteria voor elke site. Zo is een dataset ontstaan die een eerlijk antwoord geeft op een simpele vraag: hoe fit zijn de websites van Zwitserse kmo's echt?
+Bij <span class="brand-mark">semanu<span class="spark">!</span></span> beoordelen we doorlopend de websites van Zwitserse kmo's: gestructureerd, volgens een vast raster en met dezelfde criteria voor elke site. Zo is een dataset ontstaan die een eerlijk antwoord geeft op een simpele vraag: hoe fit zijn de websites van Zwitserse kmo's echt?
 
 ## Twee lagen, zodat de cijfers eerlijk blijven
 
@@ -92,8 +92,8 @@ Het goede nieuws: bijna alles is in enkele uren opgelost. Vijf stappen die metee
 
 De meeste Zwitserse kmo websites zijn geen totaalverlies. Bijna alle blijven echter onder hun mogelijkheden: amper 9 procent is bij de tijd en een derde heeft echt werk nodig. Dat is goed nieuws voor wie nu handelt. Wie de basis netjes neerzet, hoort in zijn branche snel bij de top.
 
-Wilt u weten waar uw website staat? Precies deze analyse voeren we voor uw website gratis uit: [Gratis website analyse aanvragen](/nl/website-analyse). Lees meer over de basis onder [SEO basis voor kmo's](/nl/seo-basis-fuer-kmu) en hoe wij websites bouwen die gevonden worden onder [Websites van amai!](/nl/services/websites).
+Wilt u weten waar uw website staat? Precies deze analyse voeren we voor uw website gratis uit: [Gratis website analyse aanvragen](/nl/website-analyse). Lees meer over de basis onder [SEO basis voor kmo's](/nl/seo-basis-fuer-kmu) en hoe wij websites bouwen die gevonden worden onder [Websites van semanu](/nl/services/websites).
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Dataset","name":"Digitale rijpheid van Zwitserse kmo websites (amai! studie)","description":"Indicatieve beoordeling van 2292 Zwitserse kmo websites op een rijpheidsschaal van vijf niveaus, plus een diepteanalyse in acht categorieën (0 tot 10) van de 638 sites met de grootste behoefte. Verzameld van 14 juni tot 20 juli 2026 in Duitstalig Zwitserland.","url":"https://amai.ch/nl/blog/kmu-website-studie-schweiz","creator":{"@id":"https://amai.ch/#organization"},"publisher":{"@id":"https://amai.ch/#organization"},"dateModified":"2026-08-11","temporalCoverage":"2026-06-14/2026-07-20","spatialCoverage":{"@type":"Place","name":"Duitstalig Zwitserland"},"measurementTechnique":"Indicatieve beoordeling op basis van zichtbare website elementen, niet op analytics of labmetingen.","variableMeasured":["Digitale rijpheid (vijf niveaus)","Eerste indruk","Positionering","Conversie","UX en structuur","Visueel ontwerp","SEO en inhoud","Vertrouwen en bewijs","Mobiele ervaring"]}
+{"@context":"https://schema.org","@type":"Dataset","name":"Digitale rijpheid van Zwitserse kmo websites (semanu studie)","description":"Indicatieve beoordeling van 2292 Zwitserse kmo websites op een rijpheidsschaal van vijf niveaus, plus een diepteanalyse in acht categorieën (0 tot 10) van de 638 sites met de grootste behoefte. Verzameld van 14 juni tot 20 juli 2026 in Duitstalig Zwitserland.","url":"https://www.semanu.eu/nl/blog/kmu-website-studie-schweiz","creator":{"@id":"https://www.semanu.eu/#organization"},"publisher":{"@id":"https://www.semanu.eu/#organization"},"dateModified":"2026-08-11","temporalCoverage":"2026-06-14/2026-07-20","spatialCoverage":{"@type":"Place","name":"Duitstalig Zwitserland"},"measurementTechnique":"Indicatieve beoordeling op basis van zichtbare website elementen, niet op analytics of labmetingen.","variableMeasured":["Digitale rijpheid (vijf niveaus)","Eerste indruk","Positionering","Conversie","UX en structuur","Visueel ontwerp","SEO en inhoud","Vertrouwen en bewijs","Mobiele ervaring"]}
 </script>

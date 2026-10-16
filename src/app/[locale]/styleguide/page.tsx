@@ -5,7 +5,7 @@ import { Brand } from '@/components/Brand';
 
 // Internal style reference — keep out of search results.
 export const metadata: Metadata = {
-  title: 'Styleguide · amai.ch',
+  title: 'Styleguide · semanu.eu',
   robots: { index: false, follow: false },
 };
 

@@ -11,7 +11,7 @@ Bern liegt vorn. Von den 39 Berner Seiten in unserer Studie sind 15,4 Prozent ze
 
 ## So haben wir gemessen
 
-Wir bewerten bei <span class="brand-mark">amai<span class="spark">!</span></span> laufend Websites von Schweizer KMU nach einem festen Raster. Jede Seite bekommt eine Einstufung von 1 bis 5, wobei 5 den grössten Handlungsbedarf bedeutet und 1 einen zeitgemässen Auftritt. Die Einstufung ist indikativ und beruht auf sichtbaren Website Elementen. Für den Städtevergleich haben wir nur Orte genommen, in denen wir genügend Seiten bewertet haben. Alle Details und die Gesamtergebnisse stehen in der [KMU Website Studie](/de/blog/kmu-website-studie-schweiz).
+Wir bewerten bei <span class="brand-mark">semanu<span class="spark">!</span></span> laufend Websites von Schweizer KMU nach einem festen Raster. Jede Seite bekommt eine Einstufung von 1 bis 5, wobei 5 den grössten Handlungsbedarf bedeutet und 1 einen zeitgemässen Auftritt. Die Einstufung ist indikativ und beruht auf sichtbaren Website Elementen. Für den Städtevergleich haben wir nur Orte genommen, in denen wir genügend Seiten bewertet haben. Alle Details und die Gesamtergebnisse stehen in der [KMU Website Studie](/de/blog/kmu-website-studie-schweiz).
 
 ## Der Städtevergleich
 

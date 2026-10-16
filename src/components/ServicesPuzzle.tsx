@@ -5,7 +5,7 @@ import type { serviceLinks } from '@/content/services';
  * The four services on the homepage, shown as white cards on the mint band in an
  * asymmetric two-row grid (row 1: 01 wide + 02 narrow; row 2: 03 narrow + 04
  * wide), so it reads with rhythm instead of a flat 2x2. Each card carries an
- * index number, the title, a short description and a round amai chevron mark
+ * index number, the title, a short description and a round semanu chevron mark
  * (>>) that fills on hover. Content comes from the services data, so it stays in
  * every locale.
  */
@@ -13,7 +13,7 @@ import type { serviceLinks } from '@/content/services';
 // Column spans on a 12-col grid (desktop). Mirrors the wireframe proportions.
 const SPAN = ['md:col-span-7', 'md:col-span-5', 'md:col-span-5', 'md:col-span-7'];
 
-/** A single amai chevron (the favicon mark), using the logo chevron shape. */
+/** A single semanu chevron (the favicon mark), using the logo chevron shape. */
 function Chevron() {
   return (
     <svg width="11" height="16" viewBox="0 0 14 20" fill="none" aria-hidden className="shrink-0">

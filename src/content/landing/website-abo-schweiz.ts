@@ -35,7 +35,7 @@ export const websiteAboSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'Ihre Website im transparenten Monatsabo',
-      body: 'Mit dem Website Abo von amai! erhalten Sie eine professionelle Website ohne hohe Einmalinvestition. Design, Umsetzung, Hosting, Wartung und SEO Grundlagen sind in einem klaren Monatspreis enthalten. Ihre Seite bleibt aktuell, sicher und betreut. Sie haben einen festen Ansprechpartner und planbare Kosten.',
+      body: 'Mit dem Website Abo von semanu erhalten Sie eine professionelle Website ohne hohe Einmalinvestition. Design, Umsetzung, Hosting, Wartung und SEO Grundlagen sind in einem klaren Monatspreis enthalten. Ihre Seite bleibt aktuell, sicher und betreut. Sie haben einen festen Ansprechpartner und planbare Kosten.',
     },
     featuresHeading: 'Was im Website Abo enthalten ist',
     featuresHint: 'Fahren Sie über eine Kachel für mehr Infos',
@@ -116,9 +116,9 @@ export const websiteAboSchweiz: LandingLocales = {
       cta: { label: 'Preise vergleichen', href: '/website-abos' },
     },
     reasons: {
-      heading: 'Warum ein Website Abo von amai!?',
+      heading: 'Warum ein Website Abo von semanu?',
       entitySentence:
-        'amai! ist ein Anbieter für Website Abos aus Bern und erstellt professionelle Websites für Schweizer KMU, Selbständige und lokale Unternehmen, inklusive Design, Umsetzung, Hosting, Wartung und SEO Grundlagen.',
+        'semanu ist ein Anbieter für Website Abos aus Bern und erstellt professionelle Websites für Schweizer KMU, Selbständige und lokale Unternehmen, inklusive Design, Umsetzung, Hosting, Wartung und SEO Grundlagen.',
       items: [
         { title: 'Planbare Investition', text: 'Das Abo verteilt die Kosten auf einen klaren Monatsbetrag statt einer hohen Einmalrechnung.' },
         { title: 'Alles aus einer Hand', text: 'Design, Technik, Hosting, Wartung und SEO Grundlagen werden zusammen gedacht und betreut.' },
@@ -148,7 +148,7 @@ export const websiteAboSchweiz: LandingLocales = {
         icon: 'seo',
         heading: 'SEO Abonnement Schweiz: Sichtbarkeit ist Teil des Website Abos',
         body:
-          'Ein SEO Abo müssen Sie bei amai! nicht separat buchen. Die SEO Grundlagen laufen im Website Abo mit: saubere Seitenstruktur, sprechende Überschriften, Meta Daten, schnelle Ladezeiten und strukturierte Daten, damit Google und AI Suchsysteme Ihre Seite verstehen. Weil Ihre Website betreut bleibt, wächst diese Basis mit jeder Anpassung. Konkrete Rankings garantiert niemand und für gezielte Suchbegriffe planen wir ein eigenes Projekt.',
+          'Ein SEO Abo müssen Sie bei semanu nicht separat buchen. Die SEO Grundlagen laufen im Website Abo mit: saubere Seitenstruktur, sprechende Überschriften, Meta Daten, schnelle Ladezeiten und strukturierte Daten, damit Google und AI Suchsysteme Ihre Seite verstehen. Weil Ihre Website betreut bleibt, wächst diese Basis mit jeder Anpassung. Konkrete Rankings garantiert niemand und für gezielte Suchbegriffe planen wir ein eigenes Projekt.',
         points: ['SEO Grundlagen inklusive', 'Laufend gepflegt statt einmalig'],
       },
       {
@@ -162,7 +162,7 @@ export const websiteAboSchweiz: LandingLocales = {
         icon: 'price',
         heading: 'Website mieten statt kaufen: monatlich zahlen, nichts vorschiessen',
         body:
-          'Wer eine Website monatlich mieten möchte, meint in der Regel genau das, was amai! als Website Abo anbietet. Sie mieten die fertige Website inklusive Aufbau, Hosting und Wartung ab 99 CHF pro Monat, statt eine Website einmalig zu kaufen und danach separat betreuen zu lassen. Der Unterschied liegt weniger im Preis als im Danach. Beim Kauf zahlen Sie einmal viel und stehen ab dem Launch allein mit Hosting, Updates und Sicherheit. Beim Mieten verteilen sich die Kosten und die Betreuung läuft weiter. Es gibt keinen Kaufpreis und keine Anzahlung. Nach Ablauf der Mindestlaufzeit und vollständiger Zahlung gehen Design und Code an Sie über.',
+          'Wer eine Website monatlich mieten möchte, meint in der Regel genau das, was semanu als Website Abo anbietet. Sie mieten die fertige Website inklusive Aufbau, Hosting und Wartung ab 99 CHF pro Monat, statt eine Website einmalig zu kaufen und danach separat betreuen zu lassen. Der Unterschied liegt weniger im Preis als im Danach. Beim Kauf zahlen Sie einmal viel und stehen ab dem Launch allein mit Hosting, Updates und Sicherheit. Beim Mieten verteilen sich die Kosten und die Betreuung läuft weiter. Es gibt keinen Kaufpreis und keine Anzahlung. Nach Ablauf der Mindestlaufzeit und vollständiger Zahlung gehen Design und Code an Sie über.',
         points: ['Mieten: Monatsbetrag ab 99 CHF, Betreuung läuft weiter', 'Kaufen: hohe Einmalrechnung und danach Blindflug'],
       },
     ],
@@ -173,7 +173,7 @@ export const websiteAboSchweiz: LandingLocales = {
       { href: '/webdesign-kmu-schweiz', label: 'Webdesign für KMU', desc: 'Professionelles Design für Schweizer KMU.' },
       { href: '/website-betreuung-schweiz', label: 'Was kostet Website Betreuung?', desc: 'Hosting, Updates und laufende Pflege im Abo.' },
       { href: '/seo-basis-fuer-kmu', label: 'SEO Basis für KMU', desc: 'Saubere Grundlagen, damit Google Sie versteht.' },
-      { href: '/referenzen', label: 'Referenzen', desc: 'Websites und digitale Lösungen von amai!' },
+      { href: '/referenzen', label: 'Referenzen', desc: 'Websites und digitale Lösungen von semanu' },
       { href: '/kontakt', label: 'Kontakt', desc: 'Sagen Sie uns, was Sie brauchen.' },
     ],
     faq: {
@@ -183,12 +183,12 @@ export const websiteAboSchweiz: LandingLocales = {
         { q: 'Was ist im Abo enthalten?', a: 'Design, technische Umsetzung, Hosting, Wartung und SEO Grundlagen. Sie müssen sich nicht um Technik, Updates oder Sicherheit kümmern.' },
         { q: 'Wie lange ist die Laufzeit?', a: 'Die Mindestlaufzeit beträgt 36 Monate. Danach ist das Abo monatlich kündbar.' },
         { q: 'Gibt es eine hohe Einmalrechnung?', a: 'Nein. Statt einer grossen Einmalinvestition zahlen Sie einen klaren monatlichen Preis, in dem Design, Hosting und Wartung enthalten sind.' },
-        { q: 'Muss ich die Texte selbst schreiben?', a: 'Nein. Sie können vorhandene Texte liefern. amai! hilft bei Struktur, Formulierungen und klaren Website Inhalten.' },
+        { q: 'Muss ich die Texte selbst schreiben?', a: 'Nein. Sie können vorhandene Texte liefern. semanu hilft bei Struktur, Formulierungen und klaren Website Inhalten.' },
         { q: 'Kann ich später Änderungen machen lassen?', a: 'Ja. Nach dem Start können Änderungen angefragt werden. Umfang und Abrechnung richten sich nach dem gewählten Abo und der Vereinbarung.' },
         { q: 'Ist SEO im Website Abo inbegriffen?', a: 'Ja, SEO Grundlagen sind inbegriffen. Dazu gehören Struktur, Überschriften, Meta Daten, Ladezeiten und strukturierte Daten. Ein separates SEO Abo brauchen Sie dafür nicht. Konkrete Google Rankings können nicht garantiert werden.' },
-        { q: 'Was kostet ein SEO Abonnement in der Schweiz?', a: 'Bei amai! kostet das SEO Abonnement nichts extra: die SEO Grundlagen sind im Website Abo ab 99 CHF pro Monat inbegriffen. Dazu gehören die technische Basis, eine klare Seitenstruktur, Meta Daten und lokale Sichtbarkeit für Ihre Region. Ein separates SEO Abonnement brauchen Sie dafür nicht. Für gezielte Suchbegriffe und laufende Optimierung planen wir bei Bedarf ein eigenes Projekt.' },
+        { q: 'Was kostet ein SEO Abonnement in der Schweiz?', a: 'Bei semanu kostet das SEO Abonnement nichts extra: die SEO Grundlagen sind im Website Abo ab 99 CHF pro Monat inbegriffen. Dazu gehören die technische Basis, eine klare Seitenstruktur, Meta Daten und lokale Sichtbarkeit für Ihre Region. Ein separates SEO Abonnement brauchen Sie dafür nicht. Für gezielte Suchbegriffe und laufende Optimierung planen wir bei Bedarf ein eigenes Projekt.' },
         { q: 'Was bedeutet Design im Abo?', a: 'Design im Abo heisst, dass das Webdesign Teil Ihres monatlichen Website Abos ist, ohne hohe Einmalkosten. Wir gestalten, bauen und pflegen Ihre Website und passen das Design bei Bedarf mit an.' },
-        { q: 'Kann ich eine Website monatlich mieten?', a: 'Ja. Das Website Abo von amai! funktioniert genau so: Sie mieten Ihre Website ab 99 CHF pro Monat, inklusive Aufbau, Design, Hosting und Wartung. Es gibt keinen Kaufpreis und keine Anzahlung. Nach der Mindestlaufzeit von 36 Monaten ist das Abo monatlich kündbar.' },
+        { q: 'Kann ich eine Website monatlich mieten?', a: 'Ja. Das Website Abo von semanu funktioniert genau so: Sie mieten Ihre Website ab 99 CHF pro Monat, inklusive Aufbau, Design, Hosting und Wartung. Es gibt keinen Kaufpreis und keine Anzahlung. Nach der Mindestlaufzeit von 36 Monaten ist das Abo monatlich kündbar.' },
         { q: 'Was kostet es, eine Webseite monatlich zu mieten?', a: 'Eine Business Website mieten Sie ab 99 CHF pro Monat, einen Webshop ab 125 CHF pro Monat, jeweils exkl. MWST. In diesem Betrag sind Design, Umsetzung, Hosting, Wartung und SEO Grundlagen enthalten.' },
         { q: 'Website mieten oder kaufen: was lohnt sich für ein KMU?', a: 'Kaufen lohnt sich, wenn Sie die Website intern selbst betreiben und pflegen können. Mieten lohnt sich, wenn Sie keine eigene Technik im Haus haben. Sie zahlen ab 99 CHF pro Monat statt einer Einmalrechnung und Hosting, Updates, Sicherheit und kleine Anpassungen laufen mit. Für die meisten Schweizer KMU ohne eigene IT ist das die ruhigere Variante.' },
         { q: 'Lohnt sich ein Website Abo für ein KMU?', a: 'Für viele KMU schon. Statt einer grossen Einmalinvestition zahlen Sie einen planbaren monatlichen Preis, in dem Design, Hosting, Wartung und SEO Grundlagen enthalten sind. So bleibt eine professionelle Website bezahlbar und aktuell.' },
@@ -234,7 +234,7 @@ export const websiteAboSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'Votre site en abonnement mensuel transparent',
-      body: 'Avec l’abonnement site d’amai!, vous obtenez un site professionnel sans grosse facture unique. Design, réalisation, hébergement, maintenance et bases SEO sont compris dans un prix mensuel clair. Votre site reste à jour, sûr et suivi. Vous avez un interlocuteur fixe et des coûts prévisibles.',
+      body: 'Avec l’abonnement site d’semanu, vous obtenez un site professionnel sans grosse facture unique. Design, réalisation, hébergement, maintenance et bases SEO sont compris dans un prix mensuel clair. Votre site reste à jour, sûr et suivi. Vous avez un interlocuteur fixe et des coûts prévisibles.',
     },
     featuresHeading: 'Ce que comprend l’abonnement site',
     featuresHint: 'Passez sur une tuile pour plus d’infos',
@@ -315,9 +315,9 @@ export const websiteAboSchweiz: LandingLocales = {
       cta: { label: 'Comparer les prix', href: '/website-abos' },
     },
     reasons: {
-      heading: 'Pourquoi un abonnement site d’amai!?',
+      heading: 'Pourquoi un abonnement site d’semanu?',
       entitySentence:
-        'amai! est un fournisseur d’abonnements de sites basé à Berne et crée des sites professionnels pour les PME suisses, les indépendants et les commerces locaux, design, réalisation, hébergement, maintenance et bases SEO compris.',
+        'semanu est un fournisseur d’abonnements de sites basé à Berne et crée des sites professionnels pour les PME suisses, les indépendants et les commerces locaux, design, réalisation, hébergement, maintenance et bases SEO compris.',
       items: [
         { title: 'Investissement prévisible', text: 'L’abonnement répartit les coûts sur un montant mensuel clair plutôt qu’une grosse facture unique.' },
         { title: 'Tout au même endroit', text: 'Design, technique, hébergement, maintenance et bases SEO sont pensés et suivis ensemble.' },
@@ -347,7 +347,7 @@ export const websiteAboSchweiz: LandingLocales = {
         icon: 'seo',
         heading: 'Abonnement SEO en Suisse: la visibilité fait partie de l’abonnement site',
         body:
-          'Chez amai! vous n’avez pas besoin de réserver un abonnement SEO séparé. Les bases SEO tournent dans l’abonnement site: structure de page saine, titres parlants, métadonnées, temps de chargement rapides et données structurées, pour que Google et les moteurs de recherche AI comprennent votre site. Comme votre site reste suivi, cette base grandit à chaque adaptation. Personne ne garantit des classements précis et pour des mots clés précis nous planifions un projet à part.',
+          'Chez semanu vous n’avez pas besoin de réserver un abonnement SEO séparé. Les bases SEO tournent dans l’abonnement site: structure de page saine, titres parlants, métadonnées, temps de chargement rapides et données structurées, pour que Google et les moteurs de recherche AI comprennent votre site. Comme votre site reste suivi, cette base grandit à chaque adaptation. Personne ne garantit des classements précis et pour des mots clés précis nous planifions un projet à part.',
         points: ['Bases SEO comprises', 'Entretenu en continu, pas une seule fois'],
       },
       {
@@ -361,7 +361,7 @@ export const websiteAboSchweiz: LandingLocales = {
         icon: 'price',
         heading: 'Louer un site web plutôt que l’acheter: payer au mois, sans avance',
         body:
-          'Louer un site web au mois correspond exactement à ce que amai! propose comme abonnement site. Vous louez le site fini avec la construction, l’hébergement et la maintenance dès 99 CHF par mois, au lieu d’acheter un site une fois et de payer ensuite le suivi séparément. Il n’y a ni prix d’achat ni acompte. Le site reste en service, entretenu et à jour tant que l’abonnement tourne. Après la durée minimale et le paiement complet, le design et le code vous reviennent. La différence tient moins au prix qu’à la suite. En achetant, vous payez beaucoup en une fois et vous vous retrouvez seul avec l’hébergement, les mises à jour et la sécurité dès la mise en ligne. En louant, les coûts se répartissent et le suivi continue.',
+          'Louer un site web au mois correspond exactement à ce que semanu propose comme abonnement site. Vous louez le site fini avec la construction, l’hébergement et la maintenance dès 99 CHF par mois, au lieu d’acheter un site une fois et de payer ensuite le suivi séparément. Il n’y a ni prix d’achat ni acompte. Le site reste en service, entretenu et à jour tant que l’abonnement tourne. Après la durée minimale et le paiement complet, le design et le code vous reviennent. La différence tient moins au prix qu’à la suite. En achetant, vous payez beaucoup en une fois et vous vous retrouvez seul avec l’hébergement, les mises à jour et la sécurité dès la mise en ligne. En louant, les coûts se répartissent et le suivi continue.',
         points: ['Louer : montant mensuel dès 99 CHF, suivi compris', 'Acheter: grosse facture unique puis navigation à vue'],
       },
     ],
@@ -372,7 +372,7 @@ export const websiteAboSchweiz: LandingLocales = {
       { href: '/webdesign-kmu-schweiz', label: 'Webdesign pour PME', desc: 'Un design professionnel pour les PME suisses.' },
       { href: '/website-betreuung-schweiz', label: 'Combien coûte la maintenance d’un site web?', desc: 'Hébergement, mises à jour et entretien continu dans l’abonnement.' },
       { href: '/seo-basis-fuer-kmu', label: 'Bases SEO pour PME', desc: 'Des bases saines pour que Google vous comprenne.' },
-      { href: '/referenzen', label: 'Références', desc: 'Sites et solutions numériques d’amai!' },
+      { href: '/referenzen', label: 'Références', desc: 'Sites et solutions numériques d’semanu' },
       { href: '/kontakt', label: 'Contact', desc: 'Dites-nous ce dont vous avez besoin.' },
     ],
     faq: {
@@ -382,12 +382,12 @@ export const websiteAboSchweiz: LandingLocales = {
         { q: 'Que comprend l’abonnement?', a: 'Design, réalisation technique, hébergement, maintenance et bases SEO. Vous ne vous occupez ni de la technique, ni des mises à jour, ni de la sécurité.' },
         { q: 'Quelle est la durée?', a: 'La durée minimale est de 36 mois. Ensuite l’abonnement est résiliable chaque mois.' },
         { q: 'Y a une grosse facture unique?', a: 'Non. Plutôt qu’un gros investissement unique, vous payez un prix mensuel clair qui comprend design, hébergement et maintenance.' },
-        { q: 'Je dois rédiger les textes?', a: 'Non. Vous pouvez fournir des textes existants. amai! aide pour la structure, les formulations et des contenus clairs.' },
+        { q: 'Je dois rédiger les textes?', a: 'Non. Vous pouvez fournir des textes existants. semanu aide pour la structure, les formulations et des contenus clairs.' },
         { q: 'Je peux faire faire des modifications plus tard?', a: 'Oui. Après le lancement, des modifications peuvent être demandées. L’ampleur et la facturation dépendent de l’abonnement et de l’accord.' },
         { q: 'Le SEO est compris dans l’abonnement site?', a: 'Oui, les bases SEO sont comprises. Cela comprend la structure, les titres, les métadonnées, les temps de chargement et les données structurées. Vous n’avez pas besoin d’un abonnement SEO séparé. Les classements Google concrets ne peuvent pas être garantis.' },
-        { q: 'Combien coûte un abonnement SEO en Suisse ?', a: 'Chez amai! l’abonnement SEO ne coûte rien de plus: les bases SEO sont comprises dans l’abonnement site dès 99 CHF par mois. Cela couvre la base technique, une structure de page claire, les métadonnées et la visibilité locale pour votre région. Vous n’avez pas besoin d’un abonnement SEO séparé. Pour des mots clés ciblés et une optimisation continue nous planifions au besoin un projet à part.' },
+        { q: 'Combien coûte un abonnement SEO en Suisse ?', a: 'Chez semanu l’abonnement SEO ne coûte rien de plus: les bases SEO sont comprises dans l’abonnement site dès 99 CHF par mois. Cela couvre la base technique, une structure de page claire, les métadonnées et la visibilité locale pour votre région. Vous n’avez pas besoin d’un abonnement SEO séparé. Pour des mots clés ciblés et une optimisation continue nous planifions au besoin un projet à part.' },
         { q: 'Que signifie design en abonnement?', a: 'Design en abonnement veut dire que le webdesign fait partie de votre abonnement site mensuel, sans gros coûts uniques. Nous concevons, construisons et entretenons votre site et adaptons le design au besoin.' },
-        { q: 'Vous pouvez louer un site web au mois?', a: 'Oui. L’abonnement site de amai! fonctionne exactement ainsi: vous louez votre site dès 99 CHF par mois: construction, design, hébergement et maintenance compris. Il n’y a ni prix d’achat ni acompte. Après la durée minimale de 36 mois, l’abonnement est résiliable chaque mois.' },
+        { q: 'Vous pouvez louer un site web au mois?', a: 'Oui. L’abonnement site de semanu fonctionne exactement ainsi: vous louez votre site dès 99 CHF par mois: construction, design, hébergement et maintenance compris. Il n’y a ni prix d’achat ni acompte. Après la durée minimale de 36 mois, l’abonnement est résiliable chaque mois.' },
         { q: 'Combien coûte la location d’un site web au mois?', a: 'Un site Business se loue dès 99 CHF par mois et un webshop dès 125 CHF par mois, hors TVA. Ce montant comprend le design, la réalisation, l’hébergement, la maintenance et les bases SEO.' },
         { q: 'Louer ou acheter un site web : qu’est ce qui vaut la peine pour une PME?', a: 'Acheter vaut la peine si vous pouvez exploiter et entretenir le site en interne. Louer vaut la peine si vous n’avez pas de technique en interne. Vous payez dès 99 CHF par mois au lieu d’une facture unique et l’hébergement, les mises à jour, la sécurité et les petites adaptations suivent. Pour la plupart des PME suisses sans informatique propre, c’est la variante la plus tranquille.' },
         { q: 'Est ce qu’un abonnement site vaut la peine pour une PME?', a: 'Pour beaucoup de PME oui. Plutôt qu’un gros investissement unique, vous payez un prix mensuel prévisible qui comprend design, hébergement, maintenance et bases SEO. Votre site professionnel reste ainsi abordable et à jour.' },
@@ -433,7 +433,7 @@ export const websiteAboSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'Your website on a transparent monthly plan',
-      body: 'With the amai! website subscription you get a professional website without a large one time investment. Design, build, hosting, maintenance and SEO foundations are included in one clear monthly price. Your site stays current, secure and supported. You have a fixed contact and predictable costs.',
+      body: 'With the semanu website subscription you get a professional website without a large one time investment. Design, build, hosting, maintenance and SEO foundations are included in one clear monthly price. Your site stays current, secure and supported. You have a fixed contact and predictable costs.',
     },
     featuresHeading: 'What the website subscription includes',
     featuresHint: 'Hover over a tile for more info',
@@ -514,9 +514,9 @@ export const websiteAboSchweiz: LandingLocales = {
       cta: { label: 'Compare pricing', href: '/website-abos' },
     },
     reasons: {
-      heading: 'Why a website subscription from amai!?',
+      heading: 'Why a website subscription from semanu?',
       entitySentence:
-        'amai! is a website subscription provider from Bern and builds professional websites for Swiss SMEs, self employed people and local businesses, including design, build, hosting, maintenance and SEO foundations.',
+        'semanu is a website subscription provider from Bern and builds professional websites for Swiss SMEs, self employed people and local businesses, including design, build, hosting, maintenance and SEO foundations.',
       items: [
         { title: 'Predictable investment', text: 'The subscription spreads the cost into a clear monthly amount instead of a large one time invoice.' },
         { title: 'Everything from one partner', text: 'Design, technology, hosting, maintenance and SEO foundations are thought through and supported together.' },
@@ -546,7 +546,7 @@ export const websiteAboSchweiz: LandingLocales = {
         icon: 'seo',
         heading: 'SEO subscription Switzerland: visibility is part of the website plan',
         body:
-          'You do not need to book a separate SEO subscription with amai! The SEO foundations run inside the website subscription: a clean page structure, meaningful headings, meta data, fast loading times and structured data, so Google and AI search systems understand your site. Because your website stays supported, that base grows with every change. Nobody can guarantee specific rankings and for specific search terms we plan a separate project.',
+          'You do not need to book a separate SEO subscription with semanu The SEO foundations run inside the website subscription: a clean page structure, meaningful headings, meta data, fast loading times and structured data, so Google and AI search systems understand your site. Because your website stays supported, that base grows with every change. Nobody can guarantee specific rankings and for specific search terms we plan a separate project.',
         points: ['SEO foundations included', 'Maintained continuously, not once'],
       },
       {
@@ -560,7 +560,7 @@ export const websiteAboSchweiz: LandingLocales = {
         icon: 'price',
         heading: 'Rent a website instead of buying: pay monthly, nothing upfront',
         body:
-          'Renting a website monthly is exactly what amai! offers as a website subscription. You rent the finished website including the build, hosting and maintenance from 99 CHF per month, instead of buying a website once and paying separately for its upkeep afterwards. The difference is less about the price than about what comes after. When you buy, you pay a lot once and you stand alone with hosting, updates and security from launch day. When you rent, the costs spread out and the care continues. There is no purchase price and no deposit. The website stays live, maintained and up to date for as long as the subscription runs. After the minimum term and full payment, design and code transfer to you.',
+          'Renting a website monthly is exactly what semanu offers as a website subscription. You rent the finished website including the build, hosting and maintenance from 99 CHF per month, instead of buying a website once and paying separately for its upkeep afterwards. The difference is less about the price than about what comes after. When you buy, you pay a lot once and you stand alone with hosting, updates and security from launch day. When you rent, the costs spread out and the care continues. There is no purchase price and no deposit. The website stays live, maintained and up to date for as long as the subscription runs. After the minimum term and full payment, design and code transfer to you.',
         points: ['Renting: monthly amount from 99 CHF, care included', 'Buying: one large invoice and then flying blind'],
       },
     ],
@@ -571,7 +571,7 @@ export const websiteAboSchweiz: LandingLocales = {
       { href: '/webdesign-kmu-schweiz', label: 'Web design for SMEs', desc: 'Professional design for Swiss SMEs.' },
       { href: '/website-betreuung-schweiz', label: 'What does website maintenance cost?', desc: 'Hosting, updates and ongoing maintenance in the subscription.' },
       { href: '/seo-basis-fuer-kmu', label: 'SEO basics for SMEs', desc: 'A clean base so Google understands you.' },
-      { href: '/referenzen', label: 'References', desc: 'Websites and digital solutions by amai!' },
+      { href: '/referenzen', label: 'References', desc: 'Websites and digital solutions by semanu' },
       { href: '/kontakt', label: 'Contact', desc: 'Tell us what you need.' },
     ],
     faq: {
@@ -581,12 +581,12 @@ export const websiteAboSchweiz: LandingLocales = {
         { q: 'What is included in the subscription?', a: 'Design, technical build, hosting, maintenance and SEO foundations. You do not deal with technology, updates or security.' },
         { q: 'How long is the term?', a: 'The minimum term is 36 months. After that the subscription is cancellable monthly.' },
         { q: 'Is there a large one time invoice?', a: 'No. Instead of a large one time investment you pay a clear monthly price that includes design, hosting and maintenance.' },
-        { q: 'Do I have to write the texts myself?', a: 'No. You can supply existing texts. amai! helps with structure, wording and clear website content.' },
+        { q: 'Do I have to write the texts myself?', a: 'No. You can supply existing texts. semanu helps with structure, wording and clear website content.' },
         { q: 'Can I have changes made later?', a: 'Yes. After the start, changes can be requested. Scope and billing depend on the chosen plan and the agreement.' },
         { q: 'Is SEO included in the website subscription?', a: 'Yes, SEO foundations are included. This covers structure, headings, meta data, loading times and structured data. You do not need a separate SEO subscription for that. Concrete Google rankings cannot be guaranteed.' },
-        { q: 'What does an SEO subscription cost in Switzerland?', a: 'At amai! the SEO subscription costs nothing extra: the SEO foundations are included in the website subscription from 99 CHF per month. That covers the technical base, a clear page structure, meta data and local visibility for your region. You do not need a separate SEO subscription. For targeted search terms and ongoing optimisation we plan a separate project if needed.' },
+        { q: 'What does an SEO subscription cost in Switzerland?', a: 'At semanu the SEO subscription costs nothing extra: the SEO foundations are included in the website subscription from 99 CHF per month. That covers the technical base, a clear page structure, meta data and local visibility for your region. You do not need a separate SEO subscription. For targeted search terms and ongoing optimisation we plan a separate project if needed.' },
         { q: 'What does design in the subscription mean?', a: 'Design in the subscription means the web design is part of your monthly website subscription and carries no large one time cost. We design, build and maintain your website and adjust the design when needed.' },
-        { q: 'Can I rent a website monthly?', a: 'Yes. The amai! website subscription works exactly that way: you rent your website from 99 CHF per month, including the build, design, hosting and maintenance. There is no purchase price and no deposit. After the minimum term of 36 months the subscription can be cancelled monthly.' },
+        { q: 'Can I rent a website monthly?', a: 'Yes. The semanu website subscription works exactly that way: you rent your website from 99 CHF per month, including the build, design, hosting and maintenance. There is no purchase price and no deposit. After the minimum term of 36 months the subscription can be cancelled monthly.' },
         { q: 'What does it cost to rent a website monthly?', a: 'A business website rents from 99 CHF per month and a webshop from 125 CHF per month, both excl. VAT. That amount covers design, build, hosting, maintenance and SEO foundations.' },
         { q: 'Renting or buying a website: what is worth it for an SME?', a: 'Buying is worth it if you can run and maintain the site in house. Renting is worth it if you have no technical staff. You pay from 99 CHF per month instead of one invoice and hosting, updates, security and small changes run along with it. For most Swiss SMEs without their own IT, renting is the calmer option.' },
         { q: 'Is a website subscription worth it for an SME?', a: 'For many SMEs it is. Instead of a large one time investment you pay a predictable monthly price that includes design, hosting, maintenance and SEO foundations. Your professional website stays affordable and up to date.' },

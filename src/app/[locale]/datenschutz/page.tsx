@@ -15,9 +15,9 @@ const UPDATED_LABEL: Record<string, string> = {
 // One-line factual meta description per locale (house copy rules: no dashes, no
 // comma before und/et/and, Swiss ss).
 const DESC: Record<string, string> = {
-  de: 'Datenschutzerklärung von amai!: welche Daten wir erheben, wie wir sie verwenden und welche Rechte Sie haben.',
-  fr: 'Déclaration de confidentialité de amai!: quelles données nous collectons, comment nous les utilisons et quels sont vos droits.',
-  en: 'Privacy policy of amai!: which data we collect, how we use it and what rights you have.',
+  de: 'Datenschutzerklärung von semanu: welche Daten wir erheben, wie wir sie verwenden und welche Rechte Sie haben.',
+  fr: 'Déclaration de confidentialité de semanu: quelles données nous collectons, comment nous les utilisons et quels sont vos droits.',
+  en: 'Privacy policy of semanu: which data we collect, how we use it and what rights you have.',
 };
 
 export async function generateMetadata({
@@ -28,7 +28,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const doc = await getLegalDoc('privacy', locale);
   return pageMetadata({
-    title: `${doc?.title ?? 'Datenschutz'} · amai.ch`,
+    title: `${doc?.title ?? 'Datenschutz'} · semanu.eu`,
     description: DESC[locale] ?? DESC.de,
     path: '/datenschutz',
     locale,
@@ -54,7 +54,7 @@ export default async function DatenschutzPage({
 
   return (
     <SiteShell>
-      <Breadcrumb items={[{ name: 'amai.ch', href: '/' }, { name: doc.title }]} locale={locale} />
+      <Breadcrumb items={[{ name: 'semanu.eu', href: '/' }, { name: doc.title }]} locale={locale} />
       <section className="bg-paper text-ink">
         <div className="container-site max-w-3xl pb-20 pt-10">
           <h1 className="h2">{doc.title}</h1>

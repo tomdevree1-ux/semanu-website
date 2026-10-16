@@ -87,7 +87,7 @@ export async function LandingTemplate({
                   <span className="h-2.5 w-2.5 rounded-full bg-white/30" />
                   <span className="h-2.5 w-2.5 rounded-full bg-white/30" />
                   <span className="ml-3 flex-1 rounded-full bg-white/10 px-3 py-1 font-mono text-[11px] text-white/70">
-                    amai.ch
+                    semanu.eu
                   </span>
                 </div>
                 <div className="space-y-3 p-6">
@@ -174,7 +174,7 @@ export async function LandingTemplate({
 
       {/* What you get: a segmented pie wheel (same style as the so-funktioniert
           WhyWheel). Each feature becomes a numbered segment with its title and
-          short description placed around the central amai! hub. */}
+          short description placed around the central semanu hub. */}
       {content.features && content.features.length > 0 ? (
         <section className="relative z-10 bg-paper py-16">
           <div className="container-site">
@@ -244,7 +244,7 @@ export async function LandingTemplate({
         </section>
       ) : null}
 
-      {/* Why amai! */}
+      {/* Why semanu */}
       {content.reasons ? (
         <section className="flow-soft-white py-16 text-ink">
           <div className="container-site">

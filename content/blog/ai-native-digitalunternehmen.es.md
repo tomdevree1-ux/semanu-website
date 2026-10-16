@@ -1,6 +1,6 @@
 ---
 title: "Qué significa ser una empresa digital AI nativa"
-description: "amai! es una empresa digital AI nativa y un punto de contacto central para todo lo digital. Qué significa ser AI nativo y cómo se beneficia su empresa de ello."
+description: "semanu es una empresa digital AI nativa y un punto de contacto central para todo lo digital. Qué significa ser AI nativo y cómo se beneficia su empresa de ello."
 date: "2026-07-10"
 updated: "2026-09-08"
 author: "Tom"
@@ -10,11 +10,11 @@ cover: "/blog/ai-native-digitalunternehmen-cover.svg"
 
 La tecnología digital debe hacer avanzar a una empresa y no complicarla. Aun así, muchas empresas trabajan hoy con distintos proveedores para su sitio web, su tienda online, el email marketing, las automatizaciones, el software y la AI. El resultado son sistemas dispersos, comunicación lenta y soluciones que están poco coordinadas entre sí. Con qué frecuencia se queda atrás ya la web lo muestra nuestro [estudio de webs de pymes](/es/blog/kmu-website-studie-schweiz): solo el 9 por ciento de las webs de pymes suizas están al día.
 
-En <span class="brand-mark">amai<span class="spark">!</span></span> lo abordamos de otra manera.
+En <span class="brand-mark">semanu<span class="spark">!</span></span> lo abordamos de otra manera.
 
 Somos un punto de contacto central para todo lo digital. Desde sitios web y tiendas online hasta marketing automation, plataformas de software y asistentes de AI: reunimos estrategia, tecnología y ejecución en un único socio digital.
 
-Pero hay algo más que nos diferencia. <span class="brand-mark">amai<span class="spark">!</span></span> es una empresa AI nativa.
+Pero hay algo más que nos diferencia. <span class="brand-mark">semanu<span class="spark">!</span></span> es una empresa AI nativa.
 
 ## Qué es una empresa AI nativa
 
@@ -46,7 +46,7 @@ Gracias a nuestra forma de trabajar AI nativa, a menudo podemos ejecutar proyect
 
 Esa eficiencia la trasladamos a nuestros clientes.
 
-Un precio de proyecto más bajo en <span class="brand-mark">amai<span class="spark">!</span></span> no significa que un proyecto reciba menos atención. Al contrario. Como la AI apoya una parte del trabajo de ejecución y repetitivo, nuestro equipo puede dedicarse más a las decisiones de fondo que marcan la diferencia.
+Un precio de proyecto más bajo en <span class="brand-mark">semanu<span class="spark">!</span></span> no significa que un proyecto reciba menos atención. Al contrario. Como la AI apoya una parte del trabajo de ejecución y repetitivo, nuestro equipo puede dedicarse más a las decisiones de fondo que marcan la diferencia.
 
 Piense en una estructura fácil de usar, una experiencia de cliente sólida, tecnología fiable y una solución que encaja con los procesos de la empresa.
 
@@ -54,7 +54,7 @@ Piense en una estructura fácil de usar, una experiencia de cliente sólida, tec
 
 Un sitio web nunca está solo. Debe recopilar leads, transmitir información, permitir citas o estar conectado con otros sistemas de la empresa. Una tienda online debe funcionar junto a los pagos, la gestión de inventario, las campañas de email y la atención al cliente. Un asistente de AI necesita acceso a la información correcta y debe encajar en los flujos de trabajo existentes.
 
-Por eso <span class="brand-mark">amai<span class="spark">!</span></span> ofrece distintos servicios digitales bajo un mismo techo: sitios web y tiendas online, email marketing y automatización de email, marketing automation, [plataformas digitales y software a medida](/es/services/business-systems), sistemas CRM, dashboards y portales de clientes, asistentes de AI para aplicaciones internas y externas, además de [estrategia y asesoramiento digital](/es/services/consultancy).
+Por eso <span class="brand-mark">semanu<span class="spark">!</span></span> ofrece distintos servicios digitales bajo un mismo techo: sitios web y tiendas online, email marketing y automatización de email, marketing automation, [plataformas digitales y software a medida](/es/services/business-systems), sistemas CRM, dashboards y portales de clientes, asistentes de AI para aplicaciones internas y externas, además de [estrategia y asesoramiento digital](/es/services/consultancy).
 
 Como estas disciplinas las reúne un solo socio, las distintas piezas encajan mejor entre sí. Los clientes no tienen que cambiar constantemente entre distintas agencias, desarrolladores y especialistas en software.
 
@@ -68,7 +68,7 @@ Un asistente de AI puede ayudar al equipo a reencontrar información, resumir do
 
 Por eso la mejor solución de AI no es necesariamente la más llamativa. Es la solución que resuelve un problema claro y ahorra tiempo cada semana.
 
-En <span class="brand-mark">amai<span class="spark">!</span></span> no empezamos con la pregunta de dónde podemos añadir AI. Empezamos con otras preguntas. ¿Dónde se pierde hoy mucho tiempo? ¿Qué preguntas se repiten constantemente? ¿Qué información es difícil de acceder? ¿Qué pasos pueden desarrollarse de forma más inteligente, rápida o consistente?
+En <span class="brand-mark">semanu<span class="spark">!</span></span> no empezamos con la pregunta de dónde podemos añadir AI. Empezamos con otras preguntas. ¿Dónde se pierde hoy mucho tiempo? ¿Qué preguntas se repiten constantemente? ¿Qué información es difícil de acceder? ¿Qué pasos pueden desarrollarse de forma más inteligente, rápida o consistente?
 
 Sobre esa base construimos [un asistente de AI](/es/services/ai-assistants) que encaja con la empresa, el equipo y los sistemas existentes.
 
@@ -78,7 +78,7 @@ Una solución digital nunca está definitivamente terminada. Las empresas cambia
 
 Por eso no creemos en tecnología que se olvida después del lanzamiento. Construimos soluciones que pueden mantenerse, ampliarse y mejorarse. Una empresa puede, por ejemplo, empezar con un sitio web profesional y más tarde añadir automatización de email, un portal de clientes o un asistente de AI.
 
-Como <span class="brand-mark">amai<span class="spark">!</span></span> conecta distintas disciplinas digitales, no hay que buscar un nuevo socio para cada paso siguiente. El conocimiento, la tecnología y la estrategia existentes pueden seguir ampliándose.
+Como <span class="brand-mark">semanu<span class="spark">!</span></span> conecta distintas disciplinas digitales, no hay que buscar un nuevo socio para cada paso siguiente. El conocimiento, la tecnología y la estrategia existentes pueden seguir ampliándose.
 
 Eso hace que el crecimiento digital sea más manejable y sostenible.
 
@@ -96,8 +96,8 @@ La AI nos ayuda a trabajar más rápido. Nuestras personas se encargan de que tr
 
 El mundo digital evoluciona rápido. Aun así, una empresa no tiene que seguir por su cuenta cada nueva herramienta, cada tendencia y cada tecnología.
 
-Con <span class="brand-mark">amai<span class="spark">!</span></span> obtiene un socio para todo su entorno digital. Un socio que no considera los sitios web, las automatizaciones, las plataformas y la AI como piezas sueltas. Las reúne en un enfoque claro.
+Con <span class="brand-mark">semanu<span class="spark">!</span></span> obtiene un socio para todo su entorno digital. Un socio que no considera los sitios web, las automatizaciones, las plataformas y la AI como piezas sueltas. Las reúne en un enfoque claro.
 
 Como trabajamos de forma AI nativa, podemos desarrollar más rápido, colaborar de forma más eficiente y ofrecer proyectos a un precio más económico. Sin perder de vista la experiencia humana, el acompañamiento personal y la calidad.
 
-¿Quiere descubrir cómo su empresa puede trabajar de forma más inteligente con tecnología digital y AI? Póngase en contacto con <span class="brand-mark">amai<span class="spark">!</span></span> y comente su idea con nosotros.
+¿Quiere descubrir cómo su empresa puede trabajar de forma más inteligente con tecnología digital y AI? Póngase en contacto con <span class="brand-mark">semanu<span class="spark">!</span></span> y comente su idea con nosotros.

@@ -11,7 +11,7 @@ Visitors arrive. They do not become customers. On the Swiss SME websites with th
 
 ## How we measured
 
-At <span class="brand-mark">amai<span class="spark">!</span></span> we continuously review Swiss SME websites against a fixed grid. We rated 2292 sites on a five level maturity scale. The 638 sites with the greatest need for work were also scored in eight categories from 0 to 10 points, one of them conversion. The numbers in this article therefore describe this weakest group specifically, not the average of all SMEs. The rating is indicative and based on visible website elements. All the detail and the overall results are in the [SME website study](/en/blog/kmu-website-studie-schweiz).
+At <span class="brand-mark">semanu<span class="spark">!</span></span> we continuously review Swiss SME websites against a fixed grid. We rated 2292 sites on a five level maturity scale. The 638 sites with the greatest need for work were also scored in eight categories from 0 to 10 points, one of them conversion. The numbers in this article therefore describe this weakest group specifically, not the average of all SMEs. The rating is indicative and based on visible website elements. All the detail and the overall results are in the [SME website study](/en/blog/kmu-website-studie-schweiz).
 
 ## The numbers
 

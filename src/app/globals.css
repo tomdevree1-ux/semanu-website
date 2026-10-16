@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* ============================================================
-   amai.ch — "Marine + Mint" design tokens (light & airy).
+   semanu.eu — "Marine + Mint" design tokens (light & airy).
    Brand: navy primary · teal-black ink · mint accent on a cool
    light base. The "!" and the primary CTA are mint.
 
@@ -13,7 +13,7 @@
    utility stays on-brand. Prefer the new names in new code.
    ============================================================ */
 @theme {
-  /* ---- amai rebrand palette (navy + mint · Instrument Sans · sharp 3px) ---- */
+  /* ---- semanu rebrand palette (navy + mint · Instrument Sans · sharp 3px) ---- */
   --color-navy: #16233d;       /* primary brand — header, dark panels, primary CTA */
   --color-navy-deep: #0e1830;  /* navy hover/active */
   --color-ink: #16233d;        /* ink = navy (unified dark, body text on light) */
@@ -212,7 +212,7 @@
     cursor: pointer;
   }
 
-  /* The amai! wordmark — gold "!" (spins on hover; occasional random spin via JS) */
+  /* The semanu wordmark — gold "!" (spins on hover; occasional random spin via JS) */
   .brand-mark { font-family: var(--font-sans); font-weight: 600; letter-spacing: -0.05em; white-space: nowrap; }
   .brand-mark .spark {
     color: var(--color-spark);
@@ -221,7 +221,7 @@
   }
   .brand-mark:hover .spark,
   .brand-mark .spark.is-spinning {
-    animation: amai-spin 0.7s cubic-bezier(0.34, 1.4, 0.5, 1);
+    animation: semanu-spin 0.7s cubic-bezier(0.34, 1.4, 0.5, 1);
   }
 
   /* Paintbrush swipe behind a word (e.g. the price in the hero): an organic
@@ -256,7 +256,7 @@
   from { opacity: 0; }
   to { opacity: 1; }
 }
-@keyframes amai-spin {
+@keyframes semanu-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
@@ -264,20 +264,20 @@
 /* Services nav: the gold "!" ticks a single slow 360° turn on a 5s loop (mostly
    at rest, ~0.7s of motion), and the mega panel fades + slides down on open.
    Both are neutralised by the global prefers-reduced-motion rule in @layer base. */
-@keyframes amai-tick {
+@keyframes semanu-tick {
   0%, 86% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-.amai-tick {
+.semanu-tick {
   display: inline-block;
   transform-origin: 50% 55%;
-  animation: amai-tick 5s ease-in-out infinite;
+  animation: semanu-tick 5s ease-in-out infinite;
 }
-@keyframes amai-mega-in {
+@keyframes semanu-mega-in {
   from { opacity: 0; transform: translateY(-8px); }
   to { opacity: 1; transform: translateY(0); }
 }
-.amai-mega { animation: amai-mega-in 0.2s ease-out; }
+.semanu-mega { animation: semanu-mega-in 0.2s ease-out; }
 
 /* ── Services page micro-interactions ───────────────────────────────
    All are progressive + safe: content is visible by default, so search
@@ -287,14 +287,14 @@
 /* Scroll reveal — CSS scroll-driven (no JS, no library). Only applies where
    `animation-timeline: view()` is supported and motion is allowed; otherwise
    the element stays at its default (fully visible) state. */
-@keyframes amai-reveal-kf {
+@keyframes semanu-reveal-kf {
   from { opacity: 0; transform: translateY(12px); }
   to { opacity: 1; transform: none; }
 }
 @media (prefers-reduced-motion: no-preference) {
   @supports (animation-timeline: view()) {
-    .amai-reveal {
-      animation: amai-reveal-kf both linear;
+    .semanu-reveal {
+      animation: semanu-reveal-kf both linear;
       animation-timeline: view();
       animation-range: entry 5% cover 22%;
     }
@@ -304,24 +304,24 @@
 /* Integrations logo band: a slow, continuous horizontal scroll. The track holds
    the logos twice; translating it by -50% loops seamlessly. Paused on hover and
    neutralised under prefers-reduced-motion (global rule in @layer base). */
-@keyframes amai-marquee-kf {
+@keyframes semanu-marquee-kf {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
 }
-.amai-marquee-track {
-  animation: amai-marquee-kf 38s linear infinite;
+.semanu-marquee-track {
+  animation: semanu-marquee-kf 38s linear infinite;
   will-change: transform;
 }
-.amai-marquee:hover .amai-marquee-track {
+.semanu-marquee:hover .semanu-marquee-track {
   animation-play-state: paused;
 }
 
 /* AI Assistants accent: a calm pulsing status dot (~2.4s). */
-@keyframes amai-pulse-kf {
+@keyframes semanu-pulse-kf {
   0%, 100% { opacity: 0.55; transform: scale(0.85); }
   50% { opacity: 1; transform: scale(1); }
 }
-.amai-pulse { animation: amai-pulse-kf 2.4s ease-in-out infinite; }
+.semanu-pulse { animation: semanu-pulse-kf 2.4s ease-in-out infinite; }
 
 /* CTA "buzz": a short attention shake that fires on load and replays every 5s
    (~0.5s of motion, then rest). Applied to a wrapper so the button's own hover
@@ -355,7 +355,7 @@
   flex-wrap: nowrap;
   width: max-content;
 }
-@keyframes amai-marquee {
+@keyframes semanu-marquee {
   from { transform: translate3d(0, 0, 0); }
   to   { transform: translate3d(calc(-100% / 3), 0, 0); }
 }
@@ -365,7 +365,7 @@
             mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent);
   }
   .marquee-track {
-    animation: amai-marquee var(--marquee-duration, 50s) linear infinite;
+    animation: semanu-marquee var(--marquee-duration, 50s) linear infinite;
     will-change: transform;
   }
   .marquee:hover .marquee-track {
@@ -400,7 +400,7 @@ select {
   padding-right: 2.1rem;
 }
 
-/* ── Branded cursor: the amai chevron (static, no animation) ─────────────────
+/* ── Branded cursor: the semanu chevron (static, no animation) ─────────────────
    Applied only on fine-pointer + hover devices so touch is unaffected. The
    navy chevron is the default; a mint chevron signals clickable elements; text
    fields keep their caret. Hotspot sits on the chevron tip (19,14 of 28px). */
@@ -424,7 +424,7 @@ select {
   }
 }
 
-/* ── Button arrow: the small amai chevron instead of a plain →. Masked, so it
+/* ── Button arrow: the small semanu chevron instead of a plain →. Masked, so it
    takes the button's text colour (white on the navy CTAs). Kept small. */
 .btn-arrow {
   display: inline-block;

@@ -11,7 +11,7 @@ Besucher kommen. Kunden werden sie nicht. Bei den Schweizer KMU Websites mit dem
 
 ## So haben wir gemessen
 
-Wir bewerten bei <span class="brand-mark">amai<span class="spark">!</span></span> laufend Websites von Schweizer KMU nach einem festen Raster. 2292 Seiten haben wir auf einer fünfstufigen Reifeskala eingestuft. Die 638 Seiten mit dem grössten Handlungsbedarf haben wir zusätzlich in acht Kategorien mit 0 bis 10 Punkten bewertet, darunter Conversion. Die Zahlen in diesem Artikel beschreiben also gezielt diese schwächste Gruppe, nicht den Durchschnitt aller KMU. Die Bewertung ist indikativ und beruht auf sichtbaren Website Elementen. Alle Details und die Gesamtergebnisse stehen in der [KMU Website Studie](/de/blog/kmu-website-studie-schweiz).
+Wir bewerten bei <span class="brand-mark">semanu<span class="spark">!</span></span> laufend Websites von Schweizer KMU nach einem festen Raster. 2292 Seiten haben wir auf einer fünfstufigen Reifeskala eingestuft. Die 638 Seiten mit dem grössten Handlungsbedarf haben wir zusätzlich in acht Kategorien mit 0 bis 10 Punkten bewertet, darunter Conversion. Die Zahlen in diesem Artikel beschreiben also gezielt diese schwächste Gruppe, nicht den Durchschnitt aller KMU. Die Bewertung ist indikativ und beruht auf sichtbaren Website Elementen. Alle Details und die Gesamtergebnisse stehen in der [KMU Website Studie](/de/blog/kmu-website-studie-schweiz).
 
 ## Die Zahlen
 

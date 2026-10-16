@@ -11,7 +11,7 @@ Les visiteurs arrivent. Ils ne deviennent pas clients. Sur les sites de PME suis
 
 ## Comment nous avons mesuré
 
-Chez <span class="brand-mark">amai<span class="spark">!</span></span>, nous évaluons en continu les sites de PME suisses selon une grille fixe. Nous avons classé 2292 sites sur une échelle de maturité à cinq niveaux. Les 638 sites au plus grand besoin de travail ont en plus été notés dans huit catégories de 0 à 10 points, dont la conversion. Les chiffres de cet article décrivent donc précisément ce groupe le plus faible, pas la moyenne de toutes les PME. La note est indicative et repose sur des éléments visibles du site. Tout le détail et les résultats globaux se trouvent dans l'[étude des sites de PME](/fr/blog/kmu-website-studie-schweiz).
+Chez <span class="brand-mark">semanu<span class="spark">!</span></span>, nous évaluons en continu les sites de PME suisses selon une grille fixe. Nous avons classé 2292 sites sur une échelle de maturité à cinq niveaux. Les 638 sites au plus grand besoin de travail ont en plus été notés dans huit catégories de 0 à 10 points, dont la conversion. Les chiffres de cet article décrivent donc précisément ce groupe le plus faible, pas la moyenne de toutes les PME. La note est indicative et repose sur des éléments visibles du site. Tout le détail et les résultats globaux se trouvent dans l'[étude des sites de PME](/fr/blog/kmu-website-studie-schweiz).
 
 ## Les chiffres
 

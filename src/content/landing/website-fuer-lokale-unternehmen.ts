@@ -63,9 +63,9 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
     },
     solution: {
       heading: 'Eine Website, die lokale Kunden findet und überzeugt',
-      body: 'amai! erstellt Websites für lokale Unternehmen in der Schweiz, die gefunden werden und Besucher zur Anfrage führen. Standort, Öffnungszeiten, Leistungen und Kontakt stehen klar im Vordergrund, für Smartphone Nutzer optimiert und mit SEO Grundlagen, damit Google Ihr Einzugsgebiet und Ihr Angebot versteht. Design, Hosting und Wartung sind im Abo enthalten.',
+      body: 'semanu erstellt Websites für lokale Unternehmen in der Schweiz, die gefunden werden und Besucher zur Anfrage führen. Standort, Öffnungszeiten, Leistungen und Kontakt stehen klar im Vordergrund, für Smartphone Nutzer optimiert und mit SEO Grundlagen, damit Google Ihr Einzugsgebiet und Ihr Angebot versteht. Design, Hosting und Wartung sind im Abo enthalten.',
     },
-    featuresHeading: 'Was Ihre lokale Website bei amai! enthält',
+    featuresHeading: 'Was Ihre lokale Website bei semanu enthält',
     featuresHint: 'Fahren Sie über eine Kachel für mehr Infos',
     featuresLayout: 'cards',
     features: [
@@ -146,7 +146,7 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
     pricing: {
       heading: 'Was kostet eine Website für lokale Unternehmen?',
       intro:
-        'Bei amai! zahlen Sie einen klaren monatlichen Preis statt einer hohen Einmalrechnung. Design, Hosting, Wartung und SEO Grundlagen sind im Abo enthalten.',
+        'Bei semanu zahlen Sie einen klaren monatlichen Preis statt einer hohen Einmalrechnung. Design, Hosting, Wartung und SEO Grundlagen sind im Abo enthalten.',
       cards: [
         {
           name: 'Business Website',
@@ -177,9 +177,9 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
       cta: { label: 'Preise vergleichen', href: '/website-abos' },
     },
     reasons: {
-      heading: 'Warum amai! für lokale Unternehmen?',
+      heading: 'Warum semanu für lokale Unternehmen?',
       entitySentence:
-        'amai! ist ein Anbieter für Website Abos aus Bern und erstellt professionelle Websites für Schweizer KMU, Selbständige und lokale Unternehmen, inklusive Design, Umsetzung, Hosting, Wartung und SEO Grundlagen.',
+        'semanu ist ein Anbieter für Website Abos aus Bern und erstellt professionelle Websites für Schweizer KMU, Selbständige und lokale Unternehmen, inklusive Design, Umsetzung, Hosting, Wartung und SEO Grundlagen.',
       items: [
         {
           title: 'Auf lokale Sichtbarkeit ausgerichtet',
@@ -208,9 +208,9 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
       ],
     },
     audience: {
-      heading: 'Für welche lokalen Unternehmen ist amai! gedacht?',
+      heading: 'Für welche lokalen Unternehmen ist semanu gedacht?',
       intro:
-        'amai! passt besonders gut für Unternehmen, die lokal tätig sind und online professionell sichtbar sein möchten, ohne sich selbst um Technik, Hosting und Wartung kümmern zu wollen.',
+        'semanu passt besonders gut für Unternehmen, die lokal tätig sind und online professionell sichtbar sein möchten, ohne sich selbst um Technik, Hosting und Wartung kümmern zu wollen.',
       items: [
         'Handwerksbetriebe und Bauunternehmen',
         'Restaurants, Cafés und Gastronomiebetriebe',
@@ -225,7 +225,7 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
     },
     sections: [],
     links: [
-      { href: '/referenzen', label: 'Referenzen', desc: 'Websites und digitale Lösungen von amai!' },
+      { href: '/referenzen', label: 'Referenzen', desc: 'Websites und digitale Lösungen von semanu' },
       { href: '/website-abos', label: 'Preise', desc: 'Transparente Abos für Business und Webshop.' },
       { href: '/so-funktioniert', label: 'So funktioniert\’s', desc: 'Schritt für Schritt zur fertigen lokalen Website.' },
       { href: '/website-erstellen-lassen-schweiz', label: 'Website erstellen lassen', desc: 'Professionelle Website für Schweizer Unternehmen.' },
@@ -247,7 +247,7 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
         },
         {
           q: 'Ist die Website für das Smartphone optimiert?',
-          a: 'Ja. Alle Websites von amai! sind Mobile First gestaltet und umgesetzt. Lokale Suchanfragen kommen überwiegend vom Smartphone, deshalb ist die mobile Darstellung besonders wichtig.',
+          a: 'Ja. Alle Websites von semanu sind Mobile First gestaltet und umgesetzt. Lokale Suchanfragen kommen überwiegend vom Smartphone, deshalb ist die mobile Darstellung besonders wichtig.',
         },
         {
           q: 'Hilft die Website dabei, bei Google gefunden zu werden?',
@@ -259,7 +259,7 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
         },
         {
           q: 'Muss ich die Texte selbst schreiben?',
-          a: 'Nein. Sie können vorhandene Texte, Informationen zu Ihren Leistungen und Bilder liefern. amai! hilft bei Struktur und klaren Website Texten.',
+          a: 'Nein. Sie können vorhandene Texte, Informationen zu Ihren Leistungen und Bilder liefern. semanu hilft bei Struktur und klaren Website Texten.',
         },
         {
           q: 'Wie lange dauert es bis die Website online ist?',
@@ -335,9 +335,9 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
     },
     solution: {
       heading: 'Un site qui trouve et convainc les clients locaux',
-      body: 'amai! crée des sites pour les commerces locaux en Suisse qui se font trouver et mènent les visiteurs à la demande. Adresse, horaires, prestations et contact sont mis en avant clairement, optimisés pour les utilisateurs smartphone et avec les bases SEO pour que Google comprenne votre zone et votre offre. Design, hébergement et maintenance sont compris dans l\’abonnement.',
+      body: 'semanu crée des sites pour les commerces locaux en Suisse qui se font trouver et mènent les visiteurs à la demande. Adresse, horaires, prestations et contact sont mis en avant clairement, optimisés pour les utilisateurs smartphone et avec les bases SEO pour que Google comprenne votre zone et votre offre. Design, hébergement et maintenance sont compris dans l\’abonnement.',
     },
-    featuresHeading: 'Ce que contient votre site local chez amai!',
+    featuresHeading: 'Ce que contient votre site local chez semanu',
     featuresHint: 'Passez sur une tuile pour plus d\’infos',
     featuresLayout: 'cards',
     features: [
@@ -418,7 +418,7 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
     pricing: {
       heading: 'Combien coûte un site pour un commerce local?',
       intro:
-        'Chez amai! vous payez un prix mensuel clair au lieu d\’une grosse facture unique. Design, hébergement, maintenance et bases SEO sont compris dans l\’abonnement.',
+        'Chez semanu vous payez un prix mensuel clair au lieu d\’une grosse facture unique. Design, hébergement, maintenance et bases SEO sont compris dans l\’abonnement.',
       cards: [
         {
           name: 'Business Website',
@@ -449,9 +449,9 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
       cta: { label: 'Comparer les prix', href: '/website-abos' },
     },
     reasons: {
-      heading: 'Pourquoi amai! pour les commerces locaux?',
+      heading: 'Pourquoi semanu pour les commerces locaux?',
       entitySentence:
-        'amai! est un fournisseur d\’abonnements de sites basé à Berne et crée des sites professionnels pour les PME suisses, les indépendants et les commerces locaux, design, réalisation, hébergement, maintenance et bases SEO compris.',
+        'semanu est un fournisseur d\’abonnements de sites basé à Berne et crée des sites professionnels pour les PME suisses, les indépendants et les commerces locaux, design, réalisation, hébergement, maintenance et bases SEO compris.',
       items: [
         {
           title: 'Pensé pour la visibilité locale',
@@ -480,9 +480,9 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
       ],
     },
     audience: {
-      heading: 'À quels commerces locaux s’adresse amai!?',
+      heading: 'À quels commerces locaux s’adresse semanu?',
       intro:
-        'amai! convient particulièrement aux entreprises actives localement qui veulent être visibles en ligne de façon professionnelle sans vouloir gérer la technique, l\’hébergement et la maintenance.',
+        'semanu convient particulièrement aux entreprises actives localement qui veulent être visibles en ligne de façon professionnelle sans vouloir gérer la technique, l\’hébergement et la maintenance.',
       items: [
         'Artisans et entreprises de construction',
         'Restaurants, cafés et établissements de restauration',
@@ -497,7 +497,7 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
     },
     sections: [],
     links: [
-      { href: '/referenzen', label: 'Références', desc: 'Sites et solutions numériques d\’amai!' },
+      { href: '/referenzen', label: 'Références', desc: 'Sites et solutions numériques d\’semanu' },
       { href: '/website-abos', label: 'Prix', desc: 'Abonnements transparents pour Business et Webshop.' },
       { href: '/so-funktioniert', label: 'Comment ça marche', desc: 'Votre site local étape par étape.' },
       { href: '/website-erstellen-lassen-schweiz', label: 'Faire créer son site', desc: 'Site professionnel pour les entreprises suisses.' },
@@ -519,7 +519,7 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
         },
         {
           q: 'Le site est optimisé pour le smartphone?',
-          a: 'Oui. Tous les sites amai! sont conçus et réalisés Mobile First. Les recherches locales viennent majoritairement du smartphone, ce qui rend l\’affichage mobile particulièrement important.',
+          a: 'Oui. Tous les sites semanu sont conçus et réalisés Mobile First. Les recherches locales viennent majoritairement du smartphone, ce qui rend l\’affichage mobile particulièrement important.',
         },
         {
           q: 'Le site aide à être trouvé sur Google?',
@@ -531,7 +531,7 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
         },
         {
           q: 'Je dois rédiger les textes?',
-          a: 'Non. Vous pouvez fournir des textes existants, des informations sur vos prestations et des images. amai! aide pour la structure et des textes clairs.',
+          a: 'Non. Vous pouvez fournir des textes existants, des informations sur vos prestations et des images. semanu aide pour la structure et des textes clairs.',
         },
         {
           q: 'En combien de temps le site est en ligne?',
@@ -607,9 +607,9 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
     },
     solution: {
       heading: 'A website that finds and convinces local customers',
-      body: 'amai! builds websites for local businesses in Switzerland that get found and guide visitors to an enquiry. Location, opening hours, services and contact sit clearly front and centre, optimised for smartphone users and with SEO foundations so Google understands your area and your offer. Design, hosting and maintenance are included in the subscription.',
+      body: 'semanu builds websites for local businesses in Switzerland that get found and guide visitors to an enquiry. Location, opening hours, services and contact sit clearly front and centre, optimised for smartphone users and with SEO foundations so Google understands your area and your offer. Design, hosting and maintenance are included in the subscription.',
     },
-    featuresHeading: 'What your local website with amai! includes',
+    featuresHeading: 'What your local website with semanu includes',
     featuresHint: 'Hover over a tile for more info',
     featuresLayout: 'cards',
     features: [
@@ -690,7 +690,7 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
     pricing: {
       heading: 'What does a website for a local business cost?',
       intro:
-        'At amai! you pay a clear monthly price instead of a large one time invoice. Design, hosting, maintenance and SEO foundations are included in the subscription.',
+        'At semanu you pay a clear monthly price instead of a large one time invoice. Design, hosting, maintenance and SEO foundations are included in the subscription.',
       cards: [
         {
           name: 'Business Website',
@@ -721,9 +721,9 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
       cta: { label: 'Compare pricing', href: '/website-abos' },
     },
     reasons: {
-      heading: 'Why amai! for local businesses?',
+      heading: 'Why semanu for local businesses?',
       entitySentence:
-        'amai! is a website subscription provider from Bern that builds professional websites for Swiss SMEs, self employed people and local businesses, including design, build, hosting, maintenance and SEO foundations.',
+        'semanu is a website subscription provider from Bern that builds professional websites for Swiss SMEs, self employed people and local businesses, including design, build, hosting, maintenance and SEO foundations.',
       items: [
         {
           title: 'Built for local visibility',
@@ -752,9 +752,9 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
       ],
     },
     audience: {
-      heading: 'Which local businesses is amai! for?',
+      heading: 'Which local businesses is semanu for?',
       intro:
-        'amai! is a particularly good fit for businesses that operate locally and want to be visible online in a professional way without having to deal with technology, hosting and maintenance themselves.',
+        'semanu is a particularly good fit for businesses that operate locally and want to be visible online in a professional way without having to deal with technology, hosting and maintenance themselves.',
       items: [
         'Tradespeople and construction businesses',
         'Restaurants, cafés and catering businesses',
@@ -769,7 +769,7 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
     },
     sections: [],
     links: [
-      { href: '/referenzen', label: 'References', desc: 'Websites and digital solutions by amai!' },
+      { href: '/referenzen', label: 'References', desc: 'Websites and digital solutions by semanu' },
       { href: '/website-abos', label: 'Pricing', desc: 'Transparent plans for Business and Webshop.' },
       { href: '/so-funktioniert', label: 'How it works', desc: 'Your local website step by step.' },
       { href: '/website-erstellen-lassen-schweiz', label: 'Have a website made', desc: 'Professional website for Swiss businesses.' },
@@ -791,7 +791,7 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
         },
         {
           q: 'Is the website optimised for smartphones?',
-          a: 'Yes. All amai! websites are designed and built Mobile First. Local searches come predominantly from smartphones, which makes the mobile view especially important.',
+          a: 'Yes. All semanu websites are designed and built Mobile First. Local searches come predominantly from smartphones, which makes the mobile view especially important.',
         },
         {
           q: 'Does the website help with being found on Google?',
@@ -803,7 +803,7 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
         },
         {
           q: 'Do I have to write the text myself?',
-          a: 'No. You can supply existing texts, information about your services and images. amai! helps with structure and clear website text.',
+          a: 'No. You can supply existing texts, information about your services and images. semanu helps with structure and clear website text.',
         },
         {
           q: 'How long does it take until the website is live?',

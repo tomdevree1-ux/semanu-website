@@ -45,7 +45,7 @@ const Arrow = ({ className = '' }: { className?: string }) => (
 /**
  * Desktop Services mega dropdown. Opens on hover and on keyboard focus, closes on
  * outside click, Escape, blur or after a short grace period when the cursor
- * leaves. Light panel in the amai palette (paper / ink / red, gold accents).
+ * leaves. Light panel in the semanu palette (paper / ink / red, gold accents).
  * Every entry is a real link. The gold "!" ticks a slow single spin (CSS).
  */
 export function ServicesMenu({ navLinkClass }: { navLinkClass: string }) {
@@ -113,7 +113,7 @@ export function ServicesMenu({ navLinkClass }: { navLinkClass: string }) {
       </button>
 
       {open && (
-        <div id="services-mega" className="amai-mega absolute left-0 top-full z-50 pt-2">
+        <div id="services-mega" className="semanu-mega absolute left-0 top-full z-50 pt-2">
           <div
             role="menu"
             aria-label={t('servicesMega')}

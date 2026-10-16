@@ -8,7 +8,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
     eyebrow: 'Website Betreuung · Schweiz',
     h1: 'Website und Homepage Betreuung Schweiz',
     intro:
-      'Ihre Website soll zuverlässig laufen, sicher bleiben und technisch aktuell sein, ohne dass Sie sich selbst darum kümmern müssen. amai! übernimmt Hosting, Wartung, Updates und Sicherheit im laufenden Website Abo. Sie konzentrieren sich auf Ihr Geschäft, wir halten Ihre Website in Schuss. Ob Website oder Homepage, die laufende Betreuung bleibt dieselbe.',
+      'Ihre Website soll zuverlässig laufen, sicher bleiben und technisch aktuell sein, ohne dass Sie sich selbst darum kümmern müssen. semanu übernimmt Hosting, Wartung, Updates und Sicherheit im laufenden Website Abo. Sie konzentrieren sich auf Ihr Geschäft, wir halten Ihre Website in Schuss. Ob Website oder Homepage, die laufende Betreuung bleibt dieselbe.',
     heroBullets: [
       'Hosting und Wartung im Abo enthalten',
       'Technische Updates und Sicherheitspflege inklusive',
@@ -63,7 +63,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'Technische Betreuung, die einfach funktioniert',
-      body: 'Im Website Abo von amai! sind Hosting, Wartung, Updates und Sicherheitspflege von Anfang an enthalten. Sie kümmern sich nicht um Serververträge, Software Updates oder technische Details. Wir behalten die Technik im Blick, damit Ihre Website dauerhaft zuverlässig läuft und Ihre digitale Präsenz professionell bleibt. Kleine Anpassungen sind je nach gewähltem Abo und Vereinbarung möglich.',
+      body: 'Im Website Abo von semanu sind Hosting, Wartung, Updates und Sicherheitspflege von Anfang an enthalten. Sie kümmern sich nicht um Serververträge, Software Updates oder technische Details. Wir behalten die Technik im Blick, damit Ihre Website dauerhaft zuverlässig läuft und Ihre digitale Präsenz professionell bleibt. Kleine Anpassungen sind je nach gewähltem Abo und Vereinbarung möglich.',
     },
     featuresHeading: 'Was die Website Betreuung umfasst',
     featuresHint: 'Fahren Sie über eine Kachel für mehr Infos',
@@ -146,15 +146,15 @@ export const websiteBetreuungSchweiz: LandingLocales = {
     pricing: {
       heading: 'Was kostet die Website Betreuung?',
       intro:
-        'Website Betreuung kostet bei amai! ab 99 CHF pro Monat, exkl. MWST. In diesem Betrag stecken Hosting, Wartung, technische Updates, Sicherheit und Backups. Website Pflege, Wartung und Betreuung meinen dabei dasselbe und werden nicht getrennt verrechnet. Es gibt keine separate Rechnung für den laufenden Betrieb, keinen Stundensatz für Standardpflege und keinen zusätzlichen Wartungsvertrag. Das Abo deckt neben Design und Umsetzung auch den kompletten technischen Betrieb ab.',
+        'Website Betreuung kostet bei semanu ab 99 CHF pro Monat, exkl. MWST. In diesem Betrag stecken Hosting, Wartung, technische Updates, Sicherheit und Backups. Website Pflege, Wartung und Betreuung meinen dabei dasselbe und werden nicht getrennt verrechnet. Es gibt keine separate Rechnung für den laufenden Betrieb, keinen Stundensatz für Standardpflege und keinen zusätzlichen Wartungsvertrag. Das Abo deckt neben Design und Umsetzung auch den kompletten technischen Betrieb ab.',
       note: 'Alle Preise exkl. MWST. Mindestlaufzeit 36 Monate, danach monatlich kündbar.',
       cta: { label: 'Preise ansehen', href: '/website-abos' },
       cards: [],
     },
     reasons: {
-      heading: 'Warum amai! für die Website Betreuung?',
+      heading: 'Warum semanu für die Website Betreuung?',
       entitySentence:
-        'amai! ist ein Anbieter für Website Abos aus Bern und betreut professionelle Websites für Schweizer KMU, Selbständige und lokale Unternehmen, inklusive Design, Umsetzung, Hosting, Wartung und SEO Grundlagen.',
+        'semanu ist ein Anbieter für Website Abos aus Bern und betreut professionelle Websites für Schweizer KMU, Selbständige und lokale Unternehmen, inklusive Design, Umsetzung, Hosting, Wartung und SEO Grundlagen.',
       items: [
         {
           title: 'Alles aus einer Hand',
@@ -181,7 +181,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
     audience: {
       heading: 'Für wen ist die Website Betreuung gedacht?',
       intro:
-        'Die Website Betreuung von amai! passt zu Unternehmen, die eine professionell betriebene Website möchten und sich nicht selbst um Hosting, Updates, Sicherheit und technische Pflege kümmern wollen.',
+        'Die Website Betreuung von semanu passt zu Unternehmen, die eine professionell betriebene Website möchten und sich nicht selbst um Hosting, Updates, Sicherheit und technische Pflege kümmern wollen.',
       items: [
         'Selbständige und Einzelunternehmen',
         'Handwerksbetriebe und lokale Dienstleister',
@@ -198,14 +198,14 @@ export const websiteBetreuungSchweiz: LandingLocales = {
       {
         icon: 'support',
         heading: 'Homepage Betreuung: Ihre Homepage bleibt gepflegt',
-        body: 'Homepage Betreuung meint bei amai! die laufende Pflege Ihrer Homepage. Hosting, Wartung, technische Updates und Sicherheit sitzen im Website Abo, ganz gleich ob Sie Homepage oder Website sagen. Wir halten Ihre Homepage technisch aktuell und sicher, ohne dass Sie sich um Server oder Software kümmern müssen.',
+        body: 'Homepage Betreuung meint bei semanu die laufende Pflege Ihrer Homepage. Hosting, Wartung, technische Updates und Sicherheit sitzen im Website Abo, ganz gleich ob Sie Homepage oder Website sagen. Wir halten Ihre Homepage technisch aktuell und sicher, ohne dass Sie sich um Server oder Software kümmern müssen.',
         points: ['Homepage Hosting inklusive', 'Updates und Sicherheit laufend'],
       },
       {
         icon: 'price',
         heading: 'Homepage Betreuung Kosten und Website Pflege Preise',
         body:
-          'Die Betreuung Ihrer Homepage kostet ab 99 CHF pro Monat exkl. MWST und darin ist alles enthalten: Hosting, Wartung, technische Updates, Sicherheit und Backups. Klassische Anbieter rechnen das getrennt ab: ein Hosting Paket pro Jahr, ein Wartungsvertrag pro Monat und Änderungen nach Stundensatz. Am Jahresende wissen viele KMU nicht, was ihre Website wirklich gekostet hat. Bei amai! sind Homepage Betreuung Kosten, Website Pflege Preise und Wartung ein einziger Betrag. Nur grössere Umbauten ausserhalb der laufenden Pflege werden separat vereinbart und vorab offeriert, damit es keine Überraschungsrechnung gibt.',
+          'Die Betreuung Ihrer Homepage kostet ab 99 CHF pro Monat exkl. MWST und darin ist alles enthalten: Hosting, Wartung, technische Updates, Sicherheit und Backups. Klassische Anbieter rechnen das getrennt ab: ein Hosting Paket pro Jahr, ein Wartungsvertrag pro Monat und Änderungen nach Stundensatz. Am Jahresende wissen viele KMU nicht, was ihre Website wirklich gekostet hat. Bei semanu sind Homepage Betreuung Kosten, Website Pflege Preise und Wartung ein einziger Betrag. Nur grössere Umbauten ausserhalb der laufenden Pflege werden separat vereinbart und vorab offeriert, damit es keine Überraschungsrechnung gibt.',
         points: ['Ein Monatsbetrag statt Hosting, Wartungsvertrag und Stundensatz', 'Grössere Umbauten immer vorab offeriert'],
       },
       {
@@ -216,7 +216,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
       },
     ],
     links: [
-      { href: '/referenzen', label: 'Referenzen', desc: 'Websites und digitale Lösungen von amai!' },
+      { href: '/referenzen', label: 'Referenzen', desc: 'Websites und digitale Lösungen von semanu' },
       { href: '/website-abos', label: 'Was kostet eine Website?', desc: 'Website Preise Schweiz: Monatspreise mit Betreuung, Hosting und Wartung.' },
       { href: '/so-funktioniert', label: 'So funktioniert es', desc: 'Schritt für Schritt zur betreuten Website.' },
       { href: '/website-erstellen-lassen-schweiz', label: 'Website erstellen lassen', desc: 'Professionelle Website für Ihr Unternehmen.' },
@@ -230,10 +230,10 @@ export const websiteBetreuungSchweiz: LandingLocales = {
       items: [
         {
           q: 'Was ist im Website Abo für die Betreuung enthalten?',
-          a: 'Hosting, Wartung, technische Updates und Sicherheitspflege sind im Website Abo von amai! enthalten. Sie müssen sich nicht selbst um die technische Basis kümmern.',
+          a: 'Hosting, Wartung, technische Updates und Sicherheitspflege sind im Website Abo von semanu enthalten. Sie müssen sich nicht selbst um die technische Basis kümmern.',
         },
         {
-          q: 'Betreut amai! auch meine Homepage?',
+          q: 'Betreut semanu auch meine Homepage?',
           a: 'Ja. Homepage und Website meinen bei uns dasselbe. Wir übernehmen die laufende Betreuung Ihrer Homepage mit Hosting, Updates, Sicherheit und Backups, damit Sie sich nicht selbst um die Technik kümmern müssen.',
         },
         {
@@ -242,11 +242,11 @@ export const websiteBetreuungSchweiz: LandingLocales = {
         },
         {
           q: 'Was kostet es, eine Webseite betreuen zu lassen?',
-          a: 'Eine Webseite betreuen zu lassen kostet bei amai! ab 99 CHF pro Monat, exkl. MWST. Darin sitzen Hosting, Wartung, technische Updates, Sicherheit und Backups. Sie erhalten keine separate Hosting Rechnung und keinen zusätzlichen Wartungsvertrag.',
+          a: 'Eine Webseite betreuen zu lassen kostet bei semanu ab 99 CHF pro Monat, exkl. MWST. Darin sitzen Hosting, Wartung, technische Updates, Sicherheit und Backups. Sie erhalten keine separate Hosting Rechnung und keinen zusätzlichen Wartungsvertrag.',
         },
         {
           q: 'Was kosten Website Pflege und Wartung?',
-          a: 'Website Pflege und Wartung kosten bei amai! ab 99 CHF pro Monat, exkl. MWST. Es ist derselbe Betrag wie für die Betreuung, denn Pflege, Wartung und Betreuung sind bei uns eine Leistung. Hosting, technische Updates, Sicherheit und Backups sind darin enthalten und werden nicht zusätzlich verrechnet.',
+          a: 'Website Pflege und Wartung kosten bei semanu ab 99 CHF pro Monat, exkl. MWST. Es ist derselbe Betrag wie für die Betreuung, denn Pflege, Wartung und Betreuung sind bei uns eine Leistung. Hosting, technische Updates, Sicherheit und Backups sind darin enthalten und werden nicht zusätzlich verrechnet.',
         },
         {
           q: 'Wie funktioniert ein Wartungsvertrag im Abo?',
@@ -273,7 +273,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
           a: 'Die Mindestlaufzeit beträgt 36 Monate. Danach ist das Abo monatlich kündbar. Alle Preise verstehen sich exkl. MWST.',
         },
         {
-          q: 'Kann ich eine bestehende Website zu amai! übertragen?',
+          q: 'Kann ich eine bestehende Website zu semanu übertragen?',
           a: 'Das hängt von der bestehenden Technik ab. Sprechen Sie uns an und wir schauen gemeinsam, was möglich ist und welches Abo zu Ihrer Situation passt.',
         },
       ],
@@ -291,7 +291,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
     eyebrow: 'Maintenance de site web · Suisse',
     h1: 'Maintenance de site web en Suisse',
     intro:
-      'Votre site doit tourner de façon fiable, rester sûr et être techniquement à jour, sans que vous deviez vous en occuper. amai! prend en charge l’hébergement, la maintenance, les mises à jour et la sécurité dans l’abonnement site web en cours. Vous vous concentrez sur votre activité, nous maintenons votre site en bon état. Que vous parliez de site web ou de site internet, la maintenance reste la même.',
+      'Votre site doit tourner de façon fiable, rester sûr et être techniquement à jour, sans que vous deviez vous en occuper. semanu prend en charge l’hébergement, la maintenance, les mises à jour et la sécurité dans l’abonnement site web en cours. Vous vous concentrez sur votre activité, nous maintenons votre site en bon état. Que vous parliez de site web ou de site internet, la maintenance reste la même.',
     heroBullets: [
       'Hébergement et maintenance compris dans l’abonnement',
       'Mises à jour techniques et sécurité inclus',
@@ -346,7 +346,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'Un suivi technique qui fonctionne simplement',
-      body: 'Dans l’abonnement site web d’amai!, l’hébergement, la maintenance, les mises à jour et la maintenance de sécurité sont inclus dès le départ. Vous n’avez pas à vous occuper de contrats de serveur, de mises à jour logicielles ou de détails techniques. Nous gardons la technique sous contrôle pour que votre site tourne de façon fiable et que votre présence numérique reste professionnelle. De petites modifications peuvent être demandées selon l’abonnement choisi et l’accord en vigueur.',
+      body: 'Dans l’abonnement site web d’semanu, l’hébergement, la maintenance, les mises à jour et la maintenance de sécurité sont inclus dès le départ. Vous n’avez pas à vous occuper de contrats de serveur, de mises à jour logicielles ou de détails techniques. Nous gardons la technique sous contrôle pour que votre site tourne de façon fiable et que votre présence numérique reste professionnelle. De petites modifications peuvent être demandées selon l’abonnement choisi et l’accord en vigueur.',
     },
     featuresHeading: 'Ce que comprend la maintenance de site web',
     featuresHint: 'Passez sur une tuile pour plus d’infos',
@@ -429,15 +429,15 @@ export const websiteBetreuungSchweiz: LandingLocales = {
     pricing: {
       heading: 'Combien coûte la maintenance de site web?',
       intro:
-        'La maintenance de site web coûte chez amai! dès 99 CHF par mois, hors TVA. Ce montant comprend l’hébergement, la maintenance, les mises à jour techniques, la sécurité et les sauvegardes. Entretien, maintenance et suivi désignent la même prestation et ne sont pas facturés séparément. Il n’y a pas de facture séparée pour le suivi courant, pas de tarif horaire pour l’entretien standard ni de contrat de maintenance en plus. L’abonnement couvre aussi l’intégralité de l’exploitation technique en plus du design et de la réalisation.',
+        'La maintenance de site web coûte chez semanu dès 99 CHF par mois, hors TVA. Ce montant comprend l’hébergement, la maintenance, les mises à jour techniques, la sécurité et les sauvegardes. Entretien, maintenance et suivi désignent la même prestation et ne sont pas facturés séparément. Il n’y a pas de facture séparée pour le suivi courant, pas de tarif horaire pour l’entretien standard ni de contrat de maintenance en plus. L’abonnement couvre aussi l’intégralité de l’exploitation technique en plus du design et de la réalisation.',
       note: 'Tous les prix hors TVA. Durée minimale de 36 mois, ensuite résiliable chaque mois.',
       cta: { label: 'Voir les prix', href: '/website-abos' },
       cards: [],
     },
     reasons: {
-      heading: 'Pourquoi choisir amai! pour la maintenance de site web?',
+      heading: 'Pourquoi choisir semanu pour la maintenance de site web?',
       entitySentence:
-        'amai! est un fournisseur d’abonnements de sites basé à Berne et assure le suivi de sites professionnels pour les PME suisses, les indépendants et les commerces locaux, design, réalisation, hébergement, maintenance et bases SEO compris.',
+        'semanu est un fournisseur d’abonnements de sites basé à Berne et assure le suivi de sites professionnels pour les PME suisses, les indépendants et les commerces locaux, design, réalisation, hébergement, maintenance et bases SEO compris.',
       items: [
         {
           title: 'Tout au même endroit',
@@ -464,7 +464,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
     audience: {
       heading: 'À qui s’adresse la maintenance de site web?',
       intro:
-        'La maintenance de site web d’amai! convient aux entreprises qui veulent un site exploité de façon professionnelle et ne souhaitent pas s’occuper elles-mêmes de l’hébergement, des mises à jour, de la sécurité et de l’entretien technique.',
+        'La maintenance de site web d’semanu convient aux entreprises qui veulent un site exploité de façon professionnelle et ne souhaitent pas s’occuper elles-mêmes de l’hébergement, des mises à jour, de la sécurité et de l’entretien technique.',
       items: [
         'Indépendants et entreprises individuelles',
         'Artisans et prestataires locaux',
@@ -481,14 +481,14 @@ export const websiteBetreuungSchweiz: LandingLocales = {
       {
         icon: 'support',
         heading: 'Maintenance de site internet: votre site reste soigné',
-        body: 'Chez amai!, la maintenance de votre site internet désigne l’entretien courant de votre site. Hébergement, maintenance, mises à jour techniques et sécurité sont compris dans l’abonnement, que vous parliez de site internet ou de site web. Nous gardons votre site techniquement à jour et sûr, sans que vous ayez à vous occuper de serveurs ou de logiciels.',
+        body: 'Chez semanu, la maintenance de votre site internet désigne l’entretien courant de votre site. Hébergement, maintenance, mises à jour techniques et sécurité sont compris dans l’abonnement, que vous parliez de site internet ou de site web. Nous gardons votre site techniquement à jour et sûr, sans que vous ayez à vous occuper de serveurs ou de logiciels.',
         points: ['Hébergement du site inclus', 'Mises à jour et sécurité en continu'],
       },
       {
         icon: 'price',
         heading: 'Prix de la maintenance de site internet et coûts d’entretien',
         body:
-          'La maintenance de votre site internet coûte dès 99 CHF par mois hors TVA et tout est compris : hébergement, entretien, mises à jour techniques, sécurité et sauvegardes. Les prestataires classiques facturent cela séparément: un forfait d’hébergement par an, un contrat de maintenance par mois et les modifications au tarif horaire. En fin d’année, beaucoup de PME ignorent ce que leur site a réellement coûté. Chez amai!, prix de la maintenance et coûts d’entretien forment un seul montant. Seules les transformations importantes en dehors de l’entretien courant sont convenues à part et devisées à l’avance, pour éviter toute facture surprise.',
+          'La maintenance de votre site internet coûte dès 99 CHF par mois hors TVA et tout est compris : hébergement, entretien, mises à jour techniques, sécurité et sauvegardes. Les prestataires classiques facturent cela séparément: un forfait d’hébergement par an, un contrat de maintenance par mois et les modifications au tarif horaire. En fin d’année, beaucoup de PME ignorent ce que leur site a réellement coûté. Chez semanu, prix de la maintenance et coûts d’entretien forment un seul montant. Seules les transformations importantes en dehors de l’entretien courant sont convenues à part et devisées à l’avance, pour éviter toute facture surprise.',
         points: ['Un montant mensuel au lieu d’hébergement, contrat et tarif horaire', 'Transformations importantes toujours devisées à l’avance'],
       },
       {
@@ -499,7 +499,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
       },
     ],
     links: [
-      { href: '/referenzen', label: 'Références', desc: 'Sites et solutions numériques d’amai!' },
+      { href: '/referenzen', label: 'Références', desc: 'Sites et solutions numériques d’semanu' },
       { href: '/website-abos', label: 'Combien coûte un site web ?', desc: 'Prix site web Suisse: prix mensuels avec suivi, hébergement et maintenance.' },
       { href: '/so-funktioniert', label: 'Comment ça marche', desc: 'Votre site étape par étape.' },
       { href: '/website-erstellen-lassen-schweiz', label: 'Faire créer son site', desc: 'Un site professionnel pour votre entreprise.' },
@@ -513,7 +513,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
       items: [
         {
           q: 'Que comprend l’abonnement pour la maintenance?',
-          a: 'Hébergement, maintenance, mises à jour techniques et maintenance de sécurité sont compris dans l’abonnement site web d’amai!. Vous n’avez pas à vous occuper de la base technique.',
+          a: 'Hébergement, maintenance, mises à jour techniques et maintenance de sécurité sont compris dans l’abonnement site web d’semanu. Vous n’avez pas à vous occuper de la base technique.',
         },
         {
           q: 'Vous assurez aussi la maintenance de mon site internet?',
@@ -525,11 +525,11 @@ export const websiteBetreuungSchweiz: LandingLocales = {
         },
         {
           q: 'Combien coûte le fait de faire entretenir son site web?',
-          a: 'Faire entretenir son site web chez amai! coûte dès 99 CHF par mois, hors TVA. Hébergement, entretien, mises à jour techniques, sécurité et sauvegardes sont compris. Vous ne recevez pas de facture d’hébergement séparée ni de contrat de maintenance supplémentaire.',
+          a: 'Faire entretenir son site web chez semanu coûte dès 99 CHF par mois, hors TVA. Hébergement, entretien, mises à jour techniques, sécurité et sauvegardes sont compris. Vous ne recevez pas de facture d’hébergement séparée ni de contrat de maintenance supplémentaire.',
         },
         {
           q: 'Combien coûtent l’entretien et la maintenance d’un site web?',
-          a: 'L’entretien et la maintenance coûtent chez amai! dès 99 CHF par mois, hors TVA. C’est le même montant que pour le suivi, car entretien, maintenance et suivi sont une seule prestation chez nous. Hébergement, mises à jour techniques, sécurité et sauvegardes sont compris et ne sont pas facturés en plus.',
+          a: 'L’entretien et la maintenance coûtent chez semanu dès 99 CHF par mois, hors TVA. C’est le même montant que pour le suivi, car entretien, maintenance et suivi sont une seule prestation chez nous. Hébergement, mises à jour techniques, sécurité et sauvegardes sont compris et ne sont pas facturés en plus.',
         },
         {
           q: 'Comment fonctionne un contrat de maintenance dans l’abonnement?',
@@ -556,7 +556,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
           a: 'La durée minimale est de 36 mois. Ensuite l’abonnement est résiliable chaque mois. Tous les prix s’entendent hors TVA.',
         },
         {
-          q: 'Vous pouvez transférer un site existant chez amai!?',
+          q: 'Vous pouvez transférer un site existant chez semanu?',
           a: 'Cela dépend de la technique existante. Contactez-nous et nous regardons ensemble ce qui est possible et quel abonnement convient à votre situation.',
         },
       ],
@@ -574,7 +574,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
     eyebrow: 'Website care · Switzerland',
     h1: 'Website care in Switzerland',
     intro:
-      'Your website should run reliably, stay secure and remain technically up to date, without you having to deal with it yourself. amai! takes care of hosting, maintenance, updates and security in the ongoing website subscription. You focus on your business and we keep your website in good shape. Whether you call it website care or website maintenance, the ongoing work is the same.',
+      'Your website should run reliably, stay secure and remain technically up to date, without you having to deal with it yourself. semanu takes care of hosting, maintenance, updates and security in the ongoing website subscription. You focus on your business and we keep your website in good shape. Whether you call it website care or website maintenance, the ongoing work is the same.',
     heroBullets: [
       'Hosting and maintenance included in the subscription',
       'Technical updates and security care included',
@@ -629,7 +629,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'Technical care that simply works',
-      body: 'The amai! website subscription includes hosting, maintenance, updates and security care from the start. You do not need to deal with server contracts, software updates or technical details. We keep an eye on the technology so your website runs reliably and your digital presence stays professional. Small changes can be requested depending on the chosen subscription and agreement.',
+      body: 'The semanu website subscription includes hosting, maintenance, updates and security care from the start. You do not need to deal with server contracts, software updates or technical details. We keep an eye on the technology so your website runs reliably and your digital presence stays professional. Small changes can be requested depending on the chosen subscription and agreement.',
     },
     featuresHeading: 'What website care includes',
     featuresHint: 'Hover over a tile for more info',
@@ -712,15 +712,15 @@ export const websiteBetreuungSchweiz: LandingLocales = {
     pricing: {
       heading: 'What does website care cost?',
       intro:
-        'Website care costs from 99 CHF per month at amai!, excl. VAT. That amount covers hosting, maintenance, technical updates, security and backups. Care, maintenance and upkeep are one and the same service here and are not billed separately. There is no separate invoice for ongoing operation, no hourly rate for standard upkeep and no extra maintenance contract. The subscription covers the full technical operation alongside design and build.',
+        'Website care costs from 99 CHF per month at semanu, excl. VAT. That amount covers hosting, maintenance, technical updates, security and backups. Care, maintenance and upkeep are one and the same service here and are not billed separately. There is no separate invoice for ongoing operation, no hourly rate for standard upkeep and no extra maintenance contract. The subscription covers the full technical operation alongside design and build.',
       note: 'All prices excl. VAT. Minimum term 36 months, then cancellable monthly.',
       cta: { label: 'See pricing', href: '/website-abos' },
       cards: [],
     },
     reasons: {
-      heading: 'Why amai! for website care?',
+      heading: 'Why semanu for website care?',
       entitySentence:
-        'amai! is a website subscription provider from Bern and looks after professional websites for Swiss SMEs, self employed people and local businesses, including design, build, hosting, maintenance and SEO foundations.',
+        'semanu is a website subscription provider from Bern and looks after professional websites for Swiss SMEs, self employed people and local businesses, including design, build, hosting, maintenance and SEO foundations.',
       items: [
         {
           title: 'Everything from one partner',
@@ -747,7 +747,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
     audience: {
       heading: 'Who is website care for?',
       intro:
-        'Website care from amai! suits businesses that want a professionally operated website and do not want to deal with hosting, updates, security and technical maintenance themselves.',
+        'Website care from semanu suits businesses that want a professionally operated website and do not want to deal with hosting, updates, security and technical maintenance themselves.',
       items: [
         'Self employed people and sole traders',
         'Trades businesses and local service providers',
@@ -764,14 +764,14 @@ export const websiteBetreuungSchweiz: LandingLocales = {
       {
         icon: 'support',
         heading: 'Website maintenance: your site stays cared for',
-        body: 'At amai!, website maintenance means the ongoing care of your site. Hosting, maintenance, technical updates and security are included in the subscription, whether you call it website care or website maintenance. We keep your site technically up to date and secure, without you having to deal with servers or software.',
+        body: 'At semanu, website maintenance means the ongoing care of your site. Hosting, maintenance, technical updates and security are included in the subscription, whether you call it website care or website maintenance. We keep your site technically up to date and secure, without you having to deal with servers or software.',
         points: ['Site hosting included', 'Updates and security ongoing'],
       },
       {
         icon: 'price',
         heading: 'Website maintenance costs and upkeep prices',
         body:
-          'Maintaining your website costs from 99 CHF per month excl. VAT and that covers everything: hosting, upkeep, technical updates, security and backups. Classic providers bill this separately: a hosting package per year, a maintenance contract per month and changes at an hourly rate. By the end of the year many SMEs do not know what their website actually cost. At amai!, maintenance costs and upkeep prices are a single amount. Only larger rebuilds outside the ongoing care are agreed separately and quoted upfront, so there is no surprise invoice.',
+          'Maintaining your website costs from 99 CHF per month excl. VAT and that covers everything: hosting, upkeep, technical updates, security and backups. Classic providers bill this separately: a hosting package per year, a maintenance contract per month and changes at an hourly rate. By the end of the year many SMEs do not know what their website actually cost. At semanu, maintenance costs and upkeep prices are a single amount. Only larger rebuilds outside the ongoing care are agreed separately and quoted upfront, so there is no surprise invoice.',
         points: ['One monthly amount instead of hosting, contract and hourly rate', 'Larger rebuilds always quoted upfront'],
       },
       {
@@ -782,7 +782,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
       },
     ],
     links: [
-      { href: '/referenzen', label: 'References', desc: 'Websites and digital solutions by amai!' },
+      { href: '/referenzen', label: 'References', desc: 'Websites and digital solutions by semanu' },
       { href: '/website-abos', label: 'What does a website cost?', desc: 'Website prices Switzerland: monthly prices with care, hosting and maintenance.' },
       { href: '/so-funktioniert', label: 'How it works', desc: 'Your website step by step.' },
       { href: '/website-erstellen-lassen-schweiz', label: 'Have a website made', desc: 'A professional website for your business.' },
@@ -796,7 +796,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
       items: [
         {
           q: 'What is included in the subscription for care?',
-          a: 'Hosting, maintenance, technical updates and security care are included in the amai! website subscription. You do not have to deal with the technical base.',
+          a: 'Hosting, maintenance, technical updates and security care are included in the semanu website subscription. You do not have to deal with the technical base.',
         },
         {
           q: 'Is website maintenance included as well?',
@@ -808,11 +808,11 @@ export const websiteBetreuungSchweiz: LandingLocales = {
         },
         {
           q: 'What does it cost to have a website maintained?',
-          a: 'Having a website maintained at amai! costs from 99 CHF per month, excl. VAT. Hosting, upkeep, technical updates, security and backups are included. You get no separate hosting invoice and no additional maintenance contract.',
+          a: 'Having a website maintained at semanu costs from 99 CHF per month, excl. VAT. Hosting, upkeep, technical updates, security and backups are included. You get no separate hosting invoice and no additional maintenance contract.',
         },
         {
           q: 'What do website upkeep and maintenance cost?',
-          a: 'Website upkeep and maintenance cost from 99 CHF per month at amai!, excl. VAT. It is the same amount as for the care, because upkeep, maintenance and care are one service here. Hosting, technical updates, security and backups are included and are not billed on top.',
+          a: 'Website upkeep and maintenance cost from 99 CHF per month at semanu, excl. VAT. It is the same amount as for the care, because upkeep, maintenance and care are one service here. Hosting, technical updates, security and backups are included and are not billed on top.',
         },
         {
           q: 'How does a maintenance plan in the subscription work?',
@@ -839,7 +839,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
           a: 'The minimum term is 36 months. After that the subscription is cancellable monthly. All prices are excl. VAT.',
         },
         {
-          q: 'Can I transfer an existing website to amai!?',
+          q: 'Can I transfer an existing website to semanu?',
           a: 'That depends on the existing technology. Get in touch and we will look together at what is possible and which subscription fits your situation.',
         },
       ],

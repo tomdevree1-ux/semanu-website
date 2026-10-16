@@ -1,7 +1,7 @@
 import { defineRouting } from 'next-intl/routing';
 
 /**
- * Locale config for amai.ch.
+ * Locale config for semanu.eu.
  * - EN is the default / fallback locale (the x-default). Visitors are routed to
  *   their own browser language automatically: the bare root `/` redirects to the
  *   best Accept-Language match (`localeDetection`), falling back to EN when no

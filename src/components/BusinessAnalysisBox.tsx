@@ -10,7 +10,7 @@ export async function BusinessAnalysisBox({ className = '' }: { className?: stri
   const t = await getTranslations('serviceUi');
   return (
     <div
-      className={`amai-reveal relative overflow-hidden rounded-2xl border border-[var(--line)] bg-white p-6 sm:p-8 ${className}`}
+      className={`semanu-reveal relative overflow-hidden rounded-2xl border border-[var(--line)] bg-white p-6 sm:p-8 ${className}`}
     >
       <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-mint" />
       <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:gap-5">

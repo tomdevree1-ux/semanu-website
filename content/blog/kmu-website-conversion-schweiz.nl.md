@@ -11,7 +11,7 @@ Bezoekers komen. Klanten worden ze niet. Bij de Zwitserse kmo websites met de gr
 
 ## Zo hebben we gemeten
 
-Bij <span class="brand-mark">amai<span class="spark">!</span></span> beoordelen we doorlopend websites van Zwitserse kmo's volgens een vast raster. 2292 sites hebben we ingeschaald op een rijpheidsschaal met vijf niveaus. De 638 sites met de grootste behoefte aan werk hebben we daarbovenop in acht categorieën van 0 tot 10 punten beoordeeld, waaronder conversie. De cijfers in dit artikel beschrijven dus gericht die zwakste groep, niet het gemiddelde van alle kmo's. De beoordeling is indicatief en berust op zichtbare website elementen. Alle details en de totaalresultaten staan in de [kmo website studie](/nl/blog/kmu-website-studie-schweiz).
+Bij <span class="brand-mark">semanu<span class="spark">!</span></span> beoordelen we doorlopend websites van Zwitserse kmo's volgens een vast raster. 2292 sites hebben we ingeschaald op een rijpheidsschaal met vijf niveaus. De 638 sites met de grootste behoefte aan werk hebben we daarbovenop in acht categorieën van 0 tot 10 punten beoordeeld, waaronder conversie. De cijfers in dit artikel beschrijven dus gericht die zwakste groep, niet het gemiddelde van alle kmo's. De beoordeling is indicatief en berust op zichtbare website elementen. Alle details en de totaalresultaten staan in de [kmo website studie](/nl/blog/kmu-website-studie-schweiz).
 
 ## De cijfers
 

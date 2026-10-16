@@ -10,7 +10,7 @@ import { Link } from '@/i18n/navigation';
  * so it never covers the WhatsApp button (bottom-right). Bump the KEY suffix to
  * make it reappear for everyone when a new study or campaign should show.
  */
-const KEY = 'amai-banner-studie-2026-08';
+const KEY = 'semanu-banner-studie-2026-08';
 
 export function StudyBanner() {
   const t = useTranslations('banner');

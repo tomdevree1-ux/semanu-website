@@ -18,7 +18,7 @@ export async function generateMetadata({
   // the meta description so the two never drift and stay localized.
   const tc = await getTranslations({ locale, namespace: 'contact' });
   return pageMetadata({
-    title: `${t('contact')} · amai.ch`,
+    title: `${t('contact')} · semanu.eu`,
     description: tc('intro'),
     path: '/kontakt',
     locale,
@@ -41,16 +41,16 @@ export default async function KontaktPage({
   // Reference the single canonical organisation node (emitted in the layout) by
   // @id and attach the ContactPoint to it, rather than declaring a second, partial
   // Organization. Keeps the email crawlable on this stable URL (so AI assistants
-  // can answer "how do I contact amai") without creating a duplicate entity.
+  // can answer "how do I contact semanu") without creating a duplicate entity.
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'ProfessionalService',
     '@id': `${env.siteUrl}/#organization`,
-    email: 'hello@amai.ch',
+    email: 'hello@semanu.eu',
     telephone: PHONE_DISPLAY,
     contactPoint: {
       '@type': 'ContactPoint',
-      email: 'hello@amai.ch',
+      email: 'hello@semanu.eu',
       telephone: PHONE_DISPLAY,
       contactType: 'customer service',
       availableLanguage: ['de', 'fr', 'en', 'es', 'nl'],
@@ -59,7 +59,7 @@ export default async function KontaktPage({
 
   return (
     <SiteShell>
-      <Breadcrumb items={[{ name: 'amai.ch', href: '/' }, { name: tn('contact') }]} locale={locale} />
+      <Breadcrumb items={[{ name: 'semanu.eu', href: '/' }, { name: tn('contact') }]} locale={locale} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -77,8 +77,8 @@ export default async function KontaktPage({
                   {t('emailLabel')}
                 </dt>
                 <dd className="mt-1">
-                  <a href="mailto:hello@amai.ch" className="hover:text-navy">
-                    hello@amai.ch
+                  <a href="mailto:hello@semanu.eu" className="hover:text-navy">
+                    hello@semanu.eu
                   </a>
                 </dd>
               </div>

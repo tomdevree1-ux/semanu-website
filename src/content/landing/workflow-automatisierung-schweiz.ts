@@ -35,7 +35,7 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'Wir automatisieren Ihre Prozesse Schritt für Schritt',
-      body: 'amai! schaut sich Ihre täglichen Abläufe an und findet die Stellen, an denen ein Mensch nur Daten weiterreicht. Genau diese Schritte übernimmt eine Automatisierung. Daten wandern automatisch zwischen Ihren Tools, Benachrichtigungen und Aufgaben landen bei der richtigen Person und Dokumente wie Bestätigungen entstehen von selbst. Sie behalten die Kontrolle und gewinnen Zeit zurück. Ehrlich und ohne unnötige Technik, nur dort wo es Ihnen wirklich hilft.',
+      body: 'semanu schaut sich Ihre täglichen Abläufe an und findet die Stellen, an denen ein Mensch nur Daten weiterreicht. Genau diese Schritte übernimmt eine Automatisierung. Daten wandern automatisch zwischen Ihren Tools, Benachrichtigungen und Aufgaben landen bei der richtigen Person und Dokumente wie Bestätigungen entstehen von selbst. Sie behalten die Kontrolle und gewinnen Zeit zurück. Ehrlich und ohne unnötige Technik, nur dort wo es Ihnen wirklich hilft.',
     },
     featuresHeading: 'Was wir automatisieren',
     featuresHint: 'Fahren Sie über eine Kachel für mehr Infos',
@@ -67,9 +67,9 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
       cards: [],
     },
     reasons: {
-      heading: 'Warum Workflow Automatisierung von amai!?',
+      heading: 'Warum Workflow Automatisierung von semanu?',
       entitySentence:
-        'amai! ist ein AI natives Digitalunternehmen aus Bern für Schweizer KMU. Wir verbinden Ihre Tools und automatisieren manuelle Prozesse, von der internen Administration bis zum Kundenkontakt.',
+        'semanu ist ein AI natives Digitalunternehmen aus Bern für Schweizer KMU. Wir verbinden Ihre Tools und automatisieren manuelle Prozesse, von der internen Administration bis zum Kundenkontakt.',
       items: [
         { title: 'Ehrlich beraten', text: 'Wir automatisieren nur dort wo es sich lohnt und sagen es Ihnen offen.' },
         { title: 'Ein Partner für alles', text: 'Website, Tools und Automatisierung kommen aus einer Hand.' },
@@ -108,7 +108,7 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
       { href: '/services/ai-native', label: 'Marketing Automation', desc: 'Follow ups und Erinnerungen automatisch.' },
       { href: '/services/ai-native', label: 'Digitale Plattformen', desc: 'Dashboards, CRM und Portale nach Mass.' },
       { href: '/website-analyse', label: 'Kostenlose Website Analyse', desc: 'Sehen Sie, wo Ihre Website steht.' },
-      { href: '/referenzen', label: 'Referenzen', desc: 'Projekte und Lösungen von amai!' },
+      { href: '/referenzen', label: 'Referenzen', desc: 'Projekte und Lösungen von semanu' },
       { href: '/website-abos', label: 'Website Abos', desc: 'Website und Betreuung im Monatsabo.' },
       { href: '/kontakt', label: 'Kontakt', desc: 'Sagen Sie uns, was Sie brauchen.' },
     ],
@@ -165,7 +165,7 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'Nous automatisons vos processus étape par étape',
-      body: 'amai! examine vos processus quotidiens et repère les endroits où un humain ne fait que transmettre des données. Ce sont ces étapes que reprend une automatisation. Les données passent automatiquement entre vos outils, les notifications et les tâches arrivent chez la bonne personne et des documents comme les confirmations se créent seuls. Vous gardez le contrôle et récupérez du temps. Honnête et sans technique inutile, seulement là où cela vous aide vraiment.',
+      body: 'semanu examine vos processus quotidiens et repère les endroits où un humain ne fait que transmettre des données. Ce sont ces étapes que reprend une automatisation. Les données passent automatiquement entre vos outils, les notifications et les tâches arrivent chez la bonne personne et des documents comme les confirmations se créent seuls. Vous gardez le contrôle et récupérez du temps. Honnête et sans technique inutile, seulement là où cela vous aide vraiment.',
     },
     featuresHeading: 'Ce que nous automatisons',
     featuresHint: 'Passez sur une tuile pour plus d’infos',
@@ -197,9 +197,9 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
       cards: [],
     },
     reasons: {
-      heading: 'Pourquoi l’automatisation des workflows par amai!?',
+      heading: 'Pourquoi l’automatisation des workflows par semanu?',
       entitySentence:
-        'amai! est une entreprise numérique AI native basée à Berne pour les PME suisses. Nous connectons vos outils et automatisons les processus manuels, de l’administration interne au contact client.',
+        'semanu est une entreprise numérique AI native basée à Berne pour les PME suisses. Nous connectons vos outils et automatisons les processus manuels, de l’administration interne au contact client.',
       items: [
         { title: 'Conseil honnête', text: 'Nous automatisons seulement là où cela vaut la peine et vous le disons franchement.' },
         { title: 'Un partenaire pour tout', text: 'Site, outils et automatisation viennent du même endroit.' },
@@ -238,7 +238,7 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
       { href: '/services/ai-native', label: 'Marketing Automation', desc: 'Relances et rappels automatiques.' },
       { href: '/services/ai-native', label: 'Plateformes numériques', desc: 'Tableaux de bord, CRM et portails sur mesure.' },
       { href: '/website-analyse', label: 'Analyse de site gratuite', desc: 'Voyez où en est votre site.' },
-      { href: '/referenzen', label: 'Références', desc: 'Projets et solutions d’amai!' },
+      { href: '/referenzen', label: 'Références', desc: 'Projets et solutions d’semanu' },
       { href: '/website-abos', label: 'Abonnements site', desc: 'Site et suivi en abonnement mensuel.' },
       { href: '/kontakt', label: 'Contact', desc: 'Dites ce dont vous avez besoin.' },
     ],
@@ -295,7 +295,7 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'We automate your processes step by step',
-      body: 'amai! looks at your daily processes and finds the spots where a person only passes data along. Those are exactly the steps an automation takes over. Data moves automatically between your tools, notifications and tasks reach the right person and documents like confirmations are created on their own. You keep control and win time back. Honest and without unnecessary tech, only where it truly helps you.',
+      body: 'semanu looks at your daily processes and finds the spots where a person only passes data along. Those are exactly the steps an automation takes over. Data moves automatically between your tools, notifications and tasks reach the right person and documents like confirmations are created on their own. You keep control and win time back. Honest and without unnecessary tech, only where it truly helps you.',
     },
     featuresHeading: 'What we automate',
     featuresHint: 'Hover over a tile for more info',
@@ -327,9 +327,9 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
       cards: [],
     },
     reasons: {
-      heading: 'Why workflow automation from amai!?',
+      heading: 'Why workflow automation from semanu?',
       entitySentence:
-        'amai! is an AI native digital company from Bern for Swiss SMEs. We connect your tools and automate manual processes, from internal administration to customer contact.',
+        'semanu is an AI native digital company from Bern for Swiss SMEs. We connect your tools and automate manual processes, from internal administration to customer contact.',
       items: [
         { title: 'Honest advice', text: 'We only automate where it pays off and tell you openly.' },
         { title: 'One partner for everything', text: 'Website, tools and automation come from one place.' },
@@ -368,7 +368,7 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
       { href: '/services/ai-native', label: 'Marketing automation', desc: 'Follow ups and reminders on autopilot.' },
       { href: '/services/ai-native', label: 'Digital platforms', desc: 'Dashboards, CRM and portals to measure.' },
       { href: '/website-analyse', label: 'Free website analysis', desc: 'See where your website stands.' },
-      { href: '/referenzen', label: 'References', desc: 'Projects and solutions by amai!' },
+      { href: '/referenzen', label: 'References', desc: 'Projects and solutions by semanu' },
       { href: '/website-abos', label: 'Website subscriptions', desc: 'Website and support on a monthly plan.' },
       { href: '/kontakt', label: 'Contact', desc: 'Tell us what you need.' },
     ],

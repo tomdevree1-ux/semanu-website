@@ -11,7 +11,7 @@ Berne arrive en tête. Sur les 39 sites bernois de notre étude, 15,4 pour cent 
 
 ## Comment nous avons mesuré
 
-Chez <span class="brand-mark">amai<span class="spark">!</span></span> nous évaluons en continu des sites de PME suisses selon une grille fixe. Chaque site reçoit une note de 1 à 5, où 5 signifie le plus grand besoin de travail et 1 une présence à jour. La note est indicative et repose sur des éléments visibles du site. Pour la comparaison entre villes nous avons retenu uniquement les localités où nous avons évalué assez de sites. Tout le détail et les résultats globaux se trouvent dans l'[étude des sites de PME](/fr/blog/kmu-website-studie-schweiz).
+Chez <span class="brand-mark">semanu<span class="spark">!</span></span> nous évaluons en continu des sites de PME suisses selon une grille fixe. Chaque site reçoit une note de 1 à 5, où 5 signifie le plus grand besoin de travail et 1 une présence à jour. La note est indicative et repose sur des éléments visibles du site. Pour la comparaison entre villes nous avons retenu uniquement les localités où nous avons évalué assez de sites. Tout le détail et les résultats globaux se trouvent dans l'[étude des sites de PME](/fr/blog/kmu-website-studie-schweiz).
 
 ## La comparaison entre villes
 

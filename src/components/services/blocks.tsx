@@ -2,7 +2,7 @@
 // These are composed differently by each of the three flow layouts, so the
 // pages stay consistent without looking identical. All copy is passed in
 // (translatable) and rendered as real text, so search engines and AI systems
-// can read everything. Animations are CSS only (.amai-reveal) and respect
+// can read everything. Animations are CSS only (.semanu-reveal) and respect
 // prefers-reduced-motion via the global rule in globals.css.
 
 import { getTranslations } from 'next-intl/server';
@@ -25,7 +25,7 @@ export function Check({ className = 'h-4 w-4' }: { className?: string }) {
 /** Row of short promises with a mint check. Sits on a light section. */
 export function TrustStrip({ items }: { items: string[] }) {
   return (
-    <ul className="amai-reveal flex flex-wrap gap-x-6 gap-y-3">
+    <ul className="semanu-reveal flex flex-wrap gap-x-6 gap-y-3">
       {items.map((it) => (
         <li key={it} className="inline-flex items-center gap-2 text-sm font-semibold text-ink">
           <span className="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-mint text-ink">
@@ -68,7 +68,7 @@ export async function ProblemCards({
         {cards.map((c) => (
           <div
             key={c.title}
-            className="amai-reveal rounded-2xl border border-[var(--line)] bg-white p-6 transition-all duration-200 hover:-translate-y-0.5 hover:border-navy/25 hover:shadow-[var(--shadow-pop)]"
+            className="semanu-reveal rounded-2xl border border-[var(--line)] bg-white p-6 transition-all duration-200 hover:-translate-y-0.5 hover:border-navy/25 hover:shadow-[var(--shadow-pop)]"
           >
             <span aria-hidden className="flex h-8 w-8 items-center justify-center rounded-lg bg-danger/10 text-danger">
               <svg viewBox="0 0 20 20" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth={2.4} strokeLinecap="round"><path d="M5 5l10 10M15 5L5 15" /></svg>
@@ -142,7 +142,7 @@ export async function ProcessSteps({
         <h2 className={`h2 mt-3 ${headColor}`}><BrandText>{title}</BrandText></h2>
         <ol className="mt-8 max-w-3xl">
           {steps.map((s, i) => (
-            <li key={s.title} className="amai-reveal flex gap-5 pb-6 last:pb-0">
+            <li key={s.title} className="semanu-reveal flex gap-5 pb-6 last:pb-0">
               <div className="flex flex-col items-center">
                 <span className={`font-display text-xl ${numColor}`}>{String(i + 1).padStart(2, '0')}</span>
                 {i < steps.length - 1 ? (
@@ -166,7 +166,7 @@ export async function ProcessSteps({
       <h2 className={`h2 mt-3 ${headColor}`}><BrandText>{title}</BrandText></h2>
       <ol className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {steps.map((s, i) => (
-          <li key={s.title} className={`amai-reveal ${cardCls}`}>
+          <li key={s.title} className={`semanu-reveal ${cardCls}`}>
             <span className={`font-display text-2xl ${numColor}`}>{String(i + 1).padStart(2, '0')}</span>
             <p className={`mt-3 font-semibold ${titleColor}`}><BrandText>{s.title}</BrandText></p>
             <p className={`mt-2 text-sm leading-relaxed ${textColor}`}><BrandText>{s.text}</BrandText></p>
@@ -199,7 +199,7 @@ export async function UseCaseCards({
       </div>
       <div className="mt-10 grid gap-4 sm:grid-cols-3">
         {cards.map((c) => (
-          <div key={c.title} className="amai-reveal flex flex-col rounded-2xl border border-[var(--line)] bg-white p-6 transition-all duration-200 hover:-translate-y-0.5 hover:border-navy/25 hover:shadow-[var(--shadow-pop)]">
+          <div key={c.title} className="semanu-reveal flex flex-col rounded-2xl border border-[var(--line)] bg-white p-6 transition-all duration-200 hover:-translate-y-0.5 hover:border-navy/25 hover:shadow-[var(--shadow-pop)]">
             {variant === 'beforeAfter' ? (
               <>
                 <span className="font-mono text-[11px] uppercase tracking-wider text-ink-soft">{t('before')}</span>
@@ -224,7 +224,7 @@ export async function UseCaseCards({
 
 /**
  * One recognisable Swiss SME scenario in PAS style: a short problem, the pain it
- * causes, how amai! solves it and the result. Rendered on every service page
+ * causes, how semanu solves it and the result. Rendered on every service page
  * (gated by detail.scenario). Light Marine + Mint card, all copy passed in and
  * rendered as real text so crawlers and AI systems read it.
  */
@@ -246,7 +246,7 @@ export async function ScenarioCard({
         <Eyebrow>{t('scenarioTag')}</Eyebrow>
         <h2 className="h2 mt-3 text-ink"><BrandText>{scenario.title}</BrandText></h2>
       </div>
-      <div className="amai-reveal mt-8 grid overflow-hidden rounded-2xl border border-[var(--line)] sm:grid-cols-3">
+      <div className="semanu-reveal mt-8 grid overflow-hidden rounded-2xl border border-[var(--line)] sm:grid-cols-3">
         {cols.map((c, i) => (
           <div
             key={c.label}
@@ -289,7 +289,7 @@ export async function OutcomeList({
         {items.map((it, i) => (
           <li
             key={it}
-            className="amai-reveal flex items-baseline gap-4 border-b border-[var(--line)] py-4"
+            className="semanu-reveal flex items-baseline gap-4 border-b border-[var(--line)] py-4"
           >
             <span className="font-display text-2xl leading-none text-navy">{String(i + 1).padStart(2, '0')}</span>
             <span className="font-medium leading-snug text-ink"><BrandText>{it}</BrandText></span>
@@ -369,7 +369,7 @@ export async function RelatedServices({
             <Link
               key={s.id}
               href={`/services/${SERVICE_SLUG[s.id] ?? s.id}`}
-              className="amai-reveal group flex items-start gap-4 rounded-2xl border border-[var(--line)] bg-white p-6 transition-shadow hover:shadow-[var(--shadow-pop)]"
+              className="semanu-reveal group flex items-start gap-4 rounded-2xl border border-[var(--line)] bg-white p-6 transition-shadow hover:shadow-[var(--shadow-pop)]"
             >
               <span className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-paper-2 text-navy transition-colors group-hover:bg-navy group-hover:text-mint">
                 <ServiceIcon id={s.icon} className="h-5 w-5" />

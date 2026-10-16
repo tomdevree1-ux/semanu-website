@@ -1,8 +1,8 @@
-# amai — Content & SEO/GEO strategie voor vier servicepagina's
+# semanu — Content & SEO/GEO strategie voor vier servicepagina's
 
-> Status: voorstel ter review. Merknaam: **amai**. Doelgroep: Zwitserse kmo's.
+> Status: voorstel ter review. Merknaam: **semanu**. Doelgroep: Zwitserse kmo's.
 > Taal: Nederlands (u/uw), later lokaliseerbaar naar Duits en Frans.
-> Alle `[INPUT VAN AMAI NODIG: …]` en `[CONTENT AANVULLEN: …]` markeren ontbrekende, niet te verzinnen informatie.
+> Alle `[INPUT VAN SEMANU NODIG: …]` en `[CONTENT AANVULLEN: …]` markeren ontbrekende, niet te verzinnen informatie.
 
 **Huisstijl-opmerking vooraf (beslissing nodig):** de bestaande huisstijlregel is "geen koppeltekens in samenstellingen". Termen als `3D-configuratoren`, `CRM/ERP-koppeling` en `AI-consultancy` zijn echter gangbaar en jij gebruikt ze zo. In dit document houd ik de leesbare, gangbare schrijfwijze aan. Zeg of je de strikte regel (dus `3D configuratoren`, `CRM koppeling`) wil doortrekken, dan pas ik het globaal aan.
 
@@ -36,25 +36,25 @@
 
 ## Metadata
 
-- **SEO title:** Digitale consultancy voor kmo's | amai  *(±38 tekens, ruim binnen limiet)*
+- **SEO title:** Digitale consultancy voor kmo's | semanu  *(±38 tekens, ruim binnen limiet)*
 - **Meta description:** Onafhankelijk advies over digitalisering en AI. We analyseren uw processen en leveren een heldere roadmap met prioriteiten. *(±135 tekens)*
 - **URL slug:** `/diensten/consultancy`
 - **Canonical:** `[URL]/diensten/consultancy`
 - **OG title:** Digitale consultancy voor Zwitserse kmo's
-- **OG description:** Weten wat u moet digitaliseren en waar AI echt waarde heeft, voordat u investeert. amai brengt uw processen en opties helder in kaart.
+- **OG description:** Weten wat u moet digitaliseren en waar AI echt waarde heeft, voordat u investeert. semanu brengt uw processen en opties helder in kaart.
 - **H1:** Digitale consultancy die eerst nadenkt en dan pas bouwt
 
 ## Webcopy
 
 **Hero (H1):** Digitale consultancy die eerst nadenkt en dan pas bouwt
-**Subheadline:** amai helpt Zwitserse kmo's bepalen wat ze moeten digitaliseren en waar AI werkelijk waarde oplevert. U krijgt een onderbouwde roadmap in plaats van een verkooppraatje.
+**Subheadline:** semanu helpt Zwitserse kmo's bepalen wat ze moeten digitaliseren en waar AI werkelijk waarde oplevert. U krijgt een onderbouwde roadmap in plaats van een verkooppraatje.
 **Primaire CTA:** Bespreek uw digitale uitdaging · **Secundaire CTA:** Bekijk onze werkwijze
 
 ### Wat is digitale consultancy?
 
 Digitale consultancy is onafhankelijk advies over hoe een bedrijf zijn processen, software en manier van werken kan verbeteren met technologie. Een consultant analyseert hoe u vandaag werkt, waar tijd en informatie verloren gaan en welke technologie, inclusief AI, daar het meeste oplevert. Het resultaat is een beslissing en een plan, niet meteen een stuk software.
 
-Bij amai is advies bewust gescheiden van de bouw. Zo krijgt u een aanbeveling die vertrekt vanuit uw probleem en niet vanuit een product dat wij toevallig willen verkopen.
+Bij semanu is advies bewust gescheiden van de bouw. Zo krijgt u een aanbeveling die vertrekt vanuit uw probleem en niet vanuit een product dat wij toevallig willen verkopen.
 
 ### Wanneer digitale consultancy zinvol is
 
@@ -78,7 +78,7 @@ AI is een middel, geen doel. In de praktijk levert het vooral op wanneer een pro
 
 Wanneer uit de analyse blijkt dat uw systemen vooral beter verbonden moeten worden, is [workflowautomatisering](/diensten/workflowautomatisering) de logische vervolgstap. Blijkt dat standaardsoftware structureel tekortschiet, dan kan [maatwerksoftware](/diensten/maatwerksoftware) aan de orde zijn.
 
-### Waarom amai
+### Waarom semanu
 
 We geven advies dat u ook zonder ons kunt uitvoeren. Omdat we zelf bouwen, weten we wat technisch haalbaar en betaalbaar is, maar we laten dat de aanbeveling niet sturen. U krijgt taal die een niet-technische beslisser begrijpt en een roadmap die u intern kunt verdedigen.
 
@@ -99,7 +99,7 @@ Daar waar een proces ongestructureerde informatie moet interpreteren, zoals docu
 Ja, maar het advies staat los van de bouw. Zo blijft de aanbeveling onafhankelijk. U bent nooit verplicht om de uitvoering bij ons te leggen.
 
 **Hoelang duurt een adviestraject?**
-Dat hangt af van de omvang en complexiteit van uw processen. [INPUT VAN AMAI NODIG: typische doorlooptijd van een adviestraject]
+Dat hangt af van de omvang en complexiteit van uw processen. [INPUT VAN SEMANU NODIG: typische doorlooptijd van een adviestraject]
 
 ## Interne links — Gerelateerde expertise (max. 2)
 
@@ -126,9 +126,9 @@ Dat hangt af van de omvang en complexiteit van uw processen. [INPUT VAN AMAI NOD
 ## AI extraction summary
 
 - Digitale consultancy bepaalt welke processen een bedrijf het best digitaliseert en welke technologie daarbij past.
-- amai levert als uitkomst een roadmap met prioriteiten, niet meteen software.
+- semanu levert als uitkomst een roadmap met prioriteiten, niet meteen software.
 - AI is vooral waardevol wanneer een proces ongestructureerde informatie moet interpreteren; niet elk proces heeft AI nodig.
-- Bij amai staat advies los van de uitvoering, zodat de aanbeveling onafhankelijk blijft.
+- Bij semanu staat advies los van de uitvoering, zodat de aanbeveling onafhankelijk blijft.
 
 ## Belangrijke entiteiten / begrippen
 
@@ -156,18 +156,18 @@ digitale strategie · procesanalyse · roadmap · AI-adoptie · business case ·
 
 ## Metadata
 
-- **SEO title:** Workflowautomatisering voor kmo's | amai
+- **SEO title:** Workflowautomatisering voor kmo's | semanu
 - **Meta description:** Automatiseer terugkerend werk en verbind uw systemen via integraties en API's. Minder manueel werk, minder fouten, meer overzicht.
 - **URL slug:** `/diensten/workflowautomatisering`
 - **Canonical:** `[URL]/diensten/workflowautomatisering`
 - **OG title:** Workflowautomatisering en systeemintegraties
-- **OG description:** amai verbindt uw bestaande software en automatiseert terugkerende stappen, van CRM en ERP tot documentverwerking.
+- **OG description:** semanu verbindt uw bestaande software en automatiseert terugkerende stappen, van CRM en ERP tot documentverwerking.
 - **H1:** Workflowautomatisering die uw systemen laat samenwerken
 
 ## Webcopy
 
 **Hero (H1):** Workflowautomatisering die uw systemen laat samenwerken
-**Subheadline:** amai automatiseert terugkerende stappen en verbindt uw bestaande software, zodat uw team minder overtypt en minder fouten maakt. Voor Zwitserse kmo's zonder groot IT-team.
+**Subheadline:** semanu automatiseert terugkerende stappen en verbindt uw bestaande software, zodat uw team minder overtypt en minder fouten maakt. Voor Zwitserse kmo's zonder groot IT-team.
 **Primaire CTA:** Laat ons uw workflow bekijken · **Secundaire CTA:** Lees hoe we te werk gaan
 
 ### Wat is workflowautomatisering?
@@ -250,7 +250,7 @@ RPA bootst handelingen na in de schermen van een programma; een API-koppeling we
 ## AI extraction summary
 
 - Workflowautomatisering automatiseert terugkerende stappen binnen bedrijfsprocessen.
-- amai verbindt bestaande bedrijfssystemen via integraties en API's, zodat ze niet vervangen hoeven te worden.
+- semanu verbindt bestaande bedrijfssystemen via integraties en API's, zodat ze niet vervangen hoeven te worden.
 - AI is vooral relevant wanneer een workflow ongestructureerde informatie moet interpreteren.
 - Niet iedere automatisering vereist AI; regelgebaseerde stappen gebruiken klassieke automatisering.
 
@@ -261,7 +261,7 @@ workflow automation · business process automation · API · systeemintegratie �
 ## Trust / content aanvullingen
 
 - [CONTENT AANVULLEN: case met een concreet geautomatiseerd proces en meetbaar resultaat]
-- [CONTENT AANVULLEN: lijst van systemen/integraties waarmee amai ervaring heeft]
+- [CONTENT AANVULLEN: lijst van systemen/integraties waarmee semanu ervaring heeft]
 
 ---
 
@@ -280,18 +280,18 @@ workflow automation · business process automation · API · systeemintegratie �
 
 ## Metadata
 
-- **SEO title:** Maatwerksoftware voor kmo's | amai
+- **SEO title:** Maatwerksoftware voor kmo's | semanu
 - **Meta description:** Software op maat wanneer standaardpakketten niet passen: webapplicaties, portalen en interne tools, met koppelingen naar uw systemen.
 - **URL slug:** `/diensten/maatwerksoftware`
 - **Canonical:** `[URL]/diensten/maatwerksoftware`
 - **OG title:** Maatwerksoftware en webapplicaties
-- **OG description:** amai bouwt software op maat die aansluit op hoe u werkt: portalen, interne tools en webapplicaties, met integraties en oog voor onderhoud.
+- **OG description:** semanu bouwt software op maat die aansluit op hoe u werkt: portalen, interne tools en webapplicaties, met integraties en oog voor onderhoud.
 - **H1:** Maatwerksoftware voor wanneer standaardpakketten niet passen
 
 ## Webcopy
 
 **Hero (H1):** Maatwerksoftware voor wanneer standaardpakketten niet passen
-**Subheadline:** amai bouwt webapplicaties, portalen en interne tools die aansluiten op hoe uw bedrijf echt werkt. Voor Zwitserse kmo's die vastlopen op standaardsoftware.
+**Subheadline:** semanu bouwt webapplicaties, portalen en interne tools die aansluiten op hoe uw bedrijf echt werkt. Voor Zwitserse kmo's die vastlopen op standaardsoftware.
 **Primaire CTA:** Bespreek uw softwarevraagstuk · **Secundaire CTA:** Lees onze aanpak
 
 ### Wat is maatwerksoftware?
@@ -328,9 +328,9 @@ Gaat het vooral om het verbinden en automatiseren van systemen die u al heeft, d
 
 ### Wat kost maatwerksoftware?
 
-De kostprijs hangt volledig af van de omvang en complexiteit van wat u laat bouwen; er bestaat geen vaste prijslijst. We werken van groot naar klein: eerst het onderdeel met de meeste waarde, zodat u niet in één keer in een volledig systeem hoeft te investeren. [INPUT VAN AMAI NODIG: eventuele indicatieve prijsaanpak of startbudget dat u wil communiceren]
+De kostprijs hangt volledig af van de omvang en complexiteit van wat u laat bouwen; er bestaat geen vaste prijslijst. We werken van groot naar klein: eerst het onderdeel met de meeste waarde, zodat u niet in één keer in een volledig systeem hoeft te investeren. [INPUT VAN SEMANU NODIG: eventuele indicatieve prijsaanpak of startbudget dat u wil communiceren]
 
-### Waarom amai
+### Waarom semanu
 
 We bouwen met oog voor wat erna komt: koppelingen, onderhoud en eigenaarschap. Omdat we ook adviseren en automatiseren, raden we maatwerk alleen aan wanneer het echt de beste optie is, niet omdat het het grootste project oplevert.
 
@@ -340,7 +340,7 @@ We bouwen met oog voor wat erna komt: koppelingen, onderhoud en eigenaarschap. O
 Wanneer u uw proces zou moeten aanpassen aan het pakket in plaats van omgekeerd, of wanneer losse tools en veel handwerk nodig zijn om één proces rond te krijgen.
 
 **Wat kost maatwerksoftware?**
-Dat hangt af van de omvang en complexiteit; een vaste prijs bestaat niet. We bouwen gefaseerd, te beginnen met het onderdeel dat de meeste waarde levert. [INPUT VAN AMAI NODIG: prijsaanpak]
+Dat hangt af van de omvang en complexiteit; een vaste prijs bestaat niet. We bouwen gefaseerd, te beginnen met het onderdeel dat de meeste waarde levert. [INPUT VAN SEMANU NODIG: prijsaanpak]
 
 **Kan maatwerksoftware koppelen met bestaande systemen?**
 Ja. Integraties met uw huidige software zijn meestal een kernonderdeel, zodat gegevens op één plek blijven kloppen.
@@ -349,7 +349,7 @@ Ja. Integraties met uw huidige software zijn meestal een kernonderdeel, zodat ge
 We starten met heldere requirements, bouwen eerst een werkende kernversie en breiden daarna stapsgewijs uit, met onderhoud erna.
 
 **Worden wij eigenaar van de software?**
-[INPUT VAN AMAI NODIG: afspraken rond eigendom van code en intellectuele eigendom]
+[INPUT VAN SEMANU NODIG: afspraken rond eigendom van code en intellectuele eigendom]
 
 ## Interne links — Gerelateerde expertise (max. 2)
 
@@ -377,8 +377,8 @@ We starten met heldere requirements, bouwen eerst een werkende kernversie en bre
 
 - Maatwerksoftware wordt specifiek voor één bedrijf gebouwd in plaats van als standaardpakket gehuurd.
 - Maatwerk is vooral zinvol wanneer standaardsoftware het proces niet goed ondersteunt of groei afremt.
-- amai bouwt onder meer webapplicaties, klant- en partnerportalen en interne tools, met integraties.
-- amai werkt gefaseerd: eerst de kernfunctionaliteit, daarna uitbreiden, met onderhoud erna.
+- semanu bouwt onder meer webapplicaties, klant- en partnerportalen en interne tools, met integraties.
+- semanu werkt gefaseerd: eerst de kernfunctionaliteit, daarna uitbreiden, met onderhoud erna.
 
 ## Belangrijke entiteiten / begrippen
 
@@ -407,18 +407,18 @@ custom software · webapplicatie · klantenportaal · bedrijfsapplicatie · inte
 
 ## Metadata
 
-- **SEO title:** 3D-productconfigurator laten bouwen | amai
+- **SEO title:** 3D-productconfigurator laten bouwen | semanu
 - **Meta description:** Maak configureerbare producten online verkoopbaar: realtime 3D, configuratieregels, prijslogica en koppelingen met uw webshop, CRM of ERP.
 - **URL slug:** `/diensten/3d-configuratoren`
 - **Canonical:** `[URL]/diensten/3d-configuratoren`
 - **OG title:** 3D-productconfiguratoren met prijslogica en integraties
-- **OG description:** amai bouwt 3D-configuratoren waarmee klanten uw product samenstellen, de prijs zien en een aanvraag versturen, gekoppeld aan uw systemen.
+- **OG description:** semanu bouwt 3D-configuratoren waarmee klanten uw product samenstellen, de prijs zien en een aanvraag versturen, gekoppeld aan uw systemen.
 - **H1:** 3D-configuratoren die uw product online verkoopbaar maken
 
 ## Webcopy
 
 **Hero (H1):** 3D-configuratoren die uw product online verkoopbaar maken
-**Subheadline:** amai bouwt configuratoren waarmee uw klant een complex product zelf samenstelt, meteen een juiste prijs ziet en een aanvraag of order plaatst. Gekoppeld aan uw webshop, CRM of ERP.
+**Subheadline:** semanu bouwt configuratoren waarmee uw klant een complex product zelf samenstelt, meteen een juiste prijs ziet en een aanvraag of order plaatst. Gekoppeld aan uw webshop, CRM of ERP.
 **Primaire CTA:** Bespreek uw productconfigurator · **Secundaire CTA:** Bekijk een voorbeeld
 
 ### Wat is een 3D-productconfigurator?
@@ -433,7 +433,7 @@ Een 3D-viewer toont een vast product dat u kunt draaien en bekijken. Een 3D-conf
 
 Een configurator loont wanneer een product in veel varianten bestaat en die varianten vandaag veel uitleg, tekeningen of offertewerk vragen. Typisch: meubelen, ramen en deuren, trappen en leuningen, poorten, machines, verpakkingen en andere producten op maat. Hoe meer combinaties en regels, hoe groter de winst.
 
-### Wat een amai-configurator kan
+### Wat een semanu-configurator kan
 
 - **Realtime 3D** — elke keuze is direct zichtbaar.
 - **Productopties en varianten** — modellen, materialen, kleuren, afmetingen.
@@ -534,7 +534,7 @@ Korte checklist met per punt waarom het telt voor klassieke search én AI-discov
 - **IndexNow** — nieuwe/gewijzigde URL's meteen pingen (Bing/Yandex); snellere herontdekking.
 - **Taal/lokalisatie + hreflang** — zodra Duitse/Franse varianten bestaan, hreflang tussen de taalversies; voorkomt dat verkeerde taal rankt.
 - **Duplicate content tussen talen/URL-varianten** — vermijd dubbele NL/DE/FR op één URL; houd varianten gescheiden met hreflang.
-- **Consistente bedrijfsgegevens (NAP)** — identieke naam/gegevens overal; sterk entiteitssignaal. [INPUT VAN AMAI NODIG: definitieve bedrijfsgegevens]
+- **Consistente bedrijfsgegevens (NAP)** — identieke naam/gegevens overal; sterk entiteitssignaal. [INPUT VAN SEMANU NODIG: definitieve bedrijfsgegevens]
 - **Duidelijke auteur/organisatie-context** — koppel content aan de organisatie als bron; relevant voor E-E-A-T en AI-attributie.
 - **Toegankelijkheid (WCAG-basis)** — semantische HTML helpt gebruikers én crawlers de structuur lezen.
 
@@ -568,7 +568,7 @@ Elk zo'n artikel linkt naar de bijhorende dienstpagina en omgekeerd; zo versterk
 
 ---
 
-# WAT AMAI NOG MOET AANLEVEREN
+# WAT SEMANU NOG MOET AANLEVEREN
 
 **Essentieel voor publicatie**
 - Definitieve bedrijfsgegevens (naam, adres indien van toepassing, contact) voor consistente NAP en Organization-schema.

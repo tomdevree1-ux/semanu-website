@@ -29,7 +29,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const c = REFERENZEN[pick(locale)];
   return pageMetadata({
-    title: `${c.title} · amai.ch`,
+    title: `${c.title} · semanu.eu`,
     description: c.description,
     path: '/referenzen',
     locale,
@@ -46,8 +46,8 @@ export default async function ReferenzenPage({
   const c = REFERENZEN[pick(locale)];
 
   // Manual display order; any case not listed keeps its authored order after these.
-  const ORDER = ['Poortland', 'amai! interactieve kiosk'];
-  const HIDDEN = ['3D Configurator', 'amai.ch', 'SEMANU'];
+  const ORDER = ['Poortland', 'semanu interactieve kiosk'];
+  const HIDDEN = ['3D Configurator', 'semanu.eu', 'SEMANU'];
   const rank = (name: string) => {
     const i = ORDER.indexOf(name);
     return i === -1 ? ORDER.length : i;
@@ -68,7 +68,7 @@ export default async function ReferenzenPage({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'amai.ch', item: `${env.siteUrl}/${locale}` },
+      { '@type': 'ListItem', position: 1, name: 'semanu.eu', item: `${env.siteUrl}/${locale}` },
       { '@type': 'ListItem', position: 2, name: c.h1.replace(/\n/g, ' '), item: `${env.siteUrl}/${locale}/referenzen` },
     ],
   };
@@ -116,7 +116,7 @@ export default async function ReferenzenPage({
       </section>
 
       <Breadcrumb
-        items={[{ name: 'amai.ch', href: '/' }, { name: c.h1.replace(/\n/g, ' ') }]}
+        items={[{ name: 'semanu.eu', href: '/' }, { name: c.h1.replace(/\n/g, ' ') }]}
         locale={locale}
         jsonLd={false}
         className="bg-paper pt-8"

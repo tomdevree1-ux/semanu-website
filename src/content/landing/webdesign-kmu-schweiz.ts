@@ -63,9 +63,9 @@ export const webdesignKmuSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'Webdesign, das Vertrauen schafft und Anfragen bringt',
-      body: 'amai! gestaltet für Schweizer KMU, die professionell auftreten möchten, eine Präsenz statt einer Vorlage. Das Design entsteht auf Basis Ihres Unternehmens, Ihrer Zielgruppe und Ihres Angebots, ruhig und klar, auf dem Smartphone genauso stark wie auf dem Desktop. Dazu kommt eine saubere technische Umsetzung mit SEO Grundlagen, Hosting und Wartung im Abo.',
+      body: 'semanu gestaltet für Schweizer KMU, die professionell auftreten möchten, eine Präsenz statt einer Vorlage. Das Design entsteht auf Basis Ihres Unternehmens, Ihrer Zielgruppe und Ihres Angebots, ruhig und klar, auf dem Smartphone genauso stark wie auf dem Desktop. Dazu kommt eine saubere technische Umsetzung mit SEO Grundlagen, Hosting und Wartung im Abo.',
     },
-    featuresHeading: 'Was professionelles Webdesign bei amai! beinhaltet',
+    featuresHeading: 'Was professionelles Webdesign bei semanu beinhaltet',
     featuresHint: 'Fahren Sie über eine Kachel für mehr Infos',
     featuresLayout: 'cards',
     features: [
@@ -119,7 +119,7 @@ export const webdesignKmuSchweiz: LandingLocales = {
       },
     ],
     process: {
-      heading: 'So entsteht Ihr Webdesign bei amai!',
+      heading: 'So entsteht Ihr Webdesign bei semanu',
       steps: [
         {
           title: 'Erstgespräch',
@@ -146,7 +146,7 @@ export const webdesignKmuSchweiz: LandingLocales = {
     pricing: {
       heading: 'Webdesign Kosten für KMU',
       intro:
-        'Bei amai! zahlen Sie keine grosse Einmalrechnung für Design und Umsetzung. Stattdessen ein klares monatliches Abo, das Design, Technik, Hosting und Wartung beinhaltet.',
+        'Bei semanu zahlen Sie keine grosse Einmalrechnung für Design und Umsetzung. Stattdessen ein klares monatliches Abo, das Design, Technik, Hosting und Wartung beinhaltet.',
       cards: [
         {
           name: 'Business Website',
@@ -177,9 +177,9 @@ export const webdesignKmuSchweiz: LandingLocales = {
       cta: { label: 'Preise vergleichen', href: '/website-abos' },
     },
     reasons: {
-      heading: 'Warum amai! für Ihr Webdesign?',
+      heading: 'Warum semanu für Ihr Webdesign?',
       entitySentence:
-        'amai! ist ein Anbieter für Website Abos aus Bern und erstellt professionelle Websites für Schweizer KMU, Selbständige und lokale Unternehmen, inklusive Design, Umsetzung, Hosting, Wartung und SEO Grundlagen.',
+        'semanu ist ein Anbieter für Website Abos aus Bern und erstellt professionelle Websites für Schweizer KMU, Selbständige und lokale Unternehmen, inklusive Design, Umsetzung, Hosting, Wartung und SEO Grundlagen.',
       items: [
         {
           title: 'Design mit Verständnis für KMU',
@@ -210,7 +210,7 @@ export const webdesignKmuSchweiz: LandingLocales = {
     audience: {
       heading: 'Für wen ist dieses Webdesign Angebot geeignet?',
       intro:
-        'amai! passt besonders gut, wenn Sie ein professionelles Webdesign möchten, das zu Ihrem Unternehmen passt und sich nicht selbst um Technik, Hosting oder laufende Updates kümmern wollen.',
+        'semanu passt besonders gut, wenn Sie ein professionelles Webdesign möchten, das zu Ihrem Unternehmen passt und sich nicht selbst um Technik, Hosting oder laufende Updates kümmern wollen.',
       items: [
         'Selbständige und Einzelunternehmen',
         'Handwerksbetriebe und lokale Dienstleister',
@@ -225,7 +225,7 @@ export const webdesignKmuSchweiz: LandingLocales = {
     },
     sections: [],
     links: [
-      { href: '/referenzen', label: 'Referenzen', desc: 'Websites und digitale Lösungen von amai!' },
+      { href: '/referenzen', label: 'Referenzen', desc: 'Websites und digitale Lösungen von semanu' },
       { href: '/website-abos', label: 'Preise', desc: 'Transparente Abos für Business und Webshop.' },
       { href: '/so-funktioniert', label: 'So funktioniert\’s', desc: 'Schritt für Schritt zur fertigen Website.' },
       { href: '/website-abo-schweiz', label: 'Design im Abo', desc: 'Die Website im transparenten Monatsabo.' },
@@ -243,14 +243,14 @@ export const webdesignKmuSchweiz: LandingLocales = {
         },
         {
           q: 'Ist die Website auf dem Smartphone optimiert?',
-          a: 'Ja. Alle Websites von amai! werden nach dem Mobile First Prinzip entwickelt. Das bedeutet: zuerst für das Smartphone gestaltet und dann für Desktop und Tablet erweitert.',
+          a: 'Ja. Alle Websites von semanu werden nach dem Mobile First Prinzip entwickelt. Das bedeutet: zuerst für das Smartphone gestaltet und dann für Desktop und Tablet erweitert.',
         },
         {
           q: 'Wie lange dauert die Gestaltung?',
           a: 'Das hängt vom Umfang und der Verfügbarkeit von Inhalten und Feedback ab. Wir besprechen den konkreten Zeitplan transparent vor dem Start.',
         },
         {
-          q: 'Was kostet Webdesign bei amai!?',
+          q: 'Was kostet Webdesign bei semanu?',
           a: 'Die Website Abos beginnen bei 99 CHF pro Monat. Design, Umsetzung, Hosting und Wartung sind im Abo enthalten. Es gibt keine hohe Einmalinvestition.',
         },
         {
@@ -262,8 +262,8 @@ export const webdesignKmuSchweiz: LandingLocales = {
           a: 'Ja. Vorhandene Markenelemente wie Logo, Farben und Schriften werden im Design berücksichtigt. Falls Sie noch kein Logo haben, können wir das separat besprechen.',
         },
         {
-          q: 'Für welche Unternehmen ist das Webdesign von amai! geeignet?',
-          a: 'amai! ist ideal für Schweizer KMU, Selbständige und lokale Unternehmen, die ein professionelles Webdesign suchen und sich nicht selbst um Technik, Hosting und Wartung kümmern möchten.',
+          q: 'Für welche Unternehmen ist das Webdesign von semanu geeignet?',
+          a: 'semanu ist ideal für Schweizer KMU, Selbständige und lokale Unternehmen, die ein professionelles Webdesign suchen und sich nicht selbst um Technik, Hosting und Wartung kümmern möchten.',
         },
       ],
     },
@@ -335,9 +335,9 @@ export const webdesignKmuSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'Un webdesign qui inspire confiance et génère des demandes',
-      body: 'amai! conçoit pour les PME suisses qui veulent paraître professionnelles une présence, pas un modèle. Le design naît de votre entreprise, de votre public et de votre offre, calme et clair, aussi fort sur smartphone que sur ordinateur. S\’y ajoute une réalisation technique soignée avec bases SEO, hébergement et maintenance dans l\’abonnement.',
+      body: 'semanu conçoit pour les PME suisses qui veulent paraître professionnelles une présence, pas un modèle. Le design naît de votre entreprise, de votre public et de votre offre, calme et clair, aussi fort sur smartphone que sur ordinateur. S\’y ajoute une réalisation technique soignée avec bases SEO, hébergement et maintenance dans l\’abonnement.',
     },
-    featuresHeading: 'Ce que comprend le webdesign professionnel chez amai!',
+    featuresHeading: 'Ce que comprend le webdesign professionnel chez semanu',
     featuresHint: 'Passez sur une tuile pour plus d\’infos',
     featuresLayout: 'cards',
     features: [
@@ -391,7 +391,7 @@ export const webdesignKmuSchweiz: LandingLocales = {
       },
     ],
     process: {
-      heading: 'Comment votre webdesign naît chez amai!',
+      heading: 'Comment votre webdesign naît chez semanu',
       steps: [
         {
           title: 'Premier échange',
@@ -418,7 +418,7 @@ export const webdesignKmuSchweiz: LandingLocales = {
     pricing: {
       heading: 'Coûts du webdesign pour les PME',
       intro:
-        'Chez amai!, vous ne payez pas une grosse facture unique pour design et réalisation. À la place un abonnement mensuel clair qui comprend design, technique, hébergement et maintenance.',
+        'Chez semanu, vous ne payez pas une grosse facture unique pour design et réalisation. À la place un abonnement mensuel clair qui comprend design, technique, hébergement et maintenance.',
       cards: [
         {
           name: 'Business Website',
@@ -449,9 +449,9 @@ export const webdesignKmuSchweiz: LandingLocales = {
       cta: { label: 'Comparer les prix', href: '/website-abos' },
     },
     reasons: {
-      heading: 'Pourquoi choisir amai! pour votre webdesign?',
+      heading: 'Pourquoi choisir semanu pour votre webdesign?',
       entitySentence:
-        'amai! est un fournisseur d\’abonnements de sites basé à Berne et crée des sites professionnels pour les PME suisses, les indépendants et les commerces locaux, design, réalisation, hébergement, maintenance et bases SEO compris.',
+        'semanu est un fournisseur d\’abonnements de sites basé à Berne et crée des sites professionnels pour les PME suisses, les indépendants et les commerces locaux, design, réalisation, hébergement, maintenance et bases SEO compris.',
       items: [
         {
           title: 'Design avec compréhension des PME',
@@ -482,7 +482,7 @@ export const webdesignKmuSchweiz: LandingLocales = {
     audience: {
       heading: 'À qui s\’adresse cette offre de webdesign?',
       intro:
-        'amai! convient particulièrement si vous voulez un webdesign professionnel adapté à votre entreprise et ne souhaitez pas vous occuper vous-même de la technique, de l\’hébergement ou des mises à jour régulières.',
+        'semanu convient particulièrement si vous voulez un webdesign professionnel adapté à votre entreprise et ne souhaitez pas vous occuper vous-même de la technique, de l\’hébergement ou des mises à jour régulières.',
       items: [
         'Indépendants et entreprises individuelles',
         'Artisans et prestataires locaux',
@@ -497,7 +497,7 @@ export const webdesignKmuSchweiz: LandingLocales = {
     },
     sections: [],
     links: [
-      { href: '/referenzen', label: 'Références', desc: 'Sites et solutions numériques d\’amai!' },
+      { href: '/referenzen', label: 'Références', desc: 'Sites et solutions numériques d\’semanu' },
       { href: '/website-abos', label: 'Prix', desc: 'Abonnements transparents pour Business et Webshop.' },
       { href: '/so-funktioniert', label: 'Comment ça marche', desc: 'Votre site étape par étape.' },
       { href: '/website-abo-schweiz', label: 'Abonnement site Suisse', desc: 'Le site en abonnement mensuel transparent.' },
@@ -515,14 +515,14 @@ export const webdesignKmuSchweiz: LandingLocales = {
         },
         {
           q: 'Le site est optimisé pour smartphone?',
-          a: 'Oui. Tous les sites d\’amai! sont développés selon le principe Mobile First. Cela signifie: conçu d\’abord pour smartphone puis étendu à ordinateur et tablette.',
+          a: 'Oui. Tous les sites d\’semanu sont développés selon le principe Mobile First. Cela signifie: conçu d\’abord pour smartphone puis étendu à ordinateur et tablette.',
         },
         {
           q: 'Combien de temps prend la conception?',
           a: 'Cela dépend de l\’ampleur et de la disponibilité des contenus et retours. Nous discutons du calendrier concret de façon transparente avant le début.',
         },
         {
-          q: 'Combien coûte le webdesign chez amai!?',
+          q: 'Combien coûte le webdesign chez semanu?',
           a: 'Les abonnements démarrent à 99 CHF par mois. Design, réalisation, hébergement et maintenance sont compris dans l\’abonnement. Pas de gros investissement unique.',
         },
         {
@@ -534,8 +534,8 @@ export const webdesignKmuSchweiz: LandingLocales = {
           a: 'Oui. Les éléments de marque existants comme logo, couleurs et polices sont pris en compte dans le design. Si vous n\’avez pas encore de logo, nous pouvons en discuter séparément.',
         },
         {
-          q: 'Le webdesign d\’amai! convient à quelles entreprises?',
-          a: 'amai! est idéal pour les PME suisses, les indépendants et les commerces locaux qui cherchent un webdesign professionnel sans vouloir gérer la technique, l\’hébergement et la maintenance.',
+          q: 'Le webdesign d\’semanu convient à quelles entreprises?',
+          a: 'semanu est idéal pour les PME suisses, les indépendants et les commerces locaux qui cherchent un webdesign professionnel sans vouloir gérer la technique, l\’hébergement et la maintenance.',
         },
       ],
     },
@@ -607,9 +607,9 @@ export const webdesignKmuSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'Web design that builds trust and brings enquiries',
-      body: 'amai! gives Swiss SMEs that want to present themselves professionally a real presence, not a template. The design is built around your business, your audience and your offer, calm and clear, just as strong on smartphone as on desktop. Added to that is a clean technical build with SEO foundations, hosting and maintenance in the subscription.',
+      body: 'semanu gives Swiss SMEs that want to present themselves professionally a real presence, not a template. The design is built around your business, your audience and your offer, calm and clear, just as strong on smartphone as on desktop. Added to that is a clean technical build with SEO foundations, hosting and maintenance in the subscription.',
     },
-    featuresHeading: 'What professional web design at amai! includes',
+    featuresHeading: 'What professional web design at semanu includes',
     featuresHint: 'Hover over a tile for more info',
     featuresLayout: 'cards',
     features: [
@@ -663,7 +663,7 @@ export const webdesignKmuSchweiz: LandingLocales = {
       },
     ],
     process: {
-      heading: 'How your web design is created at amai!',
+      heading: 'How your web design is created at semanu',
       steps: [
         {
           title: 'First conversation',
@@ -690,7 +690,7 @@ export const webdesignKmuSchweiz: LandingLocales = {
     pricing: {
       heading: 'Web design costs for SMEs',
       intro:
-        'At amai! you do not pay a large one time invoice for design and build. Instead a clear monthly subscription that includes design, technology, hosting and maintenance.',
+        'At semanu you do not pay a large one time invoice for design and build. Instead a clear monthly subscription that includes design, technology, hosting and maintenance.',
       cards: [
         {
           name: 'Business Website',
@@ -721,9 +721,9 @@ export const webdesignKmuSchweiz: LandingLocales = {
       cta: { label: 'Compare pricing', href: '/website-abos' },
     },
     reasons: {
-      heading: 'Why choose amai! for your web design?',
+      heading: 'Why choose semanu for your web design?',
       entitySentence:
-        'amai! is a website subscription provider from Bern and builds professional websites for Swiss SMEs, self employed people and local businesses, including design, build, hosting, maintenance and SEO foundations.',
+        'semanu is a website subscription provider from Bern and builds professional websites for Swiss SMEs, self employed people and local businesses, including design, build, hosting, maintenance and SEO foundations.',
       items: [
         {
           title: 'Design with understanding of SMEs',
@@ -754,7 +754,7 @@ export const webdesignKmuSchweiz: LandingLocales = {
     audience: {
       heading: 'Who is this web design offer for?',
       intro:
-        'amai! is a particularly good fit if you want professional web design tailored to your business and do not want to deal with technology, hosting or regular updates yourself.',
+        'semanu is a particularly good fit if you want professional web design tailored to your business and do not want to deal with technology, hosting or regular updates yourself.',
       items: [
         'Self employed people and sole traders',
         'Trades businesses and local service providers',
@@ -769,7 +769,7 @@ export const webdesignKmuSchweiz: LandingLocales = {
     },
     sections: [],
     links: [
-      { href: '/referenzen', label: 'References', desc: 'Websites and digital solutions by amai!' },
+      { href: '/referenzen', label: 'References', desc: 'Websites and digital solutions by semanu' },
       { href: '/website-abos', label: 'Pricing', desc: 'Transparent plans for Business and Webshop.' },
       { href: '/so-funktioniert', label: 'How it works', desc: 'Your website step by step.' },
       { href: '/website-abo-schweiz', label: 'Website subscription Switzerland', desc: 'The website on a transparent monthly plan.' },
@@ -787,14 +787,14 @@ export const webdesignKmuSchweiz: LandingLocales = {
         },
         {
           q: 'Is the website optimised for smartphone?',
-          a: 'Yes. All websites from amai! are developed using the mobile first principle. That means: designed for smartphone first and then extended to desktop and tablet.',
+          a: 'Yes. All websites from semanu are developed using the mobile first principle. That means: designed for smartphone first and then extended to desktop and tablet.',
         },
         {
           q: 'How long does the design take?',
           a: 'That depends on the scope and the availability of content and feedback. We discuss the concrete timeline transparently before the start.',
         },
         {
-          q: 'What does web design at amai! cost?',
+          q: 'What does web design at semanu cost?',
           a: 'The website subscriptions start at 99 CHF per month. Design, build, hosting and maintenance are included in the subscription. No large one time investment.',
         },
         {
@@ -806,8 +806,8 @@ export const webdesignKmuSchweiz: LandingLocales = {
           a: 'Yes. Existing brand elements such as logo, colours and fonts are taken into account in the design. If you do not yet have a logo we can discuss that separately.',
         },
         {
-          q: 'Which businesses is amai! web design suited for?',
-          a: 'amai! is ideal for Swiss SMEs, self employed people and local businesses that are looking for professional web design without wanting to manage technology, hosting and maintenance.',
+          q: 'Which businesses is semanu web design suited for?',
+          a: 'semanu is ideal for Swiss SMEs, self employed people and local businesses that are looking for professional web design without wanting to manage technology, hosting and maintenance.',
         },
       ],
     },

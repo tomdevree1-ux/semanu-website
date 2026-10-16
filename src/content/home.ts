@@ -31,9 +31,9 @@ export type HomeContent = {
     eyebrow: string;
     heading: string;
     klassiekLabel: string;
-    amaiLabel: string;
+    semanuLabel: string;
     klassiek: string[];
-    amai: string[];
+    semanu: string[];
   };
   model: {
     eyebrow: string;
@@ -57,7 +57,7 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       partner: 'damit Ihr Unternehmen wächst',
       center: 'Ihr Unternehmen',
       intro:
-        'amai! ist Ihr digitaler Partner für Schweizer KMU. Von Website und Email Marketing über CRM, Automatisierungen und Dashboards bis zu Kundenportalen und AI Assistenten bringen wir die passenden Lösungen in eine klare Aufstellung.',
+        'semanu ist Ihr digitaler Partner für Schweizer KMU. Von Website und Email Marketing über CRM, Automatisierungen und Dashboards bis zu Kundenportalen und AI Assistenten bringen wir die passenden Lösungen in eine klare Aufstellung.',
       belowServices:
         'Alles, was Ihr Unternehmen braucht, um effizienter zu arbeiten, verbunden durch einen Partner.',
     },
@@ -65,7 +65,7 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       eyebrow: 'Die Herausforderung',
       heading: 'Die Digitalisierung geht schnell. Die meisten KMU haben keine Zeit mitzuhalten.',
       intro:
-        'Neue Tools, AI Lösungen, Automatisierungen und CRM Systeme entstehen laufend. Den meisten KMU fehlt die eigene IT, um mitzuhalten, sodass die digitale Aufstellung zum Flickwerk wird: Tools sprechen nicht miteinander und manuelle Arbeit nimmt zu. Genau dort setzt amai! an.',
+        'Neue Tools, AI Lösungen, Automatisierungen und CRM Systeme entstehen laufend. Den meisten KMU fehlt die eigene IT, um mitzuhalten, sodass die digitale Aufstellung zum Flickwerk wird: Tools sprechen nicht miteinander und manuelle Arbeit nimmt zu. Genau dort setzt semanu an.',
       cards: [
         {
           title: 'Keine interne IT Abteilung',
@@ -93,7 +93,7 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       eyebrow: 'Die Lösung',
       heading: 'Ein Partner für Ihre gesamte digitale Aufstellung.',
       intro:
-        'amai! wählt, baut, verbindet und betreut die Lösungen, die Ihr Unternehmen wirklich braucht: Website, Marketing, CRM, Automatisierungen, Dashboards, Kundenportale und AI, als eine verbundene Aufstellung statt einzelner Projekte.',
+        'semanu wählt, baut, verbindet und betreut die Lösungen, die Ihr Unternehmen wirklich braucht: Website, Marketing, CRM, Automatisierungen, Dashboards, Kundenportale und AI, als eine verbundene Aufstellung statt einzelner Projekte.',
       points: [
         {
           title: 'Ein Ansprechpartner',
@@ -116,18 +116,18 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       cta: 'Lassen Sie uns sprechen',
     },
     compare: {
-      eyebrow: 'Warum amai!',
+      eyebrow: 'Warum semanu',
       heading: '1 Ansprechpartner für Ihr gesamtes digitales Ökosystem.',
       klassiekLabel: 'Klassischer Ansatz',
-      amaiLabel: 'Mit amai!',
+      semanuLabel: 'Mit semanu',
       klassiek: ['Mehrere Anbieter', 'Tools die nicht miteinander sprechen', 'Unklare Verantwortung', 'Wechselnde Kosten'],
-      amai: ['1 fester Ansprechpartner', 'Verbundene Systeme', 'Alles inbegriffen', 'Fester Monatspreis'],
+      semanu: ['1 fester Ansprechpartner', 'Verbundene Systeme', 'Alles inbegriffen', 'Fester Monatspreis'],
     },
     model: {
       eyebrow: 'Das Abo',
       heading: 'Ein klares Abo für laufende digitale Unterstützung.',
       intro:
-        'Digitalisierung endet nicht mit dem Launch eines Projekts. Tools brauchen Updates, Prozesse verändern sich, neue Ideen entstehen und Ihr Unternehmen entwickelt sich weiter. Mit amai! arbeiten Sie in einem klaren Abo, das Support, Wartung und laufende Verbesserung Ihrer digitalen Aufstellung umfasst. Sie wissen, was enthalten ist, was möglich ist und was es kostet. Keine versteckten Kosten. Keine technischen Überraschungen. Kein Hin und Her zwischen verschiedenen Anbietern. Nur ein Partner, der Ihre digitalen Lösungen am Laufen hält und Schritt für Schritt verbessert.',
+        'Digitalisierung endet nicht mit dem Launch eines Projekts. Tools brauchen Updates, Prozesse verändern sich, neue Ideen entstehen und Ihr Unternehmen entwickelt sich weiter. Mit semanu arbeiten Sie in einem klaren Abo, das Support, Wartung und laufende Verbesserung Ihrer digitalen Aufstellung umfasst. Sie wissen, was enthalten ist, was möglich ist und was es kostet. Keine versteckten Kosten. Keine technischen Überraschungen. Kein Hin und Her zwischen verschiedenen Anbietern. Nur ein Partner, der Ihre digitalen Lösungen am Laufen hält und Schritt für Schritt verbessert.',
       includedTitle: 'Enthalten',
       included: [
         'Persönlicher Ansprechpartner',
@@ -180,7 +180,7 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       heading: 'Antworten auf einen Blick.',
       items: [
         {
-          q: 'Was kostet eine Website bei amai!?',
+          q: 'Was kostet eine Website bei semanu?',
           a: 'Die Abos starten bei 99 CHF pro Monat. Der genaue Preis hängt vom gewählten Abo und vom Umfang ab. Alle Preise verstehen sich exkl. MWST.',
         },
         {
@@ -208,12 +208,12 @@ export const HOME: Record<HomeLocale, HomeContent> = {
           a: 'Ja. Kleinere Anpassungen gehören zur Betreuung. Grössere Änderungen nach dem Launch verrechnen wir zu einem klaren, vorab vereinbarten Satz.',
         },
         {
-          q: 'Für wen ist amai! geeignet?',
+          q: 'Für wen ist semanu geeignet?',
           a: 'Für KMU, Selbständige und lokale Unternehmen in der Schweiz, die professionell auftreten möchten, ohne grosse Anfangsinvestition.',
         },
         {
-          q: 'Macht amai! mehr als Websites?',
-          a: 'Ja. amai! entwickelt auch digitale Plattformen wie Dashboards, CRM Systeme und Kundenportale, dazu Consultancy, Automatisierungen und AI Lösungen. Viele Kunden starten mit einer Website und bauen Schritt für Schritt weiter.',
+          q: 'Macht semanu mehr als Websites?',
+          a: 'Ja. semanu entwickelt auch digitale Plattformen wie Dashboards, CRM Systeme und Kundenportale, dazu Consultancy, Automatisierungen und AI Lösungen. Viele Kunden starten mit einer Website und bauen Schritt für Schritt weiter.',
         },
         {
           q: 'Was kostet eine digitale Plattform?',
@@ -230,7 +230,7 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       partner: 'pour faire grandir votre entreprise',
       center: 'Votre entreprise',
       intro:
-        'amai! est votre partenaire digital pour les PME suisses. Des sites web et de l’email marketing au CRM, aux automatisations, aux tableaux de bord, aux portails clients et aux assistants AI, nous réunissons les bonnes solutions dans une configuration claire.',
+        'semanu est votre partenaire digital pour les PME suisses. Des sites web et de l’email marketing au CRM, aux automatisations, aux tableaux de bord, aux portails clients et aux assistants AI, nous réunissons les bonnes solutions dans une configuration claire.',
       belowServices:
         'Tout ce dont votre entreprise a besoin pour travailler plus intelligemment, relié par un seul partenaire.',
     },
@@ -238,7 +238,7 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       eyebrow: 'Le défi',
       heading: 'La digitalisation va vite. La plupart des PME n’ont pas le temps de suivre.',
       intro:
-        'De nouveaux outils, de l’AI, des automatisations et des systèmes CRM apparaissent chaque jour, plus vite que la plupart des PME ne peuvent les juger. Sans service informatique interne, leur configuration devient peu à peu un patchwork d’outils qui ne se parlent pas. C’est là qu’intervient amai!.',
+        'De nouveaux outils, de l’AI, des automatisations et des systèmes CRM apparaissent chaque jour, plus vite que la plupart des PME ne peuvent les juger. Sans service informatique interne, leur configuration devient peu à peu un patchwork d’outils qui ne se parlent pas. C’est là qu’intervient semanu.',
       cards: [
         {
           title: 'Pas de service informatique interne',
@@ -266,7 +266,7 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       eyebrow: 'La solution',
       heading: 'Un seul partenaire pour toute votre configuration digitale.',
       intro:
-        'amai! choisit, construit, relie et entretient les solutions digitales dont votre entreprise a vraiment besoin: site web, marketing, CRM, automatisations, tableaux de bord, portails clients et AI, comme une configuration reliée plutôt que des projets séparés.',
+        'semanu choisit, construit, relie et entretient les solutions digitales dont votre entreprise a vraiment besoin: site web, marketing, CRM, automatisations, tableaux de bord, portails clients et AI, comme une configuration reliée plutôt que des projets séparés.',
       points: [
         {
           title: 'Un seul interlocuteur',
@@ -289,18 +289,18 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       cta: 'Discutons',
     },
     compare: {
-      eyebrow: 'Pourquoi amai!',
+      eyebrow: 'Pourquoi semanu',
       heading: '1 point de contact pour tout votre écosystème digital.',
       klassiekLabel: 'Approche classique',
-      amaiLabel: 'Avec amai!',
+      semanuLabel: 'Avec semanu',
       klassiek: ['Plusieurs prestataires', 'Des outils qui ne communiquent pas', 'Responsabilité floue', 'Des coûts variables'],
-      amai: ['1 interlocuteur fixe', 'Des systèmes connectés', 'Tout inclus', 'Un prix mensuel fixe'],
+      semanu: ['1 interlocuteur fixe', 'Des systèmes connectés', 'Tout inclus', 'Un prix mensuel fixe'],
     },
     model: {
       eyebrow: 'L’abonnement',
       heading: 'Un abonnement clair pour un accompagnement digital continu.',
       intro:
-        'La digitalisation ne s’arrête pas après un projet. Les outils ont besoin de mises à jour, les processus changent, de nouvelles idées apparaissent et votre entreprise continue d’évoluer. Avec amai! vous travaillez avec un abonnement clair qui comprend le support, la maintenance et l’amélioration continue de votre configuration digitale. Vous savez ce qui est compris, ce qui est possible et ce que cela coûte. Pas de coûts cachés. Pas de surprises techniques. Juste un partenaire qui garde vos outils digitaux fonctionnels et en amélioration.',
+        'La digitalisation ne s’arrête pas après un projet. Les outils ont besoin de mises à jour, les processus changent, de nouvelles idées apparaissent et votre entreprise continue d’évoluer. Avec semanu vous travaillez avec un abonnement clair qui comprend le support, la maintenance et l’amélioration continue de votre configuration digitale. Vous savez ce qui est compris, ce qui est possible et ce que cela coûte. Pas de coûts cachés. Pas de surprises techniques. Juste un partenaire qui garde vos outils digitaux fonctionnels et en amélioration.',
       includedTitle: 'Compris',
       included: [
         'Interlocuteur personnel',
@@ -353,7 +353,7 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       heading: 'Des réponses en un coup d’œil.',
       items: [
         {
-          q: 'Combien coûte un site chez amai!?',
+          q: 'Combien coûte un site chez semanu?',
           a: 'Les abonnements démarrent à 99 CHF par mois. Le prix exact dépend de l’abonnement choisi et de l’ampleur. Tous les prix hors TVA.',
         },
         {
@@ -381,12 +381,12 @@ export const HOME: Record<HomeLocale, HomeContent> = {
           a: 'Oui. Les petits ajustements font partie du suivi. Les modifications importantes après le lancement sont facturées à un tarif clair, convenu à l’avance.',
         },
         {
-          q: 'À qui amai! convient?',
+          q: 'À qui semanu convient?',
           a: 'Aux PME, indépendants et commerces locaux en Suisse qui veulent paraître professionnels, sans grand investissement de départ.',
         },
         {
-          q: 'amai! fait plus que des sites web ?',
-          a: 'Oui. amai! développe aussi des plateformes digitales comme des tableaux de bord, systèmes CRM et portails clients, ainsi que du conseil, des automatisations et des solutions AI. Beaucoup de clients commencent par un site web et construisent ensuite étape par étape.',
+          q: 'semanu fait plus que des sites web ?',
+          a: 'Oui. semanu développe aussi des plateformes digitales comme des tableaux de bord, systèmes CRM et portails clients, ainsi que du conseil, des automatisations et des solutions AI. Beaucoup de clients commencent par un site web et construisent ensuite étape par étape.',
         },
         {
           q: 'Combien coûte une plateforme digitale ?',
@@ -403,7 +403,7 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       partner: 'to grow your business',
       center: 'Your business',
       intro:
-        'amai! is your digital partner for Swiss SMEs. From websites and email marketing to CRM, automations, dashboards, customer portals and AI assistants, we bring the right solutions into one clear setup.',
+        'semanu is your digital partner for Swiss SMEs. From websites and email marketing to CRM, automations, dashboards, customer portals and AI assistants, we bring the right solutions into one clear setup.',
       belowServices:
         'Everything your business needs to work smarter, connected by one partner.',
     },
@@ -411,7 +411,7 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       eyebrow: 'The challenge',
       heading: 'Digitalisation is moving fast. Most SMEs do not have time to keep up.',
       intro:
-        'New tools, AI, automations and CRM systems appear every day, faster than most SMEs can judge them. Without in house IT their setup slowly becomes a patchwork of tools that do not talk to each other. That is where amai! comes in.',
+        'New tools, AI, automations and CRM systems appear every day, faster than most SMEs can judge them. Without in house IT their setup slowly becomes a patchwork of tools that do not talk to each other. That is where semanu comes in.',
       cards: [
         {
           title: 'No internal IT department',
@@ -439,7 +439,7 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       eyebrow: 'The solution',
       heading: 'One partner for your whole digital setup.',
       intro:
-        'amai! chooses, builds, connects and maintains the digital solutions your business really needs: website, marketing, CRM, automations, dashboards, customer portals and AI, built as one connected setup instead of separate projects.',
+        'semanu chooses, builds, connects and maintains the digital solutions your business really needs: website, marketing, CRM, automations, dashboards, customer portals and AI, built as one connected setup instead of separate projects.',
       points: [
         {
           title: 'One point of contact',
@@ -462,18 +462,18 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       cta: 'Let’s talk',
     },
     compare: {
-      eyebrow: 'Why amai!',
+      eyebrow: 'Why semanu',
       heading: '1 point of contact for your entire digital ecosystem.',
       klassiekLabel: 'The usual way',
-      amaiLabel: 'With amai!',
+      semanuLabel: 'With semanu',
       klassiek: ['Multiple providers', 'Tools that do not talk to each other', 'Unclear responsibility', 'Shifting costs'],
-      amai: ['1 fixed point of contact', 'Connected systems', 'Everything included', 'A fixed monthly price'],
+      semanu: ['1 fixed point of contact', 'Connected systems', 'Everything included', 'A fixed monthly price'],
     },
     model: {
       eyebrow: 'The subscription',
       heading: 'A clear subscription for ongoing digital support.',
       intro:
-        'Digitalisation does not stop after one project. Tools need updates, processes change, new ideas appear and your business keeps evolving. With amai! you work with a clear subscription that includes support, maintenance and continuous improvement of your digital setup. You know what is included, what is possible and what it costs. No hidden costs. No technical surprises. Just one partner who keeps your digital tools working and improving.',
+        'Digitalisation does not stop after one project. Tools need updates, processes change, new ideas appear and your business keeps evolving. With semanu you work with a clear subscription that includes support, maintenance and continuous improvement of your digital setup. You know what is included, what is possible and what it costs. No hidden costs. No technical surprises. Just one partner who keeps your digital tools working and improving.',
       includedTitle: 'Included',
       included: [
         'Personal contact',
@@ -526,7 +526,7 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       heading: 'Answers at a glance.',
       items: [
         {
-          q: 'What does a website at amai! cost?',
+          q: 'What does a website at semanu cost?',
           a: 'The plans start at 99 CHF per month. The exact price depends on the chosen plan and the scope. All prices excl. VAT.',
         },
         {
@@ -554,12 +554,12 @@ export const HOME: Record<HomeLocale, HomeContent> = {
           a: 'Yes. Small adjustments are part of the care. Larger changes after launch are billed at a clear rate, agreed in advance.',
         },
         {
-          q: 'Who is amai! for?',
+          q: 'Who is semanu for?',
           a: 'For SMEs, self employed people and local businesses in Switzerland that want to look professional, without a large upfront investment.',
         },
         {
-          q: 'Does amai! do more than websites?',
-          a: 'Yes. amai! also builds digital platforms like dashboards, CRM systems and customer portals, plus consultancy, automations and AI solutions. Many clients start with a website and build further step by step.',
+          q: 'Does semanu do more than websites?',
+          a: 'Yes. semanu also builds digital platforms like dashboards, CRM systems and customer portals, plus consultancy, automations and AI solutions. Many clients start with a website and build further step by step.',
         },
         {
           q: 'What does a digital platform cost?',
@@ -576,7 +576,7 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       partner: 'para hacer crecer su empresa',
       center: 'Su empresa',
       intro:
-        'amai! es su socio digital para pymes suizas. Desde la web y el email marketing hasta CRM, automatizaciones, cuadros de mando, portales de clientes y asistentes AI, reunimos las soluciones adecuadas en una configuración clara.',
+        'semanu es su socio digital para pymes suizas. Desde la web y el email marketing hasta CRM, automatizaciones, cuadros de mando, portales de clientes y asistentes AI, reunimos las soluciones adecuadas en una configuración clara.',
       belowServices:
         'Todo lo que su empresa necesita para trabajar de forma más eficiente, conectado por un solo socio.',
     },
@@ -584,7 +584,7 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       eyebrow: 'El reto',
       heading: 'La digitalización avanza rápido. La mayoría de las pymes no tiene tiempo de seguir el ritmo.',
       intro:
-        'Cada día surgen nuevas herramientas, AI, automatizaciones y sistemas CRM, más rápido de lo que la mayoría de las pymes puede valorar. Sin un departamento de informática propio, su configuración se convierte poco a poco en un mosaico de herramientas que no se comunican entre sí. Ahí es donde entra amai!.',
+        'Cada día surgen nuevas herramientas, AI, automatizaciones y sistemas CRM, más rápido de lo que la mayoría de las pymes puede valorar. Sin un departamento de informática propio, su configuración se convierte poco a poco en un mosaico de herramientas que no se comunican entre sí. Ahí es donde entra semanu.',
       cards: [
         {
           title: 'Sin departamento de informática interno',
@@ -612,7 +612,7 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       eyebrow: 'La solución',
       heading: 'Un socio para toda su configuración digital.',
       intro:
-        'amai! elige, construye, conecta y mantiene las soluciones digitales que su empresa realmente necesita: web, marketing, CRM, automatizaciones, cuadros de mando, portales de clientes y AI, como una configuración conectada en lugar de proyectos sueltos.',
+        'semanu elige, construye, conecta y mantiene las soluciones digitales que su empresa realmente necesita: web, marketing, CRM, automatizaciones, cuadros de mando, portales de clientes y AI, como una configuración conectada en lugar de proyectos sueltos.',
       points: [
         {
           title: 'Un único contacto',
@@ -635,18 +635,18 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       cta: 'Hablemos',
     },
     compare: {
-      eyebrow: 'Por qué amai!',
+      eyebrow: 'Por qué semanu',
       heading: '1 punto de contacto para todo su ecosistema digital.',
       klassiekLabel: 'El enfoque habitual',
-      amaiLabel: 'Con amai!',
+      semanuLabel: 'Con semanu',
       klassiek: ['Varios proveedores', 'Herramientas que no se comunican', 'Responsabilidad poco clara', 'Costes variables'],
-      amai: ['1 interlocutor fijo', 'Sistemas conectados', 'Todo incluido', 'Un precio mensual fijo'],
+      semanu: ['1 interlocutor fijo', 'Sistemas conectados', 'Todo incluido', 'Un precio mensual fijo'],
     },
     model: {
       eyebrow: 'La suscripción',
       heading: 'Una suscripción clara para apoyo digital continuo.',
       intro:
-        'La digitalización no termina con el lanzamiento de un proyecto. Las herramientas necesitan actualizaciones, los procesos cambian, surgen nuevas ideas y su empresa sigue evolucionando. Con amai! trabaja en una suscripción clara que incluye soporte, mantenimiento y mejora continua de su configuración digital. Sabe qué está incluido, qué es posible y cuánto cuesta. Sin costes ocultos. Sin sorpresas técnicas. Sin idas y venidas entre distintos proveedores. Solo un socio que mantiene sus soluciones digitales en marcha y las mejora paso a paso.',
+        'La digitalización no termina con el lanzamiento de un proyecto. Las herramientas necesitan actualizaciones, los procesos cambian, surgen nuevas ideas y su empresa sigue evolucionando. Con semanu trabaja en una suscripción clara que incluye soporte, mantenimiento y mejora continua de su configuración digital. Sabe qué está incluido, qué es posible y cuánto cuesta. Sin costes ocultos. Sin sorpresas técnicas. Sin idas y venidas entre distintos proveedores. Solo un socio que mantiene sus soluciones digitales en marcha y las mejora paso a paso.',
       includedTitle: 'Incluido',
       included: [
         'Contacto personal',
@@ -699,7 +699,7 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       heading: 'Respuestas de un vistazo.',
       items: [
         {
-          q: '¿Cuánto cuesta una web en amai!?',
+          q: '¿Cuánto cuesta una web en semanu?',
           a: 'Las suscripciones empiezan en 99 CHF al mes. El precio exacto depende de la suscripción elegida y del alcance. Todos los precios sin IVA.',
         },
         {
@@ -727,12 +727,12 @@ export const HOME: Record<HomeLocale, HomeContent> = {
           a: 'Sí. Los ajustes pequeños forman parte del acompañamiento. Los cambios mayores tras el lanzamiento se facturan a una tarifa clara, acordada de antemano.',
         },
         {
-          q: '¿Para quién es adecuado amai!?',
+          q: '¿Para quién es adecuado semanu?',
           a: 'Para pymes, autónomos y empresas locales en Suiza que quieren dar una imagen profesional sin una gran inversión inicial.',
         },
         {
-          q: '¿Hace amai! algo más que webs?',
-          a: 'Sí. amai! también desarrolla plataformas digitales como cuadros de mando, sistemas CRM y portales de clientes, además de consultoría, automatizaciones y soluciones AI. Muchos clientes empiezan con una web y siguen construyendo paso a paso.',
+          q: '¿Hace semanu algo más que webs?',
+          a: 'Sí. semanu también desarrolla plataformas digitales como cuadros de mando, sistemas CRM y portales de clientes, además de consultoría, automatizaciones y soluciones AI. Muchos clientes empiezan con una web y siguen construyendo paso a paso.',
         },
         {
           q: '¿Cuánto cuesta una plataforma digital?',
@@ -749,7 +749,7 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       partner: 'om uw onderneming te laten groeien',
       center: 'Uw onderneming',
       intro:
-        'amai! is uw digitale partner voor Zwitserse kmo’s. Van website en email marketing over CRM, automatiseringen, dashboards en klantenportalen tot AI assistenten brengen we de juiste oplossingen samen in een heldere opstelling.',
+        'semanu is uw digitale partner voor Zwitserse kmo’s. Van website en email marketing over CRM, automatiseringen, dashboards en klantenportalen tot AI assistenten brengen we de juiste oplossingen samen in een heldere opstelling.',
       belowServices:
         'Alles wat uw onderneming nodig heeft om efficiënter te werken, verbonden door één partner.',
     },
@@ -757,7 +757,7 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       eyebrow: 'De uitdaging',
       heading: 'Digitalisering gaat snel, de meeste bedrijven hebben geen tijd om bij te blijven.',
       intro:
-        'Elke dag komen er nieuwe tools, AI, automatiseringen en CRM systemen bij, sneller dan de meeste kmo’s ze kunnen beoordelen. Zonder eigen IT wordt hun digitale opstelling stilaan een lappendeken van tools die niet met elkaar praten. Precies daar zet amai! op in.',
+        'Elke dag komen er nieuwe tools, AI, automatiseringen en CRM systemen bij, sneller dan de meeste kmo’s ze kunnen beoordelen. Zonder eigen IT wordt hun digitale opstelling stilaan een lappendeken van tools die niet met elkaar praten. Precies daar zet semanu op in.',
       cards: [
         {
           title: 'Geen interne IT afdeling',
@@ -785,7 +785,7 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       eyebrow: 'De oplossing',
       heading: 'Eén partner voor uw volledige digitale opstelling.',
       intro:
-        'amai! kiest, bouwt, verbindt en onderhoudt de digitale oplossingen die uw onderneming echt nodig heeft: website, marketing, CRM, automatiseringen, dashboards, klantenportalen en AI, als één verbonden opstelling in plaats van losse projecten.',
+        'semanu kiest, bouwt, verbindt en onderhoudt de digitale oplossingen die uw onderneming echt nodig heeft: website, marketing, CRM, automatiseringen, dashboards, klantenportalen en AI, als één verbonden opstelling in plaats van losse projecten.',
       points: [
         {
           title: 'Eén aanspreekpunt',
@@ -808,18 +808,18 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       cta: 'Laten we praten',
     },
     compare: {
-      eyebrow: 'Waarom amai!',
+      eyebrow: 'Waarom semanu',
       heading: '1 aanspreekpunt voor heel uw digitale ecosysteem.',
       klassiekLabel: 'Klassieke aanpak',
-      amaiLabel: 'Met amai!',
+      semanuLabel: 'Met semanu',
       klassiek: ['Meerdere leveranciers', 'Tools die niet met elkaar praten', 'Onduidelijke verantwoordelijkheid', 'Wisselende kosten'],
-      amai: ['1 vast aanspreekpunt', 'Verbonden systemen', 'Alles inbegrepen', 'Vast maandbedrag'],
+      semanu: ['1 vast aanspreekpunt', 'Verbonden systemen', 'Alles inbegrepen', 'Vast maandbedrag'],
     },
     model: {
       eyebrow: 'Het abonnement',
       heading: 'Een helder abonnement voor doorlopende digitale ondersteuning.',
       intro:
-        'Digitalisering stopt niet bij de lancering van een project. Tools hebben updates nodig, processen veranderen, nieuwe ideeën ontstaan en uw onderneming blijft zich ontwikkelen. Met amai! werkt u in een helder abonnement dat support, onderhoud en doorlopende verbetering van uw digitale opstelling omvat. U weet wat inbegrepen is, wat mogelijk is en wat het kost. Geen verborgen kosten. Geen technische verrassingen. Geen heen en weer tussen verschillende aanbieders. Gewoon één partner die uw digitale oplossingen draaiende houdt en stap voor stap verbetert.',
+        'Digitalisering stopt niet bij de lancering van een project. Tools hebben updates nodig, processen veranderen, nieuwe ideeën ontstaan en uw onderneming blijft zich ontwikkelen. Met semanu werkt u in een helder abonnement dat support, onderhoud en doorlopende verbetering van uw digitale opstelling omvat. U weet wat inbegrepen is, wat mogelijk is en wat het kost. Geen verborgen kosten. Geen technische verrassingen. Geen heen en weer tussen verschillende aanbieders. Gewoon één partner die uw digitale oplossingen draaiende houdt en stap voor stap verbetert.',
       includedTitle: 'Inbegrepen',
       included: [
         'Persoonlijk aanspreekpunt',
@@ -872,7 +872,7 @@ export const HOME: Record<HomeLocale, HomeContent> = {
       heading: 'Antwoorden in één oogopslag.',
       items: [
         {
-          q: 'Wat kost een website bij amai!?',
+          q: 'Wat kost een website bij semanu?',
           a: 'De abonnementen starten vanaf 99 CHF per maand. De exacte prijs hangt af van het gekozen abonnement en de omvang. Alle prijzen excl. btw.',
         },
         {
@@ -900,12 +900,12 @@ export const HOME: Record<HomeLocale, HomeContent> = {
           a: 'Ja. Kleinere aanpassingen horen bij de begeleiding. Grotere wijzigingen na de lancering rekenen we aan tegen een helder, vooraf afgesproken tarief.',
         },
         {
-          q: 'Voor wie is amai! geschikt?',
+          q: 'Voor wie is semanu geschikt?',
           a: 'Voor kmo’s, zelfstandigen en lokale ondernemingen in Zwitserland die professioneel willen overkomen zonder grote startinvestering.',
         },
         {
-          q: 'Doet amai! meer dan websites?',
-          a: 'Ja. amai! ontwikkelt ook digitale platformen zoals dashboards, CRM systemen en klantenportalen, daarnaast consultancy, automatiseringen en AI oplossingen. Veel klanten starten met een website en bouwen stap voor stap verder.',
+          q: 'Doet semanu meer dan websites?',
+          a: 'Ja. semanu ontwikkelt ook digitale platformen zoals dashboards, CRM systemen en klantenportalen, daarnaast consultancy, automatiseringen en AI oplossingen. Veel klanten starten met een website en bouwen stap voor stap verder.',
         },
         {
           q: 'Wat kost een digitaal platform?',

@@ -1,7 +1,7 @@
 // Flow 2 — Automation & Operations (marketing-automation, booking).
 // A flow/process focused page. It leads with the problem on a dark navy band,
 // then explains the trigger -> action -> result idea beside the signature flow
-// visual, lists what amai sets up, use cases by business type, a vertical
+// visual, lists what semanu sets up, use cases by business type, a vertical
 // process timeline, outcomes, FAQ and final CTA.
 
 import { getTranslations } from 'next-intl/server';
@@ -93,7 +93,7 @@ export async function FlowAutomationOperations({ service, detail, content, navSe
       {detail.subTheme ? (
         <section className="flow-soft-white py-16 sm:py-20">
           <div className="container-site">
-            <div className="amai-reveal mx-auto max-w-3xl rounded-2xl border border-mint/50 bg-hero-wash p-7 sm:p-9">
+            <div className="semanu-reveal mx-auto max-w-3xl rounded-2xl border border-mint/50 bg-hero-wash p-7 sm:p-9">
               <span className="font-mono text-xs uppercase tracking-wider text-navy"><BrandText>{detail.subTheme.label}</BrandText></span>
               <h2 className="h3 mt-2 text-ink"><BrandText>{detail.subTheme.heading}</BrandText></h2>
               <p className="mt-3 leading-relaxed text-ink-soft"><BrandText>{detail.subTheme.body}</BrandText></p>

@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 
-const COOKIE_NAME = 'amai_cc';
+const COOKIE_NAME = 'semanu_cc';
 const ONE_YEAR = 60 * 60 * 24 * 365;
 
 // necessary = reject all but essential · analytics = GA only · all = GA + marketing (Ads/LinkedIn)
@@ -20,7 +20,7 @@ function readChoice(): string | null {
  * Cookie consent chooser — a prominent centred modal over a dimmed page.
  * Explains the three cookie categories (necessary / analytics / marketing) and
  * offers three choices: accept all, analytics only, or reject. The choice
- * persists in a cookie + localStorage and is broadcast via the `amai-consent`
+ * persists in a cookie + localStorage and is broadcast via the `semanu-consent`
  * event so Analytics (Google Consent Mode v2) updates without a reload:
  *   necessary → everything denied · analytics → analytics_storage only ·
  *   all → analytics + ad signals granted.
@@ -44,7 +44,7 @@ export function CookieBanner() {
     } catch {
       // localStorage unavailable (private mode): the cookie above is enough.
     }
-    window.dispatchEvent(new CustomEvent('amai-consent', { detail: choice }));
+    window.dispatchEvent(new CustomEvent('semanu-consent', { detail: choice }));
     setShow(false);
     setTimeout(() => setDecided(true), 300);
   }

@@ -11,7 +11,7 @@ Many Swiss SME websites are almost impossible for Google and AI assistants to fi
 
 ## How we measured
 
-At <span class="brand-mark">amai<span class="spark">!</span></span> we continuously review Swiss SME websites against a fixed grid. We placed 2292 sites on a five level maturity scale. For the 638 sites with the greatest need for work we added a score from 0 to 10 in eight categories, including SEO and content. The numbers therefore describe this weakest group and not the average of all SMEs. The rating is indicative and based on visible website elements. All the detail is in the [SME website study](/en/blog/kmu-website-studie-schweiz).
+At <span class="brand-mark">semanu<span class="spark">!</span></span> we continuously review Swiss SME websites against a fixed grid. We placed 2292 sites on a five level maturity scale. For the 638 sites with the greatest need for work we added a score from 0 to 10 in eight categories, including SEO and content. The numbers therefore describe this weakest group and not the average of all SMEs. The rating is indicative and based on visible website elements. All the detail is in the [SME website study](/en/blog/kmu-website-studie-schweiz).
 
 ## The numbers
 

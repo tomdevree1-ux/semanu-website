@@ -14,7 +14,7 @@ function Caption({ children }: { children: string }) {
    A layered stack: one connected website built from clear layers. */
 export function WebsiteStackVisual({ layers, caption }: { layers: string[]; caption: string }) {
   return (
-    <figure className="amai-reveal">
+    <figure className="semanu-reveal">
       <div className="rounded-2xl border border-[var(--line-light)] bg-navy p-4 shadow-[var(--shadow-pop)]">
         <ul className="space-y-1.5">
           {layers.map((layer, i) => {
@@ -47,7 +47,7 @@ export function WebsiteStackVisual({ layers, caption }: { layers: string[]; capt
    A horizontal journey from signup to repeat business. */
 export function EmailJourneyVisual({ steps, caption }: { steps: string[]; caption: string }) {
   return (
-    <figure className="amai-reveal">
+    <figure className="semanu-reveal">
       <ol className="space-y-1">
         {steps.map((step, i) => (
           <li key={step}>
@@ -77,7 +77,7 @@ export function EmailJourneyVisual({ steps, caption }: { steps: string[]; captio
 export async function AutomationFlowVisual({ nodes, caption }: { nodes: string[]; caption: string }) {
   const t = await getTranslations('serviceUi');
   return (
-    <figure className="amai-reveal">
+    <figure className="semanu-reveal">
       <ol className="relative ml-3">
         <span aria-hidden className="absolute left-0 top-2 bottom-2 w-px bg-[var(--line-strong)]" />
         {nodes.map((node, i) => {
@@ -138,7 +138,7 @@ function FlowIcon({ name }: { name: 'lead' | 'mail' | 'wait' | 'bell' | 'check' 
 
 export function WorkflowHeroFlow({ steps }: { steps: NonNullable<ServiceDetail['heroFlow']> }) {
   return (
-    <figure className="amai-reveal mx-auto w-full max-w-md lg:mx-0 lg:ml-auto">
+    <figure className="semanu-reveal mx-auto w-full max-w-md lg:mx-0 lg:ml-auto">
       <div className="rounded-2xl border border-white/10 bg-navy p-4 shadow-[0_24px_60px_-24px_rgba(7,34,31,0.55)] sm:p-5">
         <div className="mb-4 flex items-center gap-3">
           <span aria-hidden className="flex gap-1.5">
@@ -146,7 +146,7 @@ export function WorkflowHeroFlow({ steps }: { steps: NonNullable<ServiceDetail['
             <span className="h-2.5 w-2.5 rounded-full bg-white/25" />
             <span className="h-2.5 w-2.5 rounded-full bg-white/25" />
           </span>
-          <span className="flex-1 rounded-md bg-white/10 px-3 py-1 text-center font-mono text-[11px] text-paper/70">amai.ch</span>
+          <span className="flex-1 rounded-md bg-white/10 px-3 py-1 text-center font-mono text-[11px] text-paper/70">semanu.eu</span>
         </div>
         <ol>
           {steps.map((s, i) => (
@@ -180,7 +180,7 @@ export async function BookingJourneyVisual({ steps, caption }: { steps: string[]
   const days = Array.from({ length: 28 }, (_, i) => i + 1);
   const pick = 17;
   return (
-    <figure className="amai-reveal">
+    <figure className="semanu-reveal">
       <div className="grid gap-4 sm:grid-cols-2">
         {/* mock calendar */}
         <div aria-hidden className="rounded-2xl border border-[var(--line)] bg-white p-4">
@@ -299,7 +299,7 @@ export function BusinessHubVisual({
   });
 
   return (
-    <figure className="amai-reveal">
+    <figure className="semanu-reveal">
       <svg
         viewBox="0 0 680 560"
         className="mx-auto h-auto w-full max-w-[560px]"
@@ -415,12 +415,12 @@ export function BusinessHubVisual({
    Calm assistant cards, each with one clear job and a soft status dot. */
 export function AssistantTypesVisual({ cards, caption }: { cards: DetailCard[]; caption: string }) {
   return (
-    <figure className="amai-reveal">
+    <figure className="semanu-reveal">
       <div className="grid gap-3 sm:grid-cols-2">
         {cards.map((c) => (
           <div key={c.title} className="rounded-2xl border border-[var(--line)] bg-white p-5">
             <div className="flex items-center gap-2.5">
-              <span aria-hidden className="amai-pulse h-2.5 w-2.5 rounded-full bg-mint" />
+              <span aria-hidden className="semanu-pulse h-2.5 w-2.5 rounded-full bg-mint" />
               <span className="font-display text-base text-ink">{c.title}</span>
             </div>
             <p className="mt-2 text-sm leading-relaxed text-ink-soft">{c.text}</p>

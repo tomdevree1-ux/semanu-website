@@ -8,8 +8,8 @@
     "contact": "Nous contacter"
   },
   "meta": {
-    "title": "Agence web à Berne: sites, plateformes et AI pour PME · amai.ch",
-    "description": "amai! crée des sites web, portails clients, CRM et automatisations pour les PME suisses. Un partenaire, un abonnement clair, personnel depuis Berne."
+    "title": "Agence web à Berne: sites, plateformes et AI pour PME · semanu.eu",
+    "description": "semanu crée des sites web, portails clients, CRM et automatisations pour les PME suisses. Un partenaire, un abonnement clair, personnel depuis Berne."
   },
   "banner": {
     "studyText": "Nouveau: 2292 sites de PME suisses évalués. Seuls 9 pour cent sont à jour.",
@@ -45,7 +45,7 @@
     "howDesc": "Notre processus en cinq étapes",
     "plansDesc": "Abonnements web et prix",
     "faqDesc": "Réponses aux questions fréquentes",
-    "aboutDesc": "Qui se cache derrière amai!",
+    "aboutDesc": "Qui se cache derrière semanu",
     "blogDesc": "Idées et conseils sur les sites",
     "contactDesc": "Parlons de votre projet",
     "start": "Commencer",
@@ -81,7 +81,7 @@
     "email": "Email",
     "website": "Votre site web",
     "consent": "J'accepte la politique de confidentialité et le traitement de mes données.",
-    "marketing": "Je souhaite recevoir occasionnellement des conseils et nouveautés d'amai! (optionnel)",
+    "marketing": "Je souhaite recevoir occasionnellement des conseils et nouveautés d'semanu (optionnel)",
     "submit": "Demander l'analyse",
     "sending": "Envoi en cours …",
     "okTitle": "Merci !",
@@ -130,7 +130,7 @@
     "aboLink": "Comment fonctionne l’abonnement site web",
     "calcTitle": "Calculateur de prix site web: combien coûte votre site par mois ?",
     "calcIntro": "Choisissez votre situation, l’ampleur et les fonctions et vous voyez immédiatement le prix mensuel. Site web dès 99 CHF, webshop dès 125 CHF, tout compris, durée minimale de 36 mois.",
-    "summary": "Un site web professionnel coûte chez amai! dès CHF 99 par mois (Business) ou CHF 125 (Webshop). Hébergement, maintenance et bases SEO sont compris et il n’y a pas de gros coûts initiaux.",
+    "summary": "Un site web professionnel coûte chez semanu dès CHF 99 par mois (Business) ou CHF 125 (Webshop). Hébergement, maintenance et bases SEO sont compris et il n’y a pas de gros coûts initiaux.",
     "metaDescription": "Combien coûte un site web en Suisse ? Prix dès 99 CHF par mois, webshop dès 125 CHF. Design, hébergement, maintenance et bases SEO compris, durée minimale de 36 mois.",
     "plansEyebrow": "Abonnements web",
     "plansTitle": "Abonnements web à prix mensuel fixe",
@@ -164,15 +164,15 @@
       },
       {
         "q": "Quels sont les prix du webdesign en Suisse ?",
-        "a": "Les agences suisses classiques demandent en général un montant unique à quatre chiffres pour un site de PME, plus l’hébergement et la maintenance par an. Chez amai!, vous payez dès 99 CHF par mois, design, réalisation, hébergement et maintenance compris."
+        "a": "Les agences suisses classiques demandent en général un montant unique à quatre chiffres pour un site de PME, plus l’hébergement et la maintenance par an. Chez semanu, vous payez dès 99 CHF par mois, design, réalisation, hébergement et maintenance compris."
       },
       {
         "q": "Combien coûte un site web par mois en Suisse ?",
-        "a": "Chez amai! un site web coûte dès 99 CHF par mois, un webshop dès 125 CHF par mois, hors TVA. Tout est compris: design, réalisation, hébergement, maintenance et bases SEO. Pas d’acompte et pas de facture d’hébergement séparée. La durée minimale est de 36 mois."
+        "a": "Chez semanu un site web coûte dès 99 CHF par mois, un webshop dès 125 CHF par mois, hors TVA. Tout est compris: design, réalisation, hébergement, maintenance et bases SEO. Pas d’acompte et pas de facture d’hébergement séparée. La durée minimale est de 36 mois."
       }
     ],
     "seoTitle": "Prix d’un site web en Suisse: combien coûte un site ?",
-    "seoBody": "Un site professionnel coûte chez amai! dès 99 CHF par mois, un webshop dès 125 CHF par mois, hors TVA. Ce prix comprend le design, la réalisation technique, l’hébergement, la maintenance et les bases SEO. En Suisse, les prix du webdesign pour un projet comparable atteignent vite plusieurs milliers de francs en une fois, auxquels s’ajoutent l’hébergement et la maintenance. Nous répartissons le même travail sur un montant mensuel, pour que vous connaissiez les prix dès le départ et sans facture de rattrapage. Le prix exact est fixé ensemble à l’avance, dès que le périmètre est clair."
+    "seoBody": "Un site professionnel coûte chez semanu dès 99 CHF par mois, un webshop dès 125 CHF par mois, hors TVA. Ce prix comprend le design, la réalisation technique, l’hébergement, la maintenance et les bases SEO. En Suisse, les prix du webdesign pour un projet comparable atteignent vite plusieurs milliers de francs en une fois, auxquels s’ajoutent l’hébergement et la maintenance. Nous répartissons le même travail sur un montant mensuel, pour que vous connaissiez les prix dès le départ et sans facture de rattrapage. Le prix exact est fixé ensemble à l’avance, dès que le périmètre est clair."
   },
   "plan": {
     "b": {
@@ -314,7 +314,7 @@
     "vatNote": "Tous les prix hors TVA. Abonnements site avec durée minimale de 36 mois, ensuite résiliables chaque mois."
   },
   "home": {
-    "title": "Découvrez amai!",
+    "title": "Découvrez semanu",
     "intro": "Abonnements, déroulement, réponses et contact en un coup d’œil.",
     "moreTitle": "Plus qu’un site web",
     "moreText": "Votre site web peut devenir le point de départ pour le marketing, l’automatisation et des systèmes métier plus intelligents.",
@@ -324,7 +324,7 @@
     "eyebrow": "Comment ça fonctionne",
     "h2": "Cinq étapes, zéro souci.",
     "text": "De la première idée au site web fini, nous vous accompagnons personnellement, étape par étape. Design, technique, hébergement, maintenance et SEO font partie de l’abonnement, pour que votre entreprise soit visible en ligne en Suisse et le reste durablement.",
-    "metaDescription": "Comment fonctionne l’abonnement web d’amai!: premier échange, inscription digitale, réalisation en quelques jours ouvrés et suivi continu. Webdesign moderne pour PME en Suisse.",
+    "metaDescription": "Comment fonctionne l’abonnement web d’semanu: premier échange, inscription digitale, réalisation en quelques jours ouvrés et suivi continu. Webdesign moderne pour PME en Suisse.",
     "steps": [
       {
         "title": "Premier échange",
@@ -387,7 +387,7 @@
       },
       {
         "q": "Vous travaillez avec des entreprises suisses ?",
-        "a": "Oui. amai! se concentre sur les PME, les indépendants et les entreprises locales en Suisse."
+        "a": "Oui. semanu se concentre sur les PME, les indépendants et les entreprises locales en Suisse."
       },
       {
         "q": "Vous proposez aussi un logo et une charte graphique ?",
@@ -395,7 +395,7 @@
       },
       {
         "q": "Vous faites uniquement des sites web ?",
-        "a": "Non. Les sites web sont le point de départ pour beaucoup de clients mais amai! aide aussi pour l’email marketing, l’automatisation, les systèmes de réservation, les systèmes métier et les assistants AI."
+        "a": "Non. Les sites web sont le point de départ pour beaucoup de clients mais semanu aide aussi pour l’email marketing, l’automatisation, les systèmes de réservation, les systèmes métier et les assistants AI."
       },
       {
         "q": "Travaillez vous avec AI ?",
@@ -491,7 +491,7 @@
     "ctaTitle": "Parlons de votre présence digitale.",
     "ctaButton": "Réserver un entretien stratégique",
     "authorName": "Tom de Vree",
-    "authorRole": "fondateur d'amai!",
+    "authorRole": "fondateur d'semanu",
     "authorBio": "Tom de Vree conçoit et gère des sites web, des plateformes digitales et des automatisations pour les PME suisses.",
     "updatedLabel": "Mis à jour le"
   },
@@ -510,7 +510,7 @@
     "requestProcessing": "Envoi …",
     "requestSuccessTitle": "Merci pour votre demande.",
     "requestSuccessBody": "Nous avons bien reçu vos informations et revenons vers vous dans les plus brefs délais.",
-    "requestError": "Votre demande n’a pas pu être envoyée. Veuillez réessayer ou nous contacter directement à hello@amai.ch.",
+    "requestError": "Votre demande n’a pas pu être envoyée. Veuillez réessayer ou nous contacter directement à hello@semanu.eu.",
     "consent": "J’accepte la <privacy>politique de confidentialité</privacy> et les <gtc>conditions générales (CGV)</gtc>.",
     "premiumTitle": "Quelque chose sur mesure ?",
     "premiumNote": "Pour Software & Applications, nous discutons votre projet en personne et préparons une offre adaptée.",
@@ -556,7 +556,7 @@
   "testimonial": {
     "eyebrow": "Témoignage",
     "title": "Ce que disent nos clients",
-    "quote": "amai! nous a guidés de façon claire et personnelle tout au long du projet. Nous nous sommes sentis impliqués sans devoir tout gérer seuls. Notre site paraît maintenant professionnel et digne de confiance. Nous recommandons amai! à toute entreprise qui veut un site moderne sans stress.",
+    "quote": "semanu nous a guidés de façon claire et personnelle tout au long du projet. Nous nous sommes sentis impliqués sans devoir tout gérer seuls. Notre site paraît maintenant professionnel et digne de confiance. Nous recommandons semanu à toute entreprise qui veut un site moderne sans stress.",
     "author": "Poortland",
     "role": "Portails et couvertures"
   },
@@ -580,15 +580,15 @@
   "about": {
     "eyebrow": "À propos",
     "title": "Personnel, pas anonyme.",
-    "intro": "amai! rend les solutions digitales prévisibles et simples pour les PME suisses. Des sites web aux portails clients et au CRM jusqu’aux automatisations et à l’AI, vous obtenez un partenaire clair en abonnement mensuel qui évolue avec votre entreprise.",
-    "nameTitle": "D’où vient amai!",
-    "nameText": "amai! vient du dialecte d’Anvers, issu du flamand. C’est une exclamation d’admiration, un wow spontané quand quelque chose impressionne vraiment. C’est exactement la réaction que votre site doit susciter chez vos visiteurs. Nous créons des sites modernes, rapides et mobiles au contenu qui vend, reste en mémoire et transforme les visiteurs en clients. Le tout dans un abonnement clair sans gros investissement de départ.",
+    "intro": "semanu rend les solutions digitales prévisibles et simples pour les PME suisses. Des sites web aux portails clients et au CRM jusqu’aux automatisations et à l’AI, vous obtenez un partenaire clair en abonnement mensuel qui évolue avec votre entreprise.",
+    "nameTitle": "D’où vient semanu",
+    "nameText": "semanu vient du dialecte d’Anvers, issu du flamand. C’est une exclamation d’admiration, un wow spontané quand quelque chose impressionne vraiment. C’est exactement la réaction que votre site doit susciter chez vos visiteurs. Nous créons des sites modernes, rapides et mobiles au contenu qui vend, reste en mémoire et transforme les visiteurs en clients. Le tout dans un abonnement clair sans gros investissement de départ.",
     "missionTitle": "Notre idée",
     "missionText": "Beaucoup de petites entreprises ont besoin d’un bon site web sans charge technique. Nous nous occupons du design, de la technique, de l’hébergement, de la maintenance, de la sécurité et des bases SEO, pour que vous puissiez vous concentrer sur votre activité. Parce que nous travaillons avec l’AI, nous construisons plus vite et à moindre coût que les agences classiques et proposons des solutions AI comme des assistants et des automatisations dans notre offre.",
-    "founderTitle": "Derrière amai!",
+    "founderTitle": "Derrière semanu",
     "founderName": "Tom de Vree",
     "founderRole": "Fondateur et propriétaire",
-    "founderText": "amai! est dirigé par Tom de Vree et a son siège à Bern. Nous travaillons personnellement avec des indépendants, des prestataires locaux et des PME dans toute la Suisse. Vous parlez directement à la personne qui s’occupe de votre site.",
+    "founderText": "semanu est dirigé par Tom de Vree et a son siège à Bern. Nous travaillons personnellement avec des indépendants, des prestataires locaux et des PME dans toute la Suisse. Vous parlez directement à la personne qui s’occupe de votre site.",
     "ctaTitle": "Envie d’un site qui évolue avec vous ?",
     "ctaButton": "Nous contacter"
   },
@@ -683,10 +683,10 @@
     "eyebrowOutcomes": "Résultats",
     "eyebrowFaq": "FAQ",
     "relatedTitle": "Services associés",
-    "entityLine": "amai! est un partenaire digital basé à Berne pour les PME suisses: sites web, plateformes digitales, conseil, automatisations et solutions AI dans un abonnement mensuel clair."
+    "entityLine": "semanu est un partenaire digital basé à Berne pour les PME suisses: sites web, plateformes digitales, conseil, automatisations et solutions AI dans un abonnement mensuel clair."
   },
-  "whyAmai": {
-    "title": "Pourquoi amai!",
+  "whySemanu": {
+    "title": "Pourquoi semanu",
     "lead": "Un partenaire pour toute votre présence en ligne, à un prix mensuel simple. Aucune agence à coordonner, aucune facture surprise, aucun tracas technique. Et parce que nous travaillons avec l’AI, nous construisons plus vite et à moindre coût que les agences classiques.",
     "points": [
       {

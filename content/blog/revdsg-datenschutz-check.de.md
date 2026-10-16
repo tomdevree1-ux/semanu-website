@@ -40,7 +40,7 @@ Die Bussen sind das eine: bis zu 250'000 Franken, verhängt gegen die verantwort
 
 Personendaten dürfen ins Ausland, wenn das Zielland einen angemessenen Schutz bietet. Für den EWR ist das der Fall. Bei den USA gilt seit dem 15. September 2024 das [Swiss US Data Privacy Framework](https://www.edoeb.admin.ch/de/nsb?id=102054): Zu einem zertifizierten US Anbieter dürfen Sie Daten ohne Zusatzgarantien übermitteln, zu einem nicht zertifizierten nicht. Diesen Unterschied kennen die wenigsten Websitebetreiber.
 
-Deshalb hosten wir bei <span class="brand-mark">amai<span class="spark">!</span></span> in der EU. Datenbank und Speicher laufen über Supabase in einer EU Region, das Ausliefern über Cloudflare, der Emailversand über Resend. Alle drei stehen namentlich in unserer eigenen Datenschutzerklärung, inklusive Zweck und Standort. Das ist der Detailgrad, den das Gesetz meint.
+Deshalb hosten wir bei <span class="brand-mark">semanu<span class="spark">!</span></span> in der EU. Datenbank und Speicher laufen über Supabase in einer EU Region, das Ausliefern über Cloudflare, der Emailversand über Resend. Alle drei stehen namentlich in unserer eigenen Datenschutzerklärung, inklusive Zweck und Standort. Das ist der Detailgrad, den das Gesetz meint.
 
 ## Wie machen Sie Ihre Website in sieben Schritten konform?
 

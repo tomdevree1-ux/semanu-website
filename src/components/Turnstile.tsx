@@ -32,7 +32,7 @@ declare global {
 /**
  * Cloudflare Turnstile, invisible by default. With `interaction-only` the
  * Cloudflare UI only appears if a human check is actually required; otherwise it
- * verifies in the background. While verifying we show a small amai styled spinner
+ * verifies in the background. While verifying we show a small semanu styled spinner
  * (instead of the Cloudflare badge), which disappears once a token arrives or on
  * error. Renders nothing when no site key is configured, and a render failure
  * (e.g. a misconfigured sitekey) fails safe and never crashes the host page — the

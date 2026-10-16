@@ -18,18 +18,18 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const titles: Record<string, string> = {
-    de: 'amai · Digitaler Partner für Schweizer KMU',
-    fr: 'amai · Partenaire digital pour PME suisses',
-    en: 'amai · Digital partner for Swiss SMEs',
-    es: 'amai · Socio digital para pymes suizas',
-    nl: 'amai · Digitale partner voor Zwitserse kmo’s',
+    de: 'semanu · Digitaler Partner für Schweizer KMU',
+    fr: 'semanu · Partenaire digital pour PME suisses',
+    en: 'semanu · Digital partner for Swiss SMEs',
+    es: 'semanu · Socio digital para pymes suizas',
+    nl: 'semanu · Digitale partner voor Zwitserse kmo’s',
   };
   const descriptions: Record<string, string> = {
-    de: 'amai ist der digitale Partner für Schweizer KMU: 3D-Konfiguratoren und Unternehmenssoftware nach Mass, mit AI als Motor. Schneller und günstiger digitalisieren.',
-    fr: 'amai est le partenaire digital des PME suisses: configurateurs 3D et logiciels d’entreprise sur mesure, avec l’AI comme moteur. Digitaliser plus vite et à moindre coût.',
-    en: 'amai is the digital partner for Swiss SMEs: 3D configurators and custom business software, with AI as the engine. Digitalise faster and more affordably.',
-    es: 'amai es el socio digital para pymes suizas: configuradores 3D y software empresarial a medida, con la AI como motor. Digitalizar más rápido y más económico.',
-    nl: 'amai is de digitale partner voor Zwitserse kmo’s: 3D-configuratoren en bedrijfssoftware op maat, met AI als motor. Sneller en voordeliger digitaliseren.',
+    de: 'semanu ist der digitale Partner für Schweizer KMU: 3D-Konfiguratoren und Unternehmenssoftware nach Mass, mit AI als Motor. Schneller und günstiger digitalisieren.',
+    fr: 'semanu est le partenaire digital des PME suisses: configurateurs 3D et logiciels d’entreprise sur mesure, avec l’AI comme moteur. Digitaliser plus vite et à moindre coût.',
+    en: 'semanu is the digital partner for Swiss SMEs: 3D configurators and custom business software, with AI as the engine. Digitalise faster and more affordably.',
+    es: 'semanu es el socio digital para pymes suizas: configuradores 3D y software empresarial a medida, con la AI como motor. Digitalizar más rápido y más económico.',
+    nl: 'semanu is de digitale partner voor Zwitserse kmo’s: 3D-configuratoren en bedrijfssoftware op maat, met AI als motor. Sneller en voordeliger digitaliseren.',
   };
   const title = titles[locale] ?? titles.nl;
   return pageMetadata({ title, description: descriptions[locale] ?? descriptions.nl, path: '', locale });
@@ -38,7 +38,7 @@ export async function generateMetadata({
 // Shared, locale-independent media for the two featured cases.
 const CASE_MEDIA = [
   { img: '/portfolio/poortland-mockup.jpg', href: '/referenzen' },
-  { img: '/portfolio/amai-kastenconfigurator.jpg', href: '/referenzen' },
+  { img: '/portfolio/kastenconfigurator-kiosk.jpg', href: '/referenzen' },
 ];
 
 type HomeContent = {
@@ -58,7 +58,7 @@ type HomeContent = {
 const en: HomeContent = {
   hero: {
     h1: 'Turning ambition into digital advantage.',
-    sub: 'amai! is the digital partner for Swiss SMEs. We build 3D configurators and custom business software. With AI as the engine you digitalise faster and more affordably than with a traditional approach.',
+    sub: 'semanu is the digital partner for Swiss SMEs. We build 3D configurators and custom business software. With AI as the engine you digitalise faster and more affordably than with a traditional approach.',
     cta: 'Start the conversation',
   },
   kloof: {
@@ -72,7 +72,7 @@ const en: HomeContent = {
     { title: 'One team', text: 'Advice, design and engineering in one team, with AI as an amplifier instead of silos.' },
     { title: 'One partner', text: 'From strategy to execution, without handovers or gaps in the flow. Focused on the long term.' },
   ],
-  factsHead: { title: 'Why businesses choose amai!', link: 'About us' },
+  factsHead: { title: 'Why businesses choose semanu', link: 'About us' },
   facts: [
     { value: 1, label: 'point of contact', desc: 'You always talk to the same person.' },
     { value: 10, prefix: '+', label: 'years experience', desc: 'More than ten years of digital projects for SMEs.' },
@@ -85,7 +85,7 @@ const en: HomeContent = {
   },
   refHead: { title: 'From expertise to measurable results.', link: 'All client stories' },
   refIntro:
-    'See how amai! helps Swiss SMEs digitalise with 3D configurators and custom business software, with concrete results from practice.',
+    'See how semanu helps Swiss SMEs digitalise with 3D configurators and custom business software, with concrete results from practice.',
   cases: [
     {
       label: 'Business software',
@@ -95,9 +95,9 @@ const en: HomeContent = {
     },
     {
       label: '3D configurator',
-      client: 'amai! interactive kiosk',
+      client: 'semanu interactive kiosk',
       text: 'Customers configure their products themselves on an immersive interactive kiosk, live in 3D and with the right price straight away.',
-      alt: 'amai! interactive kiosk in a showroom',
+      alt: 'semanu interactive kiosk in a showroom',
     },
   ],
   final: { title: 'Ready to grow digitally without the technical hassle?', cta: 'Start the conversation' },
@@ -106,7 +106,7 @@ const en: HomeContent = {
 const de: HomeContent = {
   hero: {
     h1: 'Von Ambition zu digitalem Vorsprung.',
-    sub: 'amai! ist der digitale Partner für Schweizer KMU. Wir bauen 3D-Konfiguratoren und Unternehmenssoftware nach Mass. Mit AI als Motor digitalisieren Sie schneller und günstiger als mit einem traditionellen Ansatz.',
+    sub: 'semanu ist der digitale Partner für Schweizer KMU. Wir bauen 3D-Konfiguratoren und Unternehmenssoftware nach Mass. Mit AI als Motor digitalisieren Sie schneller und günstiger als mit einem traditionellen Ansatz.',
     cta: 'Gespräch starten',
   },
   kloof: {
@@ -120,7 +120,7 @@ const de: HomeContent = {
     { title: 'Ein Team', text: 'Beratung, Design und Entwicklung in einem Team, mit AI als Verstärker statt Silos.' },
     { title: 'Ein Partner', text: 'Von der Strategie bis zur Umsetzung, ohne Übergaben oder Lücken im Ablauf. Auf lange Sicht ausgerichtet.' },
   ],
-  factsHead: { title: 'Warum Unternehmen amai! wählen.', link: 'Über uns' },
+  factsHead: { title: 'Warum Unternehmen semanu wählen.', link: 'Über uns' },
   facts: [
     { value: 1, label: 'Ansprechpartner', desc: 'Sie sprechen immer mit derselben Person.' },
     { value: 10, prefix: '+', label: 'Jahre Erfahrung', desc: 'Über zehn Jahre digitale Projekte für KMU.' },
@@ -133,7 +133,7 @@ const de: HomeContent = {
   },
   refHead: { title: 'Von Expertise zu messbarem Resultat.', link: 'Alle Referenzen' },
   refIntro:
-    'Entdecken Sie, wie amai! Schweizer KMU beim Digitalisieren hilft mit 3D-Konfiguratoren und Unternehmenssoftware nach Mass, mit konkreten Resultaten aus der Praxis.',
+    'Entdecken Sie, wie semanu Schweizer KMU beim Digitalisieren hilft mit 3D-Konfiguratoren und Unternehmenssoftware nach Mass, mit konkreten Resultaten aus der Praxis.',
   cases: [
     {
       label: 'Unternehmenssoftware',
@@ -143,9 +143,9 @@ const de: HomeContent = {
     },
     {
       label: '3D-Konfigurator',
-      client: 'amai! interaktiver Kiosk',
+      client: 'semanu interaktiver Kiosk',
       text: 'Kunden stellen ihre Produkte selbst an einem immersiven interaktiven Kiosk zusammen, live in 3D und sofort mit dem richtigen Preis.',
-      alt: 'amai! interaktiver Kiosk in einem Showroom',
+      alt: 'semanu interaktiver Kiosk in einem Showroom',
     },
   ],
   final: { title: 'Bereit, digital zu wachsen ohne technischen Aufwand?', cta: 'Gespräch starten' },
@@ -154,7 +154,7 @@ const de: HomeContent = {
 const fr: HomeContent = {
   hero: {
     h1: 'De l’ambition à l’avance digitale.',
-    sub: 'amai! est le partenaire digital des PME suisses. Nous construisons des configurateurs 3D et des logiciels d’entreprise sur mesure. Avec l’AI comme moteur vous digitalisez plus vite et à moindre coût qu’avec une approche traditionnelle.',
+    sub: 'semanu est le partenaire digital des PME suisses. Nous construisons des configurateurs 3D et des logiciels d’entreprise sur mesure. Avec l’AI comme moteur vous digitalisez plus vite et à moindre coût qu’avec une approche traditionnelle.',
     cta: 'Démarrer la conversation',
   },
   kloof: {
@@ -168,7 +168,7 @@ const fr: HomeContent = {
     { title: 'Une équipe', text: 'Conseil, design et développement dans une seule équipe, avec l’AI comme amplificateur plutôt que des silos.' },
     { title: 'Un partenaire', text: 'De la stratégie à l’exécution, sans transferts ni ruptures dans le flux. Orienté long terme.' },
   ],
-  factsHead: { title: 'Pourquoi les entreprises choisissent amai!', link: 'À propos' },
+  factsHead: { title: 'Pourquoi les entreprises choisissent semanu', link: 'À propos' },
   facts: [
     { value: 1, label: 'interlocuteur', desc: 'Vous parlez toujours à la même personne.' },
     { value: 10, prefix: '+', label: 'ans d’expérience', desc: 'Plus de dix ans de projets digitaux pour les PME.' },
@@ -181,7 +181,7 @@ const fr: HomeContent = {
   },
   refHead: { title: 'De l’expertise à des résultats mesurables.', link: 'Toutes les références' },
   refIntro:
-    'Découvrez comment amai! aide les PME suisses à se digitaliser avec des configurateurs 3D et des logiciels d’entreprise sur mesure, avec des résultats concrets issus du terrain.',
+    'Découvrez comment semanu aide les PME suisses à se digitaliser avec des configurateurs 3D et des logiciels d’entreprise sur mesure, avec des résultats concrets issus du terrain.',
   cases: [
     {
       label: 'Logiciel d’entreprise',
@@ -191,9 +191,9 @@ const fr: HomeContent = {
     },
     {
       label: 'Configurateur 3D',
-      client: 'amai! kiosque interactif',
+      client: 'semanu kiosque interactif',
       text: 'Les clients configurent leurs produits sur un kiosque interactif immersif, en direct en 3D et avec le bon prix tout de suite.',
-      alt: 'Kiosque interactif amai! dans un showroom',
+      alt: 'Kiosque interactif semanu dans un showroom',
     },
   ],
   final: { title: 'Prêt à grandir digitalement sans tracas technique?', cta: 'Démarrer la conversation' },
@@ -202,7 +202,7 @@ const fr: HomeContent = {
 const es: HomeContent = {
   hero: {
     h1: 'De la ambición a la ventaja digital.',
-    sub: 'amai! es el socio digital para pymes suizas. Creamos configuradores 3D y software empresarial a medida. Con la AI como motor digitaliza más rápido y de forma más económica que con un enfoque tradicional.',
+    sub: 'semanu es el socio digital para pymes suizas. Creamos configuradores 3D y software empresarial a medida. Con la AI como motor digitaliza más rápido y de forma más económica que con un enfoque tradicional.',
     cta: 'Iniciar la conversación',
   },
   kloof: {
@@ -216,7 +216,7 @@ const es: HomeContent = {
     { title: 'Un equipo', text: 'Asesoramiento, diseño y desarrollo en un solo equipo, con la AI como amplificador en lugar de silos.' },
     { title: 'Un socio', text: 'De la estrategia a la ejecución, sin traspasos ni huecos en el flujo. Orientado al largo plazo.' },
   ],
-  factsHead: { title: 'Por qué las empresas eligen amai!', link: 'Sobre nosotros' },
+  factsHead: { title: 'Por qué las empresas eligen semanu', link: 'Sobre nosotros' },
   facts: [
     { value: 1, label: 'interlocutor', desc: 'Siempre habla con la misma persona.' },
     { value: 10, prefix: '+', label: 'años de experiencia', desc: 'Más de diez años de proyectos digitales para pymes.' },
@@ -229,7 +229,7 @@ const es: HomeContent = {
   },
   refHead: { title: 'De la experiencia a resultados medibles.', link: 'Todas las referencias' },
   refIntro:
-    'Descubra cómo amai! ayuda a las pymes suizas a digitalizarse con configuradores 3D y software empresarial a medida, con resultados concretos de la práctica.',
+    'Descubra cómo semanu ayuda a las pymes suizas a digitalizarse con configuradores 3D y software empresarial a medida, con resultados concretos de la práctica.',
   cases: [
     {
       label: 'Software empresarial',
@@ -239,9 +239,9 @@ const es: HomeContent = {
     },
     {
       label: 'Configurador 3D',
-      client: 'amai! quiosco interactivo',
+      client: 'semanu quiosco interactivo',
       text: 'Los clientes configuran sus productos en un quiosco interactivo inmersivo, en directo en 3D y con el precio correcto al instante.',
-      alt: 'Quiosco interactivo amai! en un showroom',
+      alt: 'Quiosco interactivo semanu en un showroom',
     },
   ],
   final: { title: '¿Listo para crecer digitalmente sin complicaciones técnicas?', cta: 'Iniciar la conversación' },
@@ -250,7 +250,7 @@ const es: HomeContent = {
 const nl: HomeContent = {
   hero: {
     h1: 'Van ambitie naar digitale voorsprong.',
-    sub: 'amai! is de digitale partner voor Zwitserse kmo’s. Wij bouwen 3D-configuratoren en bedrijfssoftware op maat. Met AI als motor digitaliseert u sneller en voordeliger dan bij een traditionele aanpak.',
+    sub: 'semanu is de digitale partner voor Zwitserse kmo’s. Wij bouwen 3D-configuratoren en bedrijfssoftware op maat. Met AI als motor digitaliseert u sneller en voordeliger dan bij een traditionele aanpak.',
     cta: 'Start het gesprek',
   },
   kloof: {
@@ -264,7 +264,7 @@ const nl: HomeContent = {
     { title: 'Eén team', text: 'Advies, ontwerp en ontwikkeling in één team, met AI als versterker in plaats van silo’s.' },
     { title: 'Eén partner', text: 'Van strategie tot uitvoering, zonder overdrachten of gaten in de flow. Gericht op lange termijn.' },
   ],
-  factsHead: { title: 'Waarom bedrijven voor amai! kiezen.', link: 'Over ons' },
+  factsHead: { title: 'Waarom bedrijven voor semanu kiezen.', link: 'Over ons' },
   facts: [
     { value: 1, label: 'aanspreekpunt', desc: 'U praat altijd met dezelfde persoon.' },
     { value: 10, prefix: '+', label: 'jaar ervaring', desc: 'Ruim tien jaar digitale projecten voor kmo’s.' },
@@ -277,7 +277,7 @@ const nl: HomeContent = {
   },
   refHead: { title: 'Van expertise naar meetbaar resultaat.', link: 'Alle referenties' },
   refIntro:
-    'Ontdek hoe amai! Zwitserse kmo’s helpt digitaliseren met 3D-configuratoren en bedrijfssoftware op maat met concrete resultaten uit de praktijk.',
+    'Ontdek hoe semanu Zwitserse kmo’s helpt digitaliseren met 3D-configuratoren en bedrijfssoftware op maat met concrete resultaten uit de praktijk.',
   cases: [
     {
       label: 'Bedrijfssoftware',
@@ -287,9 +287,9 @@ const nl: HomeContent = {
     },
     {
       label: '3D-configurator',
-      client: 'amai! interactieve kiosk',
+      client: 'semanu interactieve kiosk',
       text: 'Klanten stellen immersief hun producten zelf samen op een interactieve kiosk, live in 3D en met meteen de juiste prijs.',
-      alt: 'amai! interactieve kiosk in een showroom',
+      alt: 'semanu interactieve kiosk in een showroom',
     },
   ],
   final: { title: 'Klaar om digitaal te groeien zonder technische rompslomp?', cta: 'Start het gesprek' },
@@ -336,7 +336,7 @@ export default async function HomePage({
     '@context': 'https://schema.org',
     '@type': 'WebPage',
     name: h.hero.h1,
-    description: h.hero.sub.replace('amai!', 'amai'),
+    description: h.hero.sub.replace('semanu', 'semanu'),
     url: `${env.siteUrl}/${locale}`,
     inLanguage: locale,
     isPartOf: { '@id': `${env.siteUrl}/#website` },

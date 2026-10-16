@@ -47,7 +47,7 @@ export type LandingPlanCard = { name: string; price: string; desc: string; point
 export type LandingFaq = { q: string; a: string };
 
 export type LandingContent = {
-  /** SEO <title> (without the "· amai.ch" suffix, added by the page). */
+  /** SEO <title> (without the "· semanu.eu" suffix, added by the page). */
   title: string;
   /** Meta description. */
   description: string;

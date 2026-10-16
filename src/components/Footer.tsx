@@ -5,7 +5,7 @@ import { LangSwitch } from './LangSwitch';
 import { serviceLinks, type ServicesLocale } from '@/content/services';
 import { PHONE_DISPLAY, PHONE_TEL_HREF } from '@/lib/contact';
 
-// "Company" column — the pages about amai and how it works.
+// "Company" column — the pages about semanu and how it works.
 const COMPANY_LINKS = [
   { key: 'aboutUs', href: '/about' },
   { key: 'work', href: '/referenzen' },
@@ -44,24 +44,10 @@ export function Footer() {
           </div>
           <div className="flex items-center gap-5">
             <a
-              href="https://www.instagram.com/amai.swiss"
+              href="https://www.linkedin.com/company/semanu"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="amai! auf Instagram (amai.swiss)"
-              className="inline-flex items-center gap-2 text-sm text-paper/80 transition-colors hover:text-spark"
-            >
-              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden>
-                <rect x="3" y="3" width="18" height="18" rx="5" />
-                <circle cx="12" cy="12" r="4" />
-                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
-              </svg>
-              <span>amai.swiss</span>
-            </a>
-            <a
-              href="https://www.linkedin.com/company/137144354"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="amai! auf LinkedIn"
+              aria-label="SEMANU on LinkedIn"
               className="inline-flex items-center gap-2 text-sm text-paper/80 transition-colors hover:text-spark"
             >
               <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden>
@@ -107,8 +93,8 @@ export function Footer() {
             <h5 className={headingCls}>{t('contactTitle')}</h5>
             <ul className="mt-4 space-y-2 text-sm text-paper/80">
               <li>
-                <a href="mailto:hello@amai.ch" className="transition-colors hover:text-white">
-                  hello@amai.ch
+                <a href="mailto:hello@semanu.eu" className="transition-colors hover:text-white">
+                  hello@semanu.eu
                 </a>
               </li>
               <li>

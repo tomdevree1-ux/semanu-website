@@ -20,7 +20,7 @@ function Sep() {
  * separator. Renders the matching BreadcrumbList JSON-LD alongside the visible
  * trail (so the two never drift) unless `jsonLd` is false — pass false on pages
  * that already emit their own BreadcrumbList to avoid duplicate structured data.
- * The last item is the current page (no href); "amai.ch" (home) is the first.
+ * The last item is the current page (no href); "semanu.eu" (home) is the first.
  */
 export function Breadcrumb({
   items,

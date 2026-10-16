@@ -63,9 +63,9 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'Eine professionelle Website, die für Ihr Geschäft arbeitet',
-      body: 'amai! erstellt Websites für Schweizer Unternehmen, die verständlich, modern und zuverlässig online auftreten möchten. Wir übernehmen die komplette Umsetzung von Struktur und Design über technische Entwicklung bis zu Hosting, Wartung und SEO Grundlagen. Sie erhalten nicht nur eine schöne Webseite. Sie erhalten eine klare digitale Präsenz, die Vertrauen schafft und Besucher zur Anfrage führt.',
+      body: 'semanu erstellt Websites für Schweizer Unternehmen, die verständlich, modern und zuverlässig online auftreten möchten. Wir übernehmen die komplette Umsetzung von Struktur und Design über technische Entwicklung bis zu Hosting, Wartung und SEO Grundlagen. Sie erhalten nicht nur eine schöne Webseite. Sie erhalten eine klare digitale Präsenz, die Vertrauen schafft und Besucher zur Anfrage führt.',
     },
-    featuresHeading: 'Was Sie bei amai! erhalten',
+    featuresHeading: 'Was Sie bei semanu erhalten',
     featuresHint: 'Fahren Sie über eine Kachel für mehr Infos',
     featuresLayout: 'cards',
     features: [
@@ -144,9 +144,9 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
       ],
     },
     pricing: {
-      heading: 'Was kostet eine Website bei amai!?',
+      heading: 'Was kostet eine Website bei semanu?',
       intro:
-        'Bei amai! zahlen Sie keine hohe Einmalrechnung. Sie zahlen einen klaren monatlichen Preis. Design, Umsetzung, Hosting und Wartung sind im Website Abo enthalten.',
+        'Bei semanu zahlen Sie keine hohe Einmalrechnung. Sie zahlen einen klaren monatlichen Preis. Design, Umsetzung, Hosting und Wartung sind im Website Abo enthalten.',
       cards: [
         {
           name: 'Business Website',
@@ -177,9 +177,9 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
       cta: { label: 'Preise vergleichen', href: '/website-abos' },
     },
     reasons: {
-      heading: 'Warum amai!?',
+      heading: 'Warum semanu?',
       entitySentence:
-        'amai! ist ein Anbieter für Website Abos aus Bern und erstellt professionelle Websites für Schweizer KMU, Selbständige und lokale Unternehmen, inklusive Design, Umsetzung, Hosting, Wartung und SEO Grundlagen.',
+        'semanu ist ein Anbieter für Website Abos aus Bern und erstellt professionelle Websites für Schweizer KMU, Selbständige und lokale Unternehmen, inklusive Design, Umsetzung, Hosting, Wartung und SEO Grundlagen.',
       items: [
         {
           title: 'Persönliche Betreuung',
@@ -210,7 +210,7 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
     audience: {
       heading: 'Für wen ist diese Website Lösung gedacht?',
       intro:
-        'amai! passt besonders gut, wenn Sie eine professionelle Website möchten und sich nicht selbst um Technik, Hosting, Updates oder kleine Details kümmern wollen.',
+        'semanu passt besonders gut, wenn Sie eine professionelle Website möchten und sich nicht selbst um Technik, Hosting, Updates oder kleine Details kümmern wollen.',
       items: [
         'Selbständige und Einzelunternehmen',
         'Handwerksbetriebe',
@@ -228,12 +228,12 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
         icon: 'chat',
         heading: 'Website erstellen lassen mit KI: schneller und günstiger und trotzdem vom Profi',
         body:
-          'Bei amai! entsteht Ihre Website mit KI im Bauprozess: Struktur, erste Textentwürfe, Bildvarianten und technische Grundlagen gehen deutlich schneller als in einer klassischen Agentur. Strategie, Design, Swiss Standard und die Abnahme bleiben Handarbeit von einem Menschen aus Bern, der Ihr Geschäft versteht. Das Ergebnis ist eine professionelle Website ab 99 CHF pro Monat, nicht ein Baukasten, den Sie selbst pflegen müssen.',
+          'Bei semanu entsteht Ihre Website mit KI im Bauprozess: Struktur, erste Textentwürfe, Bildvarianten und technische Grundlagen gehen deutlich schneller als in einer klassischen Agentur. Strategie, Design, Swiss Standard und die Abnahme bleiben Handarbeit von einem Menschen aus Bern, der Ihr Geschäft versteht. Das Ergebnis ist eine professionelle Website ab 99 CHF pro Monat, nicht ein Baukasten, den Sie selbst pflegen müssen.',
         points: ['KI beschleunigt den Aufbau', 'Mensch entscheidet über Strategie und Design', 'Ab 99 CHF pro Monat, alles inklusive'],
       },
     ],
     links: [
-      { href: '/referenzen', label: 'Referenzen', desc: 'Websites und digitale Lösungen von amai!' },
+      { href: '/referenzen', label: 'Referenzen', desc: 'Websites und digitale Lösungen von semanu' },
       { href: '/website-abos', label: 'Preise', desc: 'Transparente Abos für Business und Webshop.' },
       { href: '/so-funktioniert', label: 'So funktioniert’s', desc: 'Schritt für Schritt zur fertigen Website.' },
       { href: '/website-abo-schweiz', label: 'Website Abo Schweiz', desc: 'Die Website im transparenten Monatsabo.' },
@@ -252,7 +252,7 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
         },
         {
           q: 'Muss ich die Texte selbst schreiben?',
-          a: 'Nein. Sie können vorhandene Texte liefern. amai! hilft auch bei Struktur, Formulierungen und klaren Website Texten.',
+          a: 'Nein. Sie können vorhandene Texte liefern. semanu hilft auch bei Struktur, Formulierungen und klaren Website Texten.',
         },
         {
           q: 'Ist Hosting im Preis enthalten?',
@@ -267,15 +267,15 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
           a: 'Ja. Nach dem Start können Änderungen angefragt werden. Umfang und Abrechnung richten sich nach dem gewählten Abo und der aktuellen Vereinbarung.',
         },
         {
-          q: 'Für welche Unternehmen ist amai! geeignet?',
-          a: 'amai! ist ideal für Schweizer KMU, Selbständige und lokale Unternehmen, die eine professionelle Website wollen, ohne sich selbst um Technik, Hosting und Wartung kümmern zu müssen.',
+          q: 'Für welche Unternehmen ist semanu geeignet?',
+          a: 'semanu ist ideal für Schweizer KMU, Selbständige und lokale Unternehmen, die eine professionelle Website wollen, ohne sich selbst um Technik, Hosting und Wartung kümmern zu müssen.',
         },
         {
           q: 'Kann ich meine Website mit KI erstellen lassen?',
-          a: 'Ja. amai! nutzt KI im Bauprozess, damit Struktur, Textentwürfe und Technik schneller stehen. Strategie, Design und Qualitätskontrolle übernimmt ein Mensch. Anders als bei einem kostenlosen KI Baukasten bekommen Sie eine betreute Website mit Hosting, Wartung und SEO Grundlagen ab 99 CHF pro Monat. Mehr zu unseren AI Lösungen finden Sie unter AI Assistenten.',
+          a: 'Ja. semanu nutzt KI im Bauprozess, damit Struktur, Textentwürfe und Technik schneller stehen. Strategie, Design und Qualitätskontrolle übernimmt ein Mensch. Anders als bei einem kostenlosen KI Baukasten bekommen Sie eine betreute Website mit Hosting, Wartung und SEO Grundlagen ab 99 CHF pro Monat. Mehr zu unseren AI Lösungen finden Sie unter AI Assistenten.',
         },
         {
-          q: 'Was kostet eine Website bei amai!?',
+          q: 'Was kostet eine Website bei semanu?',
           a: 'Die Website Abos starten bei 99 CHF pro Monat. Der genaue Preis hängt vom gewählten Abo und vom Umfang der Website ab.',
         },
       ],
@@ -348,9 +348,9 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'Un site professionnel qui travaille pour votre activité',
-      body: 'amai! crée des sites pour les entreprises suisses qui veulent une présence en ligne claire, moderne et fiable. Nous prenons en charge toute la réalisation, de la structure et du design au développement technique, jusqu’à l’hébergement, la maintenance et les bases SEO. Vous ne recevez pas seulement un beau site. Vous recevez une présence numérique claire qui crée la confiance et mène les visiteurs à la demande.',
+      body: 'semanu crée des sites pour les entreprises suisses qui veulent une présence en ligne claire, moderne et fiable. Nous prenons en charge toute la réalisation, de la structure et du design au développement technique, jusqu’à l’hébergement, la maintenance et les bases SEO. Vous ne recevez pas seulement un beau site. Vous recevez une présence numérique claire qui crée la confiance et mène les visiteurs à la demande.',
     },
-    featuresHeading: 'Ce que vous recevez chez amai!',
+    featuresHeading: 'Ce que vous recevez chez semanu',
     featuresHint: 'Passez sur une tuile pour plus d’infos',
     featuresLayout: 'cards',
     features: [
@@ -429,9 +429,9 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
       ],
     },
     pricing: {
-      heading: 'Combien coûte un site chez amai!?',
+      heading: 'Combien coûte un site chez semanu?',
       intro:
-        'Chez amai!, vous ne payez pas une grosse facture unique. Vous payez un prix mensuel clair. Design, réalisation, hébergement et maintenance sont compris dans l’abonnement.',
+        'Chez semanu, vous ne payez pas une grosse facture unique. Vous payez un prix mensuel clair. Design, réalisation, hébergement et maintenance sont compris dans l’abonnement.',
       cards: [
         {
           name: 'Business Website',
@@ -462,9 +462,9 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
       cta: { label: 'Comparer les prix', href: '/website-abos' },
     },
     reasons: {
-      heading: 'Pourquoi amai!?',
+      heading: 'Pourquoi semanu?',
       entitySentence:
-        'amai! est un fournisseur d’abonnements de sites basé à Berne et crée des sites professionnels pour les PME suisses, les indépendants et les commerces locaux, design, réalisation, hébergement, maintenance et bases SEO compris.',
+        'semanu est un fournisseur d’abonnements de sites basé à Berne et crée des sites professionnels pour les PME suisses, les indépendants et les commerces locaux, design, réalisation, hébergement, maintenance et bases SEO compris.',
       items: [
         {
           title: 'Suivi personnel',
@@ -495,7 +495,7 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
     audience: {
       heading: 'À qui s’adresse cette solution?',
       intro:
-        'amai! convient particulièrement si vous voulez un site professionnel et ne voulez pas gérer la technique, l’hébergement, les mises à jour ou les petits détails.',
+        'semanu convient particulièrement si vous voulez un site professionnel et ne voulez pas gérer la technique, l’hébergement, les mises à jour ou les petits détails.',
       items: [
         'Indépendants et entreprises individuelles',
         'Artisans',
@@ -513,12 +513,12 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
         icon: 'chat',
         heading: 'Création de site web avec IA en Suisse: plus rapide et moins cher et toujours avec un pro',
         body:
-          'Chez amai! votre site est créé avec l’IA dans le processus de construction: structure, premières ébauches de textes, variantes d’images et bases techniques avancent nettement plus vite que dans une agence classique. La stratégie, le design, le standard suisse et la validation restent le travail d’une personne à Berne qui comprend votre activité. Le résultat est un site professionnel dès 99 CHF par mois et non un outil de construction que vous devez entretenir vous même.',
+          'Chez semanu votre site est créé avec l’IA dans le processus de construction: structure, premières ébauches de textes, variantes d’images et bases techniques avancent nettement plus vite que dans une agence classique. La stratégie, le design, le standard suisse et la validation restent le travail d’une personne à Berne qui comprend votre activité. Le résultat est un site professionnel dès 99 CHF par mois et non un outil de construction que vous devez entretenir vous même.',
         points: ['L’IA accélère la construction', 'Une personne décide de la stratégie et du design', 'Dès 99 CHF par mois, tout compris'],
       },
     ],
     links: [
-      { href: '/referenzen', label: 'Références', desc: 'Sites et solutions numériques d’amai!' },
+      { href: '/referenzen', label: 'Références', desc: 'Sites et solutions numériques d’semanu' },
       { href: '/website-abos', label: 'Prix', desc: 'Abonnements transparents pour Business et Webshop.' },
       { href: '/so-funktioniert', label: 'Comment ça marche', desc: 'Votre site étape par étape.' },
       { href: '/website-abo-schweiz', label: 'Abonnement site Suisse', desc: 'Le site en abonnement mensuel transparent.' },
@@ -537,7 +537,7 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
         },
         {
           q: 'Je dois rédiger les textes?',
-          a: 'Non. Vous pouvez fournir des textes existants. amai! aide aussi pour la structure, les formulations et des textes clairs.',
+          a: 'Non. Vous pouvez fournir des textes existants. semanu aide aussi pour la structure, les formulations et des textes clairs.',
         },
         {
           q: 'L’hébergement est compris dans le prix?',
@@ -552,15 +552,15 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
           a: 'Oui. Après le lancement, des modifications peuvent être demandées. L’ampleur et la facturation dépendent de l’abonnement choisi et de l’accord en cours.',
         },
         {
-          q: 'amai! convient à quelles entreprises?',
-          a: 'amai! est idéal pour les PME suisses, les indépendants et les commerces locaux qui veulent un site professionnel sans devoir gérer la technique, l’hébergement et la maintenance.',
+          q: 'semanu convient à quelles entreprises?',
+          a: 'semanu est idéal pour les PME suisses, les indépendants et les commerces locaux qui veulent un site professionnel sans devoir gérer la technique, l’hébergement et la maintenance.',
         },
         {
           q: 'Je peux faire créer mon site avec l’IA ?',
-          a: 'Oui. amai! utilise l’IA dans le processus de construction pour que la structure, les ébauches de textes et la technique soient prêtes plus vite. La stratégie, le design et le contrôle qualité sont assurés par une personne. Contrairement à un outil IA gratuit, vous obtenez un site suivi avec hébergement, maintenance et bases SEO dès 99 CHF par mois. Plus d’informations sur nos solutions AI sous Assistants AI.',
+          a: 'Oui. semanu utilise l’IA dans le processus de construction pour que la structure, les ébauches de textes et la technique soient prêtes plus vite. La stratégie, le design et le contrôle qualité sont assurés par une personne. Contrairement à un outil IA gratuit, vous obtenez un site suivi avec hébergement, maintenance et bases SEO dès 99 CHF par mois. Plus d’informations sur nos solutions AI sous Assistants AI.',
         },
         {
-          q: 'Combien coûte un site chez amai!?',
+          q: 'Combien coûte un site chez semanu?',
           a: 'Les abonnements démarrent à 99 CHF par mois. Le prix exact dépend de l’abonnement choisi et de l’ampleur du site.',
         },
       ],
@@ -633,9 +633,9 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'A professional website that works for your business',
-      body: 'amai! builds websites for Swiss businesses that want a clear, modern and reliable online presence. We take care of the complete build, from structure and design to technical development, through to hosting, maintenance and SEO foundations. You do not just get a nice website. You get a clear digital presence that builds trust and leads visitors to an enquiry.',
+      body: 'semanu builds websites for Swiss businesses that want a clear, modern and reliable online presence. We take care of the complete build, from structure and design to technical development, through to hosting, maintenance and SEO foundations. You do not just get a nice website. You get a clear digital presence that builds trust and leads visitors to an enquiry.',
     },
-    featuresHeading: 'What you get with amai!',
+    featuresHeading: 'What you get with semanu',
     featuresHint: 'Hover over a tile for more info',
     featuresLayout: 'cards',
     features: [
@@ -714,9 +714,9 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
       ],
     },
     pricing: {
-      heading: 'What does a website at amai! cost?',
+      heading: 'What does a website at semanu cost?',
       intro:
-        'At amai! you do not pay a large one time invoice. You pay a clear monthly price. Design, build, hosting and maintenance are included in the website subscription.',
+        'At semanu you do not pay a large one time invoice. You pay a clear monthly price. Design, build, hosting and maintenance are included in the website subscription.',
       cards: [
         {
           name: 'Business Website',
@@ -747,9 +747,9 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
       cta: { label: 'Compare pricing', href: '/website-abos' },
     },
     reasons: {
-      heading: 'Why amai!?',
+      heading: 'Why semanu?',
       entitySentence:
-        'amai! is a website subscription provider from Bern and builds professional websites for Swiss SMEs, self employed people and local businesses, including design, build, hosting, maintenance and SEO foundations.',
+        'semanu is a website subscription provider from Bern and builds professional websites for Swiss SMEs, self employed people and local businesses, including design, build, hosting, maintenance and SEO foundations.',
       items: [
         {
           title: 'Personal support',
@@ -780,7 +780,7 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
     audience: {
       heading: 'Who is this website solution for?',
       intro:
-        'amai! is a particularly good fit if you want a professional website and do not want to deal with technology, hosting, updates or small details yourself.',
+        'semanu is a particularly good fit if you want a professional website and do not want to deal with technology, hosting, updates or small details yourself.',
       items: [
         'Self employed people and sole traders',
         'Trades businesses',
@@ -798,12 +798,12 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
         icon: 'chat',
         heading: 'Website built with AI in Switzerland: faster and cheaper and still with a professional',
         body:
-          'At amai! your website is built with AI in the build process: structure, first text drafts, image variants and technical foundations move much faster than at a traditional agency. Strategy, design, Swiss standard and the final check remain the work of a person in Bern who understands your business. The result is a professional website from 99 CHF per month, not a site builder you have to maintain yourself.',
+          'At semanu your website is built with AI in the build process: structure, first text drafts, image variants and technical foundations move much faster than at a traditional agency. Strategy, design, Swiss standard and the final check remain the work of a person in Bern who understands your business. The result is a professional website from 99 CHF per month, not a site builder you have to maintain yourself.',
         points: ['AI speeds up the build', 'A person decides on strategy and design', 'From 99 CHF per month, all inclusive'],
       },
     ],
     links: [
-      { href: '/referenzen', label: 'References', desc: 'Websites and digital solutions by amai!' },
+      { href: '/referenzen', label: 'References', desc: 'Websites and digital solutions by semanu' },
       { href: '/website-abos', label: 'Pricing', desc: 'Transparent plans for Business and Webshop.' },
       { href: '/so-funktioniert', label: 'How it works', desc: 'Your website step by step.' },
       { href: '/website-abo-schweiz', label: 'Website subscription Switzerland', desc: 'The website on a transparent monthly plan.' },
@@ -822,7 +822,7 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
         },
         {
           q: 'Do I have to write the texts myself?',
-          a: 'No. You can supply existing texts. amai! also helps with structure, wording and clear website text.',
+          a: 'No. You can supply existing texts. semanu also helps with structure, wording and clear website text.',
         },
         {
           q: 'Is hosting included in the price?',
@@ -837,15 +837,15 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
           a: 'Yes. After the start, changes can be requested. Scope and billing depend on the chosen subscription and the current agreement.',
         },
         {
-          q: 'Which businesses is amai! suitable for?',
-          a: 'amai! is ideal for Swiss SMEs, self employed people and local businesses that want a professional website without having to deal with technology, hosting and maintenance.',
+          q: 'Which businesses is semanu suitable for?',
+          a: 'semanu is ideal for Swiss SMEs, self employed people and local businesses that want a professional website without having to deal with technology, hosting and maintenance.',
         },
         {
           q: 'Can I have my website built with AI?',
-          a: 'Yes. amai! uses AI in the build process so structure, text drafts and technology are ready faster. Strategy, design and quality control are handled by a person. Unlike a free AI site builder you get a supported website with hosting, maintenance and SEO basics from 99 CHF per month. Find out more about our AI solutions under AI assistants.',
+          a: 'Yes. semanu uses AI in the build process so structure, text drafts and technology are ready faster. Strategy, design and quality control are handled by a person. Unlike a free AI site builder you get a supported website with hosting, maintenance and SEO basics from 99 CHF per month. Find out more about our AI solutions under AI assistants.',
         },
         {
-          q: 'What does a website at amai! cost?',
+          q: 'What does a website at semanu cost?',
           a: 'The website subscriptions start at 99 CHF per month. The exact price depends on the chosen subscription and the scope of the website.',
         },
       ],

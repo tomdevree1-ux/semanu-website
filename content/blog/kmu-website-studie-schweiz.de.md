@@ -1,6 +1,6 @@
 ---
 title: "Studie: nur 9% der KMU Websites sind zeitgemäss"
-description: "amai! bewertete 2292 Schweizer KMU Websites. Nur 9 Prozent sind zeitgemäss, ein Drittel hat deutlichen Handlungsbedarf. Alle Zahlen und Muster."
+description: "semanu bewertete 2292 Schweizer KMU Websites. Nur 9 Prozent sind zeitgemäss, ein Drittel hat deutlichen Handlungsbedarf. Alle Zahlen und Muster."
 date: "2026-08-11"
 author: "Tom"
 authorImage: "/team/tom.png"
@@ -11,7 +11,7 @@ Nicht einmal jede zehnte Website eines Schweizer KMU ist wirklich zeitgemäss. V
 
 ## Warum diese Studie
 
-Wir bewerten bei <span class="brand-mark">amai<span class="spark">!</span></span> laufend Websites von Schweizer KMU: strukturiert, nach einem festen Raster und mit denselben Kriterien für jede Website. So ist ein Datensatz entstanden, der eine ehrliche Antwort auf eine einfache Frage gibt: Wie fit sind die Websites der Schweizer KMU wirklich?
+Wir bewerten bei <span class="brand-mark">semanu<span class="spark">!</span></span> laufend Websites von Schweizer KMU: strukturiert, nach einem festen Raster und mit denselben Kriterien für jede Website. So ist ein Datensatz entstanden, der eine ehrliche Antwort auf eine einfache Frage gibt: Wie fit sind die Websites der Schweizer KMU wirklich?
 
 ## Zwei Ebenen, damit die Zahlen ehrlich bleiben
 
@@ -92,8 +92,8 @@ Die gute Nachricht: fast alles davon ist in wenigen Stunden behoben. Fünf Schri
 
 Die meisten Schweizer KMU Websites sind kein Totalschaden. Fast alle bleiben aber unter ihren Möglichkeiten: nur knapp 9 Prozent sind zeitgemäss und ein Drittel hat deutlichen Handlungsbedarf. Das ist eine gute Nachricht für alle, die jetzt handeln. Wer die Grundlagen sauber umsetzt, gehört in seiner Branche schnell zur Spitze.
 
-Wollen Sie wissen, wo Ihre Website steht? Genau diese Analyse führen wir für Ihre Website kostenlos durch: [Kostenlose Website Analyse anfordern](/de/website-analyse). Mehr zu den Grundlagen lesen Sie unter [SEO Basis für KMU](/de/seo-basis-fuer-kmu) und wie wir Websites bauen, die gefunden werden, unter [Websites von amai!](/de/services/websites).
+Wollen Sie wissen, wo Ihre Website steht? Genau diese Analyse führen wir für Ihre Website kostenlos durch: [Kostenlose Website Analyse anfordern](/de/website-analyse). Mehr zu den Grundlagen lesen Sie unter [SEO Basis für KMU](/de/seo-basis-fuer-kmu) und wie wir Websites bauen, die gefunden werden, unter [Websites von semanu](/de/services/websites).
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Dataset","name":"Digitale Reife von Schweizer KMU Websites (amai! Studie)","description":"Indikative Bewertung von 2292 Schweizer KMU Websites auf einer Reifeskala mit fünf Stufen, dazu eine Tiefenanalyse der 638 Seiten mit dem grössten Handlungsbedarf in acht Kategorien von 0 bis 10. Erhoben vom 14. Juni bis 20. Juli 2026 in der Deutschschweiz.","url":"https://amai.ch/de/blog/kmu-website-studie-schweiz","creator":{"@id":"https://amai.ch/#organization"},"publisher":{"@id":"https://amai.ch/#organization"},"dateModified":"2026-08-11","temporalCoverage":"2026-06-14/2026-07-20","spatialCoverage":{"@type":"Place","name":"Deutschschweiz"},"measurementTechnique":"Indikative Bewertung auf Basis sichtbarer Website Elemente, nicht auf Analytics oder Labormessungen.","variableMeasured":["Digitale Reife (fünf Stufen)","Erster Eindruck","Positionierung","Conversion","UX und Struktur","Visuelles Design","SEO und Inhalt","Vertrauen und Beleg","Mobile Erfahrung"]}
+{"@context":"https://schema.org","@type":"Dataset","name":"Digitale Reife von Schweizer KMU Websites (semanu Studie)","description":"Indikative Bewertung von 2292 Schweizer KMU Websites auf einer Reifeskala mit fünf Stufen, dazu eine Tiefenanalyse der 638 Seiten mit dem grössten Handlungsbedarf in acht Kategorien von 0 bis 10. Erhoben vom 14. Juni bis 20. Juli 2026 in der Deutschschweiz.","url":"https://www.semanu.eu/de/blog/kmu-website-studie-schweiz","creator":{"@id":"https://www.semanu.eu/#organization"},"publisher":{"@id":"https://www.semanu.eu/#organization"},"dateModified":"2026-08-11","temporalCoverage":"2026-06-14/2026-07-20","spatialCoverage":{"@type":"Place","name":"Deutschschweiz"},"measurementTechnique":"Indikative Bewertung auf Basis sichtbarer Website Elemente, nicht auf Analytics oder Labormessungen.","variableMeasured":["Digitale Reife (fünf Stufen)","Erster Eindruck","Positionierung","Conversion","UX und Struktur","Visuelles Design","SEO und Inhalt","Vertrauen und Beleg","Mobile Erfahrung"]}
 </script>

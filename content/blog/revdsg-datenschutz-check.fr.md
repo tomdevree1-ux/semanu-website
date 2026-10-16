@@ -40,7 +40,7 @@ Les amendes forment un premier volet : jusqu'à 250'000 francs, prononcées cont
 
 Les données personnelles peuvent quitter la Suisse si le pays de destination offre une protection adéquate. C'est le cas pour l'EEE. Pour les États Unis, le [Swiss US Data Privacy Framework](https://www.edoeb.admin.ch/en/15082024-new-swiss-us-data-privacy-framework) s'applique depuis le 15 septembre 2024 : vous pouvez transférer vers un prestataire américain certifié sans garantie supplémentaire, vers un prestataire non certifié vous ne le pouvez pas. Très peu d'exploitants de sites connaissent cette nuance.
 
-Chez <span class="brand-mark">amai<span class="spark">!</span></span> nous hébergeons donc dans l'UE. La base de données et le stockage tournent sur Supabase dans une région européenne, la diffusion passe par Cloudflare, les emails par Resend. Les trois figurent nommément dans notre propre déclaration, finalité ainsi qu'emplacement compris. Voilà le niveau de détail que vise la loi.
+Chez <span class="brand-mark">semanu<span class="spark">!</span></span> nous hébergeons donc dans l'UE. La base de données et le stockage tournent sur Supabase dans une région européenne, la diffusion passe par Cloudflare, les emails par Resend. Les trois figurent nommément dans notre propre déclaration, finalité ainsi qu'emplacement compris. Voilà le niveau de détail que vise la loi.
 
 ## Comment mettre votre site en conformité en sept étapes ?
 

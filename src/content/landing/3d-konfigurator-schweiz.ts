@@ -35,9 +35,9 @@ export const konfiguratorSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'Ein Konfigurator, der rechnet und verkauft',
-      body: 'amai! baut Ihnen einen 3D Konfigurator, in dem Ihre Kundschaft das Produkt selbst zusammenstellt. Masse, Kanten, Oberflächen und Ausschnitte werden live im 3D Modell sichtbar und der Preis passt sich sofort an. Am Ende bestellt die Kundschaft direkt online. Für einen Hersteller von Aluminiumplatten auf Mass haben wir genau das umgesetzt.',
+      body: 'semanu baut Ihnen einen 3D Konfigurator, in dem Ihre Kundschaft das Produkt selbst zusammenstellt. Masse, Kanten, Oberflächen und Ausschnitte werden live im 3D Modell sichtbar und der Preis passt sich sofort an. Am Ende bestellt die Kundschaft direkt online. Für einen Hersteller von Aluminiumplatten auf Mass haben wir genau das umgesetzt.',
     },
-    featuresHeading: 'Was ein Konfigurator von amai! kann',
+    featuresHeading: 'Was ein Konfigurator von semanu kann',
     featuresHint: 'Fahren Sie über eine Kachel für mehr Infos',
     featuresLayout: 'cards',
     features: [
@@ -67,9 +67,9 @@ export const konfiguratorSchweiz: LandingLocales = {
       cards: [],
     },
     reasons: {
-      heading: 'Warum ein Konfigurator von amai!?',
+      heading: 'Warum ein Konfigurator von semanu?',
       entitySentence:
-        'amai! ist ein AI natives Digitalunternehmen aus Bern für Schweizer KMU und baut Websites, Webshops und Konfiguratoren auf Mass, inklusive Design, Umsetzung, Hosting und Wartung.',
+        'semanu ist ein AI natives Digitalunternehmen aus Bern für Schweizer KMU und baut Websites, Webshops und Konfiguratoren auf Mass, inklusive Design, Umsetzung, Hosting und Wartung.',
       items: [
         { title: 'Echtes Projekt', text: 'Wir haben einen Konfigurator für Aluminiumplatten auf Mass gebaut.' },
         { title: 'Weniger Offerten', text: 'Standardfälle laufen automatisch statt von Hand.' },
@@ -99,18 +99,18 @@ export const konfiguratorSchweiz: LandingLocales = {
         icon: 'hosting',
         heading: 'Webshop mit Konfigurator: Onlineshop und Produktkonfigurator in einem',
         body:
-          'Ein Konfigurator allein zeigt nur Varianten. Erst als Webshop mit Konfigurator verkauft er: Ihre Kundschaft stellt das Produkt im Onlineshop zusammen, sieht den Preis und legt es direkt in den Warenkorb. Bestellung, Zahlung und Bestätigung laufen automatisch und landen als fertige Konfiguration bei Ihnen. amai! baut den Produktkonfigurator und den Webshop als ein Ganzes oder verbindet den Konfigurator mit Ihrem bestehenden Shop.',
+          'Ein Konfigurator allein zeigt nur Varianten. Erst als Webshop mit Konfigurator verkauft er: Ihre Kundschaft stellt das Produkt im Onlineshop zusammen, sieht den Preis und legt es direkt in den Warenkorb. Bestellung, Zahlung und Bestätigung laufen automatisch und landen als fertige Konfiguration bei Ihnen. semanu baut den Produktkonfigurator und den Webshop als ein Ganzes oder verbindet den Konfigurator mit Ihrem bestehenden Shop.',
         points: ['Konfigurieren und im Shop bestellen', 'Zahlung und Bestätigung automatisch', 'Neuer Webshop oder Anbindung an Ihren Shop'],
       },
     ],
     links: [
       { href: '/services/3d-configurators', label: '3D Konfiguratoren', desc: 'Die Dienstleistung und Live Beispiele.' },
-      { href: '/referenzen', label: 'Referenzen', desc: 'Der 3D Konfigurator und weitere Projekte von amai!' },
-      { href: '/services/websites', label: 'Websites und Webshops', desc: 'Websites und Shops von amai!' },
+      { href: '/referenzen', label: 'Referenzen', desc: 'Der 3D Konfigurator und weitere Projekte von semanu' },
+      { href: '/services/websites', label: 'Websites und Webshops', desc: 'Websites und Shops von semanu' },
       { href: '/website-abos', label: 'Website Abos', desc: 'Unsere monatlichen Pakete im Überblick.' },
       { href: '/website-analyse', label: 'Kostenlose Website Analyse', desc: 'Sehen Sie, wo Ihre Website steht.' },
-      { href: '/so-funktioniert', label: 'So funktioniert amai!', desc: 'Vom ersten Gespräch bis live.' },
-      { href: '/faq', label: 'Häufige Fragen', desc: 'Antworten rund um amai!' },
+      { href: '/so-funktioniert', label: 'So funktioniert semanu', desc: 'Vom ersten Gespräch bis live.' },
+      { href: '/faq', label: 'Häufige Fragen', desc: 'Antworten rund um semanu' },
       { href: '/kontakt', label: 'Kontakt', desc: 'Sagen Sie uns, was Sie brauchen.' },
     ],
     faq: {
@@ -122,7 +122,7 @@ export const konfiguratorSchweiz: LandingLocales = {
         { q: 'Können Kundinnen und Kunden direkt bestellen?', a: 'Ja. Die fertige Konfiguration geht als Bestellung direkt bei Ihnen ein. Sie können daraus einen kompletten Webshop machen.' },
         { q: 'Habt ihr das schon einmal gebaut?', a: 'Ja. Für einen Hersteller von Aluminiumplatten auf Mass haben wir einen Konfigurator mit Masse, Kanten, Oberflächen und Ausschnitten, live 3D und Sofortpreis umgesetzt.' },
         { q: 'Was kostet ein 3D Konfigurator?', a: 'Der Konfigurator wird nach Aufwand offeriert, je nach Produkt und Zahl der Optionen. Der Webshop drum herum läuft auf Wunsch im Website Abo ab 125 CHF pro Monat. Umfang und Preis legen wir nach einem kurzen Gespräch fest.' },
-        { q: 'Kann ich einen Webshop mit Konfigurator erstellen lassen?', a: 'Ja. amai! baut Onlineshop und Produktkonfigurator als ein Ganzes: konfigurieren, Preis sehen, in den Warenkorb legen und bezahlen. Sie erhalten die fertige Konfiguration als Bestellung.' },
+        { q: 'Kann ich einen Webshop mit Konfigurator erstellen lassen?', a: 'Ja. semanu baut Onlineshop und Produktkonfigurator als ein Ganzes: konfigurieren, Preis sehen, in den Warenkorb legen und bezahlen. Sie erhalten die fertige Konfiguration als Bestellung.' },
         { q: 'Funktioniert der Konfigurator mit Shopify oder einem bestehenden Shop?', a: 'In vielen Fällen ja. Wir bauen den Konfigurator als eigenes Modul und übergeben die fertige Konfiguration an Ihren bestehenden Shop, etwa Shopify. Ob eine Anbindung sinnvoll ist oder ein neuer Webshop, klären wir im ersten Gespräch.' },
       ],
     },
@@ -166,9 +166,9 @@ export const konfiguratorSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'Un configurateur qui calcule et qui vend',
-      body: 'amai! vous construit un configurateur 3D dans lequel vos clients composent le produit eux mêmes. Les mesures, les bords, les finitions et les découpes apparaissent en direct dans le modèle 3D et le prix s’adapte aussitôt. À la fin, le client commande directement en ligne. Pour un fabricant de plaques d’aluminium sur mesure, nous avons réalisé exactement cela.',
+      body: 'semanu vous construit un configurateur 3D dans lequel vos clients composent le produit eux mêmes. Les mesures, les bords, les finitions et les découpes apparaissent en direct dans le modèle 3D et le prix s’adapte aussitôt. À la fin, le client commande directement en ligne. Pour un fabricant de plaques d’aluminium sur mesure, nous avons réalisé exactement cela.',
     },
-    featuresHeading: 'Ce que sait faire un configurateur d’amai!',
+    featuresHeading: 'Ce que sait faire un configurateur d’semanu',
     featuresHint: 'Passez sur une tuile pour plus d’infos',
     featuresLayout: 'cards',
     features: [
@@ -198,9 +198,9 @@ export const konfiguratorSchweiz: LandingLocales = {
       cards: [],
     },
     reasons: {
-      heading: 'Pourquoi un configurateur d’amai!?',
+      heading: 'Pourquoi un configurateur d’semanu?',
       entitySentence:
-        'amai! est un partenaire digital AI natif basé à Berne pour les PME suisses et construit des sites, des webshops et des configurateurs sur mesure, design, réalisation, hébergement et maintenance compris.',
+        'semanu est un partenaire digital AI natif basé à Berne pour les PME suisses et construit des sites, des webshops et des configurateurs sur mesure, design, réalisation, hébergement et maintenance compris.',
       items: [
         { title: 'Un vrai projet', text: 'Nous avons construit un configurateur pour des plaques d’aluminium sur mesure.' },
         { title: 'Moins d’offres', text: 'Les cas standard tournent automatiquement au lieu d’être faits à la main.' },
@@ -230,18 +230,18 @@ export const konfiguratorSchweiz: LandingLocales = {
         icon: 'hosting',
         heading: 'Boutique en ligne avec configurateur 3D: webshop et configurateur de produit en un',
         body:
-          'Un configurateur seul ne fait que montrer des variantes. C’est en boutique en ligne avec configurateur qu’il vend: vos clients composent le produit dans le webshop, voient le prix et le mettent directement dans le panier. Commande, paiement et confirmation tournent automatiquement et arrivent chez vous comme configuration finie. amai! construit le configurateur de produit et le webshop comme un tout ou relie le configurateur à votre boutique existante.',
+          'Un configurateur seul ne fait que montrer des variantes. C’est en boutique en ligne avec configurateur qu’il vend: vos clients composent le produit dans le webshop, voient le prix et le mettent directement dans le panier. Commande, paiement et confirmation tournent automatiquement et arrivent chez vous comme configuration finie. semanu construit le configurateur de produit et le webshop comme un tout ou relie le configurateur à votre boutique existante.',
         points: ['Configurer et commander dans la boutique', 'Paiement et confirmation automatiques', 'Nouveau webshop ou liaison à votre boutique'],
       },
     ],
     links: [
       { href: '/services/3d-configurators', label: 'Configurateurs 3D', desc: 'Le service et des exemples en direct.' },
-      { href: '/referenzen', label: 'Références', desc: 'Le configurateur 3D et d’autres projets d’amai!' },
-      { href: '/services/websites', label: 'Sites et webshops', desc: 'Sites et boutiques par amai!' },
+      { href: '/referenzen', label: 'Références', desc: 'Le configurateur 3D et d’autres projets d’semanu' },
+      { href: '/services/websites', label: 'Sites et webshops', desc: 'Sites et boutiques par semanu' },
       { href: '/website-abos', label: 'Abonnements', desc: 'Nos formules mensuelles en un coup d’œil.' },
       { href: '/website-analyse', label: 'Analyse de site gratuite', desc: 'Voyez où en est votre site.' },
-      { href: '/so-funktioniert', label: 'Comment amai! fonctionne', desc: 'Du premier entretien à la mise en ligne.' },
-      { href: '/faq', label: 'Questions fréquentes', desc: 'Les réponses autour d’amai!' },
+      { href: '/so-funktioniert', label: 'Comment semanu fonctionne', desc: 'Du premier entretien à la mise en ligne.' },
+      { href: '/faq', label: 'Questions fréquentes', desc: 'Les réponses autour d’semanu' },
       { href: '/kontakt', label: 'Contact', desc: 'Dites-nous ce dont vous avez besoin.' },
     ],
     faq: {
@@ -253,7 +253,7 @@ export const konfiguratorSchweiz: LandingLocales = {
         { q: 'Le client peut il commander directement?', a: 'Oui. La configuration finie arrive comme commande directement chez vous. Vous pouvez en faire un webshop complet.' },
         { q: 'Avez vous déjà construit cela?', a: 'Oui. Pour un fabricant de plaques d’aluminium sur mesure, nous avons réalisé un configurateur avec mesures, bords, finitions et découpes, 3D en direct et prix aussitôt.' },
         { q: 'Combien coûte un configurateur 3D?', a: 'Le configurateur est chiffré selon l’effort, en fonction de votre produit et du nombre d’options. La boutique en ligne autour tourne sur demande dans l’abonnement dès 125 CHF par mois. Nous fixons le périmètre et le prix après un court entretien.' },
-        { q: 'Je peux faire créer une boutique en ligne avec configurateur?', a: 'Oui. amai! construit le webshop et le configurateur de produit comme un tout: configurer, voir le prix, mettre dans le panier et payer. Vous recevez la configuration finie comme commande.' },
+        { q: 'Je peux faire créer une boutique en ligne avec configurateur?', a: 'Oui. semanu construit le webshop et le configurateur de produit comme un tout: configurer, voir le prix, mettre dans le panier et payer. Vous recevez la configuration finie comme commande.' },
         { q: 'Le configurateur fonctionne avec Shopify ou une boutique existante?', a: 'Dans beaucoup de cas, oui. Nous construisons le configurateur comme module séparé et transmettons la configuration finie à votre boutique existante, par exemple Shopify. Nous clarifions lors du premier entretien si une liaison a du sens ou plutôt un nouveau webshop.' },
       ],
     },
@@ -297,9 +297,9 @@ export const konfiguratorSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'A configurator that calculates and sells',
-      body: 'amai! builds you a 3D configurator in which your customers compose the product themselves. Measurements, edges, finishes and cutouts become visible live in the 3D model and the price adapts instantly. In the end the customer orders directly online. For a manufacturer of aluminium plates made to measure we built exactly that.',
+      body: 'semanu builds you a 3D configurator in which your customers compose the product themselves. Measurements, edges, finishes and cutouts become visible live in the 3D model and the price adapts instantly. In the end the customer orders directly online. For a manufacturer of aluminium plates made to measure we built exactly that.',
     },
-    featuresHeading: 'What a configurator from amai! can do',
+    featuresHeading: 'What a configurator from semanu can do',
     featuresHint: 'Hover over a tile for more info',
     featuresLayout: 'cards',
     features: [
@@ -329,9 +329,9 @@ export const konfiguratorSchweiz: LandingLocales = {
       cards: [],
     },
     reasons: {
-      heading: 'Why a configurator from amai!?',
+      heading: 'Why a configurator from semanu?',
       entitySentence:
-        'amai! is an AI native digital partner from Bern for Swiss SMEs and builds websites, webshops and configurators made to measure, including design, build, hosting and maintenance.',
+        'semanu is an AI native digital partner from Bern for Swiss SMEs and builds websites, webshops and configurators made to measure, including design, build, hosting and maintenance.',
       items: [
         { title: 'A real project', text: 'We built a configurator for aluminium plates made to measure.' },
         { title: 'Fewer quotes', text: 'Standard cases run automatically instead of by hand.' },
@@ -361,18 +361,18 @@ export const konfiguratorSchweiz: LandingLocales = {
         icon: 'hosting',
         heading: 'Webshop with configurator: online shop and product configurator in one',
         body:
-          'A configurator on its own only shows variants. As a webshop with configurator it sells: your customers compose the product in the online shop, see the price and put it straight into the basket. Order, payment and confirmation run automatically and reach you as a finished configuration. amai! builds the product configurator and the webshop as one whole or connects the configurator to your existing shop.',
+          'A configurator on its own only shows variants. As a webshop with configurator it sells: your customers compose the product in the online shop, see the price and put it straight into the basket. Order, payment and confirmation run automatically and reach you as a finished configuration. semanu builds the product configurator and the webshop as one whole or connects the configurator to your existing shop.',
         points: ['Configure and order in the shop', 'Payment and confirmation automatic', 'New webshop or connection to your shop'],
       },
     ],
     links: [
       { href: '/services/3d-configurators', label: '3D configurators', desc: 'The service and live examples.' },
-      { href: '/referenzen', label: 'References', desc: 'The 3D configurator and more projects by amai!' },
-      { href: '/services/websites', label: 'Websites and webshops', desc: 'Websites and shops by amai!' },
+      { href: '/referenzen', label: 'References', desc: 'The 3D configurator and more projects by semanu' },
+      { href: '/services/websites', label: 'Websites and webshops', desc: 'Websites and shops by semanu' },
       { href: '/website-abos', label: 'Website subscriptions', desc: 'Our monthly packages at a glance.' },
       { href: '/website-analyse', label: 'Free website analysis', desc: 'See where your website stands.' },
-      { href: '/so-funktioniert', label: 'How amai! works', desc: 'From the first talk to going live.' },
-      { href: '/faq', label: 'Frequently asked questions', desc: 'Answers around amai!' },
+      { href: '/so-funktioniert', label: 'How semanu works', desc: 'From the first talk to going live.' },
+      { href: '/faq', label: 'Frequently asked questions', desc: 'Answers around semanu' },
       { href: '/kontakt', label: 'Contact', desc: 'Tell us what you need.' },
     ],
     faq: {
@@ -384,7 +384,7 @@ export const konfiguratorSchweiz: LandingLocales = {
         { q: 'Can customers order directly?', a: 'Yes. The finished configuration arrives as an order directly with you. You can turn it into a full webshop.' },
         { q: 'Have you built this before?', a: 'Yes. For a manufacturer of aluminium plates made to measure we built a configurator with measurements, edges, finishes and cutouts, live 3D and an instant price.' },
         { q: 'What does a 3D configurator cost?', a: 'The configurator is quoted by effort, depending on your product and the number of options. The webshop around it runs on request in the website subscription from 125 CHF per month. We set the scope and the price after a short conversation.' },
-        { q: 'Can I have a webshop with configurator built?', a: 'Yes. amai! builds the online shop and the product configurator as one whole: configure, see the price, add to the basket and pay. You receive the finished configuration as an order.' },
+        { q: 'Can I have a webshop with configurator built?', a: 'Yes. semanu builds the online shop and the product configurator as one whole: configure, see the price, add to the basket and pay. You receive the finished configuration as an order.' },
         { q: 'Does the configurator work with Shopify or an existing shop?', a: 'In many cases yes. We build the configurator as a separate module and hand the finished configuration to your existing shop, for example Shopify. Whether a connection makes sense or a new webshop is better, we clarify in the first conversation.' },
       ],
     },

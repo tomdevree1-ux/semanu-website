@@ -1,6 +1,6 @@
 ---
 title: "Estudio: solo el 9% de las webs de pymes al día"
-description: "amai! evaluó 2292 webs de pymes suizas. Apenas el 9 por ciento están al día, un tercio necesita trabajo. Todas las cifras y los patrones."
+description: "semanu evaluó 2292 webs de pymes suizas. Apenas el 9 por ciento están al día, un tercio necesita trabajo. Todas las cifras y los patrones."
 date: "2026-08-11"
 author: "Tom"
 authorImage: "/team/tom.png"
@@ -11,7 +11,7 @@ Menos de una de cada diez webs de pymes suizas está realmente al día. De 2292 
 
 ## Por qué este estudio
 
-En <span class="brand-mark">amai<span class="spark">!</span></span> evaluamos de forma continua las webs de las pymes suizas: de manera estructurada, según una rejilla fija y con los mismos criterios para cada sitio. Así ha surgido un conjunto de datos que da una respuesta honesta a una pregunta simple: ¿qué tan en forma están de verdad las webs de las pymes suizas?
+En <span class="brand-mark">semanu<span class="spark">!</span></span> evaluamos de forma continua las webs de las pymes suizas: de manera estructurada, según una rejilla fija y con los mismos criterios para cada sitio. Así ha surgido un conjunto de datos que da una respuesta honesta a una pregunta simple: ¿qué tan en forma están de verdad las webs de las pymes suizas?
 
 ## Dos niveles, para que las cifras sigan siendo honestas
 
@@ -92,8 +92,8 @@ La buena noticia: casi todo se arregla en pocas horas. Cinco pasos que funcionan
 
 La mayoría de las webs de pymes suizas no son una pérdida total. Casi todas se quedan sin embargo por debajo de su potencial: apenas el 9 por ciento están al día y un tercio necesita trabajo de verdad. Es una buena noticia para quien actúa ahora. Ponga bien las bases y llegará rápido a lo más alto de su sector.
 
-¿Quiere saber dónde está su web? Hacemos exactamente este análisis para su web de forma gratuita: [Solicitar un análisis de web gratuito](/es/website-analyse). Lea más sobre las bases en [Bases de SEO para pymes](/es/seo-basis-fuer-kmu) y cómo construimos webs que se encuentran en [Webs de amai!](/es/services/websites).
+¿Quiere saber dónde está su web? Hacemos exactamente este análisis para su web de forma gratuita: [Solicitar un análisis de web gratuito](/es/website-analyse). Lea más sobre las bases en [Bases de SEO para pymes](/es/seo-basis-fuer-kmu) y cómo construimos webs que se encuentran en [Webs de semanu](/es/services/websites).
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Dataset","name":"Madurez digital de las webs de pymes suizas (estudio amai!)","description":"Valoración indicativa de 2292 webs de pymes suizas en una escala de madurez de cinco niveles, además de un análisis en profundidad en ocho categorías (0 a 10) de los 638 sitios con mayor necesidad. Recogida del 14 de junio al 20 de julio de 2026 en la Suiza de habla alemana.","url":"https://amai.ch/es/blog/kmu-website-studie-schweiz","creator":{"@id":"https://amai.ch/#organization"},"publisher":{"@id":"https://amai.ch/#organization"},"dateModified":"2026-08-11","temporalCoverage":"2026-06-14/2026-07-20","spatialCoverage":{"@type":"Place","name":"Suiza de habla alemana"},"measurementTechnique":"Valoración indicativa basada en elementos visibles del sitio, no en analítica ni en mediciones de laboratorio.","variableMeasured":["Madurez digital (cinco niveles)","Primera impresión","Posicionamiento","Conversión","UX y estructura","Diseño visual","SEO y contenido","Confianza y prueba","Experiencia móvil"]}
+{"@context":"https://schema.org","@type":"Dataset","name":"Madurez digital de las webs de pymes suizas (estudio semanu)","description":"Valoración indicativa de 2292 webs de pymes suizas en una escala de madurez de cinco niveles, además de un análisis en profundidad en ocho categorías (0 a 10) de los 638 sitios con mayor necesidad. Recogida del 14 de junio al 20 de julio de 2026 en la Suiza de habla alemana.","url":"https://www.semanu.eu/es/blog/kmu-website-studie-schweiz","creator":{"@id":"https://www.semanu.eu/#organization"},"publisher":{"@id":"https://www.semanu.eu/#organization"},"dateModified":"2026-08-11","temporalCoverage":"2026-06-14/2026-07-20","spatialCoverage":{"@type":"Place","name":"Suiza de habla alemana"},"measurementTechnique":"Valoración indicativa basada en elementos visibles del sitio, no en analítica ni en mediciones de laboratorio.","variableMeasured":["Madurez digital (cinco niveles)","Primera impresión","Posicionamiento","Conversión","UX y estructura","Diseño visual","SEO y contenido","Confianza y prueba","Experiencia móvil"]}
 </script>

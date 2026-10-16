@@ -35,9 +35,9 @@ export const seoBasisFuerKmu: LandingLocales = {
     },
     solution: {
       heading: 'Eine saubere SEO Basis, die Google versteht',
-      body: 'amai! legt die technischen und inhaltlichen Grundlagen, damit Google Ihre Website besser lesen und einordnen kann. Dazu gehören eine klare Seitenstruktur, saubere Überschriften, sinnvolle Meta Daten, interne Verlinkung und relevante Inhalte. Das ist kein Trick und keine Garantie. Es ist eine solide Grundlage, auf der Ihre Sichtbarkeit über die Zeit wachsen kann.',
+      body: 'semanu legt die technischen und inhaltlichen Grundlagen, damit Google Ihre Website besser lesen und einordnen kann. Dazu gehören eine klare Seitenstruktur, saubere Überschriften, sinnvolle Meta Daten, interne Verlinkung und relevante Inhalte. Das ist kein Trick und keine Garantie. Es ist eine solide Grundlage, auf der Ihre Sichtbarkeit über die Zeit wachsen kann.',
     },
-    featuresHeading: 'Was zur SEO Basis bei amai! gehört',
+    featuresHeading: 'Was zur SEO Basis bei semanu gehört',
     featuresHint: 'Fahren Sie über eine Kachel für mehr Infos',
     featuresLayout: 'cards',
     features: [
@@ -109,9 +109,9 @@ export const seoBasisFuerKmu: LandingLocales = {
       cards: [],
     },
     reasons: {
-      heading: 'Warum SEO Basis von amai!?',
+      heading: 'Warum SEO Basis von semanu?',
       entitySentence:
-        'amai! ist ein Anbieter für Website Abos aus Bern und erstellt professionelle Websites für Schweizer KMU, Selbständige und lokale Unternehmen, inklusive Design, Umsetzung, Hosting, Wartung und SEO Grundlagen.',
+        'semanu ist ein Anbieter für Website Abos aus Bern und erstellt professionelle Websites für Schweizer KMU, Selbständige und lokale Unternehmen, inklusive Design, Umsetzung, Hosting, Wartung und SEO Grundlagen.',
       items: [
         { title: 'Ehrlich und klar', text: 'Wir versprechen keine garantierten Rankings. Wir bauen eine saubere Basis, die wirkt.' },
         { title: 'Im Abo enthalten', text: 'Die SEO Grundlagen sind Teil Ihres Website Abos, ohne teure Zusatzpakete.' },
@@ -138,7 +138,7 @@ export const seoBasisFuerKmu: LandingLocales = {
     },
     sections: [],
     links: [
-      { href: '/referenzen', label: 'Referenzen', desc: 'Websites und digitale Lösungen von amai!' },
+      { href: '/referenzen', label: 'Referenzen', desc: 'Websites und digitale Lösungen von semanu' },
       { href: '/website-abos', label: 'Preise', desc: 'Transparente Abos für Business und Webshop.' },
       { href: '/so-funktioniert', label: 'So funktioniert’s', desc: 'Schritt für Schritt zur fertigen Website.' },
       { href: '/website-erstellen-lassen-schweiz', label: 'Website erstellen lassen', desc: 'Rundum betreut zum klaren Monatspreis.' },
@@ -150,12 +150,12 @@ export const seoBasisFuerKmu: LandingLocales = {
     faq: {
       heading: 'Häufige Fragen',
       items: [
-        { q: 'Garantiert amai! Top Platzierungen bei Google?', a: 'Nein. Konkrete Google Rankings können nicht garantiert werden. Wir bauen eine saubere technische und inhaltliche Basis, die Ihre Sichtbarkeit über die Zeit unterstützt.' },
+        { q: 'Garantiert semanu Top Platzierungen bei Google?', a: 'Nein. Konkrete Google Rankings können nicht garantiert werden. Wir bauen eine saubere technische und inhaltliche Basis, die Ihre Sichtbarkeit über die Zeit unterstützt.' },
         { q: 'Was gehört zur SEO Basis?', a: 'Eine klare Seitenstruktur, saubere Überschriften, sinnvolle Meta Daten, interne Verlinkung, relevante Inhalte und technische Grundlagen wie Ladezeit und mobile Darstellung.' },
         { q: 'Ist SEO im Preis enthalten?', a: 'Ja. Die SEO Grundlagen sind im Website Abo enthalten, ohne teure Zusatzpakete.' },
         { q: 'Muss ich SEO verstehen?', a: 'Nein. Wir erklären die Grundlagen verständlich und übernehmen die Umsetzung für Sie.' },
         { q: 'Wie schnell sehe ich Ergebnisse?', a: 'Sichtbarkeit wächst über die Zeit und hängt von vielen Faktoren ab. Eine saubere Basis ist die Voraussetzung und kein Schalter für sofortige Platzierungen.' },
-        { q: 'Schreibt amai! auch die Texte?', a: 'Wir helfen bei Struktur und Formulierung, damit Inhalte verständlich und passend sind. Sie können vorhandene Texte liefern.' },
+        { q: 'Schreibt semanu auch die Texte?', a: 'Wir helfen bei Struktur und Formulierung, damit Inhalte verständlich und passend sind. Sie können vorhandene Texte liefern.' },
         { q: 'Was kostet die SEO Basis?', a: 'Die SEO Grundlagen sind im Website Abo ab 99 CHF pro Monat enthalten. Der genaue Preis hängt vom gewählten Abo ab.' },
       ],
     },
@@ -199,9 +199,9 @@ export const seoBasisFuerKmu: LandingLocales = {
     },
     solution: {
       heading: 'Une base SEO propre que Google comprend',
-      body: 'amai! pose les bases techniques et éditoriales pour que Google lise et situe mieux votre site. Cela comprend une structure claire, des titres propres, des métadonnées utiles, des liens internes et des contenus pertinents. Ce n’est ni un truc ni une garantie. C’est une base solide sur laquelle votre visibilité peut grandir avec le temps.',
+      body: 'semanu pose les bases techniques et éditoriales pour que Google lise et situe mieux votre site. Cela comprend une structure claire, des titres propres, des métadonnées utiles, des liens internes et des contenus pertinents. Ce n’est ni un truc ni une garantie. C’est une base solide sur laquelle votre visibilité peut grandir avec le temps.',
     },
-    featuresHeading: 'Ce que comprend la base SEO chez amai!',
+    featuresHeading: 'Ce que comprend la base SEO chez semanu',
     featuresHint: 'Passez sur une tuile pour plus d’infos',
     featuresLayout: 'cards',
     features: [
@@ -273,9 +273,9 @@ export const seoBasisFuerKmu: LandingLocales = {
       cards: [],
     },
     reasons: {
-      heading: 'Pourquoi la base SEO d’amai!?',
+      heading: 'Pourquoi la base SEO d’semanu?',
       entitySentence:
-        'amai! est un fournisseur d’abonnements de sites basé à Berne et crée des sites professionnels pour les PME suisses, les indépendants et les commerces locaux, design, réalisation, hébergement, maintenance et bases SEO compris.',
+        'semanu est un fournisseur d’abonnements de sites basé à Berne et crée des sites professionnels pour les PME suisses, les indépendants et les commerces locaux, design, réalisation, hébergement, maintenance et bases SEO compris.',
       items: [
         { title: 'Honnête et clair', text: 'Nous ne promettons pas de classements garantis. Nous posons une base propre qui agit.' },
         { title: 'Compris dans l’abonnement', text: 'Les bases SEO font partie de votre abonnement, sans paquets supplémentaires coûteux.' },
@@ -302,7 +302,7 @@ export const seoBasisFuerKmu: LandingLocales = {
     },
     sections: [],
     links: [
-      { href: '/referenzen', label: 'Références', desc: 'Sites et solutions numériques d’amai!' },
+      { href: '/referenzen', label: 'Références', desc: 'Sites et solutions numériques d’semanu' },
       { href: '/website-abos', label: 'Prix', desc: 'Abonnements transparents pour Business et Webshop.' },
       { href: '/so-funktioniert', label: 'Comment ça marche', desc: 'Votre site étape par étape.' },
       { href: '/website-erstellen-lassen-schweiz', label: 'Faire créer son site', desc: 'Entièrement pris en charge au prix mensuel clair.' },
@@ -314,12 +314,12 @@ export const seoBasisFuerKmu: LandingLocales = {
     faq: {
       heading: 'Questions fréquentes',
       items: [
-        { q: 'amai! garantit les meilleures positions sur Google?', a: 'Non. Les classements Google concrets ne peuvent pas être garantis. Nous posons une base technique et éditoriale propre qui soutient votre visibilité avec le temps.' },
+        { q: 'semanu garantit les meilleures positions sur Google?', a: 'Non. Les classements Google concrets ne peuvent pas être garantis. Nous posons une base technique et éditoriale propre qui soutient votre visibilité avec le temps.' },
         { q: 'Que comprend la base SEO?', a: 'Une structure de pages claire, des titres propres, des métadonnées utiles, des liens internes, des contenus pertinents et des bases techniques comme le temps de chargement et l’affichage mobile.' },
         { q: 'Le SEO est compris dans le prix?', a: 'Oui. Les bases SEO sont comprises dans l’abonnement, sans paquets supplémentaires coûteux.' },
         { q: 'Je dois comprendre le SEO?', a: 'Non. Nous expliquons les bases simplement et prenons en charge la réalisation pour vous.' },
         { q: 'Les résultats arrivent en combien de temps?', a: 'La visibilité grandit avec le temps et dépend de nombreux facteurs. Une base propre est la condition de départ et non un interrupteur pour un classement immédiat.' },
-        { q: 'amai! rédige aussi les textes?', a: 'Nous aidons pour la structure et la formulation, pour que les contenus soient clairs et adaptés. Vous pouvez fournir des textes existants.' },
+        { q: 'semanu rédige aussi les textes?', a: 'Nous aidons pour la structure et la formulation, pour que les contenus soient clairs et adaptés. Vous pouvez fournir des textes existants.' },
         { q: 'Combien coûte la base SEO?', a: 'Les bases SEO sont comprises dans l’abonnement dès 99 CHF par mois. Le prix exact dépend de l’abonnement choisi.' },
       ],
     },
@@ -363,9 +363,9 @@ export const seoBasisFuerKmu: LandingLocales = {
     },
     solution: {
       heading: 'A clean SEO foundation that Google understands',
-      body: 'amai! lays the technical and editorial foundations so Google can read and place your website better. This includes a clear page structure, clean headings, useful meta data, internal links and relevant content. This is not a trick and not a guarantee. It is a solid foundation on which your visibility can grow over time.',
+      body: 'semanu lays the technical and editorial foundations so Google can read and place your website better. This includes a clear page structure, clean headings, useful meta data, internal links and relevant content. This is not a trick and not a guarantee. It is a solid foundation on which your visibility can grow over time.',
     },
-    featuresHeading: 'What the SEO foundation at amai! includes',
+    featuresHeading: 'What the SEO foundation at semanu includes',
     featuresHint: 'Hover over a tile for more info',
     featuresLayout: 'cards',
     features: [
@@ -437,9 +437,9 @@ export const seoBasisFuerKmu: LandingLocales = {
       cards: [],
     },
     reasons: {
-      heading: 'Why the SEO foundation from amai!?',
+      heading: 'Why the SEO foundation from semanu?',
       entitySentence:
-        'amai! is a website subscription provider from Bern and builds professional websites for Swiss SMEs, self employed people and local businesses, including design, build, hosting, maintenance and SEO foundations.',
+        'semanu is a website subscription provider from Bern and builds professional websites for Swiss SMEs, self employed people and local businesses, including design, build, hosting, maintenance and SEO foundations.',
       items: [
         { title: 'Honest and clear', text: 'We do not promise guaranteed rankings. We build a clean foundation that works.' },
         { title: 'Included in the subscription', text: 'The SEO foundations are part of your subscription, without expensive add on packages.' },
@@ -466,7 +466,7 @@ export const seoBasisFuerKmu: LandingLocales = {
     },
     sections: [],
     links: [
-      { href: '/referenzen', label: 'References', desc: 'Websites and digital solutions by amai!' },
+      { href: '/referenzen', label: 'References', desc: 'Websites and digital solutions by semanu' },
       { href: '/website-abos', label: 'Pricing', desc: 'Transparent plans for Business and Webshop.' },
       { href: '/so-funktioniert', label: 'How it works', desc: 'Your website step by step.' },
       { href: '/website-erstellen-lassen-schweiz', label: 'Have a website made', desc: 'Fully taken care of at a clear monthly price.' },
@@ -478,12 +478,12 @@ export const seoBasisFuerKmu: LandingLocales = {
     faq: {
       heading: 'Frequently asked questions',
       items: [
-        { q: 'Does amai! guarantee top positions on Google?', a: 'No. Concrete Google rankings cannot be guaranteed. We build a clean technical and editorial foundation that supports your visibility over time.' },
+        { q: 'Does semanu guarantee top positions on Google?', a: 'No. Concrete Google rankings cannot be guaranteed. We build a clean technical and editorial foundation that supports your visibility over time.' },
         { q: 'What does the SEO foundation include?', a: 'A clear page structure, clean headings, useful meta data, internal links, relevant content and technical foundations like loading time and mobile display.' },
         { q: 'Is SEO included in the price?', a: 'Yes. The SEO foundations are included in the website subscription, without expensive add on packages.' },
         { q: 'Do I need to understand SEO?', a: 'No. We explain the basics clearly and take care of the build for you.' },
         { q: 'How quickly will I see results?', a: 'Visibility grows over time and depends on many factors. A clean foundation is the starting condition and not a switch for immediate rankings.' },
-        { q: 'Does amai! also write the texts?', a: 'We help with structure and wording, so content is clear and fitting. You can supply existing texts.' },
+        { q: 'Does semanu also write the texts?', a: 'We help with structure and wording, so content is clear and fitting. You can supply existing texts.' },
         { q: 'What does the SEO foundation cost?', a: 'The SEO foundations are included in the website subscription from 99 CHF per month. The exact price depends on the chosen subscription.' },
       ],
     },

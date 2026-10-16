@@ -35,9 +35,9 @@ export const geoSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'GEO, damit die AI Sie versteht und nennt',
-      body: 'amai! sorgt dafür, dass Ihre Fakten eindeutig sind, Ihre Inhalte klar strukturiert und Ihr Name auch ausserhalb der eigenen Website auftaucht. Wir lassen die relevanten AI Crawler zu und beobachten Monat für Monat, ob und wie Sie in Google und in AI Antworten erscheinen. Das ist kein Trick und keine Garantie. Es ist eine solide Grundlage, auf der Ihre Sichtbarkeit wachsen kann.',
+      body: 'semanu sorgt dafür, dass Ihre Fakten eindeutig sind, Ihre Inhalte klar strukturiert und Ihr Name auch ausserhalb der eigenen Website auftaucht. Wir lassen die relevanten AI Crawler zu und beobachten Monat für Monat, ob und wie Sie in Google und in AI Antworten erscheinen. Das ist kein Trick und keine Garantie. Es ist eine solide Grundlage, auf der Ihre Sichtbarkeit wachsen kann.',
     },
-    featuresHeading: 'Was zu GEO bei amai! gehört',
+    featuresHeading: 'Was zu GEO bei semanu gehört',
     featuresHint: 'Fahren Sie über eine Kachel für mehr Infos',
     featuresLayout: 'cards',
     features: [
@@ -67,9 +67,9 @@ export const geoSchweiz: LandingLocales = {
       cards: [],
     },
     reasons: {
-      heading: 'Warum GEO von amai!?',
+      heading: 'Warum GEO von semanu?',
       entitySentence:
-        'amai! ist ein AI natives Digitalunternehmen aus Bern für Schweizer KMU und hat 2292 Schweizer KMU Websites auf ihre digitale Reife bewertet. Wir bauen Websites, die von Menschen und von AI Assistenten gefunden werden, inklusive Design, Umsetzung, Hosting, Wartung und SEO Grundlagen.',
+        'semanu ist ein AI natives Digitalunternehmen aus Bern für Schweizer KMU und hat 2292 Schweizer KMU Websites auf ihre digitale Reife bewertet. Wir bauen Websites, die von Menschen und von AI Assistenten gefunden werden, inklusive Design, Umsetzung, Hosting, Wartung und SEO Grundlagen.',
       items: [
         { title: 'Früh dabei', text: 'GEO ist noch neu. Wer jetzt anfängt, sichert sich einen Vorsprung.' },
         { title: 'Ehrlich und klar', text: 'Wir versprechen keine garantierten Platzierungen, sondern eine solide Grundlage.' },
@@ -100,8 +100,8 @@ export const geoSchweiz: LandingLocales = {
       { href: '/blog/kmu-website-studie-schweiz', label: 'KMU Website Studie', desc: '2292 Schweizer KMU Websites bewertet.' },
       { href: '/website-analyse', label: 'Kostenlose Website Analyse', desc: 'Sehen Sie, wo Ihre Website steht.' },
       { href: '/seo-basis-fuer-kmu', label: 'SEO Basis für KMU', desc: 'Die saubere Grundlage, auf der GEO aufbaut.' },
-      { href: '/services/websites', label: 'Websites von amai!', desc: 'Websites, die gefunden werden.' },
-      { href: '/referenzen', label: 'Referenzen', desc: 'Projekte und Lösungen von amai!' },
+      { href: '/services/websites', label: 'Websites von semanu', desc: 'Websites, die gefunden werden.' },
+      { href: '/referenzen', label: 'Referenzen', desc: 'Projekte und Lösungen von semanu' },
       { href: '/kontakt', label: 'Kontakt', desc: 'Sagen Sie uns, was Sie brauchen.' },
     ],
     faq: {
@@ -109,7 +109,7 @@ export const geoSchweiz: LandingLocales = {
       items: [
         { q: 'Was ist GEO?', a: 'GEO steht für Generative Engine Optimization. Es sorgt dafür, dass AI Antwortmaschinen wie ChatGPT Ihr Unternehmen verstehen, nennen und verlinken.' },
         { q: 'Was ist der Unterschied zwischen SEO und GEO?', a: 'SEO bringt Sie in die Ergebnisliste einer Suchmaschine. GEO sorgt dafür, dass eine AI Ihr Unternehmen in ihrer eigenen Antwort nennt. SEO zielt auf den Klick, GEO auf die Erwähnung.' },
-        { q: 'Garantiert amai! eine Nennung in ChatGPT?', a: 'Nein. Konkrete Platzierungen in AI Antworten können nicht garantiert werden. Wir bauen eine solide Grundlage und beobachten Ihre Sichtbarkeit laufend.' },
+        { q: 'Garantiert semanu eine Nennung in ChatGPT?', a: 'Nein. Konkrete Platzierungen in AI Antworten können nicht garantiert werden. Wir bauen eine solide Grundlage und beobachten Ihre Sichtbarkeit laufend.' },
         { q: 'Wie finde ich heraus, ob ChatGPT mein Unternehmen kennt?', a: 'Fragen Sie es direkt. Stellen Sie den AI Diensten die Fragen, die Ihre Kundschaft stellen würde. Schauen Sie dann, ob Ihr Name fällt.' },
         { q: 'Wie lange dauert es?', a: 'Erste Verbesserungen sind oft in Wochen sichtbar. Ein stabiler Platz in den Antworten ist eher eine Sache von Monaten und laufender Pflege.' },
         { q: 'Was kostet GEO?', a: 'GEO baut auf einer guten Website und sauberem SEO auf. Die monatliche Beobachtung im Feedback Loop legen wir im Umfang und Preis nach einem kurzen Gespräch fest.' },
@@ -155,9 +155,9 @@ export const geoSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'Le GEO, pour que l’AI vous comprenne et vous cite',
-      body: 'amai! fait en sorte que vos faits soient sans ambiguïté, vos contenus clairement structurés et votre nom présent aussi en dehors de votre site. Nous laissons entrer les robots AI pertinents et suivons mois après mois si et comment vous apparaissez dans Google et dans les réponses AI. Ce n’est ni un truc ni une garantie. C’est une base solide sur laquelle votre visibilité peut grandir.',
+      body: 'semanu fait en sorte que vos faits soient sans ambiguïté, vos contenus clairement structurés et votre nom présent aussi en dehors de votre site. Nous laissons entrer les robots AI pertinents et suivons mois après mois si et comment vous apparaissez dans Google et dans les réponses AI. Ce n’est ni un truc ni une garantie. C’est une base solide sur laquelle votre visibilité peut grandir.',
     },
-    featuresHeading: 'Ce que comprend le GEO chez amai!',
+    featuresHeading: 'Ce que comprend le GEO chez semanu',
     featuresHint: 'Passez sur une tuile pour plus d’infos',
     featuresLayout: 'cards',
     features: [
@@ -187,9 +187,9 @@ export const geoSchweiz: LandingLocales = {
       cards: [],
     },
     reasons: {
-      heading: 'Pourquoi le GEO d’amai!?',
+      heading: 'Pourquoi le GEO d’semanu?',
       entitySentence:
-        'amai! est un partenaire digital AI natif basé à Berne pour les PME suisses et a évalué 2292 sites de PME suisses sur leur maturité numérique. Nous construisons des sites que les personnes et les assistants AI trouvent, design, réalisation, hébergement, maintenance et bases SEO compris.',
+        'semanu est un partenaire digital AI natif basé à Berne pour les PME suisses et a évalué 2292 sites de PME suisses sur leur maturité numérique. Nous construisons des sites que les personnes et les assistants AI trouvent, design, réalisation, hébergement, maintenance et bases SEO compris.',
       items: [
         { title: 'Tôt sur le sujet', text: 'Le GEO est encore récent. Qui commence maintenant prend de l’avance.' },
         { title: 'Honnête et clair', text: 'Nous ne promettons pas de positions garanties, nous posons une base solide.' },
@@ -220,8 +220,8 @@ export const geoSchweiz: LandingLocales = {
       { href: '/blog/kmu-website-studie-schweiz', label: 'Étude sites de PME', desc: '2292 sites de PME suisses évalués.' },
       { href: '/website-analyse', label: 'Analyse de site gratuite', desc: 'Voyez où en est votre site.' },
       { href: '/seo-basis-fuer-kmu', label: 'Bases SEO pour PME', desc: 'La base propre sur laquelle le GEO se construit.' },
-      { href: '/services/websites', label: 'Sites par amai!', desc: 'Des sites que l’on trouve.' },
-      { href: '/referenzen', label: 'Références', desc: 'Projets et solutions d’amai!' },
+      { href: '/services/websites', label: 'Sites par semanu', desc: 'Des sites que l’on trouve.' },
+      { href: '/referenzen', label: 'Références', desc: 'Projets et solutions d’semanu' },
       { href: '/kontakt', label: 'Contact', desc: 'Dites-nous ce dont vous avez besoin.' },
     ],
     faq: {
@@ -229,7 +229,7 @@ export const geoSchweiz: LandingLocales = {
       items: [
         { q: 'Qu’est ce que le GEO?', a: 'GEO signifie Generative Engine Optimization. Cela fait en sorte que les moteurs de réponse AI comme ChatGPT comprennent votre entreprise, la citent et la relient.' },
         { q: 'Quelle est la différence entre le SEO et le GEO?', a: 'Le SEO vous place dans la liste de résultats. Le GEO fait qu’une AI cite votre entreprise dans sa propre réponse. Le SEO vise le clic, le GEO la mention.' },
-        { q: 'amai! garantit une mention dans ChatGPT?', a: 'Non. Les positions concrètes dans les réponses AI ne peuvent pas être garanties. Nous posons une base solide et suivons votre visibilité en continu.' },
+        { q: 'semanu garantit une mention dans ChatGPT?', a: 'Non. Les positions concrètes dans les réponses AI ne peuvent pas être garanties. Nous posons une base solide et suivons votre visibilité en continu.' },
         { q: 'Comment savoir si ChatGPT connaît mon entreprise?', a: 'Demandez le directement. Posez aux services AI les questions que vos clients poseraient. Regardez ensuite si votre nom apparaît.' },
         { q: 'Combien de temps cela prend?', a: 'Les premières améliorations sont souvent visibles en quelques semaines. Une place stable dans les réponses est plutôt une affaire de mois et d’entretien continu.' },
         { q: 'Combien coûte le GEO?', a: 'Le GEO se fonde sur un bon site et un SEO propre. Le suivi mensuel dans le Feedback Loop, nous en définissons le périmètre et le prix après un court entretien.' },
@@ -275,9 +275,9 @@ export const geoSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'GEO, so the AI understands and names you',
-      body: 'amai! makes your facts unambiguous, your content clearly structured and your name present beyond your own site. We let the relevant AI crawlers in and watch month after month whether and how you appear on Google and in AI answers. This is not a trick and not a guarantee. It is a solid foundation on which your visibility can grow.',
+      body: 'semanu makes your facts unambiguous, your content clearly structured and your name present beyond your own site. We let the relevant AI crawlers in and watch month after month whether and how you appear on Google and in AI answers. This is not a trick and not a guarantee. It is a solid foundation on which your visibility can grow.',
     },
-    featuresHeading: 'What GEO at amai! includes',
+    featuresHeading: 'What GEO at semanu includes',
     featuresHint: 'Hover over a tile for more info',
     featuresLayout: 'cards',
     features: [
@@ -307,9 +307,9 @@ export const geoSchweiz: LandingLocales = {
       cards: [],
     },
     reasons: {
-      heading: 'Why GEO from amai!?',
+      heading: 'Why GEO from semanu?',
       entitySentence:
-        'amai! is an AI native digital partner from Bern for Swiss SMEs and has reviewed 2292 Swiss SME websites for their digital maturity. We build websites that people and AI assistants find, including design, build, hosting, maintenance and SEO foundations.',
+        'semanu is an AI native digital partner from Bern for Swiss SMEs and has reviewed 2292 Swiss SME websites for their digital maturity. We build websites that people and AI assistants find, including design, build, hosting, maintenance and SEO foundations.',
       items: [
         { title: 'Early on it', text: 'GEO is still new. Whoever starts now gains an edge.' },
         { title: 'Honest and clear', text: 'We do not promise guaranteed placements, we build a solid foundation.' },
@@ -340,8 +340,8 @@ export const geoSchweiz: LandingLocales = {
       { href: '/blog/kmu-website-studie-schweiz', label: 'SME website study', desc: '2292 Swiss SME websites reviewed.' },
       { href: '/website-analyse', label: 'Free website analysis', desc: 'See where your website stands.' },
       { href: '/seo-basis-fuer-kmu', label: 'SEO basics for SMEs', desc: 'The clean foundation GEO builds on.' },
-      { href: '/services/websites', label: 'Websites by amai!', desc: 'Websites that get found.' },
-      { href: '/referenzen', label: 'References', desc: 'Projects and solutions by amai!' },
+      { href: '/services/websites', label: 'Websites by semanu', desc: 'Websites that get found.' },
+      { href: '/referenzen', label: 'References', desc: 'Projects and solutions by semanu' },
       { href: '/kontakt', label: 'Contact', desc: 'Tell us what you need.' },
     ],
     faq: {
@@ -349,7 +349,7 @@ export const geoSchweiz: LandingLocales = {
       items: [
         { q: 'What is GEO?', a: 'GEO stands for Generative Engine Optimization. It makes AI answer engines like ChatGPT understand, name and link your business.' },
         { q: 'What is the difference between SEO and GEO?', a: 'SEO gets your page into a search result list. GEO makes an AI name your business in its own answer. SEO aims for the click, GEO for the mention.' },
-        { q: 'Does amai! guarantee a mention in ChatGPT?', a: 'No. Concrete placements in AI answers cannot be guaranteed. We build a solid foundation and monitor your visibility over time.' },
+        { q: 'Does semanu guarantee a mention in ChatGPT?', a: 'No. Concrete placements in AI answers cannot be guaranteed. We build a solid foundation and monitor your visibility over time.' },
         { q: 'How do I find out whether ChatGPT knows my business?', a: 'Ask it directly. Put the questions your customers would ask to the AI services. Then see whether your name comes up.' },
         { q: 'How long does it take?', a: 'First improvements are often visible within weeks. A stable place in the answers is more a matter of months and ongoing care.' },
         { q: 'What does GEO cost?', a: 'GEO builds on a good website and clean SEO. For the monthly monitoring in the Feedback Loop we set the scope and price after a short conversation.' },

@@ -14,7 +14,7 @@ Tom de Vree
 
 ## Kontakt
 
-Email: hello@amai.ch
+Email: hello@semanu.eu
 
 Telefon: +41 77 524 91 24
 

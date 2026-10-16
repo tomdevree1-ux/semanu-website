@@ -4,17 +4,17 @@
 <meta charset="utf-8">
 <!-- Hide the page until the embed layout + first 3D frame are ready, so the raw
      standalone layout never flashes inside the iframe. Revealed by script below. -->
-<style id="amai-boot">
+<style id="semanu-boot">
   /* Soft themed boot screen so the iframe never flashes white while the
      configurator loads. The app stays hidden until the first frame is painted;
      a spinner on a paper background is shown in the meantime. */
   html{background:#f4f6fa}
   .app{visibility:hidden}
-  #amai-loader{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:#f4f6fa;z-index:99999;transition:opacity .35s ease}
-  #amai-loader.hide{opacity:0;pointer-events:none}
-  .amai-spin{width:36px;height:36px;border:3px solid rgba(16,35,61,.14);border-top-color:#0a7359;border-radius:50%;animation:amaiSpin .8s linear infinite}
-  @keyframes amaiSpin{to{transform:rotate(360deg)}}
-  @media (prefers-reduced-motion:reduce){.amai-spin{animation:none}}
+  #semanu-loader{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:#f4f6fa;z-index:99999;transition:opacity .35s ease}
+  #semanu-loader.hide{opacity:0;pointer-events:none}
+  .semanu-spin{width:36px;height:36px;border:3px solid rgba(16,35,61,.14);border-top-color:#0a7359;border-radius:50%;animation:semanuSpin .8s linear infinite}
+  @keyframes semanuSpin{to{transform:rotate(360deg)}}
+  @media (prefers-reduced-motion:reduce){.semanu-spin{animation:none}}
 </style>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
@@ -251,11 +251,11 @@ input[type=range]::-moz-range-thumb{width:18px;height:18px;border-radius:var(--r
 </style>
 </head>
 <body>
-<div id="amai-loader" aria-hidden="true"><div class="amai-spin"></div></div>
+<div id="semanu-loader" aria-hidden="true"><div class="semanu-spin"></div></div>
 
 <header class="top">
-  <a class="brand" href="#" aria-label="amai, tafelconfigurator prototype">
-    <svg viewBox="0 0 110 44" role="img" aria-label="amai"><path d="M7.6 17.35L16.4 24.5L7.6 31.65" fill="none" stroke="#0A7359" stroke-width="4.4" stroke-linejoin="miter"/><text x="27" y="33" font-family="Instrument Sans, system-ui, sans-serif" font-size="33" font-weight="600" letter-spacing="-1.7" fill="#16233D">amai</text></svg>
+  <a class="brand" href="#" aria-label="semanu, tafelconfigurator prototype">
+    <svg viewBox="0 0 110 44" role="img" aria-label="semanu"><path d="M7.6 17.35L16.4 24.5L7.6 31.65" fill="none" stroke="#0A7359" stroke-width="4.4" stroke-linejoin="miter"/><text x="27" y="33" font-family="Instrument Sans, system-ui, sans-serif" font-size="33" font-weight="600" letter-spacing="-1.7" fill="#16233D">semanu</text></svg>
     <span>Tafelconfigurator</span>
   </a>
   <nav class="nav" aria-label="Stappen">
@@ -381,7 +381,7 @@ input[type=range]::-moz-range-thumb{width:18px;height:18px;border-radius:var(--r
 'use strict';
 
 /* ------------------------------------------------------------------ data */
-var CONTACT={wa:'',mail:'hello@amai.ch'};
+var CONTACT={wa:'',mail:'hello@semanu.eu'};
 
 var MODELS=[
  {id:'golf', name:'Golf', line:'Organisch gebogen frame, zacht en rond van lijn.', shapes:['oval','rect'], base:1723, bench:true,
@@ -875,8 +875,8 @@ window.__cfg={S:S,price:price,commit:commit,cam:cam,stop:function(){auto=false;}
 tick();
 })();
 </script>
-<style id="amai-embed">
-  /* Embedded on amai.ch: hide the standalone top nav and let the app fill the iframe. */
+<style id="semanu-embed">
+  /* Embedded on semanu.eu: hide the standalone top nav and let the app fill the iframe. */
   .top{display:none!important}
   .app{height:100vh!important;height:100dvh!important}
   /* Keep only the 3 choices: Vorm (s2), Tafelblad (s3), Onderstel (s4). */
@@ -908,12 +908,12 @@ tick();
   .hint{right:auto!important;left:50%!important;top:auto!important;bottom:18px!important;transform:translateX(-50%);
     display:inline-flex!important;align-items:center;gap:8px;background:rgba(255,255,255,.92);backdrop-filter:blur(6px);
     border:1px solid var(--line);border-radius:999px;padding:8px 15px;font-size:13px;color:var(--navy)!important;
-    box-shadow:0 12px 30px -18px rgba(16,35,61,.45);animation:amaiBob 2.6s ease-in-out infinite;pointer-events:none}
+    box-shadow:0 12px 30px -18px rgba(16,35,61,.45);animation:semanuBob 2.6s ease-in-out infinite;pointer-events:none}
   .hint svg{width:16px;height:16px;color:var(--mint-deep)}
-  @keyframes amaiBob{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(-4px)}}
+  @keyframes semanuBob{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(-4px)}}
   /* one-time nudge on the option controls so visitors notice they can customise */
-  #s2 .shapes{border-radius:6px;animation:amaiGuide 2.4s ease-out 1s 2}
-  @keyframes amaiGuide{0%{box-shadow:0 0 0 0 rgba(10,115,89,0)}35%{box-shadow:0 0 0 5px rgba(10,115,89,.16)}100%{box-shadow:0 0 0 0 rgba(10,115,89,0)}}
+  #s2 .shapes{border-radius:6px;animation:semanuGuide 2.4s ease-out 1s 2}
+  @keyframes semanuGuide{0%{box-shadow:0 0 0 0 rgba(10,115,89,0)}35%{box-shadow:0 0 0 5px rgba(10,115,89,.16)}100%{box-shadow:0 0 0 0 rgba(10,115,89,0)}}
   @media (prefers-reduced-motion:reduce){.hint,#s2 .shapes{animation:none!important}}
 </style>
 <script>
@@ -922,7 +922,7 @@ tick();
   (function(){
     function reveal(){
       var a=document.querySelector('.app'); if(a) a.style.visibility='visible';
-      var l=document.getElementById('amai-loader');
+      var l=document.getElementById('semanu-loader');
       if(l){ l.classList.add('hide'); setTimeout(function(){ if(l.parentNode) l.parentNode.removeChild(l); },400); }
     }
     window.addEventListener('load',function(){requestAnimationFrame(function(){requestAnimationFrame(reveal);});});

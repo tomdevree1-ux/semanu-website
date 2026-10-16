@@ -19,7 +19,7 @@ export async function generateMetadata({
   // solutions for SMEs) as the meta description so the two stay in sync.
   const tb = await getTranslations({ locale, namespace: 'blog' });
   return pageMetadata({
-    title: `${t('blog')} · amai.ch`,
+    title: `${t('blog')} · semanu.eu`,
     description: tb('intro'),
     path: '/blog',
     locale,
@@ -52,7 +52,7 @@ export default async function BlogIndexPage({
     '@context': 'https://schema.org',
     '@type': 'Blog',
     '@id': `${blogUrl}#blog`,
-    name: `${t('title')} · amai.ch`,
+    name: `${t('title')} · semanu.eu`,
     description: t('intro'),
     url: blogUrl,
     inLanguage: locale,
@@ -79,7 +79,7 @@ export default async function BlogIndexPage({
   return (
     <SiteShell>
       <JsonLd data={[blogLd, itemListLd]} />
-      <Breadcrumb items={[{ name: 'amai.ch', href: '/' }, { name: tnav('blog') }]} locale={locale} />
+      <Breadcrumb items={[{ name: 'semanu.eu', href: '/' }, { name: tnav('blog') }]} locale={locale} />
       <section className="bg-paper py-24 text-ink">
         <div className="container-site max-w-4xl">
           <span className="eyebrow eyebrow-spark text-red">{t('title')}</span>

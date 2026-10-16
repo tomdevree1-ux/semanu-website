@@ -11,7 +11,7 @@ Beaucoup de sites de PME suisses sont presque introuvables pour Google et les as
 
 ## Comment nous avons mesuré
 
-Chez <span class="brand-mark">amai<span class="spark">!</span></span> nous évaluons en continu des sites de PME suisses selon une grille fixe. Nous avons classé 2292 sites sur une échelle de maturité en cinq niveaux. Pour les 638 sites avec le plus grand besoin de travail, nous avons ajouté une note de 0 à 10 dans huit catégories, dont SEO et contenu. Les chiffres décrivent donc ce groupe le plus faible et non la moyenne de toutes les PME. La note est indicative et repose sur des éléments visibles du site. Tout le détail se trouve dans l'[étude des sites de PME](/fr/blog/kmu-website-studie-schweiz).
+Chez <span class="brand-mark">semanu<span class="spark">!</span></span> nous évaluons en continu des sites de PME suisses selon une grille fixe. Nous avons classé 2292 sites sur une échelle de maturité en cinq niveaux. Pour les 638 sites avec le plus grand besoin de travail, nous avons ajouté une note de 0 à 10 dans huit catégories, dont SEO et contenu. Les chiffres décrivent donc ce groupe le plus faible et non la moyenne de toutes les PME. La note est indicative et repose sur des éléments visibles du site. Tout le détail se trouve dans l'[étude des sites de PME](/fr/blog/kmu-website-studie-schweiz).
 
 ## Les chiffres
 

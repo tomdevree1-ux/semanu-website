@@ -15,9 +15,9 @@ const UPDATED_LABEL: Record<string, string> = {
 // One-line factual meta description per locale (house copy rules: no dashes, no
 // comma before und/et/and, Swiss ss).
 const DESC: Record<string, string> = {
-  de: 'Impressum von amai!: Anbieter, Kontakt und rechtliche Angaben der SEMANU BV in Antwerpen.',
-  fr: 'Mentions légales de amai!: fournisseur, contact et informations légales de SEMANU BV à Anvers.',
-  en: 'Legal notice of amai!: provider, contact and legal information of SEMANU BV in Antwerp.',
+  de: 'Impressum von semanu: Anbieter, Kontakt und rechtliche Angaben der SEMANU BV in Antwerpen.',
+  fr: 'Mentions légales de semanu: fournisseur, contact et informations légales de SEMANU BV à Anvers.',
+  en: 'Legal notice of semanu: provider, contact and legal information of SEMANU BV in Antwerp.',
 };
 
 export async function generateMetadata({
@@ -28,7 +28,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const doc = await getLegalDoc('impressum', locale);
   return pageMetadata({
-    title: `${doc?.title ?? 'Impressum'} · amai.ch`,
+    title: `${doc?.title ?? 'Impressum'} · semanu.eu`,
     description: DESC[locale] ?? DESC.de,
     path: '/impressum',
     locale,
@@ -54,7 +54,7 @@ export default async function ImpressumPage({
 
   return (
     <SiteShell>
-      <Breadcrumb items={[{ name: 'amai.ch', href: '/' }, { name: doc.title }]} locale={locale} />
+      <Breadcrumb items={[{ name: 'semanu.eu', href: '/' }, { name: doc.title }]} locale={locale} />
       <section className="bg-paper text-ink">
         <div className="container-site max-w-3xl pb-20 pt-10">
           <h1 className="h2">{doc.title}</h1>

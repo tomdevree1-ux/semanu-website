@@ -78,7 +78,7 @@ export default async function ConfiguratorPage({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'amai.ch', item: `${env.siteUrl}/${locale}` },
+      { '@type': 'ListItem', position: 1, name: 'semanu.eu', item: `${env.siteUrl}/${locale}` },
       { '@type': 'ListItem', position: 2, name: c.serviceLabel, item: `${env.siteUrl}/${locale}/services/3d-configurators` },
       { '@type': 'ListItem', position: 3, name: c.title, item: url },
     ],

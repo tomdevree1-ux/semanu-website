@@ -6,7 +6,7 @@ import { Link } from '@/i18n/navigation';
 /**
  * Original, self-contained configurator demo. Option groups drive a live
  * abstract preview and an indicative price. No third party code, assets or
- * product names: every option here is amai's own generic sample data, passed in
+ * product names: every option here is semanu's own generic sample data, passed in
  * by the page. This is a Phase 1 marketing demo, not a production 3D engine.
  */
 

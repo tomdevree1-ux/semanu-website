@@ -11,7 +11,7 @@ Muchas webs de pymes suizas son casi imposibles de encontrar para Google y los a
 
 ## Cómo lo medimos
 
-En <span class="brand-mark">amai<span class="spark">!</span></span> evaluamos de forma continua webs de pymes suizas con una rejilla fija. Clasificamos 2292 sitios en una escala de madurez de cinco niveles. Para los 638 sitios con mayor necesidad de trabajo añadimos una nota de 0 a 10 en ocho categorías, entre ellas SEO y contenido. Las cifras describen por tanto este grupo más débil y no la media de todas las pymes. La valoración es indicativa y se basa en elementos visibles del sitio. Todo el detalle está en el [estudio de webs de pymes](/es/blog/kmu-website-studie-schweiz).
+En <span class="brand-mark">semanu<span class="spark">!</span></span> evaluamos de forma continua webs de pymes suizas con una rejilla fija. Clasificamos 2292 sitios en una escala de madurez de cinco niveles. Para los 638 sitios con mayor necesidad de trabajo añadimos una nota de 0 a 10 en ocho categorías, entre ellas SEO y contenido. Las cifras describen por tanto este grupo más débil y no la media de todas las pymes. La valoración es indicativa y se basa en elementos visibles del sitio. Todo el detalle está en el [estudio de webs de pymes](/es/blog/kmu-website-studie-schweiz).
 
 ## Las cifras
 

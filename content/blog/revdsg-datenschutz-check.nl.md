@@ -40,7 +40,7 @@ De boetes zijn één kant: tot 250'000 frank, opgelegd aan de verantwoordelijke 
 
 Persoonsgegevens mogen Zwitserland verlaten als het doelland passende bescherming biedt. Voor de EER is dat zo. Voor de Verenigde Staten geldt sinds 15 september 2024 het [Swiss US Data Privacy Framework](https://www.edoeb.admin.ch/en/15082024-new-swiss-us-data-privacy-framework): naar een gecertificeerde Amerikaanse aanbieder mag je zonder extra waarborgen doorgeven, naar een niet gecertificeerde niet. Weinig sitebeheerders kennen dat verschil.
 
-Daarom hosten we bij <span class="brand-mark">amai<span class="spark">!</span></span> in de EU. Database en opslag draaien op Supabase in een EU regio, de uitlevering via Cloudflare, de mail via Resend. Alle drie staan met naam in onze eigen privacyverklaring, inclusief doel plus locatie. Dat detailniveau bedoelt de wet.
+Daarom hosten we bij <span class="brand-mark">semanu<span class="spark">!</span></span> in de EU. Database en opslag draaien op Supabase in een EU regio, de uitlevering via Cloudflare, de mail via Resend. Alle drie staan met naam in onze eigen privacyverklaring, inclusief doel plus locatie. Dat detailniveau bedoelt de wet.
 
 ## Hoe krijg je je website in zeven stappen op orde?
 

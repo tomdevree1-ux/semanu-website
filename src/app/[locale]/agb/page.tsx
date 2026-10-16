@@ -15,9 +15,9 @@ const UPDATED_LABEL: Record<string, string> = {
 // One-line factual meta description per locale (house copy rules: no dashes, no
 // comma before und/et/and, Swiss ss).
 const DESC: Record<string, string> = {
-  de: 'Allgemeine Geschäftsbedingungen von amai! für Website Abos und digitale Projekte: Leistungen, Laufzeit, Preise und Zahlung.',
-  fr: 'Conditions générales de amai! pour les abonnements de site web et les projets digitaux: prestations, durée, prix et paiement.',
-  en: 'General terms and conditions of amai! for website subscriptions and digital projects: services, term, pricing and payment.',
+  de: 'Allgemeine Geschäftsbedingungen von semanu für Website Abos und digitale Projekte: Leistungen, Laufzeit, Preise und Zahlung.',
+  fr: 'Conditions générales de semanu pour les abonnements de site web et les projets digitaux: prestations, durée, prix et paiement.',
+  en: 'General terms and conditions of semanu for website subscriptions and digital projects: services, term, pricing and payment.',
 };
 
 export async function generateMetadata({
@@ -28,7 +28,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const doc = await getLegalDoc('gtc', locale);
   return pageMetadata({
-    title: `${doc?.title ?? 'AGB'} · amai.ch`,
+    title: `${doc?.title ?? 'AGB'} · semanu.eu`,
     description: DESC[locale] ?? DESC.de,
     path: '/agb',
     locale,
@@ -54,7 +54,7 @@ export default async function AgbPage({
 
   return (
     <SiteShell>
-      <Breadcrumb items={[{ name: 'amai.ch', href: '/' }, { name: doc.title }]} locale={locale} />
+      <Breadcrumb items={[{ name: 'semanu.eu', href: '/' }, { name: doc.title }]} locale={locale} />
       <section className="bg-paper text-ink">
         <div className="container-site max-w-3xl pb-20 pt-10">
           <h1 className="h2">{doc.title}</h1>

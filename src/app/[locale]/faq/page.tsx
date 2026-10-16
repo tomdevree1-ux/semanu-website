@@ -11,17 +11,17 @@ import { pageMetadata } from '@/lib/seo/metadata';
 // dedicated, concise meta sentence lives here (house copy rules: no dashes, no
 // comma before und/oder, Swiss ss, AI stays "AI" in every language).
 const FAQ_DESC: Record<string, string> = {
-  de: 'amai! beantwortet häufige Fragen zu 3D-Konfiguratoren und Unternehmenssoftware nach Mass für Schweizer KMU: Ablauf, Preise, Wartung und Sicherheit.',
-  fr: 'amai! répond aux questions fréquentes sur les configurateurs 3D et les logiciels d’entreprise sur mesure pour les PME suisses: déroulement, prix, maintenance et sécurité.',
-  en: 'amai! answers common questions about 3D configurators and custom business software for Swiss SMEs: process, pricing, maintenance and security.',
+  de: 'semanu beantwortet häufige Fragen zu 3D-Konfiguratoren und Unternehmenssoftware nach Mass für Schweizer KMU: Ablauf, Preise, Wartung und Sicherheit.',
+  fr: 'semanu répond aux questions fréquentes sur les configurateurs 3D et les logiciels d’entreprise sur mesure pour les PME suisses: déroulement, prix, maintenance et sécurité.',
+  en: 'semanu answers common questions about 3D configurators and custom business software for Swiss SMEs: process, pricing, maintenance and security.',
 };
 
 // Query-bearing titles (decoupled from the nav label "FAQ" so the <title> can
 // carry the topics people actually search for).
 const FAQ_TITLE: Record<string, string> = {
-  de: 'FAQ: Website Abo, digitale Plattformen und AI · amai.ch',
-  fr: 'FAQ: abonnement site, plateformes digitales et AI · amai.ch',
-  en: 'FAQ: website plans, digital platforms and AI · amai.ch',
+  de: 'FAQ: Website Abo, digitale Plattformen und AI · semanu.eu',
+  fr: 'FAQ: abonnement site, plateformes digitales et AI · semanu.eu',
+  en: 'FAQ: website plans, digital platforms and AI · semanu.eu',
 };
 
 export async function generateMetadata({
@@ -75,7 +75,7 @@ export default async function FaqPage({
   return (
     <SiteShell>
       <JsonLd data={faqLd} />
-      <Breadcrumb items={[{ name: 'amai.ch', href: '/' }, { name: tnav('faq') }]} locale={locale} />
+      <Breadcrumb items={[{ name: 'semanu.eu', href: '/' }, { name: tnav('faq') }]} locale={locale} />
       <section className="flow-herowash-paper py-16 text-ink sm:py-20">
         <div className="container-site grid gap-12 lg:grid-cols-[0.82fr_1.18fr]">
           <div className="max-w-md lg:sticky lg:top-28 lg:self-start">

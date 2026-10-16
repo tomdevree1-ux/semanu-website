@@ -3,17 +3,17 @@ title: "Privacy Policy"
 updated: "2026-06-15"
 ---
 
-This policy explains how Amai! processes personal data when you use our website or contact us. The revised Swiss Federal Act on Data Protection (revFADP) and, where applicable, the GDPR apply.
+This policy explains how Semanu! processes personal data when you use our website or contact us. The revised Swiss Federal Act on Data Protection (revFADP) and, where applicable, the GDPR apply.
 
 ## 1. Controller
 
-SEMANU BV (amai!), Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgium. Email: hello@amai.ch
+SEMANU BV (semanu), Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgium. Email: hello@semanu.eu
 
 ## 2. What data we process
 
 **Form data.** Through the contact form and the subscription start, we collect first name, last name, email, company (optional), phone (optional), your message or plan choice, language preference and your consent.
 
-**Payment data.** Payments are handled by Stripe (in preparation). You enter your payment details directly with Stripe. Amai! does not store full payment data, only the payment or subscription status.
+**Payment data.** Payments are handled by Stripe (in preparation). You enter your payment details directly with Stripe. Semanu! does not store full payment data, only the payment or subscription status.
 
 **Data collected automatically.** Server and security logs (IP address, browser, timestamps, pages requested) via our hosting and CDN provider, for delivery, stability and abuse prevention. A honeypot field filters spam.
 
@@ -54,7 +54,7 @@ Google Analytics and Google Ads may transfer data to Google, including to the US
 
 ## 7. Your rights
 
-You have the right to access, rectification, erasure, restriction, objection and portability, as well as the right to withdraw consent at any time. To exercise these, contact hello@amai.ch. You may also lodge a complaint with a supervisory authority, in Switzerland the Federal Data Protection and Information Commissioner (FDPIC).
+You have the right to access, rectification, erasure, restriction, objection and portability, as well as the right to withdraw consent at any time. To exercise these, contact hello@semanu.eu. You may also lodge a complaint with a supervisory authority, in Switzerland the Federal Data Protection and Information Commissioner (FDPIC).
 
 ## 8. Cookies
 

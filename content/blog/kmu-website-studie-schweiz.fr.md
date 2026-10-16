@@ -1,6 +1,6 @@
 ---
 title: "Étude: 9% des sites de PME suisses sont à jour"
-description: "amai! a évalué 2292 sites de PME suisses. À peine 9 pour cent sont à jour, un tiers demande un vrai travail. Tous les chiffres et les tendances."
+description: "semanu a évalué 2292 sites de PME suisses. À peine 9 pour cent sont à jour, un tiers demande un vrai travail. Tous les chiffres et les tendances."
 date: "2026-08-11"
 author: "Tom"
 authorImage: "/team/tom.png"
@@ -11,7 +11,7 @@ Moins d'un site de PME suisse sur dix est vraiment à jour. Sur 2292 sites que n
 
 ## Pourquoi cette étude
 
-Chez <span class="brand-mark">amai<span class="spark">!</span></span> nous évaluons en continu les sites des PME suisses: de façon structurée, selon une grille fixe et avec les mêmes critères pour chaque site. Il en résulte un jeu de données qui donne une réponse honnête à une question simple: quelle est vraiment la forme des sites des PME suisses?
+Chez <span class="brand-mark">semanu<span class="spark">!</span></span> nous évaluons en continu les sites des PME suisses: de façon structurée, selon une grille fixe et avec les mêmes critères pour chaque site. Il en résulte un jeu de données qui donne une réponse honnête à une question simple: quelle est vraiment la forme des sites des PME suisses?
 
 ## Deux niveaux, pour que les chiffres restent honnêtes
 
@@ -92,8 +92,8 @@ La bonne nouvelle: presque tout se corrige en quelques heures. Cinq étapes qui 
 
 La plupart des sites de PME suisses ne sont pas une perte totale. Presque tous restent pourtant sous leur potentiel: à peine 9 pour cent sont à jour et un tiers demande un vrai travail. C'est une bonne nouvelle pour qui agit maintenant. Posez proprement les bases et vous rejoignez vite le haut de votre secteur.
 
-Vous voulez savoir où en est votre site? Nous menons exactement cette analyse pour votre site gratuitement: [Demander une analyse de site gratuite](/fr/website-analyse). Pour en savoir plus sur les bases, lisez [Les bases du SEO pour PME](/fr/seo-basis-fuer-kmu) et comment nous construisons des sites que l'on trouve sous [Sites web par amai!](/fr/services/websites).
+Vous voulez savoir où en est votre site? Nous menons exactement cette analyse pour votre site gratuitement: [Demander une analyse de site gratuite](/fr/website-analyse). Pour en savoir plus sur les bases, lisez [Les bases du SEO pour PME](/fr/seo-basis-fuer-kmu) et comment nous construisons des sites que l'on trouve sous [Sites web par semanu](/fr/services/websites).
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Dataset","name":"Maturité numérique des sites de PME suisses (étude amai!)","description":"Évaluation indicative de 2292 sites de PME suisses sur une échelle de maturité à cinq niveaux, plus une analyse en profondeur en huit catégories (0 à 10) des 638 sites au plus grand besoin. Collecte du 14 juin au 20 juillet 2026 en Suisse alémanique.","url":"https://amai.ch/fr/blog/kmu-website-studie-schweiz","creator":{"@id":"https://amai.ch/#organization"},"publisher":{"@id":"https://amai.ch/#organization"},"dateModified":"2026-08-11","temporalCoverage":"2026-06-14/2026-07-20","spatialCoverage":{"@type":"Place","name":"Suisse alémanique"},"measurementTechnique":"Évaluation indicative basée sur des éléments visibles du site, pas sur des analytics ou des mesures en laboratoire.","variableMeasured":["Maturité numérique (cinq niveaux)","Première impression","Positionnement","Conversion","UX et structure","Design visuel","SEO et contenu","Confiance et preuve","Expérience mobile"]}
+{"@context":"https://schema.org","@type":"Dataset","name":"Maturité numérique des sites de PME suisses (étude semanu)","description":"Évaluation indicative de 2292 sites de PME suisses sur une échelle de maturité à cinq niveaux, plus une analyse en profondeur en huit catégories (0 à 10) des 638 sites au plus grand besoin. Collecte du 14 juin au 20 juillet 2026 en Suisse alémanique.","url":"https://www.semanu.eu/fr/blog/kmu-website-studie-schweiz","creator":{"@id":"https://www.semanu.eu/#organization"},"publisher":{"@id":"https://www.semanu.eu/#organization"},"dateModified":"2026-08-11","temporalCoverage":"2026-06-14/2026-07-20","spatialCoverage":{"@type":"Place","name":"Suisse alémanique"},"measurementTechnique":"Évaluation indicative basée sur des éléments visibles du site, pas sur des analytics ou des mesures en laboratoire.","variableMeasured":["Maturité numérique (cinq niveaux)","Première impression","Positionnement","Conversion","UX et structure","Design visuel","SEO et contenu","Confiance et preuve","Expérience mobile"]}
 </script>
