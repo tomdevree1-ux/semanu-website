@@ -20,11 +20,15 @@ eigen database. Formulieren gaan server side naar de bestaande SEMANU-backend (S
 - **Bedrijf:** SEMANU BV, Kattendijkdok-Oostkaai 9, 2000 Antwerpen, België. Ondernemingsnummer
   0828.291.116, btw BE0828.291.116. Zaakvoerder Tom de Vree. hello@semanu.eu, +32 496 04 56 06
   (één bron: `src/lib/contact.ts`).
-- **Diensten:** 3D-configuratoren, bedrijfssoftware (`/services/ai-native`), consultancy.
+- **Diensten:** 3D-configuratoren en bedrijfssoftware (`/services/ai-native`, incl. workflowautomatisering).
+  Consultancy is sinds oktober 2026 geen dienst meer (`/services/consultancy` 301 naar `/services/ai-native`).
   Oude dienst-URL's 301'en (zie `next.config.mjs`).
 - **Prijzen:** nergens bedragen op de site; overal "op aanvraag" (per taal). Valuta EUR, excl. btw.
-- **Doelgroep in de teksten** is nog Zwitsers (blogs, landingspagina's `*-schweiz`): bewust zo gelaten
-  bij de rebrand; wijzigen is een beslissing van Tom.
+- **Doelgroep (beslissing oktober 2026):** Europees en landneutraal ("KMU in Europa", "SMEs in Europe" waar een
+  regio helpt, anders gewoon "KMU/SMEs/kmo's"). Locatie alleen waar ze hoort: bedrijfsgegevens (Antwerpen, België)
+  in footer, contact, about, juridische pagina's en JSON-LD (`src/lib/seo/area-served.ts`). Geen landenpagina's;
+  landingspagina's hebben neutrale slugs (`/3d-konfigurator`, `/workflow-automatisierung`, `/digitalisierung-kmu`),
+  de oude `*-schweiz`-slugs en Zwitserse blogs 301'en (zie `next.config.mjs`).
 
 ## Stack
 
@@ -39,7 +43,8 @@ Controle na wijzigingen: `npx tsc --noEmit`, `npm test`, pariteit van de vijf be
 - **Geen gedachtestreepjes** (— –). Geen koppeltekens in nieuwe samenstellingen waar de taal het toelaat.
 - **Geen komma voor een nevenschikkend voegwoord:** niet ", en/of/maar/met", ", und/oder/aber/mit",
   ", et/ou/mais/avec", ", and/or/but/with", ", y/o/pero/con". Herschrijf de zin.
-- Duits in Zwitserse spelling (ss, nooit ß), zoals de bestaande teksten.
+- Duits in standaardspelling (ß), geen Zwitserse varianten (dus "Maß", "groß", "gemäß"; "Angebot", niet "Offerte";
+  "MwSt.", niet "MWST").
 - URL-slugs houden hun koppeltekens (SEO).
 - Paginatitels: `Pagina · semanu.eu`.
 
@@ -62,7 +67,8 @@ ook 429 en de formulieren tonen `errRateLimit`. Node luistert op localhost (zie 
 
 `submit-contact` doet spamscore, rate limit, MX-check, dubbels en `create_lead` (bedrijf + persoon +
 kaart in "Nieuw") en mailt hello@. Dienstkeuze → topic: 3D → `configurator`, bedrijfssoftware →
-`custom`, workflow → `ai`, rest → consultancy. Telefoon en herkomst (pagina, taal, referrer) gaan
+`custom`, workflow → `ai`, rest (bv. alleen "nog niet zeker") → consultancy (enkel nog als backendwaarde op
+het bord; het formulier biedt consultancy niet meer aan). Telefoon en herkomst (pagina, taal, referrer) gaan
 als staartregel mee in het bericht. De bron van de function staat in de Website-repo
 (`~/Desktop/SEMANU/Website/supabase/functions/submit-contact`); **die repo niet vanuit hier wijzigen.**
 
@@ -92,7 +98,6 @@ niet bij de site.
 
 ## Niet doen
 
-- Geen oude merknaam, CHF of Zwitserse btw/wet terugbrengen. Uitzondering: de blog over het Zwitserse revDSG
-  noemt de wettelijke boete in CHF.
+- Geen oude merknaam, CHF, Zwitserse btw/wet of Zwitserse doelgroep terugbrengen.
 - Geen geheimen committen; `.env.local` nooit openen of kopiëren.
 - `globals.css` `@theme` (huisstijl) niet wijzigen zonder vraag van Tom.
