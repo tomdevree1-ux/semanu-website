@@ -38,7 +38,7 @@ npm run dev                  # http://localhost:3000
 - `src/lib/env.ts` environment access (`SITE_ENV`, site URL, SEMANU Supabase);
   `src/lib/semanu-leads.ts` mapping to `submit-contact`.
 - `deploy/` Caddyfile, systemd units, deploy script, build env files.
-- `_archive/` material from the amai.ch era kept for reference; not part of the site.
+- `_archive/` material from the previous brand kept for reference; not part of the site.
 
 ## Environments
 

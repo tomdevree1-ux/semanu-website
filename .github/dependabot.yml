@@ -11,8 +11,8 @@ updates:
           - minor
           - patch
     ignore:
-      # Major bumps are breaking here (e.g. Stripe 17->22 changed the checkout
-      # types; @vitejs/plugin-react 6 needs Vite 8 vs our Vite 5). Do majors
+      # Major bumps are breaking here (e.g. @vitejs/plugin-react 6 needs
+      # Vite 8 vs our Vite 5). Do majors
       # deliberately as their own task, not via auto-PRs. Security alerts still
       # surface in the GitHub Security tab.
       - dependency-name: "*"

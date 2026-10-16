@@ -10,7 +10,7 @@ Werkinstructies voor Claude Code in deze repo (semanu.eu). Houd dit kort en up-t
 
 ## Wat dit is
 
-De publieke website van **SEMANU** op **www.semanu.eu**: een rebrand van de vroegere amai.ch-site
+De publieke website van **SEMANU** op **www.semanu.eu**: een rebrand van de vorige merksite (Zwitsers merk, zelfde eigenaar)
 (zelfde diensten, zelfde huisstijl). Alleen een marketingsite: geen portaal, geen betalingen, geen
 eigen database. Formulieren gaan server side naar de bestaande SEMANU-backend (Supabase, zie onder).
 
@@ -80,13 +80,13 @@ Hetzner, server 2.31.50.26, één server met twee omgevingen: live (www.semanu.e
 
 Portaal (`/app`), Stripe en facturatie, de lokale Supabase-tabellen en migraties, Resend-mails,
 cron/outbox, website-rapporten met AI, de Google-marketing-API's, Playwright-e2e, prijspagina's,
-de amai-voorbeeldrapporten en ongebruikte componenten. Twijfelgevallen staan in `_archive/`
-(amai-docs, merkkits, oude Supabase-map, configurator-engine, Claude-outputs). `_archive/` hoort
+de voorbeeldrapporten van het vorige merk en ongebruikte componenten. Twijfelgevallen staan in `_archive/`
+(docs en merkkits van het vorige merk, oude Supabase-map, configurator-engine, Claude-outputs). `_archive/` hoort
 niet bij de site.
 
 ## Niet doen
 
-- Geen amai, CHF of Zwitserse btw/wet terugbrengen. Uitzondering: de blog over het Zwitserse revDSG
+- Geen oude merknaam, CHF of Zwitserse btw/wet terugbrengen. Uitzondering: de blog over het Zwitserse revDSG
   noemt de wettelijke boete in CHF.
 - Geen geheimen committen; `.env.local` nooit openen of kopiëren.
 - `globals.css` `@theme` (huisstijl) niet wijzigen zonder vraag van Tom.
