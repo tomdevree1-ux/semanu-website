@@ -7,6 +7,14 @@ import type { LandingContent, LandingLocale } from '@/content/landing/types';
 import { JsonLd } from '@/components/JsonLd';
 import { env } from '@/lib/env';
 import { pageMetadata } from '@/lib/seo/metadata';
+import { AREA_SERVED } from '@/lib/seo/area-served';
+
+// schema.org serviceType per landing page (country-neutral since 2026-10).
+const SERVICE_TYPE: Record<string, string> = {
+  '3d-konfigurator': '3D product configurator',
+  'workflow-automatisierung': 'Workflow automation',
+  'digitalisierung-kmu': 'Custom business software and digitalisation',
+};
 
 // Only the registered landing slugs render; any other path 404s.
 export const dynamicParams = false;
@@ -27,7 +35,7 @@ function pickContent(slug: string, locale: string): LandingContent | null {
   // instead of 404ing. Those fallbacks are NOT indexable: they carry a
   // canonical to the German page, noindex and no hreflang (see generateMetadata),
   // and are left out of the sitemap. Otherwise Google swaps the /es duplicate in
-  // for the /de page (seen on /es/website-betreuung-schweiz, GSC 07.09.2026).
+  // for the /de page (seen on an /es landing page, GSC 07.09.2026).
   return hasOwnContent(slug, locale) ? entry[locale as LandingLocale] : entry.de;
 }
 
@@ -93,13 +101,10 @@ export default async function LandingPage({
     '@type': 'Service',
     name: c.h1,
     description: c.description,
-    serviceType: 'Webdesign, Websiteentwicklung, Hosting, Wartung und SEO Grundlagen',
+    serviceType: SERVICE_TYPE[landing] ?? c.h1,
     provider: { '@id': `${env.siteUrl}/#organization` },
-    areaServed: { '@type': 'Country', name: 'Schweiz' },
-    audience: {
-      '@type': 'Audience',
-      audienceType: 'Schweizer KMU, Selbständige und lokale Unternehmen',
-    },
+    areaServed: AREA_SERVED,
+    audience: { '@type': 'BusinessAudience', audienceType: 'SMEs and manufacturers in Europe' },
     url,
   };
 

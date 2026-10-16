@@ -1,33 +1,33 @@
 import type { LandingLocales } from './types';
 
-export const konfiguratorSchweiz: LandingLocales = {
+export const konfigurator3d: LandingLocales = {
   de: {
-    title: 'Produktkonfigurator und Webshop auf Mass · online konfigurieren und bestellen',
+    title: '3D Konfigurator nach Maß · Produkt online konfigurieren und bestellen',
     description:
-      'Webshop mit 3D Konfigurator für Schweizer KMU und Hersteller. Ihre Kundschaft stellt das Produkt im Onlineshop selbst zusammen, sieht es live in 3D, erhält sofort den Preis und bestellt online. So verschwindet das manuelle Offerieren.',
-    eyebrow: '3D Konfigurator · auf Mass',
-    h1: '3D Produktkonfigurator und Webshop auf Mass',
+      'Webshop mit 3D Konfigurator für KMU und Hersteller in Europa. Ihre Kundschaft stellt das Produkt selbst zusammen, sieht es live in 3D, erhält sofort den Preis und bestellt online.',
+    eyebrow: '3D Konfigurator · nach Maß',
+    h1: '3D Produktkonfigurator und Webshop nach Maß',
     intro:
-      'Viele Betriebe fertigen Produkte auf Mass und erstellen für jede Anfrage von Hand eine Offerte. Das kostet Zeit und bremst den Verkauf. Mit einem 3D Konfigurator stellt Ihre Kundschaft das Produkt selbst zusammen, sieht es live in 3D, erhält sofort den Preis und bestellt direkt online.',
+      'Viele Betriebe fertigen Produkte nach Maß und erstellen für jede Anfrage von Hand ein Angebot. Das kostet Zeit und bremst den Verkauf. Mit einem 3D Konfigurator stellt Ihre Kundschaft das Produkt selbst zusammen, sieht es live in 3D, erhält sofort den Preis und bestellt direkt online.',
     heroBullets: [
       'Produkt live in 3D zusammenstellen',
       'Sofort den Preis sehen',
       'Online konfigurieren und bestellen',
-      'Schluss mit manuellen Offerten',
+      'Schluss mit manuellen Angeboten',
     ],
-    heroSecondaryCta: { label: 'Kostenlose Analyse', href: '/website-analyse' },
+    heroSecondaryCta: { label: 'Live Demo ansehen', href: '/configurator/table' },
     benefits: [
       { icon: 'structure', title: 'Selbst zusammenstellen', text: 'Ihre Kundschaft konfiguriert das Produkt Schritt für Schritt selbst.' },
       { icon: 'design', title: 'Live in 3D', text: 'Jede Wahl wird sofort im 3D Modell sichtbar.' },
       { icon: 'price', title: 'Sofort der Preis', text: 'Der Preis passt sich in Echtzeit an die Konfiguration an.' },
-      { icon: 'growth', title: 'Weniger Handarbeit', text: 'Das manuelle Offerieren fällt für Standardfälle weg.' },
+      { icon: 'growth', title: 'Weniger Handarbeit', text: 'Das manuelle Erstellen von Angeboten fällt für Standardfälle weg.' },
     ],
     problem: {
-      heading: 'Jede Offerte von Hand kostet Zeit',
+      heading: 'Jedes Angebot von Hand kostet Zeit',
       intro:
-        'Wer auf Mass fertigt, rechnet oft jede Anfrage einzeln durch. Masse aufnehmen, Optionen klären, Preis berechnen und ein Angebot schreiben. Das dauert und die Kundschaft wartet. Bei vielen kleinen Anfragen lohnt sich der Aufwand kaum.',
+        'Wer nach Maß fertigt, rechnet oft jede Anfrage einzeln durch. Maße aufnehmen, Optionen klären, Preis berechnen und ein Angebot schreiben. Das dauert und die Kundschaft wartet. Bei vielen kleinen Anfragen lohnt sich der Aufwand kaum.',
       cards: [
-        { title: 'Zeit für Offerten', text: 'Jede Anfrage von Hand zu berechnen bindet viele Stunden.' },
+        { title: 'Zeit für Angebote', text: 'Jede Anfrage von Hand zu berechnen bindet viele Stunden.' },
         { title: 'Kundschaft wartet', text: 'Wer erst Tage später ein Angebot erhält, springt oft ab.' },
         { title: 'Fehler im Preis', text: 'Von Hand berechnete Preise sind fehleranfällig und schwer vergleichbar.' },
         { title: 'Keine Bestellung online', text: 'Ohne Konfigurator kann niemand direkt online bestellen.' },
@@ -35,23 +35,23 @@ export const konfiguratorSchweiz: LandingLocales = {
     },
     solution: {
       heading: 'Ein Konfigurator, der rechnet und verkauft',
-      body: 'semanu baut Ihnen einen 3D Konfigurator, in dem Ihre Kundschaft das Produkt selbst zusammenstellt. Masse, Kanten, Oberflächen und Ausschnitte werden live im 3D Modell sichtbar und der Preis passt sich sofort an. Am Ende bestellt die Kundschaft direkt online. Für einen Hersteller von Aluminiumplatten auf Mass haben wir genau das umgesetzt.',
+      body: 'semanu baut Ihnen einen 3D Konfigurator, in dem Ihre Kundschaft das Produkt selbst zusammenstellt. Maße, Kanten, Oberflächen und Ausschnitte werden live im 3D Modell sichtbar und der Preis passt sich sofort an. Am Ende bestellt die Kundschaft direkt online. Für einen Hersteller von Aluminiumplatten nach Maß haben wir genau das umgesetzt.',
     },
     featuresHeading: 'Was ein Konfigurator von semanu kann',
     featuresHint: 'Fahren Sie über eine Kachel für mehr Infos',
     featuresLayout: 'cards',
     features: [
-      { icon: 'structure', title: 'Produkt zusammenstellen', text: 'Optionen Schritt für Schritt wählen.', detail: 'Ihre Kundschaft wählt Masse, Varianten und Zusatzoptionen in klaren Schritten.', points: ['Klare Schritte', 'Nur gültige Kombinationen'] },
+      { icon: 'structure', title: 'Produkt zusammenstellen', text: 'Optionen Schritt für Schritt wählen.', detail: 'Ihre Kundschaft wählt Maße, Varianten und Zusatzoptionen in klaren Schritten.', points: ['Klare Schritte', 'Nur gültige Kombinationen'] },
       { icon: 'design', title: 'Live 3D Ansicht', text: 'Jede Wahl sofort sichtbar.', detail: 'Das Produkt dreht sich im 3D Modell und zeigt jede Änderung in Echtzeit.', points: ['Dreh und Zoom', 'Änderung in Echtzeit'] },
-      { icon: 'price', title: 'Preis in Echtzeit', text: 'Der Preis rechnet mit.', detail: 'Jede Option fliesst sofort in den Preis ein, ohne dass jemand von Hand rechnen muss.', points: ['Sofort der Preis', 'Keine Rechenfehler'] },
+      { icon: 'price', title: 'Preis in Echtzeit', text: 'Der Preis rechnet mit.', detail: 'Jede Option fließt sofort in den Preis ein, ohne dass jemand von Hand rechnen muss.', points: ['Sofort der Preis', 'Keine Rechenfehler'] },
       { icon: 'hosting', title: 'Online bestellen', text: 'Direkt aus dem Konfigurator.', detail: 'Die fertige Konfiguration geht als Bestellung direkt bei Ihnen ein.', points: ['Bestellung online', 'Alles dokumentiert'] },
-      { icon: 'support', title: 'Massprodukte abbilden', text: 'Auch komplexe Regeln.', detail: 'Wir bilden Ihre Regeln für Masse, Kanten und Ausschnitte sauber ab.', points: ['Ihre Fertigungsregeln', 'Grenzen und Aufpreise'] },
-      { icon: 'mobile', title: 'Auf jedem Gerät', text: 'Am Handy und am Desktop.', detail: 'Der Konfigurator funktioniert flüssig auf dem Handy und am grossen Bildschirm.', points: ['Mobil bedienbar', 'Ohne Installation'] },
+      { icon: 'support', title: 'Maßprodukte abbilden', text: 'Auch komplexe Regeln.', detail: 'Wir bilden Ihre Regeln für Maße, Kanten und Ausschnitte sauber ab.', points: ['Ihre Fertigungsregeln', 'Grenzen und Aufpreise'] },
+      { icon: 'mobile', title: 'Auf jedem Gerät', text: 'Am Handy und am Desktop.', detail: 'Der Konfigurator funktioniert flüssig auf dem Handy und am großen Bildschirm.', points: ['Mobil bedienbar', 'Ohne Installation'] },
     ],
     process: {
       heading: 'So bauen wir Ihren Konfigurator',
       steps: [
-        { title: 'Produkt verstehen', text: 'Wir nehmen Ihre Optionen, Masse und Fertigungsregeln auf.' },
+        { title: 'Produkt verstehen', text: 'Wir nehmen Ihre Optionen, Maße und Fertigungsregeln auf.' },
         { title: 'Regeln und Preise', text: 'Wir legen fest, wie sich Optionen auf 3D Modell und Preis auswirken.' },
         { title: '3D Modell aufbauen', text: 'Wir bereiten das 3D Modell auf, damit jede Wahl sichtbar wird.' },
         { title: 'Konfigurator und Shop', text: 'Wir verbinden Konfigurator, Vorschau und Bestellung zu einem Ablauf.' },
@@ -61,20 +61,20 @@ export const konfiguratorSchweiz: LandingLocales = {
     pricing: {
       heading: 'Was kostet ein 3D Konfigurator?',
       intro:
-        'Ein 3D Konfigurator wird auf Ihr Produkt zugeschnitten und nach Aufwand offeriert. Umfang, Anzahl der Optionen und die Komplexität der Regeln bestimmen den Preis. Der Webshop drum herum mit Hosting und laufender Wartung läuft auf Wunsch im monatlichen Website Abo, Preis auf Anfrage. Den Umfang und den Preis legen wir nach einem kurzen Gespräch fest.',
-      note: 'Alle Preise exkl. MWST. Umfang und Preis richten sich nach Ihrem Produkt.',
+        'Ein 3D Konfigurator wird auf Ihr Produkt zugeschnitten. Umfang, Anzahl der Optionen und die Komplexität der Regeln bestimmen den Preis. Hosting in der EU und laufende Wartung bieten wir auf Wunsch dazu an. Preise auf Anfrage: Umfang und Preis legen wir nach einem kurzen Gespräch fest.',
+      note: 'Preise auf Anfrage, in EUR exkl. MwSt. Umfang und Preis richten sich nach Ihrem Produkt.',
       cta: { label: 'Gespräch buchen', href: '/kontakt' },
       cards: [],
     },
     reasons: {
       heading: 'Warum ein Konfigurator von semanu?',
       entitySentence:
-        'semanu ist ein AI natives Digitalunternehmen aus Bern für Schweizer KMU und baut Websites, Webshops und Konfiguratoren auf Mass, inklusive Design, Umsetzung, Hosting und Wartung.',
+        'semanu ist ein AI natives Digitalunternehmen aus Antwerpen und baut für KMU und Hersteller in Europa 3D Konfiguratoren und Unternehmenssoftware nach Maß, inklusive Design, Umsetzung, Hosting und Wartung.',
       items: [
-        { title: 'Echtes Projekt', text: 'Wir haben einen Konfigurator für Aluminiumplatten auf Mass gebaut.' },
-        { title: 'Weniger Offerten', text: 'Standardfälle laufen automatisch statt von Hand.' },
+        { title: 'Echtes Projekt', text: 'Wir haben einen Konfigurator für Aluminiumplatten nach Maß gebaut.' },
+        { title: 'Weniger Angebote von Hand', text: 'Standardfälle laufen automatisch statt von Hand.' },
         { title: 'Klar für die Kundschaft', text: 'Live 3D und Sofortpreis schaffen Vertrauen.' },
-        { title: 'Auf Ihr Produkt zugeschnitten', text: 'Wir bilden Ihre Masse, Regeln und Optionen genau ab.' },
+        { title: 'Auf Ihr Produkt zugeschnitten', text: 'Wir bilden Ihre Maße, Regeln und Optionen genau ab.' },
         { title: 'Ein Partner für alles', text: 'Konfigurator, Webshop, Hosting und Wartung aus einer Hand.' },
         { title: 'Ehrlich beraten', text: 'Wir sagen offen, was sich als Konfigurator lohnt und was nicht.' },
       ],
@@ -82,13 +82,13 @@ export const konfiguratorSchweiz: LandingLocales = {
     audience: {
       heading: 'Für wen ist ein Konfigurator gedacht?',
       intro:
-        'Ein 3D Konfigurator passt für Betriebe, die Produkte auf Mass fertigen und heute jede Anfrage von Hand offerieren.',
+        'Ein 3D Konfigurator passt für Betriebe, die Produkte nach Maß fertigen und heute für jede Anfrage von Hand ein Angebot erstellen.',
       items: [
-        'Hersteller von Massprodukten',
+        'Hersteller von Maßprodukten',
         'Handwerksbetriebe mit Einzelstücken',
         'Schreinereien und Metallbau',
         'Betriebe mit vielen Optionen',
-        'Wer heute von Hand offeriert',
+        'Wer heute Angebote von Hand rechnet',
         'Wer online verkaufen möchte',
       ],
       closing:
@@ -105,11 +105,11 @@ export const konfiguratorSchweiz: LandingLocales = {
     ],
     links: [
       { href: '/services/3d-configurators', label: '3D Konfiguratoren', desc: 'Die Dienstleistung und Live Beispiele.' },
+      { href: '/configurator/table', label: 'Live Demo: Tisch', desc: 'Einen Tisch live in 3D konfigurieren.' },
+      { href: '/configurator/cabinet', label: 'Live Demo: Schrank', desc: 'Einen Schrank nach Maß in 3D zusammenstellen.' },
       { href: '/referenzen', label: 'Referenzen', desc: 'Der 3D Konfigurator und weitere Projekte von semanu' },
-      { href: '/services/websites', label: 'Websites und Webshops', desc: 'Websites und Shops von semanu' },
-      { href: '/website-abos', label: 'Website Abos', desc: 'Unsere monatlichen Pakete im Überblick.' },
-      { href: '/website-analyse', label: 'Kostenlose Website Analyse', desc: 'Sehen Sie, wo Ihre Website steht.' },
-      { href: '/so-funktioniert', label: 'So funktioniert semanu', desc: 'Vom ersten Gespräch bis live.' },
+      { href: '/services/ai-native', label: 'Unternehmenssoftware', desc: 'Software nach Maß für Ihre Abläufe.' },
+      { href: '/workflow-automatisierung', label: 'Workflow Automatisierung', desc: 'Bestellungen ohne Handarbeit weiterverarbeiten.' },
       { href: '/faq', label: 'Häufige Fragen', desc: 'Antworten rund um semanu' },
       { href: '/kontakt', label: 'Kontakt', desc: 'Sagen Sie uns, was Sie brauchen.' },
     ],
@@ -117,11 +117,11 @@ export const konfiguratorSchweiz: LandingLocales = {
       heading: 'Häufige Fragen',
       items: [
         { q: 'Was ist ein 3D Konfigurator?', a: 'Ein 3D Konfigurator ist ein Werkzeug für Ihre Website. Ihre Kundschaft stellt damit ein Produkt selbst zusammen. Jede Wahl wird live in 3D sichtbar und der Preis passt sich sofort an.' },
-        { q: 'Für welche Produkte lohnt sich ein Konfigurator?', a: 'Vor allem für Produkte auf Mass mit vielen Optionen, etwa Masse, Oberflächen oder Ausschnitte. Wer heute jede Anfrage von Hand offeriert, spart am meisten.' },
-        { q: 'Sehen Kundinnen und Kunden sofort den Preis?', a: 'Ja. Der Preis rechnet in Echtzeit mit der Konfiguration mit. So entfällt das manuelle Offerieren für Standardfälle.' },
+        { q: 'Für welche Produkte lohnt sich ein Konfigurator?', a: 'Vor allem für Produkte nach Maß mit vielen Optionen, etwa Maße, Oberflächen oder Ausschnitte. Wer heute für jede Anfrage von Hand ein Angebot erstellt, spart am meisten.' },
+        { q: 'Sehen Kundinnen und Kunden sofort den Preis?', a: 'Ja. Der Preis rechnet in Echtzeit mit der Konfiguration mit. So entfällt das manuelle Erstellen von Angeboten für Standardfälle.' },
         { q: 'Können Kundinnen und Kunden direkt bestellen?', a: 'Ja. Die fertige Konfiguration geht als Bestellung direkt bei Ihnen ein. Sie können daraus einen kompletten Webshop machen.' },
-        { q: 'Habt ihr das schon einmal gebaut?', a: 'Ja. Für einen Hersteller von Aluminiumplatten auf Mass haben wir einen Konfigurator mit Masse, Kanten, Oberflächen und Ausschnitten, live 3D und Sofortpreis umgesetzt.' },
-        { q: 'Was kostet ein 3D Konfigurator?', a: 'Der Konfigurator wird nach Aufwand offeriert, je nach Produkt und Zahl der Optionen. Der Webshop drum herum läuft auf Wunsch im monatlichen Website Abo, Preis auf Anfrage. Umfang und Preis legen wir nach einem kurzen Gespräch fest.' },
+        { q: 'Habt ihr das schon einmal gebaut?', a: 'Ja. Für einen Hersteller von Aluminiumplatten nach Maß haben wir einen Konfigurator mit Maßen, Kanten, Oberflächen und Ausschnitten umgesetzt. Dazu gehören eine live 3D Ansicht und ein Sofortpreis.' },
+        { q: 'Was kostet ein 3D Konfigurator?', a: 'Der Preis hängt von Ihrem Produkt und der Zahl der Optionen ab und ist auf Anfrage. Hosting und Wartung bieten wir auf Wunsch dazu an. Umfang und Preis legen wir nach einem kurzen Gespräch fest.' },
         { q: 'Kann ich einen Webshop mit Konfigurator erstellen lassen?', a: 'Ja. semanu baut Onlineshop und Produktkonfigurator als ein Ganzes: konfigurieren, Preis sehen, in den Warenkorb legen und bezahlen. Sie erhalten die fertige Konfiguration als Bestellung.' },
         { q: 'Funktioniert der Konfigurator mit Shopify oder einem bestehenden Shop?', a: 'In vielen Fällen ja. Wir bauen den Konfigurator als eigenes Modul und übergeben die fertige Konfiguration an Ihren bestehenden Shop, etwa Shopify. Ob eine Anbindung sinnvoll ist oder ein neuer Webshop, klären wir im ersten Gespräch.' },
       ],
@@ -133,20 +133,20 @@ export const konfiguratorSchweiz: LandingLocales = {
   },
 
   fr: {
-    title: 'Configurateur 3D et webshop sur mesure · configurer et commander en ligne',
+    title: 'Configurateur 3D sur mesure · configurer et commander en ligne',
     description:
-      'Boutique en ligne avec configurateur 3D pour les PME suisses et les fabricants. Vos clients composent le produit dans le webshop, le voient en direct en 3D, obtiennent le prix aussitôt et commandent en ligne. Le devis manuel disparaît.',
+      'Boutique en ligne avec configurateur 3D pour les PME et les fabricants en Europe. Vos clients composent le produit, le voient en direct en 3D, obtiennent le prix aussitôt et commandent en ligne.',
     eyebrow: 'Configurateur 3D · sur mesure',
     h1: 'Configurateur 3D et webshop sur mesure',
     intro:
-      'Beaucoup d’entreprises fabriquent sur mesure et rédigent une offre à la main pour chaque demande. Cela prend du temps et freine la vente. Avec un configurateur 3D, vos clients composent le produit eux mêmes, le voient en direct en 3D, obtiennent le prix aussitôt et commandent directement en ligne.',
+      'Beaucoup d’entreprises fabriquent sur mesure et rédigent un devis à la main pour chaque demande. Cela prend du temps et freine la vente. Avec un configurateur 3D, vos clients composent le produit eux mêmes, le voient en direct en 3D, obtiennent le prix aussitôt et commandent directement en ligne.',
     heroBullets: [
       'Composer le produit en direct en 3D',
       'Voir le prix aussitôt',
       'Configurer et commander en ligne',
-      'Fini les offres manuelles',
+      'Fini les devis manuels',
     ],
-    heroSecondaryCta: { label: 'Analyse gratuite', href: '/website-analyse' },
+    heroSecondaryCta: { label: 'Voir la démo', href: '/configurator/table' },
     benefits: [
       { icon: 'structure', title: 'Composer soi même', text: 'Vos clients configurent le produit étape par étape.' },
       { icon: 'design', title: 'En direct en 3D', text: 'Chaque choix apparaît aussitôt dans le modèle 3D.' },
@@ -154,12 +154,12 @@ export const konfiguratorSchweiz: LandingLocales = {
       { icon: 'growth', title: 'Moins de travail manuel', text: 'Le devis à la main disparaît pour les cas standard.' },
     ],
     problem: {
-      heading: 'Chaque offre à la main coûte du temps',
+      heading: 'Chaque devis à la main coûte du temps',
       intro:
-        'Qui fabrique sur mesure recalcule souvent chaque demande une à une. Prendre les mesures, clarifier les options, calculer le prix et rédiger une offre. Cela dure et le client attend. Pour beaucoup de petites demandes, l’effort en vaut à peine la peine.',
+        'Qui fabrique sur mesure recalcule souvent chaque demande une à une. Prendre les mesures, clarifier les options, calculer le prix et rédiger un devis. Cela dure et le client attend. Pour beaucoup de petites demandes, l’effort en vaut à peine la peine.',
       cards: [
-        { title: 'Du temps en offres', text: 'Calculer chaque demande à la main prend beaucoup d’heures.' },
-        { title: 'Le client attend', text: 'Qui reçoit une offre des jours plus tard part souvent ailleurs.' },
+        { title: 'Du temps en devis', text: 'Calculer chaque demande à la main prend beaucoup d’heures.' },
+        { title: 'Le client attend', text: 'Qui reçoit un devis des jours plus tard part souvent ailleurs.' },
         { title: 'Erreurs de prix', text: 'Les prix calculés à la main sont sujets aux erreurs et durs à comparer.' },
         { title: 'Pas de commande en ligne', text: 'Sans configurateur, personne ne peut commander directement en ligne.' },
       ],
@@ -168,7 +168,7 @@ export const konfiguratorSchweiz: LandingLocales = {
       heading: 'Un configurateur qui calcule et qui vend',
       body: 'semanu vous construit un configurateur 3D dans lequel vos clients composent le produit eux mêmes. Les mesures, les bords, les finitions et les découpes apparaissent en direct dans le modèle 3D et le prix s’adapte aussitôt. À la fin, le client commande directement en ligne. Pour un fabricant de plaques d’aluminium sur mesure, nous avons réalisé exactement cela.',
     },
-    featuresHeading: 'Ce que sait faire un configurateur d’semanu',
+    featuresHeading: 'Ce que sait faire un configurateur de semanu',
     featuresHint: 'Passez sur une tuile pour plus d’infos',
     featuresLayout: 'cards',
     features: [
@@ -192,34 +192,34 @@ export const konfiguratorSchweiz: LandingLocales = {
     pricing: {
       heading: 'Combien coûte un configurateur 3D?',
       intro:
-        'Un configurateur 3D est taillé sur votre produit et chiffré selon l’effort. Le périmètre, le nombre d’options et la complexité des règles déterminent le prix. La boutique en ligne autour avec hébergement et maintenance continue tourne sur demande dans l’abonnement mensuel, prix sur demande. Nous fixons le périmètre et le prix après un court entretien.',
-      note: 'Tous les prix hors TVA. Le périmètre et le prix dépendent de votre produit.',
+        'Un configurateur 3D est taillé sur votre produit. Le périmètre, le nombre d’options et la complexité des règles déterminent le prix. L’hébergement dans l’UE et la maintenance continue sont possibles sur demande. Prix sur demande: nous fixons le périmètre et le prix après un court entretien.',
+      note: 'Prix sur demande, en EUR hors TVA. Le périmètre et le prix dépendent de votre produit.',
       cta: { label: 'Réserver un entretien', href: '/kontakt' },
       cards: [],
     },
     reasons: {
-      heading: 'Pourquoi un configurateur d’semanu?',
+      heading: 'Pourquoi un configurateur de semanu?',
       entitySentence:
-        'semanu est un partenaire digital AI natif basé à Berne pour les PME suisses et construit des sites, des webshops et des configurateurs sur mesure, design, réalisation, hébergement et maintenance compris.',
+        'semanu est une entreprise digitale AI native basée à Anvers qui construit pour les PME et les fabricants en Europe des configurateurs 3D et des logiciels d’entreprise sur mesure, design, réalisation, hébergement et maintenance compris.',
       items: [
         { title: 'Un vrai projet', text: 'Nous avons construit un configurateur pour des plaques d’aluminium sur mesure.' },
-        { title: 'Moins d’offres', text: 'Les cas standard tournent automatiquement au lieu d’être faits à la main.' },
+        { title: 'Moins de devis à la main', text: 'Les cas standard tournent automatiquement au lieu d’être faits à la main.' },
         { title: 'Clair pour le client', text: 'La 3D en direct et le prix aussitôt créent la confiance.' },
         { title: 'Taillé sur votre produit', text: 'Nous modélisons vos mesures, vos règles et vos options avec précision.' },
         { title: 'Un partenaire pour tout', text: 'Configurateur, webshop, hébergement et maintenance au même endroit.' },
-        { title: 'Un conseil honnête', text: 'Nous disons ouvertement ce qui vaut la peine en configurateur et ce qui ne vaut pas.' },
+        { title: 'Un conseil honnête', text: 'Nous disons ouvertement ce qui vaut la peine en configurateur et ce qui ne la vaut pas.' },
       ],
     },
     audience: {
       heading: 'À qui s’adresse un configurateur?',
       intro:
-        'Un configurateur 3D convient aux entreprises qui fabriquent sur mesure et qui rédigent aujourd’hui chaque offre à la main.',
+        'Un configurateur 3D convient aux entreprises qui fabriquent sur mesure et qui rédigent aujourd’hui chaque devis à la main.',
       items: [
         'Fabricants de produits sur mesure',
         'Artisans avec des pièces uniques',
         'Menuiseries et construction métallique',
         'Entreprises avec beaucoup d’options',
-        'Ceux qui offrent à la main aujourd’hui',
+        'Ceux qui chiffrent à la main aujourd’hui',
         'Ceux qui veulent vendre en ligne',
       ],
       closing:
@@ -236,23 +236,23 @@ export const konfiguratorSchweiz: LandingLocales = {
     ],
     links: [
       { href: '/services/3d-configurators', label: 'Configurateurs 3D', desc: 'Le service et des exemples en direct.' },
-      { href: '/referenzen', label: 'Références', desc: 'Le configurateur 3D et d’autres projets d’semanu' },
-      { href: '/services/websites', label: 'Sites et webshops', desc: 'Sites et boutiques par semanu' },
-      { href: '/website-abos', label: 'Abonnements', desc: 'Nos formules mensuelles en un coup d’œil.' },
-      { href: '/website-analyse', label: 'Analyse de site gratuite', desc: 'Voyez où en est votre site.' },
-      { href: '/so-funktioniert', label: 'Comment semanu fonctionne', desc: 'Du premier entretien à la mise en ligne.' },
-      { href: '/faq', label: 'Questions fréquentes', desc: 'Les réponses autour d’semanu' },
+      { href: '/configurator/table', label: 'Démo: table', desc: 'Configurer une table en direct en 3D.' },
+      { href: '/configurator/cabinet', label: 'Démo: armoire', desc: 'Composer une armoire sur mesure en 3D.' },
+      { href: '/referenzen', label: 'Références', desc: 'Le configurateur 3D et d’autres projets de semanu' },
+      { href: '/services/ai-native', label: 'Logiciels d’entreprise', desc: 'Des logiciels sur mesure pour vos processus.' },
+      { href: '/workflow-automatisierung', label: 'Automatisation des workflows', desc: 'Traiter les commandes sans travail manuel.' },
+      { href: '/faq', label: 'Questions fréquentes', desc: 'Les réponses autour de semanu' },
       { href: '/kontakt', label: 'Contact', desc: 'Dites-nous ce dont vous avez besoin.' },
     ],
     faq: {
       heading: 'Questions fréquentes',
       items: [
         { q: 'Qu’est ce qu’un configurateur 3D?', a: 'Un configurateur 3D est un outil avec lequel vos clients composent eux mêmes un produit. Chaque choix apparaît en direct en 3D et le prix s’adapte aussitôt.' },
-        { q: 'Pour quels produits un configurateur vaut la peine?', a: 'Surtout pour les produits sur mesure avec beaucoup d’options, comme les mesures, les finitions ou les découpes. Qui offre chaque demande à la main aujourd’hui gagne le plus.' },
+        { q: 'Pour quels produits un configurateur vaut la peine?', a: 'Surtout pour les produits sur mesure avec beaucoup d’options, comme les mesures, les finitions ou les découpes. Qui chiffre aujourd’hui chaque demande à la main gagne le plus.' },
         { q: 'Le client voit il le prix aussitôt?', a: 'Oui. Le prix se calcule en temps réel avec la configuration. Le devis manuel disparaît pour les cas standard.' },
         { q: 'Le client peut il commander directement?', a: 'Oui. La configuration finie arrive comme commande directement chez vous. Vous pouvez en faire un webshop complet.' },
-        { q: 'Avez vous déjà construit cela?', a: 'Oui. Pour un fabricant de plaques d’aluminium sur mesure, nous avons réalisé un configurateur avec mesures, bords, finitions et découpes, 3D en direct et prix aussitôt.' },
-        { q: 'Combien coûte un configurateur 3D?', a: 'Le configurateur est chiffré selon l’effort, en fonction de votre produit et du nombre d’options. La boutique en ligne autour tourne sur demande dans l’abonnement mensuel, prix sur demande. Nous fixons le périmètre et le prix après un court entretien.' },
+        { q: 'Avez vous déjà construit cela?', a: 'Oui. Pour un fabricant de plaques d’aluminium sur mesure, nous avons réalisé un configurateur avec mesures, bords, finitions et découpes. Il offre une vue 3D en direct et le prix aussitôt.' },
+        { q: 'Combien coûte un configurateur 3D?', a: 'Le prix dépend de votre produit et du nombre d’options. Il est sur demande. L’hébergement et la maintenance sont possibles sur demande. Nous fixons le périmètre et le prix après un court entretien.' },
         { q: 'Je peux faire créer une boutique en ligne avec configurateur?', a: 'Oui. semanu construit le webshop et le configurateur de produit comme un tout: configurer, voir le prix, mettre dans le panier et payer. Vous recevez la configuration finie comme commande.' },
         { q: 'Le configurateur fonctionne avec Shopify ou une boutique existante?', a: 'Dans beaucoup de cas, oui. Nous construisons le configurateur comme module séparé et transmettons la configuration finie à votre boutique existante, par exemple Shopify. Nous clarifions lors du premier entretien si une liaison a du sens ou plutôt un nouveau webshop.' },
       ],
@@ -264,9 +264,9 @@ export const konfiguratorSchweiz: LandingLocales = {
   },
 
   en: {
-    title: 'Product configurator and webshop made to measure · configure and order online',
+    title: '3D configurator made to measure · configure and order online',
     description:
-      'Webshop with 3D product configurator for Swiss SMEs and manufacturers. Your customers compose the product in the online shop, see it live in 3D, get the price instantly and order online. Manual quoting disappears.',
+      'Webshop with 3D product configurator for SMEs and manufacturers in Europe. Your customers compose the product, see it live in 3D, get the price instantly and order online.',
     eyebrow: '3D configurator · made to measure',
     h1: '3D product configurator and webshop made to measure',
     intro:
@@ -277,7 +277,7 @@ export const konfiguratorSchweiz: LandingLocales = {
       'Configure and order online',
       'No more manual quotes',
     ],
-    heroSecondaryCta: { label: 'Free analysis', href: '/website-analyse' },
+    heroSecondaryCta: { label: 'See the live demo', href: '/configurator/table' },
     benefits: [
       { icon: 'structure', title: 'Compose it themselves', text: 'Your customers configure the product step by step.' },
       { icon: 'design', title: 'Live in 3D', text: 'Every choice shows up instantly in the 3D model.' },
@@ -323,18 +323,18 @@ export const konfiguratorSchweiz: LandingLocales = {
     pricing: {
       heading: 'What does a 3D configurator cost?',
       intro:
-        'A 3D configurator is tailored to your product and quoted by effort. The scope, the number of options and the complexity of the rules drive the price. The webshop around it with hosting and ongoing maintenance runs on request in the monthly website subscription, price on request. We set the scope and the price after a short conversation.',
-      note: 'All prices excl. VAT. Scope and price depend on your product.',
+        'A 3D configurator is tailored to your product. The scope, the number of options and the complexity of the rules drive the price. Hosting in the EU and ongoing maintenance are available on request. Prices on request: we set the scope and the price after a short conversation.',
+      note: 'Prices on request, in EUR excl. VAT. Scope and price depend on your product.',
       cta: { label: 'Book a conversation', href: '/kontakt' },
       cards: [],
     },
     reasons: {
       heading: 'Why a configurator from semanu?',
       entitySentence:
-        'semanu is an AI native digital partner from Bern for Swiss SMEs and builds websites, webshops and configurators made to measure, including design, build, hosting and maintenance.',
+        'semanu is an AI native digital company from Antwerp that builds 3D configurators and custom business software for SMEs and manufacturers in Europe, including design, build, hosting and maintenance.',
       items: [
         { title: 'A real project', text: 'We built a configurator for aluminium plates made to measure.' },
-        { title: 'Fewer quotes', text: 'Standard cases run automatically instead of by hand.' },
+        { title: 'Fewer quotes by hand', text: 'Standard cases run automatically instead of by hand.' },
         { title: 'Clear for the customer', text: 'Live 3D and the instant price build trust.' },
         { title: 'Tailored to your product', text: 'We model your measurements, rules and options precisely.' },
         { title: 'One partner for everything', text: 'Configurator, webshop, hosting and maintenance in one place.' },
@@ -367,11 +367,11 @@ export const konfiguratorSchweiz: LandingLocales = {
     ],
     links: [
       { href: '/services/3d-configurators', label: '3D configurators', desc: 'The service and live examples.' },
+      { href: '/configurator/table', label: 'Live demo: table', desc: 'Configure a table live in 3D.' },
+      { href: '/configurator/cabinet', label: 'Live demo: cabinet', desc: 'Compose a cabinet made to measure in 3D.' },
       { href: '/referenzen', label: 'References', desc: 'The 3D configurator and more projects by semanu' },
-      { href: '/services/websites', label: 'Websites and webshops', desc: 'Websites and shops by semanu' },
-      { href: '/website-abos', label: 'Website subscriptions', desc: 'Our monthly packages at a glance.' },
-      { href: '/website-analyse', label: 'Free website analysis', desc: 'See where your website stands.' },
-      { href: '/so-funktioniert', label: 'How semanu works', desc: 'From the first talk to going live.' },
+      { href: '/services/ai-native', label: 'Business software', desc: 'Custom software for your processes.' },
+      { href: '/workflow-automatisierung', label: 'Workflow automation', desc: 'Process orders without manual work.' },
       { href: '/faq', label: 'Frequently asked questions', desc: 'Answers around semanu' },
       { href: '/kontakt', label: 'Contact', desc: 'Tell us what you need.' },
     ],
@@ -382,8 +382,8 @@ export const konfiguratorSchweiz: LandingLocales = {
         { q: 'Which products is a configurator worth it for?', a: 'Above all for products made to measure with many options, such as measurements, finishes or cutouts. Whoever quotes every request by hand today gains the most.' },
         { q: 'Do customers see the price instantly?', a: 'Yes. The price calculates in real time with the configuration. Manual quoting falls away for standard cases.' },
         { q: 'Can customers order directly?', a: 'Yes. The finished configuration arrives as an order directly with you. You can turn it into a full webshop.' },
-        { q: 'Have you built this before?', a: 'Yes. For a manufacturer of aluminium plates made to measure we built a configurator with measurements, edges, finishes and cutouts, live 3D and an instant price.' },
-        { q: 'What does a 3D configurator cost?', a: 'The configurator is quoted by effort, depending on your product and the number of options. The webshop around it runs on request in the monthly website subscription, price on request. We set the scope and the price after a short conversation.' },
+        { q: 'Have you built this before?', a: 'Yes. For a manufacturer of aluminium plates made to measure we built a configurator with measurements, edges, finishes and cutouts. It includes a live 3D view and an instant price.' },
+        { q: 'What does a 3D configurator cost?', a: 'The price depends on your product and the number of options and is on request. Hosting and maintenance are available on request. We set the scope and the price after a short conversation.' },
         { q: 'Can I have a webshop with configurator built?', a: 'Yes. semanu builds the online shop and the product configurator as one whole: configure, see the price, add to the basket and pay. You receive the finished configuration as an order.' },
         { q: 'Does the configurator work with Shopify or an existing shop?', a: 'In many cases yes. We build the configurator as a separate module and hand the finished configuration to your existing shop, for example Shopify. Whether a connection makes sense or a new webshop is better, we clarify in the first conversation.' },
       ],

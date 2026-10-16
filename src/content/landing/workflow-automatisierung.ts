@@ -1,12 +1,12 @@
 import type { LandingLocales } from './types';
 
-export const workflowAutomatisierungSchweiz: LandingLocales = {
+export const workflowAutomatisierung: LandingLocales = {
   de: {
-    title: 'Workflow Automatisierung für Schweizer KMU · Prozesse automatisieren und Zeit sparen',
+    title: 'Workflow Automatisierung für KMU · Prozesse automatisieren und Zeit sparen',
     description:
-      'Workflow Automatisierung für Schweizer KMU. Wir verbinden Ihre Tools und automatisieren manuelle Aufgaben. Weniger Handarbeit und weniger Fehler, mehr Zeit für Ihr Kerngeschäft.',
+      'Workflow Automatisierung für KMU in Europa. Wir verbinden Ihre Tools und automatisieren manuelle Aufgaben. Weniger Handarbeit und weniger Fehler, mehr Zeit für Ihr Kerngeschäft.',
     eyebrow: 'Workflow Automatisierung · für KMU',
-    h1: 'Workflow Automatisierung für Schweizer KMU',
+    h1: 'Workflow Automatisierung für KMU',
     intro:
       'Viele KMU verlieren jeden Tag Zeit mit manuellen Aufgaben. Daten von Hand übertragen, Dokumente erstellen und an Übergaben denken. Wir verbinden Ihre Tools und automatisieren wiederkehrende Prozesse, von der internen Administration bis zum Kundenkontakt. So sparen Sie Zeit und reduzieren Fehler, ohne dass etwas liegen bleibt.',
     heroBullets: [
@@ -17,7 +17,7 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
     ],
     heroSecondaryCta: { label: 'Zur Automatisierung', href: '/services/ai-native' },
     benefits: [
-      { icon: 'structure', title: 'Tools verbinden', text: 'Wir verbinden CRM, ERP und Formulare, damit Daten von selbst fliessen.' },
+      { icon: 'structure', title: 'Tools verbinden', text: 'Wir verbinden CRM, ERP und Formulare, damit Daten von selbst fließen.' },
       { icon: 'clock', title: 'Zeit sparen', text: 'Wiederkehrende Aufgaben laufen automatisch statt von Hand.' },
       { icon: 'trust', title: 'Fehler reduzieren', text: 'Keine vergessenen Schritte und keine Tippfehler beim Übertragen.' },
       { icon: 'growth', title: 'Mitwachsen', text: 'Ihre Abläufe halten mit, auch wenn mehr Anfragen kommen.' },
@@ -28,7 +28,7 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
         'In vielen KMU laufen wichtige Abläufe von Hand. Ein Formular kommt rein, jemand tippt die Daten ins CRM, schreibt eine Bestätigung und erinnert sich hoffentlich an den nächsten Schritt. Das ist langsam und fehleranfällig, gerade wenn viel los ist.',
       cards: [
         { title: 'Daten doppelt erfassen', text: 'Dieselben Angaben landen von Hand in Formular, CRM und Rechnung.' },
-        { title: 'Schritte gehen vergessen', text: 'Ohne feste Erinnerung bleibt eine Nachfrage oder Übergabe liegen.' },
+        { title: 'Schritte werden vergessen', text: 'Ohne feste Erinnerung bleibt eine Nachfrage oder Übergabe liegen.' },
         { title: 'Tools reden nicht', text: 'Ihre Programme wissen nichts voneinander, also verbindet ein Mensch sie.' },
         { title: 'Keine Übersicht', text: 'Niemand sieht auf einen Blick, was offen ist und wer zuständig ist.' },
       ],
@@ -44,7 +44,7 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
       { icon: 'hosting', title: 'Daten übertragen', text: 'Automatisch zwischen Ihren Tools.', detail: 'Angaben aus einem Formular oder Tool landen automatisch im CRM, ERP oder in der Tabelle, ganz ohne Abtippen.', points: ['Kein Copy Paste mehr', 'Immer aktuelle Daten'] },
       { icon: 'chat', title: 'Benachrichtigen und zuweisen', text: 'Die richtige Person zur richtigen Zeit.', detail: 'Neue Anfragen und Aufgaben gehen automatisch an die zuständige Person, per Email oder in Ihrem Chat Tool.', points: ['Nichts bleibt liegen', 'Klare Zuständigkeit'] },
       { icon: 'support', title: 'Dokumente erstellen', text: 'Bestätigungen und Belege von selbst.', detail: 'Bestätigungen, Angebote und Belege entstehen automatisch aus Ihren Daten und gehen direkt an die Kundschaft.', points: ['Einheitliche Vorlagen', 'Sofort versendet'] },
-      { icon: 'structure', title: 'Freigabeprozesse automatisieren', text: 'Antrag rein, Freigabe per Klick.', detail: 'Offerten, Rechnungen oder Ferienanträge gehen automatisch an die zuständige Person, werden per Klick freigegeben und sauber abgelegt.', points: ['Freigabe per Klick', 'Ablage und Protokoll automatisch'] },
+      { icon: 'structure', title: 'Freigabeprozesse automatisieren', text: 'Antrag rein, Freigabe per Klick.', detail: 'Angebote, Rechnungen oder Urlaubsanträge gehen automatisch an die zuständige Person, werden per Klick freigegeben und sauber abgelegt.', points: ['Freigabe per Klick', 'Ablage und Protokoll automatisch'] },
       { icon: 'person', title: 'Onboarding automatisieren', text: 'Neue Kunden sauber aufnehmen.', detail: 'Vom ersten Kontakt bis zum fertigen Konto laufen die Schritte automatisch ab und niemand wird vergessen.', points: ['Gleicher Ablauf für alle', 'Guter erster Eindruck'] },
       { icon: 'growth', title: 'Marketing und Sales', text: 'Follow ups und Erinnerungen.', detail: 'Leads werden automatisch weiterverfolgt und Erinnerungen laufen von selbst, damit kein Kontakt kalt wird.', points: ['Follow up ohne Aufwand', 'Kein Lead geht verloren'] },
     ],
@@ -61,22 +61,22 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
     pricing: {
       heading: 'Was kostet Workflow Automatisierung?',
       intro:
-        'Der Preis hängt davon ab, wie viele Abläufe wir verbinden und wie komplex sie sind. Für Marketing Automation und grössere Automatisierungen quer durch Ihre Tools erhalten Sie auf Anfrage eine klare schriftliche Offerte, meist nach einem kurzen Gespräch. Wir empfehlen nur, was Ihnen wirklich Zeit spart.',
-      note: 'Alle Preise exkl. MWST. Umfang und Preis legen wir gemeinsam nach einem kurzen Gespräch fest.',
+        'Der Preis hängt davon ab, wie viele Abläufe wir verbinden und wie komplex sie sind. Ob Marketing Automation oder größere Automatisierungen quer durch Ihre Tools: Den Preis erhalten Sie auf Anfrage als klares schriftliches Angebot, meist nach einem kurzen Gespräch. Wir empfehlen nur, was Ihnen wirklich Zeit spart.',
+      note: 'Preise auf Anfrage, alle Preise in EUR exkl. MwSt. Umfang und Preis legen wir gemeinsam nach einem kurzen Gespräch fest.',
       cta: { label: 'Gespräch buchen', href: '/kontakt' },
       cards: [],
     },
     reasons: {
       heading: 'Warum Workflow Automatisierung von semanu?',
       entitySentence:
-        'semanu ist ein AI natives Digitalunternehmen aus Bern für Schweizer KMU. Wir verbinden Ihre Tools und automatisieren manuelle Prozesse, von der internen Administration bis zum Kundenkontakt.',
+        'semanu ist ein AI natives Digitalunternehmen aus Antwerpen und arbeitet für KMU in ganz Europa. Wir verbinden Ihre Tools und automatisieren manuelle Prozesse, von der internen Administration bis zum Kundenkontakt.',
       items: [
         { title: 'Ehrlich beraten', text: 'Wir automatisieren nur dort wo es sich lohnt und sagen es Ihnen offen.' },
-        { title: 'Ein Partner für alles', text: 'Website, Tools und Automatisierung kommen aus einer Hand.' },
+        { title: 'Alles aus einer Hand', text: 'Software, Schnittstellen und Automatisierung entstehen bei uns am selben Ort.' },
         { title: 'AI nativ', text: 'Wir setzen moderne Technik ein, wo sie Ihnen echten Nutzen bringt.' },
         { title: 'Verständlich erklärt', text: 'Sie verstehen jederzeit, was automatisch läuft und warum.' },
         { title: 'Ihre Tools bleiben', text: 'Wir verbinden, was Sie schon nutzen, statt alles neu zu bauen.' },
-        { title: 'Aus der Schweiz', text: 'Wir kennen den Alltag und die Anforderungen von Schweizer KMU.' },
+        { title: 'Daten in der EU', text: 'Wir hosten bei Hetzner in Deutschland und Finnland. Ihre Daten bleiben in der EU.' },
       ],
     },
     audience: {
@@ -84,7 +84,7 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
       intro:
         'Automatisierung passt für KMU und Selbständige, die zu viel Zeit mit wiederkehrenden Aufgaben verlieren und ihre Tools endlich verbinden möchten.',
       items: [
-        'Schweizer KMU mit vielen manuellen Schritten',
+        'KMU mit vielen manuellen Schritten',
         'Betriebe mit mehreren Tools ohne Verbindung',
         'Dienstleister mit vielen Anfragen',
         'Teams die den Überblick behalten wollen',
@@ -97,19 +97,18 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
     sections: [
       {
         icon: 'chat',
-        heading: 'Automatisierung für KMU mit AI: Prozessautomatisierung ohne grosses IT Projekt',
+        heading: 'Automatisierung für KMU mit AI: Prozessautomatisierung ohne großes IT Projekt',
         body:
-          'Prozessautomatisierung für KMU heisst nicht, die ganze Firma umzubauen. Wir starten mit dem Ablauf, der heute am meisten Zeit kostet. Diesen automatisieren wir Schritt für Schritt mit Ihren bestehenden Tools. AI übernimmt dabei die Arbeit, die früher nur ein Mensch konnte: Emails lesen und einordnen, Angaben aus Dokumenten übernehmen, Antworten vorbereiten. Entscheiden, freigeben und den Kundenkontakt halten bleibt bei Ihrem Team. So bekommen auch kleine Betriebe eine Automatisierung, die in Tagen statt Monaten steht.',
+          'Prozessautomatisierung für KMU heißt nicht, die ganze Firma umzubauen. Wir starten mit dem Ablauf, der heute am meisten Zeit kostet. Diesen automatisieren wir Schritt für Schritt mit Ihren bestehenden Tools. AI übernimmt dabei die Arbeit, die früher nur ein Mensch konnte: Emails lesen und einordnen, Angaben aus Dokumenten übernehmen, Antworten vorbereiten. Entscheiden, freigeben und den Kundenkontakt halten bleibt bei Ihrem Team. So bekommen auch kleine Betriebe eine Automatisierung, die in Tagen statt Monaten steht.',
         points: ['Ein Ablauf zuerst, dann der nächste', 'AI liest, sortiert und bereitet vor', 'Ihr Team entscheidet und gibt frei'],
       },
     ],
     links: [
-      { href: '/services/ai-assistants', label: 'AI Assistenten', desc: 'AI, die Anfragen liest, sortiert und beantwortet.' },
-      { href: '/services/ai-native', label: 'Marketing Automation', desc: 'Follow ups und Erinnerungen automatisch.' },
-      { href: '/services/ai-native', label: 'Digitale Plattformen', desc: 'Dashboards, CRM und Portale nach Mass.' },
-      { href: '/website-analyse', label: 'Kostenlose Website Analyse', desc: 'Sehen Sie, wo Ihre Website steht.' },
+      { href: '/services/ai-native', label: 'Software nach Maß', desc: 'Automatisierung, Portale, CRM und Dashboards aus einer Hand.' },
+      { href: '/digitalisierung-kmu', label: 'Digitalisierung für KMU', desc: 'Schritt für Schritt zu digitalen Abläufen.' },
+      { href: '/3d-konfigurator', label: '3D Konfigurator', desc: 'Produkte online konfigurieren und bestellen.' },
       { href: '/referenzen', label: 'Referenzen', desc: 'Projekte und Lösungen von semanu' },
-      { href: '/website-abos', label: 'Website Abos', desc: 'Website und Betreuung im Monatsabo.' },
+      { href: '/faq', label: 'FAQ', desc: 'Antworten auf häufige Fragen.' },
       { href: '/kontakt', label: 'Kontakt', desc: 'Sagen Sie uns, was Sie brauchen.' },
     ],
     faq: {
@@ -119,9 +118,9 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
         { q: 'Welche Tools lassen sich verbinden?', a: 'In der Regel alles, was eine Schnittstelle hat. Dazu zählen CRM, ERP, Formulare, Email, Tabellen und viele weitere gängige Programme.' },
         { q: 'Muss ich meine Tools wechseln?', a: 'Nein. Wir verbinden meist, was Sie schon nutzen. Nur wenn ein Tool wirklich im Weg steht, schlagen wir eine Alternative vor.' },
         { q: 'Lohnt sich das auch für kleine Betriebe?', a: 'Oft ja. Schon ein automatisierter Ablauf pro Woche spart spürbar Zeit. Wir prüfen ehrlich, ob sich der Aufwand für Sie rechnet.' },
-        { q: 'Wie lange dauert die Umsetzung?', a: 'Einfache Abläufe stehen oft in wenigen Tagen. Grössere Automatisierungen über mehrere Tools brauchen etwas länger und laufen Schritt für Schritt.' },
-        { q: 'Was kostet Workflow Automatisierung?', a: 'Das hängt von der Zahl und Komplexität der Abläufe ab. Nach einem kurzen Gespräch erhalten Sie auf Anfrage eine klare schriftliche Offerte, je nach Umfang.' },
-        { q: 'Was ist Prozessautomatisierung für KMU?', a: 'Prozessautomatisierung für KMU bedeutet, dass ein wiederkehrender Ablauf wie Freigaben, Onboarding oder Rechnungsversand automatisch läuft. Das geschieht mit den Tools, die Sie schon nutzen. Wir beginnen mit einem Prozess und erweitern Schritt für Schritt, ohne grosses IT Projekt.' },
+        { q: 'Wie lange dauert die Umsetzung?', a: 'Einfache Abläufe stehen oft in wenigen Tagen. Größere Automatisierungen über mehrere Tools brauchen etwas länger und laufen Schritt für Schritt.' },
+        { q: 'Was kostet Workflow Automatisierung?', a: 'Das hängt von der Zahl und Komplexität der Abläufe ab. Der Preis ist auf Anfrage: Nach einem kurzen Gespräch erhalten Sie ein klares schriftliches Angebot, je nach Umfang.' },
+        { q: 'Was ist Prozessautomatisierung für KMU?', a: 'Prozessautomatisierung für KMU bedeutet, dass ein wiederkehrender Ablauf wie Freigaben, Onboarding oder Rechnungsversand automatisch läuft. Das geschieht mit den Tools, die Sie schon nutzen. Wir beginnen mit einem Prozess und erweitern Schritt für Schritt. Ein großes IT Projekt braucht es dafür nicht.' },
         { q: 'Automatisierung mit AI: was übernimmt die AI und was der Mensch?', a: 'AI übernimmt das Lesen, Einordnen und Vorbereiten: Emails sortieren, Angaben aus Dokumenten übernehmen, Antworten entwerfen. Entscheidungen, Freigaben und der persönliche Kundenkontakt bleiben bei Ihrem Team. Jeder Schritt ist nachvollziehbar und lässt sich anpassen.' },
       ],
     },
@@ -132,11 +131,11 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
   },
 
   fr: {
-    title: 'Automatisation des workflows pour PME suisses · automatiser les processus et gagner du temps',
+    title: 'Automatisation des workflows pour PME · automatiser les processus et gagner du temps',
     description:
-      'Automatisation des workflows pour PME suisses. Nous connectons vos outils et automatisons les tâches manuelles. Moins de travail à la main et moins d’erreurs, plus de temps pour votre cœur de métier.',
+      'Automatisation des workflows pour PME en Europe. Nous connectons vos outils et automatisons les tâches manuelles. Moins de travail à la main et moins d’erreurs, plus de temps pour votre cœur de métier.',
     eyebrow: 'Automatisation des workflows · pour PME',
-    h1: 'Automatisation des workflows pour PME suisses',
+    h1: 'Automatisation des workflows pour PME',
     intro:
       'Beaucoup de PME perdent chaque jour du temps avec des tâches manuelles. Reporter des données à la main, créer des documents et penser aux relais. Nous connectons vos outils et automatisons les processus récurrents, de l’administration interne au contact client. Vous gagnez du temps et réduisez les erreurs, sans que rien ne reste en plan.',
     heroBullets: [
@@ -191,22 +190,22 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
     pricing: {
       heading: 'Combien coûte l’automatisation des workflows?',
       intro:
-        'Le prix dépend du nombre de processus que nous connectons et de leur complexité. Pour le Marketing Automation et les automatisations plus grandes à travers vos outils, vous recevez sur demande une offre écrite claire, en général après un court entretien. Nous ne recommandons que ce qui vous fait vraiment gagner du temps.',
-      note: 'Tous les prix hors TVA. Le périmètre et le prix se définissent ensemble après un court entretien.',
+        'Le prix dépend du nombre de processus que nous connectons et de leur complexité. Marketing Automation ou automatisations plus grandes à travers vos outils: le prix est sur demande, sous forme d’offre écrite claire, en général après un court entretien. Nous ne recommandons que ce qui vous fait vraiment gagner du temps.',
+      note: 'Prix sur demande, tous les prix en EUR hors TVA. Le périmètre et le prix se définissent ensemble après un court entretien.',
       cta: { label: 'Réserver un entretien', href: '/kontakt' },
       cards: [],
     },
     reasons: {
       heading: 'Pourquoi l’automatisation des workflows par semanu?',
       entitySentence:
-        'semanu est une entreprise numérique AI native basée à Berne pour les PME suisses. Nous connectons vos outils et automatisons les processus manuels, de l’administration interne au contact client.',
+        'semanu est une entreprise numérique AI native basée à Anvers qui travaille pour des PME dans toute l’Europe. Nous connectons vos outils et automatisons les processus manuels, de l’administration interne au contact client.',
       items: [
         { title: 'Conseil honnête', text: 'Nous automatisons seulement là où cela vaut la peine et vous le disons franchement.' },
-        { title: 'Un partenaire pour tout', text: 'Site, outils et automatisation viennent du même endroit.' },
+        { title: 'Tout au même endroit', text: 'Logiciel, interfaces et automatisation sont réalisés chez nous, au même endroit.' },
         { title: 'AI native', text: 'Nous utilisons la technique moderne là où elle vous apporte un vrai bénéfice.' },
         { title: 'Expliqué simplement', text: 'Vous comprenez à tout moment ce qui tourne automatiquement et pourquoi.' },
         { title: 'Vos outils restent', text: 'Nous connectons ce que vous utilisez déjà au lieu de tout reconstruire.' },
-        { title: 'De Suisse', text: 'Nous connaissons le quotidien et les besoins des PME suisses.' },
+        { title: 'Données dans l’UE', text: 'Nous hébergeons chez Hetzner en Allemagne et en Finlande. Vos données restent dans l’UE.' },
       ],
     },
     audience: {
@@ -214,7 +213,7 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
       intro:
         'L’automatisation convient aux PME et indépendants qui perdent trop de temps avec des tâches récurrentes et veulent enfin connecter leurs outils.',
       items: [
-        'PME suisses avec beaucoup d’étapes manuelles',
+        'PME avec beaucoup d’étapes manuelles',
         'Entreprises avec plusieurs outils sans lien',
         'Prestataires avec beaucoup de demandes',
         'Équipes qui veulent garder la vue d’ensemble',
@@ -234,12 +233,11 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
       },
     ],
     links: [
-      { href: '/services/ai-assistants', label: 'Assistants IA', desc: 'Une IA qui lit, trie et répond aux demandes.' },
-      { href: '/services/ai-native', label: 'Marketing Automation', desc: 'Relances et rappels automatiques.' },
-      { href: '/services/ai-native', label: 'Plateformes numériques', desc: 'Tableaux de bord, CRM et portails sur mesure.' },
-      { href: '/website-analyse', label: 'Analyse de site gratuite', desc: 'Voyez où en est votre site.' },
-      { href: '/referenzen', label: 'Références', desc: 'Projets et solutions d’semanu' },
-      { href: '/website-abos', label: 'Abonnements site', desc: 'Site et suivi en abonnement mensuel.' },
+      { href: '/services/ai-native', label: 'Logiciel sur mesure', desc: 'Automatisation, portails, CRM et tableaux de bord au même endroit.' },
+      { href: '/digitalisierung-kmu', label: 'Digitalisation des PME', desc: 'Étape par étape vers des processus numériques.' },
+      { href: '/3d-konfigurator', label: 'Configurateur 3D', desc: 'Configurer et commander des produits en ligne.' },
+      { href: '/referenzen', label: 'Références', desc: 'Projets et solutions de semanu' },
+      { href: '/faq', label: 'FAQ', desc: 'Réponses aux questions fréquentes.' },
       { href: '/kontakt', label: 'Contact', desc: 'Dites ce dont vous avez besoin.' },
     ],
     faq: {
@@ -250,8 +248,8 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
         { q: 'Dois je changer mes outils?', a: 'Non. Nous connectons le plus souvent ce que vous utilisez déjà. Seulement si un outil gêne vraiment, nous proposons une alternative.' },
         { q: 'Est ce utile aussi pour les petites structures?', a: 'Souvent oui. Un seul processus automatisé par semaine fait déjà gagner un temps notable. Nous vérifions honnêtement si l’effort vaut la peine pour vous.' },
         { q: 'Combien de temps dure la mise en place?', a: 'Les processus simples sont souvent prêts en quelques jours. Les automatisations plus grandes sur plusieurs outils prennent un peu plus de temps et avancent étape par étape.' },
-        { q: 'Combien coûte l’automatisation des workflows?', a: 'Cela dépend du nombre et de la complexité des processus. Après un court entretien vous recevez sur demande une offre écrite claire, selon le périmètre.' },
-        { q: 'Qu’est ce que l’automatisation des processus pour PME?', a: 'Cela signifie qu’un processus récurrent comme les validations, l’onboarding ou l’envoi de factures tourne automatiquement. Cela se fait avec les outils que vous utilisez déjà. Nous commençons par un processus et élargissons étape par étape, sans grand projet informatique.' },
+        { q: 'Combien coûte l’automatisation des workflows?', a: 'Cela dépend du nombre et de la complexité des processus. Le prix est sur demande: après un court entretien vous recevez une offre écrite claire, selon le périmètre.' },
+        { q: 'Qu’est ce que l’automatisation des processus pour PME?', a: 'Cela signifie qu’un processus récurrent comme les validations, l’onboarding ou l’envoi de factures tourne automatiquement. Cela se fait avec les outils que vous utilisez déjà. Nous commençons par un processus et élargissons étape par étape. Aucun grand projet informatique n’est nécessaire.' },
         { q: 'Automatisation avec IA: que fait l’IA et que fait l’humain?', a: 'L’IA prend en charge la lecture, le tri et la préparation: trier les emails, reprendre les données des documents, rédiger des ébauches de réponse. Les décisions, les validations et le contact client personnel restent dans votre équipe. Chaque étape est traçable et peut être ajustée.' },
       ],
     },
@@ -262,11 +260,11 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
   },
 
   en: {
-    title: 'Workflow automation for Swiss SMEs · automate processes and save time',
+    title: 'Workflow automation for SMEs · automate processes and save time',
     description:
-      'Workflow automation for Swiss SMEs. We connect your tools and automate manual tasks. Less handwork and fewer errors, more time for your core business.',
+      'Workflow automation for SMEs in Europe. We connect your tools and automate manual tasks. Less handwork and fewer errors, more time for your core business.',
     eyebrow: 'Workflow automation · for SMEs',
-    h1: 'Workflow automation for Swiss SMEs',
+    h1: 'Workflow automation for SMEs',
     intro:
       'Many SMEs lose time every day to manual tasks. Copying data by hand, creating documents and remembering handovers. We connect your tools and automate recurring processes, from internal administration to customer contact. You save time and reduce errors, without anything falling through the cracks.',
     heroBullets: [
@@ -321,22 +319,22 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
     pricing: {
       heading: 'What does workflow automation cost?',
       intro:
-        'The price depends on how many processes we connect and how complex they are. For marketing automation and larger automations across your tools you receive a clear written quote on request, usually after a short conversation. We only recommend what truly saves you time.',
-      note: 'All prices excl. VAT. We set the scope and the price together after a short conversation.',
+        'The price depends on how many processes we connect and how complex they are. Whether marketing automation or larger automations across your tools: the price is on request as a clear written quote, usually after a short conversation. We only recommend what truly saves you time.',
+      note: 'Prices on request, all prices in EUR excl. VAT. We set the scope and the price together after a short conversation.',
       cta: { label: 'Book a conversation', href: '/kontakt' },
       cards: [],
     },
     reasons: {
       heading: 'Why workflow automation from semanu?',
       entitySentence:
-        'semanu is an AI native digital company from Bern for Swiss SMEs. We connect your tools and automate manual processes, from internal administration to customer contact.',
+        'semanu is an AI native digital company from Antwerp working for SMEs across Europe. We connect your tools and automate manual processes, from internal administration to customer contact.',
       items: [
         { title: 'Honest advice', text: 'We only automate where it pays off and tell you openly.' },
-        { title: 'One partner for everything', text: 'Website, tools and automation come from one place.' },
+        { title: 'All from one place', text: 'Software, integrations and automation are built by us in one place.' },
         { title: 'AI native', text: 'We use modern tech where it brings you real value.' },
         { title: 'Explained clearly', text: 'You always understand what runs automatically and why.' },
         { title: 'Your tools stay', text: 'We connect what you already use instead of rebuilding everything.' },
-        { title: 'From Switzerland', text: 'We know the daily work and the needs of Swiss SMEs.' },
+        { title: 'Data in the EU', text: 'We host at Hetzner in Germany and Finland. Your data stays in the EU.' },
       ],
     },
     audience: {
@@ -344,7 +342,7 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
       intro:
         'Automation fits SMEs and self employed people who lose too much time to recurring tasks and finally want to connect their tools.',
       items: [
-        'Swiss SMEs with many manual steps',
+        'SMEs with many manual steps',
         'Businesses with several disconnected tools',
         'Service providers with many requests',
         'Teams that want to keep the overview',
@@ -364,12 +362,11 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
       },
     ],
     links: [
-      { href: '/services/ai-assistants', label: 'AI assistants', desc: 'AI that reads, sorts and answers requests.' },
-      { href: '/services/ai-native', label: 'Marketing automation', desc: 'Follow ups and reminders on autopilot.' },
-      { href: '/services/ai-native', label: 'Digital platforms', desc: 'Dashboards, CRM and portals to measure.' },
-      { href: '/website-analyse', label: 'Free website analysis', desc: 'See where your website stands.' },
+      { href: '/services/ai-native', label: 'Custom business software', desc: 'Automation, portals, CRM and dashboards from one place.' },
+      { href: '/digitalisierung-kmu', label: 'Digitalisation for SMEs', desc: 'Step by step towards digital processes.' },
+      { href: '/3d-konfigurator', label: '3D configurator', desc: 'Configure and order products online.' },
       { href: '/referenzen', label: 'References', desc: 'Projects and solutions by semanu' },
-      { href: '/website-abos', label: 'Website subscriptions', desc: 'Website and support on a monthly plan.' },
+      { href: '/faq', label: 'FAQ', desc: 'Answers to frequently asked questions.' },
       { href: '/kontakt', label: 'Contact', desc: 'Tell us what you need.' },
     ],
     faq: {
@@ -380,8 +377,8 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
         { q: 'Do I have to switch my tools?', a: 'No. We mostly connect what you already use. Only if a tool really gets in the way do we suggest an alternative.' },
         { q: 'Is it worth it for small businesses too?', a: 'Often yes. Even one automated flow per week saves noticeable time. We check honestly whether the effort pays off for you.' },
         { q: 'How long does the build take?', a: 'Simple flows are often ready in a few days. Larger automations across several tools take a bit longer and run step by step.' },
-        { q: 'What does workflow automation cost?', a: 'It depends on the number and complexity of the processes. After a short conversation you receive a clear written quote on request, depending on the scope.' },
-        { q: 'What is process automation for SMEs?', a: 'It means a recurring flow such as approvals, onboarding or sending invoices runs automatically. That happens with the tools you already use. We start with one process and extend step by step, without a big IT project.' },
+        { q: 'What does workflow automation cost?', a: 'It depends on the number and complexity of the processes. The price is on request: after a short conversation you receive a clear written quote, depending on the scope.' },
+        { q: 'What is process automation for SMEs?', a: 'It means a recurring flow such as approvals, onboarding or sending invoices runs automatically. That happens with the tools you already use. We start with one process and extend step by step. No big IT project is needed.' },
         { q: 'Automation with AI: what does the AI do and what does the person do?', a: 'AI takes over reading, sorting and preparing: sorting emails, taking details from documents, drafting replies. Decisions, approvals and personal customer contact stay with your team. Every step is traceable and can be adjusted.' },
       ],
     },

@@ -1,5 +1,4 @@
-// schema.org areaServed for the organization and its services: one list so the
-// Organization and Service JSON-LD stay consistent. SEMANU BV is based in
-// Antwerp (BE) and serves the EU plus Switzerland. Country landing pages
-// (*-schweiz) set their own areaServed.
-export const AREA_SERVED = ['BE', 'NL', 'DE', 'FR', 'CH', 'EU'];
+// schema.org areaServed for the organization, its services and the landing
+// pages: one list so all JSON-LD stays consistent. SEMANU BV is based in
+// Antwerp (BE) and works across Europe; the copy is country-neutral.
+export const AREA_SERVED = ['BE', 'NL', 'DE', 'FR', 'EU'];

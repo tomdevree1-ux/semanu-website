@@ -80,9 +80,10 @@ const nextConfig = {
   },
   async redirects() {
     // Services restructured (2026-10): the AI-native business-software page
-    // (/services/ai-native) replaced Workflowautomatisering and Maatwerksoftware.
-    // Remaining services: 3D-configuratoren, AI-native bedrijfssoftware, Consultancy.
-    // Retired/renamed service URLs 301 to the nearest match.
+    // (/services/ai-native) replaced Workflowautomatisering and Maatwerksoftware;
+    // Consultancy was dropped as a service. Remaining services: 3D-configuratoren
+    // and AI-native bedrijfssoftware. Retired/renamed service URLs 301 to the
+    // nearest match (always the final target, no redirect chains).
     const moved = [
       // folded into AI-native business software
       ['workflow-automation', 'ai-native'],
@@ -92,9 +93,37 @@ const nextConfig = {
       ['websites', 'ai-native'],
       ['crm', 'ai-native'],
       ['customer-portals', 'ai-native'],
-      // advice-oriented retired services
-      ['ai-assistants', 'consultancy'],
-      ['booking-appointment', 'consultancy'],
+      // advice-oriented retired services (consultancy itself was retired too)
+      ['consultancy', 'ai-native'],
+      ['ai-assistants', 'ai-native'],
+      ['booking-appointment', 'ai-native'],
+    ];
+    // Landing pages (2026-10): the copy went country-neutral (Europe), so the
+    // *-schweiz slugs got neutral slugs, and the pages for services no longer
+    // offered (websites, website subscriptions, SEO/GEO packages) were removed.
+    const landingMoved = [
+      ['3d-konfigurator-schweiz', '/3d-konfigurator'],
+      ['workflow-automatisierung-schweiz', '/workflow-automatisierung'],
+      ['digitalisierung-kmu-schweiz', '/digitalisierung-kmu'],
+      ['geo-schweiz', '/blog/von-ki-gefunden-werden'],
+      ['website-abo-schweiz', ''],
+      ['webdesign-kmu-schweiz', ''],
+      ['website-erstellen-lassen-schweiz', ''],
+      ['website-betreuung-schweiz', ''],
+      ['website-fuer-selbstaendige', ''],
+      ['website-fuer-lokale-unternehmen', ''],
+      ['seo-basis-fuer-kmu', ''],
+    ];
+    // Switzerland-only blog posts (the Swiss SME website study and its spin-offs,
+    // the revDSG check, the Röstigraben post) were removed: 301 to the blog index.
+    const blogRemoved = [
+      'kmu-website-studie-schweiz',
+      'kmu-ai-sichtbarkeit-schweiz',
+      'kmu-website-conversion-schweiz',
+      'branchen-website-vergleich-schweiz',
+      'bern-vs-zuerich-website-vergleich',
+      'revdsg-datenschutz-check',
+      'website-beidseits-roestigraben',
     ];
     return [
       ...moved.map(([from, to]) => ({
@@ -102,10 +131,21 @@ const nextConfig = {
         destination: `/:locale/services/${to}`,
         permanent: true,
       })),
-      // Email marketing is no longer a standalone service: send it to the services hub.
+      ...landingMoved.map(([from, to]) => ({
+        source: `/:locale(de|fr|en|es|nl)/${from}`,
+        destination: `/:locale${to}`,
+        permanent: true,
+      })),
+      ...blogRemoved.map((slug) => ({
+        source: `/:locale(de|fr|en|es|nl)/blog/${slug}`,
+        destination: '/:locale/blog',
+        permanent: true,
+      })),
+      // Email marketing is no longer a standalone service: send it home (the
+      // services hub itself 301s home, so go there directly).
       {
         source: '/:locale(de|fr|en|es|nl)/services/email-marketing',
-        destination: '/:locale/services',
+        destination: '/:locale',
         permanent: true,
       },
       // Retired self-serve checkout/payment URLs: send to the contact page.

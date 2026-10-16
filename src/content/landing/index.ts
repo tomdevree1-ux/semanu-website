@@ -1,34 +1,19 @@
 import type { LandingLocale, LandingLocales } from './types';
-import { digitalisierungKmuSchweiz } from './digitalisierung-kmu-schweiz';
-import { websiteAboSchweiz } from './website-abo-schweiz';
-import { webdesignKmuSchweiz } from './webdesign-kmu-schweiz';
-import { websiteErstellenLassenSchweiz } from './website-erstellen-lassen-schweiz';
-import { websiteBetreuungSchweiz } from './website-betreuung-schweiz';
-import { websiteFuerSelbstaendige } from './website-fuer-selbstaendige';
-import { websiteFuerLokaleUnternehmen } from './website-fuer-lokale-unternehmen';
-import { seoBasisFuerKmu } from './seo-basis-fuer-kmu';
-import { geoSchweiz } from './geo-schweiz';
-import { workflowAutomatisierungSchweiz } from './workflow-automatisierung-schweiz';
-import { konfiguratorSchweiz } from './3d-konfigurator-schweiz';
+import { digitalisierungKmu } from './digitalisierung-kmu';
+import { workflowAutomatisierung } from './workflow-automatisierung';
+import { konfigurator3d } from './3d-konfigurator';
 
 /**
  * Registry of SEO landing pages. Adding an entry here automatically wires the
  * dynamic route ([landing]) and the sitemap. Each slug exists in all locales
  * (shared slug, translated content) so canonical + hreflang work as for every
- * other page.
+ * other page. Since 2026-10 the pages are country-neutral (Europe); the former
+ * country slugs and the retired website/SEO pages 301 in next.config.mjs.
  */
 export const LANDING: Record<string, LandingLocales> = {
-  'digitalisierung-kmu-schweiz': digitalisierungKmuSchweiz,
-  'website-abo-schweiz': websiteAboSchweiz,
-  'webdesign-kmu-schweiz': webdesignKmuSchweiz,
-  'website-erstellen-lassen-schweiz': websiteErstellenLassenSchweiz,
-  'website-betreuung-schweiz': websiteBetreuungSchweiz,
-  'website-fuer-selbstaendige': websiteFuerSelbstaendige,
-  'website-fuer-lokale-unternehmen': websiteFuerLokaleUnternehmen,
-  'seo-basis-fuer-kmu': seoBasisFuerKmu,
-  'geo-schweiz': geoSchweiz,
-  'workflow-automatisierung-schweiz': workflowAutomatisierungSchweiz,
-  '3d-konfigurator-schweiz': konfiguratorSchweiz,
+  'digitalisierung-kmu': digitalisierungKmu,
+  'workflow-automatisierung': workflowAutomatisierung,
+  '3d-konfigurator': konfigurator3d,
 };
 
 export const LANDING_SLUGS = Object.keys(LANDING);
