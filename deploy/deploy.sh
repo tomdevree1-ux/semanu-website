@@ -106,7 +106,9 @@ deploy() {
     [ -d \"\$S/node_modules/@img\" ] && cp -a \"\$S/node_modules/@img\" \"\$REL/node_modules/@img\"
     rm -rf \"\$S\"
     chown -R root:root \"\$REL\" && chmod -R u=rwX,go=rX \"\$REL\"
-    install -d -o semanu-web -g semanu-web \"\$REL/.next/cache\"
+    # Image cache shared across releases, so a deploy does not throw away the optimized images.
+    install -d -o semanu-web -g semanu-web $BASE/cache
+    rm -rf \"\$REL/.next/cache\" && ln -sfn $BASE/cache \"\$REL/.next/cache\"
     ln -sfn \"\$REL\" $BASE/current
     systemctl restart $SERVICE
     for i in \$(seq 1 30); do
@@ -120,6 +122,11 @@ deploy() {
       echo \"WARNING: port $PORT listens on a non-loopback address; install the current systemd unit (HOSTNAME=localhost)\"
     fi
     cd $BASE/releases && ls -1 | sort | head -n -3 | xargs -r rm -rf
+    # Warm the image cache for the heaviest pages in the background, so the first visitor does not wait.
+    ( for p in /nl /nl/services/3d-configurators /nl/referenzen /en /de; do
+        curl -s http://127.0.0.1:$PORT\$p | grep -o '/_next/image?url=[^\" ]*' | sed 's/&amp;/\&/g' | sort -u | head -n 60 |
+          while read -r u; do curl -s -o /dev/null -H 'Accept: image/webp' \"http://127.0.0.1:$PORT\$u\"; done
+      done ) </dev/null >/dev/null 2>&1 &
     echo \"OK: $rel is active\""
 
   echo "Live on $URL (release $rel)"

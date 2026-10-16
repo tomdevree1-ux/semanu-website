@@ -384,9 +384,9 @@ const nl: DetailMap = {
       intro:
         'Geen vrijblijvend speeltje: elke configuratie levert meteen de documenten die uw proces nodig heeft. Een prijsofferte voor de klant, een technische tekening voor de werkvoorbereiding en een stuklijst voor inkoop of ERP. Andere exports zijn ook mogelijk, zoals snijbestanden voor CNC-machines of aansturingsdata voor productieapparatuur. Dit is de brug van verkoop naar productie.',
       docs: [
-        { label: 'PRIJSOFFERTE · PDF', img: '/configurator-exports/offerte.png', alt: 'Voorbeeld van een prijsofferte als PDF uit de configurator', caption: 'Een prijsofferte voor de klant, klaar om te versturen.' },
-        { label: 'TECHNISCHE TEKENING · PDF', img: '/configurator-exports/tekening.png', alt: 'Voorbeeld van een technische tekening als PDF uit de configurator', caption: 'Voor de werkvoorbereiding, zonder tekenkamer.' },
-        { label: 'STUKLIJST · BOM', img: '/configurator-exports/stuklijst.png', alt: 'Voorbeeld van een stuklijst of bill of materials uit de configurator', caption: 'Klaar voor inkoop of ERP.' },
+        { label: 'PRIJSOFFERTE · PDF', img: '/configurator-exports/offerte.jpg', alt: 'Voorbeeld van een prijsofferte als PDF uit de configurator', caption: 'Een prijsofferte voor de klant, klaar om te versturen.' },
+        { label: 'TECHNISCHE TEKENING · PDF', img: '/configurator-exports/tekening.jpg', alt: 'Voorbeeld van een technische tekening als PDF uit de configurator', caption: 'Voor de werkvoorbereiding, zonder tekenkamer.' },
+        { label: 'STUKLIJST · BOM', img: '/configurator-exports/stuklijst.jpg', alt: 'Voorbeeld van een stuklijst of bill of materials uit de configurator', caption: 'Klaar voor inkoop of ERP.' },
       ],
     },
     integrations: {

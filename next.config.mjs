@@ -55,7 +55,9 @@ const nextConfig = {
   poweredByHeader: false,
   // Serve modern formats for every next/image (the portfolio PNGs are heavy
   // sources; AVIF/WebP variants are generated and cached at request time).
-  images: { formats: ['image/avif', 'image/webp'] },
+  // WebP only: AVIF encoding is several times slower on the small Hetzner server and
+  // made the first view of each image noticeably slow. Optimized images are cached for a year.
+  images: { formats: ['image/webp'], minimumCacheTTL: 31536000 },
   // Linting runs as a dedicated CI/dev step (`npm run lint`) so a stray style
   // rule never blocks a production build. TypeScript errors still fail builds.
   eslint: { ignoreDuringBuilds: true },

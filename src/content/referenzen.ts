@@ -507,6 +507,6 @@ export type RefImage = { src: string; alt: string };
 export const REF_IMAGES: Record<string, RefImage[]> = {
   Poortland: [{ src: '/portfolio/poortland-mockup.jpg', alt: 'Poortland website on a laptop' }],
   'semanu interactieve kiosk': [{ src: '/portfolio/kastenconfigurator-kiosk.jpg', alt: 'Kastenconfigurator op een kiosk in een showroom' }],
-  SEMANU: [{ src: '/portfolio/semanu-website.png', alt: 'SEMANU public website, homepage with the business analysis pitch' }],
-  '3D Configurator': [{ src: '/portfolio/configurator.png', alt: '3D configurator for made to measure aluminium plates' }],
+  SEMANU: [{ src: '/portfolio/semanu-website.jpg', alt: 'SEMANU public website, homepage with the business analysis pitch' }],
+  '3D Configurator': [{ src: '/portfolio/configurator.jpg', alt: '3D configurator for made to measure aluminium plates' }],
 };
