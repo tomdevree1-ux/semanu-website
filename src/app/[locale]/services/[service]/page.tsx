@@ -6,6 +6,7 @@ import { BrandText } from '@/components/BrandText';
 import { JsonLd } from '@/components/JsonLd';
 import { SERVICE_SLUGS, serviceBySlug, type ServicesLocale } from '@/content/services';
 import { getServiceDetail } from '@/content/serviceDetail';
+import { AREA_SERVED } from '@/lib/seo/area-served';
 import { ServiceFlow } from '@/components/services/ServiceFlow';
 import { env } from '@/lib/env';
 import { pageMetadata } from '@/lib/seo/metadata';
@@ -80,7 +81,7 @@ export default async function ServicePage({
     description: detail.metaDescription,
     serviceType: s.title,
     provider: { '@id': `${env.siteUrl}/#organization` },
-    areaServed: 'CH',
+    areaServed: AREA_SERVED,
     url: `${env.siteUrl}/${locale}/services/${service}`,
   };
   const faqLd = {

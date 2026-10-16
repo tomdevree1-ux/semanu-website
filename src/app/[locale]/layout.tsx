@@ -10,6 +10,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { WhatsAppButton } from '@/components/WhatsAppButton';
 import { CONTACT_EMAIL, PHONE_E164 } from '@/lib/contact';
 import { env } from '@/lib/env';
+import { AREA_SERVED } from '@/lib/seo/area-served';
 import '../globals.css';
 
 // Self-hosted at build time by next/font; exposed as CSS vars used in globals.css @theme.
@@ -144,7 +145,7 @@ export default async function LocaleLayout({
       'SEMANU is a digital partner from Antwerp, Belgium: 3D product configurators and custom business software, built AI-first, including design, build, hosting and ongoing support.',
     email: CONTACT_EMAIL,
     telephone: PHONE_E164,
-    areaServed: ['BE', 'NL', 'DE', 'FR', 'CH', 'EU'],
+    areaServed: AREA_SERVED,
     knowsAbout: [
       '3D Product Configurators',
       'Custom Business Software',

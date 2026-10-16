@@ -10,10 +10,13 @@ import { FinalCTA } from '@/components/services/blocks';
 import { TrackedLink } from '@/components/TrackedLink';
 import { pageMetadata } from '@/lib/seo/metadata';
 import { env } from '@/lib/env';
+import { getAiNativeFaq } from '@/content/aiNativeFaq';
+import { AREA_SERVED } from '@/lib/seo/area-served';
 
 // AI-native bedrijfssoftware — dedicated service page. Same visual language as the
 // 3D-configurators page (fonts, colours, rounded corners, cards, dark blocks).
 // Authored NL-first; the body copy is shown in every locale until translated.
+// The FAQ is localized per locale in src/content/aiNativeFaq.ts.
 const AI = {
   metaTitle: 'Bedrijfssoftware op maat & AI-native software · semanu.eu',
   metaDescription:
@@ -63,41 +66,6 @@ const AI = {
   confText:
     'Onze 3D-configuratoren kunnen het vertrekpunt vormen van een geïntegreerd bedrijfsproces. Van productconfiguratie en offerte tot werkvoorbereiding, productie en levering. Met aanvullende modules groeit de configurator uit tot een centrale schakel binnen uw onderneming.',
   confCta: 'Ontdek onze 3D-configuratoren',
-  faqTitle: 'Veelgestelde vragen over bedrijfssoftware op maat',
-  faq: [
-    {
-      q: 'Was ist AI-native Unternehmenssoftware?',
-      a: 'AI-native Unternehmenssoftware ist eine Software, bei der künstliche Intelligenz von Anfang an mitgedacht wird. Sie unterstützt Unternehmen dabei, Geschäftsprozesse zu automatisieren, Daten intelligent zu verarbeiten und wiederkehrende Aufgaben zu reduzieren. Bei semanu kombinieren wir diesen Ansatz mit einer AI-first Entwicklungsmethode. So entsteht massgeschneiderte Software, die genau auf Ihre Geschäftsprozesse abgestimmt ist.',
-    },
-    {
-      q: 'Was kostet die Entwicklung einer individuellen Unternehmenssoftware?',
-      a: 'Die Kosten hängen vom Funktionsumfang, der Komplexität und den benötigten Integrationen ab. Dank unserer AI-first Entwicklungsmethode können wir massgeschneiderte Software effizienter entwickeln. Sie müssen nicht direkt in eine komplette Plattform investieren, sondern können mit einer einzelnen Funktion starten und diese schrittweise erweitern. In einem ersten Gespräch klären wir Ihre Anforderungen und erstellen eine passende Offerte.',
-    },
-    {
-      q: 'Wie lange dauert die Entwicklung einer individuellen Software?',
-      a: 'Die Entwicklungsdauer hängt vom Umfang und der Komplexität Ihres Projekts ab. Eine einzelne Funktion oder ein überschaubares Modul lässt sich in der Regel schneller umsetzen als eine vollständige Unternehmensplattform. Durch den gezielten Einsatz von KI im Entwicklungsprozess können wir viele Arbeitsschritte beschleunigen. Gemeinsam definieren wir die wichtigsten Funktionen und einen realistischen Zeitplan.',
-    },
-    {
-      q: 'Kann die Software mit unserem bestehenden ERP oder CRM verbunden werden?',
-      a: 'Ja. Unsere massgeschneiderte Unternehmenssoftware kann mit bestehenden ERP-, CRM- und Produktionssystemen verbunden werden, sofern entsprechende Schnittstellen verfügbar sind. Dadurch können Informationen automatisch zwischen verschiedenen Systemen ausgetauscht werden. Das reduziert manuelle Dateneingaben, verhindert doppelte Arbeit und sorgt für effizientere Geschäftsprozesse.',
-    },
-    {
-      q: 'Müssen wir unsere bestehende Software ersetzen?',
-      a: 'Nein. Sie müssen Ihre bestehenden Systeme nicht vollständig ersetzen. Wir können gezielt einzelne Prozesse digitalisieren und neue Funktionen entwickeln, die Ihre aktuelle Software ergänzen. Bestehende ERP-, CRM- oder andere Unternehmenssysteme können dabei weiterhin genutzt werden. So verbessern Sie Ihre Abläufe schrittweise, ohne Ihre gesamte IT-Infrastruktur umstellen zu müssen.',
-    },
-    {
-      q: 'Können wir mit einer einzelnen Funktion starten und später erweitern?',
-      a: 'Ja. Unsere Unternehmenssoftware ist modular aufgebaut. Sie können beispielsweise mit einer Lösung für die Offertenerstellung, Zeiterfassung oder Produktionsplanung beginnen. Wenn Ihr Unternehmen wächst oder neue Anforderungen entstehen, lassen sich weitere Module ergänzen. So investieren Sie nur in die Funktionen, die Sie tatsächlich benötigen, und behalten die Kosten unter Kontrolle.',
-    },
-    {
-      q: 'Welche Geschäftsprozesse lassen sich mit KI automatisieren?',
-      a: 'KI kann zahlreiche wiederkehrende Aufgaben in Ihrem Unternehmen unterstützen oder automatisieren. Dazu gehören beispielsweise die Verarbeitung von Kundenanfragen, die Erstellung von Offerten, die Auswertung von Dokumenten oder die Aufbereitung von Produktionsdaten. Welche Prozesse sich sinnvoll automatisieren lassen, hängt von Ihren bestehenden Abläufen ab. Wir analysieren gemeinsam, wo KI den grössten Mehrwert bietet.',
-    },
-    {
-      q: 'Wem gehört die entwickelte Software und der Quellcode?',
-      a: 'Bei semanu werden Sie Eigentümer Ihrer individuell entwickelten Unternehmenssoftware, einschliesslich des Quellcodes. Dadurch behalten Sie die Kontrolle über Ihre Lösung und sind nicht dauerhaft an einen einzelnen Anbieter gebunden. Sie können Ihre Software langfristig weiterentwickeln, anpassen oder durch andere Entwickler betreuen lassen. Wir setzen auf transparente Zusammenarbeit und langfristige Flexibilität.',
-    },
-  ],
   finalTitle: 'Bespreek uw softwareproject.',
   finalText:
     'Vertel ons welke processen u wilt digitaliseren. Wij bekijken hoe maatwerksoftware en AI uw onderneming kunnen versterken.',
@@ -133,6 +101,7 @@ export default async function AiNativePage({
   const { locale } = await params;
   setRequestLocale(locale);
   const navServicesLabel = (await getTranslations('nav'))('services');
+  const faq = getAiNativeFaq(locale);
 
   const url = `${env.siteUrl}/${locale}/services/ai-native`;
   const breadcrumbLd = {
@@ -151,13 +120,13 @@ export default async function AiNativePage({
     description: AI.metaDescription,
     serviceType: 'Bedrijfssoftware op maat',
     provider: { '@id': `${env.siteUrl}/#organization` },
-    areaServed: 'CH',
+    areaServed: AREA_SERVED,
     url,
   };
   const faqLd = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: AI.faq.map((f) => ({
+    mainEntity: faq.items.map((f) => ({
       '@type': 'Question',
       name: f.q,
       acceptedAnswer: { '@type': 'Answer', text: f.a },
@@ -365,9 +334,9 @@ export default async function AiNativePage({
       <section className="bg-paper py-[clamp(72px,11vw,150px)] text-ink">
         <div className="container-site">
           <h2 className="font-display font-semibold tracking-[-0.03em] text-navy text-[clamp(30px,3.6vw,52px)] max-w-[22ch]">
-            {AI.faqTitle}
+            {faq.title}
           </h2>
-          <FaqAccordion items={AI.faq} />
+          <FaqAccordion items={faq.items} />
         </div>
       </section>
 
