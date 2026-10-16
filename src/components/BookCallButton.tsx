@@ -3,11 +3,13 @@
 import { useEffect } from 'react';
 import { getCalApi } from '@calcom/embed-react';
 import { CAL_LINK, CAL_NAMESPACE } from '@/lib/cal';
+import { Link } from '@/i18n/navigation';
 
 /**
  * Opens the cal.com booking popup (in a modal on the site) for the strategy call.
  * Drop-in replacement for the "book a strategy call" CTAs: pass the same `btn …`
- * className and the label as children.
+ * className and the label as children. Without a configured cal.com link it
+ * falls back to a plain link to the contact page.
  */
 export function BookCallButton({
   className,
@@ -17,6 +19,7 @@ export function BookCallButton({
   children: React.ReactNode;
 }) {
   useEffect(() => {
+    if (!CAL_LINK) return;
     (async () => {
       const cal = await getCalApi({ namespace: CAL_NAMESPACE });
       // House palette (Marine + Mint) mapped onto Cal's embed colour tokens.
@@ -45,6 +48,13 @@ export function BookCallButton({
     })();
   }, []);
 
+  if (!CAL_LINK) {
+    return (
+      <Link href="/kontakt" className={className}>
+        {children}
+      </Link>
+    );
+  }
   return (
     <button
       type="button"

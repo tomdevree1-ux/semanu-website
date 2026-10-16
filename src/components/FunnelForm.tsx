@@ -2,23 +2,23 @@
 
 import { useRef, useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
-import { funnelSubmitSchema, type FunnelSubmitInput } from '@/lib/validation';
+import { analysisLeadSchema } from '@/lib/validation';
+import { readAttribution } from '@/lib/attribution';
 import { track } from '@/lib/analytics';
 import { Turnstile } from '@/components/Turnstile';
 
 type Status = 'idle' | 'submitting' | 'success' | 'error' | 'rateLimited';
 type Errors = Partial<Record<string, string>>;
 
-/** Source funnels that can mount this form. Public site ships `website_analysis`; the
- *  others are modelled server side and can reuse this component later. */
-type FunnelSource = FunnelSubmitInput['sourceType'];
+/** Source funnels that can mount this form (only the website analysis today). */
+type FunnelSource = 'website_analysis';
 
 /**
- * Public funnel / lead magnet form (P13). Posts to /api/funnels/submit which hardens the
- * request (rate limit, Turnstile, honeypot) and writes via the service role. The browser
- * never sees a secret and the response never reveals whether a contact already exists, so
- * we always show the same success state on a passing submit. Honeypot field is `companyUrl`
- * (distinct from the real `website`); the privacy consent is required.
+ * Public lead magnet form (website analysis). Posts to /api/leads (formType
+ * 'analysis'), which forwards it server side to the SEMANU edge function
+ * submit-contact; the request lands as a card on the SEMANU leads board. The
+ * honeypot field is `companyUrl` (distinct from the real `website`); the privacy
+ * consent is required.
  */
 export function FunnelForm({ source = 'website_analysis' }: { source?: FunnelSource }) {
   const t = useTranslations('funnel');
@@ -27,9 +27,9 @@ export function FunnelForm({ source = 'website_analysis' }: { source?: FunnelSou
   const [errors, setErrors] = useState<Errors>({});
   const [captchaToken, setCaptchaToken] = useState('');
   const [dismissed, setDismissed] = useState(false);
-  const [alreadyRequested, setAlreadyRequested] = useState(false);
-  const [previousAt, setPreviousAt] = useState<string | null>(null);
   const startedRef = useRef(false);
+  // Render time for the submit-contact time trap (bots submit within 2 s).
+  const [renderedAt] = useState(() => Date.now());
 
   function markStarted() {
     if (startedRef.current) return;
@@ -50,7 +50,7 @@ export function FunnelForm({ source = 'website_analysis' }: { source?: FunnelSou
     const data = new FormData(form);
 
     const payload = {
-      sourceType: source,
+      formType: 'analysis' as const,
       firstName: String(data.get('firstName') ?? ''),
       lastName: String(data.get('lastName') ?? ''),
       email: String(data.get('email') ?? ''),
@@ -59,12 +59,12 @@ export function FunnelForm({ source = 'website_analysis' }: { source?: FunnelSou
       consentMarketing: data.get('consentMarketing') === 'on',
       companyUrl: String(data.get('companyUrl') ?? ''), // honeypot
       turnstileToken: captchaToken || undefined,
-      locale: locale as 'de' | 'fr' | 'en',
-      pagePath: typeof window !== 'undefined' ? window.location.pathname : undefined,
-      referrer: typeof document !== 'undefined' && document.referrer ? document.referrer : undefined,
+      sourceLocale: locale as 'de' | 'fr' | 'en' | 'es' | 'nl',
+      renderedAt,
+      ...readAttribution(),
     };
 
-    const parsed = funnelSubmitSchema.safeParse(payload);
+    const parsed = analysisLeadSchema.safeParse(payload);
     if (!parsed.success) {
       const next: Errors = {};
       for (const issue of parsed.error.issues) {
@@ -77,7 +77,7 @@ export function FunnelForm({ source = 'website_analysis' }: { source?: FunnelSou
 
     setStatus('submitting');
     try {
-      const res = await fetch('/api/funnels/submit', {
+      const res = await fetch('/api/leads', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(parsed.data),
@@ -87,9 +87,6 @@ export function FunnelForm({ source = 'website_analysis' }: { source?: FunnelSou
         return;
       }
       if (!res.ok) throw new Error('request failed');
-      const body = (await res.json().catch(() => ({}))) as { alreadyRequested?: boolean; previousAt?: string | null };
-      setAlreadyRequested(Boolean(body.alreadyRequested));
-      setPreviousAt(body.previousAt ?? null);
       track('funnel_submitted', { source });
       setStatus('success');
       form.reset();
@@ -100,9 +97,8 @@ export function FunnelForm({ source = 'website_analysis' }: { source?: FunnelSou
   }
 
   if (status === 'success') {
-    const title = alreadyRequested ? t('dupTitle') : t('okTitle');
-    const when = previousAt ? new Date(previousAt).toLocaleString(locale, { dateStyle: 'long', timeStyle: 'short' }) : '';
-    const text = alreadyRequested ? t('dupText', { date: when }) : t('okText');
+    const title = t('okTitle');
+    const text = t('okText');
     return (
       <>
         <div role="status" aria-live="polite" className="rounded-lg bg-white p-8 text-ink">

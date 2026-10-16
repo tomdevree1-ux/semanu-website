@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
-import { contactLeadSchema } from '@/lib/validation';
+import { CONTACT_INTERESTS, CONTACT_LANGS, contactLeadSchema } from '@/lib/validation';
 import { readAttribution } from '@/lib/attribution';
 import { serviceLinks, SERVICE_ID_BY_SLUG, type ServicesLocale } from '@/content/services';
 import { CustomSelect } from '@/components/CustomSelect';
@@ -13,9 +13,11 @@ type Status = 'idle' | 'submitting' | 'success' | 'error';
 type Errors = Partial<Record<string, string>>;
 
 /**
- * Contact form — posts to /api/leads (formType: 'contact'). Validates with the
- * shared zod schema and shows localized inline errors (no native bubbles).
- * Includes a honeypot field and passes the active locale as sourceLocale.
+ * Contact form: posts to /api/leads (formType 'contact'), which forwards it to
+ * the SEMANU edge function submit-contact (company + person + card on the leads
+ * board). Validates with the shared zod schema and shows localized inline errors
+ * (no native bubbles). Includes a honeypot field, a render timestamp for the
+ * time trap and passes the active locale as sourceLocale.
  */
 export function ContactForm() {
   const t = useTranslations('form');
@@ -25,6 +27,8 @@ export function ContactForm() {
   const [errors, setErrors] = useState<Errors>({});
   const [captchaToken, setCaptchaToken] = useState('');
   const startedRef = useRef(false);
+  // Render time for the submit-contact time trap (bots submit within 2 s).
+  const [renderedAt] = useState(() => Date.now());
 
   // "What are you interested in?" — options from the shared services list plus
   // "Not sure yet". Preselected from the ?interest= query (set on /services CTAs).
@@ -37,7 +41,6 @@ export function ContactForm() {
   // Pre-checked interests come from the ?interest= query (service page CTAs), else none.
   const [preselect, setPreselect] = useState<string[]>([]);
   const [prefillMessage, setPrefillMessage] = useState('');
-  const [configData, setConfigData] = useState<unknown>(null);
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const raw = params.get('interest');
@@ -51,20 +54,11 @@ export function ContactForm() {
     // lead reaches the dashboard with everything the visitor clicked.
     if (params.get('from') === 'configurator') {
       try {
-        const cfg = sessionStorage.getItem('amai-configurator');
+        const cfg = sessionStorage.getItem('semanu-configurator');
         if (cfg) {
           setPrefillMessage(cfg);
           setPreselect((cur) => (cur.length ? cur : ['3d-configurators']));
-          sessionStorage.removeItem('amai-configurator');
-        }
-        const data = sessionStorage.getItem('amai-configurator-data');
-        if (data) {
-          try {
-            setConfigData(JSON.parse(data));
-          } catch {
-            /* ignore */
-          }
-          sessionStorage.removeItem('amai-configurator-data');
+          sessionStorage.removeItem('semanu-configurator');
         }
       } catch {
         /* ignore */
@@ -101,14 +95,19 @@ export function ContactForm() {
       phone: String(data.get('phone') ?? ''),
       email: String(data.get('email') ?? ''),
       message: String(data.get('message') ?? ''),
-      lang: (String(data.get('lang') ?? 'de') === 'en' ? 'en' : 'de') as 'de' | 'en',
-      interests: data.getAll('interests').map(String),
+      lang: toContactLang(String(data.get('lang') ?? '')),
+      interests: data
+        .getAll('interests')
+        .map(String)
+        .filter((v): v is (typeof CONTACT_INTERESTS)[number] =>
+          (CONTACT_INTERESTS as readonly string[]).includes(v),
+        ),
       consent: data.get('consent') === 'on',
       website: String(data.get('website') ?? ''), // honeypot
-      sourceLocale: locale as 'de' | 'fr' | 'en',
+      sourceLocale: locale as 'de' | 'fr' | 'en' | 'es' | 'nl',
       ...readAttribution(),
       turnstileToken: captchaToken || undefined,
-      config: configData ?? undefined,
+      renderedAt,
     };
 
     const parsed = contactLeadSchema.safeParse(payload);
@@ -212,10 +211,12 @@ export function ContactForm() {
           <CustomSelect
             id="lang"
             name="lang"
-            defaultValue={locale === 'en' ? 'en' : 'de'}
+            defaultValue={toContactLang(locale)}
             options={[
-              { value: 'de', label: 'Deutsch' },
+              { value: 'nl', label: 'Nederlands' },
               { value: 'en', label: 'English' },
+              { value: 'de', label: 'Deutsch' },
+              { value: 'fr', label: 'Français' },
             ]}
           />
         </div>
@@ -268,6 +269,11 @@ export function ContactForm() {
       </button>
     </form>
   );
+}
+
+/** Correspondence language: the site locale when supported, else English. */
+function toContactLang(v: string): (typeof CONTACT_LANGS)[number] {
+  return (CONTACT_LANGS as readonly string[]).includes(v) ? (v as (typeof CONTACT_LANGS)[number]) : 'en';
 }
 
 function fieldClass(hasError: boolean) {

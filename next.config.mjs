@@ -4,31 +4,34 @@ import createNextIntlPlugin from 'next-intl/plugin';
 const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 const isDev = process.env.NODE_ENV !== 'production';
+// Anything other than SITE_ENV=production (acc.semanu.eu, local) is noindex.
+const isLive = process.env.SITE_ENV === 'production';
 
 // Content Security Policy. Permissive enough for what the site actually uses
-// (self, inline styles, GA, Stripe redirect/frames, Google Fonts, data: images).
+// (self, inline styles, GA, Turnstile, cal.com, Google Fonts, data: images).
 // `unsafe-inline` on script-src is the GA init; a nonce-based CSP is a later
-// hardening step. Dev adds `unsafe-eval` + ws for HMR.
+// hardening step. Dev adds `unsafe-eval` + ws for HMR. The contact form talks
+// to Supabase server side only, so the browser needs no Supabase origin.
 const csp = [
   `default-src 'self'`,
   `base-uri 'self'`,
   `object-src 'none'`,
-  // 'self' so amai.ch can embed its own pages (e.g. the table configurator in
+  // 'self' so the site can embed its own pages (e.g. the table configurator in
   // the 3D-configurators hero); external sites still cannot frame the site.
   `frame-ancestors 'self'`,
   `img-src 'self' data: https:`,
   `font-src 'self' data: https://fonts.gstatic.com`,
   `style-src 'self' 'unsafe-inline' https://fonts.googleapis.com`,
-  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ''} https://cdnjs.cloudflare.com https://www.googletagmanager.com https://www.google-analytics.com https://challenges.cloudflare.com https://js.stripe.com https://checkout.stripe.com https://cal.com https://*.cal.com`,
-  `connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.supabase.co https://challenges.cloudflare.com https://api.stripe.com https://checkout.stripe.com https://merchant-ui-api.stripe.com https://cal.com https://*.cal.com${isDev ? ' ws:' : ''}`,
-  `frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://checkout.stripe.com https://challenges.cloudflare.com https://cal.com https://*.cal.com https://www.semanu.be https://semanu.be`,
-  `form-action 'self' https://checkout.stripe.com`,
+  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ''} https://cdnjs.cloudflare.com https://www.googletagmanager.com https://www.google-analytics.com https://challenges.cloudflare.com https://cal.com https://*.cal.com`,
+  `connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://challenges.cloudflare.com https://cal.com https://*.cal.com${isDev ? ' ws:' : ''}`,
+  `frame-src 'self' https://challenges.cloudflare.com https://cal.com https://*.cal.com https://www.semanu.be https://semanu.be`,
+  `form-action 'self'`,
   `upgrade-insecure-requests`,
 ].join('; ');
 
 const securityHeaders = [
   { key: 'Content-Security-Policy', value: csp },
-  { key: 'Strict-Transport-Security', value: 'max-age=63072000; includeSubDomains; preload' },
+  { key: 'Strict-Transport-Security', value: 'max-age=63072000; includeSubDomains' },
   { key: 'X-Content-Type-Options', value: 'nosniff' },
   { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
   { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
@@ -36,17 +39,23 @@ const securityHeaders = [
     key: 'Permissions-Policy',
     value: 'camera=(), microphone=(), geolocation=(), interest-cohort=()',
   },
+  // Staging (acc.semanu.eu) must never be indexed. Caddy sets the same header;
+  // this is the second lock in case the app is reached another way.
+  ...(isLive ? [] : [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }]),
 ];
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  // Self-contained server bundle (.next/standalone) for the Hetzner deploy:
+  // rsync it with .next/static and public, then `node server.js`.
+  output: 'standalone',
+  // The site sits behind Caddy, which compresses responses itself.
+  compress: false,
+  poweredByHeader: false,
   // Serve modern formats for every next/image (the portfolio PNGs are heavy
   // sources; AVIF/WebP variants are generated and cached at request time).
   images: { formats: ['image/avif', 'image/webp'] },
-  // P15: keep @react-pdf/renderer (native-ish deps: fontkit/yoga) out of the bundler;
-  // it is imported only by server-only report PDF rendering.
-  serverExternalPackages: ['@react-pdf/renderer'],
   // Linting runs as a dedicated CI/dev step (`npm run lint`) so a stray style
   // rule never blocks a production build. TypeScript errors still fail builds.
   eslint: { ignoreDuringBuilds: true },
@@ -63,17 +72,6 @@ const nextConfig = {
             key: 'Cache-Control',
             value: 'public, max-age=0, s-maxage=86400, stale-while-revalidate=604800',
           },
-        ],
-      },
-      // Portal pages are per-user + auth-gated — never cache them, and keep them
-      // out of search + AI indexes at the header level too. X-Robots-Tag also
-      // covers non-HTML responses (invoice/quote PDFs, JSON) that an HTML
-      // <meta robots> tag cannot reach.
-      {
-        source: '/app/:path*',
-        headers: [
-          { key: 'Cache-Control', value: 'no-store, max-age=0, must-revalidate' },
-          { key: 'X-Robots-Tag', value: 'noindex, nofollow' },
         ],
       },
     ];
@@ -108,9 +106,7 @@ const nextConfig = {
         destination: '/:locale/services',
         permanent: true,
       },
-      // Public self-serve checkout/payment were removed (Phase 5); CTAs route to
-      // /kontakt now. 301 the retired URLs to the plans page so old indexed or
-      // cached links pass their signal instead of 404ing.
+      // Retired self-serve checkout/payment URLs: send to the contact page.
       {
         source: '/:locale(de|fr|en|es|nl)/checkout',
         destination: '/:locale/kontakt',

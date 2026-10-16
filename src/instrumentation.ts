@@ -13,7 +13,7 @@ export async function register(): Promise<void> {
   if (runtime === 'nodejs' || runtime === 'edge') {
     Sentry.init({
       dsn,
-      environment: process.env.VERCEL_ENV ?? process.env.NODE_ENV,
+      environment: process.env.SITE_ENV ?? process.env.NODE_ENV,
       tracesSampleRate: 0,
       sendDefaultPii: false,
     });

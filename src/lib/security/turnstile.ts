@@ -33,12 +33,14 @@ export function turnstileConfigured(): boolean {
   return !!env.turnstileSecret;
 }
 
-/** Best-effort client IP from proxy headers (Cloudflare/Vercel). */
+/**
+ * Client IP as seen by Caddy. Caddy (without trusted_proxies) discards any
+ * X-Forwarded-For the visitor sends and sets it to the real remote address, so
+ * the last entry is the trustworthy one. Client-controlled headers such as
+ * cf-connecting-ip are deliberately ignored: there is no Cloudflare in front.
+ */
 export function clientIp(req: Request): string {
-  return (
-    req.headers.get('cf-connecting-ip') ??
-    req.headers.get('x-forwarded-for')?.split(',')[0] ??
-    req.headers.get('x-real-ip') ??
-    'unknown'
-  ).trim();
+  const xff = req.headers.get('x-forwarded-for');
+  const last = xff?.split(',').pop()?.trim();
+  return last || 'unknown';
 }
