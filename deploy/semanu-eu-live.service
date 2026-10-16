@@ -12,7 +12,10 @@ ExecStart=/usr/bin/node server.js
 Environment=NODE_ENV=production
 Environment=SITE_ENV=production
 Environment=PORT=3000
-Environment=HOSTNAME=127.0.0.1
+# 0.0.0.0, not 127.0.0.1: with 127.0.0.1 Next.js treats the locale rewrites of the
+# i18n middleware as external and the pages hang. The port is not reachable from
+# outside: ufw only allows 22, 80 and 443 (plus the Hetzner firewall).
+Environment=HOSTNAME=0.0.0.0
 Environment=NEXT_TELEMETRY_DISABLED=1
 # Runtime settings (SEMANU_SUPABASE_ANON_KEY, TURNSTILE_SECRET_KEY, ...), filled by Tom on the server.
 EnvironmentFile=/etc/semanu-eu/live.env
