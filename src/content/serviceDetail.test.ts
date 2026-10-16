@@ -3,15 +3,15 @@ import { SERVICE_SLUGS, serviceBySlug } from '@/content/services';
 import { FLOW_BY_ID, getServiceDetail } from '@/content/serviceDetail';
 
 const LOCALES = ['en', 'de', 'fr', 'es', 'nl'] as const;
-const IDS = ['consultancy', 'marketing-automation', 'business-systems', '3d-configurators'];
+const IDS = ['marketing-automation', 'business-systems', '3d-configurators'];
 // Services that render the Flow 3 "hub" signature (centre + >=5 module labels).
 const HUB_IDS = ['business-systems'];
 
 describe('service pages data completeness', () => {
   it('flow map + slugs cover all services', () => {
-    // Since the 2026-10 restructure only 3D configurators and consultancy are
-    // routed through /services/[service]; the rest 301 to /services/ai-native.
-    expect([...SERVICE_SLUGS].sort()).toEqual(['3d-configurators', 'consultancy']);
+    // Since the 2026-10 restructure only 3D configurators is routed through
+    // /services/[service]; consultancy and the rest 301 to /services/ai-native.
+    expect([...SERVICE_SLUGS].sort()).toEqual(['3d-configurators']);
     for (const id of IDS) expect(FLOW_BY_ID[id]).toBeTruthy();
   });
   for (const loc of LOCALES) {

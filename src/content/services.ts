@@ -1,9 +1,9 @@
 // Content for the Services page (/services) and the Services mega menu.
-// Restructured 2026-10 to four services: Consultancy, Workflowautomatisering,
-// Maatwerksoftware and 3D-configuratoren. Authored NL-first, then translated to
-// EN/DE/FR/ES (2026-10). English is the source for the translations; NL stays
-// as the original. House style (every language): no dashes, no comma before a
-// coordinating conjunction, Swiss ss (never ß) in German. The literal "semanu" is
+// Restructured 2026-10: the public services are 3D-configuratoren and AI-native
+// bedrijfssoftware (/services/ai-native, which absorbed Workflowautomatisering and
+// Maatwerksoftware); Consultancy was dropped. Authored NL-first, then translated
+// to EN/DE/FR/ES. House style (every language): no dashes, no comma before a
+// coordinating conjunction, standard German spelling (ß) in German. The literal "semanu" is
 // the brand marker rendered as the styled "semanu" wordmark by BrandText.
 
 export type ServicesLocale = 'de' | 'fr' | 'en' | 'es' | 'nl';
@@ -84,7 +84,6 @@ export type ServicesContent = {
 };
 
 const HREF = {
-  consultancy: '/kontakt?interest=consultancy',
   automation: '/kontakt?interest=workflow-automation',
   systems: '/kontakt?interest=maatwerksoftware',
   configurator: '/kontakt?interest=3d-configurators',
@@ -94,19 +93,19 @@ const HREF = {
  *  previous structure; only business-systems moved to the maatwerksoftware slug. */
 export const SERVICE_SLUG: Record<string, string> = {
   '3d-configurators': '3d-configurators',
-  consultancy: 'consultancy',
 };
 /** Canonical display order (menu, ecosystem, overview, sitemap). The AI-native
  *  business-software page replaced the former Workflowautomatisering and
- *  Maatwerksoftware services (2026-10); those URLs 301 to /services/ai-native. */
-export const SERVICE_ORDER = ['3d-configurators', 'ai-native', 'consultancy'] as const;
+ *  Maatwerksoftware services (2026-10); those URLs 301 to /services/ai-native.
+ *  Consultancy is no longer offered (2026-10); /services/consultancy 301s too. */
+export const SERVICE_ORDER = ['3d-configurators', 'ai-native'] as const;
 
 /** Nav/overview label + one-liner for the AI-native page (its own page is custom
  *  and does not go through the [service] system). NL authored; EN/DE/FR/ES short. */
 export const AI_NATIVE_NAV: Record<ServicesLocale, { title: string; short: string }> = {
   nl: { title: 'Bedrijfssoftware', short: 'Software op maat die uw processen verbindt en automatiseert.' },
   en: { title: 'Business software', short: 'Custom software that connects and automates your processes.' },
-  de: { title: 'Unternehmenssoftware', short: 'Massgeschneiderte Software, die Ihre Prozesse verbindet und automatisiert.' },
+  de: { title: 'Unternehmenssoftware', short: 'Maßgeschneiderte Software, die Ihre Prozesse verbindet und automatisiert.' },
   fr: { title: 'Logiciel d’entreprise', short: 'Logiciel sur mesure qui relie et automatise vos processus.' },
   es: { title: 'Software empresarial', short: 'Software a medida que conecta y automatiza sus procesos.' },
 };
@@ -119,29 +118,12 @@ export const SERVICE_SLUGS = Object.values(SERVICE_SLUG);
 // ─────────────────────────────── EN (source) ───────────────────────────────
 const enServices: Service[] = [
   {
-    id: 'consultancy',
-    icon: 'audit',
-    title: 'Consultancy',
-    short: 'Decide what to digitalise and where AI adds value.',
-    description:
-      'Independent advice on digitalisation and AI. We analyse your processes and deliver a clear roadmap with priorities.',
-    explainerTitle: 'What is digital consultancy?',
-    explainerText:
-      'Independent advice on how to improve your processes and software with technology. The result is a plan, not software right away.',
-    audience: ['business owners', 'CEOs', 'operations managers', 'digital leads'],
-    builds: ['Process analysis', 'Digital strategy', 'AI advice', 'Technology choice', 'Digital roadmap'],
-    benefits: ['Well founded choices', 'Priorities that hold up', 'Independent advice', 'A roadmap you can execute'],
-    examples: ['Digitalisation advice', 'AI feasibility', 'Make or buy assessment'],
-    ctaLabel: 'Discuss your digital challenge',
-    ctaHref: HREF.consultancy,
-  },
-  {
     id: 'marketing-automation',
     icon: 'automation',
     title: 'Workflow automation',
     short: 'Automate repetitive work and connect your systems.',
     description:
-      'Automate recurring steps and connect existing systems through integrations and API, with targeted use of AI.',
+      'Automate recurring steps and connect existing systems through integrations and API with targeted use of AI.',
     explainerTitle: 'What is workflow automation?',
     explainerText:
       'Automatically running or connecting recurring steps in a business process, so staff do less manual work.',
@@ -158,7 +140,7 @@ const enServices: Service[] = [
     title: 'Custom software',
     short: 'Software built to fit when off the shelf packages do not.',
     description:
-      'Web applications, portals and internal tools built to measure, with integrations and attention to maintenance and ownership.',
+      'Web applications, portals and internal tools built to measure with integrations and attention to maintenance and ownership.',
     explainerTitle: 'What is custom software?',
     explainerText:
       'Software built specifically for your company instead of an off the shelf package, so it matches how you work.',
@@ -191,29 +173,12 @@ const enServices: Service[] = [
 // ─────────────────────────────── DE ───────────────────────────────
 const deServices: Service[] = [
   {
-    id: 'consultancy',
-    icon: 'audit',
-    title: 'Consultancy',
-    short: 'Bestimmen Sie, was zu digitalisieren ist und wo AI Mehrwert bringt.',
-    description:
-      'Unabhängige Beratung zu Digitalisierung und AI. Wir analysieren Ihre Prozesse und liefern eine klare Roadmap mit Prioritäten.',
-    explainerTitle: 'Was ist digitale Beratung?',
-    explainerText:
-      'Unabhängige Beratung, wie Sie Ihre Prozesse und Software mit Technologie verbessern. Das Ergebnis ist ein Plan, nicht sofort Software.',
-    audience: ['Geschäftsführer', 'CEOs', 'Operations Manager', 'Digitalverantwortliche'],
-    builds: ['Prozessanalyse', 'Digitale Strategie', 'AI-Beratung', 'Technologiewahl', 'Digitale Roadmap'],
-    benefits: ['Fundierte Entscheidungen', 'Prioritäten, die stimmen', 'Unabhängige Beratung', 'Eine Roadmap, die Sie umsetzen können'],
-    examples: ['Digitalisierungsberatung', 'AI-Machbarkeit', 'Make or Buy Abwägung'],
-    ctaLabel: 'Besprechen Sie Ihre digitale Herausforderung',
-    ctaHref: HREF.consultancy,
-  },
-  {
     id: 'marketing-automation',
     icon: 'automation',
     title: 'Workflowautomatisierung',
     short: 'Automatisieren Sie wiederkehrende Arbeit und verbinden Sie Ihre Systeme.',
     description:
-      'Wiederkehrende Schritte automatisieren und bestehende Systeme über Integrationen und API verbinden, mit gezieltem Einsatz von AI.',
+      'Wiederkehrende Schritte automatisieren und bestehende Systeme über Integrationen und API verbinden mit gezieltem Einsatz von AI.',
     explainerTitle: 'Was ist Workflowautomatisierung?',
     explainerText:
       'Das automatische Ausführen oder Verbinden wiederkehrender Schritte in einem Geschäftsprozess, damit Mitarbeiter weniger manuelle Arbeit leisten.',
@@ -227,11 +192,11 @@ const deServices: Service[] = [
   {
     id: 'business-systems',
     icon: 'systems',
-    title: 'Massgeschneiderte Software',
-    short: 'Software nach Mass, wenn Standardpakete nicht passen.',
+    title: 'Maßgeschneiderte Software',
+    short: 'Software nach Maß, wenn Standardpakete nicht passen.',
     description:
-      'Webanwendungen, Portale und interne Tools nach Mass, mit Integrationen und Blick auf Wartung und Eigentum.',
-    explainerTitle: 'Was ist massgeschneiderte Software?',
+      'Webanwendungen, Portale und interne Tools nach Maß mit Integrationen und Blick auf Wartung und Eigentum.',
+    explainerTitle: 'Was ist maßgeschneiderte Software?',
     explainerText:
       'Software, die speziell für Ihr Unternehmen gebaut wird statt eines fertigen Pakets, damit sie zu Ihrer Arbeitsweise passt.',
     audience: ['Geschäftsführer', 'Operations Manager', 'Digitalverantwortliche', 'Teams mit einem spezifischen Prozess'],
@@ -250,11 +215,11 @@ const deServices: Service[] = [
       'Konfiguratoren mit Echtzeit 3D, Regeln und Preislogik, verbunden mit Ihrem Webshop, CRM oder ERP.',
     explainerTitle: 'Was ist ein 3D-Produktkonfigurator?',
     explainerText:
-      'Ein interaktives Tool, mit dem ein Kunde ein Produkt selbst zusammenstellt, in 3D sieht und sofort den Preis erhält. Jede Auswahl aktualisiert das 3D Modell und den Preis in Echtzeit sodass kein Hin und Her per Email mehr nötig ist. So bleiben für Ihr Team weniger Offertenanfragen zu bearbeiten und der Kunde erhält sofort eine konkrete Antwort.',
-    audience: ['Hersteller', 'Massanfertiger', 'Webshops', 'Sales Teams'],
-    builds: ['Echtzeit 3D', 'Produktoptionen und Varianten', 'Konfigurationsregeln', 'Preislogik', 'Offerten- und Bestellanfragen', 'Integrationen'],
+      'Ein interaktives Tool mit dem ein Kunde ein Produkt selbst zusammenstellt, in 3D sieht und sofort den Preis erhält. Jede Auswahl aktualisiert das 3D Modell und den Preis in Echtzeit sodass kein Hin und Her per Email mehr nötig ist. So bleiben für Ihr Team weniger Angebotsanfragen zu bearbeiten und der Kunde erhält sofort eine konkrete Antwort.',
+    audience: ['Hersteller', 'Maßanfertiger', 'Webshops', 'Sales Teams'],
+    builds: ['Echtzeit 3D', 'Produktoptionen und Varianten', 'Konfigurationsregeln', 'Preislogik', 'Angebots- und Bestellanfragen', 'Integrationen'],
     benefits: ['Weniger Offertenarbeit', 'Konkretere Anfragen', 'Kunden konfigurieren selbst', 'Sofort ein Richtpreis'],
-    examples: ['Möbelkonfigurator', 'Tor und Geländer', 'Massgefertigte Maschine'],
+    examples: ['Möbelkonfigurator', 'Tor und Geländer', 'Maßgefertigte Maschine'],
     ctaLabel: 'Besprechen Sie Ihren Produktkonfigurator',
     ctaHref: HREF.configurator,
   },
@@ -263,29 +228,12 @@ const deServices: Service[] = [
 // ─────────────────────────────── FR ───────────────────────────────
 const frServices: Service[] = [
   {
-    id: 'consultancy',
-    icon: 'audit',
-    title: 'Consultancy',
-    short: 'Déterminez quoi digitaliser et où l’AI apporte de la valeur.',
-    description:
-      'Conseil indépendant en digitalisation et AI. Nous analysons vos processus et livrons une feuille de route claire avec des priorités.',
-    explainerTitle: 'Le conseil digital, c’est quoi?',
-    explainerText:
-      'Conseil indépendant sur la façon d’améliorer vos processus et logiciels avec la technologie. Le résultat est un plan, pas un logiciel tout de suite.',
-    audience: ['dirigeants', 'CEO', 'responsables opérations', 'responsables digitaux'],
-    builds: ['Analyse des processus', 'Stratégie digitale', 'Conseil AI', 'Choix technologique', 'Feuille de route digitale'],
-    benefits: ['Choix fondés', 'Des priorités justes', 'Conseil indépendant', 'Une feuille de route exécutable'],
-    examples: ['Conseil en digitalisation', 'Faisabilité AI', 'Arbitrage make or buy'],
-    ctaLabel: 'Parlons de votre défi digital',
-    ctaHref: HREF.consultancy,
-  },
-  {
     id: 'marketing-automation',
     icon: 'automation',
     title: 'Automatisation des workflows',
     short: 'Automatisez le travail répétitif et reliez vos systèmes.',
     description:
-      'Automatiser les étapes récurrentes et relier les systèmes existants via des intégrations et une API, avec un usage ciblé de l’AI.',
+      'Automatiser les étapes récurrentes et relier les systèmes existants via des intégrations et une API avec un usage ciblé de l’AI.',
     explainerTitle: 'L’automatisation des workflows, c’est quoi?',
     explainerText:
       'Exécuter ou relier automatiquement des étapes récurrentes d’un processus métier, pour que les collaborateurs fassent moins de travail manuel.',
@@ -302,7 +250,7 @@ const frServices: Service[] = [
     title: 'Logiciel sur mesure',
     short: 'Un logiciel sur mesure quand les solutions standard ne suffisent pas.',
     description:
-      'Applications web, portails et outils internes sur mesure, avec des intégrations et une attention à la maintenance et à la propriété.',
+      'Applications web, portails et outils internes sur mesure avec des intégrations et une attention à la maintenance et à la propriété.',
     explainerTitle: 'Le logiciel sur mesure, c’est quoi?',
     explainerText:
       'Un logiciel conçu spécifiquement pour votre entreprise plutôt qu’un paquet tout fait, pour qu’il colle à votre façon de travailler.',
@@ -335,29 +283,12 @@ const frServices: Service[] = [
 // ─────────────────────────────── ES ───────────────────────────────
 const esServices: Service[] = [
   {
-    id: 'consultancy',
-    icon: 'audit',
-    title: 'Consultancy',
-    short: 'Defina qué digitalizar y dónde la AI aporta valor.',
-    description:
-      'Asesoramiento independiente sobre digitalización y AI. Analizamos sus procesos y entregamos una hoja de ruta clara con prioridades.',
-    explainerTitle: '¿Qué es la consultoría digital?',
-    explainerText:
-      'Asesoramiento independiente sobre cómo mejorar sus procesos y software con tecnología. El resultado es un plan, no software de inmediato.',
-    audience: ['gerentes', 'CEO', 'responsables de operaciones', 'responsables digitales'],
-    builds: ['Análisis de procesos', 'Estrategia digital', 'Asesoramiento en AI', 'Elección tecnológica', 'Hoja de ruta digital'],
-    benefits: ['Decisiones fundamentadas', 'Prioridades acertadas', 'Asesoramiento independiente', 'Una hoja de ruta que puede ejecutar'],
-    examples: ['Asesoramiento en digitalización', 'Viabilidad de AI', 'Evaluación make or buy'],
-    ctaLabel: 'Hablemos de su reto digital',
-    ctaHref: HREF.consultancy,
-  },
-  {
     id: 'marketing-automation',
     icon: 'automation',
     title: 'Automatización de flujos',
     short: 'Automatice el trabajo repetitivo y conecte sus sistemas.',
     description:
-      'Automatizar los pasos recurrentes y conectar los sistemas existentes mediante integraciones y API, con un uso específico de la AI.',
+      'Automatizar los pasos recurrentes y conectar los sistemas existentes mediante integraciones y API con un uso específico de la AI.',
     explainerTitle: '¿Qué es la automatización de flujos?',
     explainerText:
       'Ejecutar o conectar automáticamente pasos recurrentes de un proceso de negocio, para que el personal haga menos trabajo manual.',
@@ -374,7 +305,7 @@ const esServices: Service[] = [
     title: 'Software a medida',
     short: 'Software a medida cuando los paquetes estándar no encajan.',
     description:
-      'Aplicaciones web, portales y herramientas internas a medida, con integraciones y atención al mantenimiento y la propiedad.',
+      'Aplicaciones web, portales y herramientas internas a medida con integraciones y atención al mantenimiento y la propiedad.',
     explainerTitle: '¿Qué es el software a medida?',
     explainerText:
       'Software creado específicamente para su empresa en lugar de un paquete cerrado, para que se ajuste a su forma de trabajar.',
@@ -407,29 +338,12 @@ const esServices: Service[] = [
 // ─────────────────────────────── NL (original) ───────────────────────────────
 const nlServices: Service[] = [
   {
-    id: 'consultancy',
-    icon: 'audit',
-    title: 'Consultancy',
-    short: 'Bepaal wat u moet digitaliseren en waar AI waarde oplevert.',
-    description:
-      'Onafhankelijk advies over digitalisering en AI. We analyseren uw processen en leveren een heldere roadmap met prioriteiten.',
-    explainerTitle: 'Wat is digitale consultancy?',
-    explainerText:
-      'Onafhankelijk advies over hoe u uw processen en software kunt verbeteren met technologie. Het resultaat is een plan, niet meteen software.',
-    audience: ['zaakvoerders', "CEO's", 'operations managers', 'digitaal verantwoordelijken'],
-    builds: ['Procesanalyse', 'Digitale strategie', 'AI-advies', 'Technologiekeuze', 'Digitale roadmap'],
-    benefits: ['Onderbouwde keuzes', 'Prioriteiten die kloppen', 'Onafhankelijk advies', 'Een roadmap die u kunt uitvoeren'],
-    examples: ['Digitaliseringsadvies', 'AI-haalbaarheid', 'Make or buy afweging'],
-    ctaLabel: 'Bespreek uw digitale uitdaging',
-    ctaHref: HREF.consultancy,
-  },
-  {
     id: 'marketing-automation',
     icon: 'automation',
     title: 'Workflowautomatisering',
     short: 'Automatiseer terugkerend werk en verbind uw systemen.',
     description:
-      'Terugkerende stappen automatiseren en bestaande systemen verbinden via integraties en API, met gerichte inzet van AI.',
+      'Terugkerende stappen automatiseren en bestaande systemen verbinden via integraties en API met gerichte inzet van AI.',
     explainerTitle: 'Wat is workflowautomatisering?',
     explainerText:
       'Het automatisch uitvoeren of verbinden van terugkerende stappen in een bedrijfsproces, zodat medewerkers minder manueel werk doen.',
@@ -446,7 +360,7 @@ const nlServices: Service[] = [
     title: 'Maatwerksoftware',
     short: 'Software op maat wanneer standaardpakketten niet passen.',
     description:
-      'Webapplicaties, portalen en interne tools op maat, met integraties en oog voor onderhoud en eigendom.',
+      'Webapplicaties, portalen en interne tools op maat met integraties en oog voor onderhoud en eigendom.',
     explainerTitle: 'Wat is maatwerksoftware?',
     explainerText:
       'Software die specifiek voor uw bedrijf wordt gebouwd in plaats van een kant-en-klaar pakket, zodat ze aansluit op hoe u werkt.',
@@ -489,23 +403,18 @@ function build(svc: Service[], f: ContentFields): ServicesContent {
 }
 
 const enFields: ContentFields = {
-  metaTitle: 'Services for Swiss SMEs · semanu.eu',
-  metaDescription:
-    'Consultancy, workflow automation, custom software and 3D configurators for Swiss SMEs. semanu digitalises your processes with AI as the engine.',
-  ogTitle: 'Digital services for Swiss SMEs',
-  ogDescription:
-    'From strategic advice to automation, custom software and 3D configurators. semanu is the digital partner for Swiss SMEs.',
+  metaTitle: 'Services for SMEs in Europe · semanu.eu',
+  metaDescription: '3D configurators and custom business software for SMEs in Europe. semanu digitalises your processes with AI as the engine.',
+  ogTitle: 'Digital services for SMEs',
+  ogDescription: '3D configurators and custom business software with workflow automation. semanu is the digital partner for SMEs in Europe.',
   eyebrow: 'What we do',
-  h1: 'Four services that move your business forward digitally.',
-  heroSub:
-    'semanu is the digital partner for Swiss SMEs. From strategic advice to automation, custom software and 3D configurators, with AI as the engine.',
+  h1: 'Two services that move your business forward digitally.',
+  heroSub: 'semanu is the digital partner for SMEs in Europe. We build 3D configurators and custom business software with AI as the engine.',
   ctaExplore: 'Explore services',
   ctaContact: 'Discuss your project',
   introTitle: 'What does semanu do?',
-  introText:
-    'semanu helps Swiss SMEs make their processes, software and digital operations smarter. We combine strategic advice, technology, automation and AI, where it is demonstrably useful.',
-  introLead:
-    'semanu brings advice, automation and custom work together in one partner. You start with one clear need and build from there.',
+  introText: 'semanu helps SMEs make their processes, software and sales smarter. We combine technology, automation and AI where it is demonstrably useful.',
+  introLead: 'semanu builds configurators, software and automation as one partner. You start with one clear need and build from there.',
   quickLinksLabel: 'Jump to a service',
   forWhoLabel: 'For whom',
   buildsLabel: 'What semanu can build or set up',
@@ -519,22 +428,22 @@ const enFields: ContentFields = {
     explainerText:
       'GEO stands for Generative Engine Optimisation. It helps AI search systems understand your business, your services and your expertise so they can describe and recommend you more accurately.',
     points: ['clear service structure', 'understandable explanations', 'strong internal links', 'metadata and structured data', 'FAQ content', 'SEO and GEO friendly', 'content that answers real customer questions'],
-    ctaLabel: 'Request advice',
+    ctaLabel: 'Discuss your project',
     ctaHref: '/kontakt',
   },
   howTitle: 'How these services work together',
   howIntro:
     'You do not need everything at once. Most companies start with one clear need. semanu helps you step by step.',
   howSteps: [
-    { title: 'Decide what matters', text: 'Consultancy maps your processes and determines where digitalisation and AI add value.' },
+    { title: 'Find the biggest gain', text: 'Every project starts with a short analysis of your processes: where do software, automation and AI add the most value?' },
     { title: 'Connect and automate', text: 'Workflow automation removes repetitive work and connects your existing systems.' },
     { title: 'Build what is missing', text: 'Custom software fills the gaps where off the shelf packages fall short.' },
     { title: 'Sell and configure', text: '3D configurators make configurable products sellable online.' },
   ],
   faqTitle: 'Questions about our services',
   faq: [
-    { q: 'Which services does semanu offer?', a: 'Consultancy, workflow automation, custom software and 3D configurators. Together they help you decide, connect, build and sell.' },
-    { q: 'Do I have to take everything at once?', a: 'No. Most companies start with one clear need, often an advisory track. From there they build further.' },
+    { q: 'Which services does semanu offer?', a: '3D configurators and custom business software, including workflow automation. Together they help you connect, automate, build and sell.' },
+    { q: 'Do I have to take everything at once?', a: 'No. Most companies start with one clear need, such as one workflow or one product. From there they build further.' },
     { q: 'Do you always use AI?', a: 'No. AI is a means, not a goal. We use it where it is demonstrably useful and choose classic technology where that fits better.' },
     { q: 'What is GEO?', a: 'GEO stands for Generative Engine Optimisation. It helps AI search systems understand your business, your services and your expertise so they can describe and recommend you more accurately.' },
   ],
@@ -546,23 +455,18 @@ const enFields: ContentFields = {
 };
 
 const deFields: ContentFields = {
-  metaTitle: 'Dienstleistungen für Schweizer KMU · semanu.eu',
-  metaDescription:
-    'Consultancy, Workflowautomatisierung, massgeschneiderte Software und 3D-Konfiguratoren für Schweizer KMU. semanu digitalisiert Ihre Prozesse mit AI als Motor.',
-  ogTitle: 'Digitale Dienstleistungen für Schweizer KMU',
-  ogDescription:
-    'Von strategischer Beratung bis Automatisierung, massgeschneiderte Software und 3D-Konfiguratoren. semanu ist der digitale Partner für Schweizer KMU.',
+  metaTitle: 'Dienstleistungen für KMU in Europa · semanu.eu',
+  metaDescription: '3D Konfiguratoren und Unternehmenssoftware nach Maß für KMU in Europa. semanu digitalisiert Ihre Prozesse mit AI als Motor.',
+  ogTitle: 'Digitale Dienstleistungen für KMU',
+  ogDescription: '3D Konfiguratoren und maßgeschneiderte Unternehmenssoftware mit Workflow Automatisierung. semanu ist der digitale Partner für KMU in Europa.',
   eyebrow: 'Was wir tun',
-  h1: 'Vier Dienstleistungen, die Ihr Unternehmen digital voranbringen.',
-  heroSub:
-    'semanu ist der digitale Partner für Schweizer KMU. Von strategischer Beratung bis Automatisierung, massgeschneiderte Software und 3D-Konfiguratoren, mit AI als Motor.',
+  h1: 'Zwei Dienstleistungen, die Ihr Unternehmen digital voranbringen.',
+  heroSub: 'semanu ist der digitale Partner für KMU in Europa. Wir bauen 3D Konfiguratoren und Unternehmenssoftware nach Maß mit AI als Motor.',
   ctaExplore: 'Dienstleistungen entdecken',
   ctaContact: 'Ihr Projekt besprechen',
   introTitle: 'Was macht semanu?',
-  introText:
-    'semanu hilft Schweizer KMU, ihre Prozesse, Software und digitale Abläufe intelligenter zu machen. Wir kombinieren strategische Beratung, Technologie, Automatisierung und AI, wo es nachweisbar nützlich ist.',
-  introLead:
-    'semanu bringt Beratung, Automatisierung und Massarbeit in einem Partner zusammen. Sie starten mit einem klaren Bedarf und bauen von dort weiter.',
+  introText: 'semanu hilft KMU, ihre Prozesse, Software und ihren Verkauf intelligenter zu machen. Wir kombinieren Technologie, Automatisierung und AI dort, wo es nachweisbar nützlich ist.',
+  introLead: 'semanu baut Konfiguratoren, Software und Automatisierung aus einer Hand. Sie starten mit einem klaren Bedarf und bauen von dort weiter.',
   quickLinksLabel: 'Zu einer Dienstleistung',
   forWhoLabel: 'Für wen',
   buildsLabel: 'Was semanu bauen oder aufsetzen kann',
@@ -576,22 +480,22 @@ const deFields: ContentFields = {
     explainerText:
       'GEO steht für Generative Engine Optimisation. Es hilft AI Suchsystemen, Ihr Unternehmen, Ihre Dienstleistungen und Ihre Expertise zu verstehen, damit sie Sie genauer beschreiben und empfehlen können.',
     points: ['klare Dienstleistungsstruktur', 'verständliche Erklärungen', 'starke interne Links', 'Metadaten und strukturierte Daten', 'FAQ Inhalte', 'SEO und GEO freundlich', 'Inhalte, die echte Kundenfragen beantworten'],
-    ctaLabel: 'Beratung anfragen',
+    ctaLabel: 'Projekt besprechen',
     ctaHref: '/kontakt',
   },
   howTitle: 'Wie diese Dienstleistungen zusammenwirken',
   howIntro:
     'Sie brauchen nicht alles auf einmal. Die meisten Unternehmen starten mit einem klaren Bedarf. semanu hilft Ihnen Schritt für Schritt.',
   howSteps: [
-    { title: 'Bestimmen, was zählt', text: 'Consultancy bildet Ihre Prozesse ab und bestimmt, wo Digitalisierung und AI Mehrwert bringen.' },
+    { title: 'Den größten Gewinn finden', text: 'Jedes Projekt beginnt mit einer kurzen Analyse Ihrer Prozesse: wo bringen Software, Automatisierung und AI den größten Mehrwert?' },
     { title: 'Verbinden und automatisieren', text: 'Workflowautomatisierung nimmt wiederkehrende Arbeit ab und verbindet Ihre bestehenden Systeme.' },
-    { title: 'Bauen, was fehlt', text: 'Massgeschneiderte Software ergänzt dort, wo Standardpakete zu kurz greifen.' },
+    { title: 'Bauen, was fehlt', text: 'Maßgeschneiderte Software ergänzt dort, wo Standardpakete zu kurz greifen.' },
     { title: 'Verkaufen und konfigurieren', text: '3D-Konfiguratoren machen konfigurierbare Produkte online verkäuflich.' },
   ],
   faqTitle: 'Fragen zu unseren Dienstleistungen',
   faq: [
-    { q: 'Welche Dienstleistungen bietet semanu?', a: 'Consultancy, Workflowautomatisierung, massgeschneiderte Software und 3D-Konfiguratoren. Zusammen helfen sie Ihnen zu bestimmen, zu verbinden, zu bauen und zu verkaufen.' },
-    { q: 'Muss ich alles auf einmal nehmen?', a: 'Nein. Die meisten Unternehmen starten mit einem klaren Bedarf, oft einem Beratungstrack. Von dort bauen sie weiter.' },
+    { q: 'Welche Dienstleistungen bietet semanu?', a: '3D Konfiguratoren und Unternehmenssoftware nach Maß, inklusive Workflow Automatisierung. Zusammen helfen sie Ihnen zu verbinden, zu automatisieren, zu bauen und zu verkaufen.' },
+    { q: 'Muss ich alles auf einmal nehmen?', a: 'Nein. Die meisten Unternehmen starten mit einem klaren Bedarf, etwa einem Ablauf oder einem Produkt. Von dort bauen sie weiter.' },
     { q: 'Setzen Sie immer AI ein?', a: 'Nein. AI ist ein Mittel, kein Ziel. Wir setzen es ein, wo es nachweisbar nützlich ist und wählen klassische Technologie, wo sie besser passt.' },
     { q: 'Was ist GEO?', a: 'GEO steht für Generative Engine Optimisation. Es hilft AI Suchsystemen, Ihr Unternehmen, Ihre Dienstleistungen und Ihre Expertise zu verstehen, damit sie Sie genauer beschreiben und empfehlen können.' },
   ],
@@ -603,23 +507,18 @@ const deFields: ContentFields = {
 };
 
 const frFields: ContentFields = {
-  metaTitle: 'Services pour PME suisses · semanu.eu',
-  metaDescription:
-    'Consultancy, automatisation des workflows, logiciels sur mesure et configurateurs 3D pour PME suisses. semanu digitalise vos processus avec l’AI comme moteur.',
-  ogTitle: 'Services digitaux pour PME suisses',
-  ogDescription:
-    'Du conseil stratégique à l’automatisation, aux logiciels sur mesure et aux configurateurs 3D. semanu est le partenaire digital des PME suisses.',
+  metaTitle: 'Services pour PME en Europe · semanu.eu',
+  metaDescription: 'Configurateurs 3D et logiciels d’entreprise sur mesure pour les PME en Europe. semanu digitalise vos processus avec l’AI comme moteur.',
+  ogTitle: 'Services digitaux pour PME',
+  ogDescription: 'Configurateurs 3D et logiciels d’entreprise sur mesure avec automatisation des workflows. semanu est le partenaire digital des PME en Europe.',
   eyebrow: 'Ce que nous faisons',
-  h1: 'Quatre services qui font avancer votre entreprise sur le plan digital.',
-  heroSub:
-    'semanu est le partenaire digital des PME suisses. Du conseil stratégique à l’automatisation, aux logiciels sur mesure et aux configurateurs 3D, avec l’AI comme moteur.',
+  h1: 'Deux services qui font avancer votre entreprise sur le plan digital.',
+  heroSub: 'semanu est le partenaire digital des PME en Europe. Nous construisons des configurateurs 3D et des logiciels d’entreprise sur mesure avec l’AI comme moteur.',
   ctaExplore: 'Découvrir les services',
   ctaContact: 'Parler de votre projet',
   introTitle: 'Que fait semanu?',
-  introText:
-    'semanu aide les PME suisses à rendre leurs processus, leurs logiciels et leur fonctionnement digital plus intelligents. Nous combinons conseil stratégique, technologie, automatisation et AI, là où c’est réellement utile.',
-  introLead:
-    'semanu réunit conseil, automatisation et sur mesure chez un seul partenaire. Vous démarrez avec un besoin clair et construisez à partir de là.',
+  introText: 'semanu aide les PME à rendre leurs processus, leurs logiciels et leurs ventes plus intelligents. Nous combinons technologie, automatisation et AI là où c’est réellement utile.',
+  introLead: 'semanu construit configurateurs, logiciels et automatisations chez un seul partenaire. Vous démarrez avec un besoin clair et construisez à partir de là.',
   quickLinksLabel: 'Vers un service',
   forWhoLabel: 'Pour qui',
   buildsLabel: 'Ce que semanu peut construire ou mettre en place',
@@ -633,22 +532,22 @@ const frFields: ContentFields = {
     explainerText:
       'GEO signifie Generative Engine Optimisation. Cela aide les systèmes de recherche AI à comprendre votre entreprise, vos services et votre expertise pour vous décrire et vous recommander plus précisément.',
     points: ['structure de services claire', 'explications compréhensibles', 'liens internes solides', 'métadonnées et données structurées', 'contenu FAQ', 'adapté au SEO et au GEO', 'du contenu qui répond aux vraies questions des clients'],
-    ctaLabel: 'Demander conseil',
+    ctaLabel: 'Parler de votre projet',
     ctaHref: '/kontakt',
   },
   howTitle: 'Comment ces services fonctionnent ensemble',
   howIntro:
     'Vous n’avez pas besoin de tout en même temps. La plupart des entreprises démarrent avec un besoin clair. semanu vous aide pas à pas.',
   howSteps: [
-    { title: 'Déterminer ce qui compte', text: 'Le conseil cartographie vos processus et détermine où la digitalisation et l’AI apportent de la valeur.' },
+    { title: 'Trouver le plus grand gain', text: 'Chaque projet commence par une courte analyse de vos processus: où les logiciels, l’automatisation et l’AI apportent ils le plus de valeur?' },
     { title: 'Relier et automatiser', text: 'L’automatisation des workflows supprime le travail répétitif et relie vos systèmes existants.' },
     { title: 'Construire ce qui manque', text: 'Le logiciel sur mesure complète là où les solutions standard sont insuffisantes.' },
     { title: 'Vendre et configurer', text: 'Les configurateurs 3D rendent les produits configurables vendables en ligne.' },
   ],
   faqTitle: 'Questions sur nos services',
   faq: [
-    { q: 'Quels services propose semanu?', a: 'Consultancy, automatisation des workflows, logiciels sur mesure et configurateurs 3D. Ensemble, ils vous aident à déterminer, relier, construire et vendre.' },
-    { q: 'Vous devez tout prendre en même temps?', a: 'Non. La plupart des entreprises démarrent avec un besoin clair, souvent une mission de conseil. À partir de là, elles construisent.' },
+    { q: 'Quels services propose semanu?', a: 'Des configurateurs 3D et des logiciels d’entreprise sur mesure, automatisation des workflows comprise. Ensemble, ils vous aident à relier, automatiser, construire et vendre.' },
+    { q: 'Vous devez tout prendre en même temps?', a: 'Non. La plupart des entreprises démarrent avec un besoin clair, par exemple un processus ou un produit. À partir de là, elles construisent.' },
     { q: 'Vous utilisez toujours l’AI?', a: 'Non. l’AI est un moyen, pas un but. Nous l’utilisons là où elle est réellement utile et choisissons une technologie classique là où elle convient mieux.' },
     { q: 'GEO, c’est quoi?', a: 'GEO signifie Generative Engine Optimisation. Cela aide les systèmes de recherche AI à comprendre votre entreprise, vos services et votre expertise pour vous décrire et vous recommander plus précisément.' },
   ],
@@ -660,23 +559,18 @@ const frFields: ContentFields = {
 };
 
 const esFields: ContentFields = {
-  metaTitle: 'Servicios para pymes suizas · semanu.eu',
-  metaDescription:
-    'Consultancy, automatización de flujos, software a medida y configuradores 3D para pymes suizas. semanu digitaliza sus procesos con la AI como motor.',
-  ogTitle: 'Servicios digitales para pymes suizas',
-  ogDescription:
-    'Desde el asesoramiento estratégico hasta la automatización, el software a medida y los configuradores 3D. semanu es el socio digital para pymes suizas.',
+  metaTitle: 'Servicios para pymes en Europa · semanu.eu',
+  metaDescription: 'Configuradores 3D y software empresarial a medida para pymes en Europa. semanu digitaliza sus procesos con la AI como motor.',
+  ogTitle: 'Servicios digitales para pymes',
+  ogDescription: 'Configuradores 3D y software empresarial a medida con automatización de flujos. semanu es el socio digital para pymes en Europa.',
   eyebrow: 'Lo que hacemos',
-  h1: 'Cuatro servicios que impulsan su empresa en lo digital.',
-  heroSub:
-    'semanu es el socio digital para pymes suizas. Desde el asesoramiento estratégico hasta la automatización, el software a medida y los configuradores 3D, con la AI como motor.',
+  h1: 'Dos servicios que impulsan su empresa en lo digital.',
+  heroSub: 'semanu es el socio digital para pymes en Europa. Creamos configuradores 3D y software empresarial a medida con la AI como motor.',
   ctaExplore: 'Descubrir los servicios',
   ctaContact: 'Hablar de su proyecto',
   introTitle: '¿Qué hace semanu?',
-  introText:
-    'semanu ayuda a las pymes suizas a hacer más inteligentes sus procesos, su software y su funcionamiento digital. Combinamos asesoramiento estratégico, tecnología, automatización y AI, donde resulta demostrablemente útil.',
-  introLead:
-    'semanu reúne asesoramiento, automatización y trabajo a medida en un solo socio. Empieza con una necesidad clara y construye a partir de ahí.',
+  introText: 'semanu ayuda a las pymes a hacer más inteligentes sus procesos, su software y sus ventas. Combinamos tecnología, automatización y AI donde resulta demostrablemente útil.',
+  introLead: 'semanu crea configuradores, software y automatizaciones como un solo socio. Empieza con una necesidad clara y construye a partir de ahí.',
   quickLinksLabel: 'Ir a un servicio',
   forWhoLabel: 'Para quién',
   buildsLabel: 'Lo que semanu puede construir o poner en marcha',
@@ -690,22 +584,22 @@ const esFields: ContentFields = {
     explainerText:
       'GEO significa Generative Engine Optimisation. Ayuda a los sistemas de búsqueda de AI a entender su empresa, sus servicios y su experiencia para describirle y recomendarle con más precisión.',
     points: ['estructura de servicios clara', 'explicaciones comprensibles', 'enlaces internos sólidos', 'metadatos y datos estructurados', 'contenido de FAQ', 'apto para SEO y GEO', 'contenido que responde a preguntas reales de clientes'],
-    ctaLabel: 'Solicitar asesoramiento',
+    ctaLabel: 'Hablar de su proyecto',
     ctaHref: '/kontakt',
   },
   howTitle: 'Cómo funcionan juntos estos servicios',
   howIntro:
     'No necesita todo a la vez. La mayoría de las empresas empiezan con una necesidad clara. semanu le ayuda paso a paso.',
   howSteps: [
-    { title: 'Definir lo que importa', text: 'La consultoría mapea sus procesos y determina dónde la digitalización y la AI aportan valor.' },
+    { title: 'Encontrar la mayor ganancia', text: 'Cada proyecto empieza con un breve análisis de sus procesos: ¿dónde aportan más valor el software, la automatización y la AI?' },
     { title: 'Conectar y automatizar', text: 'La automatización de flujos elimina el trabajo repetitivo y conecta sus sistemas existentes.' },
     { title: 'Construir lo que falta', text: 'El software a medida completa donde los paquetes estándar se quedan cortos.' },
     { title: 'Vender y configurar', text: 'Los configuradores 3D hacen vendibles en línea los productos configurables.' },
   ],
   faqTitle: 'Preguntas sobre nuestros servicios',
   faq: [
-    { q: '¿Qué servicios ofrece semanu?', a: 'Consultancy, automatización de flujos, software a medida y configuradores 3D. Juntos le ayudan a definir, conectar, construir y vender.' },
-    { q: '¿Tengo que contratarlo todo a la vez?', a: 'No. La mayoría de las empresas empiezan con una necesidad clara, a menudo un proyecto de asesoramiento. A partir de ahí construyen.' },
+    { q: '¿Qué servicios ofrece semanu?', a: 'Configuradores 3D y software empresarial a medida, incluida la automatización de flujos. Juntos le ayudan a conectar, automatizar, construir y vender.' },
+    { q: '¿Tengo que contratarlo todo a la vez?', a: 'No. La mayoría de las empresas empiezan con una necesidad clara, como un flujo o un producto. A partir de ahí construyen.' },
     { q: '¿Usan siempre AI?', a: 'No. La AI es un medio, no un fin. La usamos donde resulta demostrablemente útil y elegimos tecnología clásica donde encaja mejor.' },
     { q: '¿Qué es GEO?', a: 'GEO significa Generative Engine Optimisation. Ayuda a los sistemas de búsqueda de AI a entender su empresa, sus servicios y su experiencia para describirle y recomendarle con más precisión.' },
   ],
@@ -717,23 +611,18 @@ const esFields: ContentFields = {
 };
 
 const nlFields: ContentFields = {
-  metaTitle: 'Diensten voor Zwitserse kmo · semanu.eu',
-  metaDescription:
-    'Consultancy, workflowautomatisering, maatwerksoftware en 3D-configuratoren voor Zwitserse kmo. semanu digitaliseert uw processen met AI als motor.',
-  ogTitle: 'Digitale diensten voor Zwitserse kmo',
-  ogDescription:
-    'Van strategisch advies tot automatisering, maatwerksoftware en 3D-configuratoren. semanu is de digitale partner voor Zwitserse kmo.',
+  metaTitle: 'Diensten voor kmo’s in Europa · semanu.eu',
+  metaDescription: '3D-configuratoren en bedrijfssoftware op maat voor kmo’s in Europa. semanu digitaliseert uw processen met AI als motor.',
+  ogTitle: 'Digitale diensten voor kmo’s',
+  ogDescription: '3D-configuratoren en bedrijfssoftware op maat met workflowautomatisering. semanu is de digitale partner voor kmo’s in Europa.',
   eyebrow: 'Wat we doen',
-  h1: 'Vier diensten die uw bedrijf digitaal vooruit helpen.',
-  heroSub:
-    'semanu is de digitale partner voor Zwitserse kmo. Van strategisch advies tot automatisering, maatwerksoftware en 3D-configuratoren, met AI als motor.',
+  h1: 'Twee diensten die uw bedrijf digitaal vooruit helpen.',
+  heroSub: 'semanu is de digitale partner voor kmo’s in Europa. Wij bouwen 3D-configuratoren en bedrijfssoftware op maat met AI als motor.',
   ctaExplore: 'Diensten ontdekken',
   ctaContact: 'Uw project bespreken',
   introTitle: 'Wat doet semanu?',
-  introText:
-    'semanu helpt Zwitserse kmo hun processen, software en digitale werking slimmer te maken. We combineren strategisch advies, technologie, automatisering en AI, waar het aantoonbaar nuttig is.',
-  introLead:
-    'semanu brengt advies, automatisering en maatwerk samen in één partner. U start met één duidelijke behoefte en bouwt van daaruit verder.',
+  introText: 'semanu helpt kmo’s hun processen, software en verkoop slimmer te maken. We combineren technologie, automatisering en AI waar het aantoonbaar nuttig is.',
+  introLead: 'semanu bouwt configuratoren, software en automatisering als één partner. U start met één duidelijke behoefte en bouwt van daaruit verder.',
   quickLinksLabel: 'Naar een dienst',
   forWhoLabel: 'Voor wie',
   buildsLabel: 'Wat semanu kan bouwen of opzetten',
@@ -747,22 +636,22 @@ const nlFields: ContentFields = {
     explainerText:
       'GEO staat voor Generative Engine Optimisation. Het helpt AI zoeksystemen om uw bedrijf, uw diensten en uw expertise te begrijpen zodat ze u nauwkeuriger kunnen beschrijven en aanbevelen.',
     points: ['duidelijke dienstenstructuur', 'begrijpelijke uitleg', 'sterke interne links', 'metadata en gestructureerde data', 'FAQ inhoud', 'SEO en GEO vriendelijk', 'inhoud die echte klantvragen beantwoordt'],
-    ctaLabel: 'Advies aanvragen',
+    ctaLabel: 'Project bespreken',
     ctaHref: '/kontakt',
   },
   howTitle: 'Hoe deze diensten samenwerken',
   howIntro:
     'U hebt niet alles tegelijk nodig. De meeste bedrijven starten met één duidelijke behoefte. semanu helpt u stap voor stap.',
   howSteps: [
-    { title: 'Bepalen wat telt', text: 'Consultancy brengt uw processen in kaart en bepaalt waar digitalisering en AI waarde opleveren.' },
+    { title: 'De grootste winst vinden', text: 'Elk project start met een korte analyse van uw processen: waar leveren software, automatisering en AI de meeste waarde op?' },
     { title: 'Verbinden en automatiseren', text: 'Workflowautomatisering neemt terugkerend werk weg en koppelt uw bestaande systemen.' },
     { title: 'Bouwen wat ontbreekt', text: 'Maatwerksoftware vult aan waar standaardpakketten tekortschieten.' },
     { title: 'Verkopen en configureren', text: '3D-configuratoren maken configureerbare producten online verkoopbaar.' },
   ],
   faqTitle: 'Vragen over onze diensten',
   faq: [
-    { q: 'Welke diensten biedt semanu?', a: 'Consultancy, workflowautomatisering, maatwerksoftware en 3D-configuratoren. Samen helpen ze u bepalen, verbinden, bouwen en verkopen.' },
-    { q: 'Moet ik alles tegelijk afnemen?', a: 'Nee. De meeste bedrijven starten met één duidelijke behoefte, vaak een adviestraject. Van daaruit bouwen ze verder.' },
+    { q: 'Welke diensten biedt semanu?', a: '3D-configuratoren en bedrijfssoftware op maat, inclusief workflowautomatisering. Samen helpen ze u verbinden, automatiseren, bouwen en verkopen.' },
+    { q: 'Moet ik alles tegelijk afnemen?', a: 'Nee. De meeste bedrijven starten met één duidelijke behoefte, zoals één workflow of één product. Van daaruit bouwen ze verder.' },
     { q: 'Gebruiken jullie altijd AI?', a: 'Nee. AI is een middel, geen doel. We zetten het in waar het aantoonbaar nuttig is en kiezen klassieke technologie waar die beter past.' },
     { q: 'Wat is GEO?', a: 'GEO staat voor Generative Engine Optimisation. Het helpt AI zoeksystemen om uw bedrijf, uw diensten en uw expertise te begrijpen zodat ze u nauwkeuriger kunnen beschrijven en aanbevelen.' },
   ],

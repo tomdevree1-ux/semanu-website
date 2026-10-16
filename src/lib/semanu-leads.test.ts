@@ -19,7 +19,7 @@ describe('contact form → submit-contact payload', () => {
   it('maps the fields onto the submit-contact contract', () => {
     const d = contactLeadSchema.parse({
       ...base,
-      interests: ['3d-configurators', 'consultancy'],
+      interests: ['3d-configurators', 'not-sure'],
       utmSource: 'google',
       utmMedium: 'cpc',
       utmCampaign: 'kast',
@@ -31,7 +31,7 @@ describe('contact form → submit-contact payload', () => {
     expect(p.email).toBe('anna@example.be');
     expect(p.company).toBe('Peeters BV');
     expect(p.topic).toBe('configurator');
-    expect(p.topic_label).toBe('3D-configurator, Consultancy');
+    expect(p.topic_label).toBe('3D-configurator, Nog niet zeker');
     expect(p.lang).toBe('nl');
     expect(p.utm_source).toBe('google');
     expect(p.utm_campaign).toBe('kast');
@@ -46,6 +46,10 @@ describe('contact form → submit-contact payload', () => {
   it('business software maps to custom, nothing ticked to the consultancy default', () => {
     expect(contactPayload(contactLeadSchema.parse({ ...base, interests: ['ai-native'] })).topic).toBe('custom');
     expect(contactPayload(contactLeadSchema.parse({ ...base, interests: [] })).topic).toBe('');
+  });
+
+  it('no longer accepts consultancy as an interest (retired service)', () => {
+    expect(contactLeadSchema.safeParse({ ...base, interests: ['consultancy'] }).success).toBe(false);
   });
 
   it('falls back to a 5 s old timestamp when the form sent none', () => {

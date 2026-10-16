@@ -5,14 +5,9 @@ import { useLocale, useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { serviceLinks, type ServicesLocale } from '@/content/services';
 
-/**
- * Desktop dropdown display order. AI Assistants leads the right column (the
- * AI-first differentiator). Canonical order is kept everywhere else (ecosystem
- * numbering, footer, sitemap). The grid is row-major across two columns, so this
- * order yields left = Websites, Marketing Automation, Digitale Plattformen
- * and right = AI Assistants, Email Marketing, Consultancy.
- */
-const MENU_ORDER = ['3d-configurators', 'ai-native', 'consultancy'];
+/** Desktop dropdown display order: the two services (3D configurators, then
+ *  business software). Canonical order is kept everywhere else. */
+const MENU_ORDER = ['3d-configurators', 'ai-native'];
 const menuRank = (id: string) => {
   const i = MENU_ORDER.indexOf(id);
   return i === -1 ? 999 : i;
@@ -51,9 +46,8 @@ const Arrow = ({ className = '' }: { className?: string }) => (
 export function ServicesMenu({ navLinkClass }: { navLinkClass: string }) {
   const t = useTranslations('nav');
   const services = [...useServiceList()].sort((a, b) => menuRank(a.id) - menuRank(b.id));
-  // Two primary services on top (3D configurators + AI-native). Consultancy stays
-  // reachable from the footer and its page, but is no longer shown in this dropdown.
-  const primary = services.filter((s) => s.id !== 'consultancy');
+  // The two services (3D configurators + AI-native business software).
+  const primary = services;
   const [open, setOpen] = useState(false);
   const wrapRef = useRef<HTMLDivElement>(null);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);

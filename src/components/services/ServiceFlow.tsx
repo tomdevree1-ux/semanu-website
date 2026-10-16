@@ -37,7 +37,6 @@ const CONFIGURATOR_URL: Record<string, string> = {
 
 export function ServiceFlow({ service, detail, content, navServicesLabel, locale }: Props) {
   const isConfigurator = service.id === '3d-configurators';
-  const isConsultancy = service.id === 'consultancy';
   return (
     <>
       {/* ── HERO ────────────────────────────────────────────────────
@@ -104,7 +103,7 @@ export function ServiceFlow({ service, detail, content, navServicesLabel, locale
       ) : (
         <section className="bg-paper pt-[clamp(20px,3.2vw,44px)] pb-[clamp(58px,8.8vw,120px)] text-ink">
           <div className="container-site">
-            <h1 className={`whitespace-pre-line font-display font-semibold leading-[1.0] tracking-[-0.035em] text-navy text-[clamp(44px,6vw,104px)] ${isConsultancy ? 'max-w-[22ch]' : 'max-w-[16ch]'}`}>
+            <h1 className={`whitespace-pre-line font-display font-semibold leading-[1.0] tracking-[-0.035em] text-navy text-[clamp(44px,6vw,104px)] max-w-[16ch]`}>
               <BrandText>{detail.heroHeadline}</BrandText>
             </h1>
             <p className="mt-[clamp(24px,2.4vw,36px)] max-w-[48ch] text-[clamp(18px,1.35vw,22px)] leading-[1.6] text-ink-soft">
@@ -177,8 +176,7 @@ export function ServiceFlow({ service, detail, content, navServicesLabel, locale
 
       {/* ── FLOW TILES — big rounded cards side by side ─────────────
           Used by the configurator ("Van productkeuze tot concrete aanvraag",
-          4 tiles) and by consultancy ("Wanneer consultancy het verschil maakt",
-          3 tiles). Same card size, spacing, radius; the column count follows the
+          4 tiles). Same card size, spacing, radius; the column count follows the
           number of tiles. On mobile the cards stack. */}
       {detail.flow && (
         <section className="bg-paper py-[clamp(72px,11vw,150px)] text-ink">
@@ -354,7 +352,7 @@ export function ServiceFlow({ service, detail, content, navServicesLabel, locale
                 <BrandText>{detail.engineText}</BrandText>
               </p>
               <Link href="/kontakt" className="btn btn-ghost-ink mt-[clamp(28px,3vw,40px)]">
-                {isConsultancy ? service.ctaLabel : content.ctaContact} <Arrow />
+                {content.ctaContact} <Arrow />
               </Link>
             </div>
           </div>
@@ -371,9 +369,7 @@ export function ServiceFlow({ service, detail, content, navServicesLabel, locale
         </div>
       </section>
 
-      {/* ── USE CASES — editorial numbered rows (no cards). Skipped for
-          consultancy (its situations live in the flow tiles above). ── */}
-      {!isConsultancy && (
+      {/* ── USE CASES — editorial numbered rows (no cards). ── */}
       <section className="border-t border-[var(--line)] bg-paper py-[clamp(72px,11vw,150px)] text-ink">
         <div className="container-site">
           <h2 className="font-display font-semibold tracking-[-0.03em] text-navy text-[clamp(30px,3.6vw,54px)] max-w-[20ch]">
@@ -396,7 +392,6 @@ export function ServiceFlow({ service, detail, content, navServicesLabel, locale
           </div>
         </div>
       </section>
-      )}
 
       {/* Final CTA */}
       <FinalCTA

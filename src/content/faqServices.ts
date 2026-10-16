@@ -1,5 +1,5 @@
 // FAQ "Orbit" content, ported from the approved design prototype and cleaned to
-// semanu house style (no em/en dashes, no hyphenated compounds, Swiss "ss", "AI"
+// semanu house style (no em/en dashes, no hyphenated compounds, standard German spelling (ß), "AI"
 // stays "AI", French curly apostrophes, no comma before a coordinating
 // conjunction). One block per locale; accent, price and icon are shared across
 // languages, while name, tagline and faqs are localized. The icon strings are
@@ -56,7 +56,7 @@ export const FAQ_UI: Record<FaqLocale, FaqUi> = {
     perMonth: "/ Monat",
     onRequest: "Auf Anfrage",
     counter: "Service",
-    close: "Schliessen",
+    close: "Schließen",
   },
   fr: {
     brandTag: "FAQ · Services",
@@ -131,7 +131,7 @@ export const FAQ_SERVICES: Record<FaqLocale, FaqService[]> = {
       tagline: "Mehrseitig, bis 10 Seiten. Mehr Struktur, Vertrauen und SEO.",
       faqs: [
       { q: "Wie viele Seiten sind enthalten?", a: "Bis zu 10 Seiten mit klarer Struktur, mehr Inhalt und stärkerer SEO Basis. Ideal, wenn Sie Leistungen, Team und Referenzen ausführlich zeigen wollen. Wenn Sie mehr brauchen, lassen sich jederzeit zusätzliche Seiten hinzufügen." },
-      { q: "Sind Hosting und Wartung inklusive?", a: "Ja. Schweizer Hosting, SSL, Sicherheitsupdates und laufende Pflege sind im Monatspreis enthalten." },
+      { q: "Sind Hosting und Wartung inklusive?", a: "Ja. Hosting in der EU, SSL, Sicherheitsupdates und laufende Pflege sind im Monatspreis enthalten." },
       { q: "Kann ich Inhalte ändern lassen?", a: "Kleine Anpassungen sind Teil der Betreuung. Sie schreiben uns kurz, wir setzen es zeitnah um, ohne dass Sie selbst im System arbeiten müssen." },
       { q: "Was sind SEO und GEO Grundlagen?", a: "SEO hilft Suchmaschinen, Ihre Seite zu lesen und zu ranken. GEO hilft AI Suchsystemen, Ihr Unternehmen zu verstehen und zu empfehlen. Beides ist von Anfang an enthalten. Konkrete Google Rankings können nicht garantiert werden." },
       { q: "Erhalte ich ein individuelles Design oder eine Vorlage?", a: "Sie erhalten ein individuelles Design, das auf Ihr Unternehmen, Ihre Zielgruppe und Ihre Branche abgestimmt ist. Keine Templates und kein Baukastensystem. Vorhandenes Logo, Farben und Schriften werden berücksichtigt." },
@@ -149,8 +149,8 @@ export const FAQ_SERVICES: Record<FaqLocale, FaqService[]> = {
       tagline: "Produkte, Zahlungen und Bestellungen, sauber und sicher.",
       faqs: [
       { q: "Welche Zahlungsarten werden unterstützt?", a: "Gängige Methoden wie TWINT und Kartenzahlung, sicher abgewickelt. Weitere Zahlungsarten sind auf Wunsch möglich. Produkte, Bestellungen und das Versand Setup richten wir gemeinsam ein." },
-      { q: "Wie viele Produkte kann ich verkaufen?", a: "So viele wie Sie brauchen. Der Shop wächst mit Ihrem Sortiment, von wenigen Produkten bis zu einem grossen Katalog. Den Aufbau richten wir gemeinsam ein." },
-      { q: "Sind Hosting und Wartung inklusive?", a: "Ja. Schweizer Hosting, SSL, Sicherheitsupdates und laufende Pflege sind im Monatspreis enthalten." },
+      { q: "Wie viele Produkte kann ich verkaufen?", a: "So viele wie Sie brauchen. Der Shop wächst mit Ihrem Sortiment, von wenigen Produkten bis zu einem großen Katalog. Den Aufbau richten wir gemeinsam ein." },
+      { q: "Sind Hosting und Wartung inklusive?", a: "Ja. Hosting in der EU, SSL, Sicherheitsupdates und laufende Pflege sind im Monatspreis enthalten." },
       { q: "Ist der Shop mobil optimiert?", a: "Ja, der Shop ist vollständig responsive und für den Kauf auf dem Smartphone optimiert, vom Stöbern bis zur Bezahlung." },
       { q: "Kann ich den Shop mit meiner Website verbinden?", a: "Ja. Wir integrieren ihn in Ihren bestehenden Auftritt oder bauen Website und Shop von Anfang an als Einheit." },
       { q: "Wie lange ist die Mindestlaufzeit?", a: "Die Mindestlaufzeit beträgt 36 Monate. Danach ist das Abo monatlich kündbar. Alle Preise verstehen sich exkl. MWST." },
@@ -168,7 +168,7 @@ export const FAQ_SERVICES: Record<FaqLocale, FaqService[]> = {
       { q: "Brauche ich eine eigene Empfängerliste?", a: "Nicht zwingend. Wir helfen beim sauberen, datenschutzkonformen Aufbau Ihrer Liste, damit Sie die richtigen Personen erreichen." },
       { q: "Wie oft sollte ich versenden?", a: "Das hängt von Ihrem Geschäft ab. Wir empfehlen einen passenden Rhythmus und übernehmen auf Wunsch Konzept und Umsetzung." },
       { q: "Ist das nach Datenschutzregeln erlaubt?", a: "Ja, wenn es auf Einwilligung beruht. Wir richten Anmeldeformulare und Zustimmung ein, damit Sie nur Menschen schreiben, die danach gefragt haben." },
-      { q: "Welches Tool nutzen Sie?", a: "Wir wählen eine zuverlässige Email Plattform, die zu Ihrer Grösse und Ihrem Budget passt. Die Einrichtung übernehmen wir für Sie." },
+      { q: "Welches Tool nutzen Sie?", a: "Wir wählen eine zuverlässige Email Plattform, die zu Ihrer Größe und Ihrem Budget passt. Die Einrichtung übernehmen wir für Sie." },
       ],
     },
     {
@@ -194,10 +194,10 @@ export const FAQ_SERVICES: Record<FaqLocale, FaqService[]> = {
       name: "Google Ads",
       tagline: "Bezahlte Kampagnen, die Sie dort zeigen wo Kunden suchen.",
       faqs: [
-      { q: "Was kostet die Google Ads Betreuung?", a: "Den Preis für die Betreuung erhalten Sie auf Anfrage in einer schriftlichen Offerte. Das Werbebudget kommt nach Ihrer Wahl dazu. Sie behalten die Kontrolle über Ihre Ausgaben und können klein starten." },
-      { q: "Brauche ich ein grosses Budget?", a: "Nein. Wir starten mit einem fokussierten Budget auf den wichtigsten Suchbegriffen und skalieren erst, wenn sich die Kampagnen lohnen." },
+      { q: "Was kostet die Google Ads Betreuung?", a: "Den Preis für die Betreuung erhalten Sie auf Anfrage in einem schriftlichen Angebot. Das Werbebudget kommt nach Ihrer Wahl dazu. Sie behalten die Kontrolle über Ihre Ausgaben und können klein starten." },
+      { q: "Brauche ich ein großes Budget?", a: "Nein. Wir starten mit einem fokussierten Budget auf den wichtigsten Suchbegriffen und skalieren erst, wenn sich die Kampagnen lohnen." },
       { q: "Was übernehmen Sie?", a: "Einrichtung, Keywords, Anzeigentexte, Tracking und laufende Optimierung. Sie erhalten ein klares Reporting darüber, was die Ausgaben bringen." },
-      { q: "Wie schnell sehe ich Resultate?", a: "Anzeigen bringen oft innerhalb weniger Tage Besucher. In den ersten Wochen optimieren wir, damit Ihr Budget dorthin fliesst, wo es wirklich konvertiert." },
+      { q: "Wie schnell sehe ich Resultate?", a: "Anzeigen bringen oft innerhalb weniger Tage Besucher. In den ersten Wochen optimieren wir, damit Ihr Budget dorthin fließt, wo es wirklich konvertiert." },
       ],
     },
     {
@@ -230,21 +230,6 @@ export const FAQ_SERVICES: Record<FaqLocale, FaqService[]> = {
       { q: "Sind meine Daten sicher?", a: "Wir richten Assistenten so ein, dass Ihre Informationen unter Ihrer Kontrolle bleiben und nur für die vereinbarte Aufgabe genutzt werden." },
       ],
     },
-    {
-      id: "consultancy",
-      accent: "oklch(0.83 0.10 250)",
-      price: 0,
-      icon: "<svg viewBox=\"0 0 48 48\"><path d=\"M24 6c-7 0-12 5-12 12 0 5 3 8 5 11v3h14v-3c2-3 5-6 5-11 0-7-5-12-12-12Z\"/><path d=\"M19 36h10M21 40h6\"/></svg>",
-      name: "Consultancy",
-      tagline: "Unabhängige Beratung für Ihre digitale Transformation.",
-      faqs: [
-      { q: "Was ist Consultancy bei semanu?", a: "Ein unabhängiger Sparringspartner für Ihre digitale Transformation. Wir schauen welche Tools und Systeme wirklich zu Ihnen passen und helfen Ihnen digitale Herausforderungen anzugehen, ohne unnötige Komplexität." },
-      { q: "Ist die Beratung herstellerneutral?", a: "Ja. Wir empfehlen das was für Ihr Unternehmen sinnvoll ist und nicht das was uns am meisten Arbeit bringt. Die Beratung ist unabhängig von einem bestimmten Anbieter oder Produkt." },
-      { q: "Muss ich danach alles mit semanu bauen?", a: "Nein. Die Roadmap gehört Ihnen. Sie können die Umsetzung mit uns angehen oder mit Ihrem eigenen Team und Ihren Partnern. Wir beraten ergebnisoffen." },
-      { q: "Wie wird Consultancy abgerechnet?", a: "Auf Anfrage. Wir besprechen Ihr Anliegen und den Umfang und vereinbaren den Preis vorab, damit Sie wissen woran Sie sind." },
-      { q: "Lohnt sich das auch für kleine Unternehmen?", a: "Ja. Gerade für kleine Unternehmen ist eine klare Richtung wertvoll, damit Sie in die richtigen Dinge investieren und Fehlkäufe vermeiden." },
-      ],
-    },
   ],
   fr: [
     {
@@ -256,7 +241,7 @@ export const FAQ_SERVICES: Record<FaqLocale, FaqService[]> = {
       tagline: "Plusieurs pages, jusqu’à 10 pages. Structure, confiance et SEO.",
       faqs: [
       { q: "Combien de pages sont incluses ?", a: "Jusqu’à 10 pages avec une structure claire, plus de contenu et une meilleure base SEO. Idéal pour présenter en détail vos prestations, votre équipe et vos références. Si vous le souhaitez, des pages supplémentaires peuvent être ajoutées à tout moment." },
-      { q: "L’hébergement et la maintenance sont inclus ?", a: "Oui. Hébergement suisse, SSL, mises à jour de sécurité et entretien continu sont compris dans le prix mensuel." },
+      { q: "L’hébergement et la maintenance sont inclus ?", a: "Oui. Hébergement dans l’UE, SSL, mises à jour de sécurité et entretien continu sont compris dans le prix mensuel." },
       { q: "Je peux faire modifier des contenus ?", a: "Les petites adaptations font partie du suivi. Vous nous écrivez, nous les réalisons rapidement, sans que vous ayez à travailler dans le système." },
       { q: "Que sont les bases SEO et GEO ?", a: "Le SEO aide les moteurs de recherche à lire et classer votre site. Le GEO aide les systèmes de recherche AI à comprendre et recommander votre entreprise. Les deux sont compris dès le départ. Les classements Google concrets ne peuvent pas être garantis." },
       { q: "Je reçois un design individuel ou un modèle ?", a: "Vous recevez un design individuel conçu pour votre entreprise, votre public et votre secteur. Pas de template et pas de constructeur en ligne. Logo, couleurs et polices existants sont pris en compte." },
@@ -275,7 +260,7 @@ export const FAQ_SERVICES: Record<FaqLocale, FaqService[]> = {
       faqs: [
       { q: "Quels moyens de paiement sont pris en charge ?", a: "Les méthodes courantes comme TWINT et la carte, traitées en toute sécurité. D’autres moyens sont possibles sur demande. Nous configurons ensemble les produits, les commandes et la livraison." },
       { q: "Je peux vendre combien de produits ?", a: "Autant que nécessaire. La boutique grandit avec votre assortiment, de quelques produits à un grand catalogue. Nous mettons la structure en place ensemble." },
-      { q: "L’hébergement et la maintenance sont inclus ?", a: "Oui. Hébergement suisse, SSL, mises à jour de sécurité et entretien continu sont compris dans le prix mensuel." },
+      { q: "L’hébergement et la maintenance sont inclus ?", a: "Oui. Hébergement dans l’UE, SSL, mises à jour de sécurité et entretien continu sont compris dans le prix mensuel." },
       { q: "La boutique est optimisée mobile ?", a: "Oui, la boutique est entièrement responsive et optimisée pour l’achat sur smartphone, de la navigation au paiement." },
       { q: "Je peux relier la boutique à mon site ?", a: "Oui. Nous l’intégrons à votre site existant ou concevons site et boutique comme un tout dès le départ." },
       { q: "Quelle est la durée minimale ?", a: "La durée minimale est de 36 mois. Ensuite l’abonnement est résiliable chaque mois. Tous les prix s’entendent hors TVA." },
@@ -355,21 +340,6 @@ export const FAQ_SERVICES: Record<FaqLocale, FaqService[]> = {
       { q: "Mes données sont en sécurité ?", a: "Nous configurons les assistants pour que vos informations restent sous votre contrôle et ne servent qu’à la tâche convenue." },
       ],
     },
-    {
-      id: "consultancy",
-      accent: "oklch(0.83 0.10 250)",
-      price: 0,
-      icon: "<svg viewBox=\"0 0 48 48\"><path d=\"M24 6c-7 0-12 5-12 12 0 5 3 8 5 11v3h14v-3c2-3 5-6 5-11 0-7-5-12-12-12Z\"/><path d=\"M19 36h10M21 40h6\"/></svg>",
-      name: "Consultancy",
-      tagline: "Conseil indépendant pour votre transformation digitale.",
-      faqs: [
-      { q: "Qu’est ce que le Consultancy chez semanu ?", a: "Un partenaire de réflexion indépendant pour votre transformation digitale. Nous regardons quels outils et systèmes vous conviennent vraiment et vous aidons à relever vos défis numériques, sans complexité inutile." },
-      { q: "Le conseil est il neutre vis à vis des fournisseurs ?", a: "Oui. Nous recommandons ce qui a du sens pour votre entreprise et non ce qui nous rapporte le plus de travail. Le conseil est indépendant d’un fournisseur ou d’un produit précis." },
-      { q: "Dois je ensuite tout construire avec semanu ?", a: "Non. La feuille de route vous appartient. Vous pouvez mener la réalisation avec nous ou avec votre propre équipe et vos partenaires. Nous conseillons sans parti pris." },
-      { q: "Comment le Consultancy est il facturé ?", a: "Sur demande. Nous discutons de votre besoin et du périmètre et convenons du prix à l’avance, pour que vous sachiez où vous allez." },
-      { q: "Est ce utile pour les petites entreprises ?", a: "Oui. Pour les petites entreprises surtout, une direction claire est précieuse pour investir dans les bonnes choses et éviter les mauvais achats." },
-      ],
-    },
   ],
   en: [
     {
@@ -381,7 +351,7 @@ export const FAQ_SERVICES: Record<FaqLocale, FaqService[]> = {
       tagline: "Multi page, up to 10 pages. Structure, trust and SEO.",
       faqs: [
       { q: "How many pages are included?", a: "Up to 10 pages with clear structure, more content and a stronger SEO base. Ideal when you want to show services, team and references in depth. If you want more, additional pages can be added at any time." },
-      { q: "Are hosting and maintenance included?", a: "Yes. Swiss hosting, SSL, security updates and ongoing care are part of the monthly price." },
+      { q: "Are hosting and maintenance included?", a: "Yes. Hosting in the EU, SSL, security updates and ongoing care are part of the monthly price." },
       { q: "Can I have content changed?", a: "Small changes are part of the service. You drop us a note and we handle it promptly with no need to work in the system yourself." },
       { q: "What are SEO and GEO foundations?", a: "SEO helps search engines read and rank your site. GEO helps AI search systems understand and recommend your business. Both are included from the start. Concrete Google rankings cannot be guaranteed." },
       { q: "Do I get an individual design or a template?", a: "You get an individual design made for your business, your audience and your sector. No templates and no website builder. Existing logo, colours and fonts are taken into account." },
@@ -400,7 +370,7 @@ export const FAQ_SERVICES: Record<FaqLocale, FaqService[]> = {
       faqs: [
       { q: "Which payment methods are supported?", a: "Common methods like TWINT and card payments, handled securely. Other methods are possible on request. We set up products, orders and shipping together." },
       { q: "How many products can I sell?", a: "As many as you need. The shop scales with your range, from a handful of products to a large catalogue. We set the structure up together." },
-      { q: "Are hosting and maintenance included?", a: "Yes. Swiss hosting, SSL, security updates and ongoing care are part of the monthly price." },
+      { q: "Are hosting and maintenance included?", a: "Yes. Hosting in the EU, SSL, security updates and ongoing care are part of the monthly price." },
       { q: "Is the shop mobile optimised?", a: "Yes, the shop is fully responsive and optimised for buying on a phone, from browsing to checkout." },
       { q: "Can I connect the shop to my website?", a: "Yes. We integrate it into your existing site or build website and shop as one from the start." },
       { q: "What is the minimum term?", a: "The minimum term is 36 months. After that the subscription is cancellable monthly. All prices are excl. VAT." },
@@ -480,21 +450,6 @@ export const FAQ_SERVICES: Record<FaqLocale, FaqService[]> = {
       { q: "Is my data safe?", a: "We set up assistants so your information stays under your control and is only used for the task you agreed." },
       ],
     },
-    {
-      id: "consultancy",
-      accent: "oklch(0.83 0.10 250)",
-      price: 0,
-      icon: "<svg viewBox=\"0 0 48 48\"><path d=\"M24 6c-7 0-12 5-12 12 0 5 3 8 5 11v3h14v-3c2-3 5-6 5-11 0-7-5-12-12-12Z\"/><path d=\"M19 36h10M21 40h6\"/></svg>",
-      name: "Consultancy",
-      tagline: "Independent advice for your digital transformation.",
-      faqs: [
-      { q: "What is consultancy at semanu?", a: "An independent sparring partner for your digital transformation. We look at which tools and systems truly fit you and help you tackle digital challenges without unnecessary complexity." },
-      { q: "Is the advice vendor neutral?", a: "Yes. We recommend what makes sense for your business and not what brings us the most work. The advice is independent of any particular vendor or product." },
-      { q: "Do I have to build everything with semanu?", a: "No. The roadmap is yours. You can take on the build with us or with your own team and partners. We advise with an open outcome." },
-      { q: "How is consultancy priced?", a: "On request. We discuss your question and the scope and agree the price upfront so you know where you stand." },
-      { q: "Is it useful for small companies?", a: "Yes. For small companies especially, a clear direction is valuable so you invest in the right things and avoid wrong purchases." },
-      ],
-    },
   ],
   es: [
     {
@@ -506,7 +461,7 @@ export const FAQ_SERVICES: Record<FaqLocale, FaqService[]> = {
       tagline: "Varias páginas, hasta 10 páginas. Más estructura, confianza y SEO.",
       faqs: [
       { q: "Cuántas páginas están incluidas?", a: "Hasta 10 páginas con una estructura clara, más contenido y una base SEO más sólida. Ideal si quiere mostrar en detalle sus servicios, su equipo y sus referencias. Si necesita más, se pueden añadir páginas adicionales en cualquier momento." },
-      { q: "El hosting y el mantenimiento están incluidos?", a: "Sí. El hosting suizo, SSL, las actualizaciones de seguridad y el mantenimiento continuo están incluidos en el precio mensual." },
+      { q: "El hosting y el mantenimiento están incluidos?", a: "Sí. El hosting en la UE, SSL, las actualizaciones de seguridad y el mantenimiento continuo están incluidos en el precio mensual." },
       { q: "Puedo pedir cambios en los contenidos?", a: "Los pequeños ajustes forman parte del servicio. Nos escribe una nota breve, lo aplicamos con rapidez, sin que usted tenga que trabajar en el sistema." },
       { q: "Qué son los fundamentos de SEO y GEO?", a: "El SEO ayuda a los motores de búsqueda a leer y posicionar su sitio. El GEO ayuda a los sistemas de búsqueda AI a entender y recomendar su empresa. Ambos están incluidos desde el principio. No se pueden garantizar posiciones concretas en Google." },
       { q: "Recibo un diseño individual o una plantilla?", a: "Recibe un diseño individual adaptado a su empresa, su público y su sector. Sin plantillas ni sistemas modulares. Se tienen en cuenta el logotipo, los colores y las tipografías existentes." },
@@ -525,7 +480,7 @@ export const FAQ_SERVICES: Record<FaqLocale, FaqService[]> = {
       faqs: [
       { q: "Qué métodos de pago se admiten?", a: "Métodos habituales como TWINT y pago con tarjeta, gestionados de forma segura. Otros métodos de pago son posibles si lo desea. Los productos, los pedidos y la configuración de envío los preparamos juntos." },
       { q: "Cuántos productos puedo vender?", a: "Tantos como necesite. La tienda crece con su surtido, desde unos pocos productos hasta un gran catálogo. La estructura la preparamos juntos." },
-      { q: "El hosting y el mantenimiento están incluidos?", a: "Sí. El hosting suizo, SSL, las actualizaciones de seguridad y el mantenimiento continuo están incluidos en el precio mensual." },
+      { q: "El hosting y el mantenimiento están incluidos?", a: "Sí. El hosting en la UE, SSL, las actualizaciones de seguridad y el mantenimiento continuo están incluidos en el precio mensual." },
       { q: "La tienda está optimizada para móvil?", a: "Sí, la tienda es totalmente responsive y está optimizada para la compra en el smartphone, desde la navegación hasta el pago." },
       { q: "Puedo conectar la tienda con mi sitio web?", a: "Sí. La integramos en su presencia actual o creamos el sitio web y la tienda como una unidad desde el principio." },
       { q: "Cuánto dura el plazo mínimo?", a: "El plazo mínimo es de 36 meses. Después la suscripción se puede cancelar cada mes. Todos los precios se entienden sin IVA." },
@@ -605,21 +560,6 @@ export const FAQ_SERVICES: Record<FaqLocale, FaqService[]> = {
       { q: "Están seguros mis datos?", a: "Configuramos los asistentes de modo que su información permanezca bajo su control y se use solo para la tarea acordada." },
       ],
     },
-    {
-      id: "consultancy",
-      accent: "oklch(0.83 0.10 250)",
-      price: 0,
-      icon: "<svg viewBox=\"0 0 48 48\"><path d=\"M24 6c-7 0-12 5-12 12 0 5 3 8 5 11v3h14v-3c2-3 5-6 5-11 0-7-5-12-12-12Z\"/><path d=\"M19 36h10M21 40h6\"/></svg>",
-      name: "Consultancy",
-      tagline: "Asesoramiento independiente para su transformación digital.",
-      faqs: [
-      { q: "Qué es Consultancy en semanu?", a: "Un sparring partner independiente para su transformación digital. Miramos qué herramientas y sistemas encajan realmente con usted y le ayudamos a abordar los retos digitales, sin complejidad innecesaria." },
-      { q: "El asesoramiento es neutral respecto al proveedor?", a: "Sí. Recomendamos lo que tiene sentido para su empresa y no lo que más trabajo nos da. El asesoramiento es independiente de un proveedor o producto concreto." },
-      { q: "Tengo que construir todo con semanu después?", a: "No. La hoja de ruta es suya. Puede abordar la ejecución con nosotros o con su propio equipo y sus socios. Asesoramos con un resultado abierto." },
-      { q: "Cómo se factura Consultancy?", a: "Bajo petición. Hablamos de su solicitud y el alcance y acordamos el precio de antemano, para que sepa a qué atenerse." },
-      { q: "Vale la pena también para pequeñas empresas?", a: "Sí. Precisamente para las pequeñas empresas una dirección clara es valiosa, para que invierta en las cosas correctas y evite compras equivocadas." },
-      ],
-    },
   ],
   nl: [
     {
@@ -631,7 +571,7 @@ export const FAQ_SERVICES: Record<FaqLocale, FaqService[]> = {
       tagline: "Meerdere pagina's, tot 10 pagina's. Meer structuur, vertrouwen en SEO.",
       faqs: [
       { q: "Hoeveel pagina's zijn inbegrepen?", a: "Tot 10 pagina's met een duidelijke structuur, meer inhoud en een sterkere SEO basis. Ideaal als u diensten, team en referenties uitgebreid wilt tonen. Als u meer nodig hebt, kunnen er op elk moment extra pagina's worden toegevoegd." },
-      { q: "Zijn hosting en onderhoud inbegrepen?", a: "Ja. Zwitserse hosting, SSL, beveiligingsupdates en doorlopend onderhoud zijn inbegrepen in de maandprijs." },
+      { q: "Zijn hosting en onderhoud inbegrepen?", a: "Ja. Hosting in de EU, SSL, beveiligingsupdates en doorlopend onderhoud zijn inbegrepen in de maandprijs." },
       { q: "Kan ik inhoud laten aanpassen?", a: "Kleine aanpassingen horen bij de begeleiding. U stuurt ons een kort bericht, wij voeren het snel uit, zonder dat u zelf in het systeem hoeft te werken." },
       { q: "Wat zijn SEO en GEO basisprincipes?", a: "SEO helpt zoekmachines om uw site te lezen en te ranken. GEO helpt AI zoeksystemen om uw onderneming te begrijpen en aan te bevelen. Beide zijn vanaf het begin inbegrepen. Concrete Google rankings kunnen niet worden gegarandeerd." },
       { q: "Krijg ik een individueel ontwerp of een sjabloon?", a: "U krijgt een individueel ontwerp dat is afgestemd op uw onderneming, uw doelgroep en uw sector. Geen templates en geen modulair systeem. Bestaand logo, kleuren en lettertypes worden meegenomen." },
@@ -650,7 +590,7 @@ export const FAQ_SERVICES: Record<FaqLocale, FaqService[]> = {
       faqs: [
       { q: "Welke betaalmethodes worden ondersteund?", a: "Gangbare methodes zoals TWINT en kaartbetaling, veilig afgehandeld. Andere betaalmethodes zijn op aanvraag mogelijk. Producten, bestellingen en de verzendconfiguratie richten we samen in." },
       { q: "Hoeveel producten kan ik verkopen?", a: "Zoveel als u nodig hebt. De shop groeit mee met uw assortiment, van enkele producten tot een grote catalogus. De opbouw richten we samen in." },
-      { q: "Zijn hosting en onderhoud inbegrepen?", a: "Ja. Zwitserse hosting, SSL, beveiligingsupdates en doorlopend onderhoud zijn inbegrepen in de maandprijs." },
+      { q: "Zijn hosting en onderhoud inbegrepen?", a: "Ja. Hosting in de EU, SSL, beveiligingsupdates en doorlopend onderhoud zijn inbegrepen in de maandprijs." },
       { q: "Is de shop geoptimaliseerd voor mobiel?", a: "Ja, de shop is volledig responsive en geoptimaliseerd voor het kopen op de smartphone, van bladeren tot betalen." },
       { q: "Kan ik de shop met mijn website verbinden?", a: "Ja. We integreren hem in uw bestaande presentatie of we bouwen website en shop vanaf het begin als één geheel." },
       { q: "Hoe lang is de minimale looptijd?", a: "De minimale looptijd bedraagt 36 maanden. Daarna is het abonnement maandelijks opzegbaar. Alle prijzen zijn excl. btw." },
@@ -728,21 +668,6 @@ export const FAQ_SERVICES: Record<FaqLocale, FaqService[]> = {
       { q: "Vervangt dat mijn support?", a: "Het ontlast hem. De assistent neemt routinevragen over, complexe gevallen stuurt hij netjes naar u door." },
       { q: "Verzint hij dingen?", a: "We verlagen dat door de assistent te verbinden met uw eigen informatie en duidelijke grenzen te stellen, zodat hij bij het onderwerp blijft en nauwkeurig antwoordt." },
       { q: "Zijn mijn gegevens veilig?", a: "We richten assistenten zo in dat uw informatie onder uw controle blijft en alleen voor de afgesproken taak wordt gebruikt." },
-      ],
-    },
-    {
-      id: "consultancy",
-      accent: "oklch(0.83 0.10 250)",
-      price: 0,
-      icon: "<svg viewBox=\"0 0 48 48\"><path d=\"M24 6c-7 0-12 5-12 12 0 5 3 8 5 11v3h14v-3c2-3 5-6 5-11 0-7-5-12-12-12Z\"/><path d=\"M19 36h10M21 40h6\"/></svg>",
-      name: "Consultancy",
-      tagline: "Onafhankelijk advies voor uw digitale transformatie.",
-      faqs: [
-      { q: "Wat is Consultancy bij semanu?", a: "Een onafhankelijke sparringpartner voor uw digitale transformatie. We kijken welke tools en systemen echt bij u passen en helpen u digitale uitdagingen aan te pakken, zonder onnodige complexiteit." },
-      { q: "Is het advies leveranciersneutraal?", a: "Ja. We adviseren wat zinvol is voor uw onderneming en niet wat ons het meeste werk oplevert. Het advies is onafhankelijk van een bepaalde leverancier of product." },
-      { q: "Moet ik daarna alles met semanu bouwen?", a: "Nee. De roadmap is van u. U kunt de uitvoering met ons aanpakken of met uw eigen team en uw partners. We adviseren met een open uitkomst." },
-      { q: "Hoe wordt Consultancy afgerekend?", a: "Op aanvraag. We bespreken uw vraag en de omvang en spreken de prijs vooraf af, zodat u weet waar u aan toe bent." },
-      { q: "Loont dat ook voor kleine ondernemingen?", a: "Ja. Juist voor kleine ondernemingen is een duidelijke richting waardevol, zodat u in de juiste dingen investeert en verkeerde aankopen vermijdt." },
       ],
     },
   ],

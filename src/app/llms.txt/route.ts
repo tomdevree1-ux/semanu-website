@@ -20,12 +20,11 @@ export async function GET(): Promise<Response> {
 
   const body = `# semanu
 
-SEMANU (legal entity SEMANU BV, Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgium; company number 0828.291.116, VAT BE0828.291.116) is a digital partner for small and medium businesses. SEMANU builds 3D product configurators and custom business software, AI-first, including design, build, hosting and ongoing support. The website is ${base}.
+SEMANU (legal entity SEMANU BV, Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgium; company number 0828.291.116, VAT BE0828.291.116) is a digital partner for small and medium businesses across Europe. SEMANU builds 3D product configurators and custom business software, AI-first, including design, build, hosting and ongoing support. The website is ${base}.
 
 ## Services
 - 3D product configurators: customers configure a product themselves, see it live in 3D and get an indicative price; output can feed production or ERP.
-- Custom business software: modular software that connects and automates processes, scoped individually and agreed transparently up front.
-- Consultancy: independent advice on what to digitalise first and what can wait.
+- Custom business software: modular software that connects and automates processes (workflow automation, portals, CRM and dashboards, AI inside processes), scoped individually and agreed transparently up front.
 - Pricing: on request. Every project gets a written quote; prices are in EUR excluding VAT.
 
 ## Proven work (business cases, see ${base}/en/referenzen)
@@ -33,6 +32,8 @@ ${caseLines}
 
 ## Key pages
 - Home: ${base}/en
+- 3D configurators: ${base}/en/services/3d-configurators
+- Business software: ${base}/en/services/ai-native
 - Client stories: ${base}/en/referenzen
 - FAQ: ${base}/en/faq
 - Blog: ${base}/en/blog

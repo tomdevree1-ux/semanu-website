@@ -11,7 +11,6 @@ import { z } from 'zod';
 
 /** Service ids a visitor can tick on the contact form (internal service ids). */
 export const CONTACT_INTERESTS = [
-  'consultancy',
   'marketing-automation',
   'business-systems',
   '3d-configurators',

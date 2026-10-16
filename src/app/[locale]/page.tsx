@@ -18,18 +18,18 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const titles: Record<string, string> = {
-    de: 'semanu · Digitaler Partner für Schweizer KMU',
-    fr: 'semanu · Partenaire digital pour PME suisses',
-    en: 'semanu · Digital partner for Swiss SMEs',
-    es: 'semanu · Socio digital para pymes suizas',
-    nl: 'semanu · Digitale partner voor Zwitserse kmo’s',
+    de: 'semanu · Digitaler Partner für KMU in Europa',
+    fr: 'semanu · Partenaire digital pour PME en Europe',
+    en: 'semanu · Digital partner for SMEs in Europe',
+    es: 'semanu · Socio digital para pymes en Europa',
+    nl: 'semanu · Digitale partner voor kmo’s in Europa',
   };
   const descriptions: Record<string, string> = {
-    de: 'semanu ist der digitale Partner für Schweizer KMU: 3D-Konfiguratoren und Unternehmenssoftware nach Mass, mit AI als Motor. Schneller und günstiger digitalisieren.',
-    fr: 'semanu est le partenaire digital des PME suisses: configurateurs 3D et logiciels d’entreprise sur mesure, avec l’AI comme moteur. Digitaliser plus vite et à moindre coût.',
-    en: 'semanu is the digital partner for Swiss SMEs: 3D configurators and custom business software, with AI as the engine. Digitalise faster and more affordably.',
-    es: 'semanu es el socio digital para pymes suizas: configuradores 3D y software empresarial a medida, con la AI como motor. Digitalizar más rápido y más económico.',
-    nl: 'semanu is de digitale partner voor Zwitserse kmo’s: 3D-configuratoren en bedrijfssoftware op maat, met AI als motor. Sneller en voordeliger digitaliseren.',
+    de: 'semanu ist der digitale Partner für KMU in Europa: 3D-Konfiguratoren und Unternehmenssoftware nach Maß mit AI als Motor. Schneller und günstiger digitalisieren.',
+    fr: 'semanu est le partenaire digital des PME en Europe: configurateurs 3D et logiciels d’entreprise sur mesure avec l’AI comme moteur. Digitaliser plus vite et à moindre coût.',
+    en: 'semanu is the digital partner for SMEs in Europe: 3D configurators and custom business software with AI as the engine. Digitalise faster and more affordably.',
+    es: 'semanu es el socio digital para pymes en Europa: configuradores 3D y software empresarial a medida con la AI como motor. Digitalizar más rápido y más económico.',
+    nl: 'semanu is de digitale partner voor kmo’s in Europa: 3D-configuratoren en bedrijfssoftware op maat met AI als motor. Sneller en voordeliger digitaliseren.',
   };
   const title = titles[locale] ?? titles.nl;
   return pageMetadata({ title, description: descriptions[locale] ?? descriptions.nl, path: '', locale });
@@ -58,7 +58,7 @@ type HomeContent = {
 const en: HomeContent = {
   hero: {
     h1: 'Turning ambition into digital advantage.',
-    sub: 'semanu is the digital partner for Swiss SMEs. We build 3D configurators and custom business software. With AI as the engine you digitalise faster and more affordably than with a traditional approach.',
+    sub: 'semanu is the digital partner for SMEs in Europe. We build 3D configurators and custom business software. With AI as the engine you digitalise faster and more affordably than with a traditional approach.',
     cta: 'Start the conversation',
   },
   kloof: {
@@ -69,7 +69,7 @@ const en: HomeContent = {
   servicesHead: { title: 'From advice to execution.' },
   trio: [
     { title: 'One plan', text: 'Strong results start with a clear plan that connects your processes and goals.' },
-    { title: 'One team', text: 'Advice, design and engineering in one team, with AI as an amplifier instead of silos.' },
+    { title: 'One team', text: 'Advice, design and engineering in one team with AI as an amplifier instead of silos.' },
     { title: 'One partner', text: 'From strategy to execution, without handovers or gaps in the flow. Focused on the long term.' },
   ],
   factsHead: { title: 'Why businesses choose semanu', link: 'About us' },
@@ -85,7 +85,7 @@ const en: HomeContent = {
   },
   refHead: { title: 'From expertise to measurable results.', link: 'All client stories' },
   refIntro:
-    'See how semanu helps Swiss SMEs digitalise with 3D configurators and custom business software, with concrete results from practice.',
+    'See how semanu helps SMEs digitalise with 3D configurators and custom business software with concrete results from practice.',
   cases: [
     {
       label: 'Business software',
@@ -106,18 +106,18 @@ const en: HomeContent = {
 const de: HomeContent = {
   hero: {
     h1: 'Von Ambition zu digitalem Vorsprung.',
-    sub: 'semanu ist der digitale Partner für Schweizer KMU. Wir bauen 3D-Konfiguratoren und Unternehmenssoftware nach Mass. Mit AI als Motor digitalisieren Sie schneller und günstiger als mit einem traditionellen Ansatz.',
+    sub: 'semanu ist der digitale Partner für KMU in Europa. Wir bauen 3D-Konfiguratoren und Unternehmenssoftware nach Maß. Mit AI als Motor digitalisieren Sie schneller und günstiger als mit einem traditionellen Ansatz.',
     cta: 'Gespräch starten',
   },
   kloof: {
     title: 'Digital im Rückstand',
-    p1: 'Ihr Team kopiert Daten zwischen Systemen, Offerten erfordern manuelle Arbeit und Kundendaten sind über CRM, ERP und Tabellen verteilt. Bestehende Software passt nicht mehr zu Ihren Prozessen oder Systeme arbeiten zu wenig zusammen. Das kostet Zeit, verursacht Fehler und erschwert weiteres Wachstum.',
+    p1: 'Ihr Team kopiert Daten zwischen Systemen, Angebote erfordern manuelle Arbeit und Kundendaten sind über CRM, ERP und Tabellen verteilt. Bestehende Software passt nicht mehr zu Ihren Prozessen oder Systeme arbeiten zu wenig zusammen. Das kostet Zeit, verursacht Fehler und erschwert weiteres Wachstum.',
     p2: 'Gleichzeitig steigt der digitale Standard im Markt. Kunden erwarten Tempo, Einfachheit und ein nahtloses Erlebnis über jeden Kontaktpunkt. Wenn Ihre Organisation dieser Entwicklung nicht folgen kann, wächst die Reibung mit direkten Folgen für Effizienz, Conversion, Kundenbindung und Ihre Position im Markt.',
   },
   servicesHead: { title: 'Von Beratung bis Umsetzung.' },
   trio: [
     { title: 'Ein Plan', text: 'Starke Resultate beginnen mit einem klaren Plan, der Ihre Prozesse und Ziele verbindet.' },
-    { title: 'Ein Team', text: 'Beratung, Design und Entwicklung in einem Team, mit AI als Verstärker statt Silos.' },
+    { title: 'Ein Team', text: 'Beratung, Design und Entwicklung in einem Team mit AI als Verstärker statt Silos.' },
     { title: 'Ein Partner', text: 'Von der Strategie bis zur Umsetzung, ohne Übergaben oder Lücken im Ablauf. Auf lange Sicht ausgerichtet.' },
   ],
   factsHead: { title: 'Warum Unternehmen semanu wählen.', link: 'Über uns' },
@@ -133,12 +133,12 @@ const de: HomeContent = {
   },
   refHead: { title: 'Von Expertise zu messbarem Resultat.', link: 'Alle Referenzen' },
   refIntro:
-    'Entdecken Sie, wie semanu Schweizer KMU beim Digitalisieren hilft mit 3D-Konfiguratoren und Unternehmenssoftware nach Mass, mit konkreten Resultaten aus der Praxis.',
+    'Entdecken Sie, wie semanu KMU beim Digitalisieren hilft mit 3D-Konfiguratoren und Unternehmenssoftware nach Maß mit konkreten Resultaten aus der Praxis.',
   cases: [
     {
       label: 'Unternehmenssoftware',
       client: 'Poortland',
-      text: 'Vom ersten Kundenkontakt bis zur Montage: Offerte, Produktion und Planung verbunden in einem digitalen Ablauf.',
+      text: 'Vom ersten Kundenkontakt bis zur Montage: Angebot, Produktion und Planung verbunden in einem digitalen Ablauf.',
       alt: 'Poortland Website auf einem Laptop',
     },
     {
@@ -154,7 +154,7 @@ const de: HomeContent = {
 const fr: HomeContent = {
   hero: {
     h1: 'De l’ambition à l’avance digitale.',
-    sub: 'semanu est le partenaire digital des PME suisses. Nous construisons des configurateurs 3D et des logiciels d’entreprise sur mesure. Avec l’AI comme moteur vous digitalisez plus vite et à moindre coût qu’avec une approche traditionnelle.',
+    sub: 'semanu est le partenaire digital des PME en Europe. Nous construisons des configurateurs 3D et des logiciels d’entreprise sur mesure. Avec l’AI comme moteur vous digitalisez plus vite et à moindre coût qu’avec une approche traditionnelle.',
     cta: 'Démarrer la conversation',
   },
   kloof: {
@@ -165,7 +165,7 @@ const fr: HomeContent = {
   servicesHead: { title: 'Du conseil à l’exécution.' },
   trio: [
     { title: 'Un plan', text: 'Les bons résultats commencent par un plan clair qui relie vos processus et vos objectifs.' },
-    { title: 'Une équipe', text: 'Conseil, design et développement dans une seule équipe, avec l’AI comme amplificateur plutôt que des silos.' },
+    { title: 'Une équipe', text: 'Conseil, design et développement dans une seule équipe avec l’AI comme amplificateur plutôt que des silos.' },
     { title: 'Un partenaire', text: 'De la stratégie à l’exécution, sans transferts ni ruptures dans le flux. Orienté long terme.' },
   ],
   factsHead: { title: 'Pourquoi les entreprises choisissent semanu', link: 'À propos' },
@@ -181,7 +181,7 @@ const fr: HomeContent = {
   },
   refHead: { title: 'De l’expertise à des résultats mesurables.', link: 'Toutes les références' },
   refIntro:
-    'Découvrez comment semanu aide les PME suisses à se digitaliser avec des configurateurs 3D et des logiciels d’entreprise sur mesure, avec des résultats concrets issus du terrain.',
+    'Découvrez comment semanu aide les PME à se digitaliser avec des configurateurs 3D et des logiciels d’entreprise sur mesure avec des résultats concrets issus du terrain.',
   cases: [
     {
       label: 'Logiciel d’entreprise',
@@ -202,7 +202,7 @@ const fr: HomeContent = {
 const es: HomeContent = {
   hero: {
     h1: 'De la ambición a la ventaja digital.',
-    sub: 'semanu es el socio digital para pymes suizas. Creamos configuradores 3D y software empresarial a medida. Con la AI como motor digitaliza más rápido y de forma más económica que con un enfoque tradicional.',
+    sub: 'semanu es el socio digital para pymes en Europa. Creamos configuradores 3D y software empresarial a medida. Con la AI como motor digitaliza más rápido y de forma más económica que con un enfoque tradicional.',
     cta: 'Iniciar la conversación',
   },
   kloof: {
@@ -213,7 +213,7 @@ const es: HomeContent = {
   servicesHead: { title: 'Del asesoramiento a la ejecución.' },
   trio: [
     { title: 'Un plan', text: 'Los buenos resultados empiezan con un plan claro que conecta sus procesos y objetivos.' },
-    { title: 'Un equipo', text: 'Asesoramiento, diseño y desarrollo en un solo equipo, con la AI como amplificador en lugar de silos.' },
+    { title: 'Un equipo', text: 'Asesoramiento, diseño y desarrollo en un solo equipo con la AI como amplificador en lugar de silos.' },
     { title: 'Un socio', text: 'De la estrategia a la ejecución, sin traspasos ni huecos en el flujo. Orientado al largo plazo.' },
   ],
   factsHead: { title: 'Por qué las empresas eligen semanu', link: 'Sobre nosotros' },
@@ -229,7 +229,7 @@ const es: HomeContent = {
   },
   refHead: { title: 'De la experiencia a resultados medibles.', link: 'Todas las referencias' },
   refIntro:
-    'Descubra cómo semanu ayuda a las pymes suizas a digitalizarse con configuradores 3D y software empresarial a medida, con resultados concretos de la práctica.',
+    'Descubra cómo semanu ayuda a las pymes a digitalizarse con configuradores 3D y software empresarial a medida con resultados concretos de la práctica.',
   cases: [
     {
       label: 'Software empresarial',
@@ -250,7 +250,7 @@ const es: HomeContent = {
 const nl: HomeContent = {
   hero: {
     h1: 'Van ambitie naar digitale voorsprong.',
-    sub: 'semanu is de digitale partner voor Zwitserse kmo’s. Wij bouwen 3D-configuratoren en bedrijfssoftware op maat. Met AI als motor digitaliseert u sneller en voordeliger dan bij een traditionele aanpak.',
+    sub: 'semanu is de digitale partner voor kmo’s in Europa. Wij bouwen 3D-configuratoren en bedrijfssoftware op maat. Met AI als motor digitaliseert u sneller en voordeliger dan bij een traditionele aanpak.',
     cta: 'Start het gesprek',
   },
   kloof: {
@@ -261,7 +261,7 @@ const nl: HomeContent = {
   servicesHead: { title: 'Van advies tot uitvoering.' },
   trio: [
     { title: 'Eén plan', text: 'Sterke resultaten beginnen met een helder plan dat uw processen en doelen verbindt.' },
-    { title: 'Eén team', text: 'Advies, ontwerp en ontwikkeling in één team, met AI als versterker in plaats van silo’s.' },
+    { title: 'Eén team', text: 'Advies, ontwerp en ontwikkeling in één team met AI als versterker in plaats van silo’s.' },
     { title: 'Eén partner', text: 'Van strategie tot uitvoering, zonder overdrachten of gaten in de flow. Gericht op lange termijn.' },
   ],
   factsHead: { title: 'Waarom bedrijven voor semanu kiezen.', link: 'Over ons' },
@@ -277,7 +277,7 @@ const nl: HomeContent = {
   },
   refHead: { title: 'Van expertise naar meetbaar resultaat.', link: 'Alle referenties' },
   refIntro:
-    'Ontdek hoe semanu Zwitserse kmo’s helpt digitaliseren met 3D-configuratoren en bedrijfssoftware op maat met concrete resultaten uit de praktijk.',
+    'Ontdek hoe semanu kmo’s helpt digitaliseren met 3D-configuratoren en bedrijfssoftware op maat met concrete resultaten uit de praktijk.',
   cases: [
     {
       label: 'Bedrijfssoftware',
@@ -326,9 +326,8 @@ export default async function HomePage({
   const { locale } = await params;
   setRequestLocale(locale);
   const loc = (['de', 'fr', 'en', 'es', 'nl'].includes(locale) ? locale : 'de') as ServicesLocale;
-  // Two services only (3D configurators + business software); consultancy is no
-  // longer featured on the homepage.
-  const services = serviceLinks(loc).filter((s) => s.id !== 'consultancy');
+  // The two services: 3D configurators and business software.
+  const services = serviceLinks(loc);
   const h = HOME[loc];
   const cases = h.cases.map((c, i) => ({ ...CASE_MEDIA[i], ...c }));
 

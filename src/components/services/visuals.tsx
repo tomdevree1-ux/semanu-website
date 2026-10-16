@@ -235,7 +235,6 @@ export function ServiceSignature({ id, detail }: { id: string; detail: ServiceDe
       return <EmailJourneyVisual steps={detail.visual} caption={detail.visualCaption} />;
     case '3d-configurators':
     case 'marketing-automation':
-    case 'consultancy':
       return <AutomationFlowVisual nodes={detail.visual} caption={detail.visualCaption} />;
     case 'booking':
       return <BookingJourneyVisual steps={detail.visual} caption={detail.visualCaption} />;

@@ -17,13 +17,14 @@ import type { AnalysisLeadInput, ContactLeadInput, ContactInterest } from '@/lib
 
 /** Our service ids → submit-contact topics. submit-contact maps the topic to a
  *  board service: configurator → 3d_configurator, custom → custom_software,
- *  ai → workflow_automation, anything else → consultancy. */
+ *  ai → workflow_automation, anything else (no topic, e.g. only "not sure")
+ *  → consultancy. That fallback is a backend board value only: consultancy is
+ *  no longer offered as a service on the site (2026-10). */
 const TOPIC_BY_INTEREST: Partial<Record<ContactInterest, string>> = {
   '3d-configurators': 'configurator',
   'ai-native': 'custom',
   'business-systems': 'custom',
   'marketing-automation': 'ai',
-  consultancy: 'consultancy',
 };
 
 const INTEREST_LABEL: Record<ContactInterest, string> = {
@@ -31,7 +32,6 @@ const INTEREST_LABEL: Record<ContactInterest, string> = {
   'ai-native': 'Bedrijfssoftware',
   'business-systems': 'Maatwerksoftware',
   'marketing-automation': 'Workflowautomatisering',
-  consultancy: 'Consultancy',
   'not-sure': 'Nog niet zeker',
 };
 
