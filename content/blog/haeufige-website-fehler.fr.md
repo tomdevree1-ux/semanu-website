@@ -2,13 +2,13 @@
 title: "Erreurs fréquentes sur les sites de PME et comment les éviter"
 description: "Les erreurs les plus fréquentes sur les sites des petites et moyennes entreprises et comment les éviter, pour que votre site crée la confiance."
 date: "2026-02-11"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/haeufige-website-fehler-cover.svg"
 ---
 
-Beaucoup de sites de petites et moyennes entreprises ont l’air corrects au premier regard et rapportent quand même trop peu. Le plus souvent, ce n’est pas un gros problème. C’est une série de petites erreurs. Voici les plus fréquentes et comment les éviter. Cela rejoint nos chiffres : dans notre [étude des sites de PME](/fr/blog/kmu-website-studie-schweiz) à peine 9 pour cent sont à jour.
+Beaucoup de sites de petites et moyennes entreprises ont l’air corrects au premier regard et rapportent quand même trop peu. Le plus souvent, ce n’est pas un gros problème. C’est une série de petites erreurs. Voici les plus fréquentes et comment les éviter.
 
 ## On ne comprend pas ce que vous proposez
 
@@ -38,7 +38,7 @@ Gardez les informations importantes à jour. Même un petit entretien régulier 
 
 Un site lent coûte des visiteurs avant même qu’ils aient vu quoi que ce soit. Souvent, la cause est des images trop lourdes ou une technique dépassée.
 
-Des temps de chargement rapides font partie d’un [site professionnel](/fr/services/websites). Ils améliorent l’expérience et aident aussi la visibilité.
+Des temps de chargement rapides font partie d’un site professionnel. Ils améliorent l’expérience et aident aussi la visibilité.
 
 ## Un manque de confiance
 
@@ -50,7 +50,7 @@ Montrez qui se cache derrière l’entreprise et rendez la prise de contact simp
 
 Hébergement, mises à jour et sécurité restent souvent en suspens, faute de savoir qui en est responsable. Avec le temps, le site devient plus lent, moins sûr et dépassé.
 
-Un suivi continu évite exactement cela. Dans un [abonnement site](/fr/website-abos), l’entretien, la sécurité et les petites adaptations sont inclus dès le départ. Le déroulement est expliqué sur [Comment ça marche](/fr/so-funktioniert).
+Un suivi continu évite exactement cela. Fixez donc dès le départ qui se charge de l’entretien, de la sécurité et des petites adaptations. Ce qui compte pour la sécurité est expliqué dans notre article sur la [sécurité d’un site web](/fr/blog/website-sicherheit).
 
 ## Conclusion
 

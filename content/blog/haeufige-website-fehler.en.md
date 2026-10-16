@@ -2,13 +2,13 @@
 title: "Common mistakes on SME websites and how to avoid them"
 description: "The most common mistakes on small and medium business websites and how to avoid them, so your website builds trust."
 date: "2026-02-11"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/haeufige-website-fehler-cover.svg"
 ---
 
-Many small and medium business websites look fine at first glance and still bring too little. Usually it is not one big problem. It is a series of small mistakes. Here are the most common ones and how to avoid them. That matches our own numbers: in our [SME website study](/en/blog/kmu-website-studie-schweiz) only 9 percent of Swiss SME sites are up to date.
+Many small and medium business websites look fine at first glance and still bring too little. Usually it is not one big problem. It is a series of small mistakes. Here are the most common ones and how to avoid them.
 
 ## Unclear what you offer
 
@@ -38,7 +38,7 @@ Keep the important details current. Even small, regular care goes a long way her
 
 A slow website costs visitors before they have seen anything. Often the cause is images that are too large or outdated technology.
 
-Fast load times belong to a [professional website](/en/services/websites). They improve the experience and help findability too.
+Fast load times belong to a professional website. They improve the experience and help findability too.
 
 ## Missing trust
 
@@ -50,7 +50,7 @@ Show who is behind the business and make it easy to get in touch.
 
 Hosting, updates and security often stay undone because it is unclear who is responsible. Over time the site becomes slower, less secure and dated.
 
-Ongoing support prevents exactly that. In a [website subscription](/en/website-abos), care, security and small changes are included from the start. We show how it works on [How it works](/en/so-funktioniert).
+Ongoing support prevents exactly that. So agree from the start who takes care of maintenance, security and small changes. What matters for security is covered in our post on [website security](/en/blog/website-sicherheit).
 
 ## Conclusion
 

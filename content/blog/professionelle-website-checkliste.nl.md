@@ -1,14 +1,14 @@
 ---
 title: "Professionele webpresentatie: de checklist voor uw bedrijfswebsite"
-description: "Waar moet u op letten bij een bedrijfswebsite? De checklist voor Zwitserse KMO: de bouwstenen van een professionele webpresentatie die bezoekers tot aanvragen maakt."
+description: "Waar moet u op letten bij een bedrijfswebsite? De checklist voor kmo’s: de bouwstenen van een professionele webpresentatie die bezoekers tot aanvragen maakt."
 date: "2026-03-17"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/professionelle-website-checkliste-cover.svg"
 ---
 
-Een [professionele website](/nl/services/websites) moet vandaag meer leveren dan er goed uitzien. Ze moet meteen begrijpelijk zijn, op elk toestel werken en vertrouwen scheppen. Hier zijn de bouwstenen waar het echt op aankomt. Onze [kmo website studie](/nl/blog/kmu-website-studie-schweiz) toont dat de meeste kmo sites hier nog tekortschieten: amper 9 procent is bij de tijd.
+Een professionele website moet vandaag meer leveren dan er goed uitzien. Ze moet meteen begrijpelijk zijn, op elk toestel werken en vertrouwen scheppen. Hier zijn de bouwstenen waar het echt op aankomt.
 
 ## Waar moet u op letten bij een bedrijfswebsite?
 
@@ -44,7 +44,7 @@ Een website zonder duidelijke volgende stap geeft aanvragen weg.
 
 ## SEO Grondbeginselen
 
-Opdat Google uw pagina begrijpt, is er een verzorgde structuur nodig, correcte titels en meta beschrijvingen plus een logische indeling van de inhoud. Dat zijn de [SEO Grondbeginselen](/nl/seo-basis-fuer-kmu) die bij elke moderne website horen.
+Opdat Google uw pagina begrijpt, is er een verzorgde structuur nodig, correcte titels en meta beschrijvingen plus een logische indeling van de inhoud. Dat zijn de SEO grondbeginselen die bij elke moderne website horen.
 
 Ze zijn geen belofte op plaats één. Ze zijn de basis waarop zichtbaarheid überhaupt kan ontstaan.
 
@@ -52,7 +52,7 @@ Ze zijn geen belofte op plaats één. Ze zijn de basis waarop zichtbaarheid übe
 
 Een website is nooit helemaal af. Updates, beveiliging en hosting moeten lopend worden begeleid, anders veroudert de pagina en wordt ze kwetsbaar. Wie dat in het oog houdt, blijft professioneel en veilig.
 
-Precies hier helpt een [Website Abo](/nl/website-abos): design, techniek, hosting, onderhoud en SEO grondbeginselen horen samen en blijven verzorgd.
+Design, techniek, hosting, onderhoud en SEO grondbeginselen horen samen en hebben een duidelijke verantwoordelijke nodig. Waar het bij beveiliging op aankomt, leest u in ons artikel over [website beveiliging](/nl/blog/website-sicherheit).
 
 ## Conclusie
 

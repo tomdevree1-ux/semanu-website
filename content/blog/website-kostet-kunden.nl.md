@@ -2,13 +2,13 @@
 title: "Waaraan merkt u dat uw website klanten kost?"
 description: "Een website hoeft niet kapot te zijn om klanten te kosten. Aan deze signalen herkent u dat uw website bezoekers tegenhoudt en aanvragen kost."
 date: "2026-05-20"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/website-kostet-kunden-cover.svg"
 ---
 
-Een website hoeft niet volledig kapot te zijn om klanten te verliezen. Ze is online, ze laadt vlekkeloos en op het eerste gezicht kan ze er zelfs goed uitzien. Toch kan ze bezoekers ervan weerhouden om contact op te nemen. Bij kleine ondernemingen gebeurt dat vaak zonder dat iemand het merkt. Onze [kmo website studie](/nl/blog/kmu-website-studie-schweiz) toont hoe wijdverbreid zwakke kmo sites zijn: amper 9 procent van de Zwitserse kmo websites is bij de tijd.
+Een website hoeft niet volledig kapot te zijn om klanten te verliezen. Ze is online, ze laadt vlekkeloos en op het eerste gezicht kan ze er zelfs goed uitzien. Toch kan ze bezoekers ervan weerhouden om contact op te nemen. Bij kleine ondernemingen gebeurt dat vaak zonder dat iemand het merkt.
 
 Mensen bezoeken de website. Ze vinden niet meteen wat ze zoeken, ze twijfelen en daarna klikken ze weg en nemen contact op met een andere aanbieder.
 
@@ -18,7 +18,7 @@ Hier zijn de signalen waaraan u merkt dat uw website mogelijk klanten kost.
 
 Een bezoeker beslist snel of hij op de juiste plaats is. Daarom moet uw website meteen duidelijk maken wie u bent, wat u aanbiedt en voor wie u werkt. Wanneer de startpagina te algemeen is, moet de bezoeker zelf nadenken en dat zorgt voor twijfel.
 
-[Sterke websites](/nl/services/websites) leggen in enkele seconden uit:
+Sterke websites leggen in enkele seconden uit:
 
 - wat de onderneming doet
 - waar ze actief is
@@ -55,7 +55,7 @@ Bezoekers willen weten met wie ze te maken hebben. Daarom zijn duidelijke bedrij
 
 ## Google begrijpt de website niet goed
 
-Een website moet niet alleen voor mensen duidelijk zijn. Ook zoekmachines moeten begrijpen waarover de pagina's gaan. Goede paginatitels, duidelijke koppen, sterke dienstpagina's, lokale informatie en een logische structuur helpen daarbij. Wanneer elke pagina vaag is of belangrijke diensten niet apart worden uitgelegd, wordt het moeilijker om [online gevonden te worden](/nl/seo-basis-fuer-kmu).
+Een website moet niet alleen voor mensen duidelijk zijn. Ook zoekmachines moeten begrijpen waarover de pagina's gaan. Goede paginatitels, duidelijke koppen, sterke dienstpagina's, lokale informatie en een logische structuur helpen daarbij. Wanneer elke pagina vaag is of belangrijke diensten niet apart worden uitgelegd, wordt het moeilijker om online gevonden te worden.
 
 ## Er is geen duidelijke volgende stap
 
@@ -63,7 +63,7 @@ Elke goede bedrijfswebsite zou bezoekers moeten begeleiden. Wat moeten ze doen n
 
 ## Wanneer volstaat verbeteren niet meer?
 
-Soms lossen [kleine aanpassingen](/nl/website-abos) veel op. Een betere tekst. Een duidelijkere knop. Snellere afbeeldingen. Een betere contactpagina. Soms is de basis echter te zwak. De structuur klopt niet meer. De techniek is oud. De website past niet meer bij de onderneming. Dan is een nieuwe website vaak zinvoller dan voortdurend repareren.
+Soms lossen kleine aanpassingen veel op. Een betere tekst. Een duidelijkere knop. Snellere afbeeldingen. Een betere contactpagina. Soms is de basis echter te zwak. De structuur klopt niet meer. De techniek is oud. De website past niet meer bij de onderneming. Dan is een nieuwe website vaak zinvoller dan voortdurend repareren.
 
 ## Conclusie
 

@@ -2,7 +2,7 @@
 title: "Werden Sie von der KI empfohlen? So geht GEO"
 description: "Immer mehr Menschen fragen ChatGPT statt zu googeln. Nennt die KI Ihr Unternehmen nicht, existieren Sie für diese Kundschaft nicht. So sorgt GEO dafür."
 date: "2026-08-11"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/von-ki-gefunden-werden-cover.svg"
@@ -24,9 +24,9 @@ Beides gehört zusammen. Eine Seite, die bei Google gut rankt, ist meist auch f�
 
 <img src="/blog/von-ki-gefunden-werden-visual.svg" alt="Links eine Liste blauer Links (SEO), rechts eine KI Antwort, die ein Unternehmen nennt und als Quelle verlinkt (GEO)" style="display:block;width:100%;height:auto;margin:2.5rem 0;border-radius:0.5rem;border:1px solid #E9EEF6" />
 
-## Warum das für Schweizer KMU zählt
+## Warum das für KMU zählt
 
-Die lokale Suche verlagert sich gerade spürbar. Wer in Bern einen Treuhänder oder in Zürich einen Coiffeur sucht, fragt zunehmend direkt die KI und vertraut auf die erste gute Antwort.
+Die lokale Suche verlagert sich gerade spürbar. Wer in seiner Stadt eine Steuerberatung oder einen Friseur sucht, fragt zunehmend direkt die KI und vertraut auf die erste gute Antwort.
 
 Für ein kleines Unternehmen ist eine Nennung darum wertvoller als je zuvor. Die KI zeigt selten eine ganze Seite voller Optionen, sondern eine Handvoll Namen. Sichtbarkeit wird zum Entweder Oder: Sie werden genannt oder Sie sind unsichtbar. Ein Dazwischen gibt es kaum noch.
 
@@ -35,11 +35,11 @@ Für ein kleines Unternehmen ist eine Nennung darum wertvoller als je zuvor. Die
 1. **Beantworten Sie echte Fragen direkt.** Schreiben Sie so, wie Ihre Kundschaft fragt. Geben Sie die Antwort gleich im ersten Satz. Maschinen übernehmen am liebsten klare, kurze Aussagen.
 2. **Machen Sie Ihre Fakten eindeutig.** Name, Ort, Leistungen, Öffnungszeiten, Preise. Stehen diese Angaben überall gleich und klar, kann die KI sie ohne Zweifel übernehmen.
 3. **Geben Sie der Seite Struktur.** Klare Überschriften, kurze Absätze und strukturierte Daten (etwa für lokale Unternehmen oder für häufige Fragen) helfen der Maschine, Ihren Inhalt richtig zu lesen.
-4. **Sorgen Sie für Erwähnungen ausserhalb Ihrer Website.** Verzeichnisse, Branchenseiten, Presse und echte Bewertungen. Ein Name wirkt für ein KI Modell glaubwürdiger, wenn er an mehreren Orten auftaucht.
+4. **Sorgen Sie für Erwähnungen außerhalb Ihrer Website.** Verzeichnisse, Branchenseiten, Presse und echte Bewertungen. Ein Name wirkt für ein KI Modell glaubwürdiger, wenn er an mehreren Orten auftaucht.
 5. **Lassen Sie die KI Crawler herein.** Eine korrekte robots Datei und eine llms.txt entscheiden, ob Modelle wie GPTBot Ihre Inhalte überhaupt lesen dürfen. llms.txt ist dabei ein junger Vorschlag und noch kein breit anerkannter Standard, während GPTBot über die robots Datei gesteuert wird. Sperren Sie sich nicht aus Versehen selbst aus.
-6. **Messen Sie, ob Sie genannt werden.** Fragen Sie die gängigen KI Dienste regelmässig nach Ihrer Branche und Region und prüfen Sie, ob und wie Sie auftauchen. Was Sie nicht messen, können Sie nicht verbessern.
+6. **Messen Sie, ob Sie genannt werden.** Fragen Sie die gängigen KI Dienste regelmäßig nach Ihrer Branche und Region und prüfen Sie, ob und wie Sie auftauchen. Was Sie nicht messen, können Sie nicht verbessern.
 
-Diese Schleife aus Prüfen und Nachbessern ist der Kern. Bei <span class="brand-mark">semanu<span class="spark">!</span></span> nennen wir sie den Feedback Loop: Wir beobachten jeden Monat, wie Sie bei Google und in KI Antworten auftauchen. So bessern wir nach, bevor eine Lücke Sie Kundschaft kostet.
+Diese Schleife aus Prüfen und Nachbessern ist der Kern. Man kann sie einen Feedback Loop nennen: Prüfen Sie jeden Monat, wie Sie bei Google und in KI Antworten auftauchen. So bessern Sie nach, bevor eine Lücke Sie Kundschaft kostet.
 
 <div style="margin:2.5rem 0;padding:1.5rem 1.75rem;border-radius:0.75rem;background:#E9F3EE;border:1px solid #C7EBD8">
   <strong style="display:block;font-size:1.15rem;color:#16233D;margin-bottom:0.4rem">Nennt die KI Ihr Unternehmen heute schon?</strong>
@@ -51,9 +51,7 @@ Diese Schleife aus Prüfen und Nachbessern ist der Kern. Bei <span class="brand-
 
 Beides, in dieser Reihenfolge. Ein solides Fundament aus guter Website und sauberem SEO macht Sie für Menschen und für Maschinen auffindbar. GEO setzt obendrauf und sorgt dafür, dass die KI Sie auch wirklich nennt.
 
-Wer heute damit anfängt, sichert sich einen Vorsprung, solange die meisten Mitbewerber noch ausschliesslich an Google denken. In ein paar Jahren ist das Standard, jetzt ist es noch ein Vorteil.
-
-Wollen Sie das nicht selbst machen? Wir bieten [GEO für Schweizer KMU](/de/geo-schweiz) als Service an, inklusive der monatlichen Beobachtung.
+Wer heute damit anfängt, sichert sich einen Vorsprung, solange die meisten Mitbewerber noch ausschließlich an Google denken. In ein paar Jahren ist das Standard, jetzt ist es noch ein Vorteil.
 
 ## Häufige Fragen
 
@@ -70,8 +68,8 @@ GEO baut auf gutem SEO auf, ist aber eine eigene Aufgabe. Vieles überschneidet 
 Das hängt davon ab, wie gut Ihre Fakten und Erwähnungen heute schon sind. Erste Verbesserungen sind oft in Wochen sichtbar, ein stabiler Platz in den Antworten ist eher eine Sache von Monaten und laufender Pflege.
 
 **Kann ich das selbst machen?**
-Die Grundlagen ja: klare Inhalte, saubere Fakten, die richtigen Verzeichnisse. Das laufende Messen über mehrere KI Dienste und das gezielte Nachbessern ist der Teil, bei dem ein Partner wie <span class="brand-mark">semanu<span class="spark">!</span></span> Ihnen Zeit spart.
+Die Grundlagen ja: klare Inhalte, saubere Fakten, die richtigen Verzeichnisse. Das laufende Messen über mehrere KI Dienste und das gezielte Nachbessern ist der Teil, der am meisten Zeit kostet. Planen Sie dafür feste Zeit ein.
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Was ist der Unterschied zwischen SEO und GEO?","acceptedAnswer":{"@type":"Answer","text":"SEO bringt Ihre Seite in die Ergebnisliste einer Suchmaschine. GEO sorgt dafür, dass eine KI Ihr Unternehmen in ihrer eigenen Antwort nennt und verlinkt. SEO zielt auf den Klick, GEO auf die Erwähnung."}},{"@type":"Question","name":"Wie finde ich heraus, ob ChatGPT mein Unternehmen kennt?","acceptedAnswer":{"@type":"Answer","text":"Fragen Sie es direkt. Stellen Sie den KI Diensten die Fragen, die Ihre Kundschaft stellen würde, etwa nach der besten Option für Ihre Leistung in Ihrer Stadt. Schauen Sie dann, ob Ihr Name fällt."}},{"@type":"Question","name":"Kostet GEO extra oder gehört es zu SEO?","acceptedAnswer":{"@type":"Answer","text":"GEO baut auf gutem SEO auf, ist aber eine eigene Aufgabe. Vieles überschneidet sich, denn beide profitieren von klaren Fakten und guter Struktur. Der Zusatzaufwand liegt vor allem im Messen und im Pflegen von Erwähnungen."}},{"@type":"Question","name":"Wie lange dauert es, bis die KI mich nennt?","acceptedAnswer":{"@type":"Answer","text":"Das hängt davon ab, wie gut Ihre Fakten und Erwähnungen heute schon sind. Erste Verbesserungen sind oft in Wochen sichtbar, ein stabiler Platz in den Antworten ist eher eine Sache von Monaten und laufender Pflege."}},{"@type":"Question","name":"Kann ich das selbst machen?","acceptedAnswer":{"@type":"Answer","text":"Die Grundlagen ja: klare Inhalte, saubere Fakten, die richtigen Verzeichnisse. Das laufende Messen über mehrere KI Dienste und das gezielte Nachbessern ist der Teil, bei dem ein Partner wie semanu Ihnen Zeit spart."}}]}
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Was ist der Unterschied zwischen SEO und GEO?","acceptedAnswer":{"@type":"Answer","text":"SEO bringt Ihre Seite in die Ergebnisliste einer Suchmaschine. GEO sorgt dafür, dass eine KI Ihr Unternehmen in ihrer eigenen Antwort nennt und verlinkt. SEO zielt auf den Klick, GEO auf die Erwähnung."}},{"@type":"Question","name":"Wie finde ich heraus, ob ChatGPT mein Unternehmen kennt?","acceptedAnswer":{"@type":"Answer","text":"Fragen Sie es direkt. Stellen Sie den KI Diensten die Fragen, die Ihre Kundschaft stellen würde, etwa nach der besten Option für Ihre Leistung in Ihrer Stadt. Schauen Sie dann, ob Ihr Name fällt."}},{"@type":"Question","name":"Kostet GEO extra oder gehört es zu SEO?","acceptedAnswer":{"@type":"Answer","text":"GEO baut auf gutem SEO auf, ist aber eine eigene Aufgabe. Vieles überschneidet sich, denn beide profitieren von klaren Fakten und guter Struktur. Der Zusatzaufwand liegt vor allem im Messen und im Pflegen von Erwähnungen."}},{"@type":"Question","name":"Wie lange dauert es, bis die KI mich nennt?","acceptedAnswer":{"@type":"Answer","text":"Das hängt davon ab, wie gut Ihre Fakten und Erwähnungen heute schon sind. Erste Verbesserungen sind oft in Wochen sichtbar, ein stabiler Platz in den Antworten ist eher eine Sache von Monaten und laufender Pflege."}},{"@type":"Question","name":"Kann ich das selbst machen?","acceptedAnswer":{"@type":"Answer","text":"Die Grundlagen ja: klare Inhalte, saubere Fakten, die richtigen Verzeichnisse. Das laufende Messen über mehrere KI Dienste und das gezielte Nachbessern ist der Teil, der am meisten Zeit kostet. Planen Sie dafür feste Zeit ein."}}]}
 </script>

@@ -2,13 +2,13 @@
 title: "Veelvoorkomende fouten op KMO websites en hoe u ze vermijdt"
 description: "De meest voorkomende fouten op websites van kleine en middelgrote ondernemingen en hoe u ze vermijdt, zodat uw website vertrouwen wekt."
 date: "2026-02-11"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/haeufige-website-fehler-cover.svg"
 ---
 
-Veel websites van kleine en middelgrote ondernemingen zien er op het eerste gezicht in orde uit en leveren toch te weinig op. Zelden ligt het aan één groot probleem. Meestal zijn het veel kleine fouten. Hier zijn de meest voorkomende en hoe u ze vermijdt. Dat strookt met onze cijfers: in onze [kmo website studie](/nl/blog/kmu-website-studie-schweiz) is amper 9 procent bij de tijd.
+Veel websites van kleine en middelgrote ondernemingen zien er op het eerste gezicht in orde uit en leveren toch te weinig op. Zelden ligt het aan één groot probleem. Meestal zijn het veel kleine fouten. Hier zijn de meest voorkomende en hoe u ze vermijdt.
 
 ## Onduidelijk wat u aanbiedt
 
@@ -38,7 +38,7 @@ Houd de belangrijkste gegevens actueel. Zelfs kleine, regelmatige zorg maakt hie
 
 Een trage website kost bezoekers voordat ze überhaupt iets hebben gezien. Vaak ligt het aan te grote afbeeldingen of verouderde techniek.
 
-Snelle laadtijden horen bij een [professionele website](/nl/services/websites). Ze verbeteren de ervaring en helpen ook bij de vindbaarheid.
+Snelle laadtijden horen bij een professionele website. Ze verbeteren de ervaring en helpen ook bij de vindbaarheid.
 
 ## Ontbrekend vertrouwen
 
@@ -50,7 +50,7 @@ Toon wie er achter de onderneming staat. Maak het eenvoudig om contact op te nem
 
 Hosting, updates en beveiliging blijven vaak liggen omdat onduidelijk is wie daarvoor verantwoordelijk is. Na verloop van tijd wordt de pagina trager, onveiliger en verouderd.
 
-Een lopende begeleiding voorkomt precies dat. In een [Website Abo](/nl/website-abos) zitten zorg, beveiliging en kleine aanpassingen van bij het begin inbegrepen. Hoe het verloop eruitziet, tonen we op [Hoe het werkt](/nl/so-funktioniert).
+Een lopende begeleiding voorkomt precies dat. Leg daarom van bij het begin vast wie zorg, beveiliging en kleine aanpassingen op zich neemt. Waar het bij beveiliging op aankomt, leest u in ons artikel over [website beveiliging](/nl/blog/website-sicherheit).
 
 ## Conclusie
 

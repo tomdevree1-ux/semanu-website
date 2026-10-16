@@ -1,20 +1,20 @@
 ---
-title: "Local SEO for Swiss SMEs: getting found nearby"
-description: "How local search optimisation works and what Swiss SMEs can do to be found better in their region."
+title: "Local SEO for SMEs: getting found nearby"
+description: "How local search optimisation works and what SMEs can do to be found better in their region."
 date: "2026-06-09"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/lokale-seo-fuer-kmu-cover.svg"
 ---
 
-When someone in your region looks for a service, the search almost always starts on a smartphone. Whoever shows up at the top gets the call. That is what local SEO is about: being found nearby, at the right moment. It matters even more that the page then works on mobile too: in our [SME website study](/en/blog/kmu-website-studie-schweiz) only 9 percent of Swiss SME websites are up to date.
+When someone in your region looks for a service, the search almost always starts on a smartphone. Whoever shows up at the top gets the call. That is what local SEO is about: being found nearby, at the right moment. It matters even more that the page then works on mobile too.
 
 For a local business that is often more important than a top spot for a general keyword. You do not need visitors from across the country. You need the people in your town and your region.
 
 ## What local SEO means
 
-Local SEO makes your business appear when people near you search for what you offer. Someone rarely searches just "hairdresser". More often the search is "hairdresser nearby" or "hairdresser Bern". Google recognises the searcher's location and shows relevant businesses from the region.
+Local SEO makes your business appear when people near you search for what you offer. Someone rarely searches just "hairdresser". More often the search is "hairdresser nearby" or "hairdresser Antwerp". Google recognises the searcher's location and shows relevant businesses from the region.
 
 The goal is simple: be visible when someone is ready to get in touch.
 
@@ -34,7 +34,7 @@ So check that your contact details are consistent. It sounds unspectacular. Yet 
 
 Your website may show where you work. Name your region and your towns in the texts, in the titles and in the meta descriptions. A clear page with services, location and directions helps both visitors and search engines.
 
-If you serve several places, it can help to name them cleanly, without overloading the text. We go into more detail on [SEO basics for SMEs](/en/seo-basis-fuer-kmu) and [Website for local businesses](/en/website-fuer-lokale-unternehmen).
+If you serve several places, it can help to name them cleanly, without overloading the text. The foundations every company homepage needs are listed in our [checklist for a professional web presence](/en/blog/professionelle-website-checkliste).
 
 ## Building reviews
 
@@ -44,9 +44,7 @@ You do not need to force reviews. A calm, honest routine is enough: after a good
 
 ## The technical foundations
 
-Local visibility builds on a [clean website](/en/services/websites). Fast load times, a good display on the smartphone and a clear structure are the base. Structured data about your business helps search engines understand your details correctly.
-
-These foundations are exactly what comes with a [website subscription](/en/website-abos) from the start.
+Local visibility builds on a clean website. Fast load times, a good display on the smartphone and a clear structure are the base. Structured data about your business helps search engines understand your details correctly.
 
 ## What is realistic
 

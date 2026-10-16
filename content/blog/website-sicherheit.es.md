@@ -2,7 +2,7 @@
 title: "Los ciberataques ya no son una excepción: cómo protegemos mejor sitios web y aplicaciones web"
 description: "Bots, spam, DDoS y escaneos automatizados son hoy algo cotidiano. Integramos la seguridad de forma estándar en sitios web y aplicaciones web y apostamos por Cloudflare, Vercel y decisiones bien pensadas."
 date: "2026-01-14"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/website-sicherheit-cover.svg"
@@ -10,13 +10,13 @@ cover: "/blog/website-sicherheit-cover.svg"
 
 Los sitios web y las aplicaciones web deben aguantar hoy más que nunca. Los bots, el spam, los intentos de fuerza bruta, los ataques DDoS, los intentos de inicio de sesión sospechosos, el abuso de formularios y los escaneos automatizados se han convertido en una realidad diaria para muchas empresas. Como visitante a menudo no lo nota. Pero entre bastidores se intenta sin descanso encontrar puntos débiles.
 
-Por eso, para nosotros la ciberseguridad no es un extra que se añade después. Incorporamos la seguridad de forma estándar en la manera en que construimos, alojamos y cuidamos sitios web, aplicaciones web y [plataformas digitales](/es/services/business-systems).
+Por eso, para nosotros la ciberseguridad no es un extra que se añade después. Incorporamos la seguridad de forma estándar en la manera en que construimos, alojamos y cuidamos sitios web, aplicaciones web y [plataformas digitales](/es/services/ai-native).
 
 ## La realidad: cada sitio web es un objetivo
 
 Muchos empresarios siguen pensando que los ciberataques van dirigidos sobre todo a grandes empresas, administraciones o tiendas online con datos sensibles. En la práctica, eso ya no es cierto.
 
-La mayoría de los ataques no van dirigidos de forma personal. Los ejecutan de forma automática bots que rastrean internet en busca de puntos débiles. La [Oficina Federal de Ciberseguridad OFCS](https://www.bacs.admin.ch/de/lageberichte) lo documenta en sus informes de situación. Piense en software obsoleto, formularios mal protegidos, páginas de administración abiertas, contraseñas débiles o servidores mal configurados.
+La mayoría de los ataques no van dirigidos de forma personal. Los ejecutan de forma automática bots que rastrean internet en busca de puntos débiles. Piense en software obsoleto, formularios mal protegidos, páginas de administración abiertas, contraseñas débiles o servidores mal configurados.
 
 Un sitio web de empresa sencillo puede convertirse por tanto en objetivo igual que una aplicación más grande. No porque alguien quiera atacar de forma dirigida a esa empresa, sino porque los sistemas automatizados buscan sin descanso el acceso más fácil.
 
@@ -33,7 +33,7 @@ Eso significa que en cada proyecto reflexionamos sobre preguntas como:
 - ¿Cómo mantenemos el hosting, el DNS y las capas de aplicación claros y fiables?
 - ¿Cómo evitamos que la seguridad perjudique la experiencia de usuario?
 
-La seguridad no es para nosotros un ajuste único, sino una combinación de buena infraestructura, decisiones conscientes y [un mantenimiento sólido](/es/website-abos).
+La seguridad no es para nosotros un ajuste único, sino una combinación de buena infraestructura, decisiones conscientes y un mantenimiento sólido.
 
 ## Cloudflare como capa de protección estándar para sitios web
 
@@ -111,7 +111,7 @@ Al reflexionar sobre ello de antemano, reducimos la probabilidad de problemas y 
 
 Un sitio web es a menudo el primer punto de contacto entre una empresa y un cliente. Entonces ese sitio web no solo debe ser bonito y claro, sino también sentirse fiable y estar bien protegido técnicamente.
 
-Por eso incorporamos la ciberseguridad de forma estándar en nuestro trabajo. No como alarmismo, sino como una parte profesional del [desarrollo web moderno](/es/services/websites).
+Por eso incorporamos la ciberseguridad de forma estándar en nuestro trabajo. No como alarmismo, sino como una parte profesional del desarrollo web moderno.
 
 Ya se trate de un sitio web de empresa, una landing page, una tienda online o una aplicación web: nos aseguramos de que la base técnica sea correcta, de que estén presentes las capas de protección adecuadas y de que los clientes sepan con qué pueden contar.
 

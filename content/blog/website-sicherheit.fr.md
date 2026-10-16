@@ -2,7 +2,7 @@
 title: "Les cyberattaques ne sont plus une exception : comment nous protégeons mieux les sites et les applications web"
 description: "Bots, spam, DDoS et scans automatisés sont devenus le quotidien. Nous intégrons la sécurité par défaut dans les sites et les applications web et nous appuyons sur Cloudflare, Vercel et des choix réfléchis."
 date: "2026-01-14"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/website-sicherheit-cover.svg"
@@ -10,15 +10,15 @@ cover: "/blog/website-sicherheit-cover.svg"
 
 Les sites web et les applications web doivent encaisser plus que jamais aujourd’hui. Bots, spam, tentatives de brute force, attaques DDoS, tentatives de connexion suspectes, abus de formulaires et scans automatisés sont devenus une réalité quotidienne pour beaucoup d’entreprises. En tant que visiteur, vous n’en remarquez souvent rien. En coulisses, pourtant, on cherche en permanence des failles à exploiter.
 
-C’est pourquoi, chez nous, la cybersécurité n’est pas un extra ajouté après coup. Nous intégrons la sécurité par défaut dans la manière dont nous construisons, hébergeons et entretenons les sites web, les applications web et les [plateformes numériques](/fr/services/business-systems).
+C’est pourquoi, chez nous, la cybersécurité n’est pas un extra ajouté après coup. Nous intégrons la sécurité par défaut dans la manière dont nous construisons, hébergeons et entretenons les sites web, les applications web et les [plateformes numériques](/fr/services/ai-native).
 
 ## La réalité : chaque site est une cible
 
 Beaucoup d’entrepreneurs pensent encore que les cyberattaques visent surtout les grandes entreprises, les administrations ou les boutiques en ligne avec des données sensibles. Dans la pratique, ce n’est plus le cas.
 
-La plupart des attaques ne sont en effet pas personnelles. Elles sont menées automatiquement par des bots qui scannent internet à la recherche de points faibles. L'[Office fédéral de la cybersécurité OFCS](https://www.bacs.admin.ch/de/lageberichte) le documente dans ses rapports de situation. Pensez aux logiciels obsolètes, aux formulaires mal sécurisés, aux pages d’administration ouvertes, aux mots de passe faibles ou aux serveurs mal configurés.
+La plupart des attaques ne sont en effet pas personnelles. Elles sont menées automatiquement par des bots qui scannent internet à la recherche de points faibles. Pensez aux logiciels obsolètes, aux formulaires mal sécurisés, aux pages d’administration ouvertes, aux mots de passe faibles ou aux serveurs mal configurés.
 
-Un [simple site d’entreprise](/fr/services/websites) peut donc devenir une cible aussi facilement qu’une application plus grande. Non pas parce que quelqu’un veut attaquer cette entreprise en particulier mais parce que des systèmes automatisés cherchent en permanence l’accès le plus facile.
+Un simple site d’entreprise peut donc devenir une cible aussi facilement qu’une application plus grande. Non pas parce que quelqu’un veut attaquer cette entreprise en particulier mais parce que des systèmes automatisés cherchent en permanence l’accès le plus facile.
 
 ## Notre approche : la sécurité par défaut
 
@@ -33,7 +33,7 @@ Cela veut dire que, sur chaque projet, nous réfléchissons à des questions com
 - Comment garder l’hébergement, le DNS et les couches applicatives clairs et fiables ?
 - Comment éviter que la sécurité nuise à l’expérience utilisateur ?
 
-La sécurité n’est pas pour nous un réglage ponctuel. C’est une combinaison de bonne infrastructure, de choix réfléchis et d’un [entretien solide](/fr/website-abos).
+La sécurité n’est pas pour nous un réglage ponctuel. C’est une combinaison de bonne infrastructure, de choix réfléchis et d’un entretien solide.
 
 ## Cloudflare comme couche de protection standard pour les sites
 

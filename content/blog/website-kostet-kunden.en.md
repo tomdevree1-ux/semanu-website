@@ -2,21 +2,21 @@
 title: "How to tell that your website is costing you customers"
 description: "A website does not have to be broken to cost you customers. These are the signs that your site is holding visitors back and losing you enquiries."
 date: "2026-05-20"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/website-kostet-kunden-cover.svg"
 ---
 
-A website does not have to be completely broken to lose you customers. It is online, it loads fine and at first glance it can even look good. Yet it can still keep visitors from getting in touch. For small businesses this often happens without anyone noticing. Our [SME website study](/en/blog/kmu-website-studie-schweiz) shows how widespread weak SME sites are: only 9 percent of Swiss SME websites are up to date.
+A website does not have to be completely broken to lose you customers. It is online, it loads fine and at first glance it can even look good. Yet it can still keep visitors from getting in touch. For small businesses this often happens without anyone noticing.
 
-People visit the site. They do not immediately find what they are looking for, they hesitate, and then they click away and contact another provider.
+People visit the site. They do not immediately find what they are looking for. They hesitate, click away and contact another provider.
 
 Here are the signs that your website may be costing you customers.
 
 ## Visitors do not immediately understand what you do
 
-A visitor decides quickly whether they are in the right place. Your website should make clear right away who you are, what you offer and who you work for. If the homepage is too generic, the visitor has to think for themselves, and that creates doubt.
+A visitor decides quickly whether they are in the right place. Your website should make clear right away who you are, what you offer and who you work for. If the homepage is too generic, the visitor has to think for themselves. That creates doubt.
 
 Strong websites explain in a few seconds:
 
@@ -37,7 +37,7 @@ That does not mean every website has to be trendy. It does have to feel cared fo
 
 Many websites lose customers at the exact moment someone wants to get in touch. The phone number sits somewhere at the bottom. The email address is hard to find. The contact button does not stand out. The form asks for too much. On mobile the button is barely visible.
 
-A [good website](/en/website-abos) makes the next step easy. A visitor should be able to call, email or send a request without searching. The less effort it takes, the higher the chance of contact.
+A good website makes the next step easy. A visitor should be able to call, email or send a request without searching. The less effort it takes, the higher the chance of contact.
 
 ## The website does not work well on mobile
 
@@ -55,15 +55,15 @@ Visitors want to know who they are dealing with. Clear company information, cont
 
 ## Google does not understand the website well
 
-A website should be clear not only for people but also for search engines. Good page titles, clear headings, [strong service pages](/en/services/websites), local information and a logical structure all help. If every page is vague or if important services are not explained separately, it becomes harder to be found online.
+A website should be clear not only for people but also for search engines. Good page titles, clear headings, strong service pages, local information and a logical structure all help. If every page is vague or if important services are not explained separately, it becomes harder to be found online.
 
 ## There is no clear next step
 
-Every good business website should guide visitors. What should they do after reading a page? Request a quote. Book a call. Phone. Email. Fill in a form. If that next step is missing, you leave the decision entirely to the visitor. That often leads to delay, and delay is quickly forgotten.
+Every good business website should guide visitors. What should they do after reading a page? Request a quote. Book a call. Phone. Email. Fill in a form. If that next step is missing, you leave the decision entirely to the visitor. That often leads to delay. Delay is quickly forgotten.
 
 ## When is improving no longer enough?
 
-Sometimes small changes solve a lot. Better text. A clearer button. Faster images. A better contact page. But sometimes the foundation is too weak. The structure no longer fits. The technology is old. The website no longer matches the business. In that case [a new website is often wiser](/en/services/consultancy) than continuing to patch.
+Sometimes small changes solve a lot. Better text. A clearer button. Faster images. A better contact page. But sometimes the foundation is too weak. The structure no longer fits. The technology is old. The website no longer matches the business. In that case a new website is often wiser than continuing to patch.
 
 ## Conclusion
 

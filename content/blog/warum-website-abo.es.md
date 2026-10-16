@@ -2,19 +2,19 @@
 title: "Por qué un Website Abo tiene sentido para las empresas pequeñas"
 description: "Un sitio web nunca está realmente terminado. Por qué un Website Abo es para muchas empresas pequeñas la mejor opción frente a un proyecto único clásico."
 date: "2026-04-20"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/website-abo-cover.svg"
 ---
 
-Para muchas empresas pequeñas, un sitio web nuevo se siente como un gran proyecto único. Se libera un presupuesto y se construye el sitio web. Después, sin embargo, suele quedarse online sin tocar durante años. A dónde lleva eso lo muestra nuestro [estudio de webs de pymes](/es/blog/kmu-website-studie-schweiz): solo el 9 por ciento de las webs de pymes suizas están hoy al día.
+Para muchas empresas pequeñas, un sitio web nuevo se siente como un gran proyecto único. Se libera un presupuesto y se construye el sitio web. Después, sin embargo, suele quedarse online sin tocar durante años.
 
 Al principio parece lógico. El sitio web está terminado, los textos están listos, los datos de contacto son correctos y su empresa es visible online.
 
 En realidad no es lógico. Un sitio web no es un folleto estático. En el caso ideal, su sitio web vive con su empresa: los servicios cambian, los precios se ajustan, los clientes esperan una buena experiencia móvil y los motores de búsqueda valoran su sitio web según su relevancia y sus nuevos contenidos. También la seguridad, la velocidad, el hosting y las actualizaciones técnicas siguen siendo importantes.
 
-Por eso [un Website Abo](/es/website-abo-schweiz) puede ser para muchas empresas pequeñas la mejor opción frente a un proyecto único clásico.
+Por eso un Website Abo puede ser para muchas empresas pequeñas la mejor opción frente a un proyecto único clásico.
 
 ## Un sitio web nunca está realmente terminado
 
@@ -42,7 +42,7 @@ Así, la empresaria o el empresario puede concentrarse en el negocio.
 
 Un sitio web bonito por sí solo no basta. Los clientes potenciales también deben entender qué hace usted. Los motores de búsqueda deben poder leer las páginas. Los servicios, la ubicación y las opciones de contacto deben quedar claros.
 
-Por eso [los fundamentos de SEO](/es/seo-basis-fuer-kmu) forman parte de [un sitio web moderno](/es/services/websites). No como promesa de puestos de honor en Google. Pero sí como una base sana sobre la que su empresa se entiende mejor online.
+Por eso los fundamentos de SEO forman parte de un sitio web moderno. No como promesa de puestos de honor en Google. Pero sí como una base sana sobre la que su empresa se entiende mejor online.
 
 Un Website Abo permite establecer bien esa base no solo al principio. También puede mejorarse más tarde.
 

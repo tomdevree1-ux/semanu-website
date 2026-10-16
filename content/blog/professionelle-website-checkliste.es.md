@@ -1,14 +1,14 @@
 ---
 title: "Presencia web profesional: la lista de comprobación para la web de su empresa"
-description: "Qué hay que tener en cuenta en la web de una empresa? La lista de comprobación para pymes suizas: los componentes de una presencia web profesional que convierte visitantes en consultas."
+description: "Qué hay que tener en cuenta en la web de una empresa? La lista de comprobación para pymes: los componentes de una presencia web profesional que convierte visitantes en consultas."
 date: "2026-03-17"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/professionelle-website-checkliste-cover.svg"
 ---
 
-[Un sitio web profesional](/es/services/websites) debe ofrecer hoy más que verse bien. Debe entenderse de inmediato, funcionar en cualquier dispositivo y generar confianza. Estos son los componentes que de verdad importan. Nuestro [estudio de webs de pymes](/es/blog/kmu-website-studie-schweiz) muestra que la mayoría de las webs de pymes aún se quedan cortas: solo el 9 por ciento están al día.
+Un sitio web profesional debe ofrecer hoy más que verse bien. Debe entenderse de inmediato, funcionar en cualquier dispositivo y generar confianza. Estos son los componentes que de verdad importan.
 
 ## Qué hay que tener en cuenta en la web de una empresa?
 
@@ -16,7 +16,7 @@ En resumen: siete puntos deciden si la web de una empresa resulta profesional. U
 
 ## Un mensaje claro
 
-En pocos segundos, un visitante debe entender qué ofrece y para quién. Una página de inicio potente dice con claridad de qué se trata, en lugar de empezar con frases hechas generales.
+En pocos segundos, un visitante debe entender qué ofrece y para quién. Una página de inicio potente dice con claridad de qué se trata y no empieza con frases hechas generales.
 
 Hágase la pregunta sencilla: ¿entiende alguien en cinco segundos qué hace usted y por qué le resulta relevante?
 
@@ -44,7 +44,7 @@ Un sitio web sin un paso siguiente claro regala consultas.
 
 ## Fundamentos de SEO
 
-Para que Google entienda su página, hace falta una estructura limpia, títulos y metadescripciones correctos, así como una organización lógica de los contenidos. Estos son los [fundamentos de SEO](/es/seo-basis-fuer-kmu) que forman parte de todo sitio web moderno.
+Para que Google entienda su página, hace falta una estructura limpia, títulos y metadescripciones correctos, así como una organización lógica de los contenidos. Estos son los fundamentos de SEO que forman parte de todo sitio web moderno.
 
 No son una promesa del primer puesto. Son la base sobre la que puede surgir la visibilidad.
 
@@ -52,7 +52,7 @@ No son una promesa del primer puesto. Son la base sobre la que puede surgir la v
 
 Un sitio web nunca está del todo terminado. Las actualizaciones, la seguridad y el hosting deben cuidarse de forma continua, de lo contrario la página envejece y se vuelve vulnerable. Quien lo tiene presente se mantiene profesional y seguro.
 
-Justo aquí ayuda un [Website Abo](/es/website-abos): diseño, técnica, hosting, mantenimiento y fundamentos de SEO van juntos y se mantienen cuidados.
+Diseño, técnica, hosting, mantenimiento y fundamentos de SEO van juntos y necesitan un responsable claro. Lo que importa en materia de seguridad lo explicamos en nuestro artículo sobre la [seguridad de un sitio web](/es/blog/website-sicherheit).
 
 ## Conclusión
 

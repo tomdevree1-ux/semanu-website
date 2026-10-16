@@ -2,19 +2,19 @@
 title: "Waarom een Website Abo voor kleine ondernemingen zinvol is"
 description: "Een website is nooit echt af. Waarom een Website Abo voor veel kleine ondernemingen de betere keuze is dan een klassiek eenmalig project."
 date: "2026-04-20"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/website-abo-cover.svg"
 ---
 
-Voor veel kleine ondernemingen voelt een nieuwe website als een groot eenmalig project. Een budget wordt vrijgemaakt, de website wordt gebouwd. Daarna blijft ze echter vaak jarenlang onaangeroerd online. Waar dat toe leidt, toont onze [kmo website studie](/nl/blog/kmu-website-studie-schweiz): amper 9 procent van de Zwitserse kmo websites is vandaag bij de tijd.
+Voor veel kleine ondernemingen voelt een nieuwe website als een groot eenmalig project. Een budget wordt vrijgemaakt, de website wordt gebouwd. Daarna blijft ze echter vaak jarenlang onaangeroerd online.
 
 In het begin lijkt dat logisch. De website is af, de teksten staan er, de contactgegevens kloppen en uw onderneming is online zichtbaar.
 
 In werkelijkheid is het niet logisch. Een website is geen statische brochure. In het ideale geval leeft uw website mee met uw onderneming: diensten veranderen, prijzen passen zich aan, klanten verwachten een goede mobiele ervaring en zoekmachines beoordelen uw website op relevantie en nieuwe inhoud. Ook beveiliging, snelheid, hosting en technische updates blijven belangrijk.
 
-Daarom kan een [Website Abo](/nl/website-abo-schweiz) voor veel kleine ondernemingen de betere keuze zijn dan een klassiek eenmalig project.
+Daarom kan een Website Abo voor veel kleine ondernemingen de betere keuze zijn dan een klassiek eenmalig project.
 
 ## Een website is nooit echt af
 
@@ -42,7 +42,7 @@ Zo kan de ondernemer zich op de zaak concentreren.
 
 Een mooie website alleen volstaat niet. Potentiële klanten moeten ook begrijpen wat u doet. Zoekmachines moeten de pagina's kunnen lezen. Diensten, locatie en contactmogelijkheden moeten duidelijk zijn.
 
-Daarom horen SEO grondbeginselen bij een [moderne website](/nl/services/websites). Niet als belofte op topplaatsen bij Google. Wel als een gezonde basis waarop uw onderneming online beter wordt begrepen.
+Daarom horen SEO grondbeginselen bij een moderne website. Niet als belofte op topplaatsen bij Google. Wel als een gezonde basis waarop uw onderneming online beter wordt begrepen.
 
 Een Website Abo maakt het mogelijk om deze basis niet alleen bij de start goed te leggen. Ze kan ook later verbeterd worden.
 
@@ -58,7 +58,7 @@ Met een Abo blijven deze kleine verbeteringen haalbaar. Dat zorgt voor rust. De 
 
 Een Website Abo is vooral interessant voor ondernemingen die professioneel online aanwezig willen zijn zonder zich zelf met techniek bezig te houden.
 
-Het past goed bij zelfstandigen, lokale dienstverleners, kleine ondernemingen, praktijken, bureaus en KMO die een duidelijke website met hosting, onderhoud, [SEO grondbeginselen](/nl/seo-basis-fuer-kmu) en beveiliging nodig hebben.
+Het past goed bij zelfstandigen, lokale dienstverleners, kleine ondernemingen, praktijken, bureaus en kmo's die een duidelijke website met hosting, onderhoud, SEO grondbeginselen en beveiliging nodig hebben.
 
 Minder geschikt is het voor ondernemingen die hun website volledig zelf willen beheren of maar eenmaal iets willen laten bouwen zonder verdere begeleiding.
 

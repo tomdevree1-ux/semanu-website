@@ -2,13 +2,13 @@
 title: "Comment savoir que votre site web vous coûte des clients ?"
 description: "Un site web n'a pas besoin d'être en panne pour vous coûter des clients. Voici les signaux qui montrent que votre site freine les visiteurs et fait perdre des demandes."
 date: "2026-05-20"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/website-kostet-kunden-cover.svg"
 ---
 
-Un site web n'a pas besoin d'être complètement cassé pour vous faire perdre des clients. Il est en ligne, il se charge parfaitement et au premier coup d'œil il peut même bien paraître. Et pourtant, il peut empêcher les visiteurs de vous contacter. Pour les petites entreprises, cela arrive souvent sans qu'on s'en aperçoive. Notre [étude des sites de PME](/fr/blog/kmu-website-studie-schweiz) montre combien les sites faibles sont répandus : à peine 9 pour cent des sites de PME suisses sont à jour.
+Un site web n'a pas besoin d'être complètement cassé pour vous faire perdre des clients. Il est en ligne, il se charge parfaitement et au premier coup d'œil il peut même bien paraître. Et pourtant, il peut empêcher les visiteurs de vous contacter. Pour les petites entreprises, cela arrive souvent sans qu'on s'en aperçoive.
 
 Les gens visitent le site. Ils ne trouvent pas tout de suite ce qu'ils cherchent, ils hésitent, puis ils s'en vont et contactent un autre prestataire.
 
@@ -16,7 +16,7 @@ Voici les signaux qui montrent que votre site web vous coûte sans doute des cli
 
 ## Les visiteurs ne comprennent pas tout de suite ce que vous faites
 
-Un visiteur décide vite s'il est au bon endroit. Votre site doit donc montrer tout de suite qui vous êtes, ce que vous proposez et pour qui vous travaillez. Si la page d'accueil est trop générale, le visiteur doit réfléchir lui-même, et cela crée le doute.
+Un visiteur décide vite s'il est au bon endroit. Votre site doit donc montrer tout de suite qui vous êtes, ce que vous proposez et pour qui vous travaillez. Si la page d'accueil est trop générale, le visiteur doit réfléchir lui-même. Cela crée le doute.
 
 Les sites forts expliquent en quelques secondes :
 
@@ -59,14 +59,14 @@ Un site ne doit pas seulement être clair pour les personnes. Les moteurs de rec
 
 ## Il n'y a pas de prochaine étape claire
 
-Tout bon site d'entreprise devrait guider les visiteurs. Qu'est-ce qu'ils doivent faire après avoir lu une page ? Demander une offre. [Planifier un entretien](/fr/services/consultancy). Appeler. Écrire. Remplir un formulaire. Si cette étape suivante manque, vous laissez la décision entièrement au visiteur. Cela mène souvent à un report, et un report est vite oublié.
+Tout bon site d'entreprise devrait guider les visiteurs. Qu'est-ce qu'ils doivent faire après avoir lu une page ? Demander une offre. Planifier un entretien. Appeler. Écrire. Remplir un formulaire. Si cette étape suivante manque, vous laissez la décision entièrement au visiteur. Cela mène souvent à un report. Un report est vite oublié.
 
 ## Quand améliorer ne suffit plus
 
-Parfois, de petits changements résolvent beaucoup. Un meilleur texte. Un bouton plus clair. Des images plus rapides. Une meilleure page de contact. Mais parfois, la base est trop faible. La structure ne convient plus. La technique est ancienne. Le site ne correspond plus à l'entreprise. Dans ce cas, un [nouveau site](/fr/services/websites) est souvent plus sage que de continuer à réparer.
+Parfois, de petits changements résolvent beaucoup. Un meilleur texte. Un bouton plus clair. Des images plus rapides. Une meilleure page de contact. Mais parfois, la base est trop faible. La structure ne convient plus. La technique est ancienne. Le site ne correspond plus à l'entreprise. Dans ce cas, un nouveau site est souvent plus sage que de continuer à réparer.
 
 ## Conclusion
 
 Un site coûte des clients quand il est peu clair, lent, dépassé ou difficile à utiliser. Souvent, cela se passe en silence. Vous ne voyez aucun message d'erreur. Vous remarquez seulement qu'il rentre moins de demandes que possible.
 
-Un bon site aide les visiteurs à comprendre vite qui vous êtes, pourquoi ils peuvent vous faire confiance et comment vous contacter. Pour les petites entreprises, ce n'est pas un détail. C'est une partie importante d'une [présence professionnelle](/fr/website-abos).
+Un bon site aide les visiteurs à comprendre vite qui vous êtes, pourquoi ils peuvent vous faire confiance et comment vous contacter. Pour les petites entreprises, ce n'est pas un détail. C'est une partie importante d'une présence professionnelle.

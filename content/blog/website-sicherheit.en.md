@@ -2,7 +2,7 @@
 title: "Cyberattacks are no longer the exception: how we protect websites and web applications better"
 description: "Bots, spam, DDoS and automated scans are now part of daily life online. We build security into websites and web applications by default and rely on Cloudflare, Vercel and deliberate choices."
 date: "2026-01-14"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/website-sicherheit-cover.svg"
@@ -10,15 +10,15 @@ cover: "/blog/website-sicherheit-cover.svg"
 
 Websites and web applications have to withstand more today than ever before. Bots, spam, brute force attempts, DDoS attacks, suspicious login attempts, form abuse and automated scans have become a daily reality for many businesses. As a visitor you often notice none of it. Behind the scenes, however, there are constant attempts to find weak spots.
 
-That is why cybersecurity is not an extra that we add afterwards. We build security into the way we design, host and maintain websites, web applications and [digital platforms](/en/services/business-systems) by default.
+That is why cybersecurity is not an extra that we add afterwards. We build security into the way we design, host and maintain websites, web applications and [digital platforms](/en/services/ai-native) by default.
 
 ## The reality: every website is a target
 
 Many business owners still think cyberattacks mainly target large companies, public bodies or webshops with sensitive data. In practice that is no longer true.
 
-Most attacks are not personal. They are run automatically by bots that scan the internet for weak spots. The [Swiss federal cybersecurity office BACS](https://www.bacs.admin.ch/de/lageberichte) documents this in its situation reports. Think of outdated software, poorly secured forms, open admin pages, weak passwords or wrongly configured servers.
+Most attacks are not personal. They are run automatically by bots that scan the internet for weak spots. Think of outdated software, poorly secured forms, open admin pages, weak passwords or wrongly configured servers.
 
-A simple [business website](/en/services/websites) can therefore become a target just as easily as a larger application. Not because someone wants to attack that specific business but because automated systems are constantly looking for the easiest way in.
+A simple business website can therefore become a target just as easily as a larger application. Not because someone wants to attack that specific business but because automated systems are constantly looking for the easiest way in.
 
 ## Our approach: security by default
 
@@ -33,7 +33,7 @@ That means we think about questions like these on every project:
 - How do we keep hosting, DNS and application layers clear and reliable?
 - How do we avoid security hurting the user experience?
 
-Security for us is not a one time setting. It is a combination of good infrastructure, deliberate choices and [solid maintenance](/en/website-abos).
+Security for us is not a one time setting. It is a combination of good infrastructure, deliberate choices and solid maintenance.
 
 ## Cloudflare as a standard protective layer for websites
 

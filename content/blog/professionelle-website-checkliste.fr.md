@@ -1,14 +1,14 @@
 ---
 title: "Présence web professionnelle : la check list pour le site de votre entreprise"
-description: "À quoi faut il faire attention pour le site de son entreprise ? La check list pour les PME suisses : les éléments d’une présence web professionnelle qui transforme les visiteurs en demandes."
+description: "À quoi faut il faire attention pour le site de son entreprise ? La check list pour les PME : les éléments d’une présence web professionnelle qui transforme les visiteurs en demandes."
 date: "2026-03-17"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/professionelle-website-checkliste-cover.svg"
 ---
 
-Un [site professionnel](/fr/services/websites) doit aujourd’hui faire plus que bien paraître. Il doit être compréhensible d’emblée, fonctionner sur chaque appareil et créer la confiance. Voici les éléments qui comptent vraiment. Notre [étude des sites de PME](/fr/blog/kmu-website-studie-schweiz) montre que la plupart des sites de PME restent en dessous : à peine 9 pour cent sont à jour.
+Un site professionnel doit aujourd’hui faire plus que bien paraître. Il doit être compréhensible d’emblée, fonctionner sur chaque appareil et créer la confiance. Voici les éléments qui comptent vraiment.
 
 ## À quoi faut il faire attention pour le site de son entreprise ?
 
@@ -44,7 +44,7 @@ Un site sans étape suivante claire laisse filer des demandes.
 
 ## Les bases SEO
 
-Pour que Google comprenne votre page, il faut une structure propre, des titres et des métadonnées corrects ainsi qu’une organisation logique du contenu. Ce sont les [bases SEO](/fr/seo-basis-fuer-kmu) qui font partie de tout site moderne.
+Pour que Google comprenne votre page, il faut une structure propre, des titres et des métadonnées corrects ainsi qu’une organisation logique du contenu. Ce sont les bases SEO qui font partie de tout site moderne.
 
 Ce n’est pas une promesse de première place. C’est la base sur laquelle la visibilité peut se construire.
 
@@ -52,7 +52,7 @@ Ce n’est pas une promesse de première place. C’est la base sur laquelle la 
 
 Un site n’est jamais tout à fait terminé. Mises à jour, sécurité et hébergement doivent être suivis en continu, sinon le site vieillit et devient vulnérable. Garder cela en vue, c’est rester professionnel et sûr.
 
-C’est exactement là qu’un [abonnement site](/fr/website-abos) aide : design, technique, hébergement, maintenance et bases SEO vont ensemble et restent entretenus.
+Design, technique, hébergement, maintenance et bases SEO vont ensemble et demandent un responsable clair. Ce qui compte pour la sécurité est expliqué dans notre article sur la [sécurité d’un site web](/fr/blog/website-sicherheit).
 
 ## Conclusion
 

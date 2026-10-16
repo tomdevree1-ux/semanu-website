@@ -2,7 +2,7 @@
 title: "¿Te recomienda la IA? Así funciona el GEO"
 description: "Cada vez más gente pregunta a ChatGPT en lugar de buscar en Google. Si la IA no nombra tu empresa, no existes para esos clientes. Así ayuda el GEO."
 date: "2026-08-11"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/von-ki-gefunden-werden-cover.svg"
@@ -24,9 +24,9 @@ Los dos van juntos. Una página que posiciona bien en Google suele ser más fác
 
 <img src="/blog/von-ki-gefunden-werden-visual.svg" alt="A la izquierda una lista de enlaces azules (SEO), a la derecha una respuesta de IA que nombra una empresa y la enlaza como fuente (GEO)" style="display:block;width:100%;height:auto;margin:2.5rem 0;border-radius:0.5rem;border:1px solid #E9EEF6" />
 
-## Por qué esto importa a las pymes suizas
+## Por qué esto importa a las pymes
 
-La búsqueda local se está desplazando ahora mismo. Quien busca un asesor fiscal en Berna o un peluquero en Zúrich pregunta cada vez más directamente a la IA y confía en la primera buena respuesta.
+La búsqueda local se está desplazando ahora mismo. Quien busca un asesor fiscal o un peluquero en su ciudad pregunta cada vez más directamente a la IA y confía en la primera buena respuesta.
 
 Para una empresa pequeña una mención vale por eso más que nunca. La IA rara vez muestra una página entera de opciones, muestra un puñado de nombres. La visibilidad se vuelve un todo o nada: te nombran o eres invisible. Ya casi no queda término medio.
 
@@ -39,7 +39,7 @@ Para una empresa pequeña una mención vale por eso más que nunca. La IA rara v
 5. **Deja entrar a los rastreadores de IA.** Un archivo robots correcto y un llms.txt deciden si modelos como GPTBot pueden leer tu contenido. llms.txt es todavía una propuesta emergente y aún no un estándar ampliamente adoptado, mientras que GPTBot se controla mediante el archivo robots. No te bloquees a ti mismo por descuido.
 6. **Mide si te nombran.** Pregunta con regularidad a los servicios de IA habituales por tu sector y tu región. Comprueba si apareces y cómo. Lo que no mides, no lo puedes mejorar.
 
-Ese bucle de comprobar y mejorar es el núcleo del asunto. En <span class="brand-mark">semanu<span class="spark">!</span></span> lo llamamos el Feedback Loop: cada mes observamos cómo apareces en Google y en las respuestas de IA. Así corregimos antes de que un hueco empiece a costarte clientes.
+Ese bucle de comprobar y mejorar es el núcleo del asunto. Se le puede llamar Feedback Loop: cada mes, comprueba cómo apareces en Google y en las respuestas de IA. Así corriges antes de que un hueco empiece a costarte clientes.
 
 <div style="margin:2.5rem 0;padding:1.5rem 1.75rem;border-radius:0.75rem;background:#E9F3EE;border:1px solid #C7EBD8">
   <strong style="display:block;font-size:1.15rem;color:#16233D;margin-bottom:0.4rem">¿Nombra hoy la IA a tu empresa?</strong>
@@ -68,8 +68,8 @@ El GEO se construye sobre un buen SEO pero es una tarea propia. Mucho se solapa,
 Depende de lo buenos que sean ya tus datos y tus menciones. Las primeras mejoras suelen verse en semanas, un sitio estable en las respuestas es más bien cosa de meses y de cuidado continuo.
 
 **¿Puedo hacerlo yo mismo?**
-Lo básico sí: contenido claro, datos limpios, los directorios correctos. La medición continua en varios servicios de IA y la corrección dirigida es la parte donde un socio como <span class="brand-mark">semanu<span class="spark">!</span></span> te ahorra tiempo.
+Lo básico sí: contenido claro, datos limpios, los directorios correctos. La medición continua en varios servicios de IA y la corrección dirigida es la parte que más tiempo exige. Resérvale un tiempo fijo.
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Cuál es la diferencia entre SEO y GEO?","acceptedAnswer":{"@type":"Answer","text":"El SEO mete tu página en la lista de resultados de un buscador. El GEO hace que una IA nombre y enlace tu empresa dentro de su propia respuesta. El SEO apunta al clic, el GEO a la mención."}},{"@type":"Question","name":"¿Cómo sé si ChatGPT conoce mi empresa?","acceptedAnswer":{"@type":"Answer","text":"Pregúntaselo directamente. Plantea a los servicios de IA las preguntas que harían tus clientes, como la mejor opción para tu servicio en tu ciudad. Mira si sale tu nombre."}},{"@type":"Question","name":"¿El GEO cuesta aparte o es parte del SEO?","acceptedAnswer":{"@type":"Answer","text":"El GEO se construye sobre un buen SEO pero es una tarea propia. Mucho se solapa, porque ambos se benefician de datos claros y buena estructura. El trabajo extra está sobre todo en medir y en mantener las menciones."}},{"@type":"Question","name":"¿Cuánto tarda la IA en nombrarme?","acceptedAnswer":{"@type":"Answer","text":"Depende de lo buenos que sean ya tus datos y tus menciones. Las primeras mejoras suelen verse en semanas, un sitio estable en las respuestas es más bien cosa de meses y de cuidado continuo."}},{"@type":"Question","name":"¿Puedo hacerlo yo mismo?","acceptedAnswer":{"@type":"Answer","text":"Lo básico sí: contenido claro, datos limpios, los directorios correctos. La medición continua en varios servicios de IA y la corrección dirigida es la parte donde un socio como semanu te ahorra tiempo."}}]}
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Cuál es la diferencia entre SEO y GEO?","acceptedAnswer":{"@type":"Answer","text":"El SEO mete tu página en la lista de resultados de un buscador. El GEO hace que una IA nombre y enlace tu empresa dentro de su propia respuesta. El SEO apunta al clic, el GEO a la mención."}},{"@type":"Question","name":"¿Cómo sé si ChatGPT conoce mi empresa?","acceptedAnswer":{"@type":"Answer","text":"Pregúntaselo directamente. Plantea a los servicios de IA las preguntas que harían tus clientes, como la mejor opción para tu servicio en tu ciudad. Mira si sale tu nombre."}},{"@type":"Question","name":"¿El GEO cuesta aparte o es parte del SEO?","acceptedAnswer":{"@type":"Answer","text":"El GEO se construye sobre un buen SEO pero es una tarea propia. Mucho se solapa, porque ambos se benefician de datos claros y buena estructura. El trabajo extra está sobre todo en medir y en mantener las menciones."}},{"@type":"Question","name":"¿Cuánto tarda la IA en nombrarme?","acceptedAnswer":{"@type":"Answer","text":"Depende de lo buenos que sean ya tus datos y tus menciones. Las primeras mejoras suelen verse en semanas, un sitio estable en las respuestas es más bien cosa de meses y de cuidado continuo."}},{"@type":"Question","name":"¿Puedo hacerlo yo mismo?","acceptedAnswer":{"@type":"Answer","text":"Lo básico sí: contenido claro, datos limpios, los directorios correctos. La medición continua en varios servicios de IA y la corrección dirigida es la parte que más tiempo exige. Resérvale un tiempo fijo."}}]}
 </script>

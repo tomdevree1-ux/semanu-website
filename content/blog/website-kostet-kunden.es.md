@@ -2,13 +2,13 @@
 title: "¿Cómo nota que su sitio web le cuesta clientes?"
 description: "Un sitio web no tiene que estar roto para costar clientes. Por estas señales reconoce que su sitio web retiene visitantes y cuesta consultas."
 date: "2026-05-20"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/website-kostet-kunden-cover.svg"
 ---
 
-Un sitio web no tiene que estar del todo roto para perder clientes. Está online, carga sin problemas y a primera vista incluso puede verse bien. Aun así, puede impedir que los visitantes se pongan en contacto. En las empresas pequeñas eso ocurre a menudo sin que nadie se dé cuenta. Nuestro [estudio de webs de pymes](/es/blog/kmu-website-studie-schweiz) muestra lo extendidas que están las webs flojas: solo el 9 por ciento de las webs de pymes suizas están al día.
+Un sitio web no tiene que estar del todo roto para perder clientes. Está online, carga sin problemas y a primera vista incluso puede verse bien. Aun así, puede impedir que los visitantes se pongan en contacto. En las empresas pequeñas eso ocurre a menudo sin que nadie se dé cuenta.
 
 Las personas visitan el sitio web. No encuentran de inmediato lo que buscan, dudan y después hacen clic para salir y se ponen en contacto con otro proveedor.
 
@@ -41,7 +41,7 @@ Un buen sitio web hace fácil el paso siguiente. Un visitante debe poder llamar,
 
 ## El sitio web no funciona bien en el móvil
 
-Muchos visitantes miran los sitios web en el smartphone. Si los textos son demasiado pequeños, los botones son difíciles de tocar o las páginas cargan despacio, la gente se marcha más rápido. Para [las empresas locales](/es/website-fuer-lokale-unternehmen), eso es especialmente importante. Alguien busca sobre la marcha una peluquería, un taller, un restaurante, una consulta o un prestador de servicios. En ese momento, el sitio web debe funcionar rápido y con claridad. Un sitio web móvil no es un extra. A menudo es la primera impresión.
+Muchos visitantes miran los sitios web en el smartphone. Si los textos son demasiado pequeños, los botones son difíciles de tocar o las páginas cargan despacio, la gente se marcha más rápido. Para las empresas locales, eso es especialmente importante. Alguien busca sobre la marcha una peluquería, un taller, un restaurante, una consulta o un prestador de servicios. En ese momento, el sitio web debe funcionar rápido y con claridad. Un sitio web móvil no es un extra. A menudo es la primera impresión.
 
 ## El sitio web carga despacio
 
@@ -55,7 +55,7 @@ Los visitantes quieren saber con quién tratan. Por eso son importantes los dato
 
 ## Google no entiende bien el sitio web
 
-Un sitio web no solo debe ser claro para las personas. También los motores de búsqueda deben entender de qué tratan las páginas. [Buenos títulos de página](/es/seo-basis-fuer-kmu), encabezados claros, páginas de servicio potentes, información local y una estructura lógica ayudan a ello. Si cada página es vaga o los servicios importantes no se explican por separado, resulta más difícil que le encuentren online.
+Un sitio web no solo debe ser claro para las personas. También los motores de búsqueda deben entender de qué tratan las páginas. Buenos títulos de página, encabezados claros, páginas de servicio potentes, información local y una estructura lógica ayudan a ello. Si cada página es vaga o los servicios importantes no se explican por separado, resulta más difícil que le encuentren online.
 
 ## No hay un paso siguiente claro
 
@@ -63,7 +63,7 @@ Todo buen sitio web de empresa debería acompañar a los visitantes. ¿Qué debe
 
 ## ¿Cuándo ya no basta con mejorar?
 
-A veces los pequeños ajustes resuelven mucho. Un texto mejor. Un botón más claro. Imágenes más rápidas. Una página de contacto mejor. Pero a veces la base es demasiado débil. La estructura ya no es correcta. La técnica es antigua. El sitio web ya no encaja con la empresa. Entonces [un sitio web nuevo](/es/services/websites) suele tener más sentido que reparar constantemente.
+A veces los pequeños ajustes resuelven mucho. Un texto mejor. Un botón más claro. Imágenes más rápidas. Una página de contacto mejor. Pero a veces la base es demasiado débil. La estructura ya no es correcta. La técnica es antigua. El sitio web ya no encaja con la empresa. Entonces un sitio web nuevo suele tener más sentido que reparar constantemente.
 
 ## Conclusión
 

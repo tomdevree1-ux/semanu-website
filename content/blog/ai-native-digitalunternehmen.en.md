@@ -1,18 +1,18 @@
 ---
 title: "What it means to be an AI native digital company"
-description: "semanu is an AI native digital company and a single home for everything digital. What AI native means and how your business benefits."
+description: "semanu is an AI native digital company and your partner for 3D configurators and custom business software. What AI native means and how your business benefits."
 date: "2026-07-10"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/ai-native-digitalunternehmen-cover.svg"
 ---
 
-Digital technology should move a business forward and not make it more complex. Yet many businesses today work with different providers for their website, their webshop, email marketing, automations, software and AI. The result is scattered systems, slow communication and solutions that fit together too poorly. How often even the website falls behind shows in our [SME website study](/en/blog/kmu-website-studie-schweiz): only 9 percent of Swiss SME websites are up to date.
+Digital technology should move a business forward and not make it more complex. Yet many businesses today work with different providers for their website, their webshop, email marketing, automations, software and AI. The result is scattered systems, slow communication and solutions that fit together too poorly.
 
 At <span class="brand-mark">semanu<span class="spark">!</span></span> we do it differently.
 
-We are a single home for everything digital. From websites and webshops through marketing automation to software platforms and AI assistants: we bring strategy, technology and delivery together with one digital partner.
+We focus on two things: 3D configurators and custom business software. From product configurators through workflow automation to customer portals and AI in your processes: we bring strategy, technology and delivery together with one digital partner.
 
 But there is something else that sets us apart. <span class="brand-mark">semanu<span class="spark">!</span></span> is an AI native company.
 
@@ -50,33 +50,33 @@ A lower project price does not mean a project gets less attention at <span class
 
 Think of a user friendly structure, a strong customer experience, reliable technology and a solution that fits the processes of the business.
 
-## Everything digital with one partner
+## Configurator and software with one partner
 
-A website never stands on its own. It should collect leads, pass on information, enable appointments or connect to other business systems. A webshop should work together with payments, stock management, email campaigns and customer service. An AI assistant needs access to the right information and has to fit within existing workflows.
+Software never stands on its own. A 3D configurator should collect enquiries, calculate prices and pass data on to production or the ERP. A customer portal should work together with the CRM, invoicing and customer service. AI needs access to the right information and has to fit within existing workflows.
 
-That is why <span class="brand-mark">semanu<span class="spark">!</span></span> offers different digital services under one roof: websites and webshops, email marketing and email automation, marketing automation, [digital platforms and custom software](/en/services/business-systems), CRM systems, dashboards and customer portals, AI assistants for internal and external use, plus [digital strategy and consultancy](/en/services/consultancy).
+That is why <span class="brand-mark">semanu<span class="spark">!</span></span> brings two services together under one roof: [3D configurators](/en/services/3d-configurators) for manufacturers and webshops, plus [custom business software](/en/services/ai-native) covering workflow automation, customer portals, CRM systems, dashboards, integrations and AI in your processes.
 
 Because these disciplines are brought together by one partner, the individual parts fit together better. Clients do not have to keep switching between different agencies, developers and software specialists.
 
 There is one point of contact that understands the whole digital picture.
 
-## AI assistants that really take work off your hands
+## AI that really takes work off your hands
 
 AI is often presented as a chatbot on a website. The possibilities go much further.
 
-An [AI assistant](/en/services/ai-assistants) can help staff find information, summarise documents, process requests or prepare answers for clients. It can answer common questions, qualify leads or support internal processes.
+AI in your processes can help staff find information, summarise documents, process requests or prepare answers for clients. It can answer common questions, qualify leads or support internal processes.
 
 The best AI solution is therefore not necessarily the most eye catching. It is the solution that solves a clear problem and saves time every week.
 
 At <span class="brand-mark">semanu<span class="spark">!</span></span> we do not start with the question of where we can add AI. We begin with other questions. Where is a lot of time lost today? Which questions keep coming back? Which information is hard to reach? Which steps can run smarter, faster or more consistently?
 
-On that basis we build an AI assistant that fits the business, the people and the existing systems.
+On that basis we build AI into software that fits the business, the people and the existing systems.
 
 ## Technology that grows with the business
 
 A digital solution is never finished for good. Businesses change, processes evolve and customers expect ever better digital experiences.
 
-That is why we do not believe in technology that is forgotten after launch. We build solutions that can be maintained, extended and improved. A business can start with a [professional website](/en/website-abos) and later add email automation, a customer portal or an AI assistant.
+That is why we do not believe in technology that is forgotten after launch. We build solutions that can be maintained, extended and improved. A business can start with a 3D configurator and later add an ERP connection, a customer portal or workflow automation.
 
 Because <span class="brand-mark">semanu<span class="spark">!</span></span> combines different digital disciplines, there is no need to find a new partner for every next step. The existing knowledge, technology and strategy can be built on further.
 
@@ -96,7 +96,7 @@ AI helps us work faster. Our people make sure we work on the right things.
 
 The digital world evolves fast. Still, a business does not have to follow every new tool, trend and technology itself.
 
-With <span class="brand-mark">semanu<span class="spark">!</span></span> you get one partner for your entire digital environment. A partner that does not see websites, automations, platforms and AI as separate parts. It brings them together in one clear approach.
+With <span class="brand-mark">semanu<span class="spark">!</span></span> you get one partner for your entire digital environment. A partner that does not see configurators, automations, platforms and AI as separate parts. It brings them together in one clear approach.
 
 Because we work AI native, we can develop faster, collaborate more efficiently and offer projects at a fairer price. Without losing sight of the human expertise, the personal support and the quality.
 

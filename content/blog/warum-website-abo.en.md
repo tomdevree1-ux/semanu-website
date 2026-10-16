@@ -2,19 +2,19 @@
 title: "Why a website subscription makes sense for small businesses"
 description: "A website is never really finished. Why a website subscription is often a better choice than a classic one time project."
 date: "2026-04-20"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/website-abo-cover.svg"
 ---
 
-For many small businesses a new website feels like a big one time project. A budget is approved, the website gets built. After that it often stays online untouched for years. Where that leads shows in our [SME website study](/en/blog/kmu-website-studie-schweiz): only 9 percent of Swiss SME websites are up to date today.
+For many small businesses a new website feels like a big one time project. A budget is approved, the website gets built. After that it often stays online untouched for years.
 
 At first this seems logical. The website is done, the texts are in place, the contact details are correct and your business is visible online.
 
 In reality it is not logical. A website is not a static brochure. Ideally your website lives along with your business: services change, prices shift, customers expect a good mobile experience and search engines judge your website on relevance and fresh content. Security, speed, hosting and technical updates also stay important.
 
-That is why a [website subscription](/en/website-abo-schweiz) can be a better choice for many small businesses than a classic one time project.
+That is why a website subscription can be a better choice for many small businesses than a classic one time project.
 
 ## A website is never really finished
 
@@ -28,7 +28,7 @@ For self employed people and small businesses cash flow matters. A large one tim
 
 A subscription makes the costs clearer. You know each month where you stand. The website becomes a normal operating cost rather than a large technical investment.
 
-That makes a [professional online presence](/en/so-funktioniert) more accessible.
+That makes a professional online presence more accessible.
 
 ## Hosting, maintenance and tech included
 
@@ -58,7 +58,7 @@ With a subscription these small improvements stay doable. That brings calm. The 
 
 A website subscription is mostly interesting for businesses that want a professional online presence without dealing with technology themselves.
 
-It fits well with self employed people, local service providers, small businesses, practices, agencies and SMEs that need a [clear website](/en/services/websites) with hosting, maintenance, SEO foundations and security included.
+It fits well with self employed people, local service providers, small businesses, practices, agencies and SMEs that need a clear website with hosting, maintenance, SEO foundations and security included.
 
 It is less suitable for businesses that want to manage their website entirely themselves or only want something built once without further support.
 

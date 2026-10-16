@@ -1,18 +1,18 @@
 ---
 title: "Wat het betekent om een AI native digitaal bedrijf te zijn"
-description: "semanu is een AI native digitaal bedrijf en een centraal aanspreekpunt voor alles wat digitaal is. Wat AI native betekent en hoe uw onderneming daarvan profiteert."
+description: "semanu is een AI native digitaal bedrijf en uw partner voor 3D configurators en bedrijfssoftware op maat. Wat AI native betekent en hoe uw onderneming daarvan profiteert."
 date: "2026-07-10"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/ai-native-digitalunternehmen-cover.svg"
 ---
 
-Digitale technologie moet een onderneming vooruithelpen en niet ingewikkelder maken. Toch werken veel bedrijven vandaag met verschillende aanbieders voor hun website, hun webshop, het Email Marketing, automatiseringen, software en AI. Het resultaat zijn verspreide systemen, trage communicatie en oplossingen die te weinig op elkaar zijn afgestemd. Hoe vaak daarbij al de website achterblijft, toont onze [kmo website studie](/nl/blog/kmu-website-studie-schweiz): amper 9 procent van de Zwitserse kmo websites is bij de tijd.
+Digitale technologie moet een onderneming vooruithelpen en niet ingewikkelder maken. Toch werken veel bedrijven vandaag met verschillende aanbieders voor hun website, hun webshop, het Email Marketing, automatiseringen, software en AI. Het resultaat zijn verspreide systemen, trage communicatie en oplossingen die te weinig op elkaar zijn afgestemd.
 
 Bij <span class="brand-mark">semanu<span class="spark">!</span></span> pakken we dat anders aan.
 
-We zijn een centraal aanspreekpunt voor alles wat digitaal is. Van websites en webshops over Marketing Automation tot softwareplatformen en AI assistenten: we brengen strategie, technologie en uitvoering samen bij één digitale partner.
+We richten ons op twee dingen: 3D configurators en bedrijfssoftware op maat. Van productconfigurator over workflow automatisering tot klantenportalen en AI in uw processen: we brengen strategie, technologie en uitvoering samen bij één digitale partner.
 
 Maar er is nog iets dat ons onderscheidt. <span class="brand-mark">semanu<span class="spark">!</span></span> is een AI native bedrijf.
 
@@ -50,33 +50,33 @@ Een lagere projectprijs betekent bij <span class="brand-mark">semanu<span class=
 
 Denk aan een gebruiksvriendelijke structuur, een sterke klantbeleving, betrouwbare technologie en een oplossing die past bij de processen van de onderneming.
 
-## Alles wat digitaal is bij één partner
+## Configurator en software bij één partner
 
-Een website staat nooit op zichzelf. Ze moet leads verzamelen, informatie doorsturen, afspraken mogelijk maken of verbonden zijn met andere bedrijfssystemen. Een webshop moet samenspelen met betalingen, voorraadbeheer, Email campagnes en klantenservice. Een AI assistent heeft toegang nodig tot de juiste informatie en moet passen in bestaande werkprocessen.
+Software staat nooit op zichzelf. Een 3D configurator moet aanvragen verzamelen, prijzen berekenen en gegevens doorgeven aan productie of ERP. Een klantenportaal moet samenspelen met CRM, facturatie en klantenservice. AI heeft toegang nodig tot de juiste informatie en moet passen in bestaande werkprocessen.
 
-Daarom biedt <span class="brand-mark">semanu<span class="spark">!</span></span> verschillende digitale diensten onder één dak: websites en webshops, Email Marketing en Email automatisering, Marketing Automation, [digitale platformen en software op maat](/nl/services/business-systems), CRM systemen, dashboards en klantenportalen, AI assistenten voor interne en externe toepassingen plus [digitale strategie en advies](/nl/services/consultancy).
+Daarom bundelt <span class="brand-mark">semanu<span class="spark">!</span></span> twee diensten onder één dak: [3D configurators](/nl/services/3d-configurators) voor fabrikanten en webshops plus [bedrijfssoftware op maat](/nl/services/ai-native) met workflow automatisering, klantenportalen, CRM systemen, dashboards, integraties en AI in uw processen.
 
 Omdat deze disciplines door één partner worden samengebracht, grijpen de afzonderlijke delen beter in elkaar. Klanten moeten niet voortdurend wisselen tussen verschillende bureaus, ontwikkelaars en softwarespecialisten.
 
 Er is één aanspreekpunt dat het volledige digitale beeld begrijpt.
 
-## AI assistenten die echt werk uit handen nemen
+## AI die echt werk uit handen neemt
 
 AI wordt vaak voorgesteld als een chatbot op een website. De mogelijkheden gaan echter veel verder.
 
-Een AI assistent kan medewerkers helpen om informatie terug te vinden, documenten samen te vatten, aanvragen te behandelen of antwoorden voor klanten voor te bereiden. Hij kan veelgestelde vragen beantwoorden, leads kwalificeren of helpen bij interne processen.
+AI in uw processen kan medewerkers helpen om informatie terug te vinden, documenten samen te vatten, aanvragen te behandelen of antwoorden voor klanten voor te bereiden. Ze kan veelgestelde vragen beantwoorden, leads kwalificeren of helpen bij interne processen.
 
 De beste AI oplossing is daarom niet per se de meest opvallende. Het is de oplossing die een duidelijk probleem oplost en elke week tijd bespaart.
 
 Bij <span class="brand-mark">semanu<span class="spark">!</span></span> starten we niet met de vraag waar we AI kunnen toevoegen. We beginnen met andere vragen. Waar gaat vandaag veel tijd verloren? Welke vragen keren steeds terug? Welke informatie is moeilijk toegankelijk? Welke stappen kunnen slimmer, sneller of consistenter verlopen?
 
-Op deze basis bouwen we een [AI assistent](/nl/services/ai-assistants) die past bij de onderneming, bij de medewerkers en bij de bestaande systemen.
+Op deze basis bouwen we AI in software die past bij de onderneming, bij de medewerkers en bij de bestaande systemen.
 
 ## Technologie die met de onderneming meegroeit
 
 Een digitale oplossing is nooit definitief af. Ondernemingen veranderen, processen ontwikkelen zich verder en klanten verwachten steeds betere digitale ervaringen.
 
-Daarom geloven we niet in technologie die na de start wordt vergeten. We bouwen oplossingen die onderhouden, uitgebreid en verbeterd kunnen worden. Een onderneming kan bijvoorbeeld met een [professionele website](/nl/website-abos) starten en later Email automatisering, een klantenportaal of een AI assistent toevoegen.
+Daarom geloven we niet in technologie die na de start wordt vergeten. We bouwen oplossingen die onderhouden, uitgebreid en verbeterd kunnen worden. Een onderneming kan bijvoorbeeld met een 3D configurator starten en later een koppeling met het ERP, een klantenportaal of workflow automatisering toevoegen.
 
 Omdat <span class="brand-mark">semanu<span class="spark">!</span></span> verschillende digitale disciplines verbindt, moet niet voor elke volgende stap een nieuwe partner worden gezocht. De aanwezige kennis, technologie en strategie kunnen verder worden uitgebouwd.
 
@@ -96,7 +96,7 @@ AI helpt ons om sneller te werken. Onze mensen zorgen ervoor dat we aan het juis
 
 De digitale wereld ontwikkelt zich snel. Toch moet een onderneming niet elke nieuwe tool, elke trend en elke technologie zelf volgen.
 
-Met <span class="brand-mark">semanu<span class="spark">!</span></span> krijgt u een partner voor uw volledige digitale omgeving. Een partner die websites, automatiseringen, platformen en AI niet als losse delen beschouwt. Hij brengt ze samen in een heldere aanpak.
+Met <span class="brand-mark">semanu<span class="spark">!</span></span> krijgt u een partner voor uw volledige digitale omgeving. Een partner die configurators, automatiseringen, platformen en AI niet als losse delen beschouwt. Hij brengt ze samen in een heldere aanpak.
 
 Omdat we AI native werken, kunnen we sneller ontwikkelen, efficiënter samenwerken en projecten aan een voordeligere prijs aanbieden. Zonder de menselijke expertise, de persoonlijke begeleiding en de kwaliteit uit het oog te verliezen.
 

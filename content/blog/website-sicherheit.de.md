@@ -1,8 +1,8 @@
 ---
 title: "Cyberangriffe sind keine Ausnahme mehr: wie wir Websites und Webanwendungen besser schützen"
-description: "Bots, Spam, DDoS und automatisierte Scans sind heute Alltag. Wir bauen Sicherheit standardmässig in Websites und Webanwendungen ein und setzen dabei auf Cloudflare, Vercel und durchdachte Entscheidungen."
+description: "Bots, Spam, DDoS und automatisierte Scans sind heute Alltag. Wir bauen Sicherheit standardmäßig in Websites und Webanwendungen ein und setzen dabei auf Cloudflare, Vercel und durchdachte Entscheidungen."
 date: "2026-01-14"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/website-sicherheit-cover.svg"
@@ -10,17 +10,17 @@ cover: "/blog/website-sicherheit-cover.svg"
 
 Websites und Webanwendungen müssen heute mehr aushalten als je zuvor. Bots, Spam, Brute Force Versuche, DDoS Angriffe, verdächtige Loginversuche, Formularmissbrauch und automatisierte Scans sind für viele Unternehmen tägliche Realität geworden. Als Besucher merken Sie davon oft nichts. Hinter den Kulissen wird jedoch ununterbrochen versucht, Schwachstellen zu finden.
 
-Bei uns ist Cybersicherheit deshalb kein Extra, das erst nachträglich hinzugefügt wird. Wir nehmen Sicherheit standardmässig in die Art und Weise auf, wie wir Websites, Webanwendungen und [digitale Plattformen](/de/services/business-systems) bauen, hosten und pflegen.
+Bei uns ist Cybersicherheit deshalb kein Extra, das erst nachträglich hinzugefügt wird. Wir nehmen Sicherheit standardmäßig in die Art und Weise auf, wie wir Websites, Webanwendungen und [digitale Plattformen](/de/services/ai-native) bauen, hosten und pflegen.
 
 ## Die Realität: jede Website ist ein Ziel
 
-Viele Unternehmer denken noch, dass Cyberangriffe vor allem auf grosse Firmen, Behörden oder Webshops mit sensiblen Daten abzielen. In der Praxis stimmt das nicht mehr.
+Viele Unternehmer denken noch, dass Cyberangriffe vor allem auf große Firmen, Behörden oder Webshops mit sensiblen Daten abzielen. In der Praxis stimmt das nicht mehr.
 
-Die meisten Angriffe sind nämlich nicht persönlich gerichtet. Sie werden automatisch von Bots ausgeführt, die das Internet nach Schwachstellen absuchen. Das [Bundesamt für Cybersicherheit BACS](https://www.bacs.admin.ch/de/lageberichte) hält in seinen Lageberichten fest, wie verbreitet solche automatisierten Angriffe sind. Denken Sie an veraltete Software, schlecht gesicherte Formulare, offene Adminseiten, schwache Passwörter oder falsch konfigurierte Server.
+Die meisten Angriffe sind nämlich nicht persönlich gerichtet. Sie werden automatisch von Bots ausgeführt, die das Internet nach Schwachstellen absuchen. Denken Sie an veraltete Software, schlecht gesicherte Formulare, offene Adminseiten, schwache Passwörter oder falsch konfigurierte Server.
 
-Eine einfache Unternehmenswebsite kann also genauso zum Ziel werden wie eine grössere Anwendung. Nicht weil jemand gezielt dieses Unternehmen angreifen will, sondern weil automatisierte Systeme ununterbrochen nach dem einfachsten Zugang suchen.
+Eine einfache Unternehmenswebsite kann also genauso zum Ziel werden wie eine größere Anwendung. Nicht weil jemand gezielt dieses Unternehmen angreifen will, sondern weil automatisierte Systeme ununterbrochen nach dem einfachsten Zugang suchen.
 
-## Unser Ansatz: Sicherheit standardmässig mitdenken
+## Unser Ansatz: Sicherheit standardmäßig mitdenken
 
 Wir bauen Websites nicht nur mit Blick auf Design, Geschwindigkeit und Benutzerfreundlichkeit, sondern auch mit Blick auf Stabilität und Schutz.
 
@@ -35,9 +35,9 @@ Das bedeutet, dass wir bei jedem Projekt über Fragen nachdenken wie:
 
 Sicherheit ist für uns keine einmalige Einstellung, sondern eine Kombination aus guter Infrastruktur, bewussten Entscheidungen und solider Wartung.
 
-## Cloudflare als standardmässige Schutzschicht für Websites
+## Cloudflare als standardmäßige Schutzschicht für Websites
 
-Für viele Websites nutzen wir standardmässig Cloudflare als zusätzliche Schicht zwischen Besuchern und dem Server, auf dem die Website läuft.
+Für viele Websites nutzen wir standardmäßig Cloudflare als zusätzliche Schicht zwischen Besuchern und dem Server, auf dem die Website läuft.
 
 Cloudflare hilft unter anderem mit:
 
@@ -49,7 +49,7 @@ Cloudflare hilft unter anderem mit:
 - Caching statischer Dateien für bessere Leistung
 - zusätzlicher Kontrolle über Firewallregeln, Weiterleitungen und Zugriffsbeschränkungen
 
-Der grosse Vorteil ist, dass Cloudflare viel unerwünschten Verkehr abfangen kann, bevor er die Website oder den Server erreicht. Dadurch bleibt die Website stabiler, schneller und besser geschützt.
+Der große Vorteil ist, dass Cloudflare viel unerwünschten Verkehr abfangen kann, bevor er die Website oder den Server erreicht. Dadurch bleibt die Website stabiler, schneller und besser geschützt.
 
 Dabei aktivieren wir nicht blind alle Funktionen. Jede Website ist anders. Eine einfache Unternehmenswebsite verlangt einen anderen Ansatz als ein Webshop, eine Mitgliederplattform oder eine Anwendung mit Loginbereich. Deshalb konfigurieren wir Cloudflare sorgfältig, damit Sicherheit und Benutzerfreundlichkeit im Gleichgewicht bleiben.
 
@@ -77,7 +77,7 @@ Deshalb achten wir auch auf Dinge wie:
 - starke Passwörter und wo möglich Zwei Faktor Authentifizierung
 - korrekt eingestellte DNS Records
 - sichere Formulare und Spambegrenzung
-- regelmässige Updates von Software und Abhängigkeiten
+- regelmäßige Updates von Software und Abhängigkeiten
 - zuverlässige Hosting und Deploymentprozesse
 - gute Trennung zwischen Test und Produktionsumgebungen
 - Backups und Wiederherstellungsmöglichkeiten
@@ -85,7 +85,7 @@ Deshalb achten wir auch auf Dinge wie:
 - begrenzter Zugang für Administratoren und externe Partner
 - korrekter Umgang mit Personendaten und Formularen
 
-Eine [sichere Website](/de/services/websites) beginnt bei der Basis. Je weniger unnötige Komplexität, desto kleiner das Risiko für Fehler.
+Eine sichere Website beginnt bei der Basis. Je weniger unnötige Komplexität, desto kleiner das Risiko für Fehler.
 
 ## Flexibel nach den Wünschen des Kunden
 
@@ -111,8 +111,8 @@ Indem wir vorab darüber nachdenken, verkleinern wir die Wahrscheinlichkeit von 
 
 Eine Website ist oft der erste Kontaktpunkt zwischen einem Unternehmen und einem Kunden. Dann muss diese Website nicht nur schön und klar sein, sondern sich auch zuverlässig anfühlen und technisch gut geschützt sein.
 
-Deshalb nehmen wir Cybersicherheit standardmässig in unsere Arbeit auf. Nicht als Panikmache, sondern als professionellen Teil moderner Webentwicklung.
+Deshalb nehmen wir Cybersicherheit standardmäßig in unsere Arbeit auf. Nicht als Panikmache, sondern als professionellen Teil moderner Webentwicklung.
 
 Ob es um eine Unternehmenswebsite, eine Landingpage, einen Webshop oder eine Webanwendung geht: wir sorgen dafür, dass die technische Basis stimmt, dass die richtigen Schutzschichten vorhanden sind und dass Kunden wissen, worauf sie sich verlassen können.
 
-Denn eine [gute Website](/de/website-abos) muss nicht nur online sein. Sie muss auch sicher, schnell und zuverlässig bleiben.
+Denn eine gute Website muss nicht nur online sein. Sie muss auch sicher, schnell und zuverlässig bleiben.

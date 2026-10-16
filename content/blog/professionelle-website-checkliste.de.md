@@ -1,14 +1,14 @@
 ---
 title: "Professioneller Webauftritt: die Checkliste für Ihre Firmenhomepage"
-description: "Was muss ich bei einer Firmenhomepage beachten? Die Checkliste für Schweizer KMU: die Bausteine eines professionellen Webauftritts, der Besucher zu Anfragen macht."
+description: "Was muss ich bei einer Firmenhomepage beachten? Die Checkliste für KMU: die Bausteine eines professionellen Webauftritts, der Besucher zu Anfragen macht."
 date: "2026-03-17"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/professionelle-website-checkliste-cover.svg"
 ---
 
-Eine [professionelle Website](/de/services/websites) muss heute mehr leisten als gut auszusehen. Sie soll auf Anhieb verständlich sein, auf jedem Gerät funktionieren und Vertrauen schaffen. Hier sind die Bausteine, auf die es wirklich ankommt. Dass die meisten KMU Seiten hier noch Luft nach oben haben, zeigt unsere [KMU Website Studie](/de/blog/kmu-website-studie-schweiz): nur 9 Prozent sind zeitgemäss.
+Eine professionelle Website muss heute mehr leisten als gut auszusehen. Sie soll auf Anhieb verständlich sein, auf jedem Gerät funktionieren und Vertrauen schaffen. Hier sind die Bausteine, auf die es wirklich ankommt.
 
 ## Was muss ich bei einer Firmenhomepage beachten?
 
@@ -24,7 +24,7 @@ Stellen Sie sich die einfache Frage: Versteht jemand in fünf Sekunden, was Sie 
 
 Die meisten Besucher kommen vom Smartphone. Eine Website muss deshalb auf kleinen Bildschirmen genauso gut funktionieren wie auf dem Computer. Lesbare Schrift, gut erreichbare Buttons und ein ruhiger Aufbau sind Pflicht.
 
-Mobile First heisst, zuerst an das Smartphone zu denken und nicht erst am Schluss.
+Mobile First heißt, zuerst an das Smartphone zu denken und nicht erst am Schluss.
 
 ## Schnelle Ladezeiten
 
@@ -44,7 +44,7 @@ Eine Website ohne klaren nächsten Schritt verschenkt Anfragen.
 
 ## SEO Grundlagen
 
-Damit Google Ihre Seite versteht, braucht es eine saubere Struktur, korrekte Titel und Meta Beschreibungen sowie eine logische Gliederung der Inhalte. Das sind die [SEO Grundlagen](/de/seo-basis-fuer-kmu), die zu jeder modernen Website gehören.
+Damit Google Ihre Seite versteht, braucht es eine saubere Struktur, korrekte Titel und Meta Beschreibungen sowie eine logische Gliederung der Inhalte. Das sind die SEO Grundlagen, die zu jeder modernen Website gehören.
 
 Sie sind kein Versprechen auf Platz eins. Sie sind die Basis, auf der Sichtbarkeit überhaupt entstehen kann.
 
@@ -52,7 +52,7 @@ Sie sind kein Versprechen auf Platz eins. Sie sind die Basis, auf der Sichtbarke
 
 Eine Website ist nie ganz fertig. Updates, Sicherheit und Hosting müssen laufend betreut werden, sonst veraltet die Seite und wird angreifbar. Wer das im Blick behält, bleibt professionell und sicher.
 
-Genau hier hilft ein [Website Abo](/de/website-abos): Design, Technik, Hosting, Wartung und SEO Grundlagen gehören zusammen und bleiben gepflegt.
+Design, Technik, Hosting, Wartung und SEO Grundlagen gehören zusammen und brauchen klare Zuständigkeiten. Worauf es bei der Sicherheit ankommt, lesen Sie in unserem Beitrag zur [Website Sicherheit](/de/blog/website-sicherheit).
 
 ## Fazit
 

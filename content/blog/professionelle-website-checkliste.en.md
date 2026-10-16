@@ -1,14 +1,14 @@
 ---
 title: "A professional web presence: the checklist for your company homepage"
-description: "What should you look out for on a company homepage? The checklist for Swiss SMEs: the building blocks of a professional web presence that turns visitors into enquiries."
+description: "What should you look out for on a company homepage? The checklist for SMEs: the building blocks of a professional web presence that turns visitors into enquiries."
 date: "2026-03-17"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/professionelle-website-checkliste-cover.svg"
 ---
 
-A [professional website](/en/services/websites) today has to do more than look good. It should be understandable at a glance, work on every device and build trust. Here are the building blocks that really matter. Our [SME website study](/en/blog/kmu-website-studie-schweiz) shows most SME sites still fall short here: only 9 percent are up to date.
+A professional website today has to do more than look good. It should be understandable at a glance, work on every device and build trust. Here are the building blocks that really matter.
 
 ## What should you look out for on a company homepage?
 
@@ -44,7 +44,7 @@ A website without a clear next step gives away enquiries.
 
 ## SEO foundations
 
-For Google to understand your page, it needs a clean structure, correct titles and meta descriptions and a logical content order. These are the [SEO foundations](/en/seo-basis-fuer-kmu) that belong to every modern website.
+For Google to understand your page, it needs a clean structure, correct titles and meta descriptions and a logical content order. These are the SEO foundations that belong to every modern website.
 
 They are not a promise of first place. They are the base on which visibility can grow at all.
 
@@ -52,7 +52,7 @@ They are not a promise of first place. They are the base on which visibility can
 
 A website is never quite finished. Updates, security and hosting have to be looked after continuously, otherwise the site ages and becomes vulnerable. Keeping that in view is what stays professional and secure.
 
-This is exactly where a [website subscription](/en/website-abos) helps: design, technology, hosting, maintenance and SEO foundations belong together and stay cared for.
+Design, technology, hosting, maintenance and SEO foundations belong together and need clear ownership. What matters for security is covered in our post on [website security](/en/blog/website-sicherheit).
 
 ## Conclusion
 

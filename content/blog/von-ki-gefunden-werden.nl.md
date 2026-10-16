@@ -2,7 +2,7 @@
 title: "Beveelt de AI jou aan? Zo werkt GEO"
 description: "Steeds meer mensen vragen ChatGPT in plaats van te googelen. Noemt de AI jouw bedrijf niet, dan besta je niet voor die klanten. Zo helpt GEO."
 date: "2026-08-11"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/von-ki-gefunden-werden-cover.svg"
@@ -24,9 +24,9 @@ De twee horen bij elkaar. Een pagina die goed scoort op Google is meestal ook ma
 
 <img src="/blog/von-ki-gefunden-werden-visual.svg" alt="Links een lijst met blauwe links (SEO), rechts een AI antwoord dat een bedrijf noemt en als bron linkt (GEO)" style="display:block;width:100%;height:auto;margin:2.5rem 0;border-radius:0.5rem;border:1px solid #E9EEF6" />
 
-## Waarom dit telt voor Zwitserse kmo's
+## Waarom dit telt voor kmo's
 
-De lokale zoektocht verschuift nu. Wie in Bern een boekhouder of in Zürich een kapper zoekt, vraagt het steeds vaker rechtstreeks aan de AI en vertrouwt op het eerste goede antwoord.
+De lokale zoektocht verschuift nu. Wie in de eigen stad een boekhouder of een kapper zoekt, vraagt het steeds vaker rechtstreeks aan de AI en vertrouwt op het eerste goede antwoord.
 
 Voor een klein bedrijf is een vermelding daarom waardevoller dan ooit. De AI toont zelden een hele pagina met opties. Meestal toont ze een handvol namen. Zichtbaarheid wordt een kwestie van of of: je wordt genoemd of je bent onzichtbaar. Een tussenweg is er nauwelijks nog.
 
@@ -39,7 +39,7 @@ Voor een klein bedrijf is een vermelding daarom waardevoller dan ooit. De AI too
 5. **Laat de AI crawlers binnen.** Een correct robots bestand en een llms.txt bepalen of modellen zoals GPTBot je inhoud überhaupt mogen lezen. llms.txt is daarbij een opkomend voorstel en nog geen breed aanvaarde standaard, terwijl GPTBot via het robots bestand wordt gestuurd. Sluit jezelf niet per ongeluk buiten.
 6. **Meet of je genoemd wordt.** Vraag de gangbare AI diensten regelmatig naar jouw branche en regio. Kijk of en hoe je verschijnt. Wat je niet meet, kun je niet verbeteren.
 
-Die lus van meten en bijsturen is de kern. Bij <span class="brand-mark">semanu<span class="spark">!</span></span> noemen we het de Feedback Loop: elke maand kijken we hoe je opduikt op Google en in AI antwoorden. Zo sturen we bij voordat een gat je klanten begint te kosten.
+Die lus van meten en bijsturen is de kern. Je kunt het een Feedback Loop noemen: kijk elke maand hoe je opduikt op Google en in AI antwoorden. Zo stuur je bij voordat een gat je klanten begint te kosten.
 
 <div style="margin:2.5rem 0;padding:1.5rem 1.75rem;border-radius:0.75rem;background:#E9F3EE;border:1px solid #C7EBD8">
   <strong style="display:block;font-size:1.15rem;color:#16233D;margin-bottom:0.4rem">Noemt de AI jouw bedrijf vandaag al?</strong>
@@ -68,8 +68,8 @@ GEO bouwt voort op goede SEO maar is een eigen taak. Veel overlapt, want allebei
 Dat hangt af van hoe goed je feiten en vermeldingen nu al zijn. Eerste verbeteringen zijn vaak in weken zichtbaar, een stabiele plek in de antwoorden is eerder een kwestie van maanden en doorlopend onderhoud.
 
 **Kan ik dit zelf doen?**
-De basis wel: heldere inhoud, schone feiten, de juiste gidsen. Het doorlopend meten over meerdere AI diensten en het gericht bijsturen is het deel waar een partner zoals <span class="brand-mark">semanu<span class="spark">!</span></span> je tijd bespaart.
+De basis wel: heldere inhoud, schone feiten, de juiste gidsen. Het doorlopend meten over meerdere AI diensten en het gericht bijsturen is het deel dat de meeste tijd vraagt. Plan er vaste tijd voor in.
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Wat is het verschil tussen SEO en GEO?","acceptedAnswer":{"@type":"Answer","text":"SEO brengt je pagina in de resultatenlijst van een zoekmachine. GEO zorgt dat een AI jouw bedrijf noemt en linkt in haar eigen antwoord. SEO mikt op de klik, GEO op de vermelding."}},{"@type":"Question","name":"Hoe kom ik erachter of ChatGPT mijn bedrijf kent?","acceptedAnswer":{"@type":"Answer","text":"Vraag het rechtstreeks. Leg de AI diensten de vragen voor die je klanten zouden stellen, zoals de beste optie voor jouw dienst in jouw stad. Kijk of je naam valt."}},{"@type":"Question","name":"Kost GEO extra of hoort het bij SEO?","acceptedAnswer":{"@type":"Answer","text":"GEO bouwt voort op goede SEO maar is een eigen taak. Veel overlapt, want allebei profiteren van heldere feiten en goede structuur. Het extra werk zit vooral in meten en in het onderhouden van vermeldingen."}},{"@type":"Question","name":"Hoe lang duurt het voor de AI mij noemt?","acceptedAnswer":{"@type":"Answer","text":"Dat hangt af van hoe goed je feiten en vermeldingen nu al zijn. Eerste verbeteringen zijn vaak in weken zichtbaar, een stabiele plek in de antwoorden is eerder een kwestie van maanden en doorlopend onderhoud."}},{"@type":"Question","name":"Kan ik dit zelf doen?","acceptedAnswer":{"@type":"Answer","text":"De basis wel: heldere inhoud, schone feiten, de juiste gidsen. Het doorlopend meten over meerdere AI diensten en het gericht bijsturen is het deel waar een partner zoals semanu je tijd bespaart."}}]}
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Wat is het verschil tussen SEO en GEO?","acceptedAnswer":{"@type":"Answer","text":"SEO brengt je pagina in de resultatenlijst van een zoekmachine. GEO zorgt dat een AI jouw bedrijf noemt en linkt in haar eigen antwoord. SEO mikt op de klik, GEO op de vermelding."}},{"@type":"Question","name":"Hoe kom ik erachter of ChatGPT mijn bedrijf kent?","acceptedAnswer":{"@type":"Answer","text":"Vraag het rechtstreeks. Leg de AI diensten de vragen voor die je klanten zouden stellen, zoals de beste optie voor jouw dienst in jouw stad. Kijk of je naam valt."}},{"@type":"Question","name":"Kost GEO extra of hoort het bij SEO?","acceptedAnswer":{"@type":"Answer","text":"GEO bouwt voort op goede SEO maar is een eigen taak. Veel overlapt, want allebei profiteren van heldere feiten en goede structuur. Het extra werk zit vooral in meten en in het onderhouden van vermeldingen."}},{"@type":"Question","name":"Hoe lang duurt het voor de AI mij noemt?","acceptedAnswer":{"@type":"Answer","text":"Dat hangt af van hoe goed je feiten en vermeldingen nu al zijn. Eerste verbeteringen zijn vaak in weken zichtbaar, een stabiele plek in de antwoorden is eerder een kwestie van maanden en doorlopend onderhoud."}},{"@type":"Question","name":"Kan ik dit zelf doen?","acceptedAnswer":{"@type":"Answer","text":"De basis wel: heldere inhoud, schone feiten, de juiste gidsen. Het doorlopend meten over meerdere AI diensten en het gericht bijsturen is het deel dat de meeste tijd vraagt. Plan er vaste tijd voor in."}}]}
 </script>

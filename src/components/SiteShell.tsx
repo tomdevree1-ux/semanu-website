@@ -1,7 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { Header } from './Header';
 import { Footer } from './Footer';
-import { StudyBanner } from './StudyBanner';
 
 /** Standard marketing-page chrome: skip link + sticky header + main + footer. */
 export function SiteShell({ children }: { children: React.ReactNode }) {
@@ -18,7 +17,6 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
       >
         {t('skipToContent')}
       </a>
-      <StudyBanner />
       <Header />
       <main id="main-content" tabIndex={-1} className="scroll-mt-24">
         {children}

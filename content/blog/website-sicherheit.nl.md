@@ -2,7 +2,7 @@
 title: "Cyberaanvallen zijn geen uitzondering meer: hoe wij websites en webapplicaties beter beschermen"
 description: "Bots, spam, DDoS en geautomatiseerde scans zijn vandaag alledaags. Wij bouwen beveiliging standaard in websites en webapplicaties in en zetten daarbij in op Cloudflare, Vercel en doordachte beslissingen."
 date: "2026-01-14"
-updated: "2026-09-08"
+updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/website-sicherheit-cover.svg"
@@ -10,13 +10,13 @@ cover: "/blog/website-sicherheit-cover.svg"
 
 Websites en webapplicaties moeten vandaag meer verdragen dan ooit tevoren. Bots, spam, brute force pogingen, DDoS aanvallen, verdachte loginpogingen, formuliermisbruik en geautomatiseerde scans zijn voor veel ondernemingen dagelijkse realiteit geworden. Als bezoeker merkt u daar vaak niets van. Achter de schermen wordt echter onophoudelijk geprobeerd om zwakke plekken te vinden.
 
-Bij ons is cyberbeveiliging daarom geen extra dat pas achteraf wordt toegevoegd. Wij nemen beveiliging standaard op in de manier waarop we websites, webapplicaties en [digitale platformen](/nl/services/business-systems) bouwen, hosten en verzorgen.
+Bij ons is cyberbeveiliging daarom geen extra dat pas achteraf wordt toegevoegd. Wij nemen beveiliging standaard op in de manier waarop we websites, webapplicaties en [digitale platformen](/nl/services/ai-native) bouwen, hosten en verzorgen.
 
 ## De realiteit: elke website is een doelwit
 
 Veel ondernemers denken nog dat cyberaanvallen vooral op grote bedrijven, overheden of webshops met gevoelige data gericht zijn. In de praktijk klopt dat niet meer.
 
-De meeste aanvallen zijn namelijk niet persoonlijk gericht. Ze worden automatisch uitgevoerd door bots die het internet afzoeken naar zwakke plekken. Het [Zwitserse bureau voor cyberveiligheid BACS](https://www.bacs.admin.ch/de/lageberichte) documenteert dit in zijn situatierapporten. Denk aan verouderde software, slecht beveiligde formulieren, open adminpagina's, zwakke wachtwoorden of verkeerd geconfigureerde servers.
+De meeste aanvallen zijn namelijk niet persoonlijk gericht. Ze worden automatisch uitgevoerd door bots die het internet afzoeken naar zwakke plekken. Denk aan verouderde software, slecht beveiligde formulieren, open adminpagina's, zwakke wachtwoorden of verkeerd geconfigureerde servers.
 
 Een eenvoudige bedrijfswebsite kan dus net zo goed een doelwit worden als een grotere applicatie. Niet omdat iemand gericht deze onderneming wil aanvallen. Wel omdat geautomatiseerde systemen onophoudelijk zoeken naar de eenvoudigste toegang.
 
@@ -33,7 +33,7 @@ Dat betekent dat we bij elk project nadenken over vragen zoals:
 - Hoe houden we hosting, DNS en applicatielagen overzichtelijk en betrouwbaar?
 - Hoe vermijden we dat beveiliging de gebruikerservaring schaadt?
 
-Beveiliging is voor ons geen eenmalige instelling maar een combinatie van goede infrastructuur, bewuste beslissingen en [degelijk onderhoud](/nl/website-abos).
+Beveiliging is voor ons geen eenmalige instelling maar een combinatie van goede infrastructuur, bewuste beslissingen en degelijk onderhoud.
 
 ## Cloudflare als standaard beschermlaag voor websites
 
@@ -111,7 +111,7 @@ Door daar vooraf over na te denken, verkleinen we de kans op problemen en zorgen
 
 Een website is vaak het eerste contactpunt tussen een onderneming en een klant. Dan moet die website niet alleen mooi en duidelijk zijn. Ze moet zich ook betrouwbaar aanvoelen en technisch goed beschermd zijn.
 
-Daarom nemen we cyberbeveiliging standaard op in ons werk. Niet als paniekzaaierij maar als een professioneel deel van [moderne webontwikkeling](/nl/services/websites).
+Daarom nemen we cyberbeveiliging standaard op in ons werk. Niet als paniekzaaierij maar als een professioneel deel van moderne webontwikkeling.
 
 Of het nu om een bedrijfswebsite, een landingpagina, een webshop of een webapplicatie gaat: wij zorgen ervoor dat de technische basis klopt, dat de juiste beschermlagen aanwezig zijn en dat klanten weten waarop ze kunnen rekenen.
 
