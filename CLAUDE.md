@@ -54,6 +54,12 @@ function **`submit-contact`** van de SEMANU-backend (`src/lib/semanu-leads.ts`):
 - staging `https://kiiyvctcfvfrivpjsfjo.supabase.co/...` (elke andere `SITE_ENV`)
 - sleutel: `SEMANU_SUPABASE_ANON_KEY` (publieke anon key, enkel via env).
 
+Bezoekers-IP: Caddy zet `X-Real-IP` (`src/lib/security/client-ip.ts` leest enkel die header); de
+route stuurt het als `X-Visitor-IP` mee met `X-Forward-Secret` (env `SEMANU_EU_FORWARD_SECRET`,
+server side, gelijk aan de Supabase-secret). Met een geldig geheim rekent submit-contact zijn limiet
+per bezoeker, zet bron `contact_form_semanu_eu` en geeft bij een limiet 429; `/api/leads` geeft dan
+ook 429 en de formulieren tonen `errRateLimit`. Node luistert op localhost (zie `deploy/`).
+
 `submit-contact` doet spamscore, rate limit, MX-check, dubbels en `create_lead` (bedrijf + persoon +
 kaart in "Nieuw") en mailt hello@. Dienstkeuze → topic: 3D → `configurator`, bedrijfssoftware →
 `custom`, workflow → `ai`, rest → consultancy. Telefoon en herkomst (pagina, taal, referrer) gaan

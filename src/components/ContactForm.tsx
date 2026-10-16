@@ -8,8 +8,9 @@ import { serviceLinks, SERVICE_ID_BY_SLUG, type ServicesLocale } from '@/content
 import { CustomSelect } from '@/components/CustomSelect';
 import { track } from '@/lib/analytics';
 import { Turnstile } from '@/components/Turnstile';
+import { CONTACT_EMAIL } from '@/lib/contact';
 
-type Status = 'idle' | 'submitting' | 'success' | 'error';
+type Status = 'idle' | 'submitting' | 'success' | 'error' | 'rateLimited';
 type Errors = Partial<Record<string, string>>;
 
 /**
@@ -128,6 +129,12 @@ export function ContactForm() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(parsed.data),
       });
+      // Too many submissions from this visitor (our own limit or submit-contact's).
+      if (res.status === 429) {
+        track('contact_request_rate_limited');
+        setStatus('rateLimited');
+        return;
+      }
       if (!res.ok) throw new Error('request failed');
       track('contact_request_submitted', { lang: payload.lang });
       setStatus('success');
@@ -256,6 +263,11 @@ export function ContactForm() {
 
       {status === 'error' && (
         <p className="mt-4 text-sm text-danger">{t('errGeneric')}</p>
+      )}
+      {status === 'rateLimited' && (
+        <p role="alert" aria-live="assertive" className="mt-4 text-sm text-danger">
+          {t('errRateLimit', { email: CONTACT_EMAIL })}
+        </p>
       )}
 
       <Turnstile onToken={setCaptchaToken} />

@@ -93,7 +93,7 @@
     "errEmail": "Please enter a valid Email address.",
     "errConsent": "Please accept the privacy policy.",
     "errGeneric": "Something went wrong. Please try again.",
-    "errRateLimit": "Too many requests. Please try again later."
+    "errRateLimit": "You have sent this form several times in a short time. Please try again in an hour or email us at {email}."
   },
   "footer": {
     "tagline": "The digital partner for Swiss SMEs: consultancy, automation, custom software and 3D configurators.",
@@ -186,6 +186,7 @@
     "errPhone": "Please enter a valid phone number.",
     "errConsent": "Please accept the processing.",
     "errGeneric": "Something went wrong. Please try again.",
+    "errRateLimit": "You have sent this form several times in a short time. Please try again in an hour or email us at {email}.",
     "interest": "What are you interested in?",
     "interestNotSure": "Not sure yet",
     "interestHelp": "Not sure what to choose? Select Not sure yet and we will help you define the right next step.",

@@ -6,6 +6,7 @@ import { analysisLeadSchema } from '@/lib/validation';
 import { readAttribution } from '@/lib/attribution';
 import { track } from '@/lib/analytics';
 import { Turnstile } from '@/components/Turnstile';
+import { CONTACT_EMAIL } from '@/lib/contact';
 
 type Status = 'idle' | 'submitting' | 'success' | 'error' | 'rateLimited';
 type Errors = Partial<Record<string, string>>;
@@ -192,7 +193,7 @@ export function FunnelForm({ source = 'website_analysis' }: { source?: FunnelSou
       )}
       {status === 'rateLimited' && (
         <p role="alert" aria-live="assertive" className="mt-4 text-sm text-red">
-          {t('errRateLimit')}
+          {t('errRateLimit', { email: CONTACT_EMAIL })}
         </p>
       )}
 

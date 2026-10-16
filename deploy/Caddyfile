@@ -29,10 +29,24 @@
 	}
 }
 
+# Reverse proxy to a local Node service. No trusted_proxies anywhere: Caddy
+# replaces any X-Forwarded-For the visitor sends, and X-Real-IP is overwritten
+# with the TCP peer address. The app reads only X-Real-IP (src/lib/security/
+# client-ip.ts) for its rate limit and forwards it to submit-contact.
+# The forwarding headers for submit-contact are stripped so a visitor can never
+# hand them to the app.
+(node) {
+	reverse_proxy 127.0.0.1:{args[0]} {
+		header_up X-Real-IP {remote_host}
+		header_up -X-Forward-Secret
+		header_up -X-Visitor-IP
+	}
+}
+
 # Live: canonical host.
 www.semanu.eu {
 	import common semanu-eu-live
-	reverse_proxy 127.0.0.1:3000
+	import node 3000
 }
 
 # Apex (and any other live alias) → www, permanently.
@@ -45,5 +59,5 @@ acc.semanu.eu {
 	import common semanu-eu-acc
 	header X-Robots-Tag "noindex, nofollow"
 	import /etc/caddy/staging-auth.caddy
-	reverse_proxy 127.0.0.1:3001
+	import node 3001
 }

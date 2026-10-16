@@ -12,12 +12,18 @@ ExecStart=/usr/bin/node server.js
 Environment=NODE_ENV=production
 Environment=SITE_ENV=production
 Environment=PORT=3000
-# 0.0.0.0, not 127.0.0.1: with 127.0.0.1 Next.js treats the locale rewrites of the
-# i18n middleware as external and the pages hang. The port is not reachable from
-# outside: ufw only allows 22, 80 and 443 (plus the Hetzner firewall).
-Environment=HOSTNAME=0.0.0.0
+# Loopback only: Caddy is the only client. HOSTNAME must be "localhost", not
+# "127.0.0.1": Next.js builds the middleware URL on "localhost", and with
+# 127.0.0.1 every next-intl locale rewrite looks like an external origin and is
+# proxied (500/hang). "localhost" matches and still binds to loopback;
+# ipv4first makes it bind 127.0.0.1 (not ::1) even when /etc/hosts lists
+# "::1 localhost", so Caddy's 127.0.0.1:PORT keeps working.
+# Check: ss -ltnp | grep -E ':300[01]'  → 127.0.0.1 only.
+Environment=HOSTNAME=localhost
+Environment=NODE_OPTIONS=--dns-result-order=ipv4first
 Environment=NEXT_TELEMETRY_DISABLED=1
-# Runtime settings (SEMANU_SUPABASE_ANON_KEY, TURNSTILE_SECRET_KEY, ...), filled by Tom on the server.
+# Runtime settings (SEMANU_SUPABASE_ANON_KEY, SEMANU_EU_FORWARD_SECRET, TURNSTILE_SECRET_KEY, ...),
+# filled by Tom on the server.
 EnvironmentFile=/etc/semanu-eu/live.env
 Restart=always
 RestartSec=3

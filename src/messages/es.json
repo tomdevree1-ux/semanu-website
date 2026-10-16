@@ -93,7 +93,7 @@
     "errEmail": "Introduzca una dirección de Email válida.",
     "errConsent": "Acepte la política de privacidad.",
     "errGeneric": "Algo ha salido mal. Inténtelo de nuevo.",
-    "errRateLimit": "Demasiadas solicitudes. Inténtelo de nuevo más tarde."
+    "errRateLimit": "Ha enviado este formulario varias veces en poco tiempo. Inténtelo de nuevo dentro de una hora o escríbanos a {email}."
   },
   "footer": {
     "tagline": "El socio digital para pymes suizas: consultoría, automatización, software a medida y configuradores 3D.",
@@ -186,6 +186,7 @@
     "errPhone": "Introduzca un número de teléfono válido.",
     "errConsent": "Acepte el tratamiento de datos.",
     "errGeneric": "Se ha producido un error. Inténtelo de nuevo.",
+    "errRateLimit": "Ha enviado este formulario varias veces en poco tiempo. Inténtelo de nuevo dentro de una hora o escríbanos a {email}.",
     "interest": "En qué está interesado?",
     "interestNotSure": "Aún no estoy seguro",
     "interestHelp": "No sabe qué elegir? Seleccione Aún no estoy seguro y le ayudamos a encontrar el siguiente paso adecuado.",

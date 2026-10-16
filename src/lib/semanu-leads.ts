@@ -1,5 +1,6 @@
 import 'server-only';
 import { env } from '@/lib/env';
+import { isValidIp } from '@/lib/security/client-ip';
 import type { AnalysisLeadInput, ContactLeadInput, ContactInterest } from '@/lib/validation';
 
 /**
@@ -134,41 +135,65 @@ export function analysisPayload(d: AnalysisLeadInput, now = Date.now()): SubmitC
 }
 
 /**
- * POST the payload to submit-contact. Returns true only when the function
- * answered ok. Never throws. `clientIp` is forwarded as X-Forwarded-For so the
- * function can rate limit per visitor (see the report: submit-contact reads
- * cf-connecting-ip first, which will be our server's address).
+ * Request headers for submit-contact. X-Forward-Secret and X-Visitor-IP are only
+ * sent when the shared secret is configured; X-Visitor-IP only for a valid IP
+ * (from X-Real-IP, set by Caddy). submit-contact ignores X-Visitor-IP unless the
+ * secret matches its own SEMANU_EU_FORWARD_SECRET.
+ */
+export function submitContactHeaders(
+  anonKey: string,
+  forwardSecret: string,
+  visitorIp?: string,
+): Record<string, string> {
+  const headers: Record<string, string> = {
+    'Content-Type': 'application/json',
+    apikey: anonKey,
+    Authorization: `Bearer ${anonKey}`,
+  };
+  if (forwardSecret) {
+    headers['X-Forward-Secret'] = forwardSecret;
+    if (visitorIp && isValidIp(visitorIp)) headers['X-Visitor-IP'] = visitorIp;
+  }
+  return headers;
+}
+
+export type ForwardResult = 'ok' | 'rate_limited' | 'error';
+
+/** Maps the submit-contact answer onto our result. 429 only comes back for a
+ *  trusted forward (valid secret); the public path always answers ok there. */
+export function interpretSubmitContact(status: number, data: { ok?: boolean; error?: string } | null): ForwardResult {
+  if (status === 429 || data?.error === 'rate_limited') return 'rate_limited';
+  if (status < 200 || status >= 300 || !data || data.ok !== true) return 'error';
+  return 'ok';
+}
+
+/**
+ * POST the payload to submit-contact. Never throws. `visitorIp` (X-Real-IP from
+ * Caddy) travels as X-Visitor-IP together with the shared secret, so the
+ * function rate limits per visitor instead of per server.
  */
 export async function forwardToSubmitContact(
   payload: SubmitContactPayload,
-  clientIp?: string,
-): Promise<boolean> {
+  visitorIp?: string,
+): Promise<ForwardResult> {
   const key = env.semanuSupabaseAnonKey;
   if (!key) {
     console.error('[leads] SEMANU_SUPABASE_ANON_KEY is not set; submission not forwarded');
-    return false;
+    return 'error';
   }
   try {
-    const headers: Record<string, string> = {
-      'Content-Type': 'application/json',
-      apikey: key,
-      Authorization: `Bearer ${key}`,
-    };
-    if (clientIp && clientIp !== 'unknown') headers['X-Forwarded-For'] = clientIp;
     const res = await fetch(`${env.semanuSupabaseUrl}/functions/v1/submit-contact`, {
       method: 'POST',
-      headers,
+      headers: submitContactHeaders(key, env.semanuEuForwardSecret, visitorIp),
       body: JSON.stringify(payload),
       signal: AbortSignal.timeout(15000),
     });
-    const data = (await res.json().catch(() => null)) as { ok?: boolean } | null;
-    if (!res.ok || !data || data.ok !== true) {
-      console.error(`[leads] submit-contact answered ${res.status}`);
-      return false;
-    }
-    return true;
+    const data = (await res.json().catch(() => null)) as { ok?: boolean; error?: string } | null;
+    const result = interpretSubmitContact(res.status, data);
+    if (result !== 'ok') console.error(`[leads] submit-contact answered ${res.status} (${result})`);
+    return result;
   } catch (err) {
     console.error('[leads] submit-contact unreachable:', err);
-    return false;
+    return 'error';
   }
 }

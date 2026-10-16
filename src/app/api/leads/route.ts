@@ -1,6 +1,7 @@
 import { NextResponse, type NextRequest } from 'next/server';
 import { leadSchema } from '@/lib/validation';
-import { verifyTurnstile, clientIp } from '@/lib/security/turnstile';
+import { verifyTurnstile } from '@/lib/security/turnstile';
+import { clientIp } from '@/lib/security/client-ip';
 import { analysisPayload, contactPayload, forwardToSubmitContact } from '@/lib/semanu-leads';
 import { hitRateLimit } from '@/lib/security/memory-ratelimit';
 
@@ -32,7 +33,9 @@ export async function POST(req: NextRequest) {
   }
 
   // First line of defence on our own server (one Node process per environment):
-  // max 5 submissions per visitor IP per hour. submit-contact adds its own limits.
+  // max 5 submissions per visitor IP per hour. submit-contact adds its own limits
+  // per visitor (we forward the IP with the shared secret) and per email address.
+  // The IP is X-Real-IP set by Caddy; a missing one shares the 'unknown' bucket.
   const ip = clientIp(req);
   if (!hitRateLimit(`leads:${ip}`, 5, 3600)) {
     return NextResponse.json({ error: 'rate_limited' }, { status: 429 });
@@ -42,7 +45,8 @@ export async function POST(req: NextRequest) {
   }
 
   const body = data.formType === 'contact' ? contactPayload(data) : analysisPayload(data);
-  const ok = await forwardToSubmitContact(body, ip);
-  if (!ok) return NextResponse.json({ error: 'server_error' }, { status: 502 });
+  const result = await forwardToSubmitContact(body, ip === 'unknown' ? undefined : ip);
+  if (result === 'rate_limited') return NextResponse.json({ error: 'rate_limited' }, { status: 429 });
+  if (result !== 'ok') return NextResponse.json({ error: 'server_error' }, { status: 502 });
   return NextResponse.json({ ok: true });
 }

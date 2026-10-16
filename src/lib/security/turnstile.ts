@@ -33,14 +33,5 @@ export function turnstileConfigured(): boolean {
   return !!env.turnstileSecret;
 }
 
-/**
- * Client IP as seen by Caddy. Caddy (without trusted_proxies) discards any
- * X-Forwarded-For the visitor sends and sets it to the real remote address, so
- * the last entry is the trustworthy one. Client-controlled headers such as
- * cf-connecting-ip are deliberately ignored: there is no Cloudflare in front.
- */
-export function clientIp(req: Request): string {
-  const xff = req.headers.get('x-forwarded-for');
-  const last = xff?.split(',').pop()?.trim();
-  return last || 'unknown';
-}
+// The visitor IP lives in ./client-ip.ts (X-Real-IP set by Caddy).
+export { clientIp } from './client-ip';

@@ -44,6 +44,15 @@ export const env = {
     return (process.env.SEMANU_SUPABASE_ANON_KEY ?? '').trim();
   },
 
+  /** Shared secret with submit-contact (SEMANU_EU_FORWARD_SECRET, same value as
+   *  the Supabase secret of the matching project). Server side only, never
+   *  NEXT_PUBLIC. With it, submit-contact trusts the X-Visitor-IP we send for its
+   *  per-visitor rate limit and marks the lead as coming from semanu.eu. Empty =
+   *  no forwarding headers are sent and submit-contact sees our server IP. */
+  get semanuEuForwardSecret() {
+    return (process.env.SEMANU_EU_FORWARD_SECRET ?? '').trim();
+  },
+
   /** Cloudflare Turnstile secret for server-side verification. Empty = Turnstile
    *  not configured (public forms still work, fail-safe). */
   get turnstileSecret() {

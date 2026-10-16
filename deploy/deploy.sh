@@ -115,6 +115,10 @@ deploy() {
       sleep 1
     done
     [ \"\$code\" = 200 ] || { echo \"Health check failed (HTTP \$code); see: journalctl -u $SERVICE -n 50\"; exit 1; }
+    # Node must listen on loopback only (see the systemd unit).
+    if ss -ltn \"sport = :$PORT\" | grep -qvE '127\\.0\\.0\\.1:|State'; then
+      echo \"WARNING: port $PORT listens on a non-loopback address; install the current systemd unit (HOSTNAME=localhost)\"
+    fi
     cd $BASE/releases && ls -1 | sort | head -n -3 | xargs -r rm -rf
     echo \"OK: $rel is active\""
 

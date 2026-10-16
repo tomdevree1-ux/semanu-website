@@ -93,7 +93,7 @@
     "errEmail": "Bitte geben Sie eine gültige Email Adresse ein.",
     "errConsent": "Bitte stimmen Sie der Datenschutzerklärung zu.",
     "errGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
-    "errRateLimit": "Zu viele Anfragen. Bitte versuchen Sie es später erneut."
+    "errRateLimit": "Sie haben dieses Formular in kurzer Zeit mehrmals gesendet. Bitte versuchen Sie es in einer Stunde erneut oder schreiben Sie uns an {email}."
   },
   "footer": {
     "tagline": "Der digitale Partner für Schweizer KMU: Beratung, Automatisierung, Massgeschneiderte Software und 3D-Konfiguratoren.",
@@ -186,6 +186,7 @@
     "errPhone": "Bitte geben Sie eine gültige Telefonnummer ein.",
     "errConsent": "Bitte stimmen Sie der Verarbeitung zu.",
     "errGeneric": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+    "errRateLimit": "Sie haben dieses Formular in kurzer Zeit mehrmals gesendet. Bitte versuchen Sie es in einer Stunde erneut oder schreiben Sie uns an {email}.",
     "interest": "Woran sind Sie interessiert?",
     "interestNotSure": "Noch nicht sicher",
     "interestHelp": "Nicht sicher, was Sie wählen sollen? Wählen Sie Noch nicht sicher und wir helfen Ihnen, den richtigen nächsten Schritt zu finden.",

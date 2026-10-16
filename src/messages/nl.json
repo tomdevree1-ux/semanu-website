@@ -93,7 +93,7 @@
     "errEmail": "Voer een geldig Email adres in.",
     "errConsent": "Ga akkoord met de privacyverklaring.",
     "errGeneric": "Er is iets misgegaan. Probeer het opnieuw.",
-    "errRateLimit": "Te veel aanvragen. Probeer het later opnieuw."
+    "errRateLimit": "U hebt dit formulier kort na elkaar meerdere keren verstuurd. Probeer het over een uur opnieuw of mail ons op {email}."
   },
   "footer": {
     "tagline": "De digitale partner voor Zwitserse kmo’s: advies, automatisering, maatwerksoftware en 3D-configuratoren.",
@@ -186,6 +186,7 @@
     "errPhone": "Voer een geldig telefoonnummer in.",
     "errConsent": "Ga akkoord met de verwerking.",
     "errGeneric": "Er is een fout opgetreden. Probeer het opnieuw.",
+    "errRateLimit": "U hebt dit formulier kort na elkaar meerdere keren verstuurd. Probeer het over een uur opnieuw of mail ons op {email}.",
     "interest": "Waarin bent u geïnteresseerd?",
     "interestNotSure": "Nog niet zeker",
     "interestHelp": "Niet zeker wat u moet kiezen? Kies Nog niet zeker en wij helpen u de juiste volgende stap te bepalen.",
