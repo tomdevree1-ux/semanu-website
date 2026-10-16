@@ -1,0 +1,56 @@
+# semanu.eu on the SEMANU Hetzner server (2.31.50.26): STAGING ONLY (before go-live).
+# Install: cp deploy/Caddyfile /etc/caddy/Caddyfile && caddy validate --config /etc/caddy/Caddyfile && systemctl reload caddy
+# Staging password: /etc/caddy/staging-auth.caddy (generated from /etc/caddy/staging.hash,
+# see deploy/README-DEPLOY.md). It never lives in this repo.
+
+{
+	email hello@semanu.eu
+}
+
+(common) {
+	encode zstd gzip
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		X-Content-Type-Options "nosniff"
+		Referrer-Policy "strict-origin-when-cross-origin"
+		Permissions-Policy "camera=(), microphone=(), geolocation=()"
+		X-Frame-Options "SAMEORIGIN"
+		-Server
+		-X-Powered-By
+	}
+	# Hashed build assets never change: cache them for a year.
+	@immutable path /_next/static/*
+	header @immutable Cache-Control "public, max-age=31536000, immutable"
+	log {
+		output file /var/log/caddy/{args[0]}.log {
+			roll_size 20MiB
+			roll_keep 5
+		}
+	}
+}
+
+# Reverse proxy to a local Node service. No trusted_proxies anywhere: Caddy
+# replaces any X-Forwarded-For the visitor sends, and X-Real-IP is overwritten
+# with the TCP peer address. The app reads only X-Real-IP (src/lib/security/
+# client-ip.ts) for its rate limit and forwards it to submit-contact.
+# The forwarding headers for submit-contact are stripped so a visitor can never
+# hand them to the app.
+(node) {
+	reverse_proxy 127.0.0.1:{args[0]} {
+		header_up X-Real-IP {remote_host}
+		header_up -X-Forward-Secret
+		header_up -X-Visitor-IP
+	}
+}
+
+# Live (www.semanu.eu, semanu.eu) is added at go-live with deploy/Caddyfile.
+# Until the DNS of semanu.eu and www points here, only staging is served, so
+# Caddy does not keep retrying certificates for hosts that still point to Combell.
+
+# Staging: password first, never indexed.
+acc.semanu.eu {
+	import common semanu-eu-acc
+	header X-Robots-Tag "noindex, nofollow"
+	import /etc/caddy/staging-auth.caddy
+	import node 3001
+}
