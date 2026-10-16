@@ -67,8 +67,8 @@ deploy() {
     confirm "Commit $rev live zetten op $URL?"
   fi
 
-  local tmp; tmp="$(mktemp -d)"
-  trap 'rm -rf "$tmp"' EXIT
+  TMP_BUILD="$(mktemp -d)"; local tmp="$TMP_BUILD"
+  trap 'rm -rf "${TMP_BUILD:-}"' EXIT
   echo "== export $rev"
   git archive HEAD | tar -x -C "$tmp"
   echo "$rev" > "$tmp/REVISION"
