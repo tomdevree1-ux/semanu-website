@@ -4,7 +4,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
   de: {
     title: 'Webseite Betreuung Schweiz: Kosten und Leistungen',
     description:
-      'Was kostet die Betreuung Ihrer Webseite? Hosting, Wartung, Updates, Sicherheit und Backups im Website Abo ab 99 CHF pro Monat. Persönliche Homepage Betreuung aus Bern für Schweizer KMU.',
+      'Was kostet die Betreuung Ihrer Webseite? Hosting, Wartung, Updates, Sicherheit und Backups im Website Abo zu einem Monatspreis auf Anfrage. Persönliche Homepage Betreuung aus Bern für Schweizer KMU.',
     eyebrow: 'Website Betreuung · Schweiz',
     h1: 'Website und Homepage Betreuung Schweiz',
     intro:
@@ -146,7 +146,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
     pricing: {
       heading: 'Was kostet die Website Betreuung?',
       intro:
-        'Website Betreuung kostet bei semanu ab 99 CHF pro Monat, exkl. MWST. In diesem Betrag stecken Hosting, Wartung, technische Updates, Sicherheit und Backups. Website Pflege, Wartung und Betreuung meinen dabei dasselbe und werden nicht getrennt verrechnet. Es gibt keine separate Rechnung für den laufenden Betrieb, keinen Stundensatz für Standardpflege und keinen zusätzlichen Wartungsvertrag. Das Abo deckt neben Design und Umsetzung auch den kompletten technischen Betrieb ab.',
+        'Website Betreuung kostet bei semanu einen festen Monatsbetrag exkl. MWST, den Sie auf Anfrage als schriftliches Angebot erhalten. In diesem Betrag stecken Hosting, Wartung, technische Updates, Sicherheit und Backups. Website Pflege, Wartung und Betreuung meinen dabei dasselbe und werden nicht getrennt verrechnet. Es gibt keine separate Rechnung für den laufenden Betrieb, keinen Stundensatz für Standardpflege und keinen zusätzlichen Wartungsvertrag. Das Abo deckt neben Design und Umsetzung auch den kompletten technischen Betrieb ab.',
       note: 'Alle Preise exkl. MWST. Mindestlaufzeit 36 Monate, danach monatlich kündbar.',
       cta: { label: 'Preise ansehen', href: '/website-abos' },
       cards: [],
@@ -205,7 +205,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
         icon: 'price',
         heading: 'Homepage Betreuung Kosten und Website Pflege Preise',
         body:
-          'Die Betreuung Ihrer Homepage kostet ab 99 CHF pro Monat exkl. MWST und darin ist alles enthalten: Hosting, Wartung, technische Updates, Sicherheit und Backups. Klassische Anbieter rechnen das getrennt ab: ein Hosting Paket pro Jahr, ein Wartungsvertrag pro Monat und Änderungen nach Stundensatz. Am Jahresende wissen viele KMU nicht, was ihre Website wirklich gekostet hat. Bei semanu sind Homepage Betreuung Kosten, Website Pflege Preise und Wartung ein einziger Betrag. Nur grössere Umbauten ausserhalb der laufenden Pflege werden separat vereinbart und vorab offeriert, damit es keine Überraschungsrechnung gibt.',
+          'Die Betreuung Ihrer Homepage kostet einen festen Monatsbetrag (auf Anfrage, exkl. MWST) und darin ist alles enthalten: Hosting, Wartung, technische Updates, Sicherheit und Backups. Klassische Anbieter rechnen das getrennt ab: ein Hosting Paket pro Jahr, ein Wartungsvertrag pro Monat und Änderungen nach Stundensatz. Am Jahresende wissen viele KMU nicht, was ihre Website wirklich gekostet hat. Bei semanu sind Homepage Betreuung Kosten, Website Pflege Preise und Wartung ein einziger Betrag. Nur grössere Umbauten ausserhalb der laufenden Pflege werden separat vereinbart und vorab offeriert, damit es keine Überraschungsrechnung gibt.',
         points: ['Ein Monatsbetrag statt Hosting, Wartungsvertrag und Stundensatz', 'Grössere Umbauten immer vorab offeriert'],
       },
       {
@@ -238,15 +238,15 @@ export const websiteBetreuungSchweiz: LandingLocales = {
         },
         {
           q: 'Was kostet Homepage Betreuung?',
-          a: 'Homepage Betreuung ist im Website Abo enthalten, ab 99 CHF pro Monat. Hosting, Wartung, Updates und Sicherheit für Ihre Homepage sitzen im monatlichen Preis, ohne separate Rechnung.',
+          a: 'Homepage Betreuung ist im Website Abo enthalten. Den Monatspreis erhalten Sie auf Anfrage. Hosting, Wartung, Updates und Sicherheit für Ihre Homepage sitzen im monatlichen Preis, ohne separate Rechnung.',
         },
         {
           q: 'Was kostet es, eine Webseite betreuen zu lassen?',
-          a: 'Eine Webseite betreuen zu lassen kostet bei semanu ab 99 CHF pro Monat, exkl. MWST. Darin sitzen Hosting, Wartung, technische Updates, Sicherheit und Backups. Sie erhalten keine separate Hosting Rechnung und keinen zusätzlichen Wartungsvertrag.',
+          a: 'Eine Webseite betreuen zu lassen kostet bei semanu einen festen Monatsbetrag exkl. MWST, den Sie nach einem kurzen Gespräch als schriftliches Angebot erhalten. Darin sitzen Hosting, Wartung, technische Updates, Sicherheit und Backups. Sie erhalten keine separate Hosting Rechnung und keinen zusätzlichen Wartungsvertrag.',
         },
         {
           q: 'Was kosten Website Pflege und Wartung?',
-          a: 'Website Pflege und Wartung kosten bei semanu ab 99 CHF pro Monat, exkl. MWST. Es ist derselbe Betrag wie für die Betreuung, denn Pflege, Wartung und Betreuung sind bei uns eine Leistung. Hosting, technische Updates, Sicherheit und Backups sind darin enthalten und werden nicht zusätzlich verrechnet.',
+          a: 'Website Pflege und Wartung kosten bei semanu einen festen Monatsbetrag auf Anfrage, exkl. MWST. Es ist derselbe Betrag wie für die Betreuung, denn Pflege, Wartung und Betreuung sind bei uns eine Leistung. Hosting, technische Updates, Sicherheit und Backups sind darin enthalten und werden nicht zusätzlich verrechnet.',
         },
         {
           q: 'Wie funktioniert ein Wartungsvertrag im Abo?',
@@ -287,7 +287,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
   fr: {
     title: 'Maintenance de site web Suisse: prix et prestations',
     description:
-      'Combien coûte la maintenance de votre site web ? Hébergement, entretien, mises à jour, sécurité et sauvegardes dans l’abonnement dès 99 CHF par mois. Suivi personnel depuis Berne pour les PME suisses.',
+      'Combien coûte la maintenance de votre site web ? Hébergement, entretien, mises à jour, sécurité et sauvegardes dans l’abonnement pour un prix mensuel sur demande. Suivi personnel depuis Berne pour les PME suisses.',
     eyebrow: 'Maintenance de site web · Suisse',
     h1: 'Maintenance de site web en Suisse',
     intro:
@@ -429,7 +429,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
     pricing: {
       heading: 'Combien coûte la maintenance de site web?',
       intro:
-        'La maintenance de site web coûte chez semanu dès 99 CHF par mois, hors TVA. Ce montant comprend l’hébergement, la maintenance, les mises à jour techniques, la sécurité et les sauvegardes. Entretien, maintenance et suivi désignent la même prestation et ne sont pas facturés séparément. Il n’y a pas de facture séparée pour le suivi courant, pas de tarif horaire pour l’entretien standard ni de contrat de maintenance en plus. L’abonnement couvre aussi l’intégralité de l’exploitation technique en plus du design et de la réalisation.',
+        'Chez semanu la maintenance de site web coûte un montant mensuel fixe hors TVA, communiqué sur demande dans une offre écrite. Ce montant comprend l’hébergement, la maintenance, les mises à jour techniques, la sécurité et les sauvegardes. Entretien, maintenance et suivi désignent la même prestation et ne sont pas facturés séparément. Il n’y a pas de facture séparée pour le suivi courant, pas de tarif horaire pour l’entretien standard ni de contrat de maintenance en plus. L’abonnement couvre aussi l’intégralité de l’exploitation technique en plus du design et de la réalisation.',
       note: 'Tous les prix hors TVA. Durée minimale de 36 mois, ensuite résiliable chaque mois.',
       cta: { label: 'Voir les prix', href: '/website-abos' },
       cards: [],
@@ -488,7 +488,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
         icon: 'price',
         heading: 'Prix de la maintenance de site internet et coûts d’entretien',
         body:
-          'La maintenance de votre site internet coûte dès 99 CHF par mois hors TVA et tout est compris : hébergement, entretien, mises à jour techniques, sécurité et sauvegardes. Les prestataires classiques facturent cela séparément: un forfait d’hébergement par an, un contrat de maintenance par mois et les modifications au tarif horaire. En fin d’année, beaucoup de PME ignorent ce que leur site a réellement coûté. Chez semanu, prix de la maintenance et coûts d’entretien forment un seul montant. Seules les transformations importantes en dehors de l’entretien courant sont convenues à part et devisées à l’avance, pour éviter toute facture surprise.',
+          'La maintenance de votre site internet coûte un montant mensuel fixe (sur demande, hors TVA) et tout est compris : hébergement, entretien, mises à jour techniques, sécurité et sauvegardes. Les prestataires classiques facturent cela séparément: un forfait d’hébergement par an, un contrat de maintenance par mois et les modifications au tarif horaire. En fin d’année, beaucoup de PME ignorent ce que leur site a réellement coûté. Chez semanu, prix de la maintenance et coûts d’entretien forment un seul montant. Seules les transformations importantes en dehors de l’entretien courant sont convenues à part et devisées à l’avance, pour éviter toute facture surprise.',
         points: ['Un montant mensuel au lieu d’hébergement, contrat et tarif horaire', 'Transformations importantes toujours devisées à l’avance'],
       },
       {
@@ -521,15 +521,15 @@ export const websiteBetreuungSchweiz: LandingLocales = {
         },
         {
           q: 'Combien coûte la maintenance d’un site internet?',
-          a: 'La maintenance courante est comprise dans l’abonnement site web, dès 99 CHF par mois. Hébergement, maintenance, mises à jour et sécurité de votre site sont inclus dans le prix mensuel, sans facture séparée.',
+          a: 'La maintenance courante est comprise dans l’abonnement site web. Le prix mensuel est communiqué sur demande. Hébergement, maintenance, mises à jour et sécurité de votre site sont inclus dans le prix mensuel, sans facture séparée.',
         },
         {
           q: 'Combien coûte le fait de faire entretenir son site web?',
-          a: 'Faire entretenir son site web chez semanu coûte dès 99 CHF par mois, hors TVA. Hébergement, entretien, mises à jour techniques, sécurité et sauvegardes sont compris. Vous ne recevez pas de facture d’hébergement séparée ni de contrat de maintenance supplémentaire.',
+          a: 'Faire entretenir son site web chez semanu coûte un montant mensuel fixe hors TVA, communiqué sur demande dans une offre écrite après un court échange. Hébergement, entretien, mises à jour techniques, sécurité et sauvegardes sont compris. Vous ne recevez pas de facture d’hébergement séparée ni de contrat de maintenance supplémentaire.',
         },
         {
           q: 'Combien coûtent l’entretien et la maintenance d’un site web?',
-          a: 'L’entretien et la maintenance coûtent chez semanu dès 99 CHF par mois, hors TVA. C’est le même montant que pour le suivi, car entretien, maintenance et suivi sont une seule prestation chez nous. Hébergement, mises à jour techniques, sécurité et sauvegardes sont compris et ne sont pas facturés en plus.',
+          a: 'L’entretien et la maintenance coûtent chez semanu un montant mensuel fixe sur demande, hors TVA. C’est le même montant que pour le suivi, car entretien, maintenance et suivi sont une seule prestation chez nous. Hébergement, mises à jour techniques, sécurité et sauvegardes sont compris et ne sont pas facturés en plus.',
         },
         {
           q: 'Comment fonctionne un contrat de maintenance dans l’abonnement?',
@@ -570,7 +570,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
   en: {
     title: 'Website maintenance Switzerland: costs and scope',
     description:
-      'What does website maintenance cost? Hosting, upkeep, updates, security and backups in the website subscription from 99 CHF per month. Personal website care from Bern for Swiss SMEs.',
+      'What does website maintenance cost? Hosting, upkeep, updates, security and backups in the website subscription at a monthly price on request. Personal website care from Bern for Swiss SMEs.',
     eyebrow: 'Website care · Switzerland',
     h1: 'Website care in Switzerland',
     intro:
@@ -712,7 +712,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
     pricing: {
       heading: 'What does website care cost?',
       intro:
-        'Website care costs from 99 CHF per month at semanu, excl. VAT. That amount covers hosting, maintenance, technical updates, security and backups. Care, maintenance and upkeep are one and the same service here and are not billed separately. There is no separate invoice for ongoing operation, no hourly rate for standard upkeep and no extra maintenance contract. The subscription covers the full technical operation alongside design and build.',
+        'Website care at semanu costs a fixed monthly amount excl. VAT, available on request as a written quote. That amount covers hosting, maintenance, technical updates, security and backups. Care, maintenance and upkeep are one and the same service here and are not billed separately. There is no separate invoice for ongoing operation, no hourly rate for standard upkeep and no extra maintenance contract. The subscription covers the full technical operation alongside design and build.',
       note: 'All prices excl. VAT. Minimum term 36 months, then cancellable monthly.',
       cta: { label: 'See pricing', href: '/website-abos' },
       cards: [],
@@ -771,7 +771,7 @@ export const websiteBetreuungSchweiz: LandingLocales = {
         icon: 'price',
         heading: 'Website maintenance costs and upkeep prices',
         body:
-          'Maintaining your website costs from 99 CHF per month excl. VAT and that covers everything: hosting, upkeep, technical updates, security and backups. Classic providers bill this separately: a hosting package per year, a maintenance contract per month and changes at an hourly rate. By the end of the year many SMEs do not know what their website actually cost. At semanu, maintenance costs and upkeep prices are a single amount. Only larger rebuilds outside the ongoing care are agreed separately and quoted upfront, so there is no surprise invoice.',
+          'Maintaining your website costs a fixed monthly amount (on request, excl. VAT) and that covers everything: hosting, upkeep, technical updates, security and backups. Classic providers bill this separately: a hosting package per year, a maintenance contract per month and changes at an hourly rate. By the end of the year many SMEs do not know what their website actually cost. At semanu, maintenance costs and upkeep prices are a single amount. Only larger rebuilds outside the ongoing care are agreed separately and quoted upfront, so there is no surprise invoice.',
         points: ['One monthly amount instead of hosting, contract and hourly rate', 'Larger rebuilds always quoted upfront'],
       },
       {
@@ -804,15 +804,15 @@ export const websiteBetreuungSchweiz: LandingLocales = {
         },
         {
           q: 'How much does website maintenance cost?',
-          a: 'The ongoing care is included in the website subscription, from 99 CHF per month. Hosting, maintenance, updates and security for your website sit in the monthly price and come without a separate invoice.',
+          a: 'The ongoing care is included in the website subscription. The monthly price is available on request. Hosting, maintenance, updates and security for your website sit in the monthly price and come without a separate invoice.',
         },
         {
           q: 'What does it cost to have a website maintained?',
-          a: 'Having a website maintained at semanu costs from 99 CHF per month, excl. VAT. Hosting, upkeep, technical updates, security and backups are included. You get no separate hosting invoice and no additional maintenance contract.',
+          a: 'Having a website maintained at semanu costs a fixed monthly amount excl. VAT, available on request as a written quote after a short conversation. Hosting, upkeep, technical updates, security and backups are included. You get no separate hosting invoice and no additional maintenance contract.',
         },
         {
           q: 'What do website upkeep and maintenance cost?',
-          a: 'Website upkeep and maintenance cost from 99 CHF per month at semanu, excl. VAT. It is the same amount as for the care, because upkeep, maintenance and care are one service here. Hosting, technical updates, security and backups are included and are not billed on top.',
+          a: 'Website upkeep and maintenance cost a fixed monthly amount at semanu, on request and excl. VAT. It is the same amount as for the care, because upkeep, maintenance and care are one service here. Hosting, technical updates, security and backups are included and are not billed on top.',
         },
         {
           q: 'How does a maintenance plan in the subscription work?',

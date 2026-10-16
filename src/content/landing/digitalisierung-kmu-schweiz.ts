@@ -114,8 +114,8 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
         title: 'Alles im Monatsmodell',
         text: 'Planbar statt grosse Einmalrechnung.',
         detail:
-          'Statt einer hohen Einmalinvestition zahlen Sie ein klares monatliches Abo. Website Abos starten bei 99 CHF pro Monat, grössere Plattformen und Automatisierungen auf Anfrage.',
-        points: ['Ab 99 CHF pro Monat', 'Grössere Projekte auf Anfrage'],
+          'Statt einer hohen Einmalinvestition zahlen Sie ein klares monatliches Abo. Den Preis für Website Abos, Plattformen und Automatisierungen erhalten Sie auf Anfrage in einer schriftlichen Offerte.',
+        points: ['Monatlicher Preis auf Anfrage', 'Klare schriftliche Offerte'],
       },
     ],
     process: {
@@ -150,7 +150,7 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
       cards: [
         {
           name: 'Website Abo',
-          price: 'ab 99 CHF / Monat',
+          price: 'Auf Anfrage',
           desc: 'Der Einstieg in Ihre digitale Präsenz.',
           points: [
             'individuelles Design',
@@ -260,7 +260,7 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
         },
         {
           q: 'Was kostet die Digitalisierung mit semanu?',
-          a: 'Website Abos starten bei 99 CHF pro Monat inklusive Hosting und Wartung. Grössere Plattformen, CRM Systeme und Automatisierungen werden nach Aufwand offeriert. Sie zahlen ein transparentes monatliches Abo statt einer hohen Einmalrechnung.',
+          a: 'Der Preis für ein Website Abo hängt vom Umfang ab und enthält immer Hosting und Wartung. Grössere Plattformen, CRM Systeme und Automatisierungen werden nach Aufwand offeriert. Auf Anfrage erhalten Sie eine klare schriftliche Offerte und zahlen danach ein transparentes monatliches Abo statt einer hohen Einmalrechnung.',
         },
         {
           q: 'Arbeiten wir mit einem festen Ansprechpartner?',
@@ -411,8 +411,8 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
         title: 'Tout dans le modèle mensuel',
         text: 'Prévisible au lieu d’une grosse facture unique.',
         detail:
-          'Au lieu d’un gros investissement unique, vous payez un abonnement mensuel clair. Les abonnements de site démarrent à 99 CHF par mois, les plateformes et automatisations plus importantes sur demande.',
-        points: ['Dès 99 CHF par mois', 'Projets plus importants sur demande'],
+          'Au lieu d’un gros investissement unique, vous payez un abonnement mensuel clair. Le prix des abonnements de site, des plateformes et des automatisations vous est communiqué sur demande dans une offre écrite.',
+        points: ['Prix mensuel sur demande', 'Offre écrite claire'],
       },
     ],
     process: {
@@ -447,7 +447,7 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
       cards: [
         {
           name: 'Abonnement de site',
-          price: 'dès 99 CHF / mois',
+          price: 'Sur demande',
           desc: 'L’entrée dans votre présence digitale.',
           points: [
             'design individuel',
@@ -557,7 +557,7 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
         },
         {
           q: 'Combien coûte la digitalisation avec semanu?',
-          a: 'Les abonnements de site démarrent à 99 CHF par mois, hébergement et maintenance compris. Les plateformes, systèmes CRM et automatisations plus importants sont offerts selon l’effort. Vous payez un abonnement mensuel transparent au lieu d’une grosse facture unique.',
+          a: 'Le prix d’un abonnement de site dépend de l’ampleur et comprend toujours l’hébergement et la maintenance. Les plateformes, systèmes CRM et automatisations plus importants sont offerts selon l’effort. Sur demande vous recevez une offre écrite claire puis payez un abonnement mensuel transparent au lieu d’une grosse facture unique.',
         },
         {
           q: 'Vous avez un interlocuteur fixe?',
@@ -708,8 +708,8 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
         title: 'All in the monthly model',
         text: 'Predictable instead of a large one off invoice.',
         detail:
-          'Instead of a high one off investment you pay a clear monthly subscription. Website subscriptions start at 99 CHF per month, larger platforms and automations on request.',
-        points: ['From 99 CHF per month', 'Larger projects on request'],
+          'Instead of a high one off investment you pay a clear monthly subscription. Pricing for website subscriptions, platforms and automations is on request in a written quote.',
+        points: ['Monthly price on request', 'Clear written quote'],
       },
     ],
     process: {
@@ -744,7 +744,7 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
       cards: [
         {
           name: 'Website subscription',
-          price: 'from 99 CHF / month',
+          price: 'On request',
           desc: 'The entry into your digital presence.',
           points: [
             'individual design',
@@ -854,7 +854,7 @@ export const digitalisierungKmuSchweiz: LandingLocales = {
         },
         {
           q: 'What does digitalisation with semanu cost?',
-          a: 'Website subscriptions start at 99 CHF per month including hosting and maintenance. Larger platforms, CRM systems and automations are quoted by effort. You pay a transparent monthly subscription instead of a high one off invoice.',
+          a: 'The price of a website subscription depends on the scope and always includes hosting and maintenance. Larger platforms, CRM systems and automations are quoted by effort. On request you receive a clear written quote. You then pay a transparent monthly subscription instead of a high one off invoice.',
         },
         {
           q: 'Do we work with a fixed contact?',

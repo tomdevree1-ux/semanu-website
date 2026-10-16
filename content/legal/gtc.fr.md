@@ -1,11 +1,11 @@
 ---
 title: "Conditions générales (CGV)"
-updated: "2026-06-07"
+updated: "2026-10-16"
 ---
 
 ## 1. Prestataire et champ d'application
 
-Les présentes CGV régissent les services par abonnement de l'**SEMANU BV** ayant son siège à la Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgique, titulaire Tom de Vree, email hello@semanu.eu ("semanu"). Elles s'appliquent à tous les abonnements web (Business, Webshop, Software & Applications) et aux services associés, et priment sur les conditions divergentes du client, sauf accord écrit exprès.
+Les présentes CGV régissent les services par abonnement de **SEMANU BV**, Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgique, numéro d'entreprise 0828.291.116, TVA BE0828.291.116, gérant Tom de Vree, email hello@semanu.eu, site web www.semanu.eu ("semanu"). Elles s'appliquent à tous les abonnements web (Business, Webshop, Software & Applications) et aux services associés. Elles priment sur les conditions divergentes du client, sauf accord écrit exprès.
 
 ## 2. Prestations
 
@@ -13,7 +13,7 @@ semanu crée et exploite des sites web sous forme d'abonnement mensuel. Selon l'
 
 ## 3. Conclusion du contrat et démarrage
 
-Le contrat est conclu dès que le client souscrit un abonnement et qu'semanu confirme la commande (jour 0). semanu commence le design dans les 5 jours ouvrés suivant la réception du premier paiement. Le client fournit en temps utile les contenus, accès et informations nécessaires.
+Le contrat est conclu dès que le client souscrit un abonnement et que semanu confirme la commande (jour 0). semanu commence le design dans les 5 jours ouvrés suivant la réception du premier paiement. Le client fournit en temps utile les contenus, accès et informations nécessaires.
 
 ## 4. Durée, renouvellement et résiliation
 
@@ -26,24 +26,24 @@ Le contrat est conclu dès que le client souscrit un abonnement et qu'semanu con
 La durée minimale de 36 mois est ferme et doit en principe être accomplie.
 
 - **Résiliation anticipée par le client** (pour des motifs non imputables à semanu) : les mensualités restantes jusqu'à la fin du mois 36 restent intégralement dues.
-- **Lors de toute fin de l'abonnement** (quelle que soit la durée déjà écoulée, identique pour tous les clients), des **frais administratifs de CHF 190 (hors TVA)** sont dus pour le transfert et la clôture du dossier. Ces frais ne constituent pas un solde des frais d'abonnement, mais couvrent le travail administratif de remise et de clôture.
+- **Lors de toute fin de l'abonnement** (quelle que soit la durée déjà écoulée, identique pour tous les clients), des **frais administratifs selon le devis ou la confirmation de commande (hors TVA)** sont dus pour le transfert et la clôture du dossier. Ces frais ne constituent pas un solde des frais d'abonnement. Ils couvrent le travail administratif de remise et de clôture.
 
 Le droit de résilier pour de justes motifs demeure réservé.
 
 ## 6. Prix, paiement et indexation
 
-- Les frais d'abonnement sont facturés mensuellement à l'avance. Website 99 CHF/mois, Webshop 125 CHF/mois, Software & Applications dès 99 CHF/mois. L'option "Logo + charte graphique" coûte 750 CHF une seule fois. La gestion Google Ads est disponible dès 195 CHF/mois.
+- Les frais d'abonnement sont facturés mensuellement à l'avance. Les montants de l'abonnement, d'une éventuelle option (par exemple "Logo + charte graphique") et de la gestion Google Ads sont indiqués dans le devis ou la confirmation de commande.
 - La première facture est émise à la commande (jour 0) ; le travail démarre dans les 5 jours ouvrés suivant la réception du paiement.
-- **Indexation annuelle :** semanu peut adapter les prix une fois par an conformément à l'indice suisse des prix à la consommation (LIK) de l'Office fédéral de la statistique, avec préavis.
-- Tous les prix s'entendent en CHF, hors taxe sur la valeur ajoutée légale (actuellement 8,1%). Le numéro de TVA/UID sera ajouté dès qu'il sera disponible.
+- **Indexation annuelle :** moyennant un préavis, semanu peut adapter les prix une fois par an sur la base de l'indice santé belge.
+- Tous les prix s'entendent en EUR, hors TVA belge (21%). Pour les clients professionnels établis dans un autre État membre de l'UE et disposant d'un numéro de TVA valide, l'autoliquidation s'applique (art. 196 de la directive TVA 2006/112/CE).
 
 ## 7. Retard de paiement
 
-Les factures sont payables dans les 14 jours. En cas de retard, semanu peut facturer un intérêt moratoire de 5% par an (art. 104 CO) et des frais de rappel de CHF 20 par rappel. Après deux rappels infructueux, semanu peut suspendre la prestation jusqu'au paiement et, en cas de défaut important, résilier pour de justes motifs.
+Les factures sont payables dans les 14 jours. En cas de retard de paiement, le client doit de plein droit et sans mise en demeure l'intérêt légal pour les transactions commerciales prévu par la loi belge du 2 août 2002 concernant la lutte contre le retard de paiement dans les transactions commerciales ainsi que l'indemnité forfaitaire pour frais de recouvrement prévue par cette loi, sauf disposition contraire du devis. D'éventuels frais de rappel sont facturés selon le devis. Après deux rappels infructueux, semanu peut suspendre la prestation jusqu'au paiement. En cas de défaut important, semanu peut résilier pour de justes motifs.
 
 ## 8. Modifications après livraison
 
-L'hébergement et la maintenance sont compris dans l'abonnement. Toute modification demandée après la livraison est facturée à **CHF 95 par heure**, au quart d'heure entamé (15 minutes), soit CHF 23.75 par quart d'heure entamé, arrondi vers le haut. Les petites adaptations ne sont pas gratuites non plus et sont facturées au même tarif horaire. Les demandes plus importantes sont estimées au préalable sur demande.
+L'hébergement et la maintenance sont compris dans l'abonnement. Toute modification demandée après la livraison est facturée au **tarif horaire indiqué dans le devis**, par quart d'heure entamé (15 minutes), arrondi vers le haut. Les petites adaptations ne sont pas gratuites non plus et sont facturées au même tarif horaire. Les demandes plus importantes sont estimées au préalable sur demande.
 
 ## 9. Propriété et propriété intellectuelle
 
@@ -58,7 +58,7 @@ semanu fournit l'hébergement, les mises à jour techniques, la sécurité de ba
 
 ## 11. Obligations du client
 
-Le client garantit que les contenus fournis sont licites et ne violent pas les droits de tiers, et coopère en temps utile. Le client est responsable des contenus qu'il publie.
+Le client garantit que les contenus fournis sont licites et ne violent pas les droits de tiers. Il coopère en temps utile. Le client est responsable des contenus qu'il publie.
 
 ## 12. SEO
 
@@ -78,4 +78,4 @@ semanu peut adapter les présentes CGV. Les modifications sont communiquées à 
 
 ## 16. Droit applicable et for
 
-Le droit suisse s'applique, à l'exclusion des règles de conflit de lois et de la Convention de Vienne. Le for exclusif est Bern, Suisse, sous réserve des fors impératifs.
+Le droit belge s'applique, à l'exclusion des règles de conflit de lois et de la Convention de Vienne. Les tribunaux d'Anvers (division Anvers) sont exclusivement compétents.

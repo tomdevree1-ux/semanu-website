@@ -1,6 +1,6 @@
 ---
 title: "Colofon"
-updated: "2026-06-07"
+updated: "2026-10-16"
 ---
 
 ## Aanbieder
@@ -8,7 +8,7 @@ updated: "2026-06-07"
 SEMANU BV
 Kattendijkdok-Oostkaai 9, 2000 Antwerpen, België
 
-## Eigenaar
+## Zaakvoerder
 
 Tom de Vree
 
@@ -16,16 +16,18 @@ Tom de Vree
 
 Email: hello@semanu.eu
 
-Telefoon: +41 77 524 91 24
+Telefoon: +32 496 04 56 06
 
-## Handelsregister
+Website: www.semanu.eu
 
-Rechtsvorm: besloten vennootschap (BV).
-Ondernemingsnummer: 0828.291.116.
+## Ondernemingsregister
+
+Rechtsvorm: besloten vennootschap (BV, Belgisch recht).
+Ondernemingsnummer (KBO): 0828.291.116.
 
 ## Belasting over de toegevoegde waarde
 
-SEMANU BV is btw plichtig. Btw nummer: BE0828 291 116.
+SEMANU BV is btw plichtig. Btw nummer: BE0828.291.116.
 
 ## Aansprakelijkheid voor inhoud
 

@@ -1,6 +1,6 @@
 ---
 title: "Imprint"
-updated: "2026-06-07"
+updated: "2026-10-16"
 ---
 
 ## Provider
@@ -8,7 +8,7 @@ updated: "2026-06-07"
 SEMANU BV
 Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgium
 
-## Owner
+## Managing director
 
 Tom de Vree
 
@@ -16,16 +16,18 @@ Tom de Vree
 
 Email: hello@semanu.eu
 
-Phone: +41 77 524 91 24
+Phone: +32 496 04 56 06
 
-## Commercial register
+Website: www.semanu.eu
+
+## Company register
 
 Legal form: private limited company (BV, Belgian law).
-Company number: 0828.291.116.
+Company number (KBO/BCE): 0828.291.116.
 
 ## VAT
 
-SEMANU BV is registered for VAT. VAT number: BE0828 291 116.
+SEMANU BV is registered for VAT. VAT number: BE0828.291.116.
 
 ## Liability for content
 

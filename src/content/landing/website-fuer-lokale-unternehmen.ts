@@ -4,13 +4,13 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
   de: {
     title: 'Website für lokale Unternehmen',
     description:
-      'Professionelle Website für lokale Unternehmen in der Schweiz. Öffnungszeiten, Standort und Kontakt gut auffindbar, mobil optimiert und mit SEO Grundlagen ab 99 CHF pro Monat.',
+      'Professionelle Website für lokale Unternehmen in der Schweiz. Öffnungszeiten, Standort und Kontakt gut auffindbar, mobil optimiert und mit SEO Grundlagen im Website Abo. Preis auf Anfrage.',
     eyebrow: 'Website für lokale Unternehmen · Schweiz',
     h1: 'Website für lokale Unternehmen in der Schweiz',
     intro:
       'Lokale Kunden suchen Dienstleister und Geschäfte heute zuerst am Smartphone. Eine klare, mobile Website zeigt Ihren Standort, Ihre Öffnungszeiten und Ihre Leistungen auf einen Blick und bringt mehr Anrufe, Anfragen und Besuche. Für Handwerksbetriebe, Salons, Restaurants, Praxen und alle lokalen Unternehmen in der Schweiz.',
     heroBullets: [
-      'Ab 99 CHF pro Monat',
+      'Monatlicher Preis auf Anfrage',
       'Standort, Öffnungszeiten und Kontakt sofort sichtbar',
       'Mobile First: optimiert für Smartphone Nutzer',
       'Design, Hosting und Wartung inklusive',
@@ -150,7 +150,7 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
       cards: [
         {
           name: 'Business Website',
-          price: 'ab 99 CHF / Monat',
+          price: 'Auf Anfrage',
           desc: 'Für lokale Unternehmen mit mehreren Leistungen und Seiten.',
           points: [
             'bis zu 10 Seiten',
@@ -162,7 +162,7 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
         },
         {
           name: 'Webshop',
-          price: 'ab 125 CHF / Monat',
+          price: 'Auf Anfrage',
           desc: 'Für lokale Unternehmen die Produkte online verkaufen möchten.',
           points: [
             'Shop Setup',
@@ -255,7 +255,7 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
         },
         {
           q: 'Was kostet eine Website für ein lokales Unternehmen?',
-          a: 'Das Website Abo startet ab 99 CHF pro Monat. Der genaue Preis hängt vom gewählten Abo und vom Umfang der Website ab. Design, Hosting und Wartung sind immer im Preis enthalten.',
+          a: 'Den Preis für das Website Abo erhalten Sie auf Anfrage in einer klaren schriftlichen Offerte. Er hängt vom gewählten Abo und vom Umfang der Website ab. Design, Hosting und Wartung sind immer im Preis enthalten.',
         },
         {
           q: 'Muss ich die Texte selbst schreiben?',
@@ -276,13 +276,13 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
   fr: {
     title: 'Site pour les commerces locaux',
     description:
-      'Site professionnel pour les commerces et entreprises locaux en Suisse. Horaires, adresse et contact bien visibles, optimisé mobile et avec bases SEO dès 99 CHF par mois.',
+      'Site professionnel pour les commerces et entreprises locaux en Suisse. Horaires, adresse et contact bien visibles, optimisé mobile et avec bases SEO dans l’abonnement. Prix sur demande.',
     eyebrow: 'Site pour les commerces locaux · Suisse',
     h1: 'Site pour les commerces locaux en Suisse',
     intro:
       'Les clients locaux cherchent des prestataires et des commerces sur smartphone en premier. Un site clair et mobile met en avant votre adresse, vos horaires et vos prestations d\’un coup d\’oeil et apporte plus d\’appels, de demandes et de visites. Pour les artisans, les salons, les restaurants, les cabinets et tous les commerces locaux en Suisse.',
     heroBullets: [
-      'Dès 99 CHF par mois',
+      'Prix mensuel sur demande',
       'Adresse, horaires et contact visibles immédiatement',
       'Mobile First: optimisé pour les utilisateurs smartphone',
       'Design, hébergement et maintenance compris',
@@ -422,7 +422,7 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
       cards: [
         {
           name: 'Business Website',
-          price: 'dès 99 CHF / mois',
+          price: 'Sur demande',
           desc: 'Pour les commerces locaux avec plusieurs prestations et pages.',
           points: [
             'jusqu\’à 10 pages',
@@ -434,7 +434,7 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
         },
         {
           name: 'Webshop',
-          price: 'dès 125 CHF / mois',
+          price: 'Sur demande',
           desc: 'Pour les commerces locaux qui veulent aussi vendre en ligne.',
           points: [
             'configuration du shop',
@@ -527,7 +527,7 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
         },
         {
           q: 'Combien coûte un site pour un commerce local?',
-          a: 'L\’abonnement démarre dès 99 CHF par mois. Le prix exact dépend de l\’abonnement choisi et de l\’ampleur du site. Design, hébergement et maintenance sont toujours compris.',
+          a: 'Le prix de l’abonnement vous est communiqué sur demande dans une offre écrite claire. Il dépend de l’abonnement choisi et de l’ampleur du site. Design, hébergement et maintenance sont toujours compris.',
         },
         {
           q: 'Je dois rédiger les textes?',
@@ -548,13 +548,13 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
   en: {
     title: 'Website for local businesses',
     description:
-      'Professional website for local businesses in Switzerland. Opening hours, location and contact easy to find, mobile optimised and with SEO foundations from 99 CHF per month.',
+      'Professional website for local businesses in Switzerland. Opening hours, location and contact easy to find, mobile optimised and with SEO foundations in the website subscription. Price on request.',
     eyebrow: 'Website for local businesses · Switzerland',
     h1: 'Website for local businesses in Switzerland',
     intro:
       'Local customers search for service providers and shops on their smartphones first. A clear, mobile website shows your location, opening hours and services at a glance and brings more calls, enquiries and visits. For tradespeople, salons, restaurants, practices and all local businesses in Switzerland.',
     heroBullets: [
-      'From 99 CHF per month',
+      'Monthly price on request',
       'Location, opening hours and contact visible straight away',
       'Mobile First: optimised for smartphone users',
       'Design, hosting and maintenance included',
@@ -694,7 +694,7 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
       cards: [
         {
           name: 'Business Website',
-          price: 'from 99 CHF / month',
+          price: 'On request',
           desc: 'For local businesses with several services and pages.',
           points: [
             'up to 10 pages',
@@ -706,7 +706,7 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
         },
         {
           name: 'Webshop',
-          price: 'from 125 CHF / month',
+          price: 'On request',
           desc: 'For local businesses that also want to sell online.',
           points: [
             'shop setup',
@@ -799,7 +799,7 @@ export const websiteFuerLokaleUnternehmen: LandingLocales = {
         },
         {
           q: 'What does a website for a local business cost?',
-          a: 'The website subscription starts from 99 CHF per month. The exact price depends on the chosen plan and the scope of the website. Design, hosting and maintenance are always included.',
+          a: 'The price of the website subscription is given on request in a clear written quote. It depends on the chosen plan and the scope of the website. Design, hosting and maintenance are always included.',
         },
         {
           q: 'Do I have to write the text myself?',

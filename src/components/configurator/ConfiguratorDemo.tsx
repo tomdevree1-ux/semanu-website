@@ -13,7 +13,7 @@ import { Link } from '@/i18n/navigation';
 export type DemoOption = { label: string; price?: number; swatch?: string };
 export type DemoStep = { label: string; options: DemoOption[] };
 export type DemoConfig = {
-  currency: string; // e.g. 'CHF'
+  currency: string; // e.g. 'EUR'
   basePrice: number;
   priceNote: string; // "indicative price" line
   steps: DemoStep[];

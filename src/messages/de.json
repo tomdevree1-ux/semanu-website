@@ -8,8 +8,8 @@
     "contact": "Kontakt aufnehmen"
   },
   "meta": {
-    "title": "Webagentur Bern: Websites, Plattformen und AI für KMU · semanu.eu",
-    "description": "semanu baut Websites, Kundenportale, CRM und Automatisierungen für Schweizer KMU. Ein Partner, ein klares Monatsabo, persönlich aus Bern."
+    "title": "Webagentur Antwerpen: Websites, Plattformen und AI für KMU · semanu.eu",
+    "description": "semanu baut Websites, Kundenportale, CRM und Automatisierungen für Schweizer KMU. Ein Partner, ein klares Monatsabo, persönlich aus Antwerpen."
   },
   "banner": {
     "studyText": "Neu: 2292 Schweizer KMU Websites bewertet. Nur 9 Prozent sind zeitgemäss.",
@@ -95,182 +95,6 @@
     "errGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
     "errRateLimit": "Zu viele Anfragen. Bitte versuchen Sie es später erneut."
   },
-  "hero": {
-    "eyebrow": "Digitale Lösungen mit AI",
-    "h1": "<line>Ein Partner</line><line>für alles <accent>Digitale</accent>.</line>",
-    "sub": "Alles, was Ihr Unternehmen digital braucht, schneller und kosteneffizienter gebaut mit AI. <brand></brand> entwickelt Websites, digitale Plattformen und Automatisierungen nach Mass für Unternehmen, die digital schneller wachsen möchten.",
-    "cta1": "Jetzt starten",
-    "cta2": "Website Abos ansehen",
-    "mock": "Alles an einem Ort",
-    "callCta": "Strategiegespräch buchen",
-    "trust": "Für KMU, Selbständige und lokale Unternehmen in der Schweiz.",
-    "stats": {
-      "leistungen": {
-        "label": "Leistungen",
-        "value": "6"
-      },
-      "ansprechpartner": {
-        "label": "Ansprechpartner",
-        "value": "1"
-      },
-      "aboAb": {
-        "label": "Abo ab",
-        "value": "99 CHF/Mt."
-      },
-      "standort": {
-        "label": "Standort",
-        "value": "Bern, Schweiz"
-      }
-    }
-  },
-  "price": {
-    "eyebrow": "Preise",
-    "h2": "Transparente Preise, vorab vereinbart.",
-    "intro": "Ein klarer Überblick über Ihre digitale Aufstellung, alles vorab vereinbart und ohne versteckte Kosten. Websites, digitale Plattformen, Consultancy, Automatisierungen und AI laufen als Monatsabo, nur Logo + Markenrichtlinien und Business Analyse sind einmalige Leistungen.",
-    "aboLink": "Wie das Website Abo funktioniert",
-    "calcTitle": "Website Kostenrechner: was kostet Ihre Website monatlich?",
-    "calcIntro": "Wählen Sie Situation, Umfang und Funktionen und Sie sehen sofort den Monatspreis. Website ab 99 CHF, Webshop ab 125 CHF, alles inklusive, Mindestlaufzeit 36 Monate.",
-    "summary": "Eine professionelle Website kostet bei semanu ab CHF 99 pro Monat (Business) oder CHF 125 (Webshop). Hosting, Wartung und SEO Grundlagen sind inbegriffen und es gibt keine hohen Anfangskosten.",
-    "metaDescription": "Was kostet eine Website in der Schweiz? Website Preise ab 99 CHF pro Monat, Webshop ab 125 CHF. Design, Hosting, Wartung und SEO Grundlagen inbegriffen, Mindestlaufzeit 36 Monate.",
-    "plansEyebrow": "Website Abos",
-    "plansTitle": "Website Abos mit festem Monatspreis",
-    "plansSub": "Jedes Paket enthält Design, Entwicklung und SEO. Hosting und Wartung sind im Abo immer inklusive. Mindestlaufzeit 36 Monate, danach monatlich kündbar.",
-    "guideTitle": "Welches Abo passt zu Ihnen?",
-    "guideBusiness": "Business passt, wenn Sie mehr Seiten, mehr Vertrauen und eine mitwachsende Website brauchen.",
-    "guideWebshop": "Webshop passt, wenn Sie Produkte online verkaufen und eine Website mit Shop möchten.",
-    "guideSoftware": "Software & Applications passt, wenn Sie massgeschneiderte Software oder Web Applikationen brauchen.",
-    "guideHint": "Nicht sicher? Schreiben Sie uns kurz, wir empfehlen ehrlich das passende Abo.",
-    "guideCta": "Kontakt aufnehmen",
-    "svcTitle": "Weitere digitale Lösungen",
-    "svcIntro": "Portale, CRM, Automatisierungen, Dashboards und AI Assistenten richten wir auf Ihren Bedarf zu. Umfang und Preis besprechen wir transparent vorab.",
-    "availAddon": "Als Add on verfügbar",
-    "ctaDiscuss": "Add on besprechen",
-    "ctaAdvice": "Beratung anfragen",
-    "from": "ab",
-    "adsDesc": "Bezahlte Kampagnen, die Sie sichtbar machen, wo Ihre Kunden suchen.",
-    "faqTitle": "Häufige Fragen zu Preisen und Abos",
-    "faq": [
-      {
-        "q": "Was kostet eine Website in der Schweiz?",
-        "a": "Eine Website startet ab 99 CHF pro Monat, ein Webshop ab 125 CHF pro Monat. Der Monatspreis deckt Design, Hosting, Wartung und SEO Grundlagen, ohne hohe Einmalrechnung."
-      },
-      {
-        "q": "Sind Hosting und Wartung inklusive?",
-        "a": "Ja. Hosting, technische Updates und laufende Sicherheit sind im Monatsabo enthalten. Es gibt keine separate Rechnung dafür."
-      },
-      {
-        "q": "Gibt es eine Mindestlaufzeit?",
-        "a": "Die Mindestlaufzeit beträgt 36 Monate, danach ist das Abo monatlich kündbar. Alle Preise verstehen sich exkl. MWST."
-      },
-      {
-        "q": "Wie hoch sind die Webdesign Preise in der Schweiz?",
-        "a": "Klassische Schweizer Agenturen verlangen für eine KMU Website meist einen einmaligen Betrag im vierstelligen Bereich, dazu Hosting und Wartung pro Jahr. Bei semanu zahlen Sie stattdessen ab 99 CHF pro Monat, in dem Design, Umsetzung, Hosting und Wartung enthalten sind."
-      },
-      {
-        "q": "Was kostet eine Website monatlich in der Schweiz?",
-        "a": "Eine Website kostet bei semanu ab 99 CHF pro Monat, ein Webshop ab 125 CHF pro Monat, exkl. MWST. Alles ist inklusive: Design, Umsetzung, Hosting, Wartung und SEO Grundlagen. Es gibt keine Anzahlung und keine separate Hosting Rechnung. Die Mindestlaufzeit beträgt 36 Monate."
-      }
-    ],
-    "seoTitle": "Website Preise Schweiz: was kostet eine Website?",
-    "seoBody": "Eine professionelle Website kostet bei semanu ab 99 CHF pro Monat, ein Webshop ab 125 CHF pro Monat, jeweils exkl. MWST. In diesem Preis stecken Design, technische Umsetzung, Hosting, Wartung und SEO Grundlagen. In der Schweiz liegen die Webdesign Preise für ein vergleichbares Projekt sonst schnell bei mehreren tausend Franken einmalig, plus Hosting und Wartung obendrauf. Wir verteilen denselben Aufwand auf einen Monatsbetrag, damit Sie die Webseiten Preise von Anfang an kennen und keine Nachrechnung bekommen. Den genauen Preis legen wir vorab gemeinsam fest, sobald der Umfang klar ist."
-  },
-  "plan": {
-    "b": {
-      "badge": "Popular",
-      "name": "Business Website",
-      "price": "79 CHF",
-      "per": "/ Monat",
-      "desc": "Professionelle Multi Page Website für wachsende Unternehmen",
-      "features": [
-        "Bis 10 Seiten",
-        "Massgeschneidertes Design",
-        "Mobile First",
-        "Kontaktformular",
-        "SEO Optimierung",
-        "Start in wenigen Werktagen",
-        "Hosting und Wartung inbegriffen"
-      ],
-      "cta": "Jetzt bestellen"
-    },
-    "w": {
-      "name": "Webshop",
-      "price": "99 CHF",
-      "per": "/ Monat",
-      "desc": "Webshop nach Mass",
-      "features": [
-        "Vollständiges Webshop Setup",
-        "Produkt und Bestellverwaltung",
-        "Online Zahlungen",
-        "Kundenkonten",
-        "SEO Optimierung",
-        "Start in wenigen Werktagen",
-        "Hosting und Wartung inbegriffen"
-      ],
-      "cta": "Jetzt bestellen"
-    },
-    "p": {
-      "name": "Software & Applications",
-      "from": "ab",
-      "price": "99 CHF",
-      "per": "/ Monat",
-      "desc": "Massgeschneiderte Software",
-      "features": [
-        "Vermietung und Buchungssysteme",
-        "Kassensoftware",
-        "CRM nach Mass",
-        "Buchhaltungssystem",
-        "Datenbank mit AI Analyse",
-        "Kundenplattformen",
-        "Hosting und Wartung inbegriffen"
-      ],
-      "cta": "Projekt besprechen"
-    }
-  },
-  "addon": {
-    "badge": "Neu!",
-    "title": "Logo + Markenrichtlinien",
-    "desc": "Passendes Logo und ein kompakter Markenleitfaden (Farben, Schriften, Anwendung) für einen einheitlichen Auftritt.",
-    "price": "+750 CHF",
-    "once": "einmalig",
-    "cta": "Bestellen",
-    "features": [
-      "Ein einzigartiges Logo",
-      "Vollständig massgeschneidertes Design"
-    ],
-    "guidelinesTitle": "Professionelle Markenrichtlinien",
-    "guidelines": [
-      "Farben",
-      "Schriften",
-      "Labels",
-      "Do's und Don'ts",
-      "Favicon"
-    ]
-  },
-  "googleAds": {
-    "eyebrow": "Google Ads",
-    "title": "Google Ads Management",
-    "priceLabel": "Verwaltung ab",
-    "price": "195 CHF",
-    "per": "/ Monat",
-    "cta": "Bestellen",
-    "features": [
-      "Aufbau von Google Ads Kampagnen",
-      "Monatliche Optimierung und Reporting",
-      "Shopping Ads für Webshops",
-      "Conversion Tracking und Zielgruppenanalyse"
-    ],
-    "note": "Das Werbebudget selbst ist in diesem Preis nicht enthalten."
-  },
-  "promo": {
-    "stamp": "Aktion",
-    "eyebrow": "Aktion",
-    "title": "Logo + Markenrichtlinien zum Aktionspreis",
-    "body": "Jetzt {promo} CHF statt {regular} CHF. Sie sparen {save} CHF.",
-    "save": "Sie sparen {save} CHF",
-    "cta": "Aktion sichern",
-    "close": "Schliessen",
-    "until": "Nur noch bis {date}"
-  },
   "footer": {
     "tagline": "Der digitale Partner für Schweizer KMU: Beratung, Automatisierung, Massgeschneiderte Software und 3D-Konfiguratoren.",
     "servicesTitle": "Leistungen",
@@ -278,7 +102,7 @@
     "navTitle": "Navigation",
     "legalTitle": "Legal",
     "contactTitle": "Kontakt",
-    "location": "Wylerstrasse 75, Bern",
+    "location": "Kattendijkdok-Oostkaai 9, 2000 Antwerpen",
     "rights": "Alle Rechte vorbehalten.",
     "langLabel": "Sprache",
     "topicsTitle": "Themen",
@@ -313,120 +137,6 @@
     "learnMore": "Mehr erfahren",
     "vatNote": "Alle Preise exkl. MWST. Website Abos mit Mindestlaufzeit 36 Monate, danach monatlich kündbar."
   },
-  "home": {
-    "title": "Entdecken Sie semanu",
-    "intro": "Abos, Ablauf, Antworten und Kontakt auf einen Blick.",
-    "moreTitle": "Mehr als eine Website",
-    "moreText": "Ihre Website kann der Ausgangspunkt für Marketing, Automatisierung und smartere Business Systeme werden.",
-    "moreCta": "Leistungen entdecken"
-  },
-  "how": {
-    "eyebrow": "So funktioniert’s",
-    "h2": "Fünf Schritte, null Aufwand.",
-    "text": "Von der ersten Idee bis zur fertigen Website begleiten wir Sie persönlich, Schritt für Schritt. Design, Technik, Hosting, Wartung und SEO gehören zum Abo, damit Ihr Unternehmen in der Schweiz online sichtbar wird und es auch bleibt.",
-    "metaDescription": "So funktioniert das Website Abo von semanu: Kennenlerngespräch, digitale Anmeldung, Umsetzung in wenigen Werktagen und laufende Betreuung. Modernes Webdesign für KMU in der Schweiz.",
-    "steps": [
-      {
-        "title": "Kennenlerngespräch",
-        "body": "Wir lernen uns kennen, Sie stellen Ihr Unternehmen vor und teilen Ihre Wünsche, Ziele und bei Bedarf ein Moodboard. So verstehen wir, was Ihre Marke ausmacht und worauf es Ihnen wirklich ankommt."
-      },
-      {
-        "title": "Wählen Sie das passende Abo",
-        "chip": "Start in wenigen Werktagen",
-        "body": "Die Anmeldung läuft komplett digital, einfach und in wenigen Minuten. Sobald Ihre erste Zahlung eingegangen ist, starten wir innerhalb weniger Werktage mit Ihrem Design. Kein langes Warten, kein Papierkram, Sie geben den Startschuss und wir legen los."
-      },
-      {
-        "title": "Wir erstellen Ihren Blueprint",
-        "body": "In einem strukturierten Gespräch und mit einem Fragebogen halten wir Ihre Wünsche und Anforderungen fest. Daraus entsteht ein klarer Blueprint. Erst nach Ihrer Freigabe beginnt der Aufbau. So arbeiten wir professionell und nach einer festen Methodik."
-      },
-      {
-        "title": "Wir bauen Ihre Website",
-        "body": "Jetzt entsteht Ihre Traumwebsite, modern, schnell und für Mobilgeräte optimiert. An festen Kontaktpunkten zeigen wir den Fortschritt, Sie geben Feedback und wir steuern nach, wo es nötig ist. Je nach Abo bleibt Raum für laufende Anpassungen, damit das Ergebnis wirklich passt."
-      },
-      {
-        "title": "Wir betreuen und verbessern laufend",
-        "body": "Nach dem Launch sind wir weiter für Sie da. Updates, Sicherheit und Hosting laufen im Abo mit. Anpassungen und neue Funktionen setzen wir flexibel um, zum Stundensatz von 95 CHF."
-      }
-    ]
-  },
-  "faq": {
-    "eyebrow": "FAQ",
-    "h2": "Häufige Fragen",
-    "items": [
-      {
-        "q": "Gehört die Website mir?",
-        "a": "Ja. Ihre Inhalte und Ihr Domainname gehören Ihnen. Design und Code werden im Rahmen des Abos bereitgestellt; die genauen Bedingungen zur Übernahme sind in unseren Abo Bedingungen beschrieben."
-      },
-      {
-        "q": "Was passiert, wenn ich kündige?",
-        "a": "Nach der vereinbarten Kündigungsfrist endet das Abo. Die Übernahme von Domain und Inhalten klären wir vorab, damit es keine Überraschungen gibt."
-      },
-      {
-        "q": "Sind Hosting und Wartung inklusive?",
-        "a": "Ja. Hosting, technische Updates, grundlegende Sicherheit und der laufende Unterhalt sind Teil des Abos."
-      },
-      {
-        "q": "Kann ich Inhalte ändern lassen?",
-        "a": "Ja. Änderungen nach dem Launch verrechnen wir transparent zum Stundensatz von 95 CHF. Grössere Wünsche schätzen wir vorab."
-      },
-      {
-        "q": "Kann ich später upgraden?",
-        "a": "Ja, Sie können jederzeit in ein höheres Abo wechseln, wenn Ihre Anforderungen wachsen."
-      },
-      {
-        "q": "Was bedeutet SEO Grundlage?",
-        "a": "SEO (Suchmaschinenoptimierung) sorgt dafür, dass Ihre Website bei Google besser gefunden wird. Wir richten die technischen und inhaltlichen Grundlagen ein: Struktur, Geschwindigkeit, Meta Tags und lokale Basis. Konkrete Google Rankings können jedoch nicht garantiert werden."
-      },
-      {
-        "q": "Können Sie meine bestehende Website ersetzen?",
-        "a": "Ja. Wir erstellen eine neue, moderne Website und übernehmen den Übergang von Ihrer bestehenden Seite sauber."
-      },
-      {
-        "q": "Entwickeln Sie auch Websites mit Login oder Kundenportal?",
-        "a": "Ja, über Software & Applications: Kundenportale, Login Bereiche, Dashboards und massgeschneiderte Workflows."
-      },
-      {
-        "q": "Arbeiten Sie mit Schweizer Unternehmen?",
-        "a": "Ja. semanu konzentriert sich auf KMU, Selbständige und lokale Unternehmen in der Schweiz."
-      },
-      {
-        "q": "Bieten Sie auch Logo und Markenrichtlinien an?",
-        "a": "Ja. Auf Wunsch gestalten wir ein passendes Logo und einen kompakten Markenleitfaden (Farben, Schriften, Anwendung), einmalig zusätzlich zu Ihrem Abo. Den aktuellen Preis finden Sie auf der Preisseite."
-      },
-      {
-        "q": "Bauen Sie nur Websites?",
-        "a": "Nein. Websites sind für viele Kunden der Einstieg. semanu hilft auch bei Email Marketing, Marketing Automatisierung, Buchungssystemen, Business Systemen und AI Assistenten."
-      },
-      {
-        "q": "Arbeiten Sie mit AI?",
-        "a": "Ja. Wir nutzen AI in unserem Bauprozess, dadurch bauen wir schneller und kosteneffizienter als klassische Agenturen. Ausserdem bieten wir AI Lösungen wie Assistenten und Automatisierungen als Teil unseres Angebots an."
-      },
-      {
-        "q": "Kann ich mit einer Website starten und später Dienste ergänzen?",
-        "a": "Ja. Das ist oft der beste Weg. Sie starten mit einer professionellen Website und ergänzen Email Marketing, Automatisierung, Buchung oder Business Systeme wenn Ihr Unternehmen bereit ist."
-      },
-      {
-        "q": "Was ist Marketing Automatisierung?",
-        "a": "Marketing Automatisierung bedeutet, dass wiederkehrende Marketingaufgaben automatisch ablaufen. Ein Lead erhält zum Beispiel eine Nachfass Email nach dem Ausfüllen eines Formulars oder ein Kunde erhält automatisch eine Terminerinnerung."
-      },
-      {
-        "q": "Was ist ein CRM?",
-        "a": "Ein CRM ist ein System zum Verwalten von Leads, Kunden, Kommunikation und Nachfassen. Es hilft, Kundeninformationen an einem klaren Ort zu halten."
-      },
-      {
-        "q": "Was ist ein Customer Portal?",
-        "a": "Ein Customer Portal ist eine private Online Umgebung, in der Kunden sich anmelden, Informationen sehen, Dokumente hochladen, Updates verfolgen oder Dateien abrufen können."
-      },
-      {
-        "q": "Sind AI Assistenten für kleine Unternehmen nützlich?",
-        "a": "Ja, wenn sie ein praktisches Problem lösen. AI Assistenten können häufige Fragen beantworten, Leads qualifizieren, Dokumente durchsuchen oder Ihr Team bei wiederkehrender Arbeit unterstützen."
-      },
-      {
-        "q": "Was ist GEO?",
-        "a": "GEO steht für Generative Engine Optimisation. Es hilft AI Suchsystemen, Ihr Unternehmen, Ihre Dienste und Ihre Expertise zu verstehen, damit sie Sie genauer beschreiben und empfehlen können."
-      }
-    ]
-  },
   "contact": {
     "eyebrow": "Kontakt",
     "h2": "Sprechen wir über Ihr Projekt.",
@@ -435,7 +145,7 @@
     "emailLabel": "Email",
     "phoneLabel": "Telefon",
     "cityLabel": "Stadt",
-    "city": "Bern",
+    "city": "Antwerpen",
     "timeLabel": "Antwortzeit",
     "time": "In der Regel innerhalb von 1 Werktag",
     "formTitle": "Nachricht senden",
@@ -495,71 +205,6 @@
     "authorBio": "Tom de Vree entwickelt und betreut Websites, digitale Plattformen und Automatisierungen für Schweizer KMU.",
     "updatedLabel": "Aktualisiert am"
   },
-  "checkout": {
-    "title": "Abonnement starten",
-    "intro": "Wählen Sie Ihr Abo, geben Sie Ihre Daten ein und senden Sie Ihre Anfrage. Wir melden uns persönlich bei Ihnen.",
-    "payIntro": "Wählen Sie Ihr Abo, geben Sie Ihre Daten ein und schliessen Sie die Zahlung sicher ab.",
-    "payTitle": "Zahlung",
-    "payBack": "Zurück",
-    "choosePlan": "Abo wählen",
-    "allIn": "Hosting, Wartung und SEO inklusive",
-    "summary": "Zusammenfassung",
-    "selected": "Gewähltes Abo",
-    "payButton": "Weiter zur Zahlung",
-    "requestButton": "Anfragen",
-    "requestProcessing": "Wird gesendet …",
-    "requestSuccessTitle": "Vielen Dank für Ihre Anfrage.",
-    "requestSuccessBody": "Wir haben Ihre Angaben erhalten und melden uns so schnell wie möglich bei Ihnen.",
-    "requestError": "Ihre Anfrage konnte leider nicht gesendet werden. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt unter hello@semanu.eu.",
-    "consent": "Ich stimme der <privacy>Datenschutzerklärung</privacy> zu und akzeptiere die <gtc>AGB</gtc>.",
-    "premiumTitle": "Etwas Individuelles?",
-    "premiumNote": "Für Software & Applications besprechen wir Ihr Projekt persönlich und erstellen ein passendes Angebot.",
-    "premiumCta": "Projekt besprechen",
-    "processing": "Wird verarbeitet …",
-    "errGeneric": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
-    "canceled": "Die Zahlung wurde abgebrochen. Sie können es jederzeit erneut versuchen.",
-    "successTitle": "Vielen Dank! Ihr Abo ist aktiv.",
-    "successBody": "Wir haben Ihre Bestellung erhalten und melden uns in Kürze mit den nächsten Schritten. Eine Bestätigung ist unterwegs in Ihr Postfach.",
-    "successCta": "Zur Startseite",
-    "servicesTitle": "Möchten Sie auch zusätzliche Leistungen besprechen?",
-    "servicesHelp": "Diese Auswahl ändert Ihren aktuellen Preis nicht. Wir besprechen sie nach Ihrer Anfrage mit Ihnen.",
-    "stepperPlan": "Abo",
-    "stepperExtras": "Extras",
-    "stepperData": "Daten",
-    "stepperPay": "Zahlung",
-    "stepOf": "Schritt {current} von {total}",
-    "extrasTitle": "Extras wählen",
-    "extrasMonthly": "Monatliche Extras",
-    "extrasOnce": "Einmalige Extras",
-    "dataTitle": "Ihre Daten",
-    "continueExtras": "Weiter zu den Extras",
-    "continueData": "Weiter zu den Daten",
-    "back": "Zurück",
-    "orderTitle": "Bestellung",
-    "oneTime": "Einmalig",
-    "oneTimeCosts": "Einmalige Kosten",
-    "notSelected": "nicht gewählt",
-    "extrasLabel": "Extras",
-    "payFinal": "Abo starten und bezahlen",
-    "orderAs": "Ich bestelle als",
-    "asPerson": "Privatperson",
-    "asCompany": "Firma"
-  },
-  "portfolio": {
-    "eyebrow": "Portfolio",
-    "title": "Portfolio",
-    "intro": "Ein Blick auf Websites und digitale Lösungen, die wir umgesetzt haben.",
-    "statusLive": "Live",
-    "statusDev": "In Entwicklung",
-    "visit": "Zur Website"
-  },
-  "testimonial": {
-    "eyebrow": "Kundenstimme",
-    "title": "Was Kunden sagen",
-    "quote": "semanu hat uns klar und persönlich durch den ganzen Prozess geführt. Wir fühlten uns eingebunden, ohne alles selbst managen zu müssen. Unsere Website wirkt jetzt professionell und vertrauenswürdig. Wir empfehlen semanu jedem Unternehmen, das eine moderne Website ohne Stress möchte.",
-    "author": "Poortland",
-    "role": "Tore und Überdachungen"
-  },
   "cookie": {
     "text": "Wir verwenden Cookies, um unsere Website zu verbessern. Sie entscheiden, was Sie zulassen.",
     "learnMore": "Mehr erfahren",
@@ -588,79 +233,9 @@
     "founderTitle": "Hinter semanu",
     "founderName": "Tom de Vree",
     "founderRole": "Gründer & Inhaber",
-    "founderText": "semanu wird von Tom de Vree geführt und hat den Sitz in Bern. Wir arbeiten persönlich mit Selbständigen, lokalen Dienstleistern und KMU in der ganzen Schweiz. Sie sprechen direkt mit der Person, die Ihre Website betreut.",
+    "founderText": "semanu wird von Tom de Vree geführt und hat den Sitz in Antwerpen. Wir arbeiten persönlich mit Selbständigen, lokalen Dienstleistern und KMU in der ganzen Schweiz. Sie sprechen direkt mit der Person, die Ihre Website betreut.",
     "ctaTitle": "Lust auf eine Website, die mitwächst?",
     "ctaButton": "Kontakt aufnehmen"
-  },
-  "portal": {
-    "login": {
-      "title": "Anmelden",
-      "intro": "Melden Sie sich mit Ihrer Email an. Wir senden Ihnen einen Anmeldelink, kein Passwort nötig.",
-      "emailLabel": "Email",
-      "emailPlaceholder": "sie@firma.ch",
-      "submit": "Anmeldelink senden",
-      "sending": "Wird gesendet …",
-      "sentTitle": "Email unterwegs",
-      "sent": "Prüfen Sie Ihr Postfach und öffnen Sie den Anmeldelink um fortzufahren.",
-      "error": "Das hat nicht geklappt. Bitte versuchen Sie es erneut.",
-      "backToSite": "Zurück zur Website"
-    },
-    "nav": {
-      "title": "Kundenbereich",
-      "dashboard": "Übersicht",
-      "documents": "Dokumente",
-      "requests": "Anfragen",
-      "signOut": "Abmelden"
-    },
-    "dashboard": {
-      "title": "Übersicht",
-      "greeting": "Willkommen, {name}",
-      "subStatus": "Ihr Abo",
-      "plan": "Plan",
-      "statusLabel": "Status",
-      "nextBilling": "Nächste Verrechnung",
-      "noSub": "Wir finden noch kein aktives Abo für Ihr Konto.",
-      "noSubHint": "Sobald Ihre Zahlung verarbeitet ist erscheint Ihr Abo hier. Bei Fragen nutzen Sie die Anfragen.",
-      "cancelNote": "Ihr Abo läuft zum Ende der aktuellen Periode aus.",
-      "statuses": {
-        "active": "Aktiv",
-        "past_due": "Zahlung offen",
-        "canceled": "Gekündigt",
-        "trialing": "Testphase",
-        "incomplete": "Unvollständig",
-        "incomplete_expired": "Abgelaufen",
-        "unpaid": "Unbezahlt",
-        "paused": "Pausiert"
-      }
-    },
-    "documents": {
-      "title": "Dokumente",
-      "empty": "Hier erscheinen Ihre Dokumente sobald wir welche für Sie hinterlegen.",
-      "download": "Herunterladen"
-    },
-    "requests": {
-      "title": "Anfragen",
-      "intro": "Stellen Sie eine Frage, melden Sie eine Änderung oder fragen Sie eine Offerte an.",
-      "newTitle": "Neue Anfrage",
-      "type": "Art",
-      "subject": "Betreff",
-      "message": "Nachricht",
-      "submit": "Anfrage senden",
-      "sent": "Danke, Ihre Anfrage ist eingegangen. Wir melden uns.",
-      "errorMsg": "Bitte füllen Sie Betreff und Nachricht aus.",
-      "listTitle": "Ihre Anfragen",
-      "empty": "Sie haben noch keine Anfragen gestellt.",
-      "types": {
-        "question": "Frage",
-        "change": "Änderung",
-        "quote": "Offerte"
-      },
-      "statuses": {
-        "new": "Neu",
-        "in_progress": "In Bearbeitung",
-        "done": "Erledigt"
-      }
-    }
   },
   "serviceUi": {
     "analysisEyebrow": "Vorbereitung",
@@ -683,28 +258,6 @@
     "eyebrowOutcomes": "Ergebnisse",
     "eyebrowFaq": "FAQ",
     "relatedTitle": "Verwandte Leistungen",
-    "entityLine": "semanu ist ein digitaler Partner aus Bern für Schweizer KMU: Websites, digitale Plattformen, Consultancy, Automatisierungen und AI Lösungen in einem klaren Monatsabo."
-  },
-  "whySemanu": {
-    "title": "Warum semanu",
-    "lead": "Ein Partner für Ihren ganzen Online Auftritt zu einem einfachen Monatspreis. Keine Agenturen zu koordinieren, keine überraschenden Rechnungen, kein technischer Aufwand. Und weil wir mit AI arbeiten, bauen wir schneller und kosteneffizienter als klassische Agenturen.",
-    "points": [
-      {
-        "title": "Ein Abo, alles inklusive",
-        "text": "Design, Hosting, Sicherheit, Wartung und SEO Grundlagen in einem einzigen Monatsabo."
-      },
-      {
-        "title": "Gebaut um gefunden zu werden",
-        "text": "SEO bestimmt wie Suchmaschinen Ihre Website finden und einordnen. Wir legen diese Grundlagen von Anfang an und ergänzen GEO damit auch AI Assistenten Sie empfehlen."
-      },
-      {
-        "title": "Schweizerisch und persönlich",
-        "text": "Ansässig in Bern, tätig auf Deutsch, Französisch und Englisch. Sie erreichen einen Menschen der antwortet, kein anonymes Ticket."
-      },
-      {
-        "title": "Kein technischer Aufwand",
-        "text": "Wir übernehmen die Technik von Anfang bis Ende damit Sie sich auf Ihr Geschäft konzentrieren können."
-      }
-    ]
+    "entityLine": "semanu ist ein digitaler Partner aus Antwerpen für Schweizer KMU: Websites, digitale Plattformen, Consultancy, Automatisierungen und AI Lösungen in einem klaren Monatsabo."
   }
 }

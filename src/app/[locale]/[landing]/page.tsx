@@ -100,17 +100,6 @@ export default async function LandingPage({
       '@type': 'Audience',
       audienceType: 'Schweizer KMU, Selbständige und lokale Unternehmen',
     },
-    offers: {
-      '@type': 'Offer',
-      price: '99',
-      priceCurrency: 'CHF',
-      priceSpecification: {
-        '@type': 'UnitPriceSpecification',
-        price: '99',
-        priceCurrency: 'CHF',
-        unitText: 'MONTH',
-      },
-    },
     url,
   };
 

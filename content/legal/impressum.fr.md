@@ -1,6 +1,6 @@
 ---
 title: "Mentions légales"
-updated: "2026-06-07"
+updated: "2026-10-16"
 ---
 
 ## Fournisseur
@@ -8,7 +8,7 @@ updated: "2026-06-07"
 SEMANU BV
 Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgique
 
-## Titulaire
+## Gérant
 
 Tom de Vree
 
@@ -16,16 +16,18 @@ Tom de Vree
 
 Email : hello@semanu.eu
 
-Téléphone : +41 77 524 91 24
+Téléphone : +32 496 04 56 06
 
-## Registre du commerce
+Site web : www.semanu.eu
 
-Forme juridique : société à responsabilité limitée (BV, droit belge).
-Numéro d'entreprise : 0828.291.116.
+## Registre des entreprises
+
+Forme juridique : société à responsabilité limitée (BV/SRL, droit belge).
+Numéro d'entreprise (BCE/KBO) : 0828.291.116.
 
 ## TVA
 
-SEMANU BV est assujettie à la TVA. Numéro de TVA : BE0828 291 116.
+SEMANU BV est assujettie à la TVA. Numéro de TVA : BE0828.291.116.
 
 ## Responsabilité du contenu
 

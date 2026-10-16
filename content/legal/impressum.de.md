@@ -1,6 +1,6 @@
 ---
 title: "Impressum"
-updated: "2026-06-07"
+updated: "2026-10-16"
 ---
 
 ## Anbieter
@@ -8,7 +8,7 @@ updated: "2026-06-07"
 SEMANU BV
 Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgien
 
-## Inhaber
+## Geschäftsführer
 
 Tom de Vree
 
@@ -16,16 +16,18 @@ Tom de Vree
 
 Email: hello@semanu.eu
 
-Telefon: +41 77 524 91 24
+Telefon: +32 496 04 56 06
+
+Website: www.semanu.eu
 
 ## Handelsregister
 
 Rechtsform: BV (besloten vennootschap, belgisches Recht).
-Unternehmensnummer: 0828.291.116.
+Unternehmensnummer (KBO/BCE): 0828.291.116.
 
 ## Mehrwertsteuer
 
-SEMANU BV ist mehrwertsteuerpflichtig. USt Nummer: BE0828 291 116.
+SEMANU BV ist mehrwertsteuerpflichtig. USt Nummer: BE0828.291.116.
 
 ## Haftung für Inhalte
 

@@ -4,13 +4,13 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
   de: {
     title: 'Website erstellen lassen Schweiz',
     description:
-      'Professionelle Website für Schweizer KMU erstellen lassen. Design, Hosting, Wartung und SEO Grundlagen im Website Abo ab 99 CHF pro Monat.',
+      'Professionelle Website für Schweizer KMU erstellen lassen. Design, Hosting, Wartung und SEO Grundlagen im Website Abo. Preis auf Anfrage.',
     eyebrow: 'Website erstellen lassen · Schweiz',
     h1: 'Website erstellen lassen in der Schweiz',
     intro:
       'Professionelle Website für Ihr Unternehmen inklusive Design, Technik, Hosting, Wartung und SEO Grundlagen. Für Schweizer KMU, Selbständige und lokale Unternehmen, die online seriös auftreten und mehr Anfragen erhalten möchten.',
     heroBullets: [
-      'Ab 99 CHF pro Monat',
+      'Monatspreis auf Anfrage',
       'Design, Hosting und Wartung inklusive',
       'Persönliche Betreuung aus Bern',
       'Für Smartphone, Google und Kunden optimiert',
@@ -150,7 +150,7 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
       cards: [
         {
           name: 'Business Website',
-          price: 'ab 99 CHF / Monat',
+          price: 'Auf Anfrage',
           desc: 'Für KMU mit mehreren Seiten und mehr Inhalt.',
           points: [
             'bis zu 10 Seiten',
@@ -162,7 +162,7 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
         },
         {
           name: 'Webshop',
-          price: 'ab 125 CHF / Monat',
+          price: 'Auf Anfrage',
           desc: 'Für Unternehmen, die Produkte online verkaufen möchten.',
           points: [
             'Shop Setup',
@@ -228,8 +228,8 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
         icon: 'chat',
         heading: 'Website erstellen lassen mit KI: schneller und günstiger und trotzdem vom Profi',
         body:
-          'Bei semanu entsteht Ihre Website mit KI im Bauprozess: Struktur, erste Textentwürfe, Bildvarianten und technische Grundlagen gehen deutlich schneller als in einer klassischen Agentur. Strategie, Design, Swiss Standard und die Abnahme bleiben Handarbeit von einem Menschen aus Bern, der Ihr Geschäft versteht. Das Ergebnis ist eine professionelle Website ab 99 CHF pro Monat, nicht ein Baukasten, den Sie selbst pflegen müssen.',
-        points: ['KI beschleunigt den Aufbau', 'Mensch entscheidet über Strategie und Design', 'Ab 99 CHF pro Monat, alles inklusive'],
+          'Bei semanu entsteht Ihre Website mit KI im Bauprozess: Struktur, erste Textentwürfe, Bildvarianten und technische Grundlagen gehen deutlich schneller als in einer klassischen Agentur. Strategie, Design, Swiss Standard und die Abnahme bleiben Handarbeit von einem Menschen aus Bern, der Ihr Geschäft versteht. Das Ergebnis ist eine professionelle Website im Monatsabo, nicht ein Baukasten, den Sie selbst pflegen müssen.',
+        points: ['KI beschleunigt den Aufbau', 'Mensch entscheidet über Strategie und Design', 'Monatspreis auf Anfrage, alles inklusive'],
       },
     ],
     links: [
@@ -272,11 +272,11 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
         },
         {
           q: 'Kann ich meine Website mit KI erstellen lassen?',
-          a: 'Ja. semanu nutzt KI im Bauprozess, damit Struktur, Textentwürfe und Technik schneller stehen. Strategie, Design und Qualitätskontrolle übernimmt ein Mensch. Anders als bei einem kostenlosen KI Baukasten bekommen Sie eine betreute Website mit Hosting, Wartung und SEO Grundlagen ab 99 CHF pro Monat. Mehr zu unseren AI Lösungen finden Sie unter AI Assistenten.',
+          a: 'Ja. semanu nutzt KI im Bauprozess, damit Struktur, Textentwürfe und Technik schneller stehen. Strategie, Design und Qualitätskontrolle übernimmt ein Mensch. Anders als bei einem kostenlosen KI Baukasten bekommen Sie eine betreute Website mit Hosting, Wartung und SEO Grundlagen zu einem festen Monatspreis. Mehr zu unseren AI Lösungen finden Sie unter AI Assistenten.',
         },
         {
           q: 'Was kostet eine Website bei semanu?',
-          a: 'Die Website Abos starten bei 99 CHF pro Monat. Der genaue Preis hängt vom gewählten Abo und vom Umfang der Website ab.',
+          a: 'Der Preis hängt vom gewählten Abo und vom Umfang der Website ab. Sie erhalten ihn auf Anfrage als klares schriftliches Angebot nach einem kurzen Gespräch.',
         },
       ],
     },
@@ -289,13 +289,13 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
   fr: {
     title: 'Faire créer son site en Suisse',
     description:
-      'Faites créer un site professionnel pour les PME suisses. Design, hébergement, maintenance et bases SEO dans l’abonnement dès 99 CHF par mois.',
+      'Faites créer un site professionnel pour les PME suisses. Design, hébergement, maintenance et bases SEO dans l’abonnement. Prix sur demande.',
     eyebrow: 'Faire créer son site · Suisse',
     h1: 'Faire créer son site en Suisse',
     intro:
       'Un site professionnel pour votre entreprise, design, technique, hébergement, maintenance et bases SEO compris. Pour les PME suisses, les indépendants et les commerces locaux qui veulent une présence en ligne sérieuse et plus de demandes.',
     heroBullets: [
-      'Dès 99 CHF par mois',
+      'Prix mensuel sur demande',
       'Design, hébergement et maintenance compris',
       'Suivi personnel depuis Berne',
       'Optimisé pour mobile, Google et vos clients',
@@ -435,7 +435,7 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
       cards: [
         {
           name: 'Business Website',
-          price: 'dès 99 CHF / mois',
+          price: 'Sur demande',
           desc: 'Pour les PME avec plusieurs pages et plus de contenu.',
           points: [
             'jusqu’à 10 pages',
@@ -447,7 +447,7 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
         },
         {
           name: 'Webshop',
-          price: 'dès 125 CHF / mois',
+          price: 'Sur demande',
           desc: 'Pour les entreprises qui veulent vendre en ligne.',
           points: [
             'configuration du shop',
@@ -513,8 +513,8 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
         icon: 'chat',
         heading: 'Création de site web avec IA en Suisse: plus rapide et moins cher et toujours avec un pro',
         body:
-          'Chez semanu votre site est créé avec l’IA dans le processus de construction: structure, premières ébauches de textes, variantes d’images et bases techniques avancent nettement plus vite que dans une agence classique. La stratégie, le design, le standard suisse et la validation restent le travail d’une personne à Berne qui comprend votre activité. Le résultat est un site professionnel dès 99 CHF par mois et non un outil de construction que vous devez entretenir vous même.',
-        points: ['L’IA accélère la construction', 'Une personne décide de la stratégie et du design', 'Dès 99 CHF par mois, tout compris'],
+          'Chez semanu votre site est créé avec l’IA dans le processus de construction: structure, premières ébauches de textes, variantes d’images et bases techniques avancent nettement plus vite que dans une agence classique. La stratégie, le design, le standard suisse et la validation restent le travail d’une personne à Berne qui comprend votre activité. Le résultat est un site professionnel en abonnement mensuel et non un outil de construction que vous devez entretenir vous même.',
+        points: ['L’IA accélère la construction', 'Une personne décide de la stratégie et du design', 'Prix mensuel sur demande, tout compris'],
       },
     ],
     links: [
@@ -557,11 +557,11 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
         },
         {
           q: 'Je peux faire créer mon site avec l’IA ?',
-          a: 'Oui. semanu utilise l’IA dans le processus de construction pour que la structure, les ébauches de textes et la technique soient prêtes plus vite. La stratégie, le design et le contrôle qualité sont assurés par une personne. Contrairement à un outil IA gratuit, vous obtenez un site suivi avec hébergement, maintenance et bases SEO dès 99 CHF par mois. Plus d’informations sur nos solutions AI sous Assistants AI.',
+          a: 'Oui. semanu utilise l’IA dans le processus de construction pour que la structure, les ébauches de textes et la technique soient prêtes plus vite. La stratégie, le design et le contrôle qualité sont assurés par une personne. Contrairement à un outil IA gratuit, vous obtenez un site suivi avec hébergement, maintenance et bases SEO pour un prix mensuel fixe. Plus d’informations sur nos solutions AI sous Assistants AI.',
         },
         {
           q: 'Combien coûte un site chez semanu?',
-          a: 'Les abonnements démarrent à 99 CHF par mois. Le prix exact dépend de l’abonnement choisi et de l’ampleur du site.',
+          a: 'Le prix dépend de l’abonnement choisi et de l’ampleur du site. Il est communiqué sur demande dans une offre écrite claire après un court échange.',
         },
       ],
     },
@@ -574,13 +574,13 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
   en: {
     title: 'Have a website made in Switzerland',
     description:
-      'Have a professional website made for Swiss SMEs. Design, hosting, maintenance and SEO foundations in a website subscription from 99 CHF per month.',
+      'Have a professional website made for Swiss SMEs. Design, hosting, maintenance and SEO foundations in a website subscription. Price on request.',
     eyebrow: 'Have a website made · Switzerland',
     h1: 'Have a website made in Switzerland',
     intro:
       'A professional website for your business, including design, technology, hosting, maintenance and SEO foundations. For Swiss SMEs, self employed people and local businesses that want a serious online presence and more enquiries.',
     heroBullets: [
-      'From 99 CHF per month',
+      'Monthly price on request',
       'Design, hosting and maintenance included',
       'Personal support from Bern',
       'Optimised for mobile, Google and customers',
@@ -720,7 +720,7 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
       cards: [
         {
           name: 'Business Website',
-          price: 'from 99 CHF / month',
+          price: 'On request',
           desc: 'For SMEs with several pages and more content.',
           points: [
             'up to 10 pages',
@@ -732,7 +732,7 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
         },
         {
           name: 'Webshop',
-          price: 'from 125 CHF / month',
+          price: 'On request',
           desc: 'For businesses that want to sell products online.',
           points: [
             'shop setup',
@@ -798,8 +798,8 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
         icon: 'chat',
         heading: 'Website built with AI in Switzerland: faster and cheaper and still with a professional',
         body:
-          'At semanu your website is built with AI in the build process: structure, first text drafts, image variants and technical foundations move much faster than at a traditional agency. Strategy, design, Swiss standard and the final check remain the work of a person in Bern who understands your business. The result is a professional website from 99 CHF per month, not a site builder you have to maintain yourself.',
-        points: ['AI speeds up the build', 'A person decides on strategy and design', 'From 99 CHF per month, all inclusive'],
+          'At semanu your website is built with AI in the build process: structure, first text drafts, image variants and technical foundations move much faster than at a traditional agency. Strategy, design, Swiss standard and the final check remain the work of a person in Bern who understands your business. The result is a professional website on a monthly subscription, not a site builder you have to maintain yourself.',
+        points: ['AI speeds up the build', 'A person decides on strategy and design', 'Monthly price on request, all inclusive'],
       },
     ],
     links: [
@@ -842,11 +842,11 @@ export const websiteErstellenLassenSchweiz: LandingLocales = {
         },
         {
           q: 'Can I have my website built with AI?',
-          a: 'Yes. semanu uses AI in the build process so structure, text drafts and technology are ready faster. Strategy, design and quality control are handled by a person. Unlike a free AI site builder you get a supported website with hosting, maintenance and SEO basics from 99 CHF per month. Find out more about our AI solutions under AI assistants.',
+          a: 'Yes. semanu uses AI in the build process so structure, text drafts and technology are ready faster. Strategy, design and quality control are handled by a person. Unlike a free AI site builder you get a supported website with hosting, maintenance and SEO basics for a fixed monthly price. Find out more about our AI solutions under AI assistants.',
         },
         {
           q: 'What does a website at semanu cost?',
-          a: 'The website subscriptions start at 99 CHF per month. The exact price depends on the chosen subscription and the scope of the website.',
+          a: 'The price depends on the chosen subscription and the scope of the website. You get it on request as a clear written quote after a short conversation.',
         },
       ],
     },

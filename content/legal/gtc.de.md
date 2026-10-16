@@ -1,11 +1,11 @@
 ---
 title: "Allgemeine Geschäftsbedingungen (AGB)"
-updated: "2026-06-07"
+updated: "2026-10-16"
 ---
 
 ## 1. Anbieter und Geltungsbereich
 
-Diese AGB regeln die Abo Dienstleistungen der **SEMANU BV** mit Sitz an der Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgien, Inhaber Tom de Vree, Email hello@semanu.eu ("semanu"). Sie gelten für alle Website Abos (Business, Webshop, Software & Applications) und damit verbundenen Leistungen und gehen abweichenden Bedingungen des Kunden vor, sofern nicht ausdrücklich schriftlich anders vereinbart.
+Diese AGB regeln die Abo Dienstleistungen der **SEMANU BV**, Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgien, Unternehmensnummer 0828.291.116, USt Nummer BE0828.291.116, Geschäftsführer Tom de Vree, Email hello@semanu.eu, Website www.semanu.eu ("semanu"). Sie gelten für alle Website Abos (Business, Webshop, Software & Applications) und damit verbundenen Leistungen und gehen abweichenden Bedingungen des Kunden vor, sofern nicht ausdrücklich schriftlich anders vereinbart.
 
 ## 2. Leistungen
 
@@ -26,24 +26,24 @@ Der Vertrag kommt zustande, sobald der Kunde ein Abo abschliesst und semanu die 
 Die Mindestlaufzeit von 36 Monaten ist verbindlich und grundsätzlich auszudienen.
 
 - **Vorzeitige Kündigung durch den Kunden** (aus Gründen, die nicht semanu zuzurechnen sind): Die verbleibenden Monatsgebühren bis zum Ende von Monat 36 bleiben vollständig geschuldet.
-- **Bei jeder Beendigung des Abos** (unabhängig von der bereits abgelaufenen Laufzeit, für alle Kunden gleich) wird eine **administrative Gebühr von CHF 190 (exkl. MWST)** für die Übertragung und den Abschluss des Dossiers fällig. Diese Gebühr ist keine Restzahlung der Abogebühren, sondern deckt den administrativen Aufwand der Übergabe und Schliessung.
+- **Bei jeder Beendigung des Abos** (unabhängig von der bereits abgelaufenen Laufzeit, für alle Kunden gleich) wird eine **administrative Gebühr gemäss Offerte oder Auftragsbestätigung (zuzüglich Mehrwertsteuer)** für die Übertragung und den Abschluss des Dossiers fällig. Diese Gebühr ist keine Restzahlung der Abogebühren. Sie deckt den administrativen Aufwand der Übergabe und Schliessung.
 
 Das Recht zur Kündigung aus wichtigem Grund bleibt vorbehalten.
 
 ## 6. Preise, Zahlung und Indexierung
 
-- Die Abo Gebühren werden monatlich im Voraus verrechnet. Website 99 CHF/Monat, Webshop 125 CHF/Monat, Software & Applications ab 99 CHF/Monat. Das Add-on "Logo + Markenrichtlinien" kostet 750 CHF einmalig. Google Ads Management ist ab 195 CHF/Monat erhältlich.
+- Die Abo Gebühren werden monatlich im Voraus verrechnet. Die Beträge für das Abo, ein allfälliges Add-on (zum Beispiel "Logo + Markenrichtlinien") und das Google Ads Management richten sich nach der Offerte oder Auftragsbestätigung.
 - Die erste Rechnung wird bei Bestellung gestellt (Tag 0); die Arbeit beginnt innerhalb von 5 Werktagen nach Zahlungseingang.
-- **Jährliche Indexierung:** semanu kann die Preise einmal pro Jahr im Einklang mit dem Schweizer Landesindex der Konsumentenpreise (LIK) des Bundesamts für Statistik anpassen, mit vorgängiger Mitteilung.
-- Alle Preise verstehen sich in CHF, exklusive der gesetzlichen Mehrwertsteuer (zurzeit 8,1%). Die MWST/UID Nummer wird ergänzt, sobald verfügbar.
+- **Jährliche Indexierung:** semanu kann die Preise nach vorgängiger Mitteilung einmal pro Jahr auf Grundlage des belgischen Gesundheitsindex anpassen.
+- Alle Preise verstehen sich in EUR, exklusive belgischer Mehrwertsteuer (21%). Für Geschäftskunden in einem anderen EU Mitgliedstaat mit gültiger USt Nummer gilt die Umkehr der Steuerschuldnerschaft (Reverse Charge, Art. 196 der Mehrwertsteuersystemrichtlinie 2006/112/EG).
 
 ## 7. Zahlungsverzug
 
-Rechnungen sind innerhalb von 14 Tagen fällig. Bei Verzug kann semanu einen Verzugszins von 5% pro Jahr (Art. 104 OR) sowie eine Mahngebühr von CHF 20 pro Mahnung verrechnen. Nach zwei erfolglosen Mahnungen kann semanu die Leistung bis zur Zahlung sperren und bei erheblichem Zahlungsverzug aus wichtigem Grund kündigen.
+Rechnungen sind innerhalb von 14 Tagen fällig. Bei Zahlungsverzug schuldet der Kunde von Rechts wegen und ohne vorherige Mahnung die gesetzlichen Verzugszinsen für Handelsgeschäfte gemäss dem belgischen Gesetz vom 2. August 2002 zur Bekämpfung des Zahlungsverzugs im Handelsverkehr sowie die in diesem Gesetz vorgesehene Pauschalentschädigung für Beitreibungskosten, sofern die Offerte nichts anderes vorsieht. Allfällige Mahngebühren richten sich nach der Offerte. Nach zwei erfolglosen Mahnungen kann semanu die Leistung bis zur Zahlung sperren und bei erheblichem Zahlungsverzug aus wichtigem Grund kündigen.
 
 ## 8. Änderungen nach Lieferung
 
-Hosting und Wartung sind im Abo enthalten. Jede nach der Lieferung gewünschte Änderung wird zu **CHF 95 pro Stunde** verrechnet, abgerechnet je angefangene Viertelstunde (15 Minuten), d. h. CHF 23.75 pro angefangene Viertelstunde, aufgerundet. Auch kleine Anpassungen sind nicht kostenlos und werden zum gleichen Stundensatz verrechnet. Grössere Wünsche werden auf Anfrage vorab geschätzt.
+Hosting und Wartung sind im Abo enthalten. Jede nach der Lieferung gewünschte Änderung wird zum **Stundensatz gemäss Offerte** verrechnet, abgerechnet je angefangene Viertelstunde (15 Minuten), aufgerundet. Auch kleine Anpassungen sind nicht kostenlos und werden zum gleichen Stundensatz verrechnet. Grössere Wünsche werden auf Anfrage vorab geschätzt.
 
 ## 9. Eigentum und geistiges Eigentum
 
@@ -58,7 +58,7 @@ semanu stellt Hosting, technische Updates, grundlegende Sicherheit und laufende 
 
 ## 11. Pflichten des Kunden
 
-Der Kunde stellt sicher, dass gelieferte Inhalte rechtmässig sind und keine Rechte Dritter verletzen, und wirkt rechtzeitig mit. Für die veröffentlichten Inhalte ist der Kunde verantwortlich.
+Der Kunde stellt sicher, dass gelieferte Inhalte rechtmässig sind und keine Rechte Dritter verletzen. Er wirkt rechtzeitig mit. Für die veröffentlichten Inhalte ist der Kunde verantwortlich.
 
 ## 12. SEO
 
@@ -78,4 +78,4 @@ semanu kann diese AGB anpassen. Änderungen werden vorgängig mitgeteilt; widers
 
 ## 16. Anwendbares Recht und Gerichtsstand
 
-Es gilt Schweizer Recht unter Ausschluss der Kollisionsnormen und des Wiener Kaufrechts. Ausschliesslicher Gerichtsstand ist Bern, Schweiz, vorbehältlich zwingender Gerichtsstände.
+Es gilt belgisches Recht unter Ausschluss der Kollisionsnormen und des Wiener Kaufrechts. Ausschliesslich zuständig sind die Gerichte von Antwerpen (Abteilung Antwerpen).

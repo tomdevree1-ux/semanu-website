@@ -17,7 +17,7 @@ export type FaqService = {
   id: string;
   /** oklch accent string used as --ac for the planet disc + panel head. */
   accent: string;
-  /** monthly "from" price in CHF. */
+  /** Legacy "from" price; not rendered. */
   price: number;
   /** inline SVG markup (verbatim from the design). */
   icon: string;
@@ -194,7 +194,7 @@ export const FAQ_SERVICES: Record<FaqLocale, FaqService[]> = {
       name: "Google Ads",
       tagline: "Bezahlte Kampagnen, die Sie dort zeigen wo Kunden suchen.",
       faqs: [
-      { q: "Was kostet die Google Ads Betreuung?", a: "Die Betreuung beginnt ab CHF 195 pro Monat, das Werbebudget kommt nach Ihrer Wahl dazu. Sie behalten die Kontrolle über Ihre Ausgaben und können klein starten." },
+      { q: "Was kostet die Google Ads Betreuung?", a: "Den Preis für die Betreuung erhalten Sie auf Anfrage in einer schriftlichen Offerte. Das Werbebudget kommt nach Ihrer Wahl dazu. Sie behalten die Kontrolle über Ihre Ausgaben und können klein starten." },
       { q: "Brauche ich ein grosses Budget?", a: "Nein. Wir starten mit einem fokussierten Budget auf den wichtigsten Suchbegriffen und skalieren erst, wenn sich die Kampagnen lohnen." },
       { q: "Was übernehmen Sie?", a: "Einrichtung, Keywords, Anzeigentexte, Tracking und laufende Optimierung. Sie erhalten ein klares Reporting darüber, was die Ausgaben bringen." },
       { q: "Wie schnell sehe ich Resultate?", a: "Anzeigen bringen oft innerhalb weniger Tage Besucher. In den ersten Wochen optimieren wir, damit Ihr Budget dorthin fliesst, wo es wirklich konvertiert." },
@@ -319,7 +319,7 @@ export const FAQ_SERVICES: Record<FaqLocale, FaqService[]> = {
       name: "Google Ads",
       tagline: "Des campagnes payantes qui vous montrent là où les clients cherchent.",
       faqs: [
-      { q: "Combien coûte la gestion Google Ads ?", a: "La gestion commence dès CHF 195 par mois, le budget publicitaire s’ajoute selon votre choix. Vous gardez le contrôle de vos dépenses et pouvez commencer petit." },
+      { q: "Combien coûte la gestion Google Ads ?", a: "Le prix de la gestion vous est communiqué sur demande dans une offre écrite. Le budget publicitaire s’ajoute selon votre choix. Vous gardez le contrôle de vos dépenses et pouvez commencer petit." },
       { q: "Un gros budget est nécessaire ?", a: "Non. Nous commençons avec un budget ciblé sur les recherches les plus importantes et augmentons seulement quand les campagnes le méritent." },
       { q: "Que comprend la gestion ?", a: "La mise en place, les mots clés, les textes d’annonces, le suivi et l’optimisation continue. Vous recevez un reporting clair sur ce que les dépenses rapportent." },
       { q: "Les résultats arrivent en combien de temps ?", a: "Les annonces peuvent amener des visiteurs en quelques jours. Nous affinons ensuite les premières semaines pour que votre budget aille vers ce qui convertit vraiment." },
@@ -444,7 +444,7 @@ export const FAQ_SERVICES: Record<FaqLocale, FaqService[]> = {
       name: "Google Ads",
       tagline: "Paid campaigns that put you where customers search.",
       faqs: [
-      { q: "What does Google Ads management cost?", a: "Management starts from CHF 195 per month. Your ad budget comes on top and is fully your choice. You stay in control of what you spend and can start small." },
+      { q: "What does Google Ads management cost?", a: "Management pricing is on request in a written quote. Your ad budget comes on top and is fully your choice. You stay in control of what you spend and can start small." },
       { q: "Do I need a big budget?", a: "No. We start with a focused budget on the searches that matter most and scale only once the campaigns prove their worth." },
       { q: "What do you take care of?", a: "Setup, keywords, ad texts, tracking and ongoing optimisation. You get clear reporting on what the spend brings in." },
       { q: "How fast will I see results?", a: "Ads can bring visitors within days. We then refine over the first weeks so your budget goes to what actually converts." },
@@ -569,7 +569,7 @@ export const FAQ_SERVICES: Record<FaqLocale, FaqService[]> = {
       name: "Google Ads",
       tagline: "Campañas de pago que le sitúan donde los clientes buscan.",
       faqs: [
-      { q: "Cuánto cuesta la gestión de Google Ads?", a: "La gestión empieza desde CHF 195 al mes, el presupuesto publicitario se añade según su elección. Usted mantiene el control de sus gastos y puede empezar poco a poco." },
+      { q: "Cuánto cuesta la gestión de Google Ads?", a: "El precio de la gestión es a consultar y se lo indicamos en una oferta por escrito. El presupuesto publicitario se añade según su elección. Usted mantiene el control de sus gastos y puede empezar poco a poco." },
       { q: "Necesito un gran presupuesto?", a: "No. Empezamos con un presupuesto centrado en los términos de búsqueda más importantes y escalamos solo cuando las campañas merecen la pena." },
       { q: "De qué se encargan?", a: "Configuración, keywords, textos de anuncios, tracking y optimización continua. Recibe un reporting claro sobre lo que aporta el gasto." },
       { q: "Con qué rapidez veo resultados?", a: "Los anuncios suelen traer visitantes en pocos días. En las primeras semanas optimizamos, para que su presupuesto vaya hacia donde realmente convierte." },
@@ -694,7 +694,7 @@ export const FAQ_SERVICES: Record<FaqLocale, FaqService[]> = {
       name: "Google Ads",
       tagline: "Betaalde campagnes die u tonen waar klanten zoeken.",
       faqs: [
-      { q: "Wat kost het beheer van Google Ads?", a: "Het beheer begint vanaf CHF 195 per maand, het advertentiebudget komt er naar keuze bij. U behoudt de controle over uw uitgaven en kunt klein starten." },
+      { q: "Wat kost het beheer van Google Ads?", a: "De prijs van het beheer is op aanvraag en volgt in een schriftelijke offerte. Het advertentiebudget komt er naar keuze bij. U behoudt de controle over uw uitgaven en kunt klein starten." },
       { q: "Heb ik een groot budget nodig?", a: "Nee. We starten met een gericht budget op de belangrijkste zoektermen en schalen pas op wanneer de campagnes lonen." },
       { q: "Wat verzorgt u?", a: "Inrichting, keywords, advertentieteksten, tracking en doorlopende optimalisatie. U ontvangt een duidelijke reporting over wat de uitgaven opleveren." },
       { q: "Hoe snel zie ik resultaten?", a: "Advertenties brengen vaak binnen enkele dagen bezoekers. In de eerste weken optimaliseren we, zodat uw budget daarheen gaat waar het echt converteert." },

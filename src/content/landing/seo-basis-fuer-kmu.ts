@@ -4,7 +4,7 @@ export const seoBasisFuerKmu: LandingLocales = {
   de: {
     title: 'SEO Basis für KMU · saubere Grundlagen für Google',
     description:
-      'SEO Grundlagen für Schweizer KMU. Saubere Seitenstruktur, Überschriften, Meta Daten und interne Verlinkung, im Website Abo ab 99 CHF pro Monat enthalten.',
+      'SEO Grundlagen für Schweizer KMU. Saubere Seitenstruktur, Überschriften, Meta Daten und interne Verlinkung, im Website Abo enthalten. Preis auf Anfrage.',
     eyebrow: 'SEO Basis · für KMU',
     h1: 'SEO Basis für KMU in der Schweiz',
     intro:
@@ -103,7 +103,7 @@ export const seoBasisFuerKmu: LandingLocales = {
     pricing: {
       heading: 'Was kostet die SEO Basis?',
       intro:
-        'Die SEO Grundlagen sind im Website Abo ab 99 CHF pro Monat enthalten. Sie zahlen keine teuren Einzelmassnahmen. Sie erhalten eine saubere Basis als Teil Ihrer Website.',
+        'Die SEO Grundlagen sind im Website Abo enthalten. Den Preis nennen wir Ihnen auf Anfrage in einer schriftlichen Offerte. Sie zahlen keine teuren Einzelmassnahmen. Sie erhalten eine saubere Basis als Teil Ihrer Website.',
       note: 'Alle Preise exkl. MWST. Konkrete Google Rankings können nicht garantiert werden.',
       cta: { label: 'Preise ansehen', href: '/website-abos' },
       cards: [],
@@ -156,7 +156,7 @@ export const seoBasisFuerKmu: LandingLocales = {
         { q: 'Muss ich SEO verstehen?', a: 'Nein. Wir erklären die Grundlagen verständlich und übernehmen die Umsetzung für Sie.' },
         { q: 'Wie schnell sehe ich Ergebnisse?', a: 'Sichtbarkeit wächst über die Zeit und hängt von vielen Faktoren ab. Eine saubere Basis ist die Voraussetzung und kein Schalter für sofortige Platzierungen.' },
         { q: 'Schreibt semanu auch die Texte?', a: 'Wir helfen bei Struktur und Formulierung, damit Inhalte verständlich und passend sind. Sie können vorhandene Texte liefern.' },
-        { q: 'Was kostet die SEO Basis?', a: 'Die SEO Grundlagen sind im Website Abo ab 99 CHF pro Monat enthalten. Der genaue Preis hängt vom gewählten Abo ab.' },
+        { q: 'Was kostet die SEO Basis?', a: 'Die SEO Grundlagen sind im Website Abo enthalten. Der Preis hängt vom gewählten Abo ab und folgt auf Anfrage in einer klaren schriftlichen Offerte.' },
       ],
     },
     ctaTitle: 'Legen Sie eine saubere SEO Basis',
@@ -168,7 +168,7 @@ export const seoBasisFuerKmu: LandingLocales = {
   fr: {
     title: 'Bases SEO pour PME · des fondations propres pour Google',
     description:
-      'Bases SEO pour les PME suisses. Structure claire, titres, métadonnées et liens internes, compris dans l’abonnement dès 99 CHF par mois.',
+      'Bases SEO pour les PME suisses. Structure claire, titres, métadonnées et liens internes, compris dans l’abonnement. Prix sur demande.',
     eyebrow: 'Bases SEO · pour PME',
     h1: 'Bases SEO pour les PME en Suisse',
     intro:
@@ -267,7 +267,7 @@ export const seoBasisFuerKmu: LandingLocales = {
     pricing: {
       heading: 'Combien coûte la base SEO?',
       intro:
-        'Les bases SEO sont comprises dans l’abonnement dès 99 CHF par mois. Vous ne payez pas de mesures isolées coûteuses. Vous obtenez une base propre dans le cadre de votre site.',
+        'Les bases SEO sont comprises dans l’abonnement. Le prix vous est communiqué sur demande dans une offre écrite. Vous ne payez pas de mesures isolées coûteuses. Vous obtenez une base propre dans le cadre de votre site.',
       note: 'Tous les prix hors TVA. Les classements Google concrets ne peuvent pas être garantis.',
       cta: { label: 'Voir les prix', href: '/website-abos' },
       cards: [],
@@ -320,7 +320,7 @@ export const seoBasisFuerKmu: LandingLocales = {
         { q: 'Je dois comprendre le SEO?', a: 'Non. Nous expliquons les bases simplement et prenons en charge la réalisation pour vous.' },
         { q: 'Les résultats arrivent en combien de temps?', a: 'La visibilité grandit avec le temps et dépend de nombreux facteurs. Une base propre est la condition de départ et non un interrupteur pour un classement immédiat.' },
         { q: 'semanu rédige aussi les textes?', a: 'Nous aidons pour la structure et la formulation, pour que les contenus soient clairs et adaptés. Vous pouvez fournir des textes existants.' },
-        { q: 'Combien coûte la base SEO?', a: 'Les bases SEO sont comprises dans l’abonnement dès 99 CHF par mois. Le prix exact dépend de l’abonnement choisi.' },
+        { q: 'Combien coûte la base SEO?', a: 'Les bases SEO sont comprises dans l’abonnement. Le prix dépend de l’abonnement choisi et suit sur demande dans une offre écrite claire.' },
       ],
     },
     ctaTitle: 'Posez une base SEO propre',
@@ -332,7 +332,7 @@ export const seoBasisFuerKmu: LandingLocales = {
   en: {
     title: 'SEO basics for SMEs · a clean foundation for Google',
     description:
-      'SEO foundations for Swiss SMEs. Clean structure, headings, meta data and internal links, included in the website subscription from 99 CHF per month.',
+      'SEO foundations for Swiss SMEs. Clean structure, headings, meta data and internal links, included in the website subscription. Price on request.',
     eyebrow: 'SEO basics · for SMEs',
     h1: 'SEO basics for SMEs in Switzerland',
     intro:
@@ -431,7 +431,7 @@ export const seoBasisFuerKmu: LandingLocales = {
     pricing: {
       heading: 'What does the SEO foundation cost?',
       intro:
-        'The SEO foundations are included in the website subscription from 99 CHF per month. You do not pay for expensive one off measures. You get a clean foundation as part of your website.',
+        'The SEO foundations are included in the website subscription. The price is given on request in a written quote. You do not pay for expensive one off measures. You get a clean foundation as part of your website.',
       note: 'All prices excl. VAT. Concrete Google rankings cannot be guaranteed.',
       cta: { label: 'See pricing', href: '/website-abos' },
       cards: [],
@@ -484,7 +484,7 @@ export const seoBasisFuerKmu: LandingLocales = {
         { q: 'Do I need to understand SEO?', a: 'No. We explain the basics clearly and take care of the build for you.' },
         { q: 'How quickly will I see results?', a: 'Visibility grows over time and depends on many factors. A clean foundation is the starting condition and not a switch for immediate rankings.' },
         { q: 'Does semanu also write the texts?', a: 'We help with structure and wording, so content is clear and fitting. You can supply existing texts.' },
-        { q: 'What does the SEO foundation cost?', a: 'The SEO foundations are included in the website subscription from 99 CHF per month. The exact price depends on the chosen subscription.' },
+        { q: 'What does the SEO foundation cost?', a: 'The SEO foundations are included in the website subscription. The price depends on the chosen subscription and follows on request in a clear written quote.' },
       ],
     },
     ctaTitle: 'Lay a clean SEO foundation',

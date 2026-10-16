@@ -4,13 +4,13 @@ export const webdesignKmuSchweiz: LandingLocales = {
   de: {
     title: 'Webdesign für KMU in der Schweiz',
     description:
-      'Professionelles Webdesign für Schweizer KMU. Individuelles Design, Mobile First, klare Struktur und SEO Grundlagen im Website Abo ab 99 CHF pro Monat.',
+      'Professionelles Webdesign für Schweizer KMU. Individuelles Design, Mobile First, klare Struktur und SEO Grundlagen im Website Abo. Preis auf Anfrage.',
     eyebrow: 'Webdesign Schweiz · für KMU',
     h1: 'Webdesign für KMU in der Schweiz',
     intro:
       'Ein professionelles Webdesign, das Ihr Unternehmen klar darstellt, auf dem Smartphone überzeugt und Besucher zur Anfrage führt. Für Schweizer KMU, Selbständige und lokale Unternehmen, die online seriös auftreten möchten.',
     heroBullets: [
-      'Ab 99 CHF pro Monat',
+      'Monatspreis auf Anfrage',
       'Individuelles Design für Ihr Unternehmen',
       'Mobile First und für Google optimiert',
       'Persönliche Betreuung aus Bern',
@@ -150,7 +150,7 @@ export const webdesignKmuSchweiz: LandingLocales = {
       cards: [
         {
           name: 'Business Website',
-          price: 'ab 99 CHF / Monat',
+          price: 'Auf Anfrage',
           desc: 'Für KMU mit mehreren Seiten und mehr Inhalt.',
           points: [
             'bis zu 10 Seiten',
@@ -162,7 +162,7 @@ export const webdesignKmuSchweiz: LandingLocales = {
         },
         {
           name: 'Webshop',
-          price: 'ab 125 CHF / Monat',
+          price: 'Auf Anfrage',
           desc: 'Für Unternehmen, die Produkte online verkaufen möchten.',
           points: [
             'Shop Setup',
@@ -251,7 +251,7 @@ export const webdesignKmuSchweiz: LandingLocales = {
         },
         {
           q: 'Was kostet Webdesign bei semanu?',
-          a: 'Die Website Abos beginnen bei 99 CHF pro Monat. Design, Umsetzung, Hosting und Wartung sind im Abo enthalten. Es gibt keine hohe Einmalinvestition.',
+          a: 'Der Monatspreis hängt vom Umfang ab und ist auf Anfrage: nach einem kurzen Gespräch erhalten Sie ein klares schriftliches Angebot. Design, Umsetzung, Hosting und Wartung sind im Abo enthalten. Es gibt keine hohe Einmalinvestition.',
         },
         {
           q: 'Sind SEO Grundlagen im Webdesign enthalten?',
@@ -276,13 +276,13 @@ export const webdesignKmuSchweiz: LandingLocales = {
   fr: {
     title: 'Webdesign pour PME en Suisse',
     description:
-      'Webdesign professionnel pour les PME suisses. Design individuel, Mobile First, structure claire et bases SEO dans l\’abonnement dès 99 CHF par mois.',
+      'Webdesign professionnel pour les PME suisses. Design individuel, Mobile First, structure claire et bases SEO dans l\’abonnement. Prix sur demande.',
     eyebrow: 'Webdesign Suisse · pour PME',
     h1: 'Webdesign pour PME en Suisse',
     intro:
       'Un webdesign professionnel qui présente votre entreprise clairement, convainc sur smartphone et mène les visiteurs à la demande. Pour les PME suisses, les indépendants et les commerces locaux qui veulent une présence en ligne sérieuse.',
     heroBullets: [
-      'Dès 99 CHF par mois',
+      'Prix mensuel sur demande',
       'Design individuel pour votre entreprise',
       'Mobile First et optimisé pour Google',
       'Suivi personnel depuis Berne',
@@ -422,7 +422,7 @@ export const webdesignKmuSchweiz: LandingLocales = {
       cards: [
         {
           name: 'Business Website',
-          price: 'dès 99 CHF / mois',
+          price: 'Sur demande',
           desc: 'Pour les PME avec plusieurs pages et plus de contenu.',
           points: [
             'jusqu\’à 10 pages',
@@ -434,7 +434,7 @@ export const webdesignKmuSchweiz: LandingLocales = {
         },
         {
           name: 'Webshop',
-          price: 'dès 125 CHF / mois',
+          price: 'Sur demande',
           desc: 'Pour les entreprises qui veulent vendre des produits en ligne.',
           points: [
             'configuration du shop',
@@ -523,7 +523,7 @@ export const webdesignKmuSchweiz: LandingLocales = {
         },
         {
           q: 'Combien coûte le webdesign chez semanu?',
-          a: 'Les abonnements démarrent à 99 CHF par mois. Design, réalisation, hébergement et maintenance sont compris dans l\’abonnement. Pas de gros investissement unique.',
+          a: 'Le prix mensuel dépend du projet. Il est communiqué sur demande dans une offre écrite claire après un court échange. Design, réalisation, hébergement et maintenance sont compris dans l\’abonnement. Pas de gros investissement unique.',
         },
         {
           q: 'Les bases SEO sont comprises dans le webdesign?',
@@ -548,13 +548,13 @@ export const webdesignKmuSchweiz: LandingLocales = {
   en: {
     title: 'Web design for SMEs in Switzerland',
     description:
-      'Professional web design for Swiss SMEs. Individual design, mobile first, clear structure and SEO foundations in a subscription from 99 CHF per month.',
+      'Professional web design for Swiss SMEs. Individual design, mobile first, clear structure and SEO foundations in a subscription. Price on request.',
     eyebrow: 'Web design Switzerland · for SMEs',
     h1: 'Web design for SMEs in Switzerland',
     intro:
       'Professional web design that presents your business clearly, performs on smartphone and guides visitors to an enquiry. For Swiss SMEs, self employed people and local businesses that want a serious online presence.',
     heroBullets: [
-      'From 99 CHF per month',
+      'Monthly price on request',
       'Individual design for your business',
       'Mobile first and optimised for Google',
       'Personal support from Bern',
@@ -694,7 +694,7 @@ export const webdesignKmuSchweiz: LandingLocales = {
       cards: [
         {
           name: 'Business Website',
-          price: 'from 99 CHF / month',
+          price: 'On request',
           desc: 'For SMEs with several pages and more content.',
           points: [
             'up to 10 pages',
@@ -706,7 +706,7 @@ export const webdesignKmuSchweiz: LandingLocales = {
         },
         {
           name: 'Webshop',
-          price: 'from 125 CHF / month',
+          price: 'On request',
           desc: 'For businesses that want to sell products online.',
           points: [
             'shop setup',
@@ -795,7 +795,7 @@ export const webdesignKmuSchweiz: LandingLocales = {
         },
         {
           q: 'What does web design at semanu cost?',
-          a: 'The website subscriptions start at 99 CHF per month. Design, build, hosting and maintenance are included in the subscription. No large one time investment.',
+          a: 'The monthly price depends on the scope and is available on request: after a short conversation you get a clear written quote. Design, build, hosting and maintenance are included in the subscription. No large one time investment.',
         },
         {
           q: 'Are SEO foundations included in the web design?',

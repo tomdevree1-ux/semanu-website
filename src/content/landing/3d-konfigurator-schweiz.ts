@@ -61,7 +61,7 @@ export const konfiguratorSchweiz: LandingLocales = {
     pricing: {
       heading: 'Was kostet ein 3D Konfigurator?',
       intro:
-        'Ein 3D Konfigurator wird auf Ihr Produkt zugeschnitten und nach Aufwand offeriert. Umfang, Anzahl der Optionen und die Komplexität der Regeln bestimmen den Preis. Der Webshop drum herum mit Hosting und laufender Wartung läuft auf Wunsch im Website Abo ab 125 CHF pro Monat. Den Umfang und den Preis legen wir nach einem kurzen Gespräch fest.',
+        'Ein 3D Konfigurator wird auf Ihr Produkt zugeschnitten und nach Aufwand offeriert. Umfang, Anzahl der Optionen und die Komplexität der Regeln bestimmen den Preis. Der Webshop drum herum mit Hosting und laufender Wartung läuft auf Wunsch im monatlichen Website Abo, Preis auf Anfrage. Den Umfang und den Preis legen wir nach einem kurzen Gespräch fest.',
       note: 'Alle Preise exkl. MWST. Umfang und Preis richten sich nach Ihrem Produkt.',
       cta: { label: 'Gespräch buchen', href: '/kontakt' },
       cards: [],
@@ -121,7 +121,7 @@ export const konfiguratorSchweiz: LandingLocales = {
         { q: 'Sehen Kundinnen und Kunden sofort den Preis?', a: 'Ja. Der Preis rechnet in Echtzeit mit der Konfiguration mit. So entfällt das manuelle Offerieren für Standardfälle.' },
         { q: 'Können Kundinnen und Kunden direkt bestellen?', a: 'Ja. Die fertige Konfiguration geht als Bestellung direkt bei Ihnen ein. Sie können daraus einen kompletten Webshop machen.' },
         { q: 'Habt ihr das schon einmal gebaut?', a: 'Ja. Für einen Hersteller von Aluminiumplatten auf Mass haben wir einen Konfigurator mit Masse, Kanten, Oberflächen und Ausschnitten, live 3D und Sofortpreis umgesetzt.' },
-        { q: 'Was kostet ein 3D Konfigurator?', a: 'Der Konfigurator wird nach Aufwand offeriert, je nach Produkt und Zahl der Optionen. Der Webshop drum herum läuft auf Wunsch im Website Abo ab 125 CHF pro Monat. Umfang und Preis legen wir nach einem kurzen Gespräch fest.' },
+        { q: 'Was kostet ein 3D Konfigurator?', a: 'Der Konfigurator wird nach Aufwand offeriert, je nach Produkt und Zahl der Optionen. Der Webshop drum herum läuft auf Wunsch im monatlichen Website Abo, Preis auf Anfrage. Umfang und Preis legen wir nach einem kurzen Gespräch fest.' },
         { q: 'Kann ich einen Webshop mit Konfigurator erstellen lassen?', a: 'Ja. semanu baut Onlineshop und Produktkonfigurator als ein Ganzes: konfigurieren, Preis sehen, in den Warenkorb legen und bezahlen. Sie erhalten die fertige Konfiguration als Bestellung.' },
         { q: 'Funktioniert der Konfigurator mit Shopify oder einem bestehenden Shop?', a: 'In vielen Fällen ja. Wir bauen den Konfigurator als eigenes Modul und übergeben die fertige Konfiguration an Ihren bestehenden Shop, etwa Shopify. Ob eine Anbindung sinnvoll ist oder ein neuer Webshop, klären wir im ersten Gespräch.' },
       ],
@@ -192,7 +192,7 @@ export const konfiguratorSchweiz: LandingLocales = {
     pricing: {
       heading: 'Combien coûte un configurateur 3D?',
       intro:
-        'Un configurateur 3D est taillé sur votre produit et chiffré selon l’effort. Le périmètre, le nombre d’options et la complexité des règles déterminent le prix. La boutique en ligne autour avec hébergement et maintenance continue tourne sur demande dans l’abonnement dès 125 CHF par mois. Nous fixons le périmètre et le prix après un court entretien.',
+        'Un configurateur 3D est taillé sur votre produit et chiffré selon l’effort. Le périmètre, le nombre d’options et la complexité des règles déterminent le prix. La boutique en ligne autour avec hébergement et maintenance continue tourne sur demande dans l’abonnement mensuel, prix sur demande. Nous fixons le périmètre et le prix après un court entretien.',
       note: 'Tous les prix hors TVA. Le périmètre et le prix dépendent de votre produit.',
       cta: { label: 'Réserver un entretien', href: '/kontakt' },
       cards: [],
@@ -252,7 +252,7 @@ export const konfiguratorSchweiz: LandingLocales = {
         { q: 'Le client voit il le prix aussitôt?', a: 'Oui. Le prix se calcule en temps réel avec la configuration. Le devis manuel disparaît pour les cas standard.' },
         { q: 'Le client peut il commander directement?', a: 'Oui. La configuration finie arrive comme commande directement chez vous. Vous pouvez en faire un webshop complet.' },
         { q: 'Avez vous déjà construit cela?', a: 'Oui. Pour un fabricant de plaques d’aluminium sur mesure, nous avons réalisé un configurateur avec mesures, bords, finitions et découpes, 3D en direct et prix aussitôt.' },
-        { q: 'Combien coûte un configurateur 3D?', a: 'Le configurateur est chiffré selon l’effort, en fonction de votre produit et du nombre d’options. La boutique en ligne autour tourne sur demande dans l’abonnement dès 125 CHF par mois. Nous fixons le périmètre et le prix après un court entretien.' },
+        { q: 'Combien coûte un configurateur 3D?', a: 'Le configurateur est chiffré selon l’effort, en fonction de votre produit et du nombre d’options. La boutique en ligne autour tourne sur demande dans l’abonnement mensuel, prix sur demande. Nous fixons le périmètre et le prix après un court entretien.' },
         { q: 'Je peux faire créer une boutique en ligne avec configurateur?', a: 'Oui. semanu construit le webshop et le configurateur de produit comme un tout: configurer, voir le prix, mettre dans le panier et payer. Vous recevez la configuration finie comme commande.' },
         { q: 'Le configurateur fonctionne avec Shopify ou une boutique existante?', a: 'Dans beaucoup de cas, oui. Nous construisons le configurateur comme module séparé et transmettons la configuration finie à votre boutique existante, par exemple Shopify. Nous clarifions lors du premier entretien si une liaison a du sens ou plutôt un nouveau webshop.' },
       ],
@@ -323,7 +323,7 @@ export const konfiguratorSchweiz: LandingLocales = {
     pricing: {
       heading: 'What does a 3D configurator cost?',
       intro:
-        'A 3D configurator is tailored to your product and quoted by effort. The scope, the number of options and the complexity of the rules drive the price. The webshop around it with hosting and ongoing maintenance runs on request in the website subscription from 125 CHF per month. We set the scope and the price after a short conversation.',
+        'A 3D configurator is tailored to your product and quoted by effort. The scope, the number of options and the complexity of the rules drive the price. The webshop around it with hosting and ongoing maintenance runs on request in the monthly website subscription, price on request. We set the scope and the price after a short conversation.',
       note: 'All prices excl. VAT. Scope and price depend on your product.',
       cta: { label: 'Book a conversation', href: '/kontakt' },
       cards: [],
@@ -383,7 +383,7 @@ export const konfiguratorSchweiz: LandingLocales = {
         { q: 'Do customers see the price instantly?', a: 'Yes. The price calculates in real time with the configuration. Manual quoting falls away for standard cases.' },
         { q: 'Can customers order directly?', a: 'Yes. The finished configuration arrives as an order directly with you. You can turn it into a full webshop.' },
         { q: 'Have you built this before?', a: 'Yes. For a manufacturer of aluminium plates made to measure we built a configurator with measurements, edges, finishes and cutouts, live 3D and an instant price.' },
-        { q: 'What does a 3D configurator cost?', a: 'The configurator is quoted by effort, depending on your product and the number of options. The webshop around it runs on request in the website subscription from 125 CHF per month. We set the scope and the price after a short conversation.' },
+        { q: 'What does a 3D configurator cost?', a: 'The configurator is quoted by effort, depending on your product and the number of options. The webshop around it runs on request in the monthly website subscription, price on request. We set the scope and the price after a short conversation.' },
         { q: 'Can I have a webshop with configurator built?', a: 'Yes. semanu builds the online shop and the product configurator as one whole: configure, see the price, add to the basket and pay. You receive the finished configuration as an order.' },
         { q: 'Does the configurator work with Shopify or an existing shop?', a: 'In many cases yes. We build the configurator as a separate module and hand the finished configuration to your existing shop, for example Shopify. Whether a connection makes sense or a new webshop is better, we clarify in the first conversation.' },
       ],

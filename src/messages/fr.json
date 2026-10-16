@@ -8,8 +8,8 @@
     "contact": "Nous contacter"
   },
   "meta": {
-    "title": "Agence web à Berne: sites, plateformes et AI pour PME · semanu.eu",
-    "description": "semanu crée des sites web, portails clients, CRM et automatisations pour les PME suisses. Un partenaire, un abonnement clair, personnel depuis Berne."
+    "title": "Agence web à Anvers: sites, plateformes et AI pour PME · semanu.eu",
+    "description": "semanu crée des sites web, portails clients, CRM et automatisations pour les PME suisses. Un partenaire, un abonnement clair, personnel depuis Anvers."
   },
   "banner": {
     "studyText": "Nouveau: 2292 sites de PME suisses évalués. Seuls 9 pour cent sont à jour.",
@@ -95,182 +95,6 @@
     "errGeneric": "Une erreur est survenue. Veuillez réessayer.",
     "errRateLimit": "Trop de demandes. Veuillez réessayer plus tard."
   },
-  "hero": {
-    "eyebrow": "Solutions digitales avec l’AI",
-    "h1": "<line>Un seul partenaire</line><line>pour tout le <accent>digital</accent>.</line>",
-    "sub": "Tout ce dont votre entreprise a besoin au niveau digital, construit plus vite et à moindre coût grâce à l’AI. <brand></brand> conçoit des sites web, des plateformes digitales et des automatisations sur mesure pour les entreprises qui veulent grandir plus vite au niveau digital.",
-    "cta1": "Commencer",
-    "cta2": "Voir les abonnements",
-    "mock": "Tout au même endroit",
-    "callCta": "Réserver un appel stratégique",
-    "trust": "Pour les PME, les indépendants et les entreprises locales en Suisse.",
-    "stats": {
-      "leistungen": {
-        "label": "Prestations",
-        "value": "6"
-      },
-      "ansprechpartner": {
-        "label": "Interlocuteur",
-        "value": "1"
-      },
-      "aboAb": {
-        "label": "Abo dès",
-        "value": "99 CHF/mois"
-      },
-      "standort": {
-        "label": "Lieu",
-        "value": "Berne, Suisse"
-      }
-    }
-  },
-  "price": {
-    "eyebrow": "Tarifs",
-    "h2": "Des prix transparents, convenus à l’avance.",
-    "intro": "Un aperçu clair de votre présence digitale, tout convenu à l’avance et sans coûts cachés. Sites web, plateformes digitales, conseil, automatisations et AI fonctionnent en abonnement mensuel; seuls le logo + charte graphique et l’analyse business sont des prestations uniques.",
-    "aboLink": "Comment fonctionne l’abonnement site web",
-    "calcTitle": "Calculateur de prix site web: combien coûte votre site par mois ?",
-    "calcIntro": "Choisissez votre situation, l’ampleur et les fonctions et vous voyez immédiatement le prix mensuel. Site web dès 99 CHF, webshop dès 125 CHF, tout compris, durée minimale de 36 mois.",
-    "summary": "Un site web professionnel coûte chez semanu dès CHF 99 par mois (Business) ou CHF 125 (Webshop). Hébergement, maintenance et bases SEO sont compris et il n’y a pas de gros coûts initiaux.",
-    "metaDescription": "Combien coûte un site web en Suisse ? Prix dès 99 CHF par mois, webshop dès 125 CHF. Design, hébergement, maintenance et bases SEO compris, durée minimale de 36 mois.",
-    "plansEyebrow": "Abonnements web",
-    "plansTitle": "Abonnements web à prix mensuel fixe",
-    "plansSub": "Chaque pack comprend design, développement et SEO. L’hébergement et la maintenance sont toujours compris dans l’abonnement. Durée minimale de 36 mois, puis résiliable chaque mois.",
-    "guideTitle": "Quel abonnement vous convient ?",
-    "guideBusiness": "Business convient si vous avez besoin de plus de pages, de plus de confiance et d’un site qui évolue avec vous.",
-    "guideWebshop": "Webshop convient si vous vendez des produits en ligne et voulez un site avec boutique.",
-    "guideSoftware": "Software & Applications convient si vous avez besoin de logiciels sur mesure ou d’applications web.",
-    "guideHint": "Pas sûr ? Écrivez en deux mots ce qu’il vous faut, nous recommandons honnêtement l’abonnement adapté.",
-    "guideCta": "Nous contacter",
-    "svcTitle": "Autres solutions digitales",
-    "svcIntro": "Portails, CRM, automatisations, tableaux de bord et assistants AI: nous les adaptons à vos besoins. Nous discutons de l’ampleur et du prix de façon transparente à l’avance.",
-    "availAddon": "Disponible en add on",
-    "ctaDiscuss": "Discuter de cet add on",
-    "ctaAdvice": "Demander conseil",
-    "from": "dès",
-    "adsDesc": "Des campagnes payantes qui vous rendent visible là où vos clients cherchent.",
-    "faqTitle": "Questions fréquentes sur les prix et abonnements",
-    "faq": [
-      {
-        "q": "Combien coûte un site web en Suisse ?",
-        "a": "Un site démarre dès 99 CHF par mois, une boutique en ligne dès 125 CHF par mois. Le prix mensuel couvre design, hébergement, maintenance et bases SEO, sans grosse facture unique."
-      },
-      {
-        "q": "L hébergement et la maintenance sont inclus ?",
-        "a": "Oui. Hébergement, mises à jour techniques et sécurité courante sont compris dans l abonnement mensuel. Il n y a pas de facture séparée."
-      },
-      {
-        "q": "Il y a une durée minimale ?",
-        "a": "La durée minimale est de 36 mois, ensuite l abonnement est résiliable chaque mois. Tous les prix s entendent hors TVA."
-      },
-      {
-        "q": "Quels sont les prix du webdesign en Suisse ?",
-        "a": "Les agences suisses classiques demandent en général un montant unique à quatre chiffres pour un site de PME, plus l’hébergement et la maintenance par an. Chez semanu, vous payez dès 99 CHF par mois, design, réalisation, hébergement et maintenance compris."
-      },
-      {
-        "q": "Combien coûte un site web par mois en Suisse ?",
-        "a": "Chez semanu un site web coûte dès 99 CHF par mois, un webshop dès 125 CHF par mois, hors TVA. Tout est compris: design, réalisation, hébergement, maintenance et bases SEO. Pas d’acompte et pas de facture d’hébergement séparée. La durée minimale est de 36 mois."
-      }
-    ],
-    "seoTitle": "Prix d’un site web en Suisse: combien coûte un site ?",
-    "seoBody": "Un site professionnel coûte chez semanu dès 99 CHF par mois, un webshop dès 125 CHF par mois, hors TVA. Ce prix comprend le design, la réalisation technique, l’hébergement, la maintenance et les bases SEO. En Suisse, les prix du webdesign pour un projet comparable atteignent vite plusieurs milliers de francs en une fois, auxquels s’ajoutent l’hébergement et la maintenance. Nous répartissons le même travail sur un montant mensuel, pour que vous connaissiez les prix dès le départ et sans facture de rattrapage. Le prix exact est fixé ensemble à l’avance, dès que le périmètre est clair."
-  },
-  "plan": {
-    "b": {
-      "badge": "Popular",
-      "name": "Business Website",
-      "price": "79 CHF",
-      "per": "/ mois",
-      "desc": "Site multi pages professionnel pour entreprises en croissance",
-      "features": [
-        "Jusqu’à 10 pages",
-        "Design sur mesure",
-        "Mobile First",
-        "Formulaire de contact",
-        "Optimisation SEO",
-        "Démarrage en quelques jours ouvrés",
-        "Hébergement et maintenance inclus"
-      ],
-      "cta": "Commander maintenant"
-    },
-    "w": {
-      "name": "Webshop",
-      "price": "99 CHF",
-      "per": "/ mois",
-      "desc": "Boutique en ligne sur mesure",
-      "features": [
-        "Configuration complète du webshop",
-        "Gestion des produits et commandes",
-        "Paiements en ligne",
-        "Comptes clients",
-        "Optimisation SEO",
-        "Démarrage en quelques jours ouvrés",
-        "Hébergement et maintenance inclus"
-      ],
-      "cta": "Commander maintenant"
-    },
-    "p": {
-      "name": "Software & Applications",
-      "from": "dès",
-      "price": "99 CHF",
-      "per": "/ mois",
-      "desc": "Logiciel sur mesure",
-      "features": [
-        "Systèmes de location et de réservation",
-        "Logiciel de caisse",
-        "CRM sur mesure",
-        "Logiciel de comptabilité",
-        "Base de données avec analyse AI",
-        "Plateformes clients",
-        "Hébergement et maintenance inclus"
-      ],
-      "cta": "Discuter du projet"
-    }
-  },
-  "addon": {
-    "badge": "Nouveau !",
-    "title": "Logo + charte graphique",
-    "desc": "Un logo sur mesure et un guide de marque compact (couleurs, typographies, usage) pour une image cohérente.",
-    "price": "+750 CHF",
-    "once": "une seule fois",
-    "cta": "Commander",
-    "features": [
-      "Un logo unique",
-      "Design entièrement sur mesure"
-    ],
-    "guidelinesTitle": "Charte graphique professionnelle",
-    "guidelines": [
-      "Couleurs",
-      "Typographies",
-      "Labels",
-      "Do's and don'ts",
-      "Favicon"
-    ]
-  },
-  "googleAds": {
-    "eyebrow": "Google Ads",
-    "title": "Gestion Google Ads",
-    "priceLabel": "Gestion dès",
-    "price": "195 CHF",
-    "per": "/ mois",
-    "cta": "Commander",
-    "features": [
-      "Mise en place des campagnes Google Ads",
-      "Optimisation et reporting mensuels",
-      "Shopping Ads pour webshops",
-      "Suivi des conversions et analyse d’audience"
-    ],
-    "note": "Le budget publicitaire lui même n’est pas compris dans ce prix."
-  },
-  "promo": {
-    "stamp": "Promo",
-    "eyebrow": "Offre limitée",
-    "title": "Logo + charte graphique à prix promo",
-    "body": "Maintenant {promo} CHF au lieu de {regular} CHF. Vous économisez {save} CHF.",
-    "save": "Vous économisez {save} CHF",
-    "cta": "Profiter de l’offre",
-    "close": "Fermer",
-    "until": "Seulement jusqu’au {date}"
-  },
   "footer": {
     "tagline": "Le partenaire digital des PME suisses: conseil, automatisation, logiciels sur mesure et configurateurs 3D.",
     "servicesTitle": "Services",
@@ -278,7 +102,7 @@
     "navTitle": "Navigation",
     "legalTitle": "Légal",
     "contactTitle": "Contact",
-    "location": "Wylerstrasse 75, Bern",
+    "location": "Kattendijkdok-Oostkaai 9, 2000 Antwerpen",
     "rights": "Tous droits réservés.",
     "langLabel": "Langue",
     "topicsTitle": "Thèmes",
@@ -313,120 +137,6 @@
     "learnMore": "En savoir plus",
     "vatNote": "Tous les prix hors TVA. Abonnements site avec durée minimale de 36 mois, ensuite résiliables chaque mois."
   },
-  "home": {
-    "title": "Découvrez semanu",
-    "intro": "Abonnements, déroulement, réponses et contact en un coup d’œil.",
-    "moreTitle": "Plus qu’un site web",
-    "moreText": "Votre site web peut devenir le point de départ pour le marketing, l’automatisation et des systèmes métier plus intelligents.",
-    "moreCta": "Découvrir les services"
-  },
-  "how": {
-    "eyebrow": "Comment ça fonctionne",
-    "h2": "Cinq étapes, zéro souci.",
-    "text": "De la première idée au site web fini, nous vous accompagnons personnellement, étape par étape. Design, technique, hébergement, maintenance et SEO font partie de l’abonnement, pour que votre entreprise soit visible en ligne en Suisse et le reste durablement.",
-    "metaDescription": "Comment fonctionne l’abonnement web d’semanu: premier échange, inscription digitale, réalisation en quelques jours ouvrés et suivi continu. Webdesign moderne pour PME en Suisse.",
-    "steps": [
-      {
-        "title": "Premier échange",
-        "body": "Nous faisons connaissance, vous présentez votre entreprise et partagez vos souhaits, vos objectifs et au besoin un moodboard. Nous comprenons ainsi ce qui fait votre marque et ce qui compte vraiment pour vous."
-      },
-      {
-        "title": "Choisissez l’abonnement adapté",
-        "chip": "Démarrage en quelques jours ouvrés",
-        "body": "L’inscription est entièrement digitale, simple et rapide. Dès réception de votre premier paiement, nous démarrons votre design en quelques jours ouvrés. Pas d’attente, pas de paperasse, vous donnez le coup d’envoi et nous nous lançons."
-      },
-      {
-        "title": "Nous établissons votre blueprint",
-        "body": "Lors d’un échange structuré et à l’aide d’un questionnaire, nous notons vos souhaits et vos exigences. Nous en faisons un blueprint clair. La construction ne commence qu’après votre validation. Ainsi nous travaillons de façon professionnelle et selon une méthode fixe."
-      },
-      {
-        "title": "Nous créons votre site",
-        "body": "Votre site de rêve prend forme, moderne, rapide et optimisé pour mobile. À des points de contact réguliers, nous montrons l’avancement, vous donnez votre avis et nous ajustons là où c’est utile. Selon l’abonnement, des adaptations restent possibles en continu, pour que le résultat vous ressemble."
-      },
-      {
-        "title": "Nous assurons le suivi en continu",
-        "body": "Après la mise en ligne, nous restons à vos côtés. Mises à jour, sécurité et hébergement sont compris dans l’abonnement. Les adaptations et les nouvelles fonctions se font avec flexibilité, au tarif horaire de 95 CHF."
-      }
-    ]
-  },
-  "faq": {
-    "eyebrow": "FAQ",
-    "h2": "Questions fréquentes",
-    "items": [
-      {
-        "q": "Le site web m’appartient ?",
-        "a": "Oui. Vos contenus et votre nom de domaine vous appartiennent. Le design et le code sont mis à disposition dans le cadre de l’abonnement ; les conditions exactes de reprise sont décrites dans nos conditions d’abonnement."
-      },
-      {
-        "q": "Et si je résilie ?",
-        "a": "Après le préavis convenu, l’abonnement prend fin. Nous clarifions à l’avance la reprise du domaine et des contenus afin d’éviter toute surprise."
-      },
-      {
-        "q": "L’hébergement et la maintenance sont inclus ?",
-        "a": "Oui. L’hébergement, les mises à jour techniques, la sécurité de base et la maintenance courante sont compris dans l’abonnement."
-      },
-      {
-        "q": "Je peux faire modifier des contenus ?",
-        "a": "Oui. Les modifications après la mise en ligne sont facturées de façon transparente au tarif horaire de 95 CHF. Les demandes plus importantes sont estimées au préalable."
-      },
-      {
-        "q": "Je peux changer d’abonnement plus tard ?",
-        "a": "Oui, vous pouvez passer à un abonnement supérieur lorsque vos besoins évoluent."
-      },
-      {
-        "q": "Que signifie base SEO ?",
-        "a": "Le SEO (référencement naturel) aide votre site à être mieux trouvé sur Google. Nous mettons en place les fondations techniques et de contenu : structure, vitesse, balises et bases locales. Aucun positionnement précis sur Google ne peut toutefois être garanti."
-      },
-      {
-        "q": "Vous pouvez remplacer mon site actuel ?",
-        "a": "Oui. Nous créons un nouveau site moderne et gérons proprement la transition depuis votre site existant."
-      },
-      {
-        "q": "Vous développez aussi des sites avec login ou espace client ?",
-        "a": "Oui, via Software & Applications : portails clients, zones de connexion, tableaux de bord et workflows sur mesure."
-      },
-      {
-        "q": "Vous travaillez avec des entreprises suisses ?",
-        "a": "Oui. semanu se concentre sur les PME, les indépendants et les entreprises locales en Suisse."
-      },
-      {
-        "q": "Vous proposez aussi un logo et une charte graphique ?",
-        "a": "Oui. Sur demande, nous créons un logo sur mesure et un guide de marque compact (couleurs, typographies, usage), une seule fois en plus de votre abonnement. Vous trouverez le prix actuel sur la page des tarifs."
-      },
-      {
-        "q": "Vous faites uniquement des sites web ?",
-        "a": "Non. Les sites web sont le point de départ pour beaucoup de clients mais semanu aide aussi pour l’email marketing, l’automatisation, les systèmes de réservation, les systèmes métier et les assistants AI."
-      },
-      {
-        "q": "Travaillez vous avec AI ?",
-        "a": "Oui. Nous utilisons l’AI dans notre processus de construction, ainsi nous construisons plus vite et à moindre coût que les agences classiques. De plus, nous proposons des solutions AI comme des assistants et des automatisations dans notre offre."
-      },
-      {
-        "q": "Je peux commencer par un site web et ajouter des services plus tard ?",
-        "a": "Oui. C’est souvent la meilleure approche. Vous commencez par un site web professionnel et ajoutez l’email marketing, l’automatisation, la réservation ou les systèmes métier quand votre entreprise est prête."
-      },
-      {
-        "q": "Qu’est ce que l’automatisation marketing ?",
-        "a": "L’automatisation marketing signifie que des tâches marketing répétées se font automatiquement. Par exemple, un lead reçoit un email de suivi après avoir rempli un formulaire ou un client reçoit automatiquement un rappel de rendez vous."
-      },
-      {
-        "q": "Qu’est ce qu’un CRM ?",
-        "a": "Un CRM est un système pour gérer les leads, les clients, la communication et le suivi. Il aide à garder les informations clients à un endroit clair."
-      },
-      {
-        "q": "Qu’est ce qu’un portail client ?",
-        "a": "Un portail client est un espace en ligne privé où les clients peuvent se connecter, voir des informations, téléverser des documents, suivre des mises à jour ou accéder à des fichiers."
-      },
-      {
-        "q": "Les assistants AI sont utiles pour les petites entreprises ?",
-        "a": "Oui, quand ils résolvent un problème pratique. Les assistants AI peuvent répondre aux questions courantes, qualifier des leads, chercher dans des documents ou aider votre équipe dans le travail répétitif."
-      },
-      {
-        "q": "Qu’est ce que le GEO ?",
-        "a": "GEO signifie Generative Engine Optimisation. Cela aide les systèmes de recherche AI à comprendre votre entreprise, vos services et votre expertise pour vous décrire et vous recommander plus précisément."
-      }
-    ]
-  },
   "contact": {
     "eyebrow": "Contact",
     "h2": "Parlons de votre projet.",
@@ -435,7 +145,7 @@
     "emailLabel": "Email",
     "phoneLabel": "Téléphone",
     "cityLabel": "Ville",
-    "city": "Berne",
+    "city": "Anvers",
     "timeLabel": "Délai de réponse",
     "time": "En général sous 1 jour ouvré",
     "formTitle": "Envoyer un message",
@@ -495,71 +205,6 @@
     "authorBio": "Tom de Vree conçoit et gère des sites web, des plateformes digitales et des automatisations pour les PME suisses.",
     "updatedLabel": "Mis à jour le"
   },
-  "checkout": {
-    "title": "Démarrer l’abonnement",
-    "intro": "Choisissez votre abonnement, entrez vos coordonnées et envoyez votre demande. Nous revenons vers vous personnellement.",
-    "payIntro": "Choisissez votre abonnement, entrez vos coordonnées et finalisez le paiement en toute sécurité.",
-    "payTitle": "Paiement",
-    "payBack": "Retour",
-    "choosePlan": "Choisir l’abonnement",
-    "allIn": "Hébergement, maintenance et SEO inclus",
-    "summary": "Récapitulatif",
-    "selected": "Abonnement choisi",
-    "payButton": "Continuer vers le paiement",
-    "requestButton": "Demander",
-    "requestProcessing": "Envoi …",
-    "requestSuccessTitle": "Merci pour votre demande.",
-    "requestSuccessBody": "Nous avons bien reçu vos informations et revenons vers vous dans les plus brefs délais.",
-    "requestError": "Votre demande n’a pas pu être envoyée. Veuillez réessayer ou nous contacter directement à hello@semanu.eu.",
-    "consent": "J’accepte la <privacy>politique de confidentialité</privacy> et les <gtc>conditions générales (CGV)</gtc>.",
-    "premiumTitle": "Quelque chose sur mesure ?",
-    "premiumNote": "Pour Software & Applications, nous discutons votre projet en personne et préparons une offre adaptée.",
-    "premiumCta": "Discuter du projet",
-    "processing": "Traitement en cours …",
-    "errGeneric": "Une erreur est survenue. Veuillez réessayer.",
-    "canceled": "Le paiement a été annulé. Vous pouvez réessayer à tout moment.",
-    "successTitle": "Merci! Votre abonnement est actif.",
-    "successBody": "Nous avons reçu votre commande et vous contactons bientôt avec les prochaines étapes. Une confirmation arrive dans votre boîte mail.",
-    "successCta": "Accueil",
-    "servicesTitle": "Vous souhaitez aussi discuter de services supplémentaires ?",
-    "servicesHelp": "Cette sélection ne change pas votre prix actuel. Nous en discuterons avec vous après votre demande.",
-    "stepperPlan": "Abo",
-    "stepperExtras": "Extras",
-    "stepperData": "Données",
-    "stepperPay": "Paiement",
-    "stepOf": "Étape {current} sur {total}",
-    "extrasTitle": "Choisir les extras",
-    "extrasMonthly": "Extras mensuels",
-    "extrasOnce": "Extras uniques",
-    "dataTitle": "Vos coordonnées",
-    "continueExtras": "Continuer vers les extras",
-    "continueData": "Continuer vers les coordonnées",
-    "back": "Retour",
-    "orderTitle": "Commande",
-    "oneTime": "Unique",
-    "oneTimeCosts": "Frais uniques",
-    "notSelected": "non sélectionné",
-    "extrasLabel": "Extras",
-    "payFinal": "Démarrer l’abonnement et payer",
-    "orderAs": "Je commande en tant que",
-    "asPerson": "Particulier",
-    "asCompany": "Entreprise"
-  },
-  "portfolio": {
-    "eyebrow": "Portfolio",
-    "title": "Portfolio",
-    "intro": "Un aperçu des sites web et solutions digitales que nous avons réalisés.",
-    "statusLive": "En ligne",
-    "statusDev": "En développement",
-    "visit": "Voir le site"
-  },
-  "testimonial": {
-    "eyebrow": "Témoignage",
-    "title": "Ce que disent nos clients",
-    "quote": "semanu nous a guidés de façon claire et personnelle tout au long du projet. Nous nous sommes sentis impliqués sans devoir tout gérer seuls. Notre site paraît maintenant professionnel et digne de confiance. Nous recommandons semanu à toute entreprise qui veut un site moderne sans stress.",
-    "author": "Poortland",
-    "role": "Portails et couvertures"
-  },
   "cookie": {
     "text": "Nous utilisons des cookies pour améliorer notre site. Vous décidez ce que vous acceptez.",
     "learnMore": "En savoir plus",
@@ -588,79 +233,9 @@
     "founderTitle": "Derrière semanu",
     "founderName": "Tom de Vree",
     "founderRole": "Fondateur et propriétaire",
-    "founderText": "semanu est dirigé par Tom de Vree et a son siège à Bern. Nous travaillons personnellement avec des indépendants, des prestataires locaux et des PME dans toute la Suisse. Vous parlez directement à la personne qui s’occupe de votre site.",
+    "founderText": "semanu est dirigé par Tom de Vree et a son siège à Anvers. Nous travaillons personnellement avec des indépendants, des prestataires locaux et des PME dans toute la Suisse. Vous parlez directement à la personne qui s’occupe de votre site.",
     "ctaTitle": "Envie d’un site qui évolue avec vous ?",
     "ctaButton": "Nous contacter"
-  },
-  "portal": {
-    "login": {
-      "title": "Connexion",
-      "intro": "Accédez à votre espace client avec votre email. Nous vous envoyons un lien de connexion par email.",
-      "emailLabel": "Email",
-      "emailPlaceholder": "vous@entreprise.ch",
-      "submit": "Envoyer le lien",
-      "sending": "Envoi …",
-      "sentTitle": "Email envoyé",
-      "sent": "Consultez votre boîte mail et ouvrez le lien de connexion pour continuer.",
-      "error": "Cela n’a pas fonctionné. Veuillez réessayer.",
-      "backToSite": "Retour au site"
-    },
-    "nav": {
-      "title": "Espace client",
-      "dashboard": "Aperçu",
-      "documents": "Documents",
-      "requests": "Demandes",
-      "signOut": "Déconnexion"
-    },
-    "dashboard": {
-      "title": "Aperçu",
-      "greeting": "Bienvenue, {name}",
-      "subStatus": "Votre abonnement",
-      "plan": "Formule",
-      "statusLabel": "Statut",
-      "nextBilling": "Prochaine facturation",
-      "noSub": "Nous ne trouvons pas encore d’abonnement actif pour votre compte.",
-      "noSubHint": "Dès que votre paiement est traité votre abonnement apparaît ici. Pour toute question utilisez les demandes.",
-      "cancelNote": "Votre abonnement prend fin à la fin de la période en cours.",
-      "statuses": {
-        "active": "Actif",
-        "past_due": "Paiement en attente",
-        "canceled": "Résilié",
-        "trialing": "Essai",
-        "incomplete": "Incomplet",
-        "incomplete_expired": "Expiré",
-        "unpaid": "Impayé",
-        "paused": "En pause"
-      }
-    },
-    "documents": {
-      "title": "Documents",
-      "empty": "Vos documents apparaissent ici dès que nous en partageons avec vous.",
-      "download": "Télécharger"
-    },
-    "requests": {
-      "title": "Demandes",
-      "intro": "Posez une question, signalez une modification ou demandez une offre.",
-      "newTitle": "Nouvelle demande",
-      "type": "Type",
-      "subject": "Objet",
-      "message": "Message",
-      "submit": "Envoyer la demande",
-      "sent": "Merci, nous avons bien reçu votre demande. Nous revenons vers vous.",
-      "errorMsg": "Veuillez remplir l’objet et le message.",
-      "listTitle": "Vos demandes",
-      "empty": "Vous n’avez pas encore fait de demande.",
-      "types": {
-        "question": "Question",
-        "change": "Modification",
-        "quote": "Offre"
-      },
-      "statuses": {
-        "new": "Nouveau",
-        "in_progress": "En cours",
-        "done": "Terminé"
-      }
-    }
   },
   "serviceUi": {
     "analysisEyebrow": "Préparation",
@@ -683,28 +258,6 @@
     "eyebrowOutcomes": "Résultats",
     "eyebrowFaq": "FAQ",
     "relatedTitle": "Services associés",
-    "entityLine": "semanu est un partenaire digital basé à Berne pour les PME suisses: sites web, plateformes digitales, conseil, automatisations et solutions AI dans un abonnement mensuel clair."
-  },
-  "whySemanu": {
-    "title": "Pourquoi semanu",
-    "lead": "Un partenaire pour toute votre présence en ligne, à un prix mensuel simple. Aucune agence à coordonner, aucune facture surprise, aucun tracas technique. Et parce que nous travaillons avec l’AI, nous construisons plus vite et à moindre coût que les agences classiques.",
-    "points": [
-      {
-        "title": "Un abonnement, tout inclus",
-        "text": "Design, hébergement, sécurité, maintenance et bases SEO dans un seul abonnement mensuel."
-      },
-      {
-        "title": "Conçu pour être trouvé",
-        "text": "Le SEO détermine comment les moteurs de recherche trouvent et classent votre site. Nous posons ces bases dès le départ et ajoutons le GEO pour que les assistants AI vous recommandent aussi."
-      },
-      {
-        "title": "Suisse et personnel",
-        "text": "Basé à Berne, en allemand, français et anglais. Vous joignez une personne qui répond, pas un ticket anonyme."
-      },
-      {
-        "title": "Aucun tracas technique",
-        "text": "Nous gérons toute la technique de bout en bout pour que vous puissiez vous concentrer sur votre activité."
-      }
-    ]
+    "entityLine": "semanu est un partenaire digital basé à Anvers pour les PME suisses: sites web, plateformes digitales, conseil, automatisations et solutions AI dans un abonnement mensuel clair."
   }
 }

@@ -1,11 +1,11 @@
 ---
 title: "Algemene voorwaarden"
-updated: "2026-06-07"
+updated: "2026-10-16"
 ---
 
 ## 1. Aanbieder en toepassingsgebied
 
-Deze algemene voorwaarden regelen de abonnementsdiensten van de **SEMANU BV** met zetel aan de Kattendijkdok-Oostkaai 9, 2000 Antwerpen, België, eigenaar Tom de Vree, email hello@semanu.eu ("semanu"). Zij gelden voor alle website abonnementen (Business, Webshop, Software & Applications) en daarmee verbonden prestaties en gaan voor op afwijkende voorwaarden van de klant, voor zover niet uitdrukkelijk schriftelijk anders overeengekomen.
+Deze algemene voorwaarden regelen de abonnementsdiensten van **SEMANU BV**, Kattendijkdok-Oostkaai 9, 2000 Antwerpen, België, ondernemingsnummer 0828.291.116, btw BE0828.291.116, zaakvoerder Tom de Vree, email hello@semanu.eu, website www.semanu.eu ("semanu"). Zij gelden voor alle website abonnementen (Business, Webshop, Software & Applications) en daarmee verbonden prestaties en gaan voor op afwijkende voorwaarden van de klant, voor zover niet uitdrukkelijk schriftelijk anders overeengekomen.
 
 ## 2. Prestaties
 
@@ -26,24 +26,24 @@ De overeenkomst komt tot stand zodra de klant een abonnement afsluit en semanu d
 De minimumlooptijd van 36 maanden is bindend en dient in beginsel te worden uitgediend.
 
 - **Voortijdige opzegging door de klant** (om redenen die niet aan semanu toe te rekenen zijn): de resterende maandelijkse vergoedingen tot het einde van maand 36 blijven volledig verschuldigd.
-- **Bij elke beëindiging van het abonnement** (ongeacht de reeds verstreken looptijd, voor alle klanten gelijk) wordt een **administratieve vergoeding van CHF 190 (excl. btw)** verschuldigd voor de overdracht en de afsluiting van het dossier. Deze vergoeding is geen restbetaling van de abonnementsvergoedingen; zij dekt de administratieve inspanning van de overdracht en afsluiting.
+- **Bij elke beëindiging van het abonnement** (ongeacht de reeds verstreken looptijd, voor alle klanten gelijk) wordt een **administratieve vergoeding volgens de offerte of orderbevestiging (excl. btw)** verschuldigd voor de overdracht en de afsluiting van het dossier. Deze vergoeding is geen restbetaling van de abonnementsvergoedingen; zij dekt de administratieve inspanning van de overdracht en afsluiting.
 
 Het recht tot opzegging om gewichtige redenen blijft voorbehouden.
 
 ## 6. Prijzen, betaling en indexering
 
-- De abonnementsvergoedingen worden maandelijks vooraf gefactureerd. Website 99 CHF/maand, Webshop 125 CHF/maand, Software & Applications vanaf 99 CHF/maand. De add-on "Logo + merkrichtlijnen" kost 750 CHF eenmalig. Google Ads beheer is beschikbaar vanaf 195 CHF/maand.
+- De abonnementsvergoedingen worden maandelijks vooraf gefactureerd. De bedragen voor het abonnement, een eventuele add-on (bijvoorbeeld "Logo + merkrichtlijnen") en het beheer van Google Ads staan in de offerte of orderbevestiging.
 - De eerste factuur wordt bij bestelling opgesteld (dag 0); het werk begint binnen 5 werkdagen na ontvangst van de betaling.
-- **Jaarlijkse indexering:** semanu kan de prijzen eenmaal per jaar aanpassen in overeenstemming met de Zwitserse landsindex van de consumentenprijzen (LIK) van het Bondsbureau voor de statistiek en deelt dit vooraf mee.
-- Alle prijzen zijn in CHF, exclusief de wettelijke belasting over de toegevoegde waarde (momenteel 8,1%). Het btw/UID nummer wordt aangevuld zodra beschikbaar.
+- **Jaarlijkse indexering:** semanu kan de prijzen eenmaal per jaar aanpassen op basis van de Belgische gezondheidsindex en deelt dit vooraf mee.
+- Alle prijzen zijn in EUR, exclusief Belgische btw (21%). Voor zakelijke klanten in een andere EU lidstaat met een geldig btw nummer geldt de verleggingsregeling (btw verlegd, art. 196 Btw richtlijn 2006/112/EG).
 
 ## 7. Betalingsverzuim
 
-Facturen zijn binnen 14 dagen betaalbaar. Bij verzuim kan semanu een verzuimrente van 5% per jaar (art. 104 OR) en een aanmaningskost van CHF 20 per aanmaning aanrekenen. Na twee vergeefse aanmaningen kan semanu de prestatie tot betaling opschorten en bij aanzienlijk betalingsverzuim om gewichtige redenen opzeggen.
+Facturen zijn binnen 14 dagen betaalbaar. Bij laattijdige betaling is de klant van rechtswege en zonder voorafgaande ingebrekestelling de wettelijke interest voor handelstransacties verschuldigd volgens de Belgische wet van 2 augustus 2002 betreffende de bestrijding van de betalingsachterstand bij handelstransacties, vermeerderd met de forfaitaire schadevergoeding voor invorderingskosten waarin die wet voorziet, tenzij de offerte anders bepaalt. Eventuele aanmaningskosten worden aangerekend volgens de offerte. Na twee vergeefse aanmaningen kan semanu de prestatie tot betaling opschorten en bij aanzienlijk betalingsverzuim om gewichtige redenen opzeggen.
 
 ## 8. Wijzigingen na levering
 
-Hosting en onderhoud zijn in het abonnement inbegrepen. Elke na de levering gewenste wijziging wordt aan **CHF 95 per uur** aangerekend, afgerekend per begonnen kwartier (15 minuten), d.w.z. CHF 23.75 per begonnen kwartier, naar boven afgerond. Ook kleine aanpassingen zijn niet kosteloos en worden aan hetzelfde uurtarief aangerekend. Grotere wensen worden op aanvraag vooraf ingeschat.
+Hosting en onderhoud zijn in het abonnement inbegrepen. Elke na de levering gewenste wijziging wordt aangerekend aan het **uurtarief uit de offerte**, afgerekend per begonnen kwartier (15 minuten), naar boven afgerond. Ook kleine aanpassingen zijn niet kosteloos en worden aan hetzelfde uurtarief aangerekend. Grotere wensen worden op aanvraag vooraf ingeschat.
 
 ## 9. Eigendom en intellectueel eigendom
 
@@ -78,4 +78,4 @@ semanu kan deze algemene voorwaarden aanpassen. Wijzigingen worden vooraf meeged
 
 ## 16. Toepasselijk recht en bevoegde rechtbank
 
-Het Zwitsers recht is van toepassing met uitsluiting van de collisieregels en van het Weens Koopverdrag. Uitsluitend bevoegde rechtbank is Bern, Zwitserland, onder voorbehoud van dwingende bevoegde rechtbanken.
+Het Belgisch recht is van toepassing met uitsluiting van de collisieregels en van het Weens Koopverdrag. Uitsluitend bevoegd zijn de rechtbanken van Antwerpen, afdeling Antwerpen.

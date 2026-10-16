@@ -4,13 +4,13 @@ export const websiteFuerSelbstaendige: LandingLocales = {
   de: {
     title: 'Website für Selbständige Schweiz',
     description:
-      'Professionelle Website für Selbständige in der Schweiz. Persönliche Marke, klare Struktur und mehr Anfragen. Design, Hosting und SEO Grundlagen im Website Abo ab 99 CHF pro Monat.',
+      'Professionelle Website für Selbständige in der Schweiz. Persönliche Marke, klare Struktur und mehr Anfragen. Design, Hosting und SEO Grundlagen im Website Abo, Preis auf Anfrage.',
     eyebrow: 'Website für Selbständige · Schweiz',
     h1: 'Website für Selbständige in der Schweiz',
     intro:
       'Als Selbständige brauchen Sie eine Website, die professionell wirkt, klar zeigt was Sie anbieten und Besucher zur Anfrage führt. semanu erstellt Ihre persönliche Online Präsenz inklusive Design, Texthilfe, Hosting, Wartung und SEO Grundlagen, im klaren Monatsabo ohne hohe Vorausinvestition.',
     heroBullets: [
-      'Ab 99 CHF pro Monat',
+      'Monatlicher Preis auf Anfrage',
       'Design, Hosting und Wartung inklusive',
       'Hilfe bei Texten und Struktur',
       'Für Smartphone, Google und Kunden optimiert',
@@ -150,7 +150,7 @@ export const websiteFuerSelbstaendige: LandingLocales = {
       cards: [
         {
           name: 'Business Website',
-          price: 'ab 99 CHF / Monat',
+          price: 'Auf Anfrage',
           desc: 'Für Selbständige mit mehreren Angeboten und mehr Inhalt.',
           points: [
             'bis zu 10 Seiten',
@@ -162,7 +162,7 @@ export const websiteFuerSelbstaendige: LandingLocales = {
         },
         {
           name: 'Webshop',
-          price: 'ab 125 CHF / Monat',
+          price: 'Auf Anfrage',
           desc: 'Für Selbständige die Produkte oder Angebote online verkaufen.',
           points: [
             'Shop Setup',
@@ -263,7 +263,7 @@ export const websiteFuerSelbstaendige: LandingLocales = {
         },
         {
           q: 'Was kostet eine Website für Selbständige bei semanu?',
-          a: 'Das Website Abo für Selbständige startet ab 99 CHF pro Monat. Der genaue Preis hängt vom gewählten Abo und Umfang ab. Alle Preise sind exkl. MWST bei einer Mindestlaufzeit von 36 Monaten.',
+          a: 'Den Preis für das Website Abo für Selbständige erhalten Sie auf Anfrage in einer schriftlichen Offerte. Er hängt vom gewählten Abo und Umfang ab. Alle Preise sind exkl. MWST bei einer Mindestlaufzeit von 36 Monaten.',
         },
       ],
     },
@@ -276,13 +276,13 @@ export const websiteFuerSelbstaendige: LandingLocales = {
   fr: {
     title: 'Site web pour indépendants en Suisse',
     description:
-      'Site professionnel pour indépendants en Suisse. Marque personnelle, structure claire et plus de demandes. Design, hébergement et bases SEO dans l’abonnement dès 99 CHF par mois.',
+      'Site professionnel pour indépendants en Suisse. Marque personnelle, structure claire et plus de demandes. Design, hébergement et bases SEO dans l’abonnement, prix sur demande.',
     eyebrow: 'Site web pour indépendants · Suisse',
     h1: 'Site web pour indépendants en Suisse',
     intro:
       'En tant qu’indépendant, vous avez besoin d’un site qui paraît professionnel, montre clairement ce que vous proposez et mène les visiteurs à la demande. semanu crée votre présence en ligne personnelle, design, aide aux textes, hébergement, maintenance et bases SEO compris, dans un abonnement mensuel clair sans grand investissement initial.',
     heroBullets: [
-      'Dès 99 CHF par mois',
+      'Prix mensuel sur demande',
       'Design, hébergement et maintenance compris',
       'Aide pour les textes et la structure',
       'Optimisé pour mobile, Google et vos clients',
@@ -422,7 +422,7 @@ export const websiteFuerSelbstaendige: LandingLocales = {
       cards: [
         {
           name: 'Business Website',
-          price: 'dès 99 CHF / mois',
+          price: 'Sur demande',
           desc: 'Pour les indépendants avec plusieurs offres et plus de contenu.',
           points: [
             'jusqu’à 10 pages',
@@ -434,7 +434,7 @@ export const websiteFuerSelbstaendige: LandingLocales = {
         },
         {
           name: 'Webshop',
-          price: 'dès 125 CHF / mois',
+          price: 'Sur demande',
           desc: 'Pour les indépendants qui vendent des produits ou prestations en ligne.',
           points: [
             'configuration du shop',
@@ -535,7 +535,7 @@ export const websiteFuerSelbstaendige: LandingLocales = {
         },
         {
           q: 'Combien coûte un site pour indépendants chez semanu?',
-          a: 'L’abonnement pour indépendants démarre à 99 CHF par mois. Le prix exact dépend de l’abonnement choisi et de l’ampleur. Tous les prix sont hors TVA avec une durée minimale de 36 mois.',
+          a: 'Le prix de l’abonnement pour indépendants vous est communiqué sur demande dans une offre écrite. Il dépend de l’abonnement choisi et de l’ampleur. Tous les prix sont hors TVA avec une durée minimale de 36 mois.',
         },
       ],
     },
@@ -548,13 +548,13 @@ export const websiteFuerSelbstaendige: LandingLocales = {
   en: {
     title: 'Website for self employed professionals in Switzerland',
     description:
-      'Professional website for self employed people in Switzerland. Personal brand, clear structure and more enquiries. Design, hosting and SEO foundations in a subscription from 99 CHF per month.',
+      'Professional website for self employed people in Switzerland. Personal brand, clear structure and more enquiries. Design, hosting and SEO foundations in a subscription, price on request.',
     eyebrow: 'Website for self employed · Switzerland',
     h1: 'Website for self employed professionals in Switzerland',
     intro:
       'As a self employed professional you need a website that looks professional, clearly shows what you offer and leads visitors to an enquiry. semanu creates your personal online presence, including design, text support, hosting, maintenance and SEO foundations, in a clear monthly subscription without a large upfront investment.',
     heroBullets: [
-      'From 99 CHF per month',
+      'Monthly price on request',
       'Design, hosting and maintenance included',
       'Help with texts and structure',
       'Optimised for mobile, Google and customers',
@@ -694,7 +694,7 @@ export const websiteFuerSelbstaendige: LandingLocales = {
       cards: [
         {
           name: 'Business Website',
-          price: 'from 99 CHF / month',
+          price: 'On request',
           desc: 'For self employed people with several services and more content.',
           points: [
             'up to 10 pages',
@@ -706,7 +706,7 @@ export const websiteFuerSelbstaendige: LandingLocales = {
         },
         {
           name: 'Webshop',
-          price: 'from 125 CHF / month',
+          price: 'On request',
           desc: 'For self employed people who want to sell products or services online.',
           points: [
             'shop setup',
@@ -807,7 +807,7 @@ export const websiteFuerSelbstaendige: LandingLocales = {
         },
         {
           q: 'What does a website for self employed people cost at semanu?',
-          a: 'The subscription for self employed people starts at 99 CHF per month. The exact price depends on the chosen subscription and scope. All prices are excl. VAT with a minimum term of 36 months.',
+          a: 'The price of the subscription for self employed people is given on request in a written quote. It depends on the chosen subscription and scope. All prices are excl. VAT with a minimum term of 36 months.',
         },
       ],
     },

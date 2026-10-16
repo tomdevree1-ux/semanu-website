@@ -61,7 +61,7 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
     pricing: {
       heading: 'Was kostet Workflow Automatisierung?',
       intro:
-        'Der Preis hängt davon ab, wie viele Abläufe wir verbinden und wie komplex sie sind. Marketing Automation starten wir ab 129 CHF im Monat. Grössere Automatisierungen quer durch Ihre Tools klären wir nach einem kurzen Gespräch. Wir empfehlen nur, was Ihnen wirklich Zeit spart.',
+        'Der Preis hängt davon ab, wie viele Abläufe wir verbinden und wie komplex sie sind. Für Marketing Automation und grössere Automatisierungen quer durch Ihre Tools erhalten Sie auf Anfrage eine klare schriftliche Offerte, meist nach einem kurzen Gespräch. Wir empfehlen nur, was Ihnen wirklich Zeit spart.',
       note: 'Alle Preise exkl. MWST. Umfang und Preis legen wir gemeinsam nach einem kurzen Gespräch fest.',
       cta: { label: 'Gespräch buchen', href: '/kontakt' },
       cards: [],
@@ -120,7 +120,7 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
         { q: 'Muss ich meine Tools wechseln?', a: 'Nein. Wir verbinden meist, was Sie schon nutzen. Nur wenn ein Tool wirklich im Weg steht, schlagen wir eine Alternative vor.' },
         { q: 'Lohnt sich das auch für kleine Betriebe?', a: 'Oft ja. Schon ein automatisierter Ablauf pro Woche spart spürbar Zeit. Wir prüfen ehrlich, ob sich der Aufwand für Sie rechnet.' },
         { q: 'Wie lange dauert die Umsetzung?', a: 'Einfache Abläufe stehen oft in wenigen Tagen. Grössere Automatisierungen über mehrere Tools brauchen etwas länger und laufen Schritt für Schritt.' },
-        { q: 'Was kostet Workflow Automatisierung?', a: 'Marketing Automation starten wir ab 129 CHF im Monat. Grössere Automatisierungen legen wir nach einem kurzen Gespräch fest, je nach Umfang.' },
+        { q: 'Was kostet Workflow Automatisierung?', a: 'Das hängt von der Zahl und Komplexität der Abläufe ab. Nach einem kurzen Gespräch erhalten Sie auf Anfrage eine klare schriftliche Offerte, je nach Umfang.' },
         { q: 'Was ist Prozessautomatisierung für KMU?', a: 'Prozessautomatisierung für KMU bedeutet, dass ein wiederkehrender Ablauf wie Freigaben, Onboarding oder Rechnungsversand automatisch läuft. Das geschieht mit den Tools, die Sie schon nutzen. Wir beginnen mit einem Prozess und erweitern Schritt für Schritt, ohne grosses IT Projekt.' },
         { q: 'Automatisierung mit AI: was übernimmt die AI und was der Mensch?', a: 'AI übernimmt das Lesen, Einordnen und Vorbereiten: Emails sortieren, Angaben aus Dokumenten übernehmen, Antworten entwerfen. Entscheidungen, Freigaben und der persönliche Kundenkontakt bleiben bei Ihrem Team. Jeder Schritt ist nachvollziehbar und lässt sich anpassen.' },
       ],
@@ -191,7 +191,7 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
     pricing: {
       heading: 'Combien coûte l’automatisation des workflows?',
       intro:
-        'Le prix dépend du nombre de processus que nous connectons et de leur complexité. Le Marketing Automation démarre à 129 CHF par mois. Les automatisations plus grandes à travers vos outils se définissent après un court entretien. Nous ne recommandons que ce qui vous fait vraiment gagner du temps.',
+        'Le prix dépend du nombre de processus que nous connectons et de leur complexité. Pour le Marketing Automation et les automatisations plus grandes à travers vos outils, vous recevez sur demande une offre écrite claire, en général après un court entretien. Nous ne recommandons que ce qui vous fait vraiment gagner du temps.',
       note: 'Tous les prix hors TVA. Le périmètre et le prix se définissent ensemble après un court entretien.',
       cta: { label: 'Réserver un entretien', href: '/kontakt' },
       cards: [],
@@ -250,7 +250,7 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
         { q: 'Dois je changer mes outils?', a: 'Non. Nous connectons le plus souvent ce que vous utilisez déjà. Seulement si un outil gêne vraiment, nous proposons une alternative.' },
         { q: 'Est ce utile aussi pour les petites structures?', a: 'Souvent oui. Un seul processus automatisé par semaine fait déjà gagner un temps notable. Nous vérifions honnêtement si l’effort vaut la peine pour vous.' },
         { q: 'Combien de temps dure la mise en place?', a: 'Les processus simples sont souvent prêts en quelques jours. Les automatisations plus grandes sur plusieurs outils prennent un peu plus de temps et avancent étape par étape.' },
-        { q: 'Combien coûte l’automatisation des workflows?', a: 'Le Marketing Automation démarre à 129 CHF par mois. Les automatisations plus grandes se définissent après un court entretien, selon le périmètre.' },
+        { q: 'Combien coûte l’automatisation des workflows?', a: 'Cela dépend du nombre et de la complexité des processus. Après un court entretien vous recevez sur demande une offre écrite claire, selon le périmètre.' },
         { q: 'Qu’est ce que l’automatisation des processus pour PME?', a: 'Cela signifie qu’un processus récurrent comme les validations, l’onboarding ou l’envoi de factures tourne automatiquement. Cela se fait avec les outils que vous utilisez déjà. Nous commençons par un processus et élargissons étape par étape, sans grand projet informatique.' },
         { q: 'Automatisation avec IA: que fait l’IA et que fait l’humain?', a: 'L’IA prend en charge la lecture, le tri et la préparation: trier les emails, reprendre les données des documents, rédiger des ébauches de réponse. Les décisions, les validations et le contact client personnel restent dans votre équipe. Chaque étape est traçable et peut être ajustée.' },
       ],
@@ -321,7 +321,7 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
     pricing: {
       heading: 'What does workflow automation cost?',
       intro:
-        'The price depends on how many processes we connect and how complex they are. Marketing automation starts at 129 CHF per month. Larger automations across your tools are set after a short conversation. We only recommend what truly saves you time.',
+        'The price depends on how many processes we connect and how complex they are. For marketing automation and larger automations across your tools you receive a clear written quote on request, usually after a short conversation. We only recommend what truly saves you time.',
       note: 'All prices excl. VAT. We set the scope and the price together after a short conversation.',
       cta: { label: 'Book a conversation', href: '/kontakt' },
       cards: [],
@@ -380,7 +380,7 @@ export const workflowAutomatisierungSchweiz: LandingLocales = {
         { q: 'Do I have to switch my tools?', a: 'No. We mostly connect what you already use. Only if a tool really gets in the way do we suggest an alternative.' },
         { q: 'Is it worth it for small businesses too?', a: 'Often yes. Even one automated flow per week saves noticeable time. We check honestly whether the effort pays off for you.' },
         { q: 'How long does the build take?', a: 'Simple flows are often ready in a few days. Larger automations across several tools take a bit longer and run step by step.' },
-        { q: 'What does workflow automation cost?', a: 'Marketing automation starts at 129 CHF per month. Larger automations are set after a short conversation, depending on the scope.' },
+        { q: 'What does workflow automation cost?', a: 'It depends on the number and complexity of the processes. After a short conversation you receive a clear written quote on request, depending on the scope.' },
         { q: 'What is process automation for SMEs?', a: 'It means a recurring flow such as approvals, onboarding or sending invoices runs automatically. That happens with the tools you already use. We start with one process and extend step by step, without a big IT project.' },
         { q: 'Automation with AI: what does the AI do and what does the person do?', a: 'AI takes over reading, sorting and preparing: sorting emails, taking details from documents, drafting replies. Decisions, approvals and personal customer contact stay with your team. Every step is traceable and can be adjusted.' },
       ],

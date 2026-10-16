@@ -1,11 +1,11 @@
 ---
 title: "Condiciones generales (CG)"
-updated: "2026-06-07"
+updated: "2026-10-16"
 ---
 
 ## 1. Prestador y ámbito de aplicación
 
-Estas CG regulan los servicios de suscripción de la **SEMANU BV** con domicilio en Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Bélgica, titular Tom de Vree, email hello@semanu.eu ("semanu"). Se aplican a todas las suscripciones de web (Business, Webshop, Software & Applications) y a las prestaciones asociadas y prevalecen sobre condiciones divergentes del cliente, salvo que se acuerde expresamente otra cosa por escrito.
+Estas CG regulan los servicios de suscripción de **SEMANU BV**, Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Bélgica, número de empresa 0828.291.116, IVA BE0828.291.116, administrador Tom de Vree, email hello@semanu.eu, web www.semanu.eu ("semanu"). Se aplican a todas las suscripciones de web (Business, Webshop, Software & Applications) y a las prestaciones asociadas y prevalecen sobre condiciones divergentes del cliente, salvo que se acuerde expresamente otra cosa por escrito.
 
 ## 2. Prestaciones
 
@@ -26,24 +26,24 @@ El contrato se celebra en cuanto el cliente contrata una suscripción y semanu c
 La duración mínima de 36 meses es vinculante y por regla general debe cumplirse.
 
 - **Resolución anticipada por parte del cliente** (por motivos no imputables a semanu): las cuotas mensuales restantes hasta el final del mes 36 siguen siendo plenamente debidas.
-- **En cada finalización de la suscripción** (con independencia de la duración ya transcurrida, igual para todos los clientes) se devenga una **tasa administrativa de CHF 190 (excl. IVA)** por la transferencia y el cierre del expediente. Esta tasa no es un pago residual de las cuotas de suscripción, sino que cubre el trabajo administrativo de la entrega y el cierre.
+- **En cada finalización de la suscripción** (con independencia de la duración ya transcurrida, igual para todos los clientes) se devenga una **tasa administrativa conforme a la oferta o a la confirmación del pedido (excl. IVA)** por la transferencia y el cierre del expediente. Esta tasa no es un pago residual de las cuotas de suscripción, sino que cubre el trabajo administrativo de la entrega y el cierre.
 
 Queda reservado el derecho a resolver por causa justificada.
 
 ## 6. Precios, pago e indexación
 
-- Las cuotas de suscripción se facturan mensualmente por adelantado. Website 99 CHF/mes, Webshop 125 CHF/mes, Software & Applications a partir de 99 CHF/mes. El add-on "Logo + directrices de marca" cuesta 750 CHF una sola vez. La gestión de Google Ads está disponible a partir de 195 CHF/mes.
+- Las cuotas de suscripción se facturan mensualmente por adelantado. Los importes de la suscripción, de un posible add-on (por ejemplo "Logo + directrices de marca") y de la gestión de Google Ads figuran en la oferta o en la confirmación del pedido.
 - La primera factura se emite en el momento del pedido (día 0); el trabajo comienza dentro de los 5 días laborables siguientes a la recepción del pago.
-- **Indexación anual:** previa comunicación, semanu puede ajustar los precios una vez al año conforme al Índice suizo de precios al consumo (LIK) de la Oficina Federal de Estadística.
-- Todos los precios se entienden en CHF, sin el impuesto sobre el valor añadido legal (actualmente 8,1%). El número de IVA/UID se añadirá en cuanto esté disponible.
+- **Indexación anual:** previa comunicación, semanu puede ajustar los precios una vez al año sobre la base del índice de salud belga.
+- Todos los precios se entienden en EUR, sin el IVA belga (21%). Para clientes empresariales de otro Estado miembro de la UE con un número de IVA válido se aplica la inversión del sujeto pasivo (art. 196 de la Directiva del IVA 2006/112/CE).
 
 ## 7. Mora en el pago
 
-Las facturas vencen dentro de los 14 días. En caso de mora semanu puede cobrar un interés de demora del 5% anual (art. 104 CO) así como una tasa de recordatorio de CHF 20 por recordatorio. Tras dos recordatorios infructuosos semanu puede bloquear la prestación hasta el pago y, en caso de mora considerable, resolver por causa justificada.
+Las facturas vencen dentro de los 14 días. En caso de mora el cliente adeuda de pleno derecho y sin requerimiento previo el interés legal para operaciones comerciales previsto en la ley belga de 2 de agosto de 2002 relativa a la lucha contra la morosidad en las operaciones comerciales así como la indemnización fija por costes de cobro prevista en dicha ley, salvo que la oferta disponga otra cosa. Las posibles tasas de recordatorio se facturan conforme a la oferta. Tras dos recordatorios infructuosos semanu puede bloquear la prestación hasta el pago. En caso de mora considerable semanu puede resolver por causa justificada.
 
 ## 8. Cambios tras la entrega
 
-El hosting y el mantenimiento están incluidos en la suscripción. Todo cambio solicitado tras la entrega se factura a **CHF 95 por hora**, facturado por cada cuarto de hora comenzado (15 minutos), es decir CHF 23.75 por cada cuarto de hora comenzado, redondeado al alza. También los ajustes pequeños no son gratuitos y se facturan a la misma tarifa horaria. Los encargos mayores se estiman previamente a petición.
+El hosting y el mantenimiento están incluidos en la suscripción. Todo cambio solicitado tras la entrega se factura según la **tarifa horaria indicada en la oferta**, por cada cuarto de hora comenzado (15 minutos), redondeado al alza. También los ajustes pequeños no son gratuitos y se facturan a la misma tarifa horaria. Los encargos mayores se estiman previamente a petición.
 
 ## 9. Propiedad y propiedad intelectual
 
@@ -78,4 +78,4 @@ semanu puede adaptar estas CG. Los cambios se comunican previamente; si el clien
 
 ## 16. Derecho aplicable y jurisdicción
 
-Se aplica el derecho suizo con exclusión de las normas de conflicto y de la Convención de Viena sobre compraventa. La jurisdicción exclusiva es Bern, Suiza, sin perjuicio de los fueros imperativos.
+Se aplica el derecho belga con exclusión de las normas de conflicto y de la Convención de Viena sobre compraventa. Son competentes en exclusiva los tribunales de Amberes (división Amberes).
