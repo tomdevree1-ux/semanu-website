@@ -69,7 +69,7 @@ als staartregel mee in het bericht. De bron van de function staat in de Website-
 ## Hosting en deploy
 
 Hetzner, server 2.31.50.26, één server met twee omgevingen: live (www.semanu.eu, Node op poort
-3000, `semanu-eu-live`) en staging (acc.semanu.eu, poort 3001, wachtwoord + noindex,
+3000, `semanu-eu-live`) en staging (acc.semanu.eu, poort 3001, zonder wachtwoord, wel noindex,
 `semanu-eu-acc`). Caddy ervoor. Alles in `deploy/`; stappen voor Tom in
 [deploy/README-DEPLOY.md](deploy/README-DEPLOY.md).
 

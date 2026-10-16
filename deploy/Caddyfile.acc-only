@@ -1,7 +1,6 @@
 # semanu.eu on the SEMANU Hetzner server (2.31.50.26): STAGING ONLY (before go-live).
 # Install: cp deploy/Caddyfile /etc/caddy/Caddyfile && caddy validate --config /etc/caddy/Caddyfile && systemctl reload caddy
-# Staging password: /etc/caddy/staging-auth.caddy (generated from /etc/caddy/staging.hash,
-# see deploy/README-DEPLOY.md). It never lives in this repo.
+# Staging (acc) is public without a password; it is kept out of search engines.
 
 {
 	email hello@semanu.eu
@@ -47,10 +46,10 @@
 # Until the DNS of semanu.eu and www points here, only staging is served, so
 # Caddy does not keep retrying certificates for hosts that still point to Combell.
 
-# Staging: password first, never indexed.
+# Staging: public but never indexed (noindex header + robots.txt Disallow).
 acc.semanu.eu {
 	import common semanu-eu-acc
 	header X-Robots-Tag "noindex, nofollow"
-	import /etc/caddy/staging-auth.caddy
+	# No password on staging (decision Tom, October 2026); noindex stays.
 	import node 3001
 }

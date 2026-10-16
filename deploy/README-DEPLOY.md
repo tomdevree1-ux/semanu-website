@@ -6,7 +6,7 @@ draait twee omgevingen naast elkaar:
 | Omgeving | Adres | Node-dienst | Poort | Supabase voor het contactformulier |
 |---|---|---|---|---|
 | Live | https://www.semanu.eu (semanu.eu stuurt door naar www) | `semanu-eu-live` | 3000 | prod `bjpcgqejprkdqqohhere` |
-| Staging | https://acc.semanu.eu (wachtwoord, noindex) | `semanu-eu-acc` | 3001 | staging `kiiyvctcfvfrivpjsfjo` |
+| Staging | https://acc.semanu.eu (openbaar, noindex) | `semanu-eu-acc` | 3001 | staging `kiiyvctcfvfrivpjsfjo` |
 
 Caddy staat ervoor (SSL, compressie, beveiligingsheaders) en stuurt door naar de twee Node-diensten.
 De server is al opgezet met het standaardsjabloon (Caddy, firewall, enkel SSH-sleutel, automatische
@@ -83,7 +83,7 @@ Ze starten pas echt na de eerste deploy (er is nog geen `current`-map).
 
 **Caddy omzetten van de plaatshouder naar de Node-diensten**
 
-Het stagingwachtwoord staat al als hash in `/etc/caddy/staging.hash` (gebruiker `semanu`).
+Staging heeft geen wachtwoord meer (beslissing oktober 2026); het blokje `staging-auth.caddy` wordt niet meer ingelezen.
 Maak er het blokje van dat de Caddyfile inleest, zet de nieuwe Caddyfile en herlaad:
 
 ```bash
@@ -113,7 +113,7 @@ Vanaf de Mac, in de map SEMANU-EU, met alles gecommit:
 Het script bouwt de gecommitte code (zonder `.env.local`) met de waarden uit `deploy/build-acc.env`,
 zet een nieuwe release op de server, herstart `semanu-eu-acc` en controleert of `/nl` antwoordt.
 
-Nakijken op https://acc.semanu.eu (gebruiker `semanu` en het stagingwachtwoord):
+Nakijken op https://acc.semanu.eu (geen wachtwoord):
 - de pagina's in alle talen, het logo en de favicon;
 - het contactformulier: na verzenden moet er een kaart op het leadsbord van de **staging**-omgeving
   van het dashboard staan (acc.semanu.be);
@@ -205,11 +205,10 @@ done
 # 3. Ander bezoekers-IP met hetzelfde geheim: weer 200
 curl -s -w ' %{http_code}\n' -H 'Content-Type: application/json' -H @<(printf 'X-Forward-Secret: %s\n' "$ACC_SECRET") -H "X-Visitor-IP: 198.51.100.$(( RANDOM % 20 ))" -d "$(body c1)" "$FN"
 
-# 4. Via de site (acc, met het stagingwachtwoord): vijf keer 200, de zesde 429,
+# 4. Via de site (acc): vijf keer 200, de zesde 429,
 #    ook als je zelf een X-Forwarded-For of X-Real-IP meestuurt
-read -rs ACC_PW
 for i in 1 2 3 4 5 6; do
-  curl -s -w ' %{http_code}\n' -u "semanu:$ACC_PW" -H 'Content-Type: application/json' -H "X-Forwarded-For: 9.9.9.$i" -H "X-Real-IP: 8.8.8.$i" \
+  curl -s -w ' %{http_code}\n' -H 'Content-Type: application/json' -H "X-Forwarded-For: 9.9.9.$i" -H "X-Real-IP: 8.8.8.$i" \
     -d "{\"formType\":\"contact\",\"firstname\":\"Forward\",\"lastname\":\"Test\",\"email\":\"semanu.forwardtest+d$i@gmail.com\",\"company\":\"Forward Test\",\"phone\":\"+32 496 04 56 06\",\"message\":\"Test via de site\",\"consent\":true,\"lang\":\"nl\"}" \
     https://acc.semanu.eu/api/leads
 done
@@ -228,5 +227,5 @@ Live herhaal je stap 2 met `$LIVE_SECRET` en de prod-URL
   `deploy.sh live` waarschuwt als de commit niet eerst op acc stond.
 - **Bouwen op de Mac.** De server is klein; een Next.js-build kan daar zonder geheugen vallen. Alleen
   de Linux-versie van `sharp` (beeldverkleining) wordt op de server zelf geïnstalleerd.
-- **Staging nooit in Google.** Wachtwoord vooraan in Caddy, `X-Robots-Tag: noindex` van Caddy en van
+- **Staging nooit in Google.** `X-Robots-Tag: noindex` van Caddy en van
   de app, en `robots.txt` blokkeert alles zodra `SITE_ENV` niet `production` is.
