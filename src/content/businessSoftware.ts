@@ -59,7 +59,7 @@ export const BUSINESS_SOFTWARE: Record<ServicesLocale, BusinessSoftwareCopy> = {
     diffCards: [
       { n: '01', title: 'Sneller met AI', text: 'Wij zetten AI in tijdens het volledige ontwikkelproces, zodat u sneller en betaalbaar maatwerk krijgt.' },
       { n: '02', title: 'Op uw tempo', text: 'We digitaliseren alleen de bedrijfsflows die u nu nodig heeft en breiden uit wanneer uw onderneming daar klaar voor is. Zo houdt u de kosten in de hand en groeit uw bedrijfssoftware mee met uw processen.' },
-      { n: '03', title: 'U wordt eigenaar', text: 'Wij bouwen op maat van uw bedrijf en u wordt eigenaar van de software, inclusief de broncode. U zit niet vast aan één leverancier en blijft zelf de baas over uw systeem.' },
+      { n: '03', title: 'U krijgt de broncode', text: 'Wij bouwen op maat van uw bedrijf. U krijgt de volledige broncode en een blijvend gebruiksrecht, zodat u altijd zonder ons verder kunt. De intellectuele eigendom blijft bij semanu.' },
     ],
     aiTitle: 'Maatwerksoftware.\nOpnieuw uitgevonden.',
     aiText:
@@ -105,7 +105,7 @@ export const BUSINESS_SOFTWARE: Record<ServicesLocale, BusinessSoftwareCopy> = {
     diffCards: [
       { n: '01', title: 'Faster with AI', text: 'We use AI throughout the entire development process, so you get custom software faster and at an affordable cost.' },
       { n: '02', title: 'At your pace', text: 'We only digitalise the business flows you need now and expand when your business is ready. That keeps costs under control while your software grows along with your processes.' },
-      { n: '03', title: 'You own it', text: 'We build for your business and you become the owner of the software, including the source code. You are not tied to one supplier and stay in control of your system.' },
+      { n: '03', title: 'You get the source code', text: 'We build for your business. You receive the full source code and a perpetual right to use it, so you can always continue without us. The intellectual property stays with semanu.' },
     ],
     aiTitle: 'Custom software.\nReinvented.',
     aiText:
@@ -151,7 +151,7 @@ export const BUSINESS_SOFTWARE: Record<ServicesLocale, BusinessSoftwareCopy> = {
     diffCards: [
       { n: '01', title: 'Schneller mit AI', text: 'Wir setzen AI im gesamten Entwicklungsprozess ein. So erhalten Sie Software nach Maß schneller und zu bezahlbaren Kosten.' },
       { n: '02', title: 'In Ihrem Tempo', text: 'Wir digitalisieren nur die Abläufe, die Sie jetzt brauchen. Erweitert wird, sobald Ihr Unternehmen bereit ist. So behalten Sie die Kosten im Griff und Ihre Software wächst mit Ihren Prozessen.' },
-      { n: '03', title: 'Sie werden Eigentümer', text: 'Wir bauen nach Maß für Ihr Unternehmen und Sie werden Eigentümer der Software, einschließlich des Quellcodes. Sie sind nicht an einen Anbieter gebunden und behalten die Kontrolle über Ihr System.' },
+      { n: '03', title: 'Sie erhalten den Quellcode', text: 'Wir bauen nach Maß für Ihr Unternehmen. Sie erhalten den vollständigen Quellcode und ein unbefristetes Nutzungsrecht. So können Sie jederzeit ohne uns weitermachen. Das geistige Eigentum bleibt bei semanu.' },
     ],
     aiTitle: 'Software nach Maß.\nNeu gedacht.',
     aiText:
@@ -197,7 +197,7 @@ export const BUSINESS_SOFTWARE: Record<ServicesLocale, BusinessSoftwareCopy> = {
     diffCards: [
       { n: '01', title: 'Plus rapide grâce à l’AI', text: 'Nous utilisons l’AI tout au long du développement : vous obtenez un logiciel sur mesure plus vite et à un coût abordable.' },
       { n: '02', title: 'À votre rythme', text: 'Nous ne digitalisons que les flux dont vous avez besoin maintenant. Nous étendons quand votre entreprise est prête. Vous maîtrisez ainsi les coûts tandis que votre logiciel évolue avec vos processus.' },
-      { n: '03', title: 'Vous en êtes propriétaire', text: 'Nous construisons sur mesure pour votre entreprise et vous devenez propriétaire du logiciel, code source compris. Vous n’êtes lié à aucun fournisseur et gardez la maîtrise de votre système.' },
+      { n: '03', title: 'Vous recevez le code source', text: 'Nous construisons sur mesure pour votre entreprise. Vous recevez le code source complet et un droit d’utilisation permanent. Vous pouvez donc toujours continuer sans nous. La propriété intellectuelle reste chez semanu.' },
     ],
     aiTitle: 'Le logiciel sur mesure.\nRéinventé.',
     aiText:
@@ -243,7 +243,7 @@ export const BUSINESS_SOFTWARE: Record<ServicesLocale, BusinessSoftwareCopy> = {
     diffCards: [
       { n: '01', title: 'Más rápido con AI', text: 'Usamos AI durante todo el proceso de desarrollo. Así obtiene software a medida más rápido y a un coste asequible.' },
       { n: '02', title: 'A su ritmo', text: 'Solo digitalizamos los flujos que necesita ahora y ampliamos cuando su empresa esté preparada. Así controla los costes mientras su software crece con sus procesos.' },
-      { n: '03', title: 'Usted es el propietario', text: 'Construimos a medida para su empresa y usted se convierte en propietario del software, código fuente incluido. No queda atado a un único proveedor y mantiene el control de su sistema.' },
+      { n: '03', title: 'Recibe el código fuente', text: 'Construimos a medida para su empresa. Recibe el código fuente completo y un derecho de uso permanente. Así siempre puede continuar sin nosotros. La propiedad intelectual sigue siendo de semanu.' },
     ],
     aiTitle: 'Software a medida.\nReinventado.',
     aiText:

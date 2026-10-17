@@ -140,7 +140,7 @@ const enServices: Service[] = [
     title: 'Custom software',
     short: 'Software built to fit when off-the-shelf packages do not.',
     description:
-      'Web applications, portals and internal tools built to measure with integrations and attention to maintenance and ownership.',
+      'Web applications, portals and internal tools built to measure with integrations, maintenance and the full source code.',
     explainerTitle: 'What is custom software?',
     explainerText:
       'Software built specifically for your company instead of an off-the-shelf package, so it matches how you work.',
@@ -195,7 +195,7 @@ const deServices: Service[] = [
     title: 'Maßgeschneiderte Software',
     short: 'Software nach Maß, wenn Standardpakete nicht passen.',
     description:
-      'Webanwendungen, Portale und interne Tools nach Maß mit Integrationen und Blick auf Wartung und Eigentum.',
+      'Webanwendungen, Portale und interne Tools nach Maß mit Integrationen, Wartung und dem vollständigen Quellcode.',
     explainerTitle: 'Was ist maßgeschneiderte Software?',
     explainerText:
       'Software, die speziell für Ihr Unternehmen gebaut wird statt eines fertigen Pakets, damit sie zu Ihrer Arbeitsweise passt.',
@@ -250,7 +250,7 @@ const frServices: Service[] = [
     title: 'Logiciel sur mesure',
     short: 'Un logiciel sur mesure quand les solutions standard ne suffisent pas.',
     description:
-      'Applications web, portails et outils internes sur mesure avec des intégrations et une attention à la maintenance et à la propriété.',
+      'Applications web, portails et outils internes sur mesure avec des intégrations, la maintenance et le code source complet.',
     explainerTitle: 'Le logiciel sur mesure, c’est quoi ?',
     explainerText:
       'Un logiciel conçu spécifiquement pour votre entreprise plutôt qu’un paquet tout fait, pour qu’il colle à votre façon de travailler.',
@@ -305,7 +305,7 @@ const esServices: Service[] = [
     title: 'Software a medida',
     short: 'Software a medida cuando los paquetes estándar no encajan.',
     description:
-      'Aplicaciones web, portales y herramientas internas a medida con integraciones y atención al mantenimiento y la propiedad.',
+      'Aplicaciones web, portales y herramientas internas a medida con integraciones, mantenimiento y el código fuente completo.',
     explainerTitle: '¿Qué es el software a medida?',
     explainerText:
       'Software creado específicamente para su empresa en lugar de un paquete cerrado, para que se ajuste a su forma de trabajar.',
@@ -360,7 +360,7 @@ const nlServices: Service[] = [
     title: 'Maatwerksoftware',
     short: 'Software op maat wanneer standaardpakketten niet passen.',
     description:
-      'Webapplicaties, portalen en interne tools op maat met integraties en oog voor onderhoud en eigendom.',
+      'Webapplicaties, portalen en interne tools op maat met integraties, onderhoud en de volledige broncode.',
     explainerTitle: 'Wat is maatwerksoftware?',
     explainerText:
       'Software die specifiek voor uw bedrijf wordt gebouwd in plaats van een kant-en-klaar pakket, zodat ze aansluit op hoe u werkt.',

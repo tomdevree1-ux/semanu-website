@@ -28,7 +28,8 @@ SEMANU (legal entity SEMANU BV, Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgiu
 ## Services
 - 3D product configurators: customers configure a product themselves, see it live in 3D and get an indicative price; output can feed production or ERP.
 - Custom business software: modular software that connects and automates processes (workflow automation, portals, CRM and dashboards, AI inside processes), scoped individually and agreed transparently up front.
-- Pricing: on request. Every project gets a written quote; prices are in EUR excluding VAT.
+- Pricing: on request. A one-off implementation fee plus a monthly fee for SLA, hosting and maintenance. Every project gets a written quote; prices are in EUR excluding VAT.
+- Source code and intellectual property: the client receives the full source code and a perpetual, non-exclusive right to use the software for its own company, including hosting, maintenance and modification by a developer of its choice, so it can always continue without SEMANU. The intellectual property (including the core engine and reusable components) stays with SEMANU: the software may not be sold, licensed, rented out or offered to third parties. The client owns its data and its own content.
 
 ## Proven work (business cases, see ${base}/en/references)
 ${caseLines}

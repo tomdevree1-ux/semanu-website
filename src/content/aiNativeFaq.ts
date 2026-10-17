@@ -20,7 +20,7 @@ export const AI_NATIVE_FAQ: Record<ServicesLocale, AiNativeFaq> = {
       },
       {
         q: 'Wat kost de ontwikkeling van bedrijfssoftware op maat?',
-        a: 'De kosten hangen af van de functionaliteit, de complexiteit en de nodige integraties. Dankzij onze AI-first ontwikkelmethode kunnen we software op maat efficiënter ontwikkelen. U hoeft niet meteen te investeren in een volledig platform: u kunt starten met één functie en die stap voor stap uitbreiden. In een eerste gesprek brengen we uw noden in kaart en maken we een passende offerte.',
+        a: 'De kosten hangen af van de functionaliteit, de complexiteit en de nodige integraties. Dankzij onze AI-first ontwikkelmethode kunnen we software op maat efficiënter ontwikkelen. U hoeft niet meteen te investeren in een volledig platform: u kunt starten met één functie en die stap voor stap uitbreiden. U betaalt een eenmalige implementatie en daarna een maandbedrag voor SLA, hosting en onderhoud. In een eerste gesprek brengen we uw noden in kaart en maken we een passende offerte.',
       },
       {
         q: 'Hoe lang duurt de ontwikkeling van software op maat?',
@@ -43,8 +43,8 @@ export const AI_NATIVE_FAQ: Record<ServicesLocale, AiNativeFaq> = {
         a: 'AI kan heel wat terugkerende taken in uw onderneming ondersteunen of automatiseren. Denk aan het verwerken van klantvragen, het opmaken van offertes, het analyseren van documenten of het voorbereiden van productiegegevens. Welke processen zich zinvol laten automatiseren, hangt af van uw huidige werking. Samen bekijken we waar AI de grootste meerwaarde biedt.',
       },
       {
-        q: 'Van wie zijn de ontwikkelde software en de broncode?',
-        a: 'Bij semanu wordt u eigenaar van uw bedrijfssoftware op maat, inclusief de broncode. Zo houdt u de controle over uw oplossing en zit u niet vast aan één leverancier. U kunt uw software op lange termijn verder laten ontwikkelen, aanpassen of door andere ontwikkelaars laten onderhouden. Wij kiezen voor transparante samenwerking en flexibiliteit op lange termijn.',
+        q: 'Krijg ik de broncode van mijn software?',
+        a: 'Ja. U krijgt de volledige broncode van uw software op maat en een blijvend gebruiksrecht voor uw eigen bedrijf. U mag de software laten hosten, onderhouden en aanpassen, ook door een andere ontwikkelaar naar keuze. U kunt dus altijd zonder ons verder. De intellectuele eigendom blijft bij semanu: de software mag niet verkocht, in licentie gegeven of voor andere bedrijven gekopieerd worden. Uw gegevens en uw eigen inhoud blijven van u.',
       },
     ],
   },
@@ -57,7 +57,7 @@ export const AI_NATIVE_FAQ: Record<ServicesLocale, AiNativeFaq> = {
       },
       {
         q: 'How much does custom business software cost to develop?',
-        a: 'The cost depends on the scope of features, the complexity and the integrations required. Thanks to our AI-first development method we can build custom software more efficiently. You do not have to invest in a complete platform straight away: you can start with a single feature and expand it step by step. In a first conversation we clarify your requirements and prepare a suitable quote.',
+        a: 'The cost depends on the scope of features, the complexity and the integrations required. Thanks to our AI-first development method we can build custom software more efficiently. You do not have to invest in a complete platform straight away: you can start with a single feature and expand it step by step. You pay a one-off implementation fee and then a monthly fee for SLA, hosting and maintenance. In a first conversation we clarify your requirements and prepare a suitable quote.',
       },
       {
         q: 'How long does it take to develop custom software?',
@@ -80,8 +80,8 @@ export const AI_NATIVE_FAQ: Record<ServicesLocale, AiNativeFaq> = {
         a: 'AI can support or automate many repetitive tasks in your company. Examples include handling customer enquiries, drawing up quotes, analysing documents or preparing production data. Which processes are worth automating depends on how you work today. Together we work out where AI adds the most value.',
       },
       {
-        q: 'Who owns the software and the source code?',
-        a: 'At semanu you become the owner of your custom business software, including the source code. You stay in control of your solution and are not permanently tied to a single supplier. You can continue to develop and adapt your software over the long term or have other developers maintain it. We believe in transparent collaboration and long-term flexibility.',
+        q: 'Do I get the source code of my software?',
+        a: 'Yes. You receive the full source code of your custom software and a perpetual right to use it for your own company. You may have it hosted, maintained and modified, also by another developer of your choice. So you can always continue without us. The intellectual property stays with semanu: the software may not be sold, licensed or copied for other companies. Your data and your own content remain yours.',
       },
     ],
   },
@@ -94,7 +94,7 @@ export const AI_NATIVE_FAQ: Record<ServicesLocale, AiNativeFaq> = {
       },
       {
         q: 'Was kostet die Entwicklung einer individuellen Unternehmenssoftware?',
-        a: 'Die Kosten hängen vom Funktionsumfang, der Komplexität und den benötigten Integrationen ab. Dank unserer AI-first Entwicklungsmethode können wir maßgeschneiderte Software effizienter entwickeln. Sie müssen nicht direkt in eine komplette Plattform investieren, sondern können mit einer einzelnen Funktion starten und diese schrittweise erweitern. In einem ersten Gespräch klären wir Ihre Anforderungen und erstellen ein passendes Angebot.',
+        a: 'Die Kosten hängen vom Funktionsumfang, der Komplexität und den benötigten Integrationen ab. Dank unserer AI-first Entwicklungsmethode können wir maßgeschneiderte Software effizienter entwickeln. Sie müssen nicht direkt in eine komplette Plattform investieren, sondern können mit einer einzelnen Funktion starten und diese schrittweise erweitern. Sie zahlen eine einmalige Implementierung und danach einen Monatsbetrag für SLA, Hosting und Wartung. In einem ersten Gespräch klären wir Ihre Anforderungen und erstellen ein passendes Angebot.',
       },
       {
         q: 'Wie lange dauert die Entwicklung einer individuellen Software?',
@@ -117,8 +117,8 @@ export const AI_NATIVE_FAQ: Record<ServicesLocale, AiNativeFaq> = {
         a: 'KI kann zahlreiche wiederkehrende Aufgaben in Ihrem Unternehmen unterstützen oder automatisieren. Dazu gehören beispielsweise die Verarbeitung von Kundenanfragen, die Erstellung von Angeboten, die Auswertung von Dokumenten oder die Aufbereitung von Produktionsdaten. Welche Prozesse sich sinnvoll automatisieren lassen, hängt von Ihren bestehenden Abläufen ab. Wir analysieren gemeinsam, wo KI den größten Mehrwert bietet.',
       },
       {
-        q: 'Wem gehört die entwickelte Software und der Quellcode?',
-        a: 'Bei semanu werden Sie Eigentümer Ihrer individuell entwickelten Unternehmenssoftware, einschließlich des Quellcodes. Dadurch behalten Sie die Kontrolle über Ihre Lösung und sind nicht dauerhaft an einen einzelnen Anbieter gebunden. Sie können Ihre Software langfristig weiterentwickeln, anpassen oder durch andere Entwickler betreuen lassen. Wir setzen auf transparente Zusammenarbeit und langfristige Flexibilität.',
+        q: 'Erhalte ich den Quellcode meiner Software?',
+        a: 'Ja. Sie erhalten den vollständigen Quellcode Ihrer individuellen Software und ein unbefristetes Nutzungsrecht für Ihr eigenes Unternehmen. Sie dürfen die Software hosten, warten und anpassen lassen, auch durch einen anderen Entwickler Ihrer Wahl. Sie können also jederzeit ohne uns weitermachen. Das geistige Eigentum bleibt bei semanu: Die Software darf nicht verkauft, lizenziert oder für andere Unternehmen kopiert werden. Ihre Daten und Ihre eigenen Inhalte bleiben Ihr Eigentum.',
       },
     ],
   },
@@ -131,7 +131,7 @@ export const AI_NATIVE_FAQ: Record<ServicesLocale, AiNativeFaq> = {
       },
       {
         q: 'Combien coûte le développement d’un logiciel d’entreprise sur mesure ?',
-        a: 'Le coût dépend des fonctionnalités, de la complexité et des intégrations nécessaires. Grâce à notre méthode de développement AI-first, nous développons des logiciels sur mesure plus efficacement. Vous n’êtes pas obligé d’investir d’emblée dans une plateforme complète. Vous pouvez commencer par une seule fonction et l’étendre progressivement. Lors d’un premier entretien, nous clarifions vos besoins et établissons un devis adapté.',
+        a: 'Le coût dépend des fonctionnalités, de la complexité et des intégrations nécessaires. Grâce à notre méthode de développement AI-first, nous développons des logiciels sur mesure plus efficacement. Vous n’êtes pas obligé d’investir d’emblée dans une plateforme complète. Vous pouvez commencer par une seule fonction et l’étendre progressivement. Vous payez une implémentation unique puis un montant mensuel pour le SLA, l’hébergement et la maintenance. Lors d’un premier entretien, nous clarifions vos besoins et établissons un devis adapté.',
       },
       {
         q: 'Quelle est la durée de développement d’un logiciel sur mesure ?',
@@ -154,8 +154,8 @@ export const AI_NATIVE_FAQ: Record<ServicesLocale, AiNativeFaq> = {
         a: 'L’AI peut soutenir ou automatiser de nombreuses tâches répétitives dans votre entreprise. Pensez au traitement des demandes clients, à l’établissement de devis, à l’analyse de documents ou à la préparation de données de production. Les processus qu’il est judicieux d’automatiser dépendent de votre fonctionnement actuel. Ensemble, nous analysons où l’AI apporte la plus grande valeur ajoutée.',
       },
       {
-        q: 'À qui appartiennent le logiciel développé et le code source ?',
-        a: 'Chez semanu, vous devenez propriétaire de votre logiciel d’entreprise sur mesure, code source compris. Vous gardez ainsi le contrôle de votre solution et vous n’êtes pas lié durablement à un seul fournisseur. Vous pouvez faire évoluer votre logiciel à long terme, l’adapter ou en confier la maintenance à d’autres développeurs. Nous misons sur une collaboration transparente et une flexibilité à long terme.',
+        q: 'Est-ce que je reçois le code source de mon logiciel ?',
+        a: 'Oui. Vous recevez le code source complet de votre logiciel sur mesure et un droit d’utilisation permanent pour votre propre entreprise. Vous pouvez le faire héberger, maintenir et modifier, y compris par un autre développeur de votre choix. Vous pouvez donc toujours continuer sans nous. La propriété intellectuelle reste chez semanu : le logiciel ne peut être ni vendu, ni concédé sous licence, ni copié pour d’autres entreprises. Vos données et vos propres contenus restent les vôtres.',
       },
     ],
   },
@@ -168,7 +168,7 @@ export const AI_NATIVE_FAQ: Record<ServicesLocale, AiNativeFaq> = {
       },
       {
         q: '¿Cuánto cuesta desarrollar software empresarial a medida?',
-        a: 'El coste depende de las funcionalidades, la complejidad y las integraciones necesarias. Gracias a nuestro método de desarrollo AI-first podemos desarrollar software a medida de forma más eficiente. No tiene que invertir de entrada en una plataforma completa: puede empezar con una sola función y ampliarla paso a paso. En una primera conversación aclaramos sus necesidades y preparamos un presupuesto adecuado.',
+        a: 'El coste depende de las funcionalidades, la complejidad y las integraciones necesarias. Gracias a nuestro método de desarrollo AI-first podemos desarrollar software a medida de forma más eficiente. No tiene que invertir de entrada en una plataforma completa: puede empezar con una sola función y ampliarla paso a paso. Paga una implementación única y después una cuota mensual por el SLA, el alojamiento y el mantenimiento. En una primera conversación aclaramos sus necesidades y preparamos un presupuesto adecuado.',
       },
       {
         q: '¿Cuánto tiempo lleva desarrollar software a medida?',
@@ -191,8 +191,8 @@ export const AI_NATIVE_FAQ: Record<ServicesLocale, AiNativeFaq> = {
         a: 'La AI puede apoyar o automatizar numerosas tareas repetitivas en su empresa. Piense en el tratamiento de consultas de clientes, la elaboración de presupuestos, el análisis de documentos o la preparación de datos de producción. Qué procesos conviene automatizar depende de su forma de trabajar actual. Juntos analizamos dónde aporta la AI el mayor valor.',
       },
       {
-        q: '¿De quién son el software desarrollado y el código fuente?',
-        a: 'En semanu usted se convierte en propietario de su software empresarial a medida, incluido el código fuente. Así mantiene el control sobre su solución y no queda ligado de forma permanente a un único proveedor. Puede seguir desarrollando su software a largo plazo, adaptarlo o encargar su mantenimiento a otros desarrolladores. Apostamos por una colaboración transparente y por la flexibilidad a largo plazo.',
+        q: '¿Recibo el código fuente de mi software?',
+        a: 'Sí. Recibe el código fuente completo de su software a medida y un derecho de uso permanente para su propia empresa. Puede encargar su alojamiento, mantenimiento y adaptación, también a otro desarrollador de su elección. Así siempre puede continuar sin nosotros. La propiedad intelectual sigue siendo de semanu: el software no puede venderse, licenciarse ni copiarse para otras empresas. Sus datos y sus propios contenidos siguen siendo suyos.',
       },
     ],
   },

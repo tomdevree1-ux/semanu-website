@@ -111,9 +111,9 @@ const GROUP_NAMES: Record<FaqLocale, { configurators: string; software: string; 
 // General questions about working with semanu. Every fact here is already stated
 // elsewhere on the site: reply within one working day and no obligation (contact
 // page), written quote in EUR excl. VAT and prices on request (llms.txt, service
-// FAQs), direct contact with the founder (about page), ownership of the source code
-// (business software FAQ), one-off implementation plus monthly subscription for
-// configurators (3D configurator FAQ), EU hosting at Hetzner in Germany or Finland,
+// FAQs), direct contact with the founder (about page), source code plus usage right
+// with IP staying at semanu (business software FAQ), one-off implementation plus a monthly
+// fee for SLA, hosting and maintenance (3D configurator and business software FAQ), EU hosting at Hetzner in Germany or Finland,
 // five languages and ongoing support (llms.txt, contact page, service process steps).
 const WORKING_WITH_US: Record<FaqLocale, FaqQA[]> = {
   nl: [
@@ -123,15 +123,15 @@ const WORKING_WITH_US: Record<FaqLocale, FaqQA[]> = {
     },
     {
       q: 'Wat kost een project?',
-      a: 'Prijzen zijn op aanvraag. Elk project krijgt een schriftelijke offerte op basis van de scope die we samen afbakenen. Alle bedragen zijn in euro, exclusief btw.',
+      a: 'Prijzen zijn op aanvraag. U betaalt een eenmalige implementatie en daarna een maandbedrag voor SLA, hosting en onderhoud. Elk project krijgt een schriftelijke offerte op basis van de scope die we samen afbakenen. Alle bedragen zijn in euro, exclusief btw.',
     },
     {
       q: 'Met wie werk ik samen?',
       a: 'semanu wordt geleid door oprichter Tom de Vree en is gevestigd in Antwerpen. U praat rechtstreeks met de persoon die uw oplossing bouwt en onderhoudt, niet met een anoniem ticketsysteem. We werken met kmo’s en fabrikanten in heel Europa.',
     },
     {
-      q: 'Van wie is de broncode?',
-      a: 'Bij bedrijfssoftware op maat wordt u eigenaar van de software, inclusief de broncode. Zo zit u niet vast aan één leverancier. Bij een 3D-configurator staat in de offerte wat de eenmalige implementatie en het maandelijkse abonnement precies omvatten.',
+      q: 'Wat mag ik met de broncode doen?',
+      a: 'U krijgt de volledige broncode en een blijvend gebruiksrecht voor uw eigen bedrijf. U mag de software laten hosten, onderhouden en aanpassen, ook door een andere ontwikkelaar. U kunt dus altijd zonder ons verder. De intellectuele eigendom blijft bij semanu: de software mag niet verkocht, in licentie gegeven of voor andere bedrijven gekopieerd worden.',
     },
     {
       q: 'Waar worden de oplossingen gehost?',
@@ -153,15 +153,15 @@ const WORKING_WITH_US: Record<FaqLocale, FaqQA[]> = {
     },
     {
       q: 'What does a project cost?',
-      a: 'Prices are on request. Every project gets a written quote based on the scope we define together. All amounts are in euro, excluding VAT.',
+      a: 'Prices are on request. You pay a one-off implementation fee and then a monthly fee for SLA, hosting and maintenance. Every project gets a written quote based on the scope we define together. All amounts are in euro, excluding VAT.',
     },
     {
       q: 'Who will I be working with?',
       a: 'semanu is led by founder Tom de Vree and is based in Antwerp. You talk directly to the person who builds and maintains your solution, not to an anonymous ticket system. We work with SMEs and manufacturers across Europe.',
     },
     {
-      q: 'Who owns the source code?',
-      a: 'With custom business software you become the owner of the software, including the source code. That way you are not tied to a single supplier. For a 3D configurator the quote sets out exactly what the one-off implementation and the monthly subscription include.',
+      q: 'What may I do with the source code?',
+      a: 'You receive the full source code and a perpetual right to use it for your own company. You may have the software hosted, maintained and modified, also by another developer. So you can always continue without us. The intellectual property stays with semanu: the software may not be sold, licensed or copied for other companies.',
     },
     {
       q: 'Where are the solutions hosted?',
@@ -183,15 +183,15 @@ const WORKING_WITH_US: Record<FaqLocale, FaqQA[]> = {
     },
     {
       q: 'Was kostet ein Projekt?',
-      a: 'Preise auf Anfrage. Jedes Projekt erhält ein schriftliches Angebot auf Basis des Umfangs, den wir gemeinsam festlegen. Alle Beträge verstehen sich in Euro, zuzüglich MwSt.',
+      a: 'Preise auf Anfrage. Sie zahlen eine einmalige Implementierung und danach einen Monatsbetrag für SLA, Hosting und Wartung. Jedes Projekt erhält ein schriftliches Angebot auf Basis des Umfangs, den wir gemeinsam festlegen. Alle Beträge verstehen sich in Euro, zuzüglich MwSt.',
     },
     {
       q: 'Mit wem arbeite ich zusammen?',
       a: 'semanu wird von Gründer Tom de Vree geführt und hat seinen Sitz in Antwerpen. Sie sprechen direkt mit der Person, die Ihre Lösung entwickelt und betreut, nicht mit einem anonymen Ticketsystem. Wir arbeiten mit KMU und Herstellern in ganz Europa.',
     },
     {
-      q: 'Wem gehört der Quellcode?',
-      a: 'Bei maßgeschneiderter Unternehmenssoftware werden Sie Eigentümer der Software, einschließlich des Quellcodes. So sind Sie nicht an einen einzelnen Anbieter gebunden. Bei einem 3D-Konfigurator legt das Angebot fest, was die einmalige Implementierung und das monatliche Abo genau umfassen.',
+      q: 'Was darf ich mit dem Quellcode tun?',
+      a: 'Sie erhalten den vollständigen Quellcode und ein unbefristetes Nutzungsrecht für Ihr eigenes Unternehmen. Sie dürfen die Software hosten, warten und anpassen lassen, auch durch einen anderen Entwickler. Sie können also jederzeit ohne uns weitermachen. Das geistige Eigentum bleibt bei semanu: Die Software darf nicht verkauft, lizenziert oder für andere Unternehmen kopiert werden.',
     },
     {
       q: 'Wo werden die Lösungen gehostet?',
@@ -213,15 +213,15 @@ const WORKING_WITH_US: Record<FaqLocale, FaqQA[]> = {
     },
     {
       q: 'Combien coûte un projet ?',
-      a: 'Les prix sont sur demande. Chaque projet fait l’objet d’un devis écrit basé sur le périmètre que nous définissons ensemble. Tous les montants sont en euros, hors TVA.',
+      a: 'Les prix sont sur demande. Vous payez une implémentation unique puis un montant mensuel pour le SLA, l’hébergement et la maintenance. Chaque projet fait l’objet d’un devis écrit basé sur le périmètre que nous définissons ensemble. Tous les montants sont en euros, hors TVA.',
     },
     {
       q: 'Avec qui vais-je travailler ?',
       a: 'semanu est dirigé par son fondateur Tom de Vree et est basé à Anvers. Vous parlez directement à la personne qui construit et entretient votre solution, pas à un système de tickets anonyme. Nous travaillons avec des PME et des fabricants dans toute l’Europe.',
     },
     {
-      q: 'À qui appartient le code source ?',
-      a: 'Pour un logiciel d’entreprise sur mesure, vous devenez propriétaire du logiciel, code source compris. Vous n’êtes donc pas lié à un seul fournisseur. Pour un configurateur 3D, le devis précise ce que comprennent l’implémentation unique et l’abonnement mensuel.',
+      q: 'Que puis-je faire du code source ?',
+      a: 'Vous recevez le code source complet et un droit d’utilisation permanent pour votre propre entreprise. Vous pouvez faire héberger, maintenir et modifier le logiciel, y compris par un autre développeur. Vous pouvez donc toujours continuer sans nous. La propriété intellectuelle reste chez semanu : le logiciel ne peut être ni vendu, ni concédé sous licence, ni copié pour d’autres entreprises.',
     },
     {
       q: 'Où les solutions sont-elles hébergées ?',
@@ -243,15 +243,15 @@ const WORKING_WITH_US: Record<FaqLocale, FaqQA[]> = {
     },
     {
       q: '¿Cuánto cuesta un proyecto?',
-      a: 'Los precios son bajo petición. Cada proyecto recibe un presupuesto por escrito según el alcance que definimos juntos. Todos los importes son en euros, sin IVA.',
+      a: 'Los precios son bajo petición. Paga una implementación única y después una cuota mensual por el SLA, el alojamiento y el mantenimiento. Cada proyecto recibe un presupuesto por escrito según el alcance que definimos juntos. Todos los importes son en euros, sin IVA.',
     },
     {
       q: '¿Con quién voy a trabajar?',
       a: 'semanu está dirigida por su fundador Tom de Vree y tiene su sede en Amberes. Usted habla directamente con la persona que desarrolla y mantiene su solución, no con un sistema de tickets anónimo. Trabajamos con pymes y fabricantes de toda Europa.',
     },
     {
-      q: '¿De quién es el código fuente?',
-      a: 'Con el software empresarial a medida usted se convierte en propietario del software, incluido el código fuente. Así no queda ligado a un único proveedor. En el caso de un configurador 3D, el presupuesto detalla qué incluyen exactamente la implementación única y la cuota mensual.',
+      q: '¿Qué puedo hacer con el código fuente?',
+      a: 'Recibe el código fuente completo y un derecho de uso permanente para su propia empresa. Puede encargar el alojamiento, el mantenimiento y la adaptación del software, también a otro desarrollador. Así siempre puede continuar sin nosotros. La propiedad intelectual sigue siendo de semanu: el software no puede venderse, licenciarse ni copiarse para otras empresas.',
     },
     {
       q: '¿Dónde se alojan las soluciones?',
