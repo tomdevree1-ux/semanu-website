@@ -31,13 +31,19 @@ eigen database. Het contactformulier gaat server side naar de bestaande SEMANU-b
   (`src/middleware.ts`). Nieuwe pagina's en blogs krijgen meteen een Engelse slug.
 - **Geen algemene voorwaarden op de site (beslissing oktober 2026):** `/terms` en `/agb` 301'en naar
   `/legal-notice`. Toestemmingen in formulieren verwijzen enkel naar de privacyverklaring.
-- **Blogs (oktober 2026):** enkel `ai-native-digital-business` en `getting-found-by-ai`. De blogs over
+- **Blogs (oktober 2026):** enkel `ai-first-digital-business` (vroeger `ai-native-digital-business`, 301) en `getting-found-by-ai`. De blogs over
   websites, SEO en het website-abonnement zijn weg en 301'en (ook hun oude Duitse slugs) naar `/blog`.
   Nieuwe blogs gaan over AI, bedrijfssoftware of 3D-configuratoren.
 - **Breadcrumbs (beslissing oktober 2026):** geen zichtbaar kruimelpad op de site (klein, de navigatie volstaat).
   Wel `BreadcrumbList` JSON-LD op dieperliggende pagina's: dienstpagina's en configuratordemo's
   (Home → pagina), blogartikels (Home → Blog → artikel). Nooit een tussenstap naar een URL die redirect
   (`/services` bestaat niet).
+- **AI-first, niet AI-native (beslissing oktober 2026):** in elke taal "AI-first" met koppelteken als
+  bijvoeglijk naamwoord ("een AI-first bedrijf", "ein AI-first Unternehmen", "une entreprise AI-first",
+  "una empresa AI-first"). Betekenis: AI bij elke stap voorop, de controle blijft bij mensen. Interne ids als
+  `ai-native` (dienst-id, interessewaarde in het formulier) blijven ongewijzigd.
+- **Democonfigurators:** elke ingebouwde demo krijgt `DemoNotice` (`src/components/configurator/DemoNotice.tsx`):
+  aanvragen en bestellingen worden er niet verwerkt.
 - **Prijzen:** nergens bedragen op de site; overal "op aanvraag" (per taal). Valuta EUR, excl. btw.
 - **Doelgroep (beslissing oktober 2026):** Europees en landneutraal ("KMU in Europa", "SMEs in Europe" waar een
   regio helpt, anders gewoon "KMU/SMEs/kmo's"). Locatie alleen waar ze hoort: bedrijfsgegevens (Antwerpen, België)
