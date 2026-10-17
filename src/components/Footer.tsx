@@ -18,7 +18,6 @@ const COMPANY_LINKS = [
 const LEGAL_LINKS = [
   { key: 'imprint', href: '/legal-notice' },
   { key: 'privacy', href: '/privacy' },
-  { key: 'gtc', href: '/terms' },
 ] as const;
 
 const headingCls = 'font-mono text-xs uppercase tracking-widest text-spark';

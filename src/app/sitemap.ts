@@ -23,7 +23,6 @@ const PATHS = [
   '/contact',
   '/about',
   '/privacy',
-  '/terms',
   '/legal-notice',
   '/references',
 ];

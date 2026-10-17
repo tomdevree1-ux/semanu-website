@@ -111,7 +111,9 @@ const nextConfig = {
       ['kontakt', '/contact'],
       ['datenschutz', '/privacy'],
       ['impressum', '/legal-notice'],
-      ['agb', '/terms'],
+      // The general terms page was removed (2026-10); its URLs go to the legal notice.
+      ['agb', '/legal-notice'],
+      ['terms', '/legal-notice'],
       ['referenzen', '/references'],
       // The landing pages were removed (2026-10); their URLs and every older
       // slug that pointed at them go straight to the matching service page.
