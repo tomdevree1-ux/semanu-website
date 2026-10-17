@@ -1,8 +1,8 @@
 ---
-title: "Cyberattacks are no longer the exception: how we protect websites and web applications better"
-description: "Bots, spam, DDoS and automated scans are now part of daily life online. We build security into websites and web applications by default and rely on Cloudflare, Vercel and deliberate choices."
+title: "Cyberattacks are no longer the exception: how to protect websites and web applications better"
+description: "Bots, spam, DDoS and automated scans are now part of daily life online. How to build security into websites and web applications by default with deliberate choices."
 date: "2026-01-14"
-updated: "2026-10-16"
+updated: "2026-10-17"
 author: "Tom"
 authorImage: "/team/tom.png"
 cover: "/blog/website-security-cover.svg"
@@ -10,7 +10,7 @@ cover: "/blog/website-security-cover.svg"
 
 Websites and web applications have to withstand more today than ever before. Bots, spam, brute force attempts, DDoS attacks, suspicious login attempts, form abuse and automated scans have become a daily reality for many businesses. As a visitor you often notice none of it. Behind the scenes, however, there are constant attempts to find weak spots.
 
-That is why cybersecurity is not an extra that we add afterwards. We build security into the way we design, host and maintain websites, web applications and [digital platforms](/en/services/business-software) by default.
+That is why cybersecurity should not be an extra that gets added afterwards. Security belongs in the way a website, a web application or [custom business software](/en/services/business-software) is designed, hosted and maintained from the start.
 
 ## The reality: every website is a target
 
@@ -20,26 +20,26 @@ Most attacks are not personal. They are run automatically by bots that scan the 
 
 A simple business website can therefore become a target just as easily as a larger application. Not because someone wants to attack that specific business but because automated systems are constantly looking for the easiest way in.
 
-## Our approach: security by default
+## The approach: security by default
 
-We build websites not only with care for design, speed and ease of use but also with care for stability and protection.
+A good website is built not only with care for design, speed and ease of use but also with care for stability and protection.
 
-That means we think about questions like these on every project:
+That means asking questions like these on every project:
 
-- How do we limit unwanted traffic?
-- How do we protect forms against spam and abuse?
-- How do we make sure visitors connect securely over HTTPS?
-- How do we limit risk during traffic spikes or attacks?
-- How do we keep hosting, DNS and application layers clear and reliable?
-- How do we avoid security hurting the user experience?
+- How do you limit unwanted traffic?
+- How do you protect forms against spam and abuse?
+- How do you make sure visitors connect securely over HTTPS?
+- How do you limit risk during traffic spikes or attacks?
+- How do you keep hosting, DNS and application layers clear and reliable?
+- How do you avoid security hurting the user experience?
 
-Security for us is not a one time setting. It is a combination of good infrastructure, deliberate choices and solid maintenance.
+Security is not a one time setting. It is a combination of good infrastructure, deliberate choices and solid maintenance.
 
-## Cloudflare as a standard protective layer for websites
+## A protective layer in front of the website
 
-For many websites we use Cloudflare by default as an extra layer between visitors and the server the website runs on.
+For many websites a protective service such as Cloudflare is a sensible extra layer between visitors and the server the website runs on.
 
-Cloudflare helps with things like:
+Such a layer helps with things like:
 
 - protection against common DDoS attacks
 - fast and reliable DNS
@@ -49,30 +49,28 @@ Cloudflare helps with things like:
 - caching of static files for better performance
 - extra control over firewall rules, redirects and access restrictions
 
-The big advantage is that Cloudflare can stop a lot of unwanted traffic before it reaches the website or the server. That keeps the website more stable, faster and better protected.
+The big advantage is that a lot of unwanted traffic is stopped before it reaches the website or the server. That keeps the website more stable, faster and better protected.
 
-We do not switch on every feature blindly. Every website is different. A simple business website needs a different approach than a webshop, a members platform or an application with a login area. So we configure Cloudflare carefully, so that security and ease of use stay in balance.
+Do not switch on every feature blindly, though. Every website is different. A simple business website needs a different approach than a webshop, a members platform or an application with a login area. Configure the protective layer carefully, so that security and ease of use stay in balance.
 
-## For web applications we often work with Vercel
+## A hosting platform with safe deployments
 
-For modern web applications and front end projects we often work with Vercel. Vercel is built for fast, scalable and reliable web applications.
+For web applications the hosting platform matters as much as the code. Look for a platform that offers:
 
-The platform offers important advantages around performance, reliability and deployment:
-
-- fast worldwide delivery over edge infrastructure
 - automatic HTTPS
 - stable deployments and rollbacks
-- preview environments for testing
+- separate test environments next to the live version
 - scalability during traffic spikes
-- good integration with modern frameworks like Next.js
+- regular backups
+- hosting in the EU when you process personal data of European customers
 
-For clients this means new features can be tested safely before they go live, that updates are rolled out in a controlled way and that applications are better prepared for growth.
+For the business this means new features can be tested safely before they go live, that updates are rolled out in a controlled way and that applications are better prepared for growth.
 
 ## Security is more than one tool
 
-Cloudflare and Vercel are strong choices. But cybersecurity is not about one tool or one setting. It is about the whole picture.
+A protective layer and a good hosting platform are strong choices. But cybersecurity is not about one tool or one setting. It is about the whole picture.
 
-That is why we also look at things like:
+That is why it also pays to look at things like:
 
 - strong passwords and where possible two factor authentication
 - correctly configured DNS records
@@ -87,32 +85,32 @@ That is why we also look at things like:
 
 A secure website starts with the basics. The less unnecessary complexity, the smaller the risk of mistakes.
 
-## Flexible to the client's wishes
+## No single right setup
 
-Although we often recommend Cloudflare and Vercel, we do not impose a fixed solution. Some clients already work with their own IT partner, hosting provider or existing infrastructure. Other clients have specific compliance requirements or internal preferences.
+There is no fixed solution that suits every business. Some businesses already work with their own IT partner, hosting provider or existing infrastructure. Others have specific compliance requirements or internal preferences.
 
 That is not a problem.
 
-If a client prefers a different solution, we think along. Together we look at what makes technical sense, what the risks are and how we can use the chosen infrastructure as securely and reliably as possible.
+What matters is to look at what makes technical sense, what the risks are and how the chosen infrastructure can be used as securely and reliably as possible.
 
-Our starting point always stays the same: the website or application has to be fast, stable, maintainable and secure.
+The starting point always stays the same: the website or application has to be fast, stable, maintainable and secure.
 
 ## No empty promises, just deliberate choices
 
 No party can guarantee that a website is "100 percent secure." Cybersecurity keeps changing and attackers always look for new ways to abuse systems.
 
-What we can do is take risks seriously and make deliberate choices from the start.
+What you can do is take risks seriously and make deliberate choices from the start.
 
-We build not only for how a website looks but also for how it behaves under pressure. What happens during a traffic spike? What happens with spam? What happens when bots scan the website? What happens when someone tries to force their way in?
+Build not only for how a website looks but also for how it behaves under pressure. What happens during a traffic spike? What happens with spam? What happens when bots scan the website? What happens when someone tries to force their way in?
 
-By thinking about that in advance, we reduce the chance of problems and create more trust, both for our clients and for their visitors.
+Thinking about that in advance reduces the chance of problems and creates more trust with your visitors.
 
 ## Trust starts with a strong digital foundation
 
 A website is often the first point of contact between a business and a customer. So that website should not only be attractive and clear. It should also feel reliable and be technically well protected.
 
-That is why we build cybersecurity into our work by default. Not as scare talk but as a professional part of modern web development.
+That is why cybersecurity belongs in every web project by default. Not as scare talk but as a professional part of modern web development.
 
-Whether it is a business website, a landing page, a webshop or a web application: we make sure the technical foundation is right, that the right protective layers are in place and that clients know what they can rely on.
+Whether it is a business website, a landing page, a webshop or a web application: make sure the technical foundation is right, that the right protective layers are in place and that you know what you can rely on.
 
 Because a good website should not only be online. It should also stay secure, fast and reliable.

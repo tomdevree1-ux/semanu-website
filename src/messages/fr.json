@@ -36,7 +36,6 @@
     "servicesMore": "Plus",
     "servicesAll": "Tous les services",
     "howDesc": "Notre processus en cinq étapes",
-    "plansDesc": "Abonnements web et prix",
     "faqDesc": "Réponses aux questions fréquentes",
     "aboutDesc": "Qui se cache derrière semanu",
     "blogDesc": "Idées et conseils sur les sites",
@@ -59,15 +58,13 @@
       "imprint": "Mentions légales",
       "privacy": "Protection des données",
       "gtc": "Conditions générales",
-      "subTerms": "Conditions d’abonnement",
       "cookies": "Cookies",
       "contactPrefs": "Préférences de contact"
     }
   },
   "common": {
     "skipToContent": "Aller au contenu",
-    "learnMore": "En savoir plus",
-    "vatNote": "Tous les prix hors TVA. Abonnements site avec durée minimale de 36 mois, ensuite résiliables chaque mois."
+    "learnMore": "En savoir plus"
   },
   "contact": {
     "eyebrow": "Contact",

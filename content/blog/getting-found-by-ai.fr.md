@@ -42,9 +42,9 @@ Pour une petite entreprise, une mention vaut donc plus que jamais. L'IA montre r
 Cette boucle de vérification et d'amélioration est le cœur du sujet. On peut l'appeler le Feedback Loop : chaque mois, vérifiez comment vous apparaissez sur Google et dans les réponses IA. Ainsi vous corrigez avant qu'un écart ne vous coûte des clients.
 
 <div style="margin:2.5rem 0;padding:1.5rem 1.75rem;border-radius:0.75rem;background:#E9F3EE;border:1px solid #C7EBD8">
-  <strong style="display:block;font-size:1.15rem;color:#16233D;margin-bottom:0.4rem">L'IA cite-t-elle déjà votre entreprise aujourd'hui ?</strong>
-  <p style="margin:0 0 1rem;color:#5B667C">Nous le vérifions gratuitement. Vous saurez si et comment ChatGPT, Perplexity et Google vous citent dans votre région. Nous vous indiquons aussi le premier pas le plus rapide.</p>
-  <a href="/fr/contact"><strong>Demander un check gratuit →</strong></a>
+  <strong style="display:block;font-size:1.15rem;color:#16233D;margin-bottom:0.4rem">Et si l'IA travaillait aussi dans votre entreprise ?</strong>
+  <p style="margin:0 0 1rem;color:#5B667C"><span class="brand-mark">semanu</span> développe des logiciels d'entreprise sur mesure et des configurateurs 3D propulsés par l'IA. Dites-nous ce que vous voulez atteindre. Ensemble, nous définissons la première étape.</p>
+  <a href="/fr/contact"><strong>Prendre contact →</strong></a>
 </div>
 
 ## SEO ou GEO, lequel alors ?

@@ -1,13 +1,17 @@
-// FAQ "Orbit" content, ported from the approved design prototype and cleaned to
-// semanu house style (no em/en dashes, no hyphenated compounds, standard German spelling (ß), "AI"
-// stays "AI", French curly apostrophes, no comma before a coordinating
-// conjunction). One block per locale; accent, price and icon are shared across
-// languages, while name, tagline and faqs are localized. The icon strings are
-// the design's inline SVG verbatim (used inside the planet discs + panel head).
+// FAQ page content (/faq), one block per locale, grouped by topic:
+//   1. 3D configurators    -> reuses the FAQ of /services/3d-configurators (serviceDetail.ts)
+//   2. Business software   -> reuses the FAQ of /services/business-software (aiNativeFaq.ts)
+//                             plus two workflow automation questions (serviceDetail.ts)
+//   3. Working with semanu -> general questions, only with facts already stated on the site
+//                             (contact page, about page, llms.txt, service FAQs)
+// Reusing the service FAQs keeps the answers in one place; edit them there.
 //
-// NOTE: this file is generated from faq-data.json by scripts and then committed
-// as plain TS. Edit the data here directly; keep all three locales in parity
-// (same ids, same order, same faq count).
+// House style in every language: no em/en dashes, no comma before a coordinating
+// conjunction, standard German spelling (ß), no prices (only "on request").
+// All five locales keep the same groups in the same order with the same counts.
+
+import { AI_NATIVE_FAQ } from './aiNativeFaq';
+import { getServiceDetail } from './serviceDetail';
 
 export type FaqLocale = 'de' | 'fr' | 'en' | 'es' | 'nl';
 
@@ -15,14 +19,9 @@ export type FaqQA = { q: string; a: string };
 
 export type FaqService = {
   id: string;
-  /** oklch accent string used as --ac for the planet disc + panel head. */
+  /** oklch accent string used for the dot next to the group heading. */
   accent: string;
-  /** Legacy "from" price; not rendered. */
-  price: number;
-  /** inline SVG markup (verbatim from the design). */
-  icon: string;
   name: string;
-  tagline: string;
   faqs: FaqQA[];
 };
 
@@ -31,644 +30,281 @@ export type FaqUi = {
   heroH1a: string;
   heroH1b: string;
   heroSub: string;
-  openHint: string;
-  faqLabel: string;
   askMore: string;
   ctaStart: string;
-  from: string;
-  perMonth: string;
-  onRequest: string;
-  counter: string;
-  close: string;
+  searchPlaceholder: string;
+  searchEmpty: string;
+  searchClear: string;
 };
 
 export const FAQ_UI: Record<FaqLocale, FaqUi> = {
-  de: {
-    brandTag: "FAQ · Services",
-    heroH1a: "Acht Services.",
-    heroH1b: "Alle Antworten.",
-    heroSub: "Wählen Sie einen Service. Die passenden Fragen und Antworten klappen direkt auf.",
-    openHint: "Antippen zum Öffnen",
-    faqLabel: "Häufige Fragen",
-    askMore: "Noch eine Frage? Schreiben Sie uns",
-    ctaStart: "Jetzt starten",
-    from: "ab",
-    perMonth: "/ Monat",
-    onRequest: "Auf Anfrage",
-    counter: "Service",
-    close: "Schließen",
-  },
-  fr: {
-    brandTag: "FAQ · Services",
-    heroH1a: "Huit services.",
-    heroH1b: "Toutes les réponses.",
-    heroSub: "Choisissez un service. Les questions et réponses correspondantes s’ouvrent directement.",
-    openHint: "Touchez pour ouvrir",
-    faqLabel: "Questions fréquentes",
-    askMore: "Une autre question ? On vous répond",
-    ctaStart: "Commencer",
-    from: "dès",
-    perMonth: "/ mois",
-    onRequest: "Sur demande",
-    counter: "Service",
-    close: "Fermer",
+  nl: {
+    brandTag: 'FAQ',
+    heroH1a: 'Twee diensten.',
+    heroH1b: 'Alle antwoorden.',
+    heroSub:
+      'Vragen over 3D-configuratoren, bedrijfssoftware op maat en samenwerken met semanu, op één pagina. Zoek meteen of blader per thema.',
+    askMore: 'Nog een vraag? Schrijf ons',
+    ctaStart: 'Nu starten',
+    searchPlaceholder: 'Zoek in de vragen…',
+    searchEmpty: 'Geen resultaten voor',
+    searchClear: 'Zoekopdracht wissen',
   },
   en: {
-    brandTag: "FAQ · Services",
-    heroH1a: "Eight services.",
-    heroH1b: "Every answer.",
-    heroSub: "Pick a service. The matching questions and answers unfold right away.",
-    openHint: "Tap to open",
-    faqLabel: "Frequently asked",
-    askMore: "Another question? Get in touch",
-    ctaStart: "Get started",
-    from: "from",
-    perMonth: "/ mo",
-    onRequest: "On request",
-    counter: "Service",
-    close: "Close",
+    brandTag: 'FAQ',
+    heroH1a: 'Two services.',
+    heroH1b: 'Every answer.',
+    heroSub:
+      'Questions about 3D configurators, custom business software and working with semanu, on one page. Search right away or browse by topic.',
+    askMore: 'Another question? Get in touch',
+    ctaStart: 'Get started',
+    searchPlaceholder: 'Search the questions…',
+    searchEmpty: 'No results for',
+    searchClear: 'Clear search',
+  },
+  de: {
+    brandTag: 'FAQ',
+    heroH1a: 'Zwei Leistungen.',
+    heroH1b: 'Alle Antworten.',
+    heroSub:
+      'Fragen zu 3D-Konfiguratoren, maßgeschneiderter Unternehmenssoftware und zur Zusammenarbeit mit semanu auf einer Seite. Suchen Sie direkt oder blättern Sie nach Thema.',
+    askMore: 'Noch eine Frage? Schreiben Sie uns',
+    ctaStart: 'Jetzt starten',
+    searchPlaceholder: 'Fragen durchsuchen…',
+    searchEmpty: 'Keine Treffer für',
+    searchClear: 'Suche zurücksetzen',
+  },
+  fr: {
+    brandTag: 'FAQ',
+    heroH1a: 'Deux services.',
+    heroH1b: 'Toutes les réponses.',
+    heroSub:
+      'Les questions sur les configurateurs 3D, les logiciels d’entreprise sur mesure et la collaboration avec semanu, sur une seule page. Cherchez directement ou parcourez par thème.',
+    askMore: 'Une autre question ? On vous répond',
+    ctaStart: 'Commencer',
+    searchPlaceholder: 'Rechercher dans les questions…',
+    searchEmpty: 'Aucun résultat pour',
+    searchClear: 'Réinitialiser la recherche',
   },
   es: {
-    brandTag: "FAQ · Servicios",
-    heroH1a: "Ocho servicios.",
-    heroH1b: "Todas las respuestas.",
-    heroSub: "Elija un servicio. Las preguntas y respuestas correspondientes se abren al instante.",
-    openHint: "Toque para abrir",
-    faqLabel: "Preguntas frecuentes",
-    askMore: "¿Otra pregunta? Escríbanos",
-    ctaStart: "Empezar ahora",
-    from: "desde",
-    perMonth: "/ mes",
-    onRequest: "Bajo petición",
-    counter: "Servicio",
-    close: "Cerrar",
-  },
-  nl: {
-    brandTag: "FAQ · Services",
-    heroH1a: "Acht services.",
-    heroH1b: "Alle antwoorden.",
-    heroSub: "Kies een service. De bijbehorende vragen en antwoorden klappen meteen open.",
-    openHint: "Tik om te openen",
-    faqLabel: "Veelgestelde vragen",
-    askMore: "Nog een vraag? Schrijf ons",
-    ctaStart: "Nu starten",
-    from: "vanaf",
-    perMonth: "/ maand",
-    onRequest: "Op aanvraag",
-    counter: "Service",
-    close: "Sluiten",
+    brandTag: 'FAQ',
+    heroH1a: 'Dos servicios.',
+    heroH1b: 'Todas las respuestas.',
+    heroSub:
+      'Preguntas sobre configuradores 3D, software empresarial a medida y cómo es trabajar con semanu, en una sola página. Busque directamente o explore por tema.',
+    askMore: '¿Otra pregunta? Escríbanos',
+    ctaStart: 'Empezar ahora',
+    searchPlaceholder: 'Buscar en las preguntas…',
+    searchEmpty: 'Sin resultados para',
+    searchClear: 'Borrar búsqueda',
   },
 };
 
-export const FAQ_SERVICES: Record<FaqLocale, FaqService[]> = {
-  de: [
+const GROUP_NAMES: Record<FaqLocale, { configurators: string; software: string; working: string }> = {
+  nl: { configurators: '3D-configuratoren', software: 'Bedrijfssoftware', working: 'Samenwerken met semanu' },
+  en: { configurators: '3D configurators', software: 'Business software', working: 'Working with semanu' },
+  de: { configurators: '3D-Konfiguratoren', software: 'Unternehmenssoftware', working: 'Zusammenarbeit mit semanu' },
+  fr: { configurators: 'Configurateurs 3D', software: 'Logiciel d’entreprise', working: 'Travailler avec semanu' },
+  es: { configurators: 'Configuradores 3D', software: 'Software empresarial', working: 'Trabajar con semanu' },
+};
+
+// General questions about working with semanu. Every fact here is already stated
+// elsewhere on the site: reply within one working day and no obligation (contact
+// page), written quote in EUR excl. VAT and prices on request (llms.txt, service
+// FAQs), direct contact with the founder (about page), ownership of the source code
+// (business software FAQ), one-off implementation plus monthly subscription for
+// configurators (3D configurator FAQ), EU hosting at Hetzner in Germany or Finland,
+// five languages and ongoing support (llms.txt, contact page, service process steps).
+const WORKING_WITH_US: Record<FaqLocale, FaqQA[]> = {
+  nl: [
     {
-      id: "business",
-      accent: "oklch(0.85 0.10 178)",
-      price: 99,
-      icon: "<svg viewBox=\"0 0 48 48\"><rect x=\"4\" y=\"6\" width=\"40\" height=\"32\" rx=\"4\"/><path d=\"M4 15h40\"/><circle class=\"fill\" cx=\"10\" cy=\"10.5\" r=\"1.4\"/><circle class=\"fill\" cx=\"15\" cy=\"10.5\" r=\"1.4\"/><path d=\"M10 22h17M10 28h28M10 33h22\"/></svg>",
-      name: "Business Website",
-      tagline: "Mehrseitig, bis 10 Seiten. Mehr Struktur, Vertrauen und SEO.",
-      faqs: [
-      { q: "Wie viele Seiten sind enthalten?", a: "Bis zu 10 Seiten mit klarer Struktur, mehr Inhalt und stärkerer SEO-Basis. Ideal, wenn Sie Leistungen, Team und Referenzen ausführlich zeigen wollen. Wenn Sie mehr brauchen, lassen sich jederzeit zusätzliche Seiten hinzufügen." },
-      { q: "Sind Hosting und Wartung inklusive?", a: "Ja. Hosting in der EU, SSL, Sicherheitsupdates und laufende Pflege sind im Monatspreis enthalten." },
-      { q: "Kann ich Inhalte ändern lassen?", a: "Kleine Anpassungen sind Teil der Betreuung. Sie schreiben uns kurz, wir setzen es zeitnah um, ohne dass Sie selbst im System arbeiten müssen." },
-      { q: "Was sind SEO- und GEO-Grundlagen?", a: "SEO hilft Suchmaschinen, Ihre Seite zu lesen und zu ranken. GEO hilft AI-Suchsystemen, Ihr Unternehmen zu verstehen und zu empfehlen. Beides ist von Anfang an enthalten. Konkrete Google Rankings können nicht garantiert werden." },
-      { q: "Erhalte ich ein individuelles Design oder eine Vorlage?", a: "Sie erhalten ein individuelles Design, das auf Ihr Unternehmen, Ihre Zielgruppe und Ihre Branche abgestimmt ist. Keine Templates und kein Baukastensystem. Vorhandenes Logo, Farben und Schriften werden berücksichtigt." },
-      { q: "Ist die Website auf dem Smartphone optimiert?", a: "Ja. Alle Websites von semanu werden nach dem Mobile First Prinzip entwickelt: zuerst für das Smartphone gestaltet und dann für Desktop und Tablet erweitert." },
-      { q: "Kann ich eine bestehende Website zu semanu übertragen?", a: "Das hängt von der bestehenden Technik ab. Sprechen Sie uns an und wir schauen gemeinsam, was möglich ist und welches Abo zu Ihrer Situation passt." },
-      { q: "Wie lange ist die Mindestlaufzeit?", a: "Die Mindestlaufzeit beträgt 36 Monate. Danach ist das Abo monatlich kündbar. Alle Preise verstehen sich exkl. MWST." },
-      ],
+      q: 'Hoe start een project met semanu?',
+      a: 'U neemt contact op via het contactformulier, per e-mail of telefonisch. Meestal krijgt u binnen één werkdag een persoonlijk antwoord, vrijblijvend. In een eerste gesprek brengen we uw noden in kaart. Daarna ontvangt u een schriftelijke offerte.',
     },
     {
-      id: "webshop",
-      accent: "oklch(0.84 0.10 196)",
-      price: 125,
-      icon: "<svg viewBox=\"0 0 48 48\"><path d=\"M7 9h5l3.2 21h21l3.5-15H15\"/><circle cx=\"19\" cy=\"40\" r=\"2.6\"/><circle cx=\"35\" cy=\"40\" r=\"2.6\"/></svg>",
-      name: "Webshop",
-      tagline: "Produkte, Zahlungen und Bestellungen, sauber und sicher.",
-      faqs: [
-      { q: "Welche Zahlungsarten werden unterstützt?", a: "Gängige Methoden wie Kartenzahlung und Überweisung, sicher abgewickelt. Weitere Zahlungsarten sind auf Wunsch möglich. Produkte, Bestellungen und den Versand richten wir gemeinsam ein." },
-      { q: "Wie viele Produkte kann ich verkaufen?", a: "So viele wie Sie brauchen. Der Shop wächst mit Ihrem Sortiment, von wenigen Produkten bis zu einem großen Katalog. Den Aufbau richten wir gemeinsam ein." },
-      { q: "Sind Hosting und Wartung inklusive?", a: "Ja. Hosting in der EU, SSL, Sicherheitsupdates und laufende Pflege sind im Monatspreis enthalten." },
-      { q: "Ist der Shop mobil optimiert?", a: "Ja, der Shop ist vollständig responsive und für den Kauf auf dem Smartphone optimiert, vom Stöbern bis zur Bezahlung." },
-      { q: "Kann ich den Shop mit meiner Website verbinden?", a: "Ja. Wir integrieren ihn in Ihren bestehenden Auftritt oder bauen Website und Shop von Anfang an als Einheit." },
-      { q: "Wie lange ist die Mindestlaufzeit?", a: "Die Mindestlaufzeit beträgt 36 Monate. Danach ist das Abo monatlich kündbar. Alle Preise verstehen sich exkl. MWST." },
-      ],
+      q: 'Wat kost een project?',
+      a: 'Prijzen zijn op aanvraag. Elk project krijgt een schriftelijke offerte op basis van de scope die we samen afbakenen. Alle bedragen zijn in euro, exclusief btw.',
     },
     {
-      id: "email",
-      accent: "oklch(0.84 0.10 212)",
-      price: 79,
-      icon: "<svg viewBox=\"0 0 48 48\"><rect x=\"5\" y=\"9\" width=\"38\" height=\"28\" rx=\"4\"/><path d=\"M7 12l17 13L41 12\"/></svg>",
-      name: "Email Marketing",
-      tagline: "Newsletter und Kampagnen, die Stammkunden zurückbringen.",
-      faqs: [
-      { q: "Was ist enthalten?", a: "Newsletter Vorlagen in Ihrem Design, Empfängerlisten, Versand und die Auswertung von Öffnungen und Klicks." },
-      { q: "Brauche ich eine eigene Empfängerliste?", a: "Nicht zwingend. Wir helfen beim sauberen, datenschutzkonformen Aufbau Ihrer Liste, damit Sie die richtigen Personen erreichen." },
-      { q: "Wie oft sollte ich versenden?", a: "Das hängt von Ihrem Geschäft ab. Wir empfehlen einen passenden Rhythmus und übernehmen auf Wunsch Konzept und Umsetzung." },
-      { q: "Ist das nach Datenschutzregeln erlaubt?", a: "Ja, wenn es auf Einwilligung beruht. Wir richten Anmeldeformulare und Zustimmung ein, damit Sie nur Menschen schreiben, die danach gefragt haben." },
-      { q: "Welches Tool nutzen Sie?", a: "Wir wählen eine zuverlässige Email Plattform, die zu Ihrer Größe und Ihrem Budget passt. Die Einrichtung übernehmen wir für Sie." },
-      ],
+      q: 'Met wie werk ik samen?',
+      a: 'semanu wordt geleid door oprichter Tom de Vree en is gevestigd in Antwerpen. U praat rechtstreeks met de persoon die uw oplossing bouwt en onderhoudt, niet met een anoniem ticketsysteem. We werken met kmo’s en fabrikanten in heel Europa.',
     },
     {
-      id: "automation",
-      accent: "oklch(0.83 0.10 228)",
-      price: 129,
-      icon: "<svg viewBox=\"0 0 48 48\"><circle cx=\"24\" cy=\"24\" r=\"8\"/><path d=\"M24 8v6M24 34v6M8 24h6M34 24h6M13 13l4.2 4.2M30.8 30.8L35 35M35 13l-4.2 4.2M17.2 30.8L13 35\"/></svg>",
-      name: "Workflow Automatisierung",
-      tagline: "Automatisierte Follow ups, Flows und Erinnerungen.",
-      faqs: [
-      { q: "Was lässt sich automatisieren?", a: "Follow ups, Willkommens Flows, Erinnerungen und Trigger, ausgelöst durch das Verhalten Ihrer Kontakte. So bleiben Sie in Kontakt, ohne daran zu denken." },
-      { q: "Ist die Einrichtung inklusive?", a: "Ja, die Einrichtung der Flows ist Teil des Abos. Sie müssen nichts selbst aufsetzen oder konfigurieren." },
-      { q: "Funktioniert das mit Website und CRM?", a: "Ja. Automation verbindet sich mit Website und CRM, sodass Ihre Daten an einem Ort zusammenlaufen und Abläufe ineinandergreifen." },
-      { q: "Wirkt das unpersönlich?", a: "Nein, wenn es gut gemacht ist. Wir schreiben Automatisierungen in Ihrer Stimme, damit sie wie eine rechtzeitige persönliche Nachricht wirken, nicht wie ein Roboter." },
-      { q: "Kann ich klein starten?", a: "Ja. Die meisten starten mit einem Flow wie Lead Nachfassen und ergänzen weitere, sobald sie den Nutzen sehen." },
-      ],
+      q: 'Van wie is de broncode?',
+      a: 'Bij bedrijfssoftware op maat wordt u eigenaar van de software, inclusief de broncode. Zo zit u niet vast aan één leverancier. Bij een 3D-configurator staat in de offerte wat de eenmalige implementatie en het maandelijkse abonnement precies omvatten.',
     },
     {
-      id: "google-ads",
-      accent: "oklch(0.83 0.10 236)",
-      price: 195,
-      icon: "<svg viewBox=\"0 0 48 48\"><circle cx=\"24\" cy=\"24\" r=\"16\"/><circle cx=\"24\" cy=\"24\" r=\"9\"/><circle class=\"fill\" cx=\"24\" cy=\"24\" r=\"3\"/></svg>",
-      name: "Google Ads",
-      tagline: "Bezahlte Kampagnen, die Sie dort zeigen wo Kunden suchen.",
-      faqs: [
-      { q: "Was kostet die Google Ads Betreuung?", a: "Den Preis für die Betreuung erhalten Sie auf Anfrage in einem schriftlichen Angebot. Das Werbebudget kommt nach Ihrer Wahl dazu. Sie behalten die Kontrolle über Ihre Ausgaben und können klein starten." },
-      { q: "Brauche ich ein großes Budget?", a: "Nein. Wir starten mit einem fokussierten Budget auf den wichtigsten Suchbegriffen und skalieren erst, wenn sich die Kampagnen lohnen." },
-      { q: "Was übernehmen Sie?", a: "Einrichtung, Keywords, Anzeigentexte, Tracking und laufende Optimierung. Sie erhalten ein klares Reporting darüber, was die Ausgaben bringen." },
-      { q: "Wie schnell sehe ich Resultate?", a: "Anzeigen bringen oft innerhalb weniger Tage Besucher. In den ersten Wochen optimieren wir, damit Ihr Budget dorthin fließt, wo es wirklich konvertiert." },
-      ],
+      q: 'Waar worden de oplossingen gehost?',
+      a: 'In de EU, op servers van Hetzner in Duitsland of Finland. Uw gegevens blijven zo binnen Europa.',
     },
     {
-      id: "business-dashboards",
-      accent: "oklch(0.84 0.09 258)",
-      price: 0,
-      icon: "<svg viewBox=\"0 0 48 48\"><rect x=\"6\" y=\"6\" width=\"36\" height=\"36\" rx=\"4\"/><path d=\"M14 31V22M24 31V15M34 31v-6\"/></svg>",
-      name: "Digitale Plattformen",
-      tagline: "Dashboards, CRM Systeme und Kundenportale in einer verbundenen Plattform.",
-      faqs: [
-      { q: "Was sind digitale Plattformen?", a: "Eine verbundene Plattform, die drei Dinge zusammenbringt: ein Dashboard für Ihre Zahlen, ein CRM für Leads und Kunden und ein Kundenportal, in dem sich Ihre Kunden anmelden. Statt drei loser Tools entsteht ein System, in dem alles ineinandergreift." },
-      { q: "Was kann das Dashboard?", a: "Es bringt Ihre wichtigsten Zahlen in eine klare interne Ansicht, etwa Leads, Umsatz, Termine und Bestellungen. So sehen Sie auf einen Blick wie das Geschäft läuft, ohne verstreute Excel Berichte." },
-      { q: "Was leistet das CRM?", a: "Leads, Kunden, Pipeline und Follow ups liegen an einem Ort und nichts geht verloren. Wir richten Felder, Phasen und Aufgaben passend zu Ihren Abläufen ein, damit das System Ihrem Verkauf folgt." },
-      { q: "Wofür ist das Kundenportal?", a: "Ein privater Bereich, in dem sich Ihre Kunden anmelden und Dokumente, Projektstatus, Buchungen und Rechnungen an einem Ort sehen. Jeder Kunde sieht nur seine eigenen Daten, geschützt durch einen richtigen Login." },
-      { q: "Was kostet eine digitale Plattform?", a: "Das hängt vom Umfang ab, deshalb arbeiten wir auf Anfrage. Wir besprechen welche Bausteine Sie brauchen und vereinbaren den Preis vorab. So gibt es keinen festen Monatsbetrag von der Stange sondern eine Lösung die zu Ihnen passt." },
-      ],
+      q: 'Zorgen jullie ook voor onderhoud en ondersteuning na de lancering?',
+      a: 'Ja. semanu verzorgt ontwerp, bouw, hosting en de verdere ondersteuning. Software houden we veilig, actueel en aanpasbaar. Bij een 3D-configurator houden we varianten en prijzen actueel wanneer uw aanbod wijzigt.',
     },
     {
-      id: "ai",
-      accent: "oklch(0.84 0.09 264)",
-      price: 99,
-      icon: "<svg viewBox=\"0 0 48 48\"><path d=\"M24 6 L28 18 L40 22 L28 26 L24 38 L20 26 L8 22 L20 18 Z\"/><circle class=\"fill\" cx=\"37\" cy=\"9\" r=\"2.2\"/><circle class=\"fill\" cx=\"10\" cy=\"34\" r=\"1.8\"/></svg>",
-      name: "AI Assistenten",
-      tagline: "Support, Leads und interne Abläufe, rund um die Uhr.",
-      faqs: [
-      { q: "Was kann ein AI-Assistent für mich tun?", a: "Er beantwortet Kundenfragen rund um die Uhr, erfasst Leads und unterstützt interne Abläufe, trainiert auf Ihre eigenen Inhalte." },
-      { q: "Woher nimmt er die Antworten?", a: "Aus Ihren eigenen Inhalten und Dokumenten, damit die Antworten zu Ihrem Unternehmen passen und nichts erfunden wird." },
-      { q: "Ersetzt das meinen Support?", a: "Es entlastet ihn. Routinefragen übernimmt der Assistent, komplexe Fälle leitet er sauber an Sie weiter." },
-      { q: "Erfindet er Dinge?", a: "Wir senken das, indem wir den Assistenten mit Ihren eigenen Informationen verbinden und klare Grenzen setzen, damit er beim Thema bleibt und genau antwortet." },
-      { q: "Sind meine Daten sicher?", a: "Wir richten Assistenten so ein, dass Ihre Informationen unter Ihrer Kontrolle bleiben und nur für die vereinbarte Aufgabe genutzt werden." },
-      ],
-    },
-  ],
-  fr: [
-    {
-      id: "business",
-      accent: "oklch(0.85 0.10 178)",
-      price: 99,
-      icon: "<svg viewBox=\"0 0 48 48\"><rect x=\"4\" y=\"6\" width=\"40\" height=\"32\" rx=\"4\"/><path d=\"M4 15h40\"/><circle class=\"fill\" cx=\"10\" cy=\"10.5\" r=\"1.4\"/><circle class=\"fill\" cx=\"15\" cy=\"10.5\" r=\"1.4\"/><path d=\"M10 22h17M10 28h28M10 33h22\"/></svg>",
-      name: "Site Business",
-      tagline: "Plusieurs pages, jusqu’à 10 pages. Structure, confiance et SEO.",
-      faqs: [
-      { q: "Combien de pages sont incluses ?", a: "Jusqu’à 10 pages avec une structure claire, plus de contenu et une meilleure base SEO. Idéal pour présenter en détail vos prestations, votre équipe et vos références. Si vous le souhaitez, des pages supplémentaires peuvent être ajoutées à tout moment." },
-      { q: "L’hébergement et la maintenance sont-ils inclus ?", a: "Oui. Hébergement dans l’UE, SSL, mises à jour de sécurité et entretien continu sont compris dans le prix mensuel." },
-      { q: "Je peux faire modifier des contenus ?", a: "Les petites adaptations font partie du suivi. Vous nous écrivez, nous les réalisons rapidement, sans que vous ayez à travailler dans le système." },
-      { q: "Que sont les bases SEO et GEO ?", a: "Le SEO aide les moteurs de recherche à lire et classer votre site. Le GEO aide les systèmes de recherche AI à comprendre et recommander votre entreprise. Les deux sont compris dès le départ. Les classements Google concrets ne peuvent pas être garantis." },
-      { q: "Est-ce que je reçois un design individuel ou un modèle ?", a: "Vous recevez un design individuel conçu pour votre entreprise, votre public et votre secteur. Pas de template et pas de constructeur en ligne. Logo, couleurs et polices existants sont pris en compte." },
-      { q: "Le site est-il optimisé pour smartphone ?", a: "Oui. Tous les sites de semanu sont développés selon le principe Mobile First : conçu d’abord pour smartphone puis étendu à ordinateur et tablette." },
-      { q: "Puis-je transférer un site existant chez semanu ?", a: "Cela dépend de la technique existante. Prenez contact et nous regardons ensemble ce qui est possible et quel abonnement convient à votre situation." },
-      { q: "Quelle est la durée minimale ?", a: "La durée minimale est de 36 mois. Ensuite l’abonnement est résiliable chaque mois. Tous les prix s’entendent hors TVA." },
-      ],
-    },
-    {
-      id: "webshop",
-      accent: "oklch(0.84 0.10 196)",
-      price: 125,
-      icon: "<svg viewBox=\"0 0 48 48\"><path d=\"M7 9h5l3.2 21h21l3.5-15H15\"/><circle cx=\"19\" cy=\"40\" r=\"2.6\"/><circle cx=\"35\" cy=\"40\" r=\"2.6\"/></svg>",
-      name: "Boutique en ligne",
-      tagline: "Produits, paiements et commandes, propre et sécurisé.",
-      faqs: [
-      { q: "Quels moyens de paiement sont pris en charge ?", a: "Les méthodes courantes comme la carte bancaire et le virement, traitées en toute sécurité. D’autres moyens sont possibles sur demande. Nous configurons ensemble les produits, les commandes et la livraison." },
-      { q: "Je peux vendre combien de produits ?", a: "Autant que nécessaire. La boutique grandit avec votre assortiment, de quelques produits à un grand catalogue. Nous mettons la structure en place ensemble." },
-      { q: "L’hébergement et la maintenance sont-ils inclus ?", a: "Oui. Hébergement dans l’UE, SSL, mises à jour de sécurité et entretien continu sont compris dans le prix mensuel." },
-      { q: "La boutique est-elle optimisée pour mobile ?", a: "Oui, la boutique est entièrement responsive et optimisée pour l’achat sur smartphone, de la navigation au paiement." },
-      { q: "Puis-je relier la boutique à mon site ?", a: "Oui. Nous l’intégrons à votre site existant ou concevons site et boutique comme un tout dès le départ." },
-      { q: "Quelle est la durée minimale ?", a: "La durée minimale est de 36 mois. Ensuite l’abonnement est résiliable chaque mois. Tous les prix s’entendent hors TVA." },
-      ],
-    },
-    {
-      id: "email",
-      accent: "oklch(0.84 0.10 212)",
-      price: 79,
-      icon: "<svg viewBox=\"0 0 48 48\"><rect x=\"5\" y=\"9\" width=\"38\" height=\"28\" rx=\"4\"/><path d=\"M7 12l17 13L41 12\"/></svg>",
-      name: "Email marketing",
-      tagline: "Newsletters et campagnes qui font revenir les clients.",
-      faqs: [
-      { q: "Quel est le contenu ?", a: "Des modèles de newsletter à votre image, des listes de destinataires, l’envoi et l’analyse des ouvertures et des clics." },
-      { q: "Je dois avoir ma propre liste ?", a: "Pas forcément. Nous aidons à constituer votre liste proprement et dans le respect de la protection des données." },
-      { q: "À quelle fréquence envoyer ?", a: "Cela dépend de votre activité. Nous recommandons un rythme adapté et prenons en charge le concept et la réalisation si vous le souhaitez." },
-      { q: "Est-ce permis par les règles de protection des données ?", a: "Oui, quand cela repose sur le consentement. Nous mettons en place des formulaires et un accord pour que vous écriviez seulement aux personnes qui l’ont demandé." },
-      { q: "Vous utilisez quel outil ?", a: "Nous choisissons une plateforme e-mail fiable, adaptée à votre taille et votre budget, puis nous la configurons pour vous." },
-      ],
-    },
-    {
-      id: "automation",
-      accent: "oklch(0.83 0.10 228)",
-      price: 129,
-      icon: "<svg viewBox=\"0 0 48 48\"><circle cx=\"24\" cy=\"24\" r=\"8\"/><path d=\"M24 8v6M24 34v6M8 24h6M34 24h6M13 13l4.2 4.2M30.8 30.8L35 35M35 13l-4.2 4.2M17.2 30.8L13 35\"/></svg>",
-      name: "Automatisation des workflows",
-      tagline: "Relances, flux et rappels automatisés.",
-      faqs: [
-      { q: "Que peut couvrir l’automation ?", a: "Relances, flux de bienvenue, rappels et déclencheurs, selon le comportement de vos contacts. Vous restez en contact sans y penser." },
-      { q: "La mise en place est-elle incluse ?", a: "Oui, la configuration des flux fait partie de l’abonnement. Vous ne paramétrez rien." },
-      { q: "Est-ce compatible avec mon site et mon CRM ?", a: "Oui. L’automation se connecte au site et au CRM pour réunir vos données au même endroit et faire fonctionner les processus ensemble." },
-      { q: "Cela paraît-il impersonnel ?", a: "Non, quand c’est bien fait. Nous écrivons les automatisations dans votre voix pour qu’elles ressemblent à un message personnel au bon moment, pas à un robot." },
-      { q: "Je peux commencer petit ?", a: "Oui. La plupart commencent avec un flux comme le suivi des leads puis ajoutent le reste une fois la valeur vue." },
-      ],
-    },
-    {
-      id: "google-ads",
-      accent: "oklch(0.83 0.10 236)",
-      price: 195,
-      icon: "<svg viewBox=\"0 0 48 48\"><circle cx=\"24\" cy=\"24\" r=\"16\"/><circle cx=\"24\" cy=\"24\" r=\"9\"/><circle class=\"fill\" cx=\"24\" cy=\"24\" r=\"3\"/></svg>",
-      name: "Google Ads",
-      tagline: "Des campagnes payantes qui vous montrent là où les clients cherchent.",
-      faqs: [
-      { q: "Combien coûte la gestion Google Ads ?", a: "Le prix de la gestion vous est communiqué sur demande dans une offre écrite. Le budget publicitaire s’ajoute selon votre choix. Vous gardez le contrôle de vos dépenses et pouvez commencer petit." },
-      { q: "Faut-il un gros budget ?", a: "Non. Nous commençons avec un budget ciblé sur les recherches les plus importantes et augmentons seulement quand les campagnes le méritent." },
-      { q: "Que comprend la gestion ?", a: "La mise en place, les mots-clés, les textes d’annonces, le suivi et l’optimisation continue. Vous recevez un reporting clair sur ce que les dépenses rapportent." },
-      { q: "En combien de temps les résultats arrivent-ils ?", a: "Les annonces peuvent amener des visiteurs en quelques jours. Nous affinons ensuite les premières semaines pour que votre budget aille vers ce qui convertit vraiment." },
-      ],
-    },
-    {
-      id: "business-dashboards",
-      accent: "oklch(0.84 0.09 258)",
-      price: 0,
-      icon: "<svg viewBox=\"0 0 48 48\"><rect x=\"6\" y=\"6\" width=\"36\" height=\"36\" rx=\"4\"/><path d=\"M14 31V22M24 31V15M34 31v-6\"/></svg>",
-      name: "Plateformes digitales",
-      tagline: "Tableaux de bord, systèmes CRM et portails clients dans une plateforme reliée.",
-      faqs: [
-      { q: "Que sont les plateformes digitales ?", a: "Une plateforme reliée qui réunit trois choses : un tableau de bord pour vos chiffres, un CRM pour vos leads et clients et un portail où vos clients se connectent. Au lieu de trois outils épars, vous obtenez un système où tout fonctionne ensemble." },
-      { q: "Que fait le tableau de bord ?", a: "Il réunit vos chiffres clés dans une vue interne claire, comme les leads, le chiffre d’affaires, les rendez-vous et les commandes. Vous voyez en un coup d’œil comment va l’entreprise sans rapports Excel épars." },
-      { q: "À quoi sert le CRM ?", a: "Leads, clients, pipeline et suivis sont au même endroit et rien ne se perd. Nous configurons champs, étapes et tâches selon vos processus pour que le système suive votre façon de vendre." },
-      { q: "À quoi sert le portail client ?", a: "Un espace privé où vos clients se connectent pour voir documents, statut de projet, réservations et factures au même endroit. Chaque client ne voit que ses propres données, protégées par un vrai login." },
-      { q: "Combien coûte une plateforme digitale ?", a: "Cela dépend du périmètre, nous travaillons donc sur demande. Nous discutons des modules dont vous avez besoin et convenons du prix à l’avance. Pas de montant mensuel standard mais une solution qui vous correspond." },
-      ],
-    },
-    {
-      id: "ai",
-      accent: "oklch(0.84 0.09 264)",
-      price: 99,
-      icon: "<svg viewBox=\"0 0 48 48\"><path d=\"M24 6 L28 18 L40 22 L28 26 L24 38 L20 26 L8 22 L20 18 Z\"/><circle class=\"fill\" cx=\"37\" cy=\"9\" r=\"2.2\"/><circle class=\"fill\" cx=\"10\" cy=\"34\" r=\"1.8\"/></svg>",
-      name: "Assistants AI",
-      tagline: "Support, leads et tâches internes, 24h/24.",
-      faqs: [
-      { q: "Que peut faire un assistant AI pour moi ?", a: "Il répond aux questions des clients 24h/24, capte des leads et soutient les tâches internes, entraîné sur vos propres contenus." },
-      { q: "D’où viennent ses réponses ?", a: "De vos propres contenus et documents, pour que les réponses correspondent à votre entreprise sans rien inventer." },
-      { q: "Cela remplace mon support ?", a: "Il le soulage. L’assistant gère les questions courantes et transmet proprement les cas complexes." },
-      { q: "Cela invente des choses ?", a: "Nous réduisons cela en connectant l’assistant à vos propres informations et en posant des limites claires pour qu’il reste au sujet et juste." },
-      { q: "Mes données sont-elles en sécurité ?", a: "Nous configurons les assistants pour que vos informations restent sous votre contrôle et ne servent qu’à la tâche convenue." },
-      ],
+      q: 'In welke talen kunnen we samenwerken?',
+      a: 'U kunt ons aanspreken in het Nederlands, Engels, Duits, Frans of Spaans.',
     },
   ],
   en: [
     {
-      id: "business",
-      accent: "oklch(0.85 0.10 178)",
-      price: 99,
-      icon: "<svg viewBox=\"0 0 48 48\"><rect x=\"4\" y=\"6\" width=\"40\" height=\"32\" rx=\"4\"/><path d=\"M4 15h40\"/><circle class=\"fill\" cx=\"10\" cy=\"10.5\" r=\"1.4\"/><circle class=\"fill\" cx=\"15\" cy=\"10.5\" r=\"1.4\"/><path d=\"M10 22h17M10 28h28M10 33h22\"/></svg>",
-      name: "Business Website",
-      tagline: "Multi page, up to 10 pages. Structure, trust and SEO.",
-      faqs: [
-      { q: "How many pages are included?", a: "Up to 10 pages with clear structure, more content and a stronger SEO base. Ideal when you want to show services, team and references in depth. If you want more, additional pages can be added at any time." },
-      { q: "Are hosting and maintenance included?", a: "Yes. Hosting in the EU, SSL, security updates and ongoing care are part of the monthly price." },
-      { q: "Can I have content changed?", a: "Small changes are part of the service. You drop us a note and we handle it promptly with no need to work in the system yourself." },
-      { q: "What are SEO and GEO foundations?", a: "SEO helps search engines read and rank your site. GEO helps AI search systems understand and recommend your business. Both are included from the start. Concrete Google rankings cannot be guaranteed." },
-      { q: "Do I get an individual design or a template?", a: "You get an individual design made for your business, your audience and your sector. No templates and no website builder. Existing logo, colours and fonts are taken into account." },
-      { q: "Is the website optimised for smartphone?", a: "Yes. All semanu websites are developed using the mobile first principle: designed for smartphone first and then extended to desktop and tablet." },
-      { q: "Can I transfer an existing website to semanu?", a: "That depends on the existing technology. Get in touch and we will look together at what is possible and which plan fits your situation." },
-      { q: "What is the minimum term?", a: "The minimum term is 36 months. After that the subscription is cancellable monthly. All prices are excl. VAT." },
-      ],
+      q: 'How does a project with semanu start?',
+      a: 'You get in touch through the contact form, by email or by phone. You usually get a personal reply within one working day, without obligation. In a first conversation we map out your needs. After that you receive a written quote.',
     },
     {
-      id: "webshop",
-      accent: "oklch(0.84 0.10 196)",
-      price: 125,
-      icon: "<svg viewBox=\"0 0 48 48\"><path d=\"M7 9h5l3.2 21h21l3.5-15H15\"/><circle cx=\"19\" cy=\"40\" r=\"2.6\"/><circle cx=\"35\" cy=\"40\" r=\"2.6\"/></svg>",
-      name: "Webshop",
-      tagline: "Products, payments and orders, clean and secure.",
-      faqs: [
-      { q: "Which payment methods are supported?", a: "Common methods like card payments and bank transfers, handled securely. Other methods are possible on request. We set up products, orders and shipping together." },
-      { q: "How many products can I sell?", a: "As many as you need. The shop scales with your range, from a handful of products to a large catalogue. We set the structure up together." },
-      { q: "Are hosting and maintenance included?", a: "Yes. Hosting in the EU, SSL, security updates and ongoing care are part of the monthly price." },
-      { q: "Is the shop mobile optimised?", a: "Yes, the shop is fully responsive and optimised for buying on a phone, from browsing to checkout." },
-      { q: "Can I connect the shop to my website?", a: "Yes. We integrate it into your existing site or build website and shop as one from the start." },
-      { q: "What is the minimum term?", a: "The minimum term is 36 months. After that the subscription is cancellable monthly. All prices are excl. VAT." },
-      ],
+      q: 'What does a project cost?',
+      a: 'Prices are on request. Every project gets a written quote based on the scope we define together. All amounts are in euro, excluding VAT.',
     },
     {
-      id: "email",
-      accent: "oklch(0.84 0.10 212)",
-      price: 79,
-      icon: "<svg viewBox=\"0 0 48 48\"><rect x=\"5\" y=\"9\" width=\"38\" height=\"28\" rx=\"4\"/><path d=\"M7 12l17 13L41 12\"/></svg>",
-      name: "Email Marketing",
-      tagline: "Newsletters and campaigns that bring regulars back.",
-      faqs: [
-      { q: "What’s included?", a: "Newsletter templates in your design, recipient lists, sending and analysis of opens and clicks." },
-      { q: "Do I need my own recipient list?", a: "Not necessarily. We help you build your list cleanly and in line with data protection, so you reach the right people." },
-      { q: "How often should I send?", a: "It depends on your business. We recommend a suitable rhythm and, if you like, handle concept and execution." },
-      { q: "Is this allowed under privacy rules?", a: "Yes when it is permission based. We set up signup forms and consent so you only email people who asked to hear from you." },
-      { q: "Which tool do you use?", a: "We choose a reliable email platform that fits your size and budget then set it up for you." },
-      ],
+      q: 'Who will I be working with?',
+      a: 'semanu is led by founder Tom de Vree and is based in Antwerp. You talk directly to the person who builds and maintains your solution, not to an anonymous ticket system. We work with SMEs and manufacturers across Europe.',
     },
     {
-      id: "automation",
-      accent: "oklch(0.83 0.10 228)",
-      price: 129,
-      icon: "<svg viewBox=\"0 0 48 48\"><circle cx=\"24\" cy=\"24\" r=\"8\"/><path d=\"M24 8v6M24 34v6M8 24h6M34 24h6M13 13l4.2 4.2M30.8 30.8L35 35M35 13l-4.2 4.2M17.2 30.8L13 35\"/></svg>",
-      name: "Workflow Automation",
-      tagline: "Automated follow ups, flows and reminders.",
-      faqs: [
-      { q: "What can be automated?", a: "Follow ups, welcome flows, reminders and triggers, driven by how your contacts behave. You stay in touch without thinking about it." },
-      { q: "Is setup included?", a: "Yes, setting up the flows is part of the plan. You don’t configure anything yourself." },
-      { q: "Does it work with my website and CRM?", a: "Yes. Automation connects to your website and CRM, so your data comes together in one place and processes work as one." },
-      { q: "Will it feel impersonal?", a: "No when it is done well. We write automations in your voice so they feel like a timely personal message, not a robot." },
-      { q: "Can I start small?", a: "Yes. Most businesses start with one flow such as lead follow-up then add more once they see the value." },
-      ],
+      q: 'Who owns the source code?',
+      a: 'With custom business software you become the owner of the software, including the source code. That way you are not tied to a single supplier. For a 3D configurator the quote sets out exactly what the one-off implementation and the monthly subscription include.',
     },
     {
-      id: "google-ads",
-      accent: "oklch(0.83 0.10 236)",
-      price: 195,
-      icon: "<svg viewBox=\"0 0 48 48\"><circle cx=\"24\" cy=\"24\" r=\"16\"/><circle cx=\"24\" cy=\"24\" r=\"9\"/><circle class=\"fill\" cx=\"24\" cy=\"24\" r=\"3\"/></svg>",
-      name: "Google Ads",
-      tagline: "Paid campaigns that put you where customers search.",
-      faqs: [
-      { q: "What does Google Ads management cost?", a: "Management pricing is on request in a written quote. Your ad budget comes on top and is fully your choice. You stay in control of what you spend and can start small." },
-      { q: "Do I need a big budget?", a: "No. We start with a focused budget on the searches that matter most and scale only once the campaigns prove their worth." },
-      { q: "What do you take care of?", a: "Setup, keywords, ad texts, tracking and ongoing optimisation. You get clear reporting on what the spend brings in." },
-      { q: "How fast will I see results?", a: "Ads can bring visitors within days. We then refine over the first weeks so your budget goes to what actually converts." },
-      ],
+      q: 'Where are the solutions hosted?',
+      a: 'In the EU, on Hetzner servers in Germany or Finland. That way your data stays within Europe.',
     },
     {
-      id: "business-dashboards",
-      accent: "oklch(0.84 0.09 258)",
-      price: 0,
-      icon: "<svg viewBox=\"0 0 48 48\"><rect x=\"6\" y=\"6\" width=\"36\" height=\"36\" rx=\"4\"/><path d=\"M14 31V22M24 31V15M34 31v-6\"/></svg>",
-      name: "Digital Platforms",
-      tagline: "Dashboards, CRM systems and customer portals in one connected platform.",
-      faqs: [
-      { q: "What are digital platforms?", a: "One connected platform that brings three things together: a dashboard for your numbers, a CRM for leads and customers and a customer portal where your clients log in. Instead of three loose tools you get one system where everything works together." },
-      { q: "What does the dashboard do?", a: "It brings your key numbers into one clear internal view, such as leads, revenue, appointments and orders. You see how the business is doing at a glance with no scattered Excel reports." },
-      { q: "What does the CRM do?", a: "Leads, customers, pipeline and follow-ups live in one place and nothing slips through. We set up fields, stages and tasks to match your workflow so the system follows your sales." },
-      { q: "What is the customer portal for?", a: "A private area where your clients log in to see documents, project status, bookings and invoices in one place. Each customer only sees their own data, protected by a proper login." },
-      { q: "What does a digital platform cost?", a: "It depends on the scope, so we work on request. We discuss which building blocks you need and agree the price upfront. No off-the-shelf monthly fee but a solution that fits you." },
-      ],
+      q: 'Do you also take care of maintenance and support after launch?',
+      a: 'Yes. semanu handles design, build, hosting and ongoing support. We keep software secure, up to date and adaptable. For a 3D configurator we keep variants and prices current when your range changes.',
     },
     {
-      id: "ai",
-      accent: "oklch(0.84 0.09 264)",
-      price: 99,
-      icon: "<svg viewBox=\"0 0 48 48\"><path d=\"M24 6 L28 18 L40 22 L28 26 L24 38 L20 26 L8 22 L20 18 Z\"/><circle class=\"fill\" cx=\"37\" cy=\"9\" r=\"2.2\"/><circle class=\"fill\" cx=\"10\" cy=\"34\" r=\"1.8\"/></svg>",
-      name: "AI assistants",
-      tagline: "Support, leads and internal work, around the clock.",
-      faqs: [
-      { q: "What can an AI assistant do for me?", a: "It answers customer questions around the clock, captures leads and supports internal work, trained on your own content." },
-      { q: "Where do its answers come from?", a: "From your own content and documents, so answers match your business and nothing is made up." },
-      { q: "Does it replace my support?", a: "It relieves it. The assistant handles routine questions and hands complex cases cleanly over to you." },
-      { q: "Will it make things up?", a: "We reduce that by connecting the assistant to your own information and setting clear limits so it stays on topic and accurate." },
-      { q: "Is my data safe?", a: "We set up assistants so your information stays under your control and is only used for the task you agreed." },
-      ],
+      q: 'In which languages can we work together?',
+      a: 'You can talk to us in Dutch, English, German, French or Spanish.',
+    },
+  ],
+  de: [
+    {
+      q: 'Wie beginnt ein Projekt mit semanu?',
+      a: 'Sie nehmen über das Kontaktformular, per E-Mail oder telefonisch Kontakt auf. In der Regel erhalten Sie innerhalb eines Werktags eine persönliche Antwort, unverbindlich. In einem ersten Gespräch klären wir Ihre Anforderungen. Danach erhalten Sie ein schriftliches Angebot.',
+    },
+    {
+      q: 'Was kostet ein Projekt?',
+      a: 'Preise auf Anfrage. Jedes Projekt erhält ein schriftliches Angebot auf Basis des Umfangs, den wir gemeinsam festlegen. Alle Beträge verstehen sich in Euro, zuzüglich MwSt.',
+    },
+    {
+      q: 'Mit wem arbeite ich zusammen?',
+      a: 'semanu wird von Gründer Tom de Vree geführt und hat seinen Sitz in Antwerpen. Sie sprechen direkt mit der Person, die Ihre Lösung entwickelt und betreut, nicht mit einem anonymen Ticketsystem. Wir arbeiten mit KMU und Herstellern in ganz Europa.',
+    },
+    {
+      q: 'Wem gehört der Quellcode?',
+      a: 'Bei maßgeschneiderter Unternehmenssoftware werden Sie Eigentümer der Software, einschließlich des Quellcodes. So sind Sie nicht an einen einzelnen Anbieter gebunden. Bei einem 3D-Konfigurator legt das Angebot fest, was die einmalige Implementierung und das monatliche Abo genau umfassen.',
+    },
+    {
+      q: 'Wo werden die Lösungen gehostet?',
+      a: 'In der EU, auf Servern von Hetzner in Deutschland oder Finnland. So bleiben Ihre Daten in Europa.',
+    },
+    {
+      q: 'Übernehmen Sie auch Wartung und Support nach dem Start?',
+      a: 'Ja. semanu übernimmt Design, Entwicklung, Hosting und die laufende Betreuung. Software halten wir sicher, aktuell und anpassbar. Bei einem 3D-Konfigurator halten wir Varianten und Preise aktuell, wenn sich Ihr Sortiment ändert.',
+    },
+    {
+      q: 'In welchen Sprachen können wir zusammenarbeiten?',
+      a: 'Sie können uns auf Niederländisch, Englisch, Deutsch, Französisch oder Spanisch ansprechen.',
+    },
+  ],
+  fr: [
+    {
+      q: 'Comment démarre un projet avec semanu ?',
+      a: 'Vous prenez contact via le formulaire, par e-mail ou par téléphone. Vous recevez en général une réponse personnelle dans un délai d’un jour ouvrable, sans engagement. Lors d’un premier entretien, nous clarifions vos besoins. Vous recevez ensuite un devis écrit.',
+    },
+    {
+      q: 'Combien coûte un projet ?',
+      a: 'Les prix sont sur demande. Chaque projet fait l’objet d’un devis écrit basé sur le périmètre que nous définissons ensemble. Tous les montants sont en euros, hors TVA.',
+    },
+    {
+      q: 'Avec qui vais-je travailler ?',
+      a: 'semanu est dirigé par son fondateur Tom de Vree et est basé à Anvers. Vous parlez directement à la personne qui construit et entretient votre solution, pas à un système de tickets anonyme. Nous travaillons avec des PME et des fabricants dans toute l’Europe.',
+    },
+    {
+      q: 'À qui appartient le code source ?',
+      a: 'Pour un logiciel d’entreprise sur mesure, vous devenez propriétaire du logiciel, code source compris. Vous n’êtes donc pas lié à un seul fournisseur. Pour un configurateur 3D, le devis précise ce que comprennent l’implémentation unique et l’abonnement mensuel.',
+    },
+    {
+      q: 'Où les solutions sont-elles hébergées ?',
+      a: 'Dans l’UE, sur des serveurs Hetzner en Allemagne ou en Finlande. Vos données restent ainsi en Europe.',
+    },
+    {
+      q: 'Assurez-vous aussi la maintenance et le support après le lancement ?',
+      a: 'Oui. semanu prend en charge le design, le développement, l’hébergement et le suivi. Nous gardons les logiciels sûrs, à jour et adaptables. Pour un configurateur 3D, nous tenons les variantes et les prix à jour quand votre offre change.',
+    },
+    {
+      q: 'Dans quelles langues pouvons-nous travailler ensemble ?',
+      a: 'Vous pouvez nous contacter en néerlandais, anglais, allemand, français ou espagnol.',
     },
   ],
   es: [
     {
-      id: "business",
-      accent: "oklch(0.85 0.10 178)",
-      price: 99,
-      icon: "<svg viewBox=\"0 0 48 48\"><rect x=\"4\" y=\"6\" width=\"40\" height=\"32\" rx=\"4\"/><path d=\"M4 15h40\"/><circle class=\"fill\" cx=\"10\" cy=\"10.5\" r=\"1.4\"/><circle class=\"fill\" cx=\"15\" cy=\"10.5\" r=\"1.4\"/><path d=\"M10 22h17M10 28h28M10 33h22\"/></svg>",
-      name: "Sitio web Business",
-      tagline: "Varias páginas, hasta 10 páginas. Más estructura, confianza y SEO.",
-      faqs: [
-      { q: "¿Cuántas páginas están incluidas?", a: "Hasta 10 páginas con una estructura clara, más contenido y una base SEO más sólida. Ideal si quiere mostrar en detalle sus servicios, su equipo y sus referencias. Si necesita más, se pueden añadir páginas adicionales en cualquier momento." },
-      { q: "¿El hosting y el mantenimiento están incluidos?", a: "Sí. El hosting en la UE, SSL, las actualizaciones de seguridad y el mantenimiento continuo están incluidos en el precio mensual." },
-      { q: "¿Puedo pedir cambios en los contenidos?", a: "Los pequeños ajustes forman parte del servicio. Nos escribe una nota breve, lo aplicamos con rapidez, sin que usted tenga que trabajar en el sistema." },
-      { q: "¿Qué son los fundamentos de SEO y GEO?", a: "El SEO ayuda a los motores de búsqueda a leer y posicionar su sitio. El GEO ayuda a los sistemas de búsqueda AI a entender y recomendar su empresa. Ambos están incluidos desde el principio. No se pueden garantizar posiciones concretas en Google." },
-      { q: "¿Recibo un diseño individual o una plantilla?", a: "Recibe un diseño individual adaptado a su empresa, su público y su sector. Sin plantillas ni sistemas modulares. Se tienen en cuenta el logotipo, los colores y las tipografías existentes." },
-      { q: "¿El sitio web está optimizado para el smartphone?", a: "Sí. Todos los sitios web de semanu se desarrollan según el principio Mobile First: primero se diseñan para el smartphone y luego se amplían a ordenador y tableta." },
-      { q: "¿Puedo migrar un sitio web existente a semanu?", a: "Depende de la tecnología existente. Póngase en contacto con nosotros y vemos juntos qué es posible y qué suscripción encaja con su situación." },
-      { q: "¿Cuánto dura el plazo mínimo?", a: "El plazo mínimo es de 36 meses. Después la suscripción se puede cancelar cada mes. Todos los precios se entienden sin IVA." },
-      ],
+      q: '¿Cómo empieza un proyecto con semanu?',
+      a: 'Usted se pone en contacto a través del formulario, por correo electrónico o por teléfono. Normalmente recibe una respuesta personal en un día laborable, sin compromiso. En una primera conversación aclaramos sus necesidades. Después recibe un presupuesto por escrito.',
     },
     {
-      id: "webshop",
-      accent: "oklch(0.84 0.10 196)",
-      price: 125,
-      icon: "<svg viewBox=\"0 0 48 48\"><path d=\"M7 9h5l3.2 21h21l3.5-15H15\"/><circle cx=\"19\" cy=\"40\" r=\"2.6\"/><circle cx=\"35\" cy=\"40\" r=\"2.6\"/></svg>",
-      name: "Tienda online",
-      tagline: "Productos, pagos y pedidos, ordenado y seguro.",
-      faqs: [
-      { q: "¿Qué métodos de pago se admiten?", a: "Métodos habituales como el pago con tarjeta y la transferencia, gestionados de forma segura. Otros métodos de pago son posibles si lo desea. Los productos, los pedidos y la configuración de envío los preparamos juntos." },
-      { q: "¿Cuántos productos puedo vender?", a: "Tantos como necesite. La tienda crece con su surtido, desde unos pocos productos hasta un gran catálogo. La estructura la preparamos juntos." },
-      { q: "¿El hosting y el mantenimiento están incluidos?", a: "Sí. El hosting en la UE, SSL, las actualizaciones de seguridad y el mantenimiento continuo están incluidos en el precio mensual." },
-      { q: "¿La tienda está optimizada para móvil?", a: "Sí, la tienda es totalmente responsive y está optimizada para la compra en el smartphone, desde la navegación hasta el pago." },
-      { q: "¿Puedo conectar la tienda con mi sitio web?", a: "Sí. La integramos en su presencia actual o creamos el sitio web y la tienda como una unidad desde el principio." },
-      { q: "¿Cuánto dura el plazo mínimo?", a: "El plazo mínimo es de 36 meses. Después la suscripción se puede cancelar cada mes. Todos los precios se entienden sin IVA." },
-      ],
+      q: '¿Cuánto cuesta un proyecto?',
+      a: 'Los precios son bajo petición. Cada proyecto recibe un presupuesto por escrito según el alcance que definimos juntos. Todos los importes son en euros, sin IVA.',
     },
     {
-      id: "email",
-      accent: "oklch(0.84 0.10 212)",
-      price: 79,
-      icon: "<svg viewBox=\"0 0 48 48\"><rect x=\"5\" y=\"9\" width=\"38\" height=\"28\" rx=\"4\"/><path d=\"M7 12l17 13L41 12\"/></svg>",
-      name: "Email Marketing",
-      tagline: "Newsletters y campañas que hacen volver a los clientes habituales.",
-      faqs: [
-      { q: "¿Qué está incluido?", a: "Plantillas de newsletter con su diseño, listas de destinatarios, envío y el análisis de aperturas y clics." },
-      { q: "¿Necesito mi propia lista de destinatarios?", a: "No necesariamente. Le ayudamos a crear su lista de forma limpia y conforme a la protección de datos, para que llegue a las personas adecuadas." },
-      { q: "¿Con qué frecuencia debería enviar?", a: "Depende de su negocio. Recomendamos un ritmo adecuado y nos encargamos del concepto y la ejecución si lo desea." },
-      { q: "¿Está permitido según las normas de protección de datos?", a: "Sí, cuando se basa en el consentimiento. Configuramos formularios de registro y el consentimiento, para que solo escriba a personas que lo han solicitado." },
-      { q: "¿Qué herramienta utilizan?", a: "Elegimos una plataforma de Email fiable que encaja con su tamaño y su presupuesto. Nos encargamos de la configuración por usted." },
-      ],
+      q: '¿Con quién voy a trabajar?',
+      a: 'semanu está dirigida por su fundador Tom de Vree y tiene su sede en Amberes. Usted habla directamente con la persona que desarrolla y mantiene su solución, no con un sistema de tickets anónimo. Trabajamos con pymes y fabricantes de toda Europa.',
     },
     {
-      id: "automation",
-      accent: "oklch(0.83 0.10 228)",
-      price: 129,
-      icon: "<svg viewBox=\"0 0 48 48\"><circle cx=\"24\" cy=\"24\" r=\"8\"/><path d=\"M24 8v6M24 34v6M8 24h6M34 24h6M13 13l4.2 4.2M30.8 30.8L35 35M35 13l-4.2 4.2M17.2 30.8L13 35\"/></svg>",
-      name: "Automatización de flujos",
-      tagline: "Follow ups, flujos y recordatorios automatizados.",
-      faqs: [
-      { q: "¿Qué se puede automatizar?", a: "Follow ups, flujos de bienvenida, recordatorios y disparadores, activados por el comportamiento de sus contactos. Así se mantiene en contacto, sin tener que pensar en ello." },
-      { q: "¿La configuración está incluida?", a: "Sí, la configuración de los flujos forma parte de la suscripción. No tiene que preparar ni configurar nada usted mismo." },
-      { q: "¿Funciona con el sitio web y el CRM?", a: "Sí. La automatización se conecta con el sitio web y el CRM, de modo que sus datos se reúnen en un solo lugar y los procesos encajan entre sí." },
-      { q: "¿Resulta impersonal?", a: "No, cuando está bien hecho. Escribimos las automatizaciones con su voz, para que parezcan un mensaje personal en el momento oportuno, no un robot." },
-      { q: "¿Puedo empezar poco a poco?", a: "Sí. La mayoría empieza con un flujo como el seguimiento de leads y añade otros en cuanto ve el valor." },
-      ],
+      q: '¿De quién es el código fuente?',
+      a: 'Con el software empresarial a medida usted se convierte en propietario del software, incluido el código fuente. Así no queda ligado a un único proveedor. En el caso de un configurador 3D, el presupuesto detalla qué incluyen exactamente la implementación única y la cuota mensual.',
     },
     {
-      id: "google-ads",
-      accent: "oklch(0.83 0.10 236)",
-      price: 195,
-      icon: "<svg viewBox=\"0 0 48 48\"><circle cx=\"24\" cy=\"24\" r=\"16\"/><circle cx=\"24\" cy=\"24\" r=\"9\"/><circle class=\"fill\" cx=\"24\" cy=\"24\" r=\"3\"/></svg>",
-      name: "Google Ads",
-      tagline: "Campañas de pago que le sitúan donde los clientes buscan.",
-      faqs: [
-      { q: "¿Cuánto cuesta la gestión de Google Ads?", a: "El precio de la gestión es a consultar y se lo indicamos en una oferta por escrito. El presupuesto publicitario se añade según su elección. Usted mantiene el control de sus gastos y puede empezar poco a poco." },
-      { q: "¿Necesito un gran presupuesto?", a: "No. Empezamos con un presupuesto centrado en los términos de búsqueda más importantes y escalamos solo cuando las campañas merecen la pena." },
-      { q: "¿De qué se encargan?", a: "Configuración, keywords, textos de anuncios, tracking y optimización continua. Recibe un reporting claro sobre lo que aporta el gasto." },
-      { q: "¿Con qué rapidez veo resultados?", a: "Los anuncios suelen traer visitantes en pocos días. En las primeras semanas optimizamos, para que su presupuesto vaya hacia donde realmente convierte." },
-      ],
+      q: '¿Dónde se alojan las soluciones?',
+      a: 'En la UE, en servidores de Hetzner en Alemania o Finlandia. Así sus datos se quedan en Europa.',
     },
     {
-      id: "business-dashboards",
-      accent: "oklch(0.84 0.09 258)",
-      price: 0,
-      icon: "<svg viewBox=\"0 0 48 48\"><rect x=\"6\" y=\"6\" width=\"36\" height=\"36\" rx=\"4\"/><path d=\"M14 31V22M24 31V15M34 31v-6\"/></svg>",
-      name: "Plataformas digitales",
-      tagline: "Dashboards, sistemas CRM y portales de cliente en una plataforma conectada.",
-      faqs: [
-      { q: "¿Qué son las plataformas digitales?", a: "Una plataforma conectada que reúne tres cosas: un dashboard para sus cifras, un CRM para leads y clientes y un portal de cliente donde sus clientes inician sesión. En lugar de tres herramientas sueltas surge un sistema en el que todo encaja." },
-      { q: "¿Qué puede hacer el dashboard?", a: "Reúne sus cifras más importantes en una vista interna clara, como leads, ventas, citas y pedidos. Así ve de un vistazo cómo va el negocio, sin informes de Excel dispersos." },
-      { q: "¿Qué hace el CRM?", a: "Leads, clientes, pipeline y follow-ups están en un solo lugar y no se pierde nada. Configuramos campos, fases y tareas según sus procesos, para que el sistema siga su forma de vender." },
-      { q: "¿Para qué sirve el portal de cliente?", a: "Un área privada donde sus clientes inician sesión y ven documentos, estado del proyecto, reservas y facturas en un solo lugar. Cada cliente ve solo sus propios datos, protegidos por un inicio de sesión real." },
-      { q: "¿Cuánto cuesta una plataforma digital?", a: "Depende del alcance, por eso trabajamos bajo petición. Hablamos de qué componentes necesita y acordamos el precio de antemano. Así no hay un importe mensual estándar sino una solución que encaja con usted." },
-      ],
+      q: '¿También se encargan del mantenimiento y el soporte tras el lanzamiento?',
+      a: 'Sí. semanu se ocupa del diseño, el desarrollo, el hosting y el soporte continuo. Mantenemos el software seguro, actualizado y adaptable. En un configurador 3D mantenemos al día las variantes y los precios cuando cambia su oferta.',
     },
     {
-      id: "ai",
-      accent: "oklch(0.84 0.09 264)",
-      price: 99,
-      icon: "<svg viewBox=\"0 0 48 48\"><path d=\"M24 6 L28 18 L40 22 L28 26 L24 38 L20 26 L8 22 L20 18 Z\"/><circle class=\"fill\" cx=\"37\" cy=\"9\" r=\"2.2\"/><circle class=\"fill\" cx=\"10\" cy=\"34\" r=\"1.8\"/></svg>",
-      name: "Asistentes AI",
-      tagline: "Soporte, leads y procesos internos, las 24 horas.",
-      faqs: [
-      { q: "¿Qué puede hacer un asistente AI por mí?", a: "Responde preguntas de clientes las 24 horas, capta leads y apoya los procesos internos, entrenado con sus propios contenidos." },
-      { q: "¿De dónde saca las respuestas?", a: "De sus propios contenidos y documentos, para que las respuestas encajen con su empresa y no se invente nada." },
-      { q: "¿Sustituye a mi soporte?", a: "Lo alivia. El asistente se encarga de las preguntas de rutina, los casos complejos se los pasa a usted de forma ordenada." },
-      { q: "¿Se inventa cosas?", a: "Lo reducimos conectando el asistente con su propia información y poniendo límites claros, para que se ciña al tema y responda con precisión." },
-      { q: "¿Están seguros mis datos?", a: "Configuramos los asistentes de modo que su información permanezca bajo su control y se use solo para la tarea acordada." },
-      ],
+      q: '¿En qué idiomas podemos trabajar juntos?',
+      a: 'Puede dirigirse a nosotros en neerlandés, inglés, alemán, francés o español.',
     },
   ],
-  nl: [
+};
+
+// Workflow automation is part of business software; two of its questions add to the
+// business software FAQ without repeating it (0: what is it, 3: when is AI needed).
+const WORKFLOW_QUESTIONS = [0, 3];
+
+function buildFaq(loc: FaqLocale): FaqService[] {
+  const names = GROUP_NAMES[loc];
+  const configurator = getServiceDetail(loc, '3d-configurators');
+  const workflow = getServiceDetail(loc, 'marketing-automation');
+  return [
     {
-      id: "business",
-      accent: "oklch(0.85 0.10 178)",
-      price: 99,
-      icon: "<svg viewBox=\"0 0 48 48\"><rect x=\"4\" y=\"6\" width=\"40\" height=\"32\" rx=\"4\"/><path d=\"M4 15h40\"/><circle class=\"fill\" cx=\"10\" cy=\"10.5\" r=\"1.4\"/><circle class=\"fill\" cx=\"15\" cy=\"10.5\" r=\"1.4\"/><path d=\"M10 22h17M10 28h28M10 33h22\"/></svg>",
-      name: "Business Website",
-      tagline: "Meerdere pagina's, tot 10 pagina's. Meer structuur, vertrouwen en SEO.",
+      id: '3d-configurators',
+      accent: 'oklch(0.85 0.10 178)',
+      name: names.configurators,
+      faqs: configurator?.faq ?? [],
+    },
+    {
+      id: 'business-software',
+      accent: 'oklch(0.84 0.10 212)',
+      name: names.software,
       faqs: [
-      { q: "Hoeveel pagina's zijn inbegrepen?", a: "Tot 10 pagina's met een duidelijke structuur, meer inhoud en een sterkere SEO-basis. Ideaal als u diensten, team en referenties uitgebreid wilt tonen. Als u meer nodig hebt, kunnen er op elk moment extra pagina's worden toegevoegd." },
-      { q: "Zijn hosting en onderhoud inbegrepen?", a: "Ja. Hosting in de EU, SSL, beveiligingsupdates en doorlopend onderhoud zijn inbegrepen in de maandprijs." },
-      { q: "Kan ik inhoud laten aanpassen?", a: "Kleine aanpassingen horen bij de begeleiding. U stuurt ons een kort bericht, wij voeren het snel uit, zonder dat u zelf in het systeem hoeft te werken." },
-      { q: "Wat zijn SEO en GEO basisprincipes?", a: "SEO helpt zoekmachines om uw site te lezen en te ranken. GEO helpt AI-zoeksystemen om uw onderneming te begrijpen en aan te bevelen. Beide zijn vanaf het begin inbegrepen. Concrete Google rankings kunnen niet worden gegarandeerd." },
-      { q: "Krijg ik een individueel ontwerp of een sjabloon?", a: "U krijgt een individueel ontwerp dat is afgestemd op uw onderneming, uw doelgroep en uw sector. Geen templates en geen modulair systeem. Bestaand logo, kleuren en lettertypes worden meegenomen." },
-      { q: "Is de website geoptimaliseerd voor de smartphone?", a: "Ja. Alle websites van semanu worden ontwikkeld volgens het Mobile First principe: eerst ontworpen voor de smartphone en daarna uitgebreid naar desktop en tablet." },
-      { q: "Kan ik een bestaande website naar semanu overzetten?", a: "Dat hangt af van de bestaande techniek. Neem contact met ons op en we kijken samen wat mogelijk is en welk abonnement bij uw situatie past." },
-      { q: "Hoe lang is de minimale looptijd?", a: "De minimale looptijd bedraagt 36 maanden. Daarna is het abonnement maandelijks opzegbaar. Alle prijzen zijn excl. btw." },
+        ...AI_NATIVE_FAQ[loc].items,
+        ...WORKFLOW_QUESTIONS.map((i) => workflow?.faq[i]).filter((f): f is FaqQA => Boolean(f)),
       ],
     },
     {
-      id: "webshop",
-      accent: "oklch(0.84 0.10 196)",
-      price: 125,
-      icon: "<svg viewBox=\"0 0 48 48\"><path d=\"M7 9h5l3.2 21h21l3.5-15H15\"/><circle cx=\"19\" cy=\"40\" r=\"2.6\"/><circle cx=\"35\" cy=\"40\" r=\"2.6\"/></svg>",
-      name: "Webshop",
-      tagline: "Producten, betalingen en bestellingen, netjes en veilig.",
-      faqs: [
-      { q: "Welke betaalmethodes worden ondersteund?", a: "Gangbare methodes zoals kaartbetaling en overschrijving, veilig afgehandeld. Andere betaalmethodes zijn op aanvraag mogelijk. Producten, bestellingen en de verzendconfiguratie richten we samen in." },
-      { q: "Hoeveel producten kan ik verkopen?", a: "Zoveel als u nodig hebt. De shop groeit mee met uw assortiment, van enkele producten tot een grote catalogus. De opbouw richten we samen in." },
-      { q: "Zijn hosting en onderhoud inbegrepen?", a: "Ja. Hosting in de EU, SSL, beveiligingsupdates en doorlopend onderhoud zijn inbegrepen in de maandprijs." },
-      { q: "Is de shop geoptimaliseerd voor mobiel?", a: "Ja, de shop is volledig responsive en geoptimaliseerd voor het kopen op de smartphone, van bladeren tot betalen." },
-      { q: "Kan ik de shop met mijn website verbinden?", a: "Ja. We integreren hem in uw bestaande presentatie of we bouwen website en shop vanaf het begin als één geheel." },
-      { q: "Hoe lang is de minimale looptijd?", a: "De minimale looptijd bedraagt 36 maanden. Daarna is het abonnement maandelijks opzegbaar. Alle prijzen zijn excl. btw." },
-      ],
+      id: 'working-with-semanu',
+      accent: 'oklch(0.84 0.09 258)',
+      name: names.working,
+      faqs: WORKING_WITH_US[loc],
     },
-    {
-      id: "email",
-      accent: "oklch(0.84 0.10 212)",
-      price: 79,
-      icon: "<svg viewBox=\"0 0 48 48\"><rect x=\"5\" y=\"9\" width=\"38\" height=\"28\" rx=\"4\"/><path d=\"M7 12l17 13L41 12\"/></svg>",
-      name: "Email Marketing",
-      tagline: "Nieuwsbrieven en campagnes die vaste klanten terugbrengen.",
-      faqs: [
-      { q: "Wat is inbegrepen?", a: "Nieuwsbriefsjablonen in uw ontwerp, ontvangerslijsten, verzending en de analyse van openingen en kliks." },
-      { q: "Heb ik een eigen ontvangerslijst nodig?", a: "Niet per se. We helpen bij het netjes en privacyconform opbouwen van uw lijst, zodat u de juiste personen bereikt." },
-      { q: "Hoe vaak zou ik moeten versturen?", a: "Dat hangt af van uw bedrijf. We raden een passend ritme aan en verzorgen op verzoek concept en uitvoering." },
-      { q: "Is dat toegestaan volgens de privacyregels?", a: "Ja, als het op toestemming berust. We richten aanmeldformulieren en toestemming in, zodat u alleen mensen schrijft die erom hebben gevraagd." },
-      { q: "Welke tool gebruikt u?", a: "We kiezen een betrouwbaar Email platform dat bij uw omvang en uw budget past. De inrichting nemen wij voor u op ons." },
-      ],
-    },
-    {
-      id: "automation",
-      accent: "oklch(0.83 0.10 228)",
-      price: 129,
-      icon: "<svg viewBox=\"0 0 48 48\"><circle cx=\"24\" cy=\"24\" r=\"8\"/><path d=\"M24 8v6M24 34v6M8 24h6M34 24h6M13 13l4.2 4.2M30.8 30.8L35 35M35 13l-4.2 4.2M17.2 30.8L13 35\"/></svg>",
-      name: "Workflow Automatisering",
-      tagline: "Geautomatiseerde follow ups, flows en herinneringen.",
-      faqs: [
-      { q: "Wat kan er worden geautomatiseerd?", a: "Follow ups, welkomstflows, herinneringen en triggers, geactiveerd door het gedrag van uw contacten. Zo blijft u in contact, zonder eraan te denken." },
-      { q: "Is de inrichting inbegrepen?", a: "Ja, de inrichting van de flows hoort bij het abonnement. U hoeft zelf niets op te zetten of te configureren." },
-      { q: "Werkt dat met website en CRM?", a: "Ja. Automation verbindt zich met website en CRM, zodat uw gegevens op één plek samenkomen en processen op elkaar aansluiten." },
-      { q: "Komt dat onpersoonlijk over?", a: "Nee, als het goed gedaan is. We schrijven automatiseringen in uw stem, zodat ze aanvoelen als een tijdig persoonlijk bericht, niet als een robot." },
-      { q: "Kan ik klein beginnen?", a: "Ja. De meesten beginnen met een flow zoals leadopvolging en voegen er meer toe zodra ze de waarde zien." },
-      ],
-    },
-    {
-      id: "google-ads",
-      accent: "oklch(0.83 0.10 236)",
-      price: 195,
-      icon: "<svg viewBox=\"0 0 48 48\"><circle cx=\"24\" cy=\"24\" r=\"16\"/><circle cx=\"24\" cy=\"24\" r=\"9\"/><circle class=\"fill\" cx=\"24\" cy=\"24\" r=\"3\"/></svg>",
-      name: "Google Ads",
-      tagline: "Betaalde campagnes die u tonen waar klanten zoeken.",
-      faqs: [
-      { q: "Wat kost het beheer van Google Ads?", a: "De prijs van het beheer is op aanvraag en volgt in een schriftelijke offerte. Het advertentiebudget komt er naar keuze bij. U behoudt de controle over uw uitgaven en kunt klein starten." },
-      { q: "Heb ik een groot budget nodig?", a: "Nee. We starten met een gericht budget op de belangrijkste zoektermen en schalen pas op wanneer de campagnes lonen." },
-      { q: "Wat verzorgt u?", a: "Inrichting, keywords, advertentieteksten, tracking en doorlopende optimalisatie. U ontvangt een duidelijke reporting over wat de uitgaven opleveren." },
-      { q: "Hoe snel zie ik resultaten?", a: "Advertenties brengen vaak binnen enkele dagen bezoekers. In de eerste weken optimaliseren we, zodat uw budget daarheen gaat waar het echt converteert." },
-      ],
-    },
-    {
-      id: "business-dashboards",
-      accent: "oklch(0.84 0.09 258)",
-      price: 0,
-      icon: "<svg viewBox=\"0 0 48 48\"><rect x=\"6\" y=\"6\" width=\"36\" height=\"36\" rx=\"4\"/><path d=\"M14 31V22M24 31V15M34 31v-6\"/></svg>",
-      name: "Digitale platformen",
-      tagline: "Dashboards, CRM-systemen en klantportalen in één verbonden platform.",
-      faqs: [
-      { q: "Wat zijn digitale platformen?", a: "Eén verbonden platform dat drie dingen samenbrengt: een dashboard voor uw cijfers, een CRM voor leads en klanten en een klantportaal waarin uw klanten inloggen. In plaats van drie losse tools ontstaat er één systeem waarin alles op elkaar aansluit." },
-      { q: "Wat kan het dashboard?", a: "Het brengt uw belangrijkste cijfers samen in één helder intern overzicht, zoals leads, omzet, afspraken en bestellingen. Zo ziet u in één oogopslag hoe het bedrijf loopt, zonder verspreide Excel rapporten." },
-      { q: "Wat doet het CRM?", a: "Leads, klanten, pipeline en follow-ups staan op één plek en er gaat niets verloren. We richten velden, fases en taken in die passen bij uw processen, zodat het systeem uw verkoop volgt." },
-      { q: "Waarvoor dient het klantportaal?", a: "Een privéruimte waar uw klanten inloggen en documenten, projectstatus, boekingen en facturen op één plek zien. Elke klant ziet alleen zijn eigen gegevens, beschermd door een echte login." },
-      { q: "Wat kost een digitaal platform?", a: "Dat hangt af van de omvang, daarom werken we op aanvraag. We bespreken welke bouwstenen u nodig hebt en spreken de prijs vooraf af. Zo is er geen vast maandbedrag van de plank maar een oplossing die bij u past." },
-      ],
-    },
-    {
-      id: "ai",
-      accent: "oklch(0.84 0.09 264)",
-      price: 99,
-      icon: "<svg viewBox=\"0 0 48 48\"><path d=\"M24 6 L28 18 L40 22 L28 26 L24 38 L20 26 L8 22 L20 18 Z\"/><circle class=\"fill\" cx=\"37\" cy=\"9\" r=\"2.2\"/><circle class=\"fill\" cx=\"10\" cy=\"34\" r=\"1.8\"/></svg>",
-      name: "AI assistenten",
-      tagline: "Support, leads en interne processen, de klok rond.",
-      faqs: [
-      { q: "Wat kan een AI-assistent voor mij doen?", a: "Hij beantwoordt klantvragen de klok rond, legt leads vast en ondersteunt interne processen, getraind op uw eigen inhoud." },
-      { q: "Waar haalt hij de antwoorden vandaan?", a: "Uit uw eigen inhoud en documenten, zodat de antwoorden bij uw onderneming passen en er niets wordt verzonnen." },
-      { q: "Vervangt dat mijn support?", a: "Het ontlast hem. De assistent neemt routinevragen over, complexe gevallen stuurt hij netjes naar u door." },
-      { q: "Verzint hij dingen?", a: "We verlagen dat door de assistent te verbinden met uw eigen informatie en duidelijke grenzen te stellen, zodat hij bij het onderwerp blijft en nauwkeurig antwoordt." },
-      { q: "Zijn mijn gegevens veilig?", a: "We richten assistenten zo in dat uw informatie onder uw controle blijft en alleen voor de afgesproken taak wordt gebruikt." },
-      ],
-    },
-  ],
+  ];
+}
+
+export const FAQ_SERVICES: Record<FaqLocale, FaqService[]> = {
+  nl: buildFaq('nl'),
+  en: buildFaq('en'),
+  de: buildFaq('de'),
+  fr: buildFaq('fr'),
+  es: buildFaq('es'),
 };

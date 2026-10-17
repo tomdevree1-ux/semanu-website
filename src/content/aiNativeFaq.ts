@@ -94,7 +94,7 @@ export const AI_NATIVE_FAQ: Record<ServicesLocale, AiNativeFaq> = {
       },
       {
         q: 'Was kostet die Entwicklung einer individuellen Unternehmenssoftware?',
-        a: 'Die Kosten hängen vom Funktionsumfang, der Komplexität und den benötigten Integrationen ab. Dank unserer AI-first Entwicklungsmethode können wir maßgeschneiderte Software effizienter entwickeln. Sie müssen nicht direkt in eine komplette Plattform investieren, sondern können mit einer einzelnen Funktion starten und diese schrittweise erweitern. In einem ersten Gespräch klären wir Ihre Anforderungen und erstellen eine passende Offerte.',
+        a: 'Die Kosten hängen vom Funktionsumfang, der Komplexität und den benötigten Integrationen ab. Dank unserer AI-first Entwicklungsmethode können wir maßgeschneiderte Software effizienter entwickeln. Sie müssen nicht direkt in eine komplette Plattform investieren, sondern können mit einer einzelnen Funktion starten und diese schrittweise erweitern. In einem ersten Gespräch klären wir Ihre Anforderungen und erstellen ein passendes Angebot.',
       },
       {
         q: 'Wie lange dauert die Entwicklung einer individuellen Software?',

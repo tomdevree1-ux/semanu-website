@@ -36,7 +36,6 @@
     "servicesMore": "Mehr",
     "servicesAll": "Alle Leistungen",
     "howDesc": "Unser Ablauf in fünf Schritten",
-    "plansDesc": "Website Abos und Preise",
     "faqDesc": "Antworten auf häufige Fragen",
     "aboutDesc": "Wer hinter semanu steht",
     "blogDesc": "Einblicke und Tipps rund um Websites",
@@ -59,15 +58,13 @@
       "imprint": "Impressum",
       "privacy": "Datenschutz",
       "gtc": "AGB",
-      "subTerms": "Abo Bedingungen",
       "cookies": "Cookie Hinweis",
       "contactPrefs": "Kontakt Einstellungen"
     }
   },
   "common": {
     "skipToContent": "Zum Inhalt springen",
-    "learnMore": "Mehr erfahren",
-    "vatNote": "Alle Preise exkl. MWST. Website Abos mit Mindestlaufzeit 36 Monate, danach monatlich kündbar."
+    "learnMore": "Mehr erfahren"
   },
   "contact": {
     "eyebrow": "Kontakt",

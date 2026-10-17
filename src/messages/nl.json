@@ -36,7 +36,6 @@
     "servicesMore": "Meer",
     "servicesAll": "Alle diensten",
     "howDesc": "Ons proces in vijf stappen",
-    "plansDesc": "Websiteabonnementen en prijzen",
     "faqDesc": "Antwoorden op veelgestelde vragen",
     "aboutDesc": "Wie er achter semanu staat",
     "blogDesc": "Inzichten en tips over websites",
@@ -59,15 +58,13 @@
       "imprint": "Colofon",
       "privacy": "Privacybeleid",
       "gtc": "Algemene voorwaarden",
-      "subTerms": "Abonnementsvoorwaarden",
       "cookies": "Cookieverklaring",
       "contactPrefs": "Contactvoorkeuren"
     }
   },
   "common": {
     "skipToContent": "Naar de inhoud springen",
-    "learnMore": "Meer weten",
-    "vatNote": "Alle prijzen excl. btw. Websiteabonnementen met minimale looptijd 36 maanden, daarna maandelijks opzegbaar."
+    "learnMore": "Meer weten"
   },
   "contact": {
     "eyebrow": "Contact",

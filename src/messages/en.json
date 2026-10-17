@@ -36,7 +36,6 @@
     "servicesMore": "More",
     "servicesAll": "All services",
     "howDesc": "Our process in five steps",
-    "plansDesc": "Website plans and pricing",
     "faqDesc": "Answers to common questions",
     "aboutDesc": "Who is behind semanu",
     "blogDesc": "Insights and tips about websites",
@@ -59,15 +58,13 @@
       "imprint": "Imprint",
       "privacy": "Privacy policy",
       "gtc": "General terms (GTC)",
-      "subTerms": "Subscription terms",
       "cookies": "Cookies",
       "contactPrefs": "Contact preferences"
     }
   },
   "common": {
     "skipToContent": "Skip to content",
-    "learnMore": "Learn more",
-    "vatNote": "All prices excl. VAT. Website plans with a 36 month minimum term, then cancellable monthly."
+    "learnMore": "Learn more"
   },
   "contact": {
     "eyebrow": "Contact",

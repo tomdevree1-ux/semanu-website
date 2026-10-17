@@ -42,9 +42,9 @@ For a small business a mention is therefore more valuable than ever. The AI rare
 That loop of checking and improving is the core of it. You could call it a feedback loop: every month, check how you show up on Google and in AI answers. That way you fix things before a gap starts costing you customers.
 
 <div style="margin:2.5rem 0;padding:1.5rem 1.75rem;border-radius:0.75rem;background:#E9F3EE;border:1px solid #C7EBD8">
-  <strong style="display:block;font-size:1.15rem;color:#16233D;margin-bottom:0.4rem">Does the AI name your business today?</strong>
-  <p style="margin:0 0 1rem;color:#5B667C">We check it for free. You learn whether and how ChatGPT, Perplexity and Google name you in your region. We also point you to the fastest first step.</p>
-  <a href="/en/contact"><strong>Request a free check →</strong></a>
+  <strong style="display:block;font-size:1.15rem;color:#16233D;margin-bottom:0.4rem">Want AI to do real work in your business?</strong>
+  <p style="margin:0 0 1rem;color:#5B667C"><span class="brand-mark">semanu</span> builds custom business software and 3D configurators with AI as the engine. Tell us what you want to achieve. Together we work out the first step.</p>
+  <a href="/en/contact"><strong>Get in touch →</strong></a>
 </div>
 
 ## SEO or GEO: which one then?

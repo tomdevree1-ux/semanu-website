@@ -36,7 +36,6 @@
     "servicesMore": "Más",
     "servicesAll": "Todos los servicios",
     "howDesc": "Nuestro proceso en cinco pasos",
-    "plansDesc": "Suscripciones web y precios",
     "faqDesc": "Respuestas a preguntas frecuentes",
     "aboutDesc": "Quién está detrás de semanu",
     "blogDesc": "Perspectivas y consejos sobre sitios web",
@@ -59,15 +58,13 @@
       "imprint": "Aviso legal",
       "privacy": "Privacidad",
       "gtc": "Condiciones generales",
-      "subTerms": "Condiciones de suscripción",
       "cookies": "Aviso de cookies",
       "contactPrefs": "Preferencias de contacto"
     }
   },
   "common": {
     "skipToContent": "Saltar al contenido",
-    "learnMore": "Más información",
-    "vatNote": "Todos los precios sin IVA. Suscripciones web con una duración mínima de 36 meses, después cancelables cada mes."
+    "learnMore": "Más información"
   },
   "contact": {
     "eyebrow": "Contacto",

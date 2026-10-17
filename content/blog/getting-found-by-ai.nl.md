@@ -42,9 +42,9 @@ Voor een klein bedrijf is een vermelding daarom waardevoller dan ooit. De AI too
 Die lus van meten en bijsturen is de kern. Je kunt het een Feedback Loop noemen: kijk elke maand hoe je opduikt op Google en in AI-antwoorden. Zo stuur je bij voordat een gat je klanten begint te kosten.
 
 <div style="margin:2.5rem 0;padding:1.5rem 1.75rem;border-radius:0.75rem;background:#E9F3EE;border:1px solid #C7EBD8">
-  <strong style="display:block;font-size:1.15rem;color:#16233D;margin-bottom:0.4rem">Noemt de AI jouw bedrijf vandaag al?</strong>
-  <p style="margin:0 0 1rem;color:#5B667C">Wij checken het gratis. Je hoort of en hoe ChatGPT, Perplexity en Google je in jouw regio noemen. Ook zeggen we je de snelste eerste stap.</p>
-  <a href="/nl/contact"><strong>Gratis check aanvragen →</strong></a>
+  <strong style="display:block;font-size:1.15rem;color:#16233D;margin-bottom:0.4rem">AI aan het werk in je eigen bedrijf?</strong>
+  <p style="margin:0 0 1rem;color:#5B667C"><span class="brand-mark">semanu</span> bouwt bedrijfssoftware op maat en 3D-configuratoren met AI als motor. Vertel ons wat je wilt bereiken. Samen bepalen we de eerste stap.</p>
+  <a href="/nl/contact"><strong>Neem contact op →</strong></a>
 </div>
 
 ## SEO of GEO: wat dan?

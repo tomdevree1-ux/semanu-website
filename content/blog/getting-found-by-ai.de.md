@@ -42,9 +42,9 @@ Für ein kleines Unternehmen ist eine Nennung darum wertvoller als je zuvor. Die
 Diese Schleife aus Prüfen und Nachbessern ist der Kern. Man kann sie einen Feedback Loop nennen: Prüfen Sie jeden Monat, wie Sie bei Google und in KI-Antworten auftauchen. So bessern Sie nach, bevor eine Lücke Sie Kundschaft kostet.
 
 <div style="margin:2.5rem 0;padding:1.5rem 1.75rem;border-radius:0.75rem;background:#E9F3EE;border:1px solid #C7EBD8">
-  <strong style="display:block;font-size:1.15rem;color:#16233D;margin-bottom:0.4rem">Nennt die KI Ihr Unternehmen heute schon?</strong>
-  <p style="margin:0 0 1rem;color:#5B667C">Wir prüfen es kostenlos. Sie erfahren, ob und wie ChatGPT, Perplexity und Google Sie in Ihrer Region nennen. Dazu sagen wir Ihnen den schnellsten ersten Schritt.</p>
-  <a href="/de/contact"><strong>Kostenlosen Check anfragen →</strong></a>
+  <strong style="display:block;font-size:1.15rem;color:#16233D;margin-bottom:0.4rem">Soll KI auch in Ihrem Unternehmen mitarbeiten?</strong>
+  <p style="margin:0 0 1rem;color:#5B667C"><span class="brand-mark">semanu</span> entwickelt maßgeschneiderte Unternehmenssoftware und 3D-Konfiguratoren mit KI als Motor. Erzählen Sie uns, was Sie erreichen möchten. Gemeinsam klären wir den ersten Schritt.</p>
+  <a href="/de/contact"><strong>Kontakt aufnehmen →</strong></a>
 </div>
 
 ## SEO oder GEO: was denn nun?

@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { AI_NATIVE_FAQ, getAiNativeFaq } from '@/content/aiNativeFaq';
 import { getServiceDetail } from '@/content/serviceDetail';
+import { FAQ_SERVICES } from '@/content/faqServices';
 
 // Guards against German FAQ copy leaking into other locales (the ai-native and
 // 3D configurator FAQs were once German in every locale).
@@ -59,6 +60,34 @@ describe('FAQ content is localized', () => {
     expect(getAiNativeFaq('xx')).toBe(AI_NATIVE_FAQ.nl);
   });
 
+  it('FAQ page: same groups and question counts in every locale', () => {
+    const shape = (l: (typeof LOCALES)[number]) =>
+      FAQ_SERVICES[l].map((g) => `${g.id}:${g.faqs.length}`).join(',');
+    for (const l of LOCALES) {
+      expect(shape(l), l).toBe(shape('en'));
+      expect(FAQ_SERVICES[l].map((g) => g.id)).toEqual([
+        '3d-configurators',
+        'business-software',
+        'working-with-semanu',
+      ]);
+      for (const g of FAQ_SERVICES[l]) expect(g.faqs.length, `${l}/${g.id}`).toBeGreaterThanOrEqual(2);
+    }
+  });
+
+  it('FAQ page: no discontinued offers, prices or German leaking into other locales', () => {
+    const banned = /webshop|website ?abo|36|google ads|e-?mail ?marketing|gratis|kostenlos|gratuit|free check|consultan|€|chf/i;
+    for (const l of LOCALES) {
+      for (const g of FAQ_SERVICES[l]) {
+        for (const { q, a } of g.faqs) {
+          // The 3D configurator FAQ may say a configurator connects to a webshop.
+          const text = g.id === '3d-configurators' ? `${q} ${a}`.replace(/webshops?/gi, '') : `${q} ${a}`;
+          expect(banned.test(text), `${l}/${g.id}: "${q}"`).toBe(false);
+          if (l !== 'de') expect(germanWords(`${q} ${a}`), `${l}/${g.id}: "${q}"`).toEqual([]);
+        }
+      }
+    }
+  });
+
   it('copy rules: no em/en dashes and no comma before a coordinating conjunction', () => {
     const conj: Record<string, RegExp> = {
       nl: /, (en|of|maar|met) /,
@@ -67,7 +96,8 @@ describe('FAQ content is localized', () => {
       es: /, (y|o|pero|con) /,
     };
     for (const loc of ['nl', 'en', 'fr', 'es'] as const) {
-      for (const faq of Object.values(faqsFor(loc))) {
+      const faqPage = { items: FAQ_SERVICES[loc].flatMap((g) => g.faqs) };
+      for (const faq of [...Object.values(faqsFor(loc)), faqPage]) {
         for (const { q, a } of faq.items) {
           const text = `${q} ${a}`;
           expect(/[–—]/.test(text), `${loc} dash: "${q}"`).toBe(false);

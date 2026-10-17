@@ -11,17 +11,21 @@ import { pageMetadata } from '@/lib/seo/metadata';
 // dedicated, concise meta sentence lives here (house copy rules: no dashes, no
 // comma before und/oder, standard German ß, AI stays "AI" in every language).
 const FAQ_DESC: Record<string, string> = {
-  de: 'semanu beantwortet häufige Fragen zu 3D-Konfiguratoren und Unternehmenssoftware nach Maß für KMU in Europa: Ablauf, Preise, Wartung und Sicherheit.',
-  fr: 'semanu répond aux questions fréquentes sur les configurateurs 3D et les logiciels d’entreprise sur mesure pour les PME en Europe : déroulement, prix, maintenance et sécurité.',
-  en: 'semanu answers common questions about 3D configurators and custom business software for SMEs in Europe: process, pricing, maintenance and security.',
+  nl: 'semanu beantwoordt veelgestelde vragen over 3D-configuratoren en bedrijfssoftware op maat voor kmo’s in Europa: aanpak, prijzen, hosting in de EU en onderhoud.',
+  de: 'semanu beantwortet häufige Fragen zu 3D-Konfiguratoren und Unternehmenssoftware nach Maß für KMU in Europa: Ablauf, Preise, Hosting in der EU und Wartung.',
+  fr: 'semanu répond aux questions fréquentes sur les configurateurs 3D et les logiciels d’entreprise sur mesure pour les PME en Europe : déroulement, prix, hébergement dans l’UE et maintenance.',
+  en: 'semanu answers common questions about 3D configurators and custom business software for SMEs in Europe: process, pricing, hosting in the EU and maintenance.',
+  es: 'semanu responde a las preguntas frecuentes sobre configuradores 3D y software empresarial a medida para pymes en Europa: proceso, precios, hosting en la UE y mantenimiento.',
 };
 
 // Query-bearing titles (decoupled from the nav label "FAQ" so the <title> can
 // carry the topics people actually search for).
 const FAQ_TITLE: Record<string, string> = {
+  nl: 'FAQ: 3D-configuratoren, bedrijfssoftware en AI · semanu.eu',
   de: 'FAQ: 3D-Konfiguratoren, Unternehmenssoftware und AI · semanu.eu',
   fr: 'FAQ : configurateurs 3D, logiciels d’entreprise et AI · semanu.eu',
   en: 'FAQ: 3D configurators, business software and AI · semanu.eu',
+  es: 'FAQ: configuradores 3D, software empresarial y AI · semanu.eu',
 };
 
 export async function generateMetadata({
@@ -31,8 +35,8 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return pageMetadata({
-    title: FAQ_TITLE[locale] ?? FAQ_TITLE.de,
-    description: FAQ_DESC[locale] ?? FAQ_DESC.de,
+    title: FAQ_TITLE[locale] ?? FAQ_TITLE.en,
+    description: FAQ_DESC[locale] ?? FAQ_DESC.en,
     path: '/faq',
     locale,
   });
@@ -56,8 +60,8 @@ export default async function FaqPage({
     : 'de';
   const services = FAQ_SERVICES[loc];
 
-  // FAQPage structured data built from EVERY question across all services, so the
-  // rich result reflects the full page.
+  // FAQPage structured data built from EVERY question across all groups, so the
+  // rich result always matches the visible page in this locale.
   const faqLd = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',

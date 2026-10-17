@@ -13,42 +13,13 @@ import type { FaqService, FaqUi } from '@/content/faqServices';
 
 /**
  * Searchable FAQ. A prominent command-field-style search box filters live across
- * every question and answer; the questions stay grouped by the eight services as
+ * every question and answer; the questions stay grouped by topic as
  * accordions (several may be open at once). Typing "/" or Cmd/Ctrl+K focuses the
  * field. While a query is active, matching questions auto-open and the matched
  * substring is highlighted in mint. Light + on-brand (Marine + Mint), Tailwind
  * utilities only. Accessibility: labelled input, real <button> accordions with
  * aria-expanded + aria-controls, answers exposed as regions, reduced-motion safe.
  */
-
-// Small inline copy block keyed by the brandTag (stable across locales). The
-// FaqUi type has no search/results strings, so the three are defined here and
-// follow the house copy rules (no dashes, standard German ß, no comma before und/oder).
-type SearchCopy = { placeholder: string; empty: string; clear: string };
-
-function localeFromUi(ui: FaqUi): 'de' | 'fr' | 'en' {
-  if (ui.ctaStart === 'Commencer') return 'fr';
-  if (ui.ctaStart === 'Get started') return 'en';
-  return 'de';
-}
-
-const SEARCH_COPY: Record<'de' | 'fr' | 'en', SearchCopy> = {
-  de: {
-    placeholder: 'Fragen durchsuchen…',
-    empty: 'Keine Treffer für',
-    clear: 'Suche zurücksetzen',
-  },
-  fr: {
-    placeholder: 'Rechercher dans les questions…',
-    empty: 'Aucun résultat pour',
-    clear: 'Réinitialiser la recherche',
-  },
-  en: {
-    placeholder: 'Search the questions…',
-    empty: 'No results for',
-    clear: 'Clear search',
-  },
-};
 
 /** Lowercase + strip diacritics so "système" matches "systeme". */
 function norm(s: string): string {
@@ -122,7 +93,11 @@ export function FaqSearch({
   services: FaqService[];
   contactHref: string;
 }) {
-  const copy = SEARCH_COPY[localeFromUi(ui)];
+  const copy = {
+    placeholder: ui.searchPlaceholder,
+    empty: ui.searchEmpty,
+    clear: ui.searchClear,
+  };
   const [query, setQuery] = useState('');
   // Questions the user has manually toggled, keyed `${serviceId}:${faqIndex}`.
   // While a query is active the matching rows are forced open regardless.
