@@ -8,7 +8,7 @@
     "contact": "Ponerse en contacto"
   },
   "meta": {
-    "title": "Agencia web en Amberes: sitios web, plataformas y AI para pymes · semanu.eu",
+    "title": "Socio digital AI-native para pymes en Europa · semanu.eu",
     "description": "semanu crea configuradores 3D y software empresarial a medida para pymes en Europa: automatización, portales, CRM y AI. De forma personal desde Amberes."
   },
   "lang": {
@@ -38,7 +38,7 @@
     "howDesc": "Nuestro proceso en cinco pasos",
     "faqDesc": "Respuestas a preguntas frecuentes",
     "aboutDesc": "Quién está detrás de semanu",
-    "blogDesc": "Perspectivas y consejos sobre sitios web",
+    "blogDesc": "Sobre AI, software y configuradores 3D",
     "contactDesc": "Hablemos de su proyecto",
     "start": "Empezar",
     "pill3d": "Configuradores 3D",
@@ -118,21 +118,23 @@
     "interest": "¿En qué está interesado?",
     "interestNotSure": "Aún no estoy seguro",
     "interestHelp": "¿No sabe qué elegir? Seleccione Aún no estoy seguro y le ayudamos a encontrar el siguiente paso adecuado.",
-    "messagePlaceholder": "Por ejemplo: necesito un nuevo sitio web y quiero hacer seguimiento automático de los leads."
+    "messagePlaceholder": "Por ejemplo: queremos un configurador 3D para nuestros armarios. O bien: buscamos software que conecte presupuestos y planificación."
   },
   "blog": {
     "title": "Blog",
-    "intro": "Perspectivas, consejos y novedades sobre sitios web modernos.",
+    "intro": "Artículos sobre AI, software empresarial y configuradores 3D para pymes: qué funciona, qué aporta y cómo empezar.",
     "readMore": "Seguir leyendo",
     "back": "Volver al blog",
     "empty": "Todavía no hay entradas.",
     "by": "por",
-    "ctaTitle": "Hablemos de su presencia digital.",
-    "ctaButton": "Reservar una llamada estratégica",
+    "ctaTitle": "¿Tiene en mente un proyecto de configurador o de software?",
+    "ctaButton": "Hable de su proyecto",
     "authorName": "Tom de Vree",
     "authorRole": "fundador de semanu",
     "authorBio": "Tom de Vree crea configuradores 3D, software empresarial y automatizaciones para pymes en Europa.",
-    "updatedLabel": "Actualizado el"
+    "updatedLabel": "Actualizado el",
+    "metaDescription": "El blog de semanu sobre AI, software empresarial a medida y configuradores 3D para pymes en Europa: ideas prácticas, ejemplos y primeros pasos.",
+    "servicesTitle": "Lo que construimos"
   },
   "cookie": {
     "text": "Usamos cookies para mejorar nuestro sitio web. Usted decide qué permite.",
@@ -154,17 +156,18 @@
   "about": {
     "eyebrow": "Sobre nosotros",
     "title": "Personal, no anónimo.",
-    "intro": "semanu hace que las soluciones digitales sean previsibles y sencillas para las pymes. Desde configuradores 3D hasta software empresarial con automatización y AI, obtiene un socio claro que crece con su empresa.",
+    "intro": "semanu es un socio digital AI-native de Amberes. Creamos configuradores 3D y software empresarial a medida para pymes en Europa, desde el primer boceto hasta el software que funciona cada día.",
     "nameTitle": "De dónde viene semanu",
-    "nameText": "semanu procede del dialecto de Amberes, de raíces flamencas. Es una exclamación de admiración, un wow espontáneo cuando algo convence de verdad. Esa es exactamente la reacción que su sitio web debería provocar en sus visitantes. Creamos presencias digitales modernas, rápidas y móviles con contenidos que venden, se quedan en la memoria y convierten a los visitantes en clientes. Todo en una suscripción clara sin una gran inversión inicial.",
+    "nameText": "semanu procede del dialecto de Amberes, de raíces flamencas. Es una exclamación de admiración, un wow espontáneo cuando algo convence de verdad. Esa es justo la reacción que buscamos. En sus clientes, cuando configuran ellos mismos su producto en 3D. En su equipo, cuando el software asume el trabajo repetitivo.",
     "missionTitle": "Nuestra idea",
-    "missionText": "Muchas pequeñas empresas necesitan un buen sitio web sin la carga técnica. Nos ocupamos del diseño, la técnica, el hosting, el mantenimiento, la seguridad y los fundamentos de SEO, para que pueda centrarse en su negocio. Como trabajamos con AI, construimos de forma más rápida y rentable que las agencias tradicionales y ofrecemos soluciones AI como asistentes y automatizaciones como parte de nuestra oferta.",
+    "missionText": "Las pymes merecen la misma fuerza digital que las grandes empresas, sin largos proyectos ni grandes presupuestos. Por eso desarrollamos AI-first: la AI acelera cada paso, del análisis al código. Así entregamos configuradores 3D y software empresarial más rápido y a menor coste. Empieza por lo que hoy aporta más valor. Después amplía paso a paso. El software y su código fuente son suyos.",
     "founderTitle": "Detrás de semanu",
     "founderName": "Tom de Vree",
     "founderRole": "Fundador y propietario",
     "founderText": "semanu está dirigida por Tom de Vree y tiene su sede en Amberes. Trabajamos de forma personal con pymes y fabricantes de toda Europa. Habla directamente con la persona que construye su solución.",
-    "ctaTitle": "¿Le apetece un sitio web que crezca con usted?",
-    "ctaButton": "Ponerse en contacto"
+    "ctaTitle": "¿Tiene en mente un proyecto de configurador o de software?",
+    "ctaButton": "Hable de su proyecto",
+    "metaDescription": "semanu es un socio digital AI-native de Amberes: configuradores 3D y software empresarial a medida para pymes en Europa. Conozca quién está detrás."
   },
   "serviceUi": {
     "analysisEyebrow": "Preparación",

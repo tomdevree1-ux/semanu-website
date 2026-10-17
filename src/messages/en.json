@@ -8,7 +8,7 @@
     "contact": "Contact us"
   },
   "meta": {
-    "title": "Web agency in Antwerp: websites, platforms and AI for SMEs · semanu.eu",
+    "title": "AI-native digital partner for SMEs in Europe · semanu.eu",
     "description": "semanu builds 3D configurators and custom business software for SMEs in Europe: automation, portals, CRM and AI. Personal, from Antwerp."
   },
   "lang": {
@@ -38,7 +38,7 @@
     "howDesc": "Our process in five steps",
     "faqDesc": "Answers to common questions",
     "aboutDesc": "Who is behind semanu",
-    "blogDesc": "Insights and tips about websites",
+    "blogDesc": "On AI, software and 3D configurators",
     "contactDesc": "Let us talk about your project",
     "start": "Get started",
     "pill3d": "3D configurators",
@@ -118,21 +118,23 @@
     "interest": "What are you interested in?",
     "interestNotSure": "Not sure yet",
     "interestHelp": "Not sure what to choose? Select Not sure yet and we will help you define the right next step.",
-    "messagePlaceholder": "For example, I need a new website and want to follow up leads automatically."
+    "messagePlaceholder": "For example: we want customers to configure our cabinets in 3D. Or: we need software that connects quotes and planning."
   },
   "blog": {
     "title": "Blog",
-    "intro": "Insights, tips and news about modern websites.",
+    "intro": "Articles on AI, business software and 3D configurators for SMEs: what works, what it delivers and how to start.",
     "readMore": "Read more",
     "back": "Back to blog",
     "empty": "No posts yet.",
     "by": "by",
-    "ctaTitle": "Let us talk about your digital presence.",
-    "ctaButton": "Book a strategy call",
+    "ctaTitle": "Have a configurator or software project in mind?",
+    "ctaButton": "Discuss your project",
     "authorName": "Tom de Vree",
     "authorRole": "founder of semanu",
     "authorBio": "Tom de Vree builds 3D configurators, business software and automations for SMEs in Europe.",
-    "updatedLabel": "Updated"
+    "updatedLabel": "Updated",
+    "metaDescription": "The semanu blog on AI, custom business software and 3D configurators for SMEs in Europe: practical insights, examples and first steps.",
+    "servicesTitle": "What we build"
   },
   "cookie": {
     "text": "We use cookies to improve our website. You decide what you allow.",
@@ -154,17 +156,18 @@
   "about": {
     "eyebrow": "About",
     "title": "Personal, not anonymous.",
-    "intro": "semanu makes digital solutions predictable and simple for SMEs. From 3D configurators to business software with automation and AI, you get one clear partner that grows with your business.",
+    "intro": "semanu is an AI-native digital partner from Antwerp. We build 3D configurators and custom business software for SMEs in Europe, from the first sketch to software that runs every day.",
     "nameTitle": "Where semanu comes from",
-    "nameText": "semanu comes from the Antwerp dialect, rooted in Flemish. It is an exclamation of admiration, a spontaneous wow when something truly impresses. That is exactly the reaction your website should spark in your visitors. We build modern, fast and mobile sites with content that sells, stays in mind and turns visitors into customers. All in one clear subscription without a large upfront investment.",
+    "nameText": "semanu comes from the Antwerp dialect, rooted in Flemish. It is an exclamation of admiration, a spontaneous wow when something truly impresses. That is the reaction we aim for. From your customers, when they configure their product in 3D themselves. From your team, when software takes over the repetitive work.",
     "missionTitle": "Our idea",
-    "missionText": "Many small businesses need a good website without the technical burden. We take care of design, build, hosting, maintenance, security and SEO foundations, so you can focus on your business. Because we work with AI, we build faster and at a lower cost than traditional agencies and offer AI solutions like assistants and automations as part of our service.",
+    "missionText": "SMEs deserve the same digital strength as large companies, without long projects or big budgets. That is why we develop AI-first: AI speeds up every step from analysis to code, so we deliver 3D configurators and business software faster and more affordably. You start with what adds the most value today and expand step by step. The software and its source code are yours.",
     "founderTitle": "Behind semanu",
     "founderName": "Tom de Vree",
     "founderRole": "Founder & owner",
     "founderText": "semanu is led by Tom de Vree and is based in Antwerp. We work personally with SMEs and manufacturers across Europe. You talk directly to the person who builds your solution.",
-    "ctaTitle": "Ready for a website that grows with you?",
-    "ctaButton": "Get in touch"
+    "ctaTitle": "Have a configurator or software project in mind?",
+    "ctaButton": "Discuss your project",
+    "metaDescription": "semanu is an AI-native digital partner from Antwerp: 3D configurators and custom business software for SMEs in Europe. Meet the people behind it."
   },
   "serviceUi": {
     "analysisEyebrow": "Preparation",

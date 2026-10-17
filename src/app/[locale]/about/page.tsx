@@ -16,7 +16,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const tn = await getTranslations({ locale, namespace: 'nav' });
   const ta = await getTranslations({ locale, namespace: 'about' });
-  return pageMetadata({ title: `${tn('about')} · semanu.eu`, description: ta('intro'), path: '/about', locale });
+  return pageMetadata({ title: `${tn('about')} · semanu.eu`, description: ta('metaDescription'), path: '/about', locale });
 }
 
 export default async function AboutPage({

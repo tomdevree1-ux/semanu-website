@@ -8,7 +8,7 @@
     "contact": "Kontakt aufnehmen"
   },
   "meta": {
-    "title": "Webagentur Antwerpen: Websites, Plattformen und AI für KMU · semanu.eu",
+    "title": "AI-nativer Digitalpartner für KMU in Europa · semanu.eu",
     "description": "semanu baut 3D-Konfiguratoren und Unternehmenssoftware nach Maß für KMU in Europa: Automatisierung, Portale, CRM und AI. Persönlich aus Antwerpen."
   },
   "lang": {
@@ -38,7 +38,7 @@
     "howDesc": "Unser Ablauf in fünf Schritten",
     "faqDesc": "Antworten auf häufige Fragen",
     "aboutDesc": "Wer hinter semanu steht",
-    "blogDesc": "Einblicke und Tipps rund um Websites",
+    "blogDesc": "Über AI, Software und 3D-Konfiguratoren",
     "contactDesc": "Sprechen wir über Ihr Projekt",
     "start": "Jetzt starten",
     "pill3d": "3D-Konfiguratoren",
@@ -118,21 +118,23 @@
     "interest": "Woran sind Sie interessiert?",
     "interestNotSure": "Noch nicht sicher",
     "interestHelp": "Nicht sicher, was Sie wählen sollen? Wählen Sie Noch nicht sicher und wir helfen Ihnen, den richtigen nächsten Schritt zu finden.",
-    "messagePlaceholder": "Zum Beispiel: Ich brauche eine neue Website und möchte Leads automatisch nachfassen."
+    "messagePlaceholder": "Zum Beispiel: Wir möchten einen 3D-Konfigurator für unsere Schränke. Oder: Wir suchen Software, die Angebote und Planung verbindet."
   },
   "blog": {
     "title": "Blog",
-    "intro": "Einblicke, Tipps und Neuigkeiten rund um moderne Websites.",
+    "intro": "Beiträge über AI, Unternehmenssoftware und 3D-Konfiguratoren für KMU: was funktioniert, was es bringt und wie Sie starten.",
     "readMore": "Weiterlesen",
     "back": "Zurück zum Blog",
     "empty": "Noch keine Beiträge.",
     "by": "von",
-    "ctaTitle": "Sprechen wir über Ihre digitale Präsenz.",
-    "ctaButton": "Strategiegespräch buchen",
+    "ctaTitle": "Ein Konfigurator- oder Softwareprojekt geplant?",
+    "ctaButton": "Projekt besprechen",
     "authorName": "Tom de Vree",
     "authorRole": "Gründer von semanu",
     "authorBio": "Tom de Vree entwickelt 3D-Konfiguratoren, Unternehmenssoftware und Automatisierungen für KMU in Europa.",
-    "updatedLabel": "Aktualisiert am"
+    "updatedLabel": "Aktualisiert am",
+    "metaDescription": "Der Blog von semanu über AI, Unternehmenssoftware nach Maß und 3D-Konfiguratoren für KMU in Europa: praktische Einblicke, Beispiele und erste Schritte.",
+    "servicesTitle": "Was wir bauen"
   },
   "cookie": {
     "text": "Wir verwenden Cookies, um unsere Website zu verbessern. Sie entscheiden, was Sie zulassen.",
@@ -154,17 +156,18 @@
   "about": {
     "eyebrow": "Über uns",
     "title": "Persönlich, nicht anonym.",
-    "intro": "semanu macht digitale Lösungen für KMU planbar und einfach. Von 3D-Konfiguratoren bis zu Unternehmenssoftware mit Automatisierung und AI bekommen Sie einen klaren Partner, der mit Ihrem Unternehmen mitwächst.",
+    "intro": "semanu ist ein AI-nativer Digitalpartner aus Antwerpen. Wir entwickeln 3D-Konfiguratoren und Unternehmenssoftware nach Maß für KMU in Europa, von der ersten Skizze bis zur Software im täglichen Einsatz.",
     "nameTitle": "Woher semanu kommt",
-    "nameText": "semanu stammt aus dem Antwerpener Dialekt und damit aus dem Flämischen. Es ist ein Ausruf der Bewunderung, ein spontanes Wow, wenn etwas wirklich überzeugt. Genau dieses Gefühl soll Ihre Website bei Ihren Besuchern auslösen. Wir gestalten moderne, schnelle und mobile Auftritte mit Inhalten, die verkaufen, im Kopf bleiben und aus Besuchern Kunden machen. Alles in einem klaren Abo ohne große Anfangsinvestition.",
+    "nameText": "semanu stammt aus dem Antwerpener Dialekt und damit aus dem Flämischen. Es ist ein Ausruf der Bewunderung, ein spontanes Wow, wenn etwas wirklich überzeugt. Genau diese Reaktion wollen wir auslösen. Bei Ihren Kunden, wenn sie ihr Produkt selbst in 3D zusammenstellen. Bei Ihrem Team, wenn Software die wiederkehrende Arbeit übernimmt.",
     "missionTitle": "Unsere Idee",
-    "missionText": "Viele kleine Unternehmen brauchen eine gute Website ohne technischen Ballast. Wir kümmern uns um Design, Technik, Hosting, Wartung, Sicherheit und SEO-Grundlagen, damit Sie sich auf Ihr Geschäft konzentrieren können. Weil wir mit AI arbeiten, bauen wir schneller und kosteneffizienter als klassische Agenturen und bieten AI-Lösungen wie Assistenten und Automatisierungen als Teil unseres Angebots.",
+    "missionText": "KMU verdienen dieselbe digitale Schlagkraft wie große Unternehmen, ohne lange Projekte oder große Budgets. Deshalb entwickeln wir AI-first: AI beschleunigt jeden Schritt von der Analyse bis zum Code. So liefern wir 3D-Konfiguratoren und Unternehmenssoftware schneller und günstiger. Sie beginnen dort, wo heute der größte Nutzen liegt. Danach erweitern Sie Schritt für Schritt. Die Software und ihr Quellcode gehören Ihnen.",
     "founderTitle": "Hinter semanu",
     "founderName": "Tom de Vree",
     "founderRole": "Gründer & Inhaber",
     "founderText": "semanu wird von Tom de Vree geführt und hat den Sitz in Antwerpen. Wir arbeiten persönlich mit KMU und Herstellern in ganz Europa. Sie sprechen direkt mit der Person, die Ihre Lösung baut.",
-    "ctaTitle": "Lust auf eine Website, die mitwächst?",
-    "ctaButton": "Kontakt aufnehmen"
+    "ctaTitle": "Ein Konfigurator- oder Softwareprojekt geplant?",
+    "ctaButton": "Projekt besprechen",
+    "metaDescription": "semanu ist ein AI-nativer Digitalpartner aus Antwerpen: 3D-Konfiguratoren und Unternehmenssoftware nach Maß für KMU in Europa. Lernen Sie uns kennen."
   },
   "serviceUi": {
     "analysisEyebrow": "Vorbereitung",

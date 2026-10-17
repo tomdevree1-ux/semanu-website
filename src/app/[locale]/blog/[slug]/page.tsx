@@ -10,6 +10,7 @@ import { routing } from '@/i18n/routing';
 import { getAllPosts, getPost } from '@/lib/blog';
 import { pageMetadata } from '@/lib/seo/metadata';
 import { env } from '@/lib/env';
+import { serviceLinks, type ServicesLocale } from '@/content/services';
 
 export function generateStaticParams() {
   const params: { locale: string; slug: string }[] = [];
@@ -193,9 +194,18 @@ export default async function BlogPostPage({
 
           <div className="mt-8 rounded-lg bg-ink p-8 text-paper">
             <h2 className="h3 max-w-md text-white">{t('ctaTitle')}</h2>
-            <Link href="/contact" className="btn btn-spark mt-6">
-              {t('ctaButton')} <span aria-hidden className="btn-arrow" />
-            </Link>
+            <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-4">
+              <Link href="/contact" className="btn btn-spark">
+                {t('ctaButton')} <span aria-hidden className="btn-arrow" />
+              </Link>
+              {serviceLinks(
+                (['de', 'fr', 'en', 'es', 'nl'].includes(locale) ? locale : 'en') as ServicesLocale,
+              ).map((s) => (
+                <Link key={s.id} href={s.href} className="text-sm text-paper/80 underline-offset-4 hover:text-white hover:underline">
+                  {s.title}
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       </article>

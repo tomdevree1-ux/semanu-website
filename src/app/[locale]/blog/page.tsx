@@ -7,6 +7,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { getAllPosts } from '@/lib/blog';
 import { pageMetadata } from '@/lib/seo/metadata';
 import { env } from '@/lib/env';
+import { serviceLinks, type ServicesLocale } from '@/content/services';
 
 export async function generateMetadata({
   params,
@@ -15,12 +16,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'nav' });
-  // Reuse the on-page blog intro (ideas and tips on websites and digital
-  // solutions for SMEs) as the meta description so the two stay in sync.
   const tb = await getTranslations({ locale, namespace: 'blog' });
   return pageMetadata({
     title: `${t('blog')} · semanu.eu`,
-    description: tb('intro'),
+    description: tb('metaDescription'),
     path: '/blog',
     locale,
   });
@@ -44,6 +43,11 @@ export default async function BlogIndexPage({
   const t = await getTranslations('blog');
   const tnav = await getTranslations('nav');
   const posts = getAllPosts(locale);
+  // The blog is small; the two service pages below give readers a next step and
+  // give the index real substance next to the post list.
+  const services = serviceLinks(
+    (['de', 'fr', 'en', 'es', 'nl'].includes(locale) ? locale : 'en') as ServicesLocale,
+  );
 
   // A Blog collection node + an ItemList of the posts so search + AI can read the
   // index as a list of articles, with the publisher tied to the single org @id.
@@ -109,6 +113,24 @@ export default async function BlogIndexPage({
               ))}
             </div>
           )}
+
+          <h2 className="h3 mt-16">{t('servicesTitle')}</h2>
+          <div className="mt-6 grid gap-6 sm:grid-cols-2">
+            {services.map((s) => (
+              <Link
+                key={s.id}
+                href={s.href}
+                className="group flex flex-col rounded-card border border-[var(--line)] bg-white p-6 transition-shadow hover:shadow-[var(--shadow-pop)]"
+              >
+                <span className="font-display text-lg font-semibold text-navy">{s.title}</span>
+                <p className="mt-2 text-sm text-ink-soft">{s.short}</p>
+                <span className="mt-4 font-mono text-xs uppercase tracking-wider text-red">
+                  {t('readMore')}{' '}
+                  <span className="inline-block transition-transform group-hover:translate-x-1">→</span>
+                </span>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
     </SiteShell>

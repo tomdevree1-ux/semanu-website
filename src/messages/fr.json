@@ -8,8 +8,8 @@
     "contact": "Nous contacter"
   },
   "meta": {
-    "title": "Agence web à Anvers : sites, plateformes et AI pour PME · semanu.eu",
-    "description": "semanu crée des configurateurs 3D et des logiciels d’entreprise sur mesure pour les PME en Europe : automatisation, portails, CRM et AI. Personnel, depuis Anvers."
+    "title": "Partenaire digital AI-native pour les PME en Europe · semanu.eu",
+    "description": "semanu crée des configurateurs 3D et des logiciels d’entreprise sur mesure pour les PME en Europe : automatisation, portails, CRM et AI. Depuis Anvers."
   },
   "lang": {
     "label": "Langue",
@@ -38,7 +38,7 @@
     "howDesc": "Notre processus en cinq étapes",
     "faqDesc": "Réponses aux questions fréquentes",
     "aboutDesc": "Qui se cache derrière semanu",
-    "blogDesc": "Idées et conseils sur les sites",
+    "blogDesc": "Sur l’AI, le logiciel et les configurateurs 3D",
     "contactDesc": "Parlons de votre projet",
     "start": "Commencer",
     "pill3d": "Configurateurs 3D",
@@ -118,21 +118,23 @@
     "interest": "Quel service vous intéresse ?",
     "interestNotSure": "Pas encore sûr",
     "interestHelp": "Pas sûr de votre choix ? Sélectionnez Pas encore sûr et nous vous aidons à définir la bonne prochaine étape.",
-    "messagePlaceholder": "Par exemple : il me faut un nouveau site web et je veux suivre mes leads automatiquement."
+    "messagePlaceholder": "Par exemple : nous voulons un configurateur 3D pour nos armoires. Ou : nous cherchons un logiciel qui relie devis et planning."
   },
   "blog": {
     "title": "Blog",
-    "intro": "Conseils, idées et actualités autour des sites web modernes.",
+    "intro": "Articles sur l’AI, les logiciels d’entreprise et les configurateurs 3D pour PME : ce qui fonctionne, ce que cela apporte et comment commencer.",
     "readMore": "Lire la suite",
     "back": "Retour au blog",
     "empty": "Pas encore d’articles.",
     "by": "par",
-    "ctaTitle": "Parlons de votre présence digitale.",
-    "ctaButton": "Réserver un entretien stratégique",
+    "ctaTitle": "Un projet de configurateur ou de logiciel en tête ?",
+    "ctaButton": "Parler de votre projet",
     "authorName": "Tom de Vree",
     "authorRole": "fondateur de semanu",
     "authorBio": "Tom de Vree conçoit des configurateurs 3D, des logiciels d’entreprise et des automatisations pour les PME en Europe.",
-    "updatedLabel": "Mis à jour le"
+    "updatedLabel": "Mis à jour le",
+    "metaDescription": "Le blog de semanu sur l’AI, les logiciels d’entreprise sur mesure et les configurateurs 3D pour les PME en Europe : conseils pratiques et exemples.",
+    "servicesTitle": "Ce que nous construisons"
   },
   "cookie": {
     "text": "Nous utilisons des cookies pour améliorer notre site. Vous décidez ce que vous acceptez.",
@@ -154,17 +156,18 @@
   "about": {
     "eyebrow": "À propos",
     "title": "Personnel, pas anonyme.",
-    "intro": "semanu rend les solutions digitales prévisibles et simples pour les PME. Des configurateurs 3D aux logiciels d’entreprise avec automatisation et AI, vous obtenez un partenaire clair qui évolue avec votre entreprise.",
+    "intro": "semanu est un partenaire digital AI-native basé à Anvers. Nous créons des configurateurs 3D et des logiciels d’entreprise sur mesure pour les PME en Europe, de la première esquisse au logiciel utilisé chaque jour.",
     "nameTitle": "D’où vient semanu",
-    "nameText": "semanu vient du dialecte d’Anvers, issu du flamand. C’est une exclamation d’admiration, un wow spontané quand quelque chose impressionne vraiment. C’est exactement la réaction que votre site doit susciter chez vos visiteurs. Nous créons des sites modernes, rapides et mobiles au contenu qui vend, reste en mémoire et transforme les visiteurs en clients. Le tout dans un abonnement clair sans gros investissement de départ.",
+    "nameText": "semanu vient du dialecte d’Anvers, issu du flamand. C’est une exclamation d’admiration, un wow spontané quand quelque chose impressionne vraiment. C’est exactement la réaction que nous recherchons. Chez vos clients, quand ils configurent eux-mêmes leur produit en 3D. Dans votre équipe, quand le logiciel prend en charge le travail répétitif.",
     "missionTitle": "Notre idée",
-    "missionText": "Beaucoup de petites entreprises ont besoin d’un bon site web sans charge technique. Nous nous occupons du design, de la technique, de l’hébergement, de la maintenance, de la sécurité et des bases SEO, pour que vous puissiez vous concentrer sur votre activité. Parce que nous travaillons avec l’AI, nous construisons plus vite et à moindre coût que les agences classiques et proposons des solutions AI comme des assistants et des automatisations dans notre offre.",
+    "missionText": "Les PME méritent la même force digitale que les grandes entreprises, sans longs projets ni gros budgets. C’est pourquoi nous développons AI-first : l’AI accélère chaque étape, de l’analyse au code. Nous livrons ainsi des configurateurs 3D et des logiciels d’entreprise plus vite et à moindre coût. Vous commencez là où la valeur est la plus forte aujourd’hui. Ensuite, vous étendez étape par étape. Le logiciel et son code source vous appartiennent.",
     "founderTitle": "Derrière semanu",
     "founderName": "Tom de Vree",
     "founderRole": "Fondateur et propriétaire",
     "founderText": "semanu est dirigé par Tom de Vree et a son siège à Anvers. Nous travaillons personnellement avec des PME et des fabricants dans toute l’Europe. Vous parlez directement à la personne qui construit votre solution.",
-    "ctaTitle": "Envie d’un site qui évolue avec vous ?",
-    "ctaButton": "Nous contacter"
+    "ctaTitle": "Un projet de configurateur ou de logiciel en tête ?",
+    "ctaButton": "Parler de votre projet",
+    "metaDescription": "semanu est un partenaire digital AI-native basé à Anvers : configurateurs 3D et logiciels d’entreprise sur mesure pour les PME en Europe. Qui sommes-nous ?"
   },
   "serviceUi": {
     "analysisEyebrow": "Préparation",

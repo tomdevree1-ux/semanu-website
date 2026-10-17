@@ -18,15 +18,15 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const titles: Record<string, string> = {
-    de: 'semanu · Digitaler Partner für KMU in Europa',
-    fr: 'semanu · Partenaire digital pour PME en Europe',
-    en: 'semanu · Digital partner for SMEs in Europe',
-    es: 'semanu · Socio digital para pymes en Europa',
-    nl: 'semanu · Digitale partner voor kmo’s in Europa',
+    de: '3D-Konfiguratoren und Unternehmenssoftware für KMU · semanu.eu',
+    fr: 'Configurateurs 3D et logiciels d’entreprise pour PME · semanu.eu',
+    en: '3D configurators and business software for SMEs · semanu.eu',
+    es: 'Configuradores 3D y software empresarial para pymes · semanu.eu',
+    nl: '3D-configuratoren en bedrijfssoftware voor kmo’s · semanu.eu',
   };
   const descriptions: Record<string, string> = {
     de: 'semanu ist der digitale Partner für KMU in Europa: 3D-Konfiguratoren und Unternehmenssoftware nach Maß mit AI als Motor. Schneller und günstiger digitalisieren.',
-    fr: 'semanu est le partenaire digital des PME en Europe : configurateurs 3D et logiciels d’entreprise sur mesure avec l’AI comme moteur. Digitaliser plus vite et à moindre coût.',
+    fr: 'semanu est le partenaire digital des PME en Europe : configurateurs 3D et logiciels d’entreprise sur mesure avec l’AI comme moteur. Plus vite, à moindre coût.',
     en: 'semanu is the digital partner for SMEs in Europe: 3D configurators and custom business software with AI as the engine. Digitalise faster and more affordably.',
     es: 'semanu es el socio digital para pymes en Europa: configuradores 3D y software empresarial a medida con la AI como motor. Digitalizar más rápido y más económico.',
     nl: 'semanu is de digitale partner voor kmo’s in Europa: 3D-configuratoren en bedrijfssoftware op maat met AI als motor. Sneller en voordeliger digitaliseren.',
