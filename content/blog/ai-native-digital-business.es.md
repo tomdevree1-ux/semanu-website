@@ -1,6 +1,6 @@
 ---
 title: "Qué significa ser una empresa digital AI nativa"
-description: "semanu es una empresa digital AI nativa y su socio para configuradores 3D y software empresarial a medida. Qué significa ser AI nativo y cómo se beneficia su empresa de ello."
+description: "Qué significa ser AI nativo y cómo se beneficia su empresa: semanu como socio para configuradores 3D y software empresarial a medida."
 date: "2026-07-10"
 updated: "2026-10-16"
 author: "Tom"

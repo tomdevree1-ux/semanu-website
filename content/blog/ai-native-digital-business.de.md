@@ -1,6 +1,6 @@
 ---
 title: "Was es bedeutet, ein AI-natives Digitalunternehmen zu sein"
-description: "semanu ist ein AI-natives Digitalunternehmen und Ihr Partner für 3D-Konfiguratoren und maßgeschneiderte Unternehmenssoftware. Was AI-native bedeutet und wie Ihr Unternehmen davon profitiert."
+description: "Was AI-native bedeutet und wie Ihr Unternehmen davon profitiert: semanu als Partner für 3D-Konfiguratoren und Unternehmenssoftware nach Maß."
 date: "2026-07-10"
 updated: "2026-10-16"
 author: "Tom"

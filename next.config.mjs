@@ -147,17 +147,14 @@ const nextConfig = {
     ];
     // Blog posts with a former German slug, now English.
     const blogRenamed = [
-      ['haeufige-website-fehler', 'common-website-mistakes'],
       ['von-ki-gefunden-werden', 'getting-found-by-ai'],
-      ['lokale-seo-fuer-kmu', 'local-seo-for-smes'],
-      ['professionelle-website-checkliste', 'professional-website-checklist'],
-      ['website-kostet-kunden', 'website-losing-customers'],
-      ['website-sicherheit', 'website-security'],
-      ['warum-website-abo', 'why-website-subscription'],
       ['ai-native-digitalunternehmen', 'ai-native-digital-business'],
     ];
-    // Switzerland-only blog posts (the Swiss SME website study and its spin-offs,
-    // the revDSG check, the Röstigraben post) were removed: 301 to the blog index.
+    // Removed blog posts: 301 to the blog index. Switzerland-only posts (the Swiss
+    // SME website study and its spin-offs, the revDSG check, the Röstigraben post)
+    // and (2026-10) the website and SEO posts plus the website subscription post,
+    // which no longer match the two services. Their former German slugs are listed
+    // too, so every old URL reaches the index in one hop.
     const blogRemoved = [
       'kmu-website-studie-schweiz',
       'kmu-ai-sichtbarkeit-schweiz',
@@ -166,6 +163,18 @@ const nextConfig = {
       'bern-vs-zuerich-website-vergleich',
       'revdsg-datenschutz-check',
       'website-beidseits-roestigraben',
+      'why-website-subscription',
+      'warum-website-abo',
+      'common-website-mistakes',
+      'haeufige-website-fehler',
+      'local-seo-for-smes',
+      'lokale-seo-fuer-kmu',
+      'professional-website-checklist',
+      'professionelle-website-checkliste',
+      'website-losing-customers',
+      'website-kostet-kunden',
+      'website-security',
+      'website-sicherheit',
     ];
     const L = '/:locale(de|fr|en|es|nl)';
     return [
