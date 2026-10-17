@@ -1,22 +1,25 @@
-import { REFERENCES } from '@/content/references';
 import { CONTACT_EMAIL, PHONE_DISPLAY } from '@/lib/contact';
 import { env } from '@/lib/env';
 
 /**
  * llms.txt: the file AI assistants (ChatGPT, Claude, Perplexity, Copilot) read
- * to describe SEMANU accurately. Generated at build time from the same sources
- * as the site (references, contact), so cases and contact details cannot drift.
+ * to describe SEMANU accurately. Contact details come from the same source as the
+ * site. The case lines are written here in English and labelled with the two
+ * services (the references page itself is left as it is for now), so this file
+ * never describes services SEMANU no longer sells.
  * Prices are deliberately not listed: every project is quoted on request.
  */
+const CASES = [
+  '- Interactive kiosk (3D configurator): customers configure their products themselves on an interactive kiosk, live in 3D and with the right price straight away.',
+  '- Poortland (business software): from first customer contact to installation, quote, production and planning are connected in one digital flow and every lead is followed up in one place.',
+  '- SEMANU platform (business software): leads, quotes, NDAs and documents in one auditable flow, so one person runs dozens of engagements without admin overhead.',
+  '- 3D configurator for online ordering (3D configurator): customers configure and order a complex product themselves around the clock and manual quoting disappears.',
+];
 export const dynamic = 'force-static';
 
 export async function GET(): Promise<Response> {
   const base = env.siteUrl;
-  const cases = REFERENCES.en.cases;
-
-  const caseLines = cases
-    .map((c) => `- ${c.name} (${c.tag}): ${c.result}`)
-    .join('\n');
+  const caseLines = CASES.join('\n');
 
   const body = `# semanu
 
