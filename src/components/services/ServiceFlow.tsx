@@ -10,6 +10,7 @@ import { Link } from '@/i18n/navigation';
 import { BrandText } from '@/components/BrandText';
 import { TrackedLink } from '@/components/TrackedLink';
 import { FaqAccordion } from '@/components/FaqAccordion';
+import { DemoNotice } from '@/components/configurator/DemoNotice';
 import { FinalCTA } from './blocks';
 import type { Service, ServicesContent } from '@/content/services';
 import type { ServiceDetail } from '@/content/serviceDetail';
@@ -97,6 +98,7 @@ export function ServiceFlow({ service, detail, content, navServicesLabel, locale
                   <span aria-hidden className="absolute left-1/2 top-0 h-[4px] w-[13%] -translate-x-1/2 rounded-b-[4px] bg-[#9aa3b5]" />
                 </div>
               </div>
+              <DemoNotice locale={locale} className="mx-auto mt-6 max-w-[840px] lg:ml-auto lg:mr-0" />
             </div>
           </div>
         </section>
@@ -123,7 +125,7 @@ export function ServiceFlow({ service, detail, content, navServicesLabel, locale
 
       {/* ── DEFINITION — answer-first (GEO) ──────────────────────────
           Configurator: a navy feature card (same treatment as the homepage
-          "AI Native" banner) that answers "what is a 3D product configurator".
+          "AI-first" banner) that answers "what is a 3D product configurator".
           Other services: a quiet editorial accent block. No top border under
           the configurator hero: it fades into paper, so a rule there would
           look stray. */}
@@ -214,6 +216,7 @@ export function ServiceFlow({ service, detail, content, navServicesLabel, locale
       {isConfigurator && (
         <section className="bg-paper py-[clamp(72px,11vw,150px)] text-ink">
           <div className="container-site">
+            <DemoNotice locale={locale} className="mb-4" />
             <div className="relative w-full overflow-hidden rounded-[28px] border border-[var(--line)] bg-white shadow-[0_34px_90px_-50px_rgba(16,35,61,0.55)]">
               <iframe
                 src={`${CONFIGURATOR_URL[locale] ?? CONFIGURATOR_URL.nl}/#e30`}

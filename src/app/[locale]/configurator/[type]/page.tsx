@@ -8,6 +8,7 @@ import { BrandText } from '@/components/BrandText';
 import { JsonLd } from '@/components/JsonLd';
 import { FaqAccordion } from '@/components/FaqAccordion';
 import { ConfiguratorDemo, type DemoConfig } from '@/components/configurator/ConfiguratorDemo';
+import { DemoNotice } from '@/components/configurator/DemoNotice';
 import { pageMetadata } from '@/lib/seo/metadata';
 import { env } from '@/lib/env';
 import {
@@ -132,6 +133,7 @@ export default async function ConfiguratorPage({
       {/* Configurator: sample demo, plus a link to the full live configurator when there is one */}
       <section className="bg-paper pb-16 text-ink sm:pb-20">
         <div className="container-site">
+          <DemoNotice locale={loc} className="mb-4" />
           {config ? (
             <>
               <ConfiguratorDemo config={config} />

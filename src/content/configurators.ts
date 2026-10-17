@@ -150,6 +150,36 @@ export const UI: Record<
   },
 };
 
+/** Notice shown next to every embedded demo configurator: nothing entered there is
+ *  processed, plus a contact link for visitors who want one for their own products. */
+export const DEMO_NOTICE: Record<ConfLocale, { badge: string; text: string; cta: string }> = {
+  nl: {
+    badge: 'Demo',
+    text: 'Dit is een demo. Probeer gerust alles uit: offerteaanvragen en bestellingen worden hier niet verwerkt. Wilt u dit voor uw eigen producten?',
+    cta: 'Neem contact op',
+  },
+  en: {
+    badge: 'Demo',
+    text: 'This is a demo. Feel free to try everything: quote requests and orders are not processed here. Would you like this for your own products?',
+    cta: 'Get in touch',
+  },
+  de: {
+    badge: 'Demo',
+    text: 'Dies ist eine Demo. Probieren Sie gerne alles aus: Angebotsanfragen und Bestellungen werden hier nicht verarbeitet. Möchten Sie das für Ihre eigenen Produkte?',
+    cta: 'Kontakt aufnehmen',
+  },
+  fr: {
+    badge: 'Démo',
+    text: 'Ceci est une démo. Essayez tout librement : les demandes de devis et les commandes ne sont pas traitées ici. Vous souhaitez la même chose pour vos propres produits ?',
+    cta: 'Contactez-nous',
+  },
+  es: {
+    badge: 'Demo',
+    text: 'Esto es una demo. Pruebe todo con total libertad: las solicitudes de presupuesto y los pedidos no se procesan aquí. ¿Quiere esto para sus propios productos?',
+    cta: 'Contáctenos',
+  },
+};
+
 /** Sample demo data per type: the step and option labels follow the real configurator. */
 export const DEMOS: Record<string, ConfDemo> = {
   cabinet: {
