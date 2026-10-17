@@ -360,13 +360,10 @@ input[type=range]::-moz-range-thumb{width:18px;height:18px;border-radius:var(--r
     </div>
     <div class="sheet-body">
       <div class="lbl"><svg class="chev" viewBox="0 0 8 12" aria-hidden="true"><path d="M1.5 1.5L6 6l-4.5 4.5"/></svg>Jouw ontwerp</div>
-      <h2 id="shTitle">Klaar om te laten maken?</h2>
-      <p>Stuur je ontwerp door. Het atelier bekijkt het en neemt snel contact met je op.</p>
-      <div class="bubble"><textarea id="msg" aria-label="Je bericht"></textarea></div>
-      <p class="tiny">Je kan het bericht nog aanpassen. De link naar je ontwerp gaat automatisch mee.</p>
+      <h2 id="shTitle">Dit is een demo</h2>
+      <p id="demoText">Dit is een demo: er wordt niets verstuurd. Wilt u deze configurator voor uw eigen producten? Neem contact op.</p>
       <div class="acts">
-        <a class="btn primary" id="mail">Verstuur per mail<svg class="chev" viewBox="0 0 8 12" aria-hidden="true"><path d="M1.5 1.5L6 6l-4.5 4.5"/></svg></a>
-        <a class="btn sec" id="wa" target="_blank" rel="noopener" hidden>WhatsApp</a>
+        <a class="btn primary" id="contact" href="/en/contact?interest=3d-configurators" target="_top"><span id="contactLbl">Neem contact op</span><svg class="chev" viewBox="0 0 8 12" aria-hidden="true"><path d="M1.5 1.5L6 6l-4.5 4.5"/></svg></a>
         <button class="btn sec" id="copy">Kopieer link</button>
       </div>
     </div>
@@ -381,7 +378,22 @@ input[type=range]::-moz-range-thumb{width:18px;height:18px;border-radius:var(--r
 'use strict';
 
 /* ------------------------------------------------------------------ data */
-var CONTACT={wa:'',mail:'hello@semanu.eu'};
+/* Demo only: nothing is sent. The quote step points to the contact page of the
+   parent site (semanu.eu), in the visitor's language. */
+var DEMO_LOCALES=['nl','en','de','fr','es'];
+var DEMO_TEXT={
+ nl:{h:'Dit is een demo',p:'Dit is een demo: er wordt niets verstuurd. Wilt u deze configurator voor uw eigen producten? Neem contact op.',cta:'Neem contact op'},
+ en:{h:'This is a demo',p:'This is a demo: nothing is sent. Would you like this configurator for your own products? Get in touch.',cta:'Get in touch'}
+};
+function demoLocale(){
+  var q=(location.search.match(/[?&](?:locale|lang)=([a-z]{2})/i)||[])[1];
+  if(q&&DEMO_LOCALES.indexOf(q.toLowerCase())>-1)return q.toLowerCase();
+  var paths=[];
+  try{paths.push(window.top.location.pathname);}catch(e){}
+  try{if(document.referrer)paths.push(new URL(document.referrer).pathname);}catch(e){}
+  for(var i=0;i<paths.length;i++){var m=/^\/([a-z]{2})(?:\/|$)/.exec(paths[i]||'');if(m&&DEMO_LOCALES.indexOf(m[1])>-1)return m[1];}
+  return 'en';
+}
 
 var MODELS=[
  {id:'golf', name:'Golf', line:'Organisch gebogen frame, zacht en rond van lijn.', shapes:['oval','rect'], base:1723, bench:true,
@@ -789,7 +801,6 @@ function buildUI(){
   $('#veil').addEventListener('click',function(e){if(e.target===this)closeSheet();});
   document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!$('#veil').hidden)closeSheet();});
   $('#copy').addEventListener('click',function(){var u=shareUrl();(navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).then(function(){toast('Link gekopieerd');},function(){toast(u);});});
-  $('#msg').addEventListener('input',links);
   /* stapnavigatie */
   document.querySelectorAll('[data-nav]').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();document.getElementById(a.dataset.nav).scrollIntoView({behavior:'smooth',block:'start'});});});
   if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting)document.querySelectorAll('[data-nav]').forEach(function(a){a.classList.toggle('on',a.dataset.nav===en.target.id);});});},{root:window.matchMedia('(max-width:900px)').matches?null:$('#scroll'),rootMargin:'-20% 0px -70% 0px'});
@@ -840,12 +851,7 @@ function commit(save){
   if(save){try{history.replaceState(null,'','#'+hashString());}catch(e){}}
 }
 
-/* resultaat */
-function message(){
-  var M=byId(MODELS,S.m),n=seats(),t='Hallo, ik zie deze tafel helemaal zitten bij ons thuis: model '+M.name+', '+SHAPES[S.s].nl+', '+dimLabel()+'. Het blad in '+topLabel()+', met een onderstel in RAL '+S.ral+'.';
-  if(S.ext)t+=' Graag uitschuifbaar.';if(S.bench)t+=' En met de bijpassende bank erbij.';
-  t+=' Goed voor '+n+' personen. Kunnen jullie me een offerte maken?';return t;
-}
+/* result */
 var lastFocus=null;
 function openSheet(){
   lastFocus=document.activeElement;var P=price(),M=byId(MODELS,S.m);
@@ -854,13 +860,13 @@ function openSheet(){
   var ex=[];if(S.ext)ex.push('uitschuifbaar');if(S.bench)ex.push('bijpassende bank');if(ex.length)rows.push(['Extra',ex.join(', ')]);
   rows.push(['Richtprijs',eur.format(P.total)+' incl. btw']);
   $('#specs').innerHTML=rows.map(function(r){return '<dt>'+r[0]+'</dt><dd>'+r[1]+'</dd>';}).join('');
-  $('#msg').value=message();links();$('#veil').hidden=false;document.body.style.overflow='hidden';$('#close').focus();
+  demoMessage();$('#veil').hidden=false;document.body.style.overflow='hidden';$('#close').focus();
 }
 function closeSheet(){$('#veil').hidden=true;document.body.style.overflow='';if(lastFocus)lastFocus.focus();}
-function links(){
-  var body=$('#msg').value+'\n\nMijn ontwerp: '+shareUrl();
-  var wa=$('#wa');wa.hidden=!CONTACT.wa;if(CONTACT.wa)wa.href='https://wa.me/'+CONTACT.wa+'?text='+encodeURIComponent(body);
-  $('#mail').href='mailto:'+CONTACT.mail+'?subject='+encodeURIComponent('Mijn tafel: '+byId(MODELS,S.m).name+' '+dimLabel())+'&body='+encodeURIComponent(body);
+function demoMessage(){
+  var loc=demoLocale(),t=DEMO_TEXT[loc==='nl'?'nl':'en'];
+  $('#shTitle').textContent=t.h;$('#demoText').textContent=t.p;$('#contactLbl').textContent=t.cta;
+  $('#contact').href='/'+loc+'/contact?interest=3d-configurators';
 }
 var toastT;function toast(t){var e=$('#toast');e.textContent=t;e.hidden=false;clearTimeout(toastT);toastT=setTimeout(function(){e.hidden=true;},2600);}
 

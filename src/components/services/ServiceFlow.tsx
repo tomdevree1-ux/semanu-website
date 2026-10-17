@@ -87,7 +87,7 @@ export function ServiceFlow({ service, detail, content, navServicesLabel, locale
                 <div className="rounded-[14px] bg-navy p-[1.4%] shadow-[0_34px_90px_-50px_rgba(16,35,61,0.55)]">
                   <div className="relative aspect-[16/10] overflow-hidden rounded-[7px] bg-white">
                     <iframe
-                      src="/configurator-tafel/index.html"
+                      src={`/configurator-tafel/index.html?locale=${locale}`}
                       title="semanu tafelconfigurator"
                       loading="lazy"
                       className="absolute left-0 top-0 h-[200%] w-[200%] origin-top-left scale-50 border-0"
