@@ -351,7 +351,7 @@ export function ServiceFlow({ service, detail, content, navServicesLabel, locale
               <p className="max-w-[56ch] text-[clamp(17px,1.3vw,20px)] leading-[1.65] text-ink-soft">
                 <BrandText>{detail.engineText}</BrandText>
               </p>
-              <Link href="/kontakt" className="btn btn-ghost-ink mt-[clamp(28px,3vw,40px)]">
+              <Link href="/contact" className="btn btn-ghost-ink mt-[clamp(28px,3vw,40px)]">
                 {content.ctaContact} <Arrow />
               </Link>
             </div>

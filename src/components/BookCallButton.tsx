@@ -50,7 +50,7 @@ export function BookCallButton({
 
   if (!CAL_LINK) {
     return (
-      <Link href="/kontakt" className={className}>
+      <Link href="/contact" className={className}>
         {children}
       </Link>
     );

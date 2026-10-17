@@ -68,7 +68,7 @@ export default async function ConfiguratorPage({
         previewLabel: ui.previewLabel,
         summaryLabel: ui.summaryLabel,
         ctaLabel: ui.ctaLabel,
-        ctaHref: '/kontakt?interest=3d-configurators',
+        ctaHref: '/contact?interest=3d-configurators',
         steps: demo.steps.map((s) => ({ label: ui[s.key], options: s.options })),
       }
     : null;
@@ -210,7 +210,7 @@ export default async function ConfiguratorPage({
             <h2 className="h2 text-white"><BrandText>{c.finalTitle}</BrandText></h2>
             <p className="mt-2 max-w-xl text-paper/80"><BrandText>{c.finalText}</BrandText></p>
           </div>
-          <Link href="/kontakt?interest=3d-configurators" className="btn btn-spark shrink-0">
+          <Link href="/contact?interest=3d-configurators" className="btn btn-spark shrink-0">
             {c.finalCta} <span aria-hidden className="btn-arrow" />
           </Link>
         </div>

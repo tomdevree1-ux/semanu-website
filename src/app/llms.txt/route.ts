@@ -1,18 +1,18 @@
-import { REFERENZEN } from '@/content/referenzen';
+import { REFERENCES } from '@/content/references';
 import { CONTACT_EMAIL, PHONE_DISPLAY } from '@/lib/contact';
 import { env } from '@/lib/env';
 
 /**
  * llms.txt: the file AI assistants (ChatGPT, Claude, Perplexity, Copilot) read
  * to describe SEMANU accurately. Generated at build time from the same sources
- * as the site (referenzen, contact), so cases and contact details cannot drift.
+ * as the site (references, contact), so cases and contact details cannot drift.
  * Prices are deliberately not listed: every project is quoted on request.
  */
 export const dynamic = 'force-static';
 
 export async function GET(): Promise<Response> {
   const base = env.siteUrl;
-  const cases = REFERENZEN.en.cases;
+  const cases = REFERENCES.en.cases;
 
   const caseLines = cases
     .map((c) => `- ${c.name} (${c.tag}): ${c.result}`)
@@ -27,17 +27,17 @@ SEMANU (legal entity SEMANU BV, Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgiu
 - Custom business software: modular software that connects and automates processes (workflow automation, portals, CRM and dashboards, AI inside processes), scoped individually and agreed transparently up front.
 - Pricing: on request. Every project gets a written quote; prices are in EUR excluding VAT.
 
-## Proven work (business cases, see ${base}/en/referenzen)
+## Proven work (business cases, see ${base}/en/references)
 ${caseLines}
 
 ## Key pages
 - Home: ${base}/en
 - 3D configurators: ${base}/en/services/3d-configurators
-- Business software: ${base}/en/services/ai-native
-- Client stories: ${base}/en/referenzen
+- Business software: ${base}/en/services/business-software
+- Client stories: ${base}/en/references
 - FAQ: ${base}/en/faq
 - Blog: ${base}/en/blog
-- Contact: ${base}/en/kontakt
+- Contact: ${base}/en/contact
 
 ## Practical
 - Languages: Dutch, English, German, French and Spanish, under /nl, /en, /de, /fr and /es.

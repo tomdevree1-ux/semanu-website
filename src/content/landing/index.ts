@@ -1,6 +1,6 @@
 import type { LandingLocale, LandingLocales } from './types';
-import { digitalisierungKmu } from './digitalisierung-kmu';
-import { konfigurator3d } from './3d-konfigurator';
+import { smeDigitalisation } from './sme-digitalisation';
+import { configurator3d } from './3d-configurator';
 
 /**
  * Registry of SEO landing pages. Adding an entry here automatically wires the
@@ -10,8 +10,8 @@ import { konfigurator3d } from './3d-konfigurator';
  * country slugs and the retired website/SEO pages 301 in next.config.mjs.
  */
 export const LANDING: Record<string, LandingLocales> = {
-  'digitalisierung-kmu': digitalisierungKmu,
-  '3d-konfigurator': konfigurator3d,
+  'sme-digitalisation': smeDigitalisation,
+  '3d-configurator': configurator3d,
 };
 
 export const LANDING_SLUGS = Object.keys(LANDING);

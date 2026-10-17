@@ -14,7 +14,7 @@ import { localizedAlternates } from './alternates';
  *
  * @param title  The full page title (already including the "· semanu.eu" suffix).
  * @param description Optional meta + OG description.
- * @param path   Locale relative path, '' for the home page, '/kontakt' etc.
+ * @param path   Locale relative path, '' for the home page, '/contact' etc.
  * @param locale Current locale (for canonical + OG url).
  * @param availableLocales Locales this page exists in (defaults to all).
  * @param image  OG/Twitter image (defaults to the sitewide /og.png).

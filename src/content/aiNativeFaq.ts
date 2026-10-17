@@ -1,4 +1,4 @@
-// FAQ for the AI-native business software page (/services/ai-native), one block
+// FAQ for the AI-native business software page (/services/business-software), one block
 // per locale. The German block is Tom's original (meaning kept verbatim, standard German spelling with ß since 2026-10);
 // nl/en/fr/es are faithful translations with the same structure and order.
 // House style in every language: no em/en dashes, no comma before a

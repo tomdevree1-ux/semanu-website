@@ -11,8 +11,8 @@ import { AREA_SERVED } from '@/lib/seo/area-served';
 
 // schema.org serviceType per landing page (country-neutral since 2026-10).
 const SERVICE_TYPE: Record<string, string> = {
-  '3d-konfigurator': '3D product configurator',
-  'digitalisierung-kmu': 'Custom business software and digitalisation',
+  '3d-configurator': '3D product configurator',
+  'sme-digitalisation': 'Custom business software and digitalisation',
 };
 
 // Only the registered landing slugs render; any other path 404s.

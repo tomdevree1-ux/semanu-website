@@ -17,16 +17,16 @@ export const dynamic = 'force-static';
 const PATHS = [
   '',
   ...SERVICE_SLUGS.map((s) => `/services/${s}`),
-  '/services/ai-native',
+  '/services/business-software',
   ...CONFIG_SLUGS.map((s) => `/configurator/${s}`),
   '/blog',
   '/faq',
-  '/kontakt',
+  '/contact',
   '/about',
-  '/datenschutz',
-  '/agb',
-  '/impressum',
-  '/referenzen',
+  '/privacy',
+  '/terms',
+  '/legal-notice',
+  '/references',
   // SEO landing pages (driven by the landing registry).
   ...LANDING_SLUGS.map((slug) => `/${slug}`),
 ];

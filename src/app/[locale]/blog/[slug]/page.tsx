@@ -193,7 +193,7 @@ export default async function BlogPostPage({
 
           <div className="mt-8 rounded-lg bg-ink p-8 text-paper">
             <h2 className="h3 max-w-md text-white">{t('ctaTitle')}</h2>
-            <Link href="/kontakt" className="btn btn-spark mt-6">
+            <Link href="/contact" className="btn btn-spark mt-6">
               {t('ctaButton')} <span aria-hidden className="btn-arrow" />
             </Link>
           </div>

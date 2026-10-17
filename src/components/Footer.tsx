@@ -8,17 +8,17 @@ import { PHONE_DISPLAY, PHONE_TEL_HREF } from '@/lib/contact';
 // "Company" column — the pages about semanu and how it works.
 const COMPANY_LINKS = [
   { key: 'aboutUs', href: '/about' },
-  { key: 'work', href: '/referenzen' },
+  { key: 'work', href: '/references' },
   { key: 'blog', href: '/blog' },
   { key: 'faq', href: '/faq' },
-  { key: 'contact', href: '/kontakt' },
+  { key: 'contact', href: '/contact' },
 ] as const;
 
 // Legal links live in the bottom bar (kept accessible site-wide).
 const LEGAL_LINKS = [
-  { key: 'imprint', href: '/impressum' },
-  { key: 'privacy', href: '/datenschutz' },
-  { key: 'gtc', href: '/agb' },
+  { key: 'imprint', href: '/legal-notice' },
+  { key: 'privacy', href: '/privacy' },
+  { key: 'gtc', href: '/terms' },
 ] as const;
 
 const headingCls = 'font-mono text-xs uppercase tracking-widest text-spark';

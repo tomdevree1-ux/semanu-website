@@ -19,7 +19,7 @@ if (!KEY) {
 const HOST = 'www.semanu.eu';
 const BASE = `https://${HOST}`;
 
-const CORE_PAGES = ['/nl', '/en', '/de', '/fr', '/nl/referenzen', '/nl/blog', '/nl/kontakt', '/nl/faq'].map(
+const CORE_PAGES = ['/nl', '/en', '/de', '/fr', '/nl/references', '/nl/blog', '/nl/contact', '/nl/faq'].map(
   (p) => `${BASE}${p}`,
 );
 

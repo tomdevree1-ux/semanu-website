@@ -37,8 +37,8 @@ export async function generateMetadata({
 
 // Shared, locale-independent media for the two featured cases.
 const CASE_MEDIA = [
-  { img: '/portfolio/poortland-mockup.jpg', href: '/referenzen' },
-  { img: '/portfolio/kastenconfigurator-kiosk.jpg', href: '/referenzen' },
+  { img: '/portfolio/poortland-mockup.jpg', href: '/references' },
+  { img: '/portfolio/kastenconfigurator-kiosk.jpg', href: '/references' },
 ];
 
 type HomeContent = {
@@ -369,7 +369,7 @@ export default async function HomePage({
             <BrandText>{h.hero.sub}</BrandText>
           </p>
           <div className="mt-[clamp(28px,3vw,44px)]">
-            <Link href="/kontakt" className="btn btn-primary">
+            <Link href="/contact" className="btn btn-primary">
               {h.hero.cta} <span aria-hidden className="btn-arrow" />
             </Link>
           </div>
@@ -425,7 +425,7 @@ export default async function HomePage({
       {/* ── REFERENTIES: uitgelichte cases (vroeg op de pagina als proof) ── */}
       <section className="bg-paper py-[clamp(64px,10vh,120px)] text-ink">
         <div className="container-site">
-          <SectionHead title={h.refHead.title} link={h.refHead.link} href="/referenzen" />
+          <SectionHead title={h.refHead.title} link={h.refHead.link} href="/references" />
           <p className="mt-8 max-w-3xl text-[clamp(17px,1.6vw,20px)] text-ink-soft">
             <BrandText>{h.refIntro}</BrandText>
           </p>
@@ -488,7 +488,7 @@ export default async function HomePage({
                 <span className="text-mint">AI</span> Native
               </h2>
               <p className="mt-5 text-[clamp(17px,1.6vw,20px)] leading-relaxed text-paper/80">{h.aiNative.body}</p>
-              <Link href="/kontakt" className="btn btn-spark mt-8">
+              <Link href="/contact" className="btn btn-spark mt-8">
                 {h.aiNative.cta} <span aria-hidden className="btn-arrow" />
               </Link>
             </div>
@@ -510,7 +510,7 @@ export default async function HomePage({
       <section className="bg-ink py-[clamp(56px,8vh,100px)] text-paper">
         <div className="container-site flex flex-col items-start gap-6 md:flex-row md:items-center md:justify-between">
           <h2 className="h2 max-w-[20ch] text-white"><BrandText>{h.final.title}</BrandText></h2>
-          <Link href="/kontakt" className="btn btn-spark shrink-0">
+          <Link href="/contact" className="btn btn-spark shrink-0">
             {h.final.cta} <span aria-hidden className="btn-arrow" />
           </Link>
         </div>

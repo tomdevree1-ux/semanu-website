@@ -9,7 +9,7 @@ import { BrandText } from './BrandText';
 import { LangSwitch } from './LangSwitch';
 
 const NAV_BEFORE = [
-  { key: 'work', href: '/referenzen' },
+  { key: 'work', href: '/references' },
 ] as const;
 
 // Grouped under the "About" dropdown.
@@ -19,7 +19,7 @@ const ABOUT_MENU = [
   { key: 'faq', href: '/faq', descKey: 'faqDesc' },
 ] as const;
 
-const NAV_AFTER = [{ key: 'contact', href: '/kontakt' }] as const;
+const NAV_AFTER = [{ key: 'contact', href: '/contact' }] as const;
 
 const Chevron = ({ className = '' }: { className?: string }) => (
   <svg aria-hidden viewBox="0 0 10 6" className={`h-1.5 w-2.5 ${className}`} fill="none">
@@ -70,7 +70,7 @@ export function Header() {
   // The two highlighted services, shown as pills in place of the old "Diensten"
   // dropdown. Hrefs come from the locale-aware services list so links stay correct.
   const svc = serviceLinks((['de', 'fr', 'en', 'es', 'nl'].includes(locale) ? locale : 'de') as ServicesLocale);
-  const hrefFor = (id: string) => svc.find((s) => s.id === id)?.href ?? '/kontakt';
+  const hrefFor = (id: string) => svc.find((s) => s.id === id)?.href ?? '/contact';
   const SERVICE_PILLS = [
     { id: '3d-configurators', label: t('pill3d'), href: hrefFor('3d-configurators') },
     { id: 'ai-native', label: t('pillAi'), href: hrefFor('ai-native') },
@@ -177,7 +177,7 @@ export function Header() {
 
         {/* Desktop right: collapsed language pill (opens on hover) + the primary CTA. */}
         <div className="ml-auto hidden items-center gap-4 md:flex">
-          <Link href="/kontakt" className="btn btn-primary !px-5 !py-2.5 !text-sm">
+          <Link href="/contact" className="btn btn-primary !px-5 !py-2.5 !text-sm">
             {t('start')} <span aria-hidden className="btn-arrow" />
           </Link>
           <LangSwitch collapsible />
@@ -277,7 +277,7 @@ export function Header() {
             ))}
 
             <Link
-              href="/kontakt"
+              href="/contact"
               onClick={close}
               className="btn btn-primary mt-3 inline-flex w-full items-center justify-center gap-2 !py-3 !text-sm"
             >

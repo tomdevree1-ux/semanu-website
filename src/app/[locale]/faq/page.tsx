@@ -89,7 +89,7 @@ export default async function FaqPage({
           </div>
 
           <div>
-            <FaqSearch ui={ui} services={services} contactHref="/kontakt" />
+            <FaqSearch ui={ui} services={services} contactHref="/contact" />
           </div>
         </div>
       </section>

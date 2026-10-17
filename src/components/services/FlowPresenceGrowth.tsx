@@ -117,7 +117,7 @@ export async function FlowPresenceGrowth({ service, detail, content, navServices
                 <span className="font-mono text-xs uppercase tracking-wider text-navy"><BrandText>{detail.example.label}</BrandText></span>
                 <p className="mt-2.5 text-sm leading-relaxed text-ink-soft"><BrandText>{detail.example.text}</BrandText></p>
               </div>
-              <Link href="/referenzen" className="btn btn-primary shrink-0">
+              <Link href="/references" className="btn btn-primary shrink-0">
                 <BrandText>{detail.example.linkLabel}</BrandText> <span aria-hidden className="btn-arrow" />
               </Link>
             </div>

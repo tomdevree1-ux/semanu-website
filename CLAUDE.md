@@ -20,16 +20,21 @@ eigen database. Het contactformulier gaat server side naar de bestaande SEMANU-b
 - **Bedrijf:** SEMANU BV, Kattendijkdok-Oostkaai 9, 2000 Antwerpen, België. Ondernemingsnummer
   0828.291.116, btw BE0828.291.116. Zaakvoerder Tom de Vree. hello@semanu.eu, +32 496 04 56 06
   (één bron: `src/lib/contact.ts`).
-- **Diensten:** 3D-configuratoren en bedrijfssoftware (`/services/ai-native`, incl. workflowautomatisering).
-  Consultancy is sinds oktober 2026 geen dienst meer (`/services/consultancy` 301 naar `/services/ai-native`).
+- **Diensten:** 3D-configuratoren en bedrijfssoftware (`/services/business-software`, incl. workflowautomatisering).
+  Consultancy is sinds oktober 2026 geen dienst meer (`/services/consultancy` 301 naar `/services/business-software`).
   Oude dienst-URL's 301'en (zie `next.config.mjs`).
+- **URL's (beslissing oktober 2026):** één Engelse slug per pagina, gelijk in alle talen (alleen het
+  taalprefix verschilt): `/contact`, `/references`, `/about`, `/faq`, `/blog/<engelse-slug>`, `/privacy`,
+  `/terms`, `/legal-notice`, `/services/3d-configurators`, `/services/business-software`, `/configurator/<type>`.
+  Oude Duitse slugs 301'en rechtstreeks naar het eindadres (`next.config.mjs`). Nieuwe pagina's en blogs
+  krijgen meteen een Engelse slug.
 - **Prijzen:** nergens bedragen op de site; overal "op aanvraag" (per taal). Valuta EUR, excl. btw.
 - **Doelgroep (beslissing oktober 2026):** Europees en landneutraal ("KMU in Europa", "SMEs in Europe" waar een
   regio helpt, anders gewoon "KMU/SMEs/kmo's"). Locatie alleen waar ze hoort: bedrijfsgegevens (Antwerpen, België)
   in footer, contact, about, juridische pagina's en JSON-LD (`src/lib/seo/area-served.ts`). Geen landenpagina's;
-  landingspagina's hebben neutrale slugs (`/3d-konfigurator`, `/digitalisierung-kmu`),
+  landingspagina's hebben neutrale slugs (`/3d-configurator`, `/sme-digitalisation`),
   de oude `*-schweiz`-slugs en Zwitserse blogs 301'en (zie `next.config.mjs`). De workflowlandingspagina en de
-  gratis websiteanalyse zijn sinds oktober 2026 weg (301 naar `/services/ai-native` en `/kontakt`).
+  gratis websiteanalyse zijn sinds oktober 2026 weg (301 naar `/services/business-software` en `/contact`).
 
 ## Stack
 

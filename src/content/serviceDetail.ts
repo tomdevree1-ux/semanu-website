@@ -1,7 +1,7 @@
 // Rich, flow-specific detail content for the individual service pages
 // (/services/<slug>). Restructured 2026-10; only 3d-configurators is still routed
 // through /services/[service] (Consultancy was dropped; Workflowautomatisering and
-// Maatwerksoftware moved to /services/ai-native). The other two blocks stay as
+// Maatwerksoftware moved to /services/business-software). The other two blocks stay as
 // related-service data until they are cleaned up.
 //
 // The internal service ids are kept from the previous structure to avoid a
@@ -43,7 +43,7 @@ export const RELATED_SERVICES: Record<string, string[]> = {
  * translations, so no new strings are needed.
  */
 export const SERVICE_LANDINGS: Record<string, { slug: string; labelKey: string }[]> = {
-  '3d-configurators': [{ slug: '3d-konfigurator', labelKey: 'konfigurator' }],
+  '3d-configurators': [{ slug: '3d-configurator', labelKey: 'konfigurator' }],
 };
 
 export type DetailCard = { title: string; text: string };
@@ -182,7 +182,7 @@ const nl: DetailMap = {
     finalText: 'Vertel welk terugkerend werk u tijd kost en we tonen wat semanu daarvan kan automatiseren.',
     finalCta: 'Laat ons uw workflow bekijken',
     finalSecondaryLabel: 'Bekijk alle diensten',
-    finalSecondaryHref: '/services/ai-native',
+    finalSecondaryHref: '/services/business-software',
   },
 
   'business-systems': {
@@ -237,7 +237,7 @@ const nl: DetailMap = {
     finalText: 'Vertel ons waar standaardsoftware tekortschiet en we bekijken of maatwerk de juiste stap is.',
     finalCta: 'Bespreek uw softwarevraagstuk',
     finalSecondaryLabel: 'Bekijk alle diensten',
-    finalSecondaryHref: '/services/ai-native',
+    finalSecondaryHref: '/services/business-software',
   },
 
   '3d-configurators': {
@@ -417,7 +417,7 @@ const en: DetailMap = {
     finalText: 'Tell us which recurring work costs you time and we show what semanu can automate of it.',
     finalCta: 'Let us review your workflow',
     finalSecondaryLabel: 'See all services',
-    finalSecondaryHref: '/services/ai-native',
+    finalSecondaryHref: '/services/business-software',
   },
 
   'business-systems': {
@@ -472,7 +472,7 @@ const en: DetailMap = {
     finalText: 'Tell us where standard software falls short and we look at whether custom work is the right step.',
     finalCta: 'Discuss your software question',
     finalSecondaryLabel: 'See all services',
-    finalSecondaryHref: '/services/ai-native',
+    finalSecondaryHref: '/services/business-software',
   },
 
   '3d-configurators': {
@@ -622,7 +622,7 @@ const de: DetailMap = {
     finalText: 'Erzählen Sie, welche wiederkehrende Arbeit Sie Zeit kostet und wir zeigen, was semanu davon automatisieren kann.',
     finalCta: 'Lassen Sie uns Ihren Workflow ansehen',
     finalSecondaryLabel: 'Alle Dienstleistungen ansehen',
-    finalSecondaryHref: '/services/ai-native',
+    finalSecondaryHref: '/services/business-software',
   },
 
   'business-systems': {
@@ -677,7 +677,7 @@ const de: DetailMap = {
     finalText: 'Erzählen Sie uns, wo Standardsoftware zu kurz greift und wir schauen, ob Maßarbeit der richtige Schritt ist.',
     finalCta: 'Besprechen Sie Ihre Softwarefrage',
     finalSecondaryLabel: 'Alle Dienstleistungen ansehen',
-    finalSecondaryHref: '/services/ai-native',
+    finalSecondaryHref: '/services/business-software',
   },
 
   '3d-configurators': {
@@ -827,7 +827,7 @@ const fr: DetailMap = {
     finalText: 'Dites nous quel travail récurrent vous coûte du temps et nous montrons ce que semanu peut en automatiser.',
     finalCta: 'Analysons votre workflow',
     finalSecondaryLabel: 'Voir tous les services',
-    finalSecondaryHref: '/services/ai-native',
+    finalSecondaryHref: '/services/business-software',
   },
 
   'business-systems': {
@@ -882,7 +882,7 @@ const fr: DetailMap = {
     finalText: 'Dites nous où le logiciel standard est insuffisant et nous regardons si le sur mesure est la bonne étape.',
     finalCta: 'Parlons de votre besoin logiciel',
     finalSecondaryLabel: 'Voir tous les services',
-    finalSecondaryHref: '/services/ai-native',
+    finalSecondaryHref: '/services/business-software',
   },
 
   '3d-configurators': {
@@ -1032,7 +1032,7 @@ const es: DetailMap = {
     finalText: 'Cuéntenos qué trabajo recurrente le cuesta tiempo y mostramos qué puede automatizar semanu de ello.',
     finalCta: 'Analicemos su flujo de trabajo',
     finalSecondaryLabel: 'Ver todos los servicios',
-    finalSecondaryHref: '/services/ai-native',
+    finalSecondaryHref: '/services/business-software',
   },
 
   'business-systems': {
@@ -1087,7 +1087,7 @@ const es: DetailMap = {
     finalText: 'Cuéntenos dónde se queda corto el software estándar y vemos si lo a medida es el paso correcto.',
     finalCta: 'Hablemos de su necesidad de software',
     finalSecondaryLabel: 'Ver todos los servicios',
-    finalSecondaryHref: '/services/ai-native',
+    finalSecondaryHref: '/services/business-software',
   },
 
   '3d-configurators': {

@@ -99,7 +99,7 @@ export function CookieBanner() {
             {t('reject')}
           </button>
           <Link
-            href="/datenschutz"
+            href="/privacy"
             className="text-sm text-ink-soft underline decoration-[var(--line)] underline-offset-2 transition-colors hover:text-navy sm:ml-auto"
           >
             {t('privacy')}

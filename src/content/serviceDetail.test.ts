@@ -10,7 +10,7 @@ const HUB_IDS = ['business-systems'];
 describe('service pages data completeness', () => {
   it('flow map + slugs cover all services', () => {
     // Since the 2026-10 restructure only 3D configurators is routed through
-    // /services/[service]; consultancy and the rest 301 to /services/ai-native.
+    // /services/[service]; consultancy and the rest 301 to /services/business-software.
     expect([...SERVICE_SLUGS].sort()).toEqual(['3d-configurators']);
     for (const id of IDS) expect(FLOW_BY_ID[id]).toBeTruthy();
   });

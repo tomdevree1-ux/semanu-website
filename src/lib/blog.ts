@@ -5,7 +5,7 @@ import { marked } from 'marked';
 
 /**
  * Minimal file-based blog: Markdown with frontmatter in `content/blog/`.
- * Filename convention: `<slug>.<locale>.md` (e.g. `warum-website-abo.de.md`).
+ * Filename convention: `<slug>.<locale>.md` (e.g. `why-website-subscription.de.md`).
  *
  * This is the lightweight "best practice" start. If non-technical editors need
  * to publish later, swap this module for a CMS without touching the pages.

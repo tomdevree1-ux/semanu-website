@@ -23,7 +23,7 @@ describe('contact form → submit-contact payload', () => {
       utmSource: 'google',
       utmMedium: 'cpc',
       utmCampaign: 'kast',
-      pagePath: '/nl/kontakt',
+      pagePath: '/nl/contact',
       renderedAt: 1000,
     });
     const p = contactPayload(d);
@@ -39,7 +39,7 @@ describe('contact form → submit-contact payload', () => {
     expect(p._company_url).toBe('');
     expect(p.message).toContain('Telefoon: +32 3 123 45 67');
     expect(p.message).toContain('site: semanu.eu');
-    expect(p.message).toContain('pagina: /nl/kontakt');
+    expect(p.message).toContain('pagina: /nl/contact');
     expect(p.message.length).toBeLessThanOrEqual(5000);
   });
 

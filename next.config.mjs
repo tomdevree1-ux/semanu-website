@@ -79,38 +79,48 @@ const nextConfig = {
     ];
   },
   async redirects() {
-    // Services restructured (2026-10): the AI-native business-software page
-    // (/services/ai-native) replaced Workflowautomatisering and Maatwerksoftware;
-    // Consultancy was dropped as a service. Remaining services: 3D-configuratoren
-    // and AI-native bedrijfssoftware. Retired/renamed service URLs 301 to the
-    // nearest match (always the final target, no redirect chains).
+    // Slugs (2026-10): every URL uses one English slug, identical in all
+    // locales (only the /nl /en /de /fr /es prefix differs). Every retired or
+    // renamed URL below 301s straight to its final target (no chains, no loops).
+    //
+    // Services: the business-software page (/services/business-software, formerly
+    // /services/ai-native) replaced Workflowautomatisering and Maatwerksoftware;
+    // Consultancy was dropped as a service. Remaining services: 3D configurators
+    // and business software.
     const moved = [
-      // folded into AI-native business software
-      ['workflow-automation', 'ai-native'],
-      ['marketing-automation', 'ai-native'],
-      ['maatwerksoftware', 'ai-native'],
-      ['business-systems', 'ai-native'],
-      ['websites', 'ai-native'],
-      ['crm', 'ai-native'],
-      ['customer-portals', 'ai-native'],
+      ['ai-native', 'business-software'],
+      // folded into business software
+      ['workflow-automation', 'business-software'],
+      ['marketing-automation', 'business-software'],
+      ['maatwerksoftware', 'business-software'],
+      ['business-systems', 'business-software'],
+      ['websites', 'business-software'],
+      ['crm', 'business-software'],
+      ['customer-portals', 'business-software'],
       // advice-oriented retired services (consultancy itself was retired too)
-      ['consultancy', 'ai-native'],
-      ['ai-assistants', 'ai-native'],
-      ['booking-appointment', 'ai-native'],
+      ['consultancy', 'business-software'],
+      ['ai-assistants', 'business-software'],
+      ['booking-appointment', 'business-software'],
     ];
-    // Landing pages (2026-10): the copy went country-neutral (Europe), so the
-    // *-schweiz slugs got neutral slugs, and the pages for services no longer
-    // offered (websites, website subscriptions, SEO/GEO packages) were removed.
-    // The workflow automation landing page and the free website analysis were
-    // removed later that month: workflow goes to the business software service,
-    // the analysis to the contact page.
-    const landingMoved = [
-      ['3d-konfigurator-schweiz', '/3d-konfigurator'],
-      ['workflow-automatisierung-schweiz', '/services/ai-native'],
-      ['workflow-automatisierung', '/services/ai-native'],
-      ['website-analyse', '/kontakt'],
-      ['digitalisierung-kmu-schweiz', '/digitalisierung-kmu'],
-      ['geo-schweiz', '/blog/von-ki-gefunden-werden'],
+    // Top-level pages: former German slugs, country slugs of the landing pages
+    // (the copy went country-neutral), and pages for services no longer offered
+    // (websites, website subscriptions, SEO/GEO packages, the workflow automation
+    // landing page, the free website analysis, checkout and payment).
+    // '' = the home page.
+    const pageMoved = [
+      ['kontakt', '/contact'],
+      ['datenschutz', '/privacy'],
+      ['impressum', '/legal-notice'],
+      ['agb', '/terms'],
+      ['referenzen', '/references'],
+      ['3d-konfigurator', '/3d-configurator'],
+      ['3d-konfigurator-schweiz', '/3d-configurator'],
+      ['digitalisierung-kmu', '/sme-digitalisation'],
+      ['digitalisierung-kmu-schweiz', '/sme-digitalisation'],
+      ['workflow-automatisierung-schweiz', '/services/business-software'],
+      ['workflow-automatisierung', '/services/business-software'],
+      ['website-analyse', '/contact'],
+      ['geo-schweiz', '/blog/getting-found-by-ai'],
       ['website-abo-schweiz', ''],
       ['webdesign-kmu-schweiz', ''],
       ['website-erstellen-lassen-schweiz', ''],
@@ -118,6 +128,28 @@ const nextConfig = {
       ['website-fuer-selbstaendige', ''],
       ['website-fuer-lokale-unternehmen', ''],
       ['seo-basis-fuer-kmu', ''],
+      ['checkout', '/contact'],
+      ['payment', '/contact'],
+      ['website-abos', '/contact'],
+      ['so-funktioniert', ''],
+      // The /services overview was removed; the services keep their own pages.
+      ['services', ''],
+      // Email marketing is no longer a standalone service.
+      ['services/email-marketing', ''],
+      // The sofa configurator demo was retired; the cabinet configurator replaces it.
+      ['configurator/sofa', '/configurator/cabinet'],
+    ];
+    // Blog posts with a former German slug, now English. ai-native-digital-business
+    // has no French version, so its French URL goes to the blog index.
+    const blogRenamed = [
+      ['haeufige-website-fehler', 'common-website-mistakes'],
+      ['von-ki-gefunden-werden', 'getting-found-by-ai'],
+      ['lokale-seo-fuer-kmu', 'local-seo-for-smes'],
+      ['professionelle-website-checkliste', 'professional-website-checklist'],
+      ['website-kostet-kunden', 'website-losing-customers'],
+      ['website-sicherheit', 'website-security'],
+      ['warum-website-abo', 'why-website-subscription'],
+      ['ai-native-digitalunternehmen', 'ai-native-digital-business', '/:locale(de|en|es|nl)'],
     ];
     // Switzerland-only blog posts (the Swiss SME website study and its spin-offs,
     // the revDSG check, the Röstigraben post) were removed: 301 to the blog index.
@@ -130,66 +162,33 @@ const nextConfig = {
       'revdsg-datenschutz-check',
       'website-beidseits-roestigraben',
     ];
+    const L = '/:locale(de|fr|en|es|nl)';
     return [
       ...moved.map(([from, to]) => ({
-        source: `/:locale(de|fr|en|es|nl)/services/${from}`,
+        source: `${L}/services/${from}`,
         destination: `/:locale/services/${to}`,
         permanent: true,
       })),
-      ...landingMoved.map(([from, to]) => ({
-        source: `/:locale(de|fr|en|es|nl)/${from}`,
+      ...pageMoved.map(([from, to]) => ({
+        source: `${L}/${from}`,
         destination: `/:locale${to}`,
         permanent: true,
       })),
+      ...blogRenamed.map(([from, to, locales = L]) => ({
+        source: `${locales}/blog/${from}`,
+        destination: `/:locale/blog/${to}`,
+        permanent: true,
+      })),
+      {
+        source: '/fr/blog/ai-native-digitalunternehmen',
+        destination: '/fr/blog',
+        permanent: true,
+      },
       ...blogRemoved.map((slug) => ({
-        source: `/:locale(de|fr|en|es|nl)/blog/${slug}`,
+        source: `${L}/blog/${slug}`,
         destination: '/:locale/blog',
         permanent: true,
       })),
-      // Email marketing is no longer a standalone service: send it home (the
-      // services hub itself 301s home, so go there directly).
-      {
-        source: '/:locale(de|fr|en|es|nl)/services/email-marketing',
-        destination: '/:locale',
-        permanent: true,
-      },
-      // Retired self-serve checkout/payment URLs: send to the contact page.
-      {
-        source: '/:locale(de|fr|en|es|nl)/checkout',
-        destination: '/:locale/kontakt',
-        permanent: true,
-      },
-      {
-        source: '/:locale(de|fr|en|es|nl)/payment',
-        destination: '/:locale/kontakt',
-        permanent: true,
-      },
-      // Prijzen (website-abos) and Zo werkt het (so-funktioniert) were taken
-      // offline in the 2026-10 restructure. 301 so old links keep their signal.
-      {
-        source: '/:locale(de|fr|en|es|nl)/website-abos',
-        destination: '/:locale/kontakt',
-        permanent: true,
-      },
-      {
-        source: '/:locale(de|fr|en|es|nl)/so-funktioniert',
-        destination: '/:locale',
-        permanent: true,
-      },
-      // The /services overview was removed in the 2026-10 cleanup; the four
-      // services keep their own /services/<slug> pages. 301 the overview home.
-      {
-        source: '/:locale(de|fr|en|es|nl)/services',
-        destination: '/:locale',
-        permanent: true,
-      },
-      // The sofa configurator demo was retired; the cabinet configurator takes
-      // its place. 301 the old URL so any indexed/shared link keeps its signal.
-      {
-        source: '/:locale(de|fr|en|es|nl)/configurator/sofa',
-        destination: '/:locale/configurator/cabinet',
-        permanent: true,
-      },
     ];
   },
 };

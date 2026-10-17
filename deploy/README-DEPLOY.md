@@ -216,7 +216,7 @@ done
 
 Verwacht op het leadsbord van acc.semanu.be: de kaarten uit stap 2 tot 4 met bron
 "Contactformulier semanu.eu", die uit stap 1 met "Contactformulier". In het formulier op
-https://acc.semanu.eu/nl/kontakt verschijnt bij de zesde inzending binnen het uur de melding met hello@semanu.eu.
+https://acc.semanu.eu/nl/contact verschijnt bij de zesde inzending binnen het uur de melding met hello@semanu.eu.
 Live herhaal je stap 2 met `$LIVE_SECRET` en de prod-URL
 (`https://bjpcgqejprkdqqohhere.supabase.co/functions/v1/submit-contact`), en verwijder je de kaarten.
 

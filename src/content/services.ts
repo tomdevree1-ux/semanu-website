@@ -1,6 +1,6 @@
 // Content for the Services page (/services) and the Services mega menu.
 // Restructured 2026-10: the public services are 3D-configuratoren and AI-native
-// bedrijfssoftware (/services/ai-native, which absorbed Workflowautomatisering and
+// bedrijfssoftware (/services/business-software, which absorbed Workflowautomatisering and
 // Maatwerksoftware); Consultancy was dropped. Authored NL-first, then translated
 // to EN/DE/FR/ES. House style (every language): no dashes, no comma before a
 // coordinating conjunction, standard German spelling (ß) in German. The literal "semanu" is
@@ -84,9 +84,9 @@ export type ServicesContent = {
 };
 
 const HREF = {
-  automation: '/kontakt?interest=workflow-automation',
-  systems: '/kontakt?interest=maatwerksoftware',
-  configurator: '/kontakt?interest=3d-configurators',
+  automation: '/contact?interest=business-software',
+  systems: '/contact?interest=business-software',
+  configurator: '/contact?interest=3d-configurators',
 } as const;
 
 /** URL slug per service id (locale-independent). Internal ids are kept from the
@@ -96,7 +96,7 @@ export const SERVICE_SLUG: Record<string, string> = {
 };
 /** Canonical display order (menu, ecosystem, overview, sitemap). The AI-native
  *  business-software page replaced the former Workflowautomatisering and
- *  Maatwerksoftware services (2026-10); those URLs 301 to /services/ai-native.
+ *  Maatwerksoftware services (2026-10); those URLs 301 to /services/business-software.
  *  Consultancy is no longer offered (2026-10); /services/consultancy 301s too. */
 export const SERVICE_ORDER = ['3d-configurators', 'ai-native'] as const;
 
@@ -429,7 +429,7 @@ const enFields: ContentFields = {
       'GEO stands for Generative Engine Optimisation. It helps AI search systems understand your business, your services and your expertise so they can describe and recommend you more accurately.',
     points: ['clear service structure', 'understandable explanations', 'strong internal links', 'metadata and structured data', 'FAQ content', 'SEO and GEO friendly', 'content that answers real customer questions'],
     ctaLabel: 'Discuss your project',
-    ctaHref: '/kontakt',
+    ctaHref: '/contact',
   },
   howTitle: 'How these services work together',
   howIntro:
@@ -481,7 +481,7 @@ const deFields: ContentFields = {
       'GEO steht für Generative Engine Optimisation. Es hilft AI Suchsystemen, Ihr Unternehmen, Ihre Dienstleistungen und Ihre Expertise zu verstehen, damit sie Sie genauer beschreiben und empfehlen können.',
     points: ['klare Dienstleistungsstruktur', 'verständliche Erklärungen', 'starke interne Links', 'Metadaten und strukturierte Daten', 'FAQ Inhalte', 'SEO und GEO freundlich', 'Inhalte, die echte Kundenfragen beantworten'],
     ctaLabel: 'Projekt besprechen',
-    ctaHref: '/kontakt',
+    ctaHref: '/contact',
   },
   howTitle: 'Wie diese Dienstleistungen zusammenwirken',
   howIntro:
@@ -533,7 +533,7 @@ const frFields: ContentFields = {
       'GEO signifie Generative Engine Optimisation. Cela aide les systèmes de recherche AI à comprendre votre entreprise, vos services et votre expertise pour vous décrire et vous recommander plus précisément.',
     points: ['structure de services claire', 'explications compréhensibles', 'liens internes solides', 'métadonnées et données structurées', 'contenu FAQ', 'adapté au SEO et au GEO', 'du contenu qui répond aux vraies questions des clients'],
     ctaLabel: 'Parler de votre projet',
-    ctaHref: '/kontakt',
+    ctaHref: '/contact',
   },
   howTitle: 'Comment ces services fonctionnent ensemble',
   howIntro:
@@ -585,7 +585,7 @@ const esFields: ContentFields = {
       'GEO significa Generative Engine Optimisation. Ayuda a los sistemas de búsqueda de AI a entender su empresa, sus servicios y su experiencia para describirle y recomendarle con más precisión.',
     points: ['estructura de servicios clara', 'explicaciones comprensibles', 'enlaces internos sólidos', 'metadatos y datos estructurados', 'contenido de FAQ', 'apto para SEO y GEO', 'contenido que responde a preguntas reales de clientes'],
     ctaLabel: 'Hablar de su proyecto',
-    ctaHref: '/kontakt',
+    ctaHref: '/contact',
   },
   howTitle: 'Cómo funcionan juntos estos servicios',
   howIntro:
@@ -637,7 +637,7 @@ const nlFields: ContentFields = {
       'GEO staat voor Generative Engine Optimisation. Het helpt AI zoeksystemen om uw bedrijf, uw diensten en uw expertise te begrijpen zodat ze u nauwkeuriger kunnen beschrijven en aanbevelen.',
     points: ['duidelijke dienstenstructuur', 'begrijpelijke uitleg', 'sterke interne links', 'metadata en gestructureerde data', 'FAQ inhoud', 'SEO en GEO vriendelijk', 'inhoud die echte klantvragen beantwoordt'],
     ctaLabel: 'Project bespreken',
-    ctaHref: '/kontakt',
+    ctaHref: '/contact',
   },
   howTitle: 'Hoe deze diensten samenwerken',
   howIntro:
@@ -677,12 +677,12 @@ export function serviceLinks(locale: ServicesLocale) {
       const ai = AI_NATIVE_NAV[locale];
       return {
         id: 'ai-native',
-        slug: 'ai-native',
+        slug: 'business-software',
         title: ai.title,
         short: ai.short,
         description: ai.short,
         icon: 'systems' as ServiceIcon,
-        href: '/services/ai-native',
+        href: '/services/business-software',
       };
     }
     const s = byId[id];

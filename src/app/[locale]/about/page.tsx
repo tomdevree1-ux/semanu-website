@@ -112,7 +112,7 @@ export default async function AboutPage({
       <section className="bg-ink py-20 text-paper">
         <div className="container-site flex flex-col items-start gap-6 md:flex-row md:items-center md:justify-between">
           <h2 className="h2 max-w-xl text-white">{t('ctaTitle')}</h2>
-          <Link href="/kontakt" className="btn btn-spark">
+          <Link href="/contact" className="btn btn-spark">
             {t('ctaButton')} <span aria-hidden className="btn-arrow" />
           </Link>
         </div>

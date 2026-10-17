@@ -161,7 +161,7 @@ export async function FlowSystemsIntelligence({ service, detail, content, navSer
               <span className="font-mono text-xs uppercase tracking-wider text-navy"><BrandText>{detail.example.label}</BrandText></span>
               <p className="mt-3 text-sm leading-relaxed text-ink-soft"><BrandText>{detail.example.text}</BrandText></p>
               <Link
-                href="/referenzen"
+                href="/references"
                 className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-navy transition-colors hover:text-ink"
               >
                 <BrandText>{detail.example.linkLabel}</BrandText> <span aria-hidden className="btn-arrow" />

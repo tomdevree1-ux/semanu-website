@@ -29,7 +29,7 @@ export default function NotFound() {
             <Link href="/" className="btn btn-primary">
               {t('home')} <span aria-hidden className="btn-arrow" />
             </Link>
-            <Link href="/kontakt" className="btn btn-ghost-ink">
+            <Link href="/contact" className="btn btn-ghost-ink">
               {t('contact')}
             </Link>
           </div>

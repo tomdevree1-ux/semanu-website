@@ -123,7 +123,7 @@ deploy() {
     fi
     cd $BASE/releases && ls -1 | sort | head -n -3 | xargs -r rm -rf
     # Warm the image cache for the heaviest pages in the background, so the first visitor does not wait.
-    ( for p in /nl /nl/services/3d-configurators /nl/referenzen /en /de; do
+    ( for p in /nl /nl/services/3d-configurators /nl/references /en /de; do
         curl -s http://127.0.0.1:$PORT\$p | grep -o '/_next/image?url=[^\" ]*' | sed 's/&amp;/\&/g' | sort -u | head -n 60 |
           while read -r u; do curl -s -o /dev/null -H 'Accept: image/webp' \"http://127.0.0.1:$PORT\$u\"; done
       done ) </dev/null >/dev/null 2>&1 &

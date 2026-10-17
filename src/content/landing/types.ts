@@ -75,7 +75,7 @@ export type LandingContent = {
   //    pages omit them and just render hero/stats/features/sections/links/CTA.
   /** Hero trust bullets, shown under the intro (visible in the first mobile viewport). */
   heroBullets?: string[];
-  /** Hero secondary CTA. Defaults to /kontakt + ctaButton when omitted. */
+  /** Hero secondary CTA. Defaults to /contact + ctaButton when omitted. */
   heroSecondaryCta?: LandingCta;
   /** Trust/benefit bar under the hero. */
   benefits?: LandingBenefit[];

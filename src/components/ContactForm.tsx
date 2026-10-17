@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { CONTACT_INTERESTS, CONTACT_LANGS, contactLeadSchema } from '@/lib/validation';
 import { readAttribution } from '@/lib/attribution';
-import { serviceLinks, SERVICE_ID_BY_SLUG, type ServicesLocale } from '@/content/services';
+import { serviceLinks, type ServicesLocale } from '@/content/services';
 import { CustomSelect } from '@/components/CustomSelect';
 import { track } from '@/lib/analytics';
 import { Turnstile } from '@/components/Turnstile';
@@ -33,10 +33,9 @@ export function ContactForm() {
 
   // "What are you interested in?" — options from the shared services list plus
   // "Not sure yet". Preselected from the ?interest= query (set on /services CTAs).
+  const serviceList = serviceLinks((['de', 'fr', 'en', 'es', 'nl'].includes(locale) ? locale : 'de') as ServicesLocale);
   const interestOptions = [
-    ...serviceLinks((['de', 'fr', 'en', 'es', 'nl'].includes(locale) ? locale : 'de') as ServicesLocale).map(
-      (s) => ({ value: s.id, label: s.title }),
-    ),
+    ...serviceList.map((s) => ({ value: s.id, label: s.title })),
     { value: 'not-sure', label: t('interestNotSure') },
   ];
   // Pre-checked interests come from the ?interest= query (service page CTAs), else none.
@@ -45,10 +44,10 @@ export function ContactForm() {
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const raw = params.get('interest');
-    // Service CTAs use the public slug (?interest=workflow-automation,
-    // ?interest=maatwerksoftware, ...). Map the slug to the internal service id so
+    // Service CTAs use the public slug (?interest=business-software,
+    // ?interest=3d-configurators). Map the slug to the internal service id so
     // the interest preselects correctly; fall back to the raw value.
-    const p = raw ? (SERVICE_ID_BY_SLUG[raw] ?? raw) : null;
+    const p = raw ? (serviceList.find((s) => s.slug === raw)?.id ?? raw) : null;
     if (p && interestOptions.some((o) => o.value === p)) setPreselect([p]);
     // Prefill from the pricing configurator (?from=configurator): drop the saved
     // configuration into the message and preselect the website interest, so the

@@ -34,7 +34,7 @@ export async function LandingTemplate({
 
   return (
     <SiteShell>
-      {/* Hero — light hero-wash, aligned with the homepage / referenzen /
+      {/* Hero — light hero-wash, aligned with the homepage / references /
           how-it-works heroes (navy eyebrow, ink heading, mint accents). */}
       <section className="lp-hero relative overflow-hidden flow-herowash-paper py-16 text-ink sm:py-20">
         <div
@@ -70,7 +70,7 @@ export async function LandingTemplate({
               <BookCallButton className="btn btn-primary">
                 {callLabel} <span aria-hidden className="btn-arrow" />
               </BookCallButton>
-              <Link href={content.heroSecondaryCta?.href ?? '/kontakt'} className="btn btn-ghost-ink">
+              <Link href={content.heroSecondaryCta?.href ?? '/contact'} className="btn btn-ghost-ink">
                 {content.heroSecondaryCta?.label ?? content.ctaButton}
               </Link>
             </div>
