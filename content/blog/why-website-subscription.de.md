@@ -32,7 +32,7 @@ Das macht eine professionelle Online Präsenz zugänglicher.
 
 ## Hosting, Wartung und Technik inbegriffen
 
-Viele Unternehmerinnen und Unternehmer wollen keine Zeit mit technischen Fragen verlieren. Wo wird die Website gehostet? Ist das SSL Zertifikat aktiv? Wird alles aktualisiert? Lädt die Website schnell genug? Funktioniert sie gut auf dem Mobilgerät?
+Viele Unternehmerinnen und Unternehmer wollen keine Zeit mit technischen Fragen verlieren. Wo wird die Website gehostet? Ist das SSL-Zertifikat aktiv? Wird alles aktualisiert? Lädt die Website schnell genug? Funktioniert sie gut auf dem Mobilgerät?
 
 Das sind wichtige Fragen. Trotzdem möchte sich ein Unternehmen nicht täglich mit diesen Fragen beschäftigen. Mit einem Website Abo wird die technische Basis mitgenommen. Hosting, Wartung, Sicherheit, Leistung und kleine Optimierungen werden zentral betreut.
 
@@ -42,7 +42,7 @@ So kann sich die Unternehmerin oder der Unternehmer auf das Geschäft konzentrie
 
 Eine schöne Website allein genügt nicht. Potenzielle Kunden müssen auch verstehen, was Sie tun. Suchmaschinen müssen die Seiten lesen können. Leistungen, Standort und Kontaktmöglichkeiten müssen klar sein.
 
-Darum gehören SEO Grundlagen zu einer modernen Website. Nicht als Versprechen auf Spitzenplätze bei Google. Wohl aber als gesunde Basis, auf der Ihr Unternehmen online besser verstanden wird.
+Darum gehören SEO-Grundlagen zu einer modernen Website. Nicht als Versprechen auf Spitzenplätze bei Google. Wohl aber als gesunde Basis, auf der Ihr Unternehmen online besser verstanden wird.
 
 Ein Website Abo ermöglicht es, diese Basis nicht nur zu Beginn gut zu setzen. Sie kann auch später verbessert werden.
 
@@ -58,7 +58,7 @@ Mit einem Abo bleiben diese kleinen Verbesserungen machbar. Das sorgt für Ruhe.
 
 Ein Website Abo ist vor allem für Unternehmen interessant, die professionell online präsent sein wollen, ohne sich selbst mit Technik zu beschäftigen.
 
-Es passt gut zu Selbständigen, lokalen Dienstleistern, kleinen Unternehmen, Praxen, Agenturen und KMU, die eine klare Website mit Hosting, Wartung, SEO Grundlagen und Sicherheit brauchen.
+Es passt gut zu Selbständigen, lokalen Dienstleistern, kleinen Unternehmen, Praxen, Agenturen und KMU, die eine klare Website mit Hosting, Wartung, SEO-Grundlagen und Sicherheit brauchen.
 
 Weniger geeignet ist es für Unternehmen, die ihre Website vollständig selbst verwalten wollen oder nur einmal etwas bauen lassen möchten, ohne weitere Betreuung.
 

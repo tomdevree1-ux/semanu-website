@@ -1,5 +1,5 @@
 ---
-title: "Veelvoorkomende fouten op KMO websites en hoe u ze vermijdt"
+title: "Veelvoorkomende fouten op KMO-websites en hoe u ze vermijdt"
 description: "De meest voorkomende fouten op websites van kleine en middelgrote ondernemingen en hoe u ze vermijdt, zodat uw website vertrouwen wekt."
 date: "2026-02-11"
 updated: "2026-10-16"
@@ -54,6 +54,6 @@ Een lopende begeleiding voorkomt precies dat. Leg daarom van bij het begin vast 
 
 ## Conclusie
 
-De meeste fouten op KMO websites zijn geen toeval en geen groot drama. Ze ontstaan omdat niemand ze systematisch aanpakt.
+De meeste fouten op KMO-websites zijn geen toeval en geen groot drama. Ze ontstaan omdat niemand ze systematisch aanpakt.
 
 Wie let op een duidelijke boodschap, een heldere volgende stap, een goede mobiele weergave, actuele inhoud, tempo, vertrouwen en lopende zorg, vermijdt de meeste ervan. Het resultaat is een website die echt helpt.

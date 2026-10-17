@@ -9,7 +9,7 @@
   },
   "meta": {
     "title": "Webagentur Antwerpen: Websites, Plattformen und AI für KMU · semanu.eu",
-    "description": "semanu baut 3D Konfiguratoren und Unternehmenssoftware nach Maß für KMU in Europa: Automatisierung, Portale, CRM und AI. Persönlich aus Antwerpen."
+    "description": "semanu baut 3D-Konfiguratoren und Unternehmenssoftware nach Maß für KMU in Europa: Automatisierung, Portale, CRM und AI. Persönlich aus Antwerpen."
   },
   "lang": {
     "label": "Sprache",
@@ -46,7 +46,7 @@
     "pillAi": "Unternehmenssoftware"
   },
   "footer": {
-    "tagline": "Der digitale Partner für KMU in Europa: 3D Konfiguratoren und Unternehmenssoftware nach Maß, mit AI als Motor.",
+    "tagline": "Der digitale Partner für KMU in Europa: 3D-Konfiguratoren und Unternehmenssoftware nach Maß, mit AI als Motor.",
     "servicesTitle": "Leistungen",
     "companyTitle": "Unternehmen",
     "navTitle": "Navigation",
@@ -103,7 +103,7 @@
     "company": "Firma",
     "website": "Website (optional)",
     "companyName": "Firmenname",
-    "vat": "UID / MWST Nummer (optional)",
+    "vat": "USt-IdNr. (optional)",
     "street": "Straße und Nummer",
     "postalCode": "PLZ",
     "city": "Ort",
@@ -135,7 +135,7 @@
     "ctaButton": "Strategiegespräch buchen",
     "authorName": "Tom de Vree",
     "authorRole": "Gründer von semanu",
-    "authorBio": "Tom de Vree entwickelt 3D Konfiguratoren, Unternehmenssoftware und Automatisierungen für KMU in Europa.",
+    "authorBio": "Tom de Vree entwickelt 3D-Konfiguratoren, Unternehmenssoftware und Automatisierungen für KMU in Europa.",
     "updatedLabel": "Aktualisiert am"
   },
   "cookie": {
@@ -158,11 +158,11 @@
   "about": {
     "eyebrow": "Über uns",
     "title": "Persönlich, nicht anonym.",
-    "intro": "semanu macht digitale Lösungen für KMU planbar und einfach. Von 3D Konfiguratoren bis zu Unternehmenssoftware mit Automatisierung und AI bekommen Sie einen klaren Partner, der mit Ihrem Unternehmen mitwächst.",
+    "intro": "semanu macht digitale Lösungen für KMU planbar und einfach. Von 3D-Konfiguratoren bis zu Unternehmenssoftware mit Automatisierung und AI bekommen Sie einen klaren Partner, der mit Ihrem Unternehmen mitwächst.",
     "nameTitle": "Woher semanu kommt",
     "nameText": "semanu stammt aus dem Antwerpener Dialekt und damit aus dem Flämischen. Es ist ein Ausruf der Bewunderung, ein spontanes Wow, wenn etwas wirklich überzeugt. Genau dieses Gefühl soll Ihre Website bei Ihren Besuchern auslösen. Wir gestalten moderne, schnelle und mobile Auftritte mit Inhalten, die verkaufen, im Kopf bleiben und aus Besuchern Kunden machen. Alles in einem klaren Abo ohne große Anfangsinvestition.",
     "missionTitle": "Unsere Idee",
-    "missionText": "Viele kleine Unternehmen brauchen eine gute Website ohne technischen Ballast. Wir kümmern uns um Design, Technik, Hosting, Wartung, Sicherheit und SEO Grundlagen, damit Sie sich auf Ihr Geschäft konzentrieren können. Weil wir mit AI arbeiten, bauen wir schneller und kosteneffizienter als klassische Agenturen und bieten AI Lösungen wie Assistenten und Automatisierungen als Teil unseres Angebots.",
+    "missionText": "Viele kleine Unternehmen brauchen eine gute Website ohne technischen Ballast. Wir kümmern uns um Design, Technik, Hosting, Wartung, Sicherheit und SEO-Grundlagen, damit Sie sich auf Ihr Geschäft konzentrieren können. Weil wir mit AI arbeiten, bauen wir schneller und kosteneffizienter als klassische Agenturen und bieten AI-Lösungen wie Assistenten und Automatisierungen als Teil unseres Angebots.",
     "founderTitle": "Hinter semanu",
     "founderName": "Tom de Vree",
     "founderRole": "Gründer & Inhaber",
@@ -191,6 +191,6 @@
     "eyebrowOutcomes": "Ergebnisse",
     "eyebrowFaq": "FAQ",
     "relatedTitle": "Verwandte Leistungen",
-    "entityLine": "semanu ist ein digitaler Partner aus Antwerpen für KMU in Europa: 3D Konfiguratoren und Unternehmenssoftware nach Maß mit Automatisierung und AI."
+    "entityLine": "semanu ist ein digitaler Partner aus Antwerpen für KMU in Europa: 3D-Konfiguratoren und Unternehmenssoftware nach Maß mit Automatisierung und AI."
   }
 }

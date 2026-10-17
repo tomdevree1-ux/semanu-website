@@ -14,7 +14,7 @@ Tom de Vree
 
 ## Contact
 
-Email : hello@semanu.eu
+E-mail : hello@semanu.eu
 
 Téléphone : +32 496 04 56 06
 

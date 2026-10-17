@@ -138,12 +138,12 @@ const enServices: Service[] = [
     id: 'business-systems',
     icon: 'systems',
     title: 'Custom software',
-    short: 'Software built to fit when off the shelf packages do not.',
+    short: 'Software built to fit when off-the-shelf packages do not.',
     description:
       'Web applications, portals and internal tools built to measure with integrations and attention to maintenance and ownership.',
     explainerTitle: 'What is custom software?',
     explainerText:
-      'Software built specifically for your company instead of an off the shelf package, so it matches how you work.',
+      'Software built specifically for your company instead of an off-the-shelf package, so it matches how you work.',
     audience: ['business owners', 'operations managers', 'digital leads', 'teams with a specific process'],
     builds: ['Internal business applications', 'Customer and partner portals', 'Web applications', 'Integrations', 'Legacy modernisation'],
     benefits: ['Fits your process', 'Connects with your systems', 'Scalable', 'Maintained and adaptable'],
@@ -157,7 +157,7 @@ const enServices: Service[] = [
     title: '3D configurators',
     short: 'Make configurable products sellable online.',
     description:
-      'Configurators with real time 3D, rules and pricing logic, connected to your webshop, CRM or ERP.',
+      'Configurators with real-time 3D, rules and pricing logic, connected to your webshop, CRM or ERP.',
     explainerTitle: 'What is a 3D product configurator?',
     explainerText:
       'An interactive tool that lets a customer build a product themselves, see it in 3D and get the price straight away. Every option updates the 3D model and the price in real time so there is no back and forth by email. That leaves your team fewer quote requests to process and gives the customer an immediate, concrete answer.',
@@ -215,7 +215,7 @@ const deServices: Service[] = [
       'Konfiguratoren mit Echtzeit 3D, Regeln und Preislogik, verbunden mit Ihrem Webshop, CRM oder ERP.',
     explainerTitle: 'Was ist ein 3D-Produktkonfigurator?',
     explainerText:
-      'Ein interaktives Tool mit dem ein Kunde ein Produkt selbst zusammenstellt, in 3D sieht und sofort den Preis erhält. Jede Auswahl aktualisiert das 3D Modell und den Preis in Echtzeit sodass kein Hin und Her per Email mehr nötig ist. So bleiben für Ihr Team weniger Angebotsanfragen zu bearbeiten und der Kunde erhält sofort eine konkrete Antwort.',
+      'Ein interaktives Tool mit dem ein Kunde ein Produkt selbst zusammenstellt, in 3D sieht und sofort den Preis erhält. Jede Auswahl aktualisiert das 3D-Modell und den Preis in Echtzeit sodass kein Hin und Her per Email mehr nötig ist. So bleiben für Ihr Team weniger Angebotsanfragen zu bearbeiten und der Kunde erhält sofort eine konkrete Antwort.',
     audience: ['Hersteller', 'Maßanfertiger', 'Webshops', 'Sales Teams'],
     builds: ['Echtzeit 3D', 'Produktoptionen und Varianten', 'Konfigurationsregeln', 'Preislogik', 'Angebots- und Bestellanfragen', 'Integrationen'],
     benefits: ['Weniger Offertenarbeit', 'Konkretere Anfragen', 'Kunden konfigurieren selbst', 'Sofort ein Richtpreis'],
@@ -234,7 +234,7 @@ const frServices: Service[] = [
     short: 'Automatisez le travail répétitif et reliez vos systèmes.',
     description:
       'Automatiser les étapes récurrentes et relier les systèmes existants via des intégrations et une API avec un usage ciblé de l’AI.',
-    explainerTitle: 'L’automatisation des workflows, c’est quoi?',
+    explainerTitle: 'L’automatisation des workflows, c’est quoi ?',
     explainerText:
       'Exécuter ou relier automatiquement des étapes récurrentes d’un processus métier, pour que les collaborateurs fassent moins de travail manuel.',
     audience: ['responsables opérations', 'dirigeants', 'administration', 'équipes commerciales'],
@@ -251,7 +251,7 @@ const frServices: Service[] = [
     short: 'Un logiciel sur mesure quand les solutions standard ne suffisent pas.',
     description:
       'Applications web, portails et outils internes sur mesure avec des intégrations et une attention à la maintenance et à la propriété.',
-    explainerTitle: 'Le logiciel sur mesure, c’est quoi?',
+    explainerTitle: 'Le logiciel sur mesure, c’est quoi ?',
     explainerText:
       'Un logiciel conçu spécifiquement pour votre entreprise plutôt qu’un paquet tout fait, pour qu’il colle à votre façon de travailler.',
     audience: ['dirigeants', 'responsables opérations', 'responsables digitaux', 'équipes avec un processus spécifique'],
@@ -268,9 +268,9 @@ const frServices: Service[] = [
     short: 'Rendez vos produits configurables vendables en ligne.',
     description:
       'Des configurateurs avec de la 3D en temps réel, des règles et une logique de prix, reliés à votre boutique, CRM ou ERP.',
-    explainerTitle: 'Un configurateur de produit 3D, c’est quoi?',
+    explainerTitle: 'Un configurateur de produit 3D, c’est quoi ?',
     explainerText:
-      'Un outil interactif qui permet au client de composer son produit, de le voir en 3D et d’obtenir le prix tout de suite. Chaque choix met à jour le modèle 3D et le prix en temps réel donc plus besoin d’échanges par email. Vous avez ainsi moins de demandes de devis à traiter et le client obtient tout de suite une réponse concrète.',
+      'Un outil interactif qui permet au client de composer son produit, de le voir en 3D et d’obtenir le prix tout de suite. Chaque choix met à jour le modèle 3D et le prix en temps réel donc plus besoin d’échanges par e-mail. Vous avez ainsi moins de demandes de devis à traiter et le client obtient tout de suite une réponse concrète.',
     audience: ['fabricants', 'entreprises sur mesure', 'boutiques en ligne', 'équipes commerciales'],
     builds: ['3D en temps réel', 'Options et variantes de produit', 'Règles de configuration', 'Logique de prix', 'Demandes de devis et de commande', 'Intégrations'],
     benefits: ['Moins de travail de devis', 'Des demandes plus concrètes', 'Les clients configurent en autonomie', 'Un prix indicatif immédiat'],
@@ -380,7 +380,7 @@ const nlServices: Service[] = [
       'Configuratoren met realtime 3D, regels en prijslogica, gekoppeld aan uw webshop, CRM of ERP.',
     explainerTitle: 'Wat is een 3D-productconfigurator?',
     explainerText:
-      'Een interactieve tool waarmee een klant een product zelf samenstelt, in 3D ziet en meteen de prijs krijgt. Elke keuze werkt het 3D model en de prijs meteen bij zodat heen en weer mailen niet meer nodig is. Zo blijven er voor uw team minder offerteaanvragen over om te verwerken en krijgt de klant meteen een concreet antwoord.\n\nUw productieregels zitten rechtstreeks ingebouwd zodat een klant alleen combinaties kan kiezen die technisch haalbaar en maakbaar zijn. Onmogelijke of onrendabele samenstellingen komen zo nooit in uw productie terecht. Wat de klant bestelt kan u dus altijd effectief maken met de juiste afmetingen, materialen en opties.',
+      'Een interactieve tool waarmee een klant een product zelf samenstelt, in 3D ziet en meteen de prijs krijgt. Elke keuze werkt het 3D-model en de prijs meteen bij zodat heen en weer mailen niet meer nodig is. Zo blijven er voor uw team minder offerteaanvragen over om te verwerken en krijgt de klant meteen een concreet antwoord.\n\nUw productieregels zitten rechtstreeks ingebouwd zodat een klant alleen combinaties kan kiezen die technisch haalbaar en maakbaar zijn. Onmogelijke of onrendabele samenstellingen komen zo nooit in uw productie terecht. Wat de klant bestelt kan u dus altijd effectief maken met de juiste afmetingen, materialen en opties.',
     audience: ['fabrikanten', 'maatwerkbedrijven', 'webshops', 'sales teams'],
     builds: ['Realtime 3D', 'Productopties en varianten', 'Configuratieregels', 'Prijslogica', 'Offerte- en orderaanvragen', 'Integraties'],
     benefits: ['Minder offertewerk', 'Concretere aanvragen', 'Klanten configureren zelf', 'Meteen een richtprijs'],
@@ -437,7 +437,7 @@ const enFields: ContentFields = {
   howSteps: [
     { title: 'Find the biggest gain', text: 'Every project starts with a short analysis of your processes: where do software, automation and AI add the most value?' },
     { title: 'Connect and automate', text: 'Workflow automation removes repetitive work and connects your existing systems.' },
-    { title: 'Build what is missing', text: 'Custom software fills the gaps where off the shelf packages fall short.' },
+    { title: 'Build what is missing', text: 'Custom software fills the gaps where off-the-shelf packages fall short.' },
     { title: 'Sell and configure', text: '3D configurators make configurable products sellable online.' },
   ],
   faqTitle: 'Questions about our services',
@@ -456,12 +456,12 @@ const enFields: ContentFields = {
 
 const deFields: ContentFields = {
   metaTitle: 'Dienstleistungen für KMU in Europa · semanu.eu',
-  metaDescription: '3D Konfiguratoren und Unternehmenssoftware nach Maß für KMU in Europa. semanu digitalisiert Ihre Prozesse mit AI als Motor.',
+  metaDescription: '3D-Konfiguratoren und Unternehmenssoftware nach Maß für KMU in Europa. semanu digitalisiert Ihre Prozesse mit AI als Motor.',
   ogTitle: 'Digitale Dienstleistungen für KMU',
-  ogDescription: '3D Konfiguratoren und maßgeschneiderte Unternehmenssoftware mit Workflow Automatisierung. semanu ist der digitale Partner für KMU in Europa.',
+  ogDescription: '3D-Konfiguratoren und maßgeschneiderte Unternehmenssoftware mit Workflowautomatisierung. semanu ist der digitale Partner für KMU in Europa.',
   eyebrow: 'Was wir tun',
   h1: 'Zwei Dienstleistungen, die Ihr Unternehmen digital voranbringen.',
-  heroSub: 'semanu ist der digitale Partner für KMU in Europa. Wir bauen 3D Konfiguratoren und Unternehmenssoftware nach Maß mit AI als Motor.',
+  heroSub: 'semanu ist der digitale Partner für KMU in Europa. Wir bauen 3D-Konfiguratoren und Unternehmenssoftware nach Maß mit AI als Motor.',
   ctaExplore: 'Dienstleistungen entdecken',
   ctaContact: 'Ihr Projekt besprechen',
   introTitle: 'Was macht semanu?',
@@ -473,12 +473,12 @@ const deFields: ContentFields = {
   benefitsLabel: 'Vorteile',
   examplesLabel: 'Beispiele',
   seoGeo: {
-    title: 'Gebaut für Suche, AI Auffindbarkeit und echte Kunden',
+    title: 'Gebaut für Suche, AI-Auffindbarkeit und echte Kunden',
     intro:
-      'Eine moderne Website muss für Menschen, Suchmaschinen und AI Systeme klar sein. semanu strukturiert Ihre Inhalte, damit Kunden verstehen, was Sie anbieten und Suchmaschinen sie korrekt lesen können.',
+      'Eine moderne Website muss für Menschen, Suchmaschinen und AI-Systeme klar sein. semanu strukturiert Ihre Inhalte, damit Kunden verstehen, was Sie anbieten und Suchmaschinen sie korrekt lesen können.',
     explainerTitle: 'Was ist GEO?',
     explainerText:
-      'GEO steht für Generative Engine Optimisation. Es hilft AI Suchsystemen, Ihr Unternehmen, Ihre Dienstleistungen und Ihre Expertise zu verstehen, damit sie Sie genauer beschreiben und empfehlen können.',
+      'GEO steht für Generative Engine Optimisation. Es hilft AI-Suchsystemen, Ihr Unternehmen, Ihre Dienstleistungen und Ihre Expertise zu verstehen, damit sie Sie genauer beschreiben und empfehlen können.',
     points: ['klare Dienstleistungsstruktur', 'verständliche Erklärungen', 'starke interne Links', 'Metadaten und strukturierte Daten', 'FAQ Inhalte', 'SEO und GEO freundlich', 'Inhalte, die echte Kundenfragen beantworten'],
     ctaLabel: 'Projekt besprechen',
     ctaHref: '/contact',
@@ -494,10 +494,10 @@ const deFields: ContentFields = {
   ],
   faqTitle: 'Fragen zu unseren Dienstleistungen',
   faq: [
-    { q: 'Welche Dienstleistungen bietet semanu?', a: '3D Konfiguratoren und Unternehmenssoftware nach Maß, inklusive Workflow Automatisierung. Zusammen helfen sie Ihnen zu verbinden, zu automatisieren, zu bauen und zu verkaufen.' },
+    { q: 'Welche Dienstleistungen bietet semanu?', a: '3D-Konfiguratoren und Unternehmenssoftware nach Maß, inklusive Workflowautomatisierung. Zusammen helfen sie Ihnen zu verbinden, zu automatisieren, zu bauen und zu verkaufen.' },
     { q: 'Muss ich alles auf einmal nehmen?', a: 'Nein. Die meisten Unternehmen starten mit einem klaren Bedarf, etwa einem Ablauf oder einem Produkt. Von dort bauen sie weiter.' },
     { q: 'Setzen Sie immer AI ein?', a: 'Nein. AI ist ein Mittel, kein Ziel. Wir setzen es ein, wo es nachweisbar nützlich ist und wählen klassische Technologie, wo sie besser passt.' },
-    { q: 'Was ist GEO?', a: 'GEO steht für Generative Engine Optimisation. Es hilft AI Suchsystemen, Ihr Unternehmen, Ihre Dienstleistungen und Ihre Expertise zu verstehen, damit sie Sie genauer beschreiben und empfehlen können.' },
+    { q: 'Was ist GEO?', a: 'GEO steht für Generative Engine Optimisation. Es hilft AI-Suchsystemen, Ihr Unternehmen, Ihre Dienstleistungen und Ihre Expertise zu verstehen, damit sie Sie genauer beschreiben und empfehlen können.' },
   ],
   finalTitle: 'Nicht sicher, was Ihr Unternehmen braucht?',
   finalText:
@@ -516,7 +516,7 @@ const frFields: ContentFields = {
   heroSub: 'semanu est le partenaire digital des PME en Europe. Nous construisons des configurateurs 3D et des logiciels d’entreprise sur mesure avec l’AI comme moteur.',
   ctaExplore: 'Découvrir les services',
   ctaContact: 'Parler de votre projet',
-  introTitle: 'Que fait semanu?',
+  introTitle: 'Que fait semanu ?',
   introText: 'semanu aide les PME à rendre leurs processus, leurs logiciels et leurs ventes plus intelligents. Nous combinons technologie, automatisation et AI là où c’est réellement utile.',
   introLead: 'semanu construit configurateurs, logiciels et automatisations chez un seul partenaire. Vous démarrez avec un besoin clair et construisez à partir de là.',
   quickLinksLabel: 'Vers un service',
@@ -528,7 +528,7 @@ const frFields: ContentFields = {
     title: 'Conçu pour la recherche, la visibilité AI et de vrais clients',
     intro:
       'Un site moderne doit être clair pour les personnes, les moteurs de recherche et les systèmes AI. semanu structure votre contenu pour que les clients comprennent votre offre et que les moteurs de recherche la lisent correctement.',
-    explainerTitle: 'GEO, c’est quoi?',
+    explainerTitle: 'GEO, c’est quoi ?',
     explainerText:
       'GEO signifie Generative Engine Optimisation. Cela aide les systèmes de recherche AI à comprendre votre entreprise, vos services et votre expertise pour vous décrire et vous recommander plus précisément.',
     points: ['structure de services claire', 'explications compréhensibles', 'liens internes solides', 'métadonnées et données structurées', 'contenu FAQ', 'adapté au SEO et au GEO', 'du contenu qui répond aux vraies questions des clients'],
@@ -539,21 +539,21 @@ const frFields: ContentFields = {
   howIntro:
     'Vous n’avez pas besoin de tout en même temps. La plupart des entreprises démarrent avec un besoin clair. semanu vous aide pas à pas.',
   howSteps: [
-    { title: 'Trouver le plus grand gain', text: 'Chaque projet commence par une courte analyse de vos processus: où les logiciels, l’automatisation et l’AI apportent ils le plus de valeur?' },
+    { title: 'Trouver le plus grand gain', text: 'Chaque projet commence par une courte analyse de vos processus : où les logiciels, l’automatisation et l’AI apportent-ils le plus de valeur ?' },
     { title: 'Relier et automatiser', text: 'L’automatisation des workflows supprime le travail répétitif et relie vos systèmes existants.' },
     { title: 'Construire ce qui manque', text: 'Le logiciel sur mesure complète là où les solutions standard sont insuffisantes.' },
     { title: 'Vendre et configurer', text: 'Les configurateurs 3D rendent les produits configurables vendables en ligne.' },
   ],
   faqTitle: 'Questions sur nos services',
   faq: [
-    { q: 'Quels services propose semanu?', a: 'Des configurateurs 3D et des logiciels d’entreprise sur mesure, automatisation des workflows comprise. Ensemble, ils vous aident à relier, automatiser, construire et vendre.' },
-    { q: 'Vous devez tout prendre en même temps?', a: 'Non. La plupart des entreprises démarrent avec un besoin clair, par exemple un processus ou un produit. À partir de là, elles construisent.' },
-    { q: 'Vous utilisez toujours l’AI?', a: 'Non. l’AI est un moyen, pas un but. Nous l’utilisons là où elle est réellement utile et choisissons une technologie classique là où elle convient mieux.' },
-    { q: 'GEO, c’est quoi?', a: 'GEO signifie Generative Engine Optimisation. Cela aide les systèmes de recherche AI à comprendre votre entreprise, vos services et votre expertise pour vous décrire et vous recommander plus précisément.' },
+    { q: 'Quels services propose semanu ?', a: 'Des configurateurs 3D et des logiciels d’entreprise sur mesure, automatisation des workflows comprise. Ensemble, ils vous aident à relier, automatiser, construire et vendre.' },
+    { q: 'Faut-il tout prendre en même temps ?', a: 'Non. La plupart des entreprises démarrent avec un besoin clair, par exemple un processus ou un produit. À partir de là, elles construisent.' },
+    { q: 'Utilisez-vous toujours l’AI ?', a: 'Non. L’AI est un moyen, pas un but. Nous l’utilisons là où elle est réellement utile et choisissons une technologie classique là où elle convient mieux.' },
+    { q: 'GEO, c’est quoi ?', a: 'GEO signifie Generative Engine Optimisation. Cela aide les systèmes de recherche AI à comprendre votre entreprise, vos services et votre expertise pour vous décrire et vous recommander plus précisément.' },
   ],
-  finalTitle: 'Vous ne savez pas ce dont votre entreprise a besoin?',
+  finalTitle: 'Vous ne savez pas ce dont votre entreprise a besoin ?',
   finalText:
-    'Dites nous brièvement ce dont vous avez besoin et nous vous aidons à comprendre ce qui compte d’abord et ce qui peut attendre.',
+    'Dites-nous brièvement ce dont vous avez besoin et nous vous aidons à comprendre ce qui compte d’abord et ce qui peut attendre.',
   finalCta: 'Parler de votre projet',
   finalCtaSecondary: 'Nous contacter',
 };
@@ -631,10 +631,10 @@ const nlFields: ContentFields = {
   seoGeo: {
     title: 'Gebouwd voor zoekopdrachten, AI vindbaarheid en echte klanten',
     intro:
-      'Een moderne website moet duidelijk zijn voor mensen, zoekmachines en AI systemen. semanu structureert uw inhoud zodat klanten begrijpen wat u aanbiedt en zoekmachines het correct kunnen lezen.',
+      'Een moderne website moet duidelijk zijn voor mensen, zoekmachines en AI-systemen. semanu structureert uw inhoud zodat klanten begrijpen wat u aanbiedt en zoekmachines het correct kunnen lezen.',
     explainerTitle: 'Wat is GEO?',
     explainerText:
-      'GEO staat voor Generative Engine Optimisation. Het helpt AI zoeksystemen om uw bedrijf, uw diensten en uw expertise te begrijpen zodat ze u nauwkeuriger kunnen beschrijven en aanbevelen.',
+      'GEO staat voor Generative Engine Optimisation. Het helpt AI-zoeksystemen om uw bedrijf, uw diensten en uw expertise te begrijpen zodat ze u nauwkeuriger kunnen beschrijven en aanbevelen.',
     points: ['duidelijke dienstenstructuur', 'begrijpelijke uitleg', 'sterke interne links', 'metadata en gestructureerde data', 'FAQ inhoud', 'SEO en GEO vriendelijk', 'inhoud die echte klantvragen beantwoordt'],
     ctaLabel: 'Project bespreken',
     ctaHref: '/contact',
@@ -653,7 +653,7 @@ const nlFields: ContentFields = {
     { q: 'Welke diensten biedt semanu?', a: '3D-configuratoren en bedrijfssoftware op maat, inclusief workflowautomatisering. Samen helpen ze u verbinden, automatiseren, bouwen en verkopen.' },
     { q: 'Moet ik alles tegelijk afnemen?', a: 'Nee. De meeste bedrijven starten met één duidelijke behoefte, zoals één workflow of één product. Van daaruit bouwen ze verder.' },
     { q: 'Gebruiken jullie altijd AI?', a: 'Nee. AI is een middel, geen doel. We zetten het in waar het aantoonbaar nuttig is en kiezen klassieke technologie waar die beter past.' },
-    { q: 'Wat is GEO?', a: 'GEO staat voor Generative Engine Optimisation. Het helpt AI zoeksystemen om uw bedrijf, uw diensten en uw expertise te begrijpen zodat ze u nauwkeuriger kunnen beschrijven en aanbevelen.' },
+    { q: 'Wat is GEO?', a: 'GEO staat voor Generative Engine Optimisation. Het helpt AI-zoeksystemen om uw bedrijf, uw diensten en uw expertise te begrijpen zodat ze u nauwkeuriger kunnen beschrijven en aanbevelen.' },
   ],
   finalTitle: 'Niet zeker wat uw bedrijf nodig heeft?',
   finalText:

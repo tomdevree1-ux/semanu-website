@@ -103,7 +103,7 @@
     "company": "Company",
     "website": "Website (optional)",
     "companyName": "Company name",
-    "vat": "UID / VAT number (optional)",
+    "vat": "VAT number (optional)",
     "street": "Street and number",
     "postalCode": "Postal code",
     "city": "City",

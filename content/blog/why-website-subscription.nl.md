@@ -32,7 +32,7 @@ Dat maakt een professionele online aanwezigheid toegankelijker.
 
 ## Hosting, onderhoud en techniek inbegrepen
 
-Veel ondernemers willen geen tijd verliezen aan technische vragen. Waar wordt de website gehost? Is het SSL certificaat actief? Wordt alles geüpdatet? Laadt de website snel genoeg? Werkt ze goed op het mobiele toestel?
+Veel ondernemers willen geen tijd verliezen aan technische vragen. Waar wordt de website gehost? Is het SSL-certificaat actief? Wordt alles geüpdatet? Laadt de website snel genoeg? Werkt ze goed op het mobiele toestel?
 
 Dat zijn belangrijke vragen. Toch wil een onderneming zich niet dagelijks met deze vragen bezighouden. Met een Website Abo wordt de technische basis meegenomen. Hosting, onderhoud, beveiliging, prestaties en kleine optimalisaties worden centraal begeleid.
 
@@ -42,7 +42,7 @@ Zo kan de ondernemer zich op de zaak concentreren.
 
 Een mooie website alleen volstaat niet. Potentiële klanten moeten ook begrijpen wat u doet. Zoekmachines moeten de pagina's kunnen lezen. Diensten, locatie en contactmogelijkheden moeten duidelijk zijn.
 
-Daarom horen SEO grondbeginselen bij een moderne website. Niet als belofte op topplaatsen bij Google. Wel als een gezonde basis waarop uw onderneming online beter wordt begrepen.
+Daarom horen SEO-grondbeginselen bij een moderne website. Niet als belofte op topplaatsen bij Google. Wel als een gezonde basis waarop uw onderneming online beter wordt begrepen.
 
 Een Website Abo maakt het mogelijk om deze basis niet alleen bij de start goed te leggen. Ze kan ook later verbeterd worden.
 
@@ -58,7 +58,7 @@ Met een Abo blijven deze kleine verbeteringen haalbaar. Dat zorgt voor rust. De 
 
 Een Website Abo is vooral interessant voor ondernemingen die professioneel online aanwezig willen zijn zonder zich zelf met techniek bezig te houden.
 
-Het past goed bij zelfstandigen, lokale dienstverleners, kleine ondernemingen, praktijken, bureaus en kmo's die een duidelijke website met hosting, onderhoud, SEO grondbeginselen en beveiliging nodig hebben.
+Het past goed bij zelfstandigen, lokale dienstverleners, kleine ondernemingen, praktijken, bureaus en kmo's die een duidelijke website met hosting, onderhoud, SEO-grondbeginselen en beveiliging nodig hebben.
 
 Minder geschikt is het voor ondernemingen die hun website volledig zelf willen beheren of maar eenmaal iets willen laten bouwen zonder verdere begeleiding.
 

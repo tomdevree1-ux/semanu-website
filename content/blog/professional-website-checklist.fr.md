@@ -1,6 +1,6 @@
 ---
-title: "Présence web professionnelle : la check list pour le site de votre entreprise"
-description: "À quoi faut il faire attention pour le site de son entreprise ? La check list pour les PME : les éléments d’une présence web professionnelle qui transforme les visiteurs en demandes."
+title: "Présence web professionnelle : la check-list pour le site de votre entreprise"
+description: "À quoi faut-il faire attention pour le site de son entreprise ? La check-list pour les PME : les éléments d’une présence web professionnelle qui transforme les visiteurs en demandes."
 date: "2026-03-17"
 updated: "2026-10-16"
 author: "Tom"
@@ -10,7 +10,7 @@ cover: "/blog/professional-website-checklist-cover.svg"
 
 Un site professionnel doit aujourd’hui faire plus que bien paraître. Il doit être compréhensible d’emblée, fonctionner sur chaque appareil et créer la confiance. Voici les éléments qui comptent vraiment.
 
-## À quoi faut il faire attention pour le site de son entreprise ?
+## À quoi faut-il faire attention pour le site de son entreprise ?
 
 En bref : sept points décident si le site d’une entreprise paraît professionnel. Un message clair, un design pensé pour le mobile, des temps de chargement rapides, une confiance visible, une étape suivante nette, des bases SEO saines ainsi qu’une sécurité et un entretien continus. S’il en manque un, les visiteurs le remarquent aussitôt. Les sections suivantes reprennent chaque point un par un.
 

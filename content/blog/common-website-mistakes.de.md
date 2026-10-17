@@ -1,5 +1,5 @@
 ---
-title: "Häufige Fehler auf KMU Websites und wie Sie sie vermeiden"
+title: "Häufige Fehler auf KMU-Websites und wie Sie sie vermeiden"
 description: "Die häufigsten Fehler auf Websites von kleinen und mittleren Unternehmen und wie Sie sie vermeiden, damit Ihre Website Vertrauen schafft."
 date: "2026-02-11"
 updated: "2026-10-16"
@@ -54,6 +54,6 @@ Eine laufende Betreuung verhindert genau das. Legen Sie deshalb von Anfang an fe
 
 ## Fazit
 
-Die meisten Fehler auf KMU Websites sind kein Zufall und kein großes Drama. Sie entstehen, weil niemand sie systematisch angeht.
+Die meisten Fehler auf KMU-Websites sind kein Zufall und kein großes Drama. Sie entstehen, weil niemand sie systematisch angeht.
 
 Wer auf eine klare Botschaft, einen klaren nächsten Schritt, eine gute mobile Darstellung, aktuelle Inhalte, Tempo, Vertrauen und laufende Pflege achtet, vermeidet die meisten davon. Das Ergebnis ist eine Website, die wirklich hilft.

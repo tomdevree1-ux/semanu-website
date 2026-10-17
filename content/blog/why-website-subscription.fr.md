@@ -32,7 +32,7 @@ Cela rend une présence en ligne professionnelle plus accessible.
 
 ## Hébergement, maintenance et technique inclus
 
-Beaucoup d'entrepreneurs ne veulent pas perdre de temps avec des questions techniques. Où le site est hébergé ? Le certificat SSL est actif ? Tout est mis à jour ? Le site se charge assez vite ? Le site fonctionne bien sur mobile ?
+Beaucoup d'entrepreneurs ne veulent pas perdre de temps avec des questions techniques. Où le site est-il hébergé ? Le certificat SSL est-il actif ? Tout est-il à jour ? Le site se charge-t-il assez vite ? Fonctionne-t-il bien sur mobile ?
 
 Ce sont des questions importantes. Pourtant, une entreprise ne veut pas s'en occuper au quotidien. Avec un abonnement web, la base technique est prise en charge. Hébergement, maintenance, sécurité, performance et petites optimisations sont suivis de façon centralisée.
 

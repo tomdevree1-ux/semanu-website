@@ -72,7 +72,7 @@
   "contact": {
     "eyebrow": "Contacto",
     "h2": "Hablemos de su proyecto.",
-    "intro": "Una pregunta, un presupuesto o simplemente un breve intercambio? Escríbanos. Recibirá una respuesta personal, no un ticket anónimo.",
+    "intro": "¿Una pregunta, un presupuesto o simplemente un breve intercambio? Escríbanos. Recibirá una respuesta personal, no un ticket anónimo.",
     "bookHint": "O elija directamente una cita: 30 minutos, sin compromiso y gratis.",
     "emailLabel": "Email",
     "phoneLabel": "Teléfono",
@@ -103,7 +103,7 @@
     "company": "Empresa",
     "website": "Sitio web (opcional)",
     "companyName": "Nombre de la empresa",
-    "vat": "Número UID / IVA (opcional)",
+    "vat": "Número de IVA (opcional)",
     "street": "Calle y número",
     "postalCode": "Código postal",
     "city": "Localidad",
@@ -119,9 +119,9 @@
     "errConsent": "Acepte el tratamiento de datos.",
     "errGeneric": "Se ha producido un error. Inténtelo de nuevo.",
     "errRateLimit": "Ha enviado este formulario varias veces en poco tiempo. Inténtelo de nuevo dentro de una hora o escríbanos a {email}.",
-    "interest": "En qué está interesado?",
+    "interest": "¿En qué está interesado?",
     "interestNotSure": "Aún no estoy seguro",
-    "interestHelp": "No sabe qué elegir? Seleccione Aún no estoy seguro y le ayudamos a encontrar el siguiente paso adecuado.",
+    "interestHelp": "¿No sabe qué elegir? Seleccione Aún no estoy seguro y le ayudamos a encontrar el siguiente paso adecuado.",
     "messagePlaceholder": "Por ejemplo: necesito un nuevo sitio web y quiero hacer seguimiento automático de los leads."
   },
   "blog": {
@@ -167,7 +167,7 @@
     "founderName": "Tom de Vree",
     "founderRole": "Fundador y propietario",
     "founderText": "semanu está dirigida por Tom de Vree y tiene su sede en Amberes. Trabajamos de forma personal con pymes y fabricantes de toda Europa. Habla directamente con la persona que construye su solución.",
-    "ctaTitle": "Le apetece un sitio web que crezca con usted?",
+    "ctaTitle": "¿Le apetece un sitio web que crezca con usted?",
     "ctaButton": "Ponerse en contacto"
   },
   "serviceUi": {

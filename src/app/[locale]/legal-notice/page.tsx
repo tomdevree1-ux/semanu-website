@@ -16,7 +16,7 @@ const UPDATED_LABEL: Record<string, string> = {
 // comma before und/et/and, standard German ß).
 const DESC: Record<string, string> = {
   de: 'Impressum von semanu: Anbieter, Kontakt und rechtliche Angaben der SEMANU BV in Antwerpen.',
-  fr: 'Mentions légales de semanu: fournisseur, contact et informations légales de SEMANU BV à Anvers.',
+  fr: 'Mentions légales de semanu : fournisseur, contact et informations légales de SEMANU BV à Anvers.',
   en: 'Legal notice of semanu: provider, contact and legal information of SEMANU BV in Antwerp.',
 };
 

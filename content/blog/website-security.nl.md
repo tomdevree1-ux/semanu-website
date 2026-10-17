@@ -43,7 +43,7 @@ Cloudflare helpt onder meer met:
 
 - bescherming tegen veelvoorkomende DDoS aanvallen
 - snelle en betrouwbare DNS
-- SSL/TLS beveiliging voor veilige HTTPS verbindingen
+- SSL/TLS beveiliging voor veilige HTTPS-verbindingen
 - filtering van verdacht verkeer
 - bescherming tegen bots en geautomatiseerde aanvallen
 - caching van statische bestanden voor betere prestaties
@@ -75,7 +75,7 @@ Cloudflare en Vercel zijn sterke keuzes. Cyberbeveiliging draait echter niet om 
 Daarom letten we ook op zaken zoals:
 
 - sterke wachtwoorden en waar mogelijk twee factor authenticatie
-- correct ingestelde DNS records
+- correct ingestelde DNS-records
 - veilige formulieren en spambeperking
 - regelmatige updates van software en afhankelijkheden
 - betrouwbare hosting en deploymentprocessen
@@ -89,7 +89,7 @@ Een veilige website begint bij de basis. Hoe minder onnodige complexiteit, hoe k
 
 ## Flexibel naar de wensen van de klant
 
-Ook al raden we vaak Cloudflare en Vercel aan, we leggen geen vaste oplossing op. Sommige klanten werken al met een eigen IT partner, een hostingaanbieder of een bestaande infrastructuur. Andere klanten hebben specifieke compliance eisen of interne voorkeuren.
+Ook al raden we vaak Cloudflare en Vercel aan, we leggen geen vaste oplossing op. Sommige klanten werken al met een eigen IT-partner, een hostingaanbieder of een bestaande infrastructuur. Andere klanten hebben specifieke compliance eisen of interne voorkeuren.
 
 Dat is geen probleem.
 

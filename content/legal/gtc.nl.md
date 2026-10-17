@@ -9,7 +9,7 @@ Deze algemene voorwaarden regelen de abonnementsdiensten van **SEMANU BV**, Katt
 
 ## 2. Prestaties
 
-semanu bouwt en beheert websites in een maandelijks abonnement. Afhankelijk van het abonnement omvat dit ontwerp en uitvoering, hosting, onderhoud, beveiliging en SEO basis. De precieze omvang richt zich naar het gekozen abonnement en een eventuele schriftelijke overeenkomst. De optionele add-on "Logo + merkrichtlijnen" is een aparte eenmalige prestatie.
+semanu bouwt en beheert websites in een maandelijks abonnement. Afhankelijk van het abonnement omvat dit ontwerp en uitvoering, hosting, onderhoud, beveiliging en SEO-basis. De precieze omvang richt zich naar het gekozen abonnement en een eventuele schriftelijke overeenkomst. De optionele add-on "Logo + merkrichtlijnen" is een aparte eenmalige prestatie.
 
 ## 3. Totstandkoming en aanvang van de overeenkomst
 
@@ -35,7 +35,7 @@ Het recht tot opzegging om gewichtige redenen blijft voorbehouden.
 - De abonnementsvergoedingen worden maandelijks vooraf gefactureerd. De bedragen voor het abonnement, een eventuele add-on (bijvoorbeeld "Logo + merkrichtlijnen") en het beheer van Google Ads staan in de offerte of orderbevestiging.
 - De eerste factuur wordt bij bestelling opgesteld (dag 0); het werk begint binnen 5 werkdagen na ontvangst van de betaling.
 - **Jaarlijkse indexering:** semanu kan de prijzen eenmaal per jaar aanpassen op basis van de Belgische gezondheidsindex en deelt dit vooraf mee.
-- Alle prijzen zijn in EUR, exclusief Belgische btw (21%). Voor zakelijke klanten in een andere EU lidstaat met een geldig btw nummer geldt de verleggingsregeling (btw verlegd, art. 196 Btw richtlijn 2006/112/EG).
+- Alle prijzen zijn in EUR, exclusief Belgische btw (21%). Voor zakelijke klanten in een andere EU-lidstaat met een geldig btw nummer geldt de verleggingsregeling (btw verlegd, art. 196 Btw richtlijn 2006/112/EG).
 
 ## 7. Betalingsverzuim
 
@@ -62,7 +62,7 @@ De klant zorgt ervoor dat geleverde inhoud rechtmatig is en geen rechten van der
 
 ## 12. SEO
 
-semanu richt technische en inhoudelijke SEO basis in. Concrete posities of resultaten bij zoekmachines kunnen niet worden gegarandeerd.
+semanu richt technische en inhoudelijke SEO-basis in. Concrete posities of resultaten bij zoekmachines kunnen niet worden gegarandeerd.
 
 ## 13. Aansprakelijkheid
 

@@ -26,7 +26,7 @@ export async function generateMetadata({
   };
   const descriptions: Record<string, string> = {
     de: 'semanu ist der digitale Partner für KMU in Europa: 3D-Konfiguratoren und Unternehmenssoftware nach Maß mit AI als Motor. Schneller und günstiger digitalisieren.',
-    fr: 'semanu est le partenaire digital des PME en Europe: configurateurs 3D et logiciels d’entreprise sur mesure avec l’AI comme moteur. Digitaliser plus vite et à moindre coût.',
+    fr: 'semanu est le partenaire digital des PME en Europe : configurateurs 3D et logiciels d’entreprise sur mesure avec l’AI comme moteur. Digitaliser plus vite et à moindre coût.',
     en: 'semanu is the digital partner for SMEs in Europe: 3D configurators and custom business software with AI as the engine. Digitalise faster and more affordably.',
     es: 'semanu es el socio digital para pymes en Europa: configuradores 3D y software empresarial a medida con la AI como motor. Digitalizar más rápido y más económico.',
     nl: 'semanu is de digitale partner voor kmo’s in Europa: 3D-configuratoren en bedrijfssoftware op maat met AI als motor. Sneller en voordeliger digitaliseren.',
@@ -173,10 +173,10 @@ const fr: HomeContent = {
     { value: 1, label: 'interlocuteur', desc: 'Vous parlez toujours à la même personne.' },
     { value: 10, prefix: '+', label: 'ans d’expérience', desc: 'Plus de dix ans de projets digitaux pour les PME.' },
     { value: 125, prefix: '+', label: 'projets', desc: 'Livrés pour des PME dans des secteurs variés.' },
-    { value: null, prefix: 'AI', label: 'driven', desc: 'l’AI comme moteur mais seulement là où elle est réellement utile.' },
+    { value: null, prefix: 'AI', label: 'driven', desc: 'L’AI comme moteur mais seulement là où elle est réellement utile.' },
   ],
   aiNative: {
-    body: 'Nous utilisons l’AI comme amplificateur, pas comme remplacement. Nos experts combinent l’AI avec l’expertise humaine pour rendre le développement logiciel, les processus métier et les workflows digitaux plus rapides et plus intelligents. Le contrôle reste chez nos équipes: grâce à un feedback continu, elles évaluent et améliorent les résultats de l’AI. Ainsi nous obtenons de meilleurs logiciels, des processus plus efficaces et des solutions digitales plus rapides pour votre entreprise.',
+    body: 'Nous utilisons l’AI comme amplificateur, pas comme remplacement. Nos experts combinent l’AI avec l’expertise humaine pour rendre le développement logiciel, les processus métier et les workflows digitaux plus rapides et plus intelligents. Le contrôle reste chez nos équipes : grâce à un feedback continu, elles évaluent et améliorent les résultats de l’AI. Ainsi nous obtenons de meilleurs logiciels, des processus plus efficaces et des solutions digitales plus rapides pour votre entreprise.',
     cta: 'Démarrer la conversation',
   },
   refHead: { title: 'De l’expertise à des résultats mesurables.', link: 'Toutes les références' },
@@ -186,7 +186,7 @@ const fr: HomeContent = {
     {
       label: 'Logiciel d’entreprise',
       client: 'Poortland',
-      text: 'Du premier contact client à la pose: devis, production et planification reliés dans un seul flux digital.',
+      text: 'Du premier contact client à la pose : devis, production et planification reliés dans un seul flux digital.',
       alt: 'Site Poortland sur un ordinateur portable',
     },
     {
@@ -196,7 +196,7 @@ const fr: HomeContent = {
       alt: 'Kiosque interactif semanu dans un showroom',
     },
   ],
-  final: { title: 'Prêt à grandir digitalement sans tracas technique?', cta: 'Démarrer la conversation' },
+  final: { title: 'Prêt à grandir digitalement sans tracas technique ?', cta: 'Démarrer la conversation' },
 };
 
 const es: HomeContent = {

@@ -7,11 +7,11 @@ Cette politique explique comment semanu traite les données personnelles lorsque
 
 ## 1. Responsable
 
-SEMANU BV (semanu), Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgique. Numéro d’entreprise 0828.291.116. Email : hello@semanu.eu. Téléphone : +32 496 04 56 06.
+SEMANU BV (semanu), Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgique. Numéro d’entreprise 0828.291.116. E-mail : hello@semanu.eu. Téléphone : +32 496 04 56 06.
 
 ## 2. Quelles données nous traitons
 
-**Données des formulaires.** Via le formulaire de contact, nous collectons votre nom, votre email, votre entreprise (optionnel), votre téléphone (optionnel), votre message, le service qui vous intéresse, votre langue, la page depuis laquelle vous avez envoyé le formulaire, la source de campagne (par exemple un clic sur une annonce Google) ainsi que votre consentement. Ces données sont transmises au système de gestion de la clientèle (CRM) propre à semanu afin que nous puissions donner suite à votre demande.
+**Données des formulaires.** Via le formulaire de contact, nous collectons votre nom, votre e-mail, votre entreprise (optionnel), votre téléphone (optionnel), votre message, le service qui vous intéresse, votre langue, la page depuis laquelle vous avez envoyé le formulaire, la source de campagne (par exemple un clic sur une annonce Google) ainsi que votre consentement. Ces données sont transmises au système de gestion de la clientèle (CRM) propre à semanu afin que nous puissions donner suite à votre demande.
 
 **Données collectées automatiquement.** Journaux serveur et de sécurité (adresse IP, navigateur, horodatage, pages consultées) chez notre hébergeur, pour la diffusion, la stabilité et la prévention des abus.
 
@@ -42,7 +42,7 @@ Nous ne vendons pas de données personnelles.
 
 ## 5. Transferts internationaux
 
-Google Analytics et Google Ads peuvent transférer des données à Google et Cloudflare Turnstile à Cloudflare, y compris aux États-Unis. Ces transferts sont encadrés par des garanties appropriées (clauses contractuelles types et, le cas échéant, le cadre EU US Data Privacy Framework).
+Google Analytics et Google Ads peuvent transférer des données à Google et Cloudflare Turnstile à Cloudflare, y compris aux États-Unis. Ces transferts sont encadrés par des garanties appropriées (clauses contractuelles types et, le cas échéant, le cadre EU-US Data Privacy Framework).
 
 ## 6. Conservation
 

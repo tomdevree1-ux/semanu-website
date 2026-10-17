@@ -2,14 +2,14 @@
   "notFound": {
     "eyebrow": "404",
     "title": "Page introuvable",
-    "text": "La page que vous cherchez n existe pas ou a été déplacée. Ces liens vous remettent sur la bonne voie.",
-    "home": "Retour à l accueil",
+    "text": "La page que vous cherchez n’existe pas ou a été déplacée. Ces liens vous remettent sur la bonne voie.",
+    "home": "Retour à l’accueil",
     "services": "Voir les services",
     "contact": "Nous contacter"
   },
   "meta": {
-    "title": "Agence web à Anvers: sites, plateformes et AI pour PME · semanu.eu",
-    "description": "semanu crée des configurateurs 3D et des logiciels d’entreprise sur mesure pour les PME en Europe: automatisation, portails, CRM et AI. Personnel, depuis Anvers."
+    "title": "Agence web à Anvers : sites, plateformes et AI pour PME · semanu.eu",
+    "description": "semanu crée des configurateurs 3D et des logiciels d’entreprise sur mesure pour les PME en Europe : automatisation, portails, CRM et AI. Personnel, depuis Anvers."
   },
   "lang": {
     "label": "Langue",
@@ -46,7 +46,7 @@
     "pillAi": "Logiciel d’entreprise"
   },
   "footer": {
-    "tagline": "Le partenaire digital des PME en Europe: configurateurs 3D et logiciels d’entreprise sur mesure, avec l’AI comme moteur.",
+    "tagline": "Le partenaire digital des PME en Europe : configurateurs 3D et logiciels métier sur mesure, avec l’AI comme moteur.",
     "servicesTitle": "Services",
     "companyTitle": "Entreprise",
     "navTitle": "Navigation",
@@ -56,7 +56,7 @@
     "rights": "Tous droits réservés.",
     "langLabel": "Langue",
     "legal": {
-      "imprint": "Mentions légales (Impressum)",
+      "imprint": "Mentions légales",
       "privacy": "Protection des données",
       "gtc": "Conditions générales",
       "subTerms": "Conditions d’abonnement",
@@ -73,8 +73,8 @@
     "eyebrow": "Contact",
     "h2": "Parlons de votre projet.",
     "intro": "Une question, une demande d’offre ou simplement un échange ? Votre message est le bienvenu. Vous recevrez une réponse personnelle, pas un ticket anonyme.",
-    "bookHint": "Ou choisissez directement un créneau: 30 minutes, sans engagement et gratuit.",
-    "emailLabel": "Email",
+    "bookHint": "Ou choisissez directement un créneau : 30 minutes, sans engagement et gratuit.",
+    "emailLabel": "E-mail",
     "phoneLabel": "Téléphone",
     "cityLabel": "Ville",
     "city": "Anvers",
@@ -97,15 +97,15 @@
   "form": {
     "firstname": "Prénom",
     "lastname": "Nom",
-    "email": "Email",
+    "email": "E-mail",
     "phone": "Téléphone",
     "phoneRecommended": "Téléphone (optionnel, recommandé)",
     "company": "Entreprise",
     "website": "Site web (optionnel)",
     "companyName": "Nom de l’entreprise",
-    "vat": "Numéro UID / TVA (optionnel)",
+    "vat": "Numéro de TVA (optionnel)",
     "street": "Rue et numéro",
-    "postalCode": "NPA",
+    "postalCode": "Code postal",
     "city": "Localité",
     "country": "Pays",
     "message": "Message",
@@ -114,7 +114,7 @@
     "send": "Envoyer le message",
     "sending": "Envoi …",
     "errRequired": "Ce champ est obligatoire.",
-    "errEmail": "Veuillez saisir une adresse email valide.",
+    "errEmail": "Veuillez saisir une adresse e-mail valide.",
     "errPhone": "Entrez un numéro de téléphone valide.",
     "errConsent": "Veuillez accepter le traitement.",
     "errGeneric": "Une erreur s’est produite. Veuillez réessayer.",
@@ -134,7 +134,7 @@
     "ctaTitle": "Parlons de votre présence digitale.",
     "ctaButton": "Réserver un entretien stratégique",
     "authorName": "Tom de Vree",
-    "authorRole": "fondateur d'semanu",
+    "authorRole": "fondateur de semanu",
     "authorBio": "Tom de Vree conçoit des configurateurs 3D, des logiciels d’entreprise et des automatisations pour les PME en Europe.",
     "updatedLabel": "Mis à jour le"
   },
@@ -144,11 +144,11 @@
     "acceptAll": "Tout accepter",
     "necessary": "Uniquement nécessaires",
     "title": "Votre vie privée, votre choix",
-    "intro": "Choisissez vous meme quels cookies nous pouvons utiliser. Il y a trois types:",
+    "intro": "Choisissez vous-même quels cookies nous pouvons utiliser. Il y a trois types :",
     "necessaryTitle": "Nécessaire",
     "necessaryText": "Retient votre choix de langue et ce choix de cookies. Toujours actif et sans données personnelles.",
     "analyticsTitle": "Analytique (Google Analytics)",
-    "analyticsText": "Mesure de façon anonyme comment les visiteurs utilisent le site: quelles pages sont lues et où les visiteurs partent.",
+    "analyticsText": "Mesure de façon anonyme comment les visiteurs utilisent le site : quelles pages sont lues et où les visiteurs partent.",
     "marketingTitle": "Marketing (Google Ads)",
     "marketingText": "Mesure quelles campagnes mènent à un entretien pour améliorer nos annonces. Désactivé sans consentement.",
     "analyticsOnly": "Analytique uniquement",
@@ -191,6 +191,6 @@
     "eyebrowOutcomes": "Résultats",
     "eyebrowFaq": "FAQ",
     "relatedTitle": "Services associés",
-    "entityLine": "semanu est un partenaire digital basé à Anvers pour les PME en Europe: configurateurs 3D et logiciels d’entreprise sur mesure avec automatisation et AI."
+    "entityLine": "semanu est un partenaire digital basé à Anvers pour les PME en Europe : configurateurs 3D et logiciels d’entreprise sur mesure avec automatisation et AI."
   }
 }

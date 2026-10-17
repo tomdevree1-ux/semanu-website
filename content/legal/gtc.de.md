@@ -9,7 +9,7 @@ Diese AGB regeln die Abo Dienstleistungen der **SEMANU BV**, Kattendijkdok-Oostk
 
 ## 2. Leistungen
 
-semanu erstellt und betreibt Websites im monatlichen Abo. Je nach Abo umfasst dies Design und Umsetzung, Hosting, Wartung, Sicherheit und SEO Grundlagen. Der genaue Umfang richtet sich nach dem gewählten Abo und einer etwaigen schriftlichen Vereinbarung. Das optionale Add-on "Logo + Markenrichtlinien" ist eine separate einmalige Leistung.
+semanu erstellt und betreibt Websites im monatlichen Abo. Je nach Abo umfasst dies Design und Umsetzung, Hosting, Wartung, Sicherheit und SEO-Grundlagen. Der genaue Umfang richtet sich nach dem gewählten Abo und einer etwaigen schriftlichen Vereinbarung. Das optionale Add-on "Logo + Markenrichtlinien" ist eine separate einmalige Leistung.
 
 ## 3. Vertragsschluss und Beginn
 
@@ -35,7 +35,7 @@ Das Recht zur Kündigung aus wichtigem Grund bleibt vorbehalten.
 - Die Abo Gebühren werden monatlich im Voraus in Rechnung gestellt. Die Beträge für das Abo, ein etwaiges Add-on (zum Beispiel "Logo + Markenrichtlinien") und das Google Ads Management richten sich nach dem Angebot oder Auftragsbestätigung.
 - Die erste Rechnung wird bei Bestellung gestellt (Tag 0); die Arbeit beginnt innerhalb von 5 Werktagen nach Zahlungseingang.
 - **Jährliche Indexierung:** semanu kann die Preise nach vorgängiger Mitteilung einmal pro Jahr auf Grundlage des belgischen Gesundheitsindex anpassen.
-- Alle Preise verstehen sich in EUR, exklusive belgischer Mehrwertsteuer (21%). Für Geschäftskunden in einem anderen EU Mitgliedstaat mit gültiger USt Nummer gilt die Umkehr der Steuerschuldnerschaft (Reverse Charge, Art. 196 der Mehrwertsteuersystemrichtlinie 2006/112/EG).
+- Alle Preise verstehen sich in EUR, exklusive belgischer Mehrwertsteuer (21%). Für Geschäftskunden in einem anderen EU-Mitgliedstaat mit gültiger USt Nummer gilt die Umkehr der Steuerschuldnerschaft (Reverse Charge, Art. 196 der Mehrwertsteuersystemrichtlinie 2006/112/EG).
 
 ## 7. Zahlungsverzug
 
@@ -62,7 +62,7 @@ Der Kunde stellt sicher, dass gelieferte Inhalte rechtmäßig sind und keine Rec
 
 ## 12. SEO
 
-semanu richtet technische und inhaltliche SEO Grundlagen ein. Konkrete Platzierungen oder Ergebnisse bei Suchmaschinen können nicht garantiert werden.
+semanu richtet technische und inhaltliche SEO-Grundlagen ein. Konkrete Platzierungen oder Ergebnisse bei Suchmaschinen können nicht garantiert werden.
 
 ## 13. Haftung
 

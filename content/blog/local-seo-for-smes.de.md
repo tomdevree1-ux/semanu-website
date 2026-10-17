@@ -26,7 +26,7 @@ Füllen Sie alles sorgfältig aus: richtige Kategorie, Adresse, Öffnungszeiten,
 
 ## Einheitliche Angaben überall
 
-Name, Adresse und Telefonnummer sollten überall gleich geschrieben sein: auf Ihrer Website, im Google Profil und in Verzeichnissen. Unterschiedliche Schreibweisen stiften Verwirrung und schwächen Ihre lokale Sichtbarkeit.
+Name, Adresse und Telefonnummer sollten überall gleich geschrieben sein: auf Ihrer Website, im Google-Profil und in Verzeichnissen. Unterschiedliche Schreibweisen stiften Verwirrung und schwächen Ihre lokale Sichtbarkeit.
 
 Prüfen Sie deshalb, dass Ihre Kontaktangaben konsistent sind. Das klingt unspektakulär, ist aber eine der einfachsten und wirksamsten Maßnahmen.
 
@@ -54,4 +54,4 @@ Lokale SEO ist kein Knopf, den man einmal drückt. Sie ist eine Basis, die mit d
 
 Für ein lokales Unternehmen ist die wichtigste Frage nicht, ob Sie im ganzen Land sichtbar sind. Sondern ob Sie in Ihrer Region gefunden werden, wenn jemand bereit ist, bei Ihnen anzufragen.
 
-Ein vollständiges Google Profil, einheitliche Angaben, lokale Inhalte, echte Bewertungen und eine technisch saubere Website bringen Sie genau dorthin.
+Ein vollständiges Google-Profil, einheitliche Angaben, lokale Inhalte, echte Bewertungen und eine technisch saubere Website bringen Sie genau dorthin.

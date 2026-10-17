@@ -54,7 +54,7 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
   de: {
     title: 'Referenzen: echte Business Cases',
     description:
-      'Vier echte Fälle statt Portfolio: was das Unternehmen macht, wo es hakte und wie semanu geholfen hat. Poortland, eine Plattform, ein 3D Konfigurator und ein interaktiver Kiosk.',
+      'Vier echte Fälle statt Portfolio: was das Unternehmen macht, wo es hakte und wie semanu geholfen hat. Poortland, eine Plattform, ein 3D-Konfigurator und ein interaktiver Kiosk.',
     eyebrow: 'Referenzen',
     h1: 'Was Unternehmen mit semanu erreichen',
     heroViewProjects: 'Zu den Fällen',
@@ -96,7 +96,7 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
         challenge:
           'Anfragen kamen über mehrere Kanäle gleichzeitig (Social, Kontaktformular, Email und Telefon), sodass ein Lead leicht verloren ging. Die Website liess sich intern kaum aktualisieren und brachte nicht durchgehend die richtigen Besucher.',
         solution:
-          'semanu baute eine vollständige Website mit CMS Modul, damit das Team Fotos und Inhalte selbst pflegt. Ein integriertes Angebotstool lässt Besucher ein passendes Angebot anfragen und die Website läuft in vier Sprachen mit hreflang. semanu betreut die Google Ads und eine Sichtbarkeitsschleife hält SEO und GEO jeden Monat im Blick. Ein integriertes CRM Modul erfasst jeden Lead aus vier Kanälen (Meta mit Instagram und Facebook, dem Kontaktformular, Email und Telefon) und begleitet ihn vom ersten Kontakt bis zur unterschriebenen Offerte.',
+          'semanu baute eine vollständige Website mit CMS-Modul, damit das Team Fotos und Inhalte selbst pflegt. Ein integriertes Angebotstool lässt Besucher ein passendes Angebot anfragen und die Website läuft in vier Sprachen mit hreflang. semanu betreut die Google Ads und eine Sichtbarkeitsschleife hält SEO und GEO jeden Monat im Blick. Ein integriertes CRM-Modul erfasst jeden Lead aus vier Kanälen (Meta mit Instagram und Facebook, dem Kontaktformular, Email und Telefon) und begleitet ihn vom ersten Kontakt bis zur unterschriebenen Offerte.',
         result:
           'Vom ersten Kundenkontakt bis zur Montage: Angebot, Produktion und Planung verbunden in einem digitalen Fluss. Poortland pflegt die eigene Website, bleibt in Suche und AI sichtbar und verfolgt jeden Lead an einem Ort, vom ersten Kontakt bis zur unterschriebenen Offerte.',
         quote: {
@@ -128,7 +128,7 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
         challenge:
           'Jede Anfrage musste von Hand berechnet und angeboten werden. Das band Fachleute an repetitive Kalkulationen, verzögerte Antworten und begrenzte, wie viele Anfragen das Team bewältigen konnte.',
         solution:
-          'semanu baute einen 3D Konfigurator als Webshop. Kunden stellen ihre Platte selbst zusammen, sehen das Resultat live in 3D, erhalten sofort einen Preis und bestellen direkt online.',
+          'semanu baute einen 3D-Konfigurator als Webshop. Kunden stellen ihre Platte selbst zusammen, sehen das Resultat live in 3D, erhalten sofort einen Preis und bestellen direkt online.',
         result:
           'Kunden bestellen rund um die Uhr selbst und das manuelle Offerieren entfällt. Ein komplexes Produkt ist in wenigen Klicks bestellbar und das Team hat den Rücken frei für die Fertigung.',
       },
@@ -140,9 +140,9 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
   },
 
   fr: {
-    title: 'Références: des business cases réels',
+    title: 'Références : des business cases réels',
     description:
-      'Quatre cas réels plutôt qu’un portfolio: ce que fait l’entreprise, où ça coinçait et comment semanu a aidé. Poortland, une plateforme, un configurateur 3D et une borne interactive.',
+      'Quatre cas réels plutôt qu’un portfolio : ce que fait l’entreprise, où ça coinçait et comment semanu a aidé. Poortland, une plateforme, un configurateur 3D et une borne interactive.',
     eyebrow: 'Références',
     h1: 'Ce que les entreprises accomplissent avec semanu',
     heroViewProjects: 'Voir les cas',
@@ -152,7 +152,7 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
       { n: '1', l: 'Interlocuteur fixe' },
     ],
     intro:
-      'Pas un portfolio classique mais des business cases détaillés: ce que fait l’entreprise, où ça coinçait et comment semanu a aidé. Décrits honnêtement et avec le résultat.',
+      'Pas un portfolio classique mais des business cases détaillés : ce que fait l’entreprise, où ça coinçait et comment semanu a aidé. Décrits honnêtement et avec le résultat.',
     statusLive: 'En ligne',
     statusDev: 'En développement',
     visit: 'Voir le site',
@@ -182,11 +182,11 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
         company:
           'Poortland conçoit, fabrique et pose des portails et des couvertures architecturaux pour des habitations où allure, sécurité et finition se rejoignent.',
         challenge:
-          'Les demandes arrivaient par plusieurs canaux à la fois (réseaux sociaux, formulaire de contact, email et téléphone), si bien qu un lead se perdait facilement. Le site était difficile à mettre à jour en interne et n attirait pas toujours les bons visiteurs.',
+          'Les demandes arrivaient par plusieurs canaux à la fois (réseaux sociaux, formulaire de contact, e-mail et téléphone), si bien qu’un lead se perdait facilement. Le site était difficile à mettre à jour en interne et n’attirait pas toujours les bons visiteurs.',
         solution:
-          'semanu a construit pour Poortland un site complet avec un module CMS, pour que l équipe mette à jour ses photos et son contenu quand elle le souhaite. Un outil de devis intégré permet aux visiteurs de demander une offre sur mesure et le site tourne en quatre langues avec hreflang. semanu gère les Google Ads et une boucle de visibilité surveille le SEO et le GEO chaque mois. Un module CRM intégré capte chaque lead depuis quatre canaux (Meta avec Instagram et Facebook, le formulaire de contact, email et téléphone) et le suit du premier contact jusqu au devis signé.',
+          'semanu a construit pour Poortland un site complet avec un module CMS, pour que l’équipe mette à jour ses photos et son contenu quand elle le souhaite. Un outil de devis intégré permet aux visiteurs de demander une offre sur mesure et le site tourne en quatre langues avec hreflang. semanu gère les Google Ads et une boucle de visibilité surveille le SEO et le GEO chaque mois. Un module CRM intégré capte chaque lead depuis quatre canaux (Meta avec Instagram et Facebook, le formulaire de contact, e-mail et téléphone) et le suit du premier contact jusqu’au devis signé.',
         result:
-          'Du premier contact client à la pose: devis, production et planning reliés dans un seul flux digital. Poortland met à jour son propre site, reste visible dans la recherche et l AI et suit chaque lead à un seul endroit, du premier message au devis signé.',
+          'Du premier contact client à la pose : devis, production et planning reliés dans un seul flux digital. Poortland met à jour son propre site, reste visible dans la recherche et l’AI et suit chaque lead à un seul endroit, du premier message au devis signé.',
         quote: {
           text: 'semanu nous a guidés de façon claire et personnelle tout au long du projet. Nous nous sommes sentis impliqués sans devoir tout gérer seuls. Notre site paraît maintenant professionnel et digne de confiance. Nous recommandons semanu à toute entreprise qui veut un site moderne sans stress.',
           author: 'Poortland',
@@ -201,9 +201,9 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
         company:
           'SEMANU est un cabinet de conseil en business analyse qui mène plusieurs mandats en parallèle. Chaque mandat apporte des offres, des NDA, des documents de projet et des factures.',
         challenge:
-          'Tout le processus passait par des outils séparés et de longs fils d’email: qualifier les leads, envoyer et faire valider les offres, signer les NDA, facturer et partager les documents. Cela coûtait du temps et rendait les mandats difficiles à suivre.',
+          'Tout le processus passait par des outils séparés et de longs fils d’e-mail : qualifier les leads, envoyer et faire valider les offres, signer les NDA, facturer et partager les documents. Cela coûtait du temps et rendait les mandats difficiles à suivre.',
         solution:
-          'semanu a construit une plateforme d’un seul tenant: un site public en quatre langues avec Readiness Checks et lead magnets, un tableau de bord ops pour SEMANU et un portail client. Offres, NDA et factures circulent de bout en bout via la plateforme.',
+          'semanu a construit une plateforme d’un seul tenant : un site public en quatre langues avec Readiness Checks et lead magnets, un tableau de bord ops pour SEMANU et un portail client. Offres, NDA et factures circulent de bout en bout via la plateforme.',
         result:
           'Une seule personne gère aujourd’hui des dizaines de mandats sans charge administrative. Les leads se qualifient seuls, les clients valident les offres et signent les NDA dans le portail et chaque document reste dans une trace vérifiable.',
       },
@@ -212,7 +212,7 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
         tag: 'Boutique en ligne',
         status: 'live',
         company:
-          'Un fabricant produit des plaques en aluminium sur mesure. Chaque plaque est différente: dimensions, traitement des bords, finition et découpes.',
+          'Un fabricant produit des plaques en aluminium sur mesure. Chaque plaque est différente : dimensions, traitement des bords, finition et découpes.',
         challenge:
           'Chaque demande devait être calculée et chiffrée à la main. Cela occupait des spécialistes avec des calculs répétitifs, retardait les réponses et limitait le nombre de demandes traitées.',
         solution:
@@ -223,7 +223,7 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
     ],
     ctaTitle: 'Et si votre cas était le prochain ?',
     ctaText:
-      'Dites nous en quelques mots où ça coince chez vous. Nous revenons vers vous personnellement avec un avis honnête.',
+      'Dites-nous en quelques mots où ça coince chez vous. Nous revenons vers vous personnellement avec un avis honnête.',
     ctaButton: 'Nous contacter',
   },
 
@@ -270,9 +270,9 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
         company:
           'Poortland designs, builds and installs architectural gates and canopies for homes where looks, security and finish come together.',
         challenge:
-          'Enquiries came in through several channels at once (social, the contact form, email and phone), so a lead was easy to lose. The website was hard to update in house and did not consistently attract the right visitors.',
+          'Enquiries came in through several channels at once (social, the contact form, email and phone), so a lead was easy to lose. The website was hard to update in-house and did not consistently attract the right visitors.',
         solution:
-          'semanu built Poortland a full website with a CMS module, so the team updates its own photos and content whenever it wants. A built in quote tool lets visitors request a tailored offer and the site runs in four languages with hreflang. semanu manages the Google Ads and a visibility loop keeps SEO and GEO monitored every month. A built in CRM module captures every lead from four channels (Meta with Instagram and Facebook, the contact form, email and phone) and follows each one from first contact to a signed quote.',
+          'semanu built Poortland a full website with a CMS module, so the team updates its own photos and content whenever it wants. A built-in quote tool lets visitors request a tailored offer and the site runs in four languages with hreflang. semanu manages the Google Ads and a visibility loop keeps SEO and GEO monitored every month. A built-in CRM module captures every lead from four channels (Meta with Instagram and Facebook, the contact form, email and phone) and follows each one from first contact to a signed quote.',
         result:
           'From first customer contact to installation: quote, production and planning connected in one digital flow. Poortland updates its own site, stays visible in search and AI and follows up every lead in one place, from the first message to a signed offer.',
         quote: {
@@ -300,7 +300,7 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
         tag: 'Webshop',
         status: 'live',
         company:
-          'A manufacturer produces made to measure aluminium plates. Every plate is different: dimensions, edge processing, finish and cutouts.',
+          'A manufacturer produces made-to-measure aluminium plates. Every plate is different: dimensions, edge processing, finish and cutouts.',
         challenge:
           'Every request had to be calculated and quoted by hand. That tied specialists to repetitive calculations, slowed down replies and capped how many requests the team could handle.',
         solution:
@@ -406,7 +406,7 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
   nl: {
     title: 'Referenties: echte business cases',
     description:
-      'Vier echte cases in plaats van een portfolio: wat het bedrijf doet, waar het vastliep en hoe semanu hielp. Poortland, een platform, een 3D configurator en een interactieve kiosk.',
+      'Vier echte cases in plaats van een portfolio: wat het bedrijf doet, waar het vastliep en hoe semanu hielp. Poortland, een platform, een 3D-configurator en een interactieve kiosk.',
     eyebrow: 'Referenties',
     h1: 'Wat bedrijven met\nsemanu bereiken.',
     heroViewProjects: 'Naar de cases',
@@ -448,7 +448,7 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
         challenge:
           'Aanvragen kwamen via meerdere kanalen tegelijk binnen (social, het contactformulier, email en telefoon), waardoor een lead makkelijk verloren ging. De website was moeilijk zelf aan te passen en trok niet altijd de juiste bezoekers.',
         solution:
-          'semanu bouwde voor Poortland een volledige website met een CMS module, zodat het team zelf foto\'s en content beheert wanneer het wil. Een ingebouwde offerte tool laat bezoekers een offerte op maat aanvragen en de site draait in vier talen met hreflang. semanu beheert de Google Ads en een Zichtbaarheidsloop houdt SEO en GEO elke maand in de gaten. Een ingebouwde CRM module vangt elke lead uit vier kanalen (Meta met Instagram en Facebook, het contactformulier, email en telefoon) en volgt die van eerste contact tot getekende offerte.',
+          'semanu bouwde voor Poortland een volledige website met een CMS-module, zodat het team zelf foto\'s en content beheert wanneer het wil. Een ingebouwde offerte tool laat bezoekers een offerte op maat aanvragen en de site draait in vier talen met hreflang. semanu beheert de Google Ads en een Zichtbaarheidsloop houdt SEO en GEO elke maand in de gaten. Een ingebouwde CRM-module vangt elke lead uit vier kanalen (Meta met Instagram en Facebook, het contactformulier, email en telefoon) en volgt die van eerste contact tot getekende offerte.',
         result:
           'Van eerste klantcontact tot plaatsing: offerte, productie en planning verbonden in één digitale flow. Poortland past de eigen site aan, blijft zichtbaar in zoekmachines en AI en volgt elke lead op één plek op, van het eerste bericht tot een getekende offerte.',
         quote: {
@@ -480,7 +480,7 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
         challenge:
           'Elke aanvraag moest met de hand berekend en geoffreerd worden. Dat bond specialisten aan repetitieve berekeningen, vertraagde antwoorden en beperkte hoeveel aanvragen het team aankon.',
         solution:
-          'semanu bouwde een 3D configurator als webshop. De klant stelt zijn plaat zelf samen, ziet het resultaat live in 3D, krijgt meteen een prijs en bestelt direct online.',
+          'semanu bouwde een 3D-configurator als webshop. De klant stelt zijn plaat zelf samen, ziet het resultaat live in 3D, krijgt meteen een prijs en bestelt direct online.',
         result:
           'Klanten bestellen zelf op elk moment en het handmatig offreren verdwijnt. Een complex product is in enkele klikken te bestellen en het team houdt de handen vrij voor de productie.',
       },
@@ -507,5 +507,5 @@ export const REF_IMAGES: Record<string, RefImage[]> = {
   Poortland: [{ src: '/portfolio/poortland-mockup.jpg', alt: 'Poortland website on a laptop' }],
   'semanu interactieve kiosk': [{ src: '/portfolio/kastenconfigurator-kiosk.jpg', alt: 'Kastenconfigurator op een kiosk in een showroom' }],
   SEMANU: [{ src: '/portfolio/semanu-website.jpg', alt: 'SEMANU public website, homepage with the business analysis pitch' }],
-  '3D Configurator': [{ src: '/portfolio/configurator.jpg', alt: '3D configurator for made to measure aluminium plates' }],
+  '3D Configurator': [{ src: '/portfolio/configurator.jpg', alt: '3D configurator for made-to-measure aluminium plates' }],
 };

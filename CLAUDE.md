@@ -48,6 +48,10 @@ Controle na wijzigingen: `npx tsc --noEmit`, `npm test`, pariteit van de vijf be
 ## Huisregels voor teksten (elke taal)
 
 - **Geen gedachtestreepjes** (— –). Geen koppeltekens in nieuwe samenstellingen waar de taal het toelaat.
+- **Grammatica gaat voor:** verplichte koppeltekens en apostrofs blijven altijd staan: Franse elisie (n'/l'/d'/qu'/jusqu'),
+  inversies (recommande-t-elle, pouvez-vous, est-ce que), vaste vormen (c'est-à-dire, peut-être, vous-même, e-mail),
+  Duitse en Nederlandse samenstellingen met een afkorting of cijfer (3D-Konfigurator, CRM-systeem), Spaans ¿ en ¡ en
+  Engelse samentrekkingen. Frans: een gewone spatie vóór ? ! : ;.
 - **Geen komma voor een nevenschikkend voegwoord:** niet ", en/of/maar/met", ", und/oder/aber/mit",
   ", et/ou/mais/avec", ", and/or/but/with", ", y/o/pero/con". Herschrijf de zin.
 - Duits in standaardspelling (ß), geen Zwitserse varianten (dus "Maß", "groß", "gemäß"; "Angebot", niet "Offerte";

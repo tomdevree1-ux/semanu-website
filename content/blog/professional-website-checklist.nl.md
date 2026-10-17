@@ -12,7 +12,7 @@ Een professionele website moet vandaag meer leveren dan er goed uitzien. Ze moet
 
 ## Waar moet u op letten bij een bedrijfswebsite?
 
-Kort gezegd: zeven punten bepalen of een bedrijfswebsite professioneel overkomt. Een heldere boodschap, een mobiel gedacht ontwerp, snelle laadtijden, zichtbaar vertrouwen, een duidelijke volgende stap, schone SEO basis plus doorlopende veiligheid en onderhoud. Ontbreekt er een, dan merken bezoekers dat meteen. De secties hieronder lopen elk punt apart door.
+Kort gezegd: zeven punten bepalen of een bedrijfswebsite professioneel overkomt. Een heldere boodschap, een mobiel gedacht ontwerp, snelle laadtijden, zichtbaar vertrouwen, een duidelijke volgende stap, schone SEO-basis plus doorlopende veiligheid en onderhoud. Ontbreekt er een, dan merken bezoekers dat meteen. De secties hieronder lopen elk punt apart door.
 
 ## Een duidelijke boodschap
 
@@ -44,7 +44,7 @@ Een website zonder duidelijke volgende stap geeft aanvragen weg.
 
 ## SEO Grondbeginselen
 
-Opdat Google uw pagina begrijpt, is er een verzorgde structuur nodig, correcte titels en meta beschrijvingen plus een logische indeling van de inhoud. Dat zijn de SEO grondbeginselen die bij elke moderne website horen.
+Opdat Google uw pagina begrijpt, is er een verzorgde structuur nodig, correcte titels en meta beschrijvingen plus een logische indeling van de inhoud. Dat zijn de SEO-grondbeginselen die bij elke moderne website horen.
 
 Ze zijn geen belofte op plaats één. Ze zijn de basis waarop zichtbaarheid überhaupt kan ontstaan.
 
@@ -52,7 +52,7 @@ Ze zijn geen belofte op plaats één. Ze zijn de basis waarop zichtbaarheid übe
 
 Een website is nooit helemaal af. Updates, beveiliging en hosting moeten lopend worden begeleid, anders veroudert de pagina en wordt ze kwetsbaar. Wie dat in het oog houdt, blijft professioneel en veilig.
 
-Design, techniek, hosting, onderhoud en SEO grondbeginselen horen samen en hebben een duidelijke verantwoordelijke nodig. Waar het bij beveiliging op aankomt, leest u in ons artikel over [website beveiliging](/nl/blog/website-security).
+Design, techniek, hosting, onderhoud en SEO-grondbeginselen horen samen en hebben een duidelijke verantwoordelijke nodig. Waar het bij beveiliging op aankomt, leest u in ons artikel over [website beveiliging](/nl/blog/website-security).
 
 ## Conclusie
 

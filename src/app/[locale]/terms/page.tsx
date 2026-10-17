@@ -16,7 +16,7 @@ const UPDATED_LABEL: Record<string, string> = {
 // comma before und/et/and, standard German ß).
 const DESC: Record<string, string> = {
   de: 'Allgemeine Geschäftsbedingungen von semanu für Website Abos und digitale Projekte: Leistungen, Laufzeit, Preise und Zahlung.',
-  fr: 'Conditions générales de semanu pour les abonnements de site web et les projets digitaux: prestations, durée, prix et paiement.',
+  fr: 'Conditions générales de semanu pour les abonnements de site web et les projets digitaux : prestations, durée, prix et paiement.',
   en: 'General terms and conditions of semanu for website subscriptions and digital projects: services, term, pricing and payment.',
 };
 

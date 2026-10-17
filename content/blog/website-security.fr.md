@@ -8,7 +8,7 @@ authorImage: "/team/tom.png"
 cover: "/blog/website-security-cover.svg"
 ---
 
-Les sites web et les applications web doivent encaisser plus que jamais aujourd’hui. Bots, spam, tentatives de brute force, attaques DDoS, tentatives de connexion suspectes, abus de formulaires et scans automatisés sont devenus une réalité quotidienne pour beaucoup d’entreprises. En tant que visiteur, vous n’en remarquez souvent rien. En coulisses, pourtant, on cherche en permanence des failles à exploiter.
+Les sites web et les applications web doivent encaisser plus que jamais aujourd’hui. Bots, spam, tentatives de force brute, attaques DDoS, tentatives de connexion suspectes, abus de formulaires et scans automatisés sont devenus une réalité quotidienne pour beaucoup d’entreprises. En tant que visiteur, vous n’en remarquez souvent rien. En coulisses, pourtant, on cherche en permanence des failles à exploiter.
 
 C’est pourquoi, chez nous, la cybersécurité n’est pas un extra ajouté après coup. Nous intégrons la sécurité par défaut dans la manière dont nous construisons, hébergeons et entretenons les sites web, les applications web et les [plateformes numériques](/fr/services/business-software).
 
@@ -55,7 +55,7 @@ Nous n’activons pas toutes les fonctions à l’aveugle. Chaque site est diff�
 
 ## Pour les applications web, nous travaillons souvent avec Vercel
 
-Pour les applications web modernes et les projets front end, nous travaillons souvent avec Vercel. Vercel est conçu pour des applications web rapides, évolutives et fiables.
+Pour les applications web modernes et les projets front-end, nous travaillons souvent avec Vercel. Vercel est conçu pour des applications web rapides, évolutives et fiables.
 
 La plateforme offre des avantages importants en matière de performance, de fiabilité et de déploiement :
 

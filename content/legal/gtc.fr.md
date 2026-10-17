@@ -5,7 +5,7 @@ updated: "2026-10-16"
 
 ## 1. Prestataire et champ d'application
 
-Les présentes CGV régissent les services par abonnement de **SEMANU BV**, Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgique, numéro d'entreprise 0828.291.116, TVA BE0828.291.116, gérant Tom de Vree, email hello@semanu.eu, site web www.semanu.eu ("semanu"). Elles s'appliquent à tous les abonnements web (Business, Webshop, Software & Applications) et aux services associés. Elles priment sur les conditions divergentes du client, sauf accord écrit exprès.
+Les présentes CGV régissent les services par abonnement de **SEMANU BV**, Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgique, numéro d'entreprise 0828.291.116, TVA BE0828.291.116, gérant Tom de Vree, e-mail hello@semanu.eu, site web www.semanu.eu ("semanu"). Elles s'appliquent à tous les abonnements web (Business, Webshop, Software & Applications) et aux services associés. Elles priment sur les conditions divergentes du client, sauf accord écrit exprès.
 
 ## 2. Prestations
 
@@ -19,7 +19,7 @@ Le contrat est conclu dès que le client souscrit un abonnement et que semanu co
 
 - **Durée minimale : 36 mois** à compter du début de l'abonnement.
 - Après la durée minimale, le contrat se poursuit mensuellement et peut être résilié avec un préavis d'un mois pour la fin d'un mois.
-- La résiliation se fait sous forme de texte (un email à hello@semanu.eu suffit).
+- La résiliation se fait sous forme de texte (un e-mail à hello@semanu.eu suffit).
 
 ## 5. Résiliation et frais administratifs
 

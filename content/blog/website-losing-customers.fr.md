@@ -35,7 +35,7 @@ Cela ne veut pas dire que chaque site doit être tendance. Mais il doit donner u
 
 ## Vous contacter est trop compliqué
 
-Beaucoup de sites perdent des clients au moment précis où quelqu'un veut prendre contact. Le numéro de téléphone se trouve quelque part en bas. L'adresse email est difficile à trouver. Le bouton de contact ne ressort pas. Le formulaire demande trop d'informations. Sur mobile, le bouton est peu visible.
+Beaucoup de sites perdent des clients au moment précis où quelqu'un veut prendre contact. Le numéro de téléphone se trouve quelque part en bas. L'adresse e-mail est difficile à trouver. Le bouton de contact ne ressort pas. Le formulaire demande trop d'informations. Sur mobile, le bouton est peu visible.
 
 Un bon site rend l'étape suivante simple. Un visiteur doit pouvoir appeler, écrire ou envoyer une demande sans chercher. Moins cela demande d'effort, plus la chance d'un contact est grande.
 

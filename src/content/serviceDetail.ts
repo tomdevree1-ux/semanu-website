@@ -129,7 +129,7 @@ const nl: DetailMap = {
       'semanu verbindt uw bestaande software en automatiseert terugkerende stappen, van CRM en ERP tot documentverwerking.',
     heroHeadline: 'Workflowautomatisering die uw systemen laat samenwerken.',
     heroSub:
-      'semanu automatiseert terugkerende stappen en verbindt uw bestaande software, zodat uw team minder overtypt en minder fouten maakt. Voor kmo’s zonder groot IT team.',
+      'semanu automatiseert terugkerende stappen en verbindt uw bestaande software, zodat uw team minder overtypt en minder fouten maakt. Voor kmo’s zonder groot IT-team.',
     trust: ['koppelt bestaande systemen', 'minder manueel werk', 'AI alleen waar het telt'],
     problemTitle: 'Terugkerend handwerk kost stil elke week tijd',
     problemIntro: 'Wie met losse systemen werkt, herkent deze knelpunten.',
@@ -167,7 +167,7 @@ const nl: DetailMap = {
       { q: 'Welke bedrijfsprocessen kunnen worden geautomatiseerd?', a: 'Processen die terugkeren en vaste regels volgen, zoals gegevens overzetten tussen systemen, documenten verwerken of bevestigingen en herinneringen versturen.' },
       { q: 'Kan automatisering gekoppeld worden aan bestaande software?', a: 'Ja. Via API en integraties verbinden we systemen die u al gebruikt, zodat u ze niet hoeft te vervangen.' },
       { q: 'Wanneer is AI nodig voor automatisering?', a: 'Alleen wanneer een stap ongestructureerde informatie moet interpreteren, zoals een vrij geschreven email. Voor regelgebaseerde stappen is klassieke automatisering beter.' },
-      { q: 'Wat is het verschil met RPA?', a: 'RPA bootst handelingen na in de schermen van een programma. Een API koppeling werkt rechtstreeks tussen systemen en is doorgaans stabieler. We kiezen RPA alleen als een koppeling ontbreekt.' },
+      { q: 'Wat is het verschil met RPA?', a: 'RPA bootst handelingen na in de schermen van een programma. Een API-koppeling werkt rechtstreeks tussen systemen en is doorgaans stabieler. We kiezen RPA alleen als een koppeling ontbreekt.' },
     ],
     finalTitle: 'Laat ons uw workflow bekijken',
     finalText: 'Vertel welk terugkerend werk u tijd kost en we tonen wat semanu daarvan kan automatiseren.',
@@ -414,10 +414,10 @@ const en: DetailMap = {
   'business-systems': {
     metaTitle: 'Custom software for SMEs · semanu.eu',
     metaDescription:
-      'Software built to fit when off the shelf packages do not: web applications, portals and internal tools with connections to your systems.',
+      'Software built to fit when off-the-shelf packages do not: web applications, portals and internal tools with connections to your systems.',
     ogDescription:
       'semanu builds custom software that matches how you work: portals, internal tools and web applications with integrations and attention to maintenance.',
-    heroHeadline: 'Custom software for when off the shelf packages do not fit.',
+    heroHeadline: 'Custom software for when off-the-shelf packages do not fit.',
     heroSub:
       'semanu builds web applications, portals and internal tools that match how your business really works. For SMEs that get stuck on standard software.',
     trust: ['fits your process', 'connects with your systems', 'attention to maintenance and ownership'],
@@ -469,7 +469,7 @@ const en: DetailMap = {
   '3d-configurators': {
     metaTitle: 'Have a 3D product configurator built · semanu.eu',
     metaDescription:
-      'Make configurable products sellable online: real time 3D, configuration rules, pricing logic and connections to your webshop, CRM or ERP.',
+      'Make configurable products sellable online: real-time 3D, configuration rules, pricing logic and connections to your webshop, CRM or ERP.',
     ogDescription:
       'semanu builds 3D configurators that let customers compose your product, see the price and send a request, connected to your systems.',
     heroHeadline: 'Turn complex products into online sales.',
@@ -544,8 +544,8 @@ const en: DetailMap = {
     faq: [
       { q: 'What is a 3D product configurator?', a: 'A 3D product configurator is interactive software that lets customers put together a product online themselves. They choose for example dimensions, materials, colours and finishes and see the changes straight away in a 3D view. Depending on the implementation, prices are also calculated automatically. This simplifies the sales process and reduces the effort spent on manual quotes.' },
       { q: 'What is the difference between a 3D viewer and a 3D configurator?', a: 'A 3D viewer lets you look at a product from different angles. A 3D configurator goes a step further: customers can change the product themselves, for example by choosing different dimensions, materials or finishes. The configurator takes technical rules into account and can calculate the matching price automatically. A simple product visualisation becomes an interactive sales tool.' },
-      { q: 'Which products is a 3D configurator suitable for?', a: 'A 3D product configurator is particularly suited to products with many variants or custom options. Typical examples are furniture, windows, doors, stairs, pergolas, machines and industrial components. A configurator makes most sense when customers currently ask a lot of follow up questions or when custom quotes have to be prepared by hand. A configurator simplifies this process and makes complex products easier to understand.' },
-      { q: 'How much does it cost to develop a 3D product configurator?', a: 'At semanu the cost consists of a one off implementation fee and a fixed monthly subscription. The implementation fee depends on factors such as the complexity of the product, the number of variants, the 3D models required and the integrations you want. In a first conversation we analyse your requirements and show you which solution makes sense for your product.' },
+      { q: 'Which products is a 3D configurator suitable for?', a: 'A 3D product configurator is particularly suited to products with many variants or custom options. Typical examples are furniture, windows, doors, stairs, pergolas, machines and industrial components. A configurator makes most sense when customers currently ask a lot of follow-up questions or when custom quotes have to be prepared by hand. A configurator simplifies this process and makes complex products easier to understand.' },
+      { q: 'How much does it cost to develop a 3D product configurator?', a: 'At semanu the cost consists of a one-off implementation fee and a fixed monthly subscription. The implementation fee depends on factors such as the complexity of the product, the number of variants, the 3D models required and the integrations you want. In a first conversation we analyse your requirements and show you which solution makes sense for your product.' },
       { q: 'How long does it take to develop a 3D configurator?', a: 'The development time depends on the complexity of your product and the features you want. A configurator with a few variants can be delivered faster than a solution with extensive product rules, automatic pricing and an ERP connection. The availability of existing 3D models also plays a role. After an initial analysis we can estimate the effort and draw up a realistic timeline.' },
       { q: 'Do we already need 3D models of our products?', a: 'Not necessarily. If suitable 3D models already exist, they may serve as the basis for the configurator. If there are no models yet, we first look at how the required 3D data can be created. What matters is the complexity of the product and the configuration options you want. Together we determine which data is needed and how your product can best be visualised.' },
       { q: 'Can a 3D configurator be integrated into our existing website or webshop?', a: 'Yes. A 3D product configurator can be integrated into an existing website or webshop, provided the technical requirements are met. Customers can then configure their products directly on your website without having to visit a separate platform. Depending on the integration, configurations can also be passed on to your shopping basket, your CRM or your ERP system.' },
@@ -569,7 +569,7 @@ const de: DetailMap = {
       'semanu verbindet Ihre bestehende Software und automatisiert wiederkehrende Schritte, von CRM und ERP bis Dokumentenverarbeitung.',
     heroHeadline: 'Workflowautomatisierung, die Ihre Systeme zusammenarbeiten lässt.',
     heroSub:
-      'semanu automatisiert wiederkehrende Schritte und verbindet Ihre bestehende Software, damit Ihr Team weniger abtippt und weniger Fehler macht. Für KMU ohne großes IT Team.',
+      'semanu automatisiert wiederkehrende Schritte und verbindet Ihre bestehende Software, damit Ihr Team weniger abtippt und weniger Fehler macht. Für KMU ohne großes IT-Team.',
     trust: ['verbindet bestehende Systeme', 'weniger manuelle Arbeit', 'AI nur wo es zählt'],
     problemTitle: 'Wiederkehrende Handarbeit kostet still jede Woche Zeit',
     problemIntro: 'Wer mit losen Systemen arbeitet, kennt diese Engpässe.',
@@ -607,7 +607,7 @@ const de: DetailMap = {
       { q: 'Welche Geschäftsprozesse lassen sich automatisieren?', a: 'Prozesse, die wiederkehren und festen Regeln folgen, etwa Daten zwischen Systemen übertragen, Dokumente verarbeiten oder Bestätigungen und Erinnerungen versenden.' },
       { q: 'Lässt sich Automatisierung mit bestehender Software verbinden?', a: 'Ja. Über API und Integrationen verbinden wir Systeme, die Sie bereits nutzen, sodass Sie sie nicht ersetzen müssen.' },
       { q: 'Wann ist AI für Automatisierung nötig?', a: 'Nur wenn ein Schritt unstrukturierte Informationen interpretieren muss, etwa eine frei geschriebene Email. Für regelbasierte Schritte ist klassische Automatisierung besser.' },
-      { q: 'Was ist der Unterschied zu RPA?', a: 'RPA ahmt Handlungen in den Bildschirmen eines Programms nach. Eine API Verbindung arbeitet direkt zwischen Systemen und ist meist stabiler. Wir wählen RPA nur, wenn eine Verbindung fehlt.' },
+      { q: 'Was ist der Unterschied zu RPA?', a: 'RPA ahmt Handlungen in den Bildschirmen eines Programms nach. Eine API-Verbindung arbeitet direkt zwischen Systemen und ist meist stabiler. Wir wählen RPA nur, wenn eine Verbindung fehlt.' },
     ],
     finalTitle: 'Lassen Sie uns Ihren Workflow ansehen',
     finalText: 'Erzählen Sie, welche wiederkehrende Arbeit Sie Zeit kostet und wir zeigen, was semanu davon automatisieren kann.',
@@ -789,7 +789,7 @@ const fr: DetailMap = {
     visual: ['Formulaire', 'Lead enregistré', 'Email envoyé', 'Équipe avertie', 'Relance'],
     visualCaption: 'Un événement, les étapes suivantes traitées automatiquement.',
     buildsTitle: 'Ce que semanu met en place',
-    buildsLead: 'Des processus internes et orientés client qui tournent en silence en arrière plan.',
+    buildsLead: 'Des processus internes et orientés client qui tournent en silence en arrière-plan.',
     useCasesTitle: 'Quels processus\nvous pouvez automatiser',
     useCasesLead: 'Les processus qui reviennent et suivent des règles fixes se prêtent le mieux.',
     useCases: [
@@ -808,14 +808,14 @@ const fr: DetailMap = {
     outcomesLead: 'Moins de travail manuel, moins d’erreurs et plus de visibilité sur vos processus.',
     faqTitle: 'Questions fréquentes sur l’automatisation des workflows',
     faq: [
-      { q: 'L’automatisation des workflows, c’est quoi?', a: 'Exécuter ou relier automatiquement des étapes récurrentes d’un processus métier, pour que les collaborateurs ne fassent plus ce travail à la main.' },
-      { q: 'Quels processus métier peuvent être automatisés?', a: 'Des processus qui reviennent et suivent des règles fixes, comme transférer des données entre systèmes, traiter des documents ou envoyer des confirmations et des rappels.' },
-      { q: 'L’automatisation peut elle se connecter aux logiciels existants?', a: 'Oui. Via API et intégrations, nous relions les systèmes que vous utilisez déjà, pour que vous n’ayez pas à les remplacer.' },
-      { q: 'Quand l’AI est elle nécessaire pour l’automatisation?', a: 'Seulement quand une étape doit interpréter de l’information non structurée, comme un email rédigé librement. Pour des étapes basées sur des règles, l’automatisation classique est meilleure.' },
-      { q: 'Quelle est la différence avec le RPA?', a: 'Le RPA imite des actions dans les écrans d’un programme. Une connexion API travaille directement entre systèmes et est généralement plus stable. Nous choisissons le RPA seulement quand une connexion manque.' },
+      { q: 'L’automatisation des workflows, c’est quoi ?', a: 'Exécuter ou relier automatiquement des étapes récurrentes d’un processus métier, pour que les collaborateurs ne fassent plus ce travail à la main.' },
+      { q: 'Quels processus métier peuvent être automatisés ?', a: 'Des processus qui reviennent et suivent des règles fixes, comme transférer des données entre systèmes, traiter des documents ou envoyer des confirmations et des rappels.' },
+      { q: 'L’automatisation peut-elle se connecter aux logiciels existants ?', a: 'Oui. Via API et intégrations, nous relions les systèmes que vous utilisez déjà, pour que vous n’ayez pas à les remplacer.' },
+      { q: 'Quand l’AI est-elle nécessaire pour l’automatisation ?', a: 'Seulement quand une étape doit interpréter de l’information non structurée, comme un e-mail rédigé librement. Pour des étapes basées sur des règles, l’automatisation classique est meilleure.' },
+      { q: 'Quelle est la différence avec le RPA ?', a: 'Le RPA imite des actions dans les écrans d’un programme. Une connexion API travaille directement entre systèmes et est généralement plus stable. Nous choisissons le RPA seulement quand une connexion manque.' },
     ],
     finalTitle: 'Analysons votre workflow',
-    finalText: 'Dites nous quel travail récurrent vous coûte du temps et nous montrons ce que semanu peut en automatiser.',
+    finalText: 'Dites-nous quel travail récurrent vous coûte du temps et nous montrons ce que semanu peut en automatiser.',
     finalCta: 'Analysons votre workflow',
     finalSecondaryLabel: 'Voir tous les services',
     finalSecondaryHref: '/services/business-software',
@@ -824,9 +824,9 @@ const fr: DetailMap = {
   'business-systems': {
     metaTitle: 'Logiciel sur mesure pour PME · semanu.eu',
     metaDescription:
-      'Un logiciel sur mesure quand les solutions standard ne suffisent pas: applications web, portails et outils internes avec des connexions à vos systèmes.',
+      'Un logiciel sur mesure quand les solutions standard ne suffisent pas : applications web, portails et outils internes avec des connexions à vos systèmes.',
     ogDescription:
-      'semanu construit un logiciel sur mesure qui colle à votre façon de travailler: portails, outils internes et applications web avec des intégrations et une attention à la maintenance.',
+      'semanu construit un logiciel sur mesure qui colle à votre façon de travailler : portails, outils internes et applications web avec des intégrations et une attention à la maintenance.',
     heroHeadline: 'Un logiciel sur mesure pour quand les solutions standard ne conviennent pas.',
     heroSub:
       'semanu construit des applications web, des portails et des outils internes qui collent à la façon dont votre entreprise travaille vraiment. Pour les PME qui bloquent sur un logiciel standard.',
@@ -850,7 +850,7 @@ const fr: DetailMap = {
     useCasesLead: 'Quelques formes que prend souvent le logiciel sur mesure.',
     useCases: [
       { title: 'Applications métier internes', text: 'Des outils qui soutiennent un processus de travail spécifique.' },
-      { title: 'Portails clients et partenaires', text: 'Un environnement sécurisé où clients ou partenaires règlent eux mêmes leurs affaires.' },
+      { title: 'Portails clients et partenaires', text: 'Un environnement sécurisé où clients ou partenaires règlent eux-mêmes leurs affaires.' },
       { title: 'Modernisation du legacy', text: 'Remplacer un système obsolète par phases sans arrêter votre activité.' },
     ],
     processTitle: 'Comment se déroule un projet sur mesure',
@@ -864,13 +864,13 @@ const fr: DetailMap = {
     outcomesLead: 'Un logiciel qui colle à votre façon de travailler avec des connexions et une vue sur le long terme.',
     faqTitle: 'Questions fréquentes sur le logiciel sur mesure',
     faq: [
-      { q: 'Quand le logiciel sur mesure est il plus intéressant que le standard?', a: 'Quand vous devriez adapter votre processus au paquet au lieu de l’inverse ou quand des outils dispersés et beaucoup de travail manuel sont nécessaires pour boucler un processus.' },
-      { q: 'Combien coûte un logiciel sur mesure?', a: 'Cela dépend de l’ampleur et de la complexité; il n’y a pas de prix fixe. Nous construisons par phases, en commençant par la partie qui apporte le plus de valeur.' },
-      { q: 'Un logiciel sur mesure peut il se connecter aux systèmes existants?', a: 'Oui. Les intégrations avec votre logiciel actuel sont souvent un élément central, pour que les données restent justes à un seul endroit.' },
-      { q: 'Comment se déroule le développement d’un logiciel sur mesure?', a: 'Nous commençons par des exigences claires, construisons d’abord une version de base fonctionnelle puis étendons pas à pas avec une maintenance ensuite.' },
+      { q: 'Quand le logiciel sur mesure est-il plus intéressant que le standard ?', a: 'Quand vous devriez adapter votre processus au paquet au lieu de l’inverse ou quand des outils dispersés et beaucoup de travail manuel sont nécessaires pour boucler un processus.' },
+      { q: 'Combien coûte un logiciel sur mesure ?', a: 'Cela dépend de l’ampleur et de la complexité ; il n’y a pas de prix fixe. Nous construisons par phases, en commençant par la partie qui apporte le plus de valeur.' },
+      { q: 'Un logiciel sur mesure peut-il se connecter aux systèmes existants ?', a: 'Oui. Les intégrations avec votre logiciel actuel sont souvent un élément central, pour que les données restent justes à un seul endroit.' },
+      { q: 'Comment se déroule le développement d’un logiciel sur mesure ?', a: 'Nous commençons par des exigences claires, construisons d’abord une version de base fonctionnelle puis étendons pas à pas avec une maintenance ensuite.' },
     ],
     finalTitle: 'Parlons de votre besoin logiciel',
-    finalText: 'Dites nous où le logiciel standard est insuffisant et nous regardons si le sur mesure est la bonne étape.',
+    finalText: 'Dites-nous où le logiciel standard est insuffisant et nous regardons si le sur mesure est la bonne étape.',
     finalCta: 'Parlons de votre besoin logiciel',
     finalSecondaryLabel: 'Voir tous les services',
     finalSecondaryHref: '/services/business-software',
@@ -879,7 +879,7 @@ const fr: DetailMap = {
   '3d-configurators': {
     metaTitle: 'Faire construire un configurateur de produit 3D · semanu.eu',
     metaDescription:
-      'Rendez vos produits configurables vendables en ligne: 3D en temps réel, règles de configuration, logique de prix et connexions à votre boutique, CRM ou ERP.',
+      'Rendez vos produits configurables vendables en ligne : 3D en temps réel, règles de configuration, logique de prix et connexions à votre boutique, CRM ou ERP.',
     ogDescription:
       'semanu construit des configurateurs 3D qui laissent les clients composer votre produit, voir le prix et envoyer une demande, reliés à vos systèmes.',
     heroHeadline: 'Transformez vos produits complexes en ventes en ligne.',
@@ -952,18 +952,18 @@ const fr: DetailMap = {
     outcomesLead: 'Moins de travail de devis à la main et des demandes plus concrètes.',
     faqTitle: 'Questions fréquentes sur les configurateurs 3D',
     faq: [
-      { q: 'Un configurateur de produit 3D, c’est quoi?', a: 'Un configurateur de produit 3D est un logiciel interactif qui permet à vos clients de personnaliser un produit en ligne. Ils choisissent par exemple les dimensions, les matériaux, les couleurs et les finitions et voient les modifications directement dans une vue en trois dimensions. Selon la réalisation, les prix sont aussi calculés automatiquement. Les entreprises simplifient ainsi leur processus de vente et réduisent le travail consacré aux devis manuels.' },
-      { q: 'Quelle est la différence entre un visualiseur 3D et un configurateur 3D?', a: 'Un visualiseur 3D permet de regarder un produit sous différents angles. Un configurateur 3D va plus loin, car les clients peuvent modifier le produit, par exemple en choisissant d’autres dimensions, matériaux ou finitions. Le configurateur tient compte des règles techniques et peut calculer automatiquement le prix correspondant. Une simple visualisation de produit devient ainsi un outil de vente interactif.' },
-      { q: 'Pour quels produits choisir un configurateur 3D?', a: 'Un configurateur de produit 3D convient particulièrement aux produits qui comptent de nombreuses variantes ou possibilités de personnalisation. Des exemples typiques sont les meubles, fenêtres, portes, escaliers, pergolas, machines et composants industriels. Un configurateur est surtout utile lorsque vos clients posent aujourd’hui beaucoup de questions ou lorsque des devis personnalisés doivent être établis à la main. Le configurateur simplifie ce processus et rend les produits complexes plus faciles à comprendre.' },
-      { q: 'Combien coûte le développement d’un configurateur de produit 3D?', a: 'Chez semanu, le coût se compose de frais d’implémentation uniques et d’un abonnement mensuel fixe. Les frais d’implémentation dépendent notamment de la complexité du produit, du nombre de variantes, des modèles 3D nécessaires et des intégrations souhaitées. Lors d’un premier entretien, nous analysons vos besoins et vous montrons quelle solution est pertinente pour votre produit.' },
-      { q: 'Quelle est la durée de développement d’un configurateur 3D?', a: 'La durée de développement dépend de la complexité de votre produit et des fonctions souhaitées. Un configurateur avec peu de variantes se réalise plus vite qu’une solution comportant de nombreuses règles produit, un calcul de prix automatique et une connexion à l’ERP. La disponibilité de modèles 3D existants joue aussi un rôle. Après une première analyse, nous pouvons estimer l’effort et établir un calendrier réaliste.' },
-      { q: 'Nous devons déjà avoir des modèles 3D de nos produits?', a: 'Pas forcément. Si des modèles 3D adaptés existent déjà, ils peuvent éventuellement servir de base au configurateur. S’il n’existe aucun modèle, nous examinons d’abord comment créer les données 3D nécessaires. Ce qui compte, c’est la complexité du produit et les possibilités de configuration souhaitées. Ensemble, nous déterminons quelles données sont nécessaires et comment visualiser au mieux votre produit.' },
-      { q: 'Intégrer un configurateur 3D à notre site web ou notre boutique en ligne, c’est possible?', a: 'Oui. Un configurateur de produit 3D peut être intégré à un site web ou à une boutique en ligne existants, pour autant que les conditions techniques soient remplies. Vos clients configurent alors leurs produits directement sur votre site sans devoir passer par une plateforme séparée. Selon l’intégration, les configurations peuvent aussi être transmises à votre panier, à votre CRM ou à votre ERP.' },
-      { q: 'Calculer automatiquement les prix et établir des devis avec un configurateur 3D, c’est possible?', a: 'Oui. Sur la base des règles de prix que vous définissez, un configurateur 3D calcule automatiquement le prix d’une configuration personnalisée. Il tient compte par exemple des dimensions, des matériaux, des finitions et des options supplémentaires. Sur cette base, il peut aussi générer des devis, des nomenclatures et des documents techniques. Vous réduisez ainsi les calculs manuels, évitez les erreurs et traitez plus rapidement les demandes de vos clients.' },
-      { q: 'Connecter un configurateur 3D à notre ERP ou CRM, c’est possible?', a: 'Oui. Nos configurateurs de produit 3D peuvent être reliés à des systèmes ERP, CRM et de production existants via des interfaces adaptées. Les configurations de produits, les données clients, les prix et les commandes sont ainsi transmis automatiquement. Une demande client arrive alors directement dans votre processus de vente ou de production existant. Les intégrations possibles dépendent des interfaces techniques de vos systèmes.' },
+      { q: 'Un configurateur de produit 3D, c’est quoi ?', a: 'Un configurateur de produit 3D est un logiciel interactif qui permet à vos clients de personnaliser un produit en ligne. Ils choisissent par exemple les dimensions, les matériaux, les couleurs et les finitions et voient les modifications directement dans une vue en trois dimensions. Selon la réalisation, les prix sont aussi calculés automatiquement. Les entreprises simplifient ainsi leur processus de vente et réduisent le travail consacré aux devis manuels.' },
+      { q: 'Quelle est la différence entre un visualiseur 3D et un configurateur 3D ?', a: 'Un visualiseur 3D permet de regarder un produit sous différents angles. Un configurateur 3D va plus loin, car les clients peuvent modifier le produit, par exemple en choisissant d’autres dimensions, matériaux ou finitions. Le configurateur tient compte des règles techniques et peut calculer automatiquement le prix correspondant. Une simple visualisation de produit devient ainsi un outil de vente interactif.' },
+      { q: 'Pour quels produits choisir un configurateur 3D ?', a: 'Un configurateur de produit 3D convient particulièrement aux produits qui comptent de nombreuses variantes ou possibilités de personnalisation. Des exemples typiques sont les meubles, fenêtres, portes, escaliers, pergolas, machines et composants industriels. Un configurateur est surtout utile lorsque vos clients posent aujourd’hui beaucoup de questions ou lorsque des devis personnalisés doivent être établis à la main. Le configurateur simplifie ce processus et rend les produits complexes plus faciles à comprendre.' },
+      { q: 'Combien coûte le développement d’un configurateur de produit 3D ?', a: 'Chez semanu, le coût se compose de frais d’implémentation uniques et d’un abonnement mensuel fixe. Les frais d’implémentation dépendent notamment de la complexité du produit, du nombre de variantes, des modèles 3D nécessaires et des intégrations souhaitées. Lors d’un premier entretien, nous analysons vos besoins et vous montrons quelle solution est pertinente pour votre produit.' },
+      { q: 'Quelle est la durée de développement d’un configurateur 3D ?', a: 'La durée de développement dépend de la complexité de votre produit et des fonctions souhaitées. Un configurateur avec peu de variantes se réalise plus vite qu’une solution comportant de nombreuses règles produit, un calcul de prix automatique et une connexion à l’ERP. La disponibilité de modèles 3D existants joue aussi un rôle. Après une première analyse, nous pouvons estimer l’effort et établir un calendrier réaliste.' },
+      { q: 'Devons-nous déjà avoir des modèles 3D de nos produits ?', a: 'Pas forcément. Si des modèles 3D adaptés existent déjà, ils peuvent éventuellement servir de base au configurateur. S’il n’existe aucun modèle, nous examinons d’abord comment créer les données 3D nécessaires. Ce qui compte, c’est la complexité du produit et les possibilités de configuration souhaitées. Ensemble, nous déterminons quelles données sont nécessaires et comment visualiser au mieux votre produit.' },
+      { q: 'Intégrer un configurateur 3D à notre site web ou notre boutique en ligne, c’est possible ?', a: 'Oui. Un configurateur de produit 3D peut être intégré à un site web ou à une boutique en ligne existants, pour autant que les conditions techniques soient remplies. Vos clients configurent alors leurs produits directement sur votre site sans devoir passer par une plateforme séparée. Selon l’intégration, les configurations peuvent aussi être transmises à votre panier, à votre CRM ou à votre ERP.' },
+      { q: 'Calculer automatiquement les prix et établir des devis avec un configurateur 3D, c’est possible ?', a: 'Oui. Sur la base des règles de prix que vous définissez, un configurateur 3D calcule automatiquement le prix d’une configuration personnalisée. Il tient compte par exemple des dimensions, des matériaux, des finitions et des options supplémentaires. Sur cette base, il peut aussi générer des devis, des nomenclatures et des documents techniques. Vous réduisez ainsi les calculs manuels, évitez les erreurs et traitez plus rapidement les demandes de vos clients.' },
+      { q: 'Connecter un configurateur 3D à notre ERP ou CRM, c’est possible ?', a: 'Oui. Nos configurateurs de produit 3D peuvent être reliés à des systèmes ERP, CRM et de production existants via des interfaces adaptées. Les configurations de produits, les données clients, les prix et les commandes sont ainsi transmis automatiquement. Une demande client arrive alors directement dans votre processus de vente ou de production existant. Les intégrations possibles dépendent des interfaces techniques de vos systèmes.' },
     ],
     finalTitle: 'Parlons de votre configurateur produit',
-    finalText: 'Parlez nous de votre produit et nous montrons à quoi un configurateur pourrait ressembler dans votre site.',
+    finalText: 'Parlez-nous de votre produit et nous montrons à quoi un configurateur pourrait ressembler dans votre site.',
     finalCta: 'Parlons de votre configurateur produit',
     finalSecondaryLabel: 'Voir un configurateur en ligne',
     finalSecondaryHref: '/configurator/cabinet',

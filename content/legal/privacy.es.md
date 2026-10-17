@@ -42,7 +42,7 @@ No vendemos datos personales.
 
 ## 5. Transferencia internacional
 
-Google Analytics y Google Ads pueden transferir datos a Google y Cloudflare Turnstile a Cloudflare, también a los Estados Unidos. Tales transferencias están protegidas mediante garantías adecuadas (cláusulas contractuales tipo así como, en la medida en que sea aplicable, el EU US Data Privacy Framework).
+Google Analytics y Google Ads pueden transferir datos a Google y Cloudflare Turnstile a Cloudflare, también a los Estados Unidos. Tales transferencias están protegidas mediante garantías adecuadas (cláusulas contractuales tipo así como, en la medida en que sea aplicable, el EU-US Data Privacy Framework).
 
 ## 6. Conservación
 

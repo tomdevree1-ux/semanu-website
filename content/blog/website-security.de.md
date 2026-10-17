@@ -43,7 +43,7 @@ Cloudflare hilft unter anderem mit:
 
 - Schutz vor häufigen DDoS Angriffen
 - schnellem und zuverlässigem DNS
-- SSL/TLS Sicherheit für sichere HTTPS Verbindungen
+- SSL/TLS Sicherheit für sichere HTTPS-Verbindungen
 - Filterung von verdächtigem Verkehr
 - Schutz vor Bots und automatisierten Angriffen
 - Caching statischer Dateien für bessere Leistung
@@ -75,7 +75,7 @@ Cloudflare und Vercel sind starke Entscheidungen. Cybersicherheit dreht sich abe
 Deshalb achten wir auch auf Dinge wie:
 
 - starke Passwörter und wo möglich Zwei Faktor Authentifizierung
-- korrekt eingestellte DNS Records
+- korrekt eingestellte DNS-Records
 - sichere Formulare und Spambegrenzung
 - regelmäßige Updates von Software und Abhängigkeiten
 - zuverlässige Hosting und Deploymentprozesse
@@ -89,7 +89,7 @@ Eine sichere Website beginnt bei der Basis. Je weniger unnötige Komplexität, d
 
 ## Flexibel nach den Wünschen des Kunden
 
-Auch wenn wir oft Cloudflare und Vercel empfehlen, legen wir keine feste Lösung auf. Manche Kunden arbeiten bereits mit einem eigenen IT Partner, einem Hostinganbieter oder einer bestehenden Infrastruktur. Andere Kunden haben spezifische Compliance Anforderungen oder interne Vorlieben.
+Auch wenn wir oft Cloudflare und Vercel empfehlen, legen wir keine feste Lösung auf. Manche Kunden arbeiten bereits mit einem eigenen IT-Partner, einem Hostinganbieter oder einer bestehenden Infrastruktur. Andere Kunden haben spezifische Compliance Anforderungen oder interne Vorlieben.
 
 Das ist kein Problem.
 

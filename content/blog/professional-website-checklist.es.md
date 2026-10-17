@@ -1,6 +1,6 @@
 ---
 title: "Presencia web profesional: la lista de comprobación para la web de su empresa"
-description: "Qué hay que tener en cuenta en la web de una empresa? La lista de comprobación para pymes: los componentes de una presencia web profesional que convierte visitantes en consultas."
+description: "¿Qué hay que tener en cuenta en la web de una empresa? La lista de comprobación para pymes: los componentes de una presencia web profesional que convierte visitantes en consultas."
 date: "2026-03-17"
 updated: "2026-10-16"
 author: "Tom"
@@ -10,7 +10,7 @@ cover: "/blog/professional-website-checklist-cover.svg"
 
 Un sitio web profesional debe ofrecer hoy más que verse bien. Debe entenderse de inmediato, funcionar en cualquier dispositivo y generar confianza. Estos son los componentes que de verdad importan.
 
-## Qué hay que tener en cuenta en la web de una empresa?
+## ¿Qué hay que tener en cuenta en la web de una empresa?
 
 En resumen: siete puntos deciden si la web de una empresa resulta profesional. Un mensaje claro, un diseño pensado primero para el móvil, tiempos de carga rápidos, confianza visible, un siguiente paso nítido, bases SEO limpias además de seguridad y mantenimiento continuos. Si falta uno, los visitantes lo notan enseguida. Las secciones siguientes recorren cada punto por separado.
 

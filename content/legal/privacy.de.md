@@ -13,9 +13,9 @@ SEMANU BV (semanu), Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgien. Unternehm
 
 **Daten aus Formularen.** Über das Kontaktformular erfassen wir Ihren Namen, Email, Firma (optional), Telefon (optional), Ihre Nachricht, die gewünschte Dienstleistung, Ihre Sprache, die Seite, von der Sie das Formular gesendet haben, die Kampagnenquelle (zum Beispiel ein Klick auf eine Google Anzeige) sowie Ihre Einwilligung. Diese Daten werden an das eigene Kundenverwaltungssystem (CRM) von semanu übermittelt, damit wir Ihre Anfrage weiterverfolgen können.
 
-**Automatisch erfasste Daten.** Server und Sicherheitsprotokolle (IP Adresse, Browser, Zeitstempel, abgerufene Seiten) bei unserem Hosting Anbieter, zur Auslieferung, Stabilität und Missbrauchsabwehr.
+**Automatisch erfasste Daten.** Server und Sicherheitsprotokolle (IP-Adresse, Browser, Zeitstempel, abgerufene Seiten) bei unserem Hosting Anbieter, zur Auslieferung, Stabilität und Missbrauchsabwehr.
 
-**Spamschutz.** Ein Honeypot Feld und Cloudflare Turnstile schützen unsere Formulare vor Spam und automatisiertem Missbrauch. Turnstile prüft technische Merkmale Ihres Browsers (zum Beispiel IP Adresse und Browsereigenschaften), um Menschen von Bots zu unterscheiden.
+**Spamschutz.** Ein Honeypot Feld und Cloudflare Turnstile schützen unsere Formulare vor Spam und automatisiertem Missbrauch. Turnstile prüft technische Merkmale Ihres Browsers (zum Beispiel IP-Adresse und Browsereigenschaften), um Menschen von Bots zu unterscheiden.
 
 **Cookies und Analyse.** Ein Cookie speichert Ihre Einwilligung. Google Analytics 4 nutzt den Google Consent Mode: ohne Ihre Einwilligung werden keine Analyse Cookies gesetzt und nur anonyme aggregierte Signale ohne Cookies verarbeitet. Erst nach Ihrer Einwilligung über das Cookie Banner werden Analyse Cookies gesetzt und vollständige Messdaten erhoben. Mit derselben Einwilligung aktivieren wir Google Ads zur Conversion Messung. Ohne Ihre Einwilligung werden keine Werbe Cookies gesetzt.
 
@@ -33,7 +33,7 @@ SEMANU BV (semanu), Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgien. Unternehm
 Wir arbeiten mit sorgfältig ausgewählten Anbietern. Wo möglich wählen wir eine Region innerhalb der Europäischen Union und haben einen Auftragsbearbeitungsvertrag abgeschlossen.
 
 - **Hetzner Online GmbH** (Deutschland): Hosting der Website auf Servern in der EU (Falkenstein, Nürnberg oder Helsinki).
-- **Supabase**: Datenbank unseres Kundenverwaltungssystems, in dem Anfragen aus dem Kontaktformular gespeichert werden (EU Region).
+- **Supabase**: Datenbank unseres Kundenverwaltungssystems, in dem Anfragen aus dem Kontaktformular gespeichert werden (EU-Region).
 - **Cloudflare Turnstile**: Spamschutz für unsere Formulare.
 - **Google Analytics 4**: Website Analyse, nur mit Einwilligung.
 - **Google Ads**: Conversion Messung und Werbung, nur mit Einwilligung.
@@ -42,7 +42,7 @@ Wir verkaufen keine personenbezogenen Daten.
 
 ## 5. Internationale Übermittlung
 
-Google Analytics und Google Ads können Daten an Google übermitteln und Cloudflare Turnstile an Cloudflare, jeweils auch in die USA. Solche Übermittlungen sind durch geeignete Garantien abgesichert (Standardvertragsklauseln sowie, soweit anwendbar, das EU US Data Privacy Framework).
+Google Analytics und Google Ads können Daten an Google übermitteln und Cloudflare Turnstile an Cloudflare, jeweils auch in die USA. Solche Übermittlungen sind durch geeignete Garantien abgesichert (Standardvertragsklauseln sowie, soweit anwendbar, das EU-US Data Privacy Framework).
 
 ## 6. Aufbewahrung
 

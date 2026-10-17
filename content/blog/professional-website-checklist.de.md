@@ -12,7 +12,7 @@ Eine professionelle Website muss heute mehr leisten als gut auszusehen. Sie soll
 
 ## Was muss ich bei einer Firmenhomepage beachten?
 
-Kurz gesagt: sieben Punkte entscheiden, ob eine Firmenhomepage professionell wirkt. Eine klare Botschaft, ein mobil gedachtes Design, schnelle Ladezeiten, sichtbares Vertrauen, ein deutlicher nächster Schritt, saubere SEO Grundlagen sowie laufende Sicherheit und Pflege. Fehlt einer davon, merken Besucher das sofort. Die folgenden Abschnitte gehen jeden Punkt einzeln durch.
+Kurz gesagt: sieben Punkte entscheiden, ob eine Firmenhomepage professionell wirkt. Eine klare Botschaft, ein mobil gedachtes Design, schnelle Ladezeiten, sichtbares Vertrauen, ein deutlicher nächster Schritt, saubere SEO-Grundlagen sowie laufende Sicherheit und Pflege. Fehlt einer davon, merken Besucher das sofort. Die folgenden Abschnitte gehen jeden Punkt einzeln durch.
 
 ## Eine klare Botschaft
 
@@ -42,9 +42,9 @@ Jede gute Seite führt zu einem nächsten Schritt. Soll der Besucher anrufen, ei
 
 Eine Website ohne klaren nächsten Schritt verschenkt Anfragen.
 
-## SEO Grundlagen
+## SEO-Grundlagen
 
-Damit Google Ihre Seite versteht, braucht es eine saubere Struktur, korrekte Titel und Meta Beschreibungen sowie eine logische Gliederung der Inhalte. Das sind die SEO Grundlagen, die zu jeder modernen Website gehören.
+Damit Google Ihre Seite versteht, braucht es eine saubere Struktur, korrekte Titel und Meta Beschreibungen sowie eine logische Gliederung der Inhalte. Das sind die SEO-Grundlagen, die zu jeder modernen Website gehören.
 
 Sie sind kein Versprechen auf Platz eins. Sie sind die Basis, auf der Sichtbarkeit überhaupt entstehen kann.
 
@@ -52,7 +52,7 @@ Sie sind kein Versprechen auf Platz eins. Sie sind die Basis, auf der Sichtbarke
 
 Eine Website ist nie ganz fertig. Updates, Sicherheit und Hosting müssen laufend betreut werden, sonst veraltet die Seite und wird angreifbar. Wer das im Blick behält, bleibt professionell und sicher.
 
-Design, Technik, Hosting, Wartung und SEO Grundlagen gehören zusammen und brauchen klare Zuständigkeiten. Worauf es bei der Sicherheit ankommt, lesen Sie in unserem Beitrag zur [Website Sicherheit](/de/blog/website-security).
+Design, Technik, Hosting, Wartung und SEO-Grundlagen gehören zusammen und brauchen klare Zuständigkeiten. Worauf es bei der Sicherheit ankommt, lesen Sie in unserem Beitrag zur [Website Sicherheit](/de/blog/website-security).
 
 ## Fazit
 

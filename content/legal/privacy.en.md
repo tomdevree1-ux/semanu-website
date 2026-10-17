@@ -42,7 +42,7 @@ We do not sell personal data.
 
 ## 5. International transfers
 
-Google Analytics and Google Ads may transfer data to Google and Cloudflare Turnstile to Cloudflare, including to the USA. Such transfers are covered by appropriate safeguards (Standard Contractual Clauses and, where applicable, the EU US Data Privacy Framework).
+Google Analytics and Google Ads may transfer data to Google and Cloudflare Turnstile to Cloudflare, including to the USA. Such transfers are covered by appropriate safeguards (Standard Contractual Clauses and, where applicable, the EU-US Data Privacy Framework).
 
 ## 6. Retention
 

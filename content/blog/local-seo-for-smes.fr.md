@@ -10,7 +10,7 @@ cover: "/blog/local-seo-for-smes-cover.svg"
 
 Quand quelqu’un cherche une prestation dans votre région, la recherche commence presque toujours sur le smartphone. Celui qui apparaît en haut reçoit l’appel. C’est tout l’enjeu du SEO local : être trouvé près de chez vous, au bon moment. Il importe encore plus que la page convainque aussi sur mobile.
 
-Pour une entreprise locale, c’est souvent plus important qu’une première place sur un mot clé général. Vous n’avez pas besoin de visiteurs de tout le pays. Vous avez besoin des personnes de votre ville et de votre région.
+Pour une entreprise locale, c’est souvent plus important qu’une première place sur un mot-clé général. Vous n’avez pas besoin de visiteurs de tout le pays. Vous avez besoin des personnes de votre ville et de votre région.
 
 ## Ce que signifie le SEO local
 
@@ -34,7 +34,7 @@ Vérifiez donc que vos coordonnées sont cohérentes. Cela paraît anodin. C’e
 
 Votre site peut montrer où vous êtes actif. Nommez votre région et vos localités dans les textes, dans les titres et dans les métadonnées. Une page claire avec les prestations, la localisation et l’accès aide les visiteurs comme les moteurs de recherche.
 
-Si vous couvrez plusieurs lieux, il peut être utile de les nommer proprement, sans surcharger le texte. Les bases dont tout site d’entreprise a besoin figurent dans notre [check list pour une présence web professionnelle](/fr/blog/professional-website-checklist).
+Si vous couvrez plusieurs lieux, il peut être utile de les nommer proprement, sans surcharger le texte. Les bases dont tout site d’entreprise a besoin figurent dans notre [check-list pour une présence web professionnelle](/fr/blog/professional-website-checklist).
 
 ## Construire des avis
 

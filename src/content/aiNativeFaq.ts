@@ -81,7 +81,7 @@ export const AI_NATIVE_FAQ: Record<ServicesLocale, AiNativeFaq> = {
       },
       {
         q: 'Who owns the software and the source code?',
-        a: 'At semanu you become the owner of your custom business software, including the source code. You stay in control of your solution and are not permanently tied to a single supplier. You can continue to develop and adapt your software over the long term or have other developers maintain it. We believe in transparent collaboration and long term flexibility.',
+        a: 'At semanu you become the owner of your custom business software, including the source code. You stay in control of your solution and are not permanently tied to a single supplier. You can continue to develop and adapt your software over the long term or have other developers maintain it. We believe in transparent collaboration and long-term flexibility.',
       },
     ],
   },
@@ -126,35 +126,35 @@ export const AI_NATIVE_FAQ: Record<ServicesLocale, AiNativeFaq> = {
     title: 'Questions fréquentes sur le logiciel d’entreprise sur mesure',
     items: [
       {
-        q: 'Un logiciel d’entreprise AI-native, c’est quoi?',
+        q: 'Un logiciel d’entreprise AI-native, c’est quoi ?',
         a: 'Un logiciel d’entreprise AI-native est conçu dès le départ autour de l’intelligence artificielle. Il aide les entreprises à automatiser leurs processus, à traiter les données de manière intelligente et à réduire les tâches répétitives. Chez semanu, nous combinons cette approche avec une méthode de développement AI-first. Vous obtenez ainsi un logiciel sur mesure parfaitement adapté à vos processus métier.',
       },
       {
-        q: 'Combien coûte le développement d’un logiciel d’entreprise sur mesure?',
+        q: 'Combien coûte le développement d’un logiciel d’entreprise sur mesure ?',
         a: 'Le coût dépend des fonctionnalités, de la complexité et des intégrations nécessaires. Grâce à notre méthode de développement AI-first, nous développons des logiciels sur mesure plus efficacement. Vous n’êtes pas obligé d’investir d’emblée dans une plateforme complète. Vous pouvez commencer par une seule fonction et l’étendre progressivement. Lors d’un premier entretien, nous clarifions vos besoins et établissons un devis adapté.',
       },
       {
-        q: 'Quelle est la durée de développement d’un logiciel sur mesure?',
+        q: 'Quelle est la durée de développement d’un logiciel sur mesure ?',
         a: 'La durée de développement dépend de l’ampleur et de la complexité de votre projet. Une fonction isolée ou un module de taille limitée se réalise généralement plus vite qu’une plateforme d’entreprise complète. En utilisant l’AI de manière ciblée dans le processus de développement, nous accélérons de nombreuses étapes. Ensemble, nous définissons les fonctions prioritaires et un calendrier réaliste.',
       },
       {
-        q: 'Connecter le logiciel à notre ERP ou CRM existant, c’est possible?',
+        q: 'Connecter le logiciel à notre ERP ou CRM existant, c’est possible ?',
         a: 'Oui. Notre logiciel d’entreprise sur mesure peut être relié à des systèmes ERP, CRM et de production existants, pour autant que des interfaces adaptées soient disponibles. Les informations s’échangent alors automatiquement entre les différents systèmes. Cela réduit la saisie manuelle, évite le travail en double et rend vos processus plus efficaces.',
       },
       {
-        q: 'Nous devons remplacer notre logiciel actuel?',
+        q: 'Devons-nous remplacer notre logiciel actuel ?',
         a: 'Non. Vous ne devez pas remplacer entièrement vos systèmes existants. Nous pouvons digitaliser des processus précis et développer de nouvelles fonctions qui complètent votre logiciel actuel. Vos systèmes ERP, CRM ou autres logiciels d’entreprise restent en service. Vous améliorez ainsi votre fonctionnement pas à pas sans devoir revoir toute votre infrastructure informatique.',
       },
       {
-        q: 'Nous pouvons commencer par une seule fonction et étendre ensuite?',
+        q: 'Pouvons-nous commencer par une seule fonction et l’étendre ensuite ?',
         a: 'Oui. Notre logiciel d’entreprise est modulaire. Vous pouvez par exemple commencer par une solution pour les devis, l’enregistrement du temps de travail ou la planification de la production. Quand votre entreprise grandit ou que de nouveaux besoins apparaissent, d’autres modules viennent s’ajouter. Vous n’investissez ainsi que dans les fonctions dont vous avez réellement besoin et vous gardez les coûts sous contrôle.',
       },
       {
-        q: 'Quels processus métier automatiser avec l’AI?',
+        q: 'Quels processus métier automatiser avec l’AI ?',
         a: 'L’AI peut soutenir ou automatiser de nombreuses tâches répétitives dans votre entreprise. Pensez au traitement des demandes clients, à l’établissement de devis, à l’analyse de documents ou à la préparation de données de production. Les processus qu’il est judicieux d’automatiser dépendent de votre fonctionnement actuel. Ensemble, nous analysons où l’AI apporte la plus grande valeur ajoutée.',
       },
       {
-        q: 'À qui appartiennent le logiciel développé et le code source?',
+        q: 'À qui appartiennent le logiciel développé et le code source ?',
         a: 'Chez semanu, vous devenez propriétaire de votre logiciel d’entreprise sur mesure, code source compris. Vous gardez ainsi le contrôle de votre solution et vous n’êtes pas lié durablement à un seul fournisseur. Vous pouvez faire évoluer votre logiciel à long terme, l’adapter ou en confier la maintenance à d’autres développeurs. Nous misons sur une collaboration transparente et une flexibilité à long terme.',
       },
     ],
