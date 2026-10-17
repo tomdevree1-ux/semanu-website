@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { localizedAlternates } from './alternates';
+import { OG_LOCALE, routing, type Locale } from '@/i18n/routing';
 
 /**
  * Build a page's Metadata with the title, `og:title` and `twitter:title` kept in
@@ -58,6 +59,11 @@ export function pageMetadata({
       siteName: 'semanu',
       url: `/${locale}${path}`,
       type: ogType,
+      locale: OG_LOCALE[locale as Locale] ?? OG_LOCALE.en,
+      alternateLocale: (availableLocales ?? routing.locales)
+        .filter((l) => l !== locale)
+        .map((l) => OG_LOCALE[l as Locale])
+        .filter(Boolean),
       // alt mirrors the page title (not one sitewide brand line) for
       // accessibility and better social context per page.
       images: [{ url: image, width: 1200, height: 630, alt: socialTitle }],

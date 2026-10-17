@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { Instrument_Sans, Archivo } from 'next/font/google';
-import { routing, type Locale } from '@/i18n/routing';
+import { OG_LOCALE, routing, type Locale } from '@/i18n/routing';
 import { CookieBanner } from '@/components/CookieBanner';
 import { Analytics } from '@/components/Analytics';
 import { JsonLd } from '@/components/JsonLd';
@@ -75,8 +75,8 @@ export async function generateMetadata({
       title: t('title'),
       description: t('description'),
       siteName: 'semanu',
-      locale,
-      alternateLocale: routing.locales.filter((l) => l !== locale),
+      locale: OG_LOCALE[locale as Locale] ?? OG_LOCALE.en,
+      alternateLocale: routing.locales.filter((l) => l !== locale).map((l) => OG_LOCALE[l]),
       type: 'website',
       images: ['/og.png?v=4'],
     },

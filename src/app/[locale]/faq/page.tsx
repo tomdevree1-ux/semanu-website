@@ -4,6 +4,8 @@ import { SiteShell } from '@/components/SiteShell';
 import { JsonLd } from '@/components/JsonLd';
 import { FaqSearch } from '@/components/faq/FaqSearch';
 import { FAQ_SERVICES, FAQ_UI, type FaqLocale } from '@/content/faqServices';
+import { AI_NATIVE_FAQ } from '@/content/aiNativeFaq';
+import { getServiceDetail } from '@/content/serviceDetail';
 import { pageMetadata } from '@/lib/seo/metadata';
 
 // SEO description per locale. The faq namespace only holds eyebrow/h2/items, so a
@@ -12,9 +14,9 @@ import { pageMetadata } from '@/lib/seo/metadata';
 const FAQ_DESC: Record<string, string> = {
   nl: 'semanu beantwoordt veelgestelde vragen over 3D-configuratoren en bedrijfssoftware op maat voor kmo’s in Europa: aanpak, prijzen, hosting in de EU en onderhoud.',
   de: 'semanu beantwortet häufige Fragen zu 3D-Konfiguratoren und Unternehmenssoftware nach Maß für KMU in Europa: Ablauf, Preise, Hosting in der EU und Wartung.',
-  fr: 'semanu répond aux questions fréquentes sur les configurateurs 3D et les logiciels d’entreprise sur mesure pour les PME en Europe : déroulement, prix, hébergement dans l’UE et maintenance.',
+  fr: 'Questions fréquentes sur les configurateurs 3D et les logiciels d’entreprise sur mesure pour PME en Europe : déroulement, prix, hébergement UE et maintenance.',
   en: 'semanu answers common questions about 3D configurators and custom business software for SMEs in Europe: process, pricing, hosting in the EU and maintenance.',
-  es: 'semanu responde a las preguntas frecuentes sobre configuradores 3D y software empresarial a medida para pymes en Europa: proceso, precios, hosting en la UE y mantenimiento.',
+  es: 'Preguntas frecuentes sobre configuradores 3D y software empresarial a medida para pymes en Europa: proceso, precios, hosting en la UE y mantenimiento.',
 };
 
 // Query-bearing titles (decoupled from the nav label "FAQ" so the <title> can
@@ -58,17 +60,24 @@ export default async function FaqPage({
     : 'de';
   const services = FAQ_SERVICES[loc];
 
-  // FAQPage structured data built from EVERY question across all groups, so the
-  // rich result always matches the visible page in this locale.
+  // FAQPage structured data. The page shows every question, but the questions
+  // reused from the two service pages are canonical there (each service page
+  // emits its own FAQPage). Only the questions that live solely on /faq go into
+  // this schema, so search engines see no duplicate FAQ markup.
+  const onServicePages = new Set(
+    [...(getServiceDetail(loc, '3d-configurators')?.faq ?? []), ...AI_NATIVE_FAQ[loc].items].map((f) => f.q),
+  );
   const faqLd = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
     mainEntity: services.flatMap((s) =>
-      s.faqs.map((f) => ({
-        '@type': 'Question',
-        name: f.q,
-        acceptedAnswer: { '@type': 'Answer', text: f.a },
-      })),
+      s.faqs
+        .filter((f) => !onServicePages.has(f.q))
+        .map((f) => ({
+          '@type': 'Question',
+          name: f.q,
+          acceptedAnswer: { '@type': 'Answer', text: f.a },
+        })),
     ),
   };
 

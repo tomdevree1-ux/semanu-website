@@ -4,9 +4,10 @@ import { env } from '@/lib/env';
 import { getAllPosts } from '@/lib/blog';
 import { SERVICE_SLUGS } from '@/content/services';
 import { CONFIG_SLUGS } from '@/content/configurators';
+import { getLegalDoc } from '@/lib/legal';
 
 // Generate the sitemap once at build time instead of on every request. It reads
-// every blog post in three locales, which made the live route slow to the point
+// every blog post in every locale, which made the live route slow to the point
 // of timeouts (seen in the audits of 26.06 and 09.07). A slow sitemap delays
 // discovery of new pages; force-static plus the Cache-Control header in
 // next.config.mjs keeps it instant and edge cacheable.
@@ -27,7 +28,7 @@ const PATHS = [
   '/references',
 ];
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = env.siteUrl;
   const entries: MetadataRoute.Sitemap = [];
 
@@ -53,27 +54,39 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // lastModified on every entry. Static pages use the build/deploy
-  // time (regenerated on each deploy); blog posts use their authored date
-  // below. This is the strongest sitemap freshness signal for search + AI
-  // crawlers to re-fetch.
-  const buildDate = new Date();
+  // lastModified only where the content carries a real date: blog posts (their
+  // `updated` or `date`), the blog index (its newest post) and the legal pages
+  // (their `updated`). Other pages get no lastmod: a build timestamp on every URL
+  // says nothing about content changes, so search engines learn to ignore it.
+  const toDate = (s?: string) => {
+    const d = s ? new Date(s) : undefined;
+    return d && !Number.isNaN(d.getTime()) ? d : undefined;
+  };
+  const LEGAL: Record<string, string> = { '/privacy': 'privacy', '/legal-notice': 'legal-notice' };
 
   for (const locale of routing.locales) {
+    const posts = getAllPosts(locale);
+    const newest = posts
+      .map((p) => toDate(p.updated || p.date))
+      .filter((d): d is Date => Boolean(d))
+      .sort((a, b) => b.getTime() - a.getTime())[0];
     for (const p of PATHS) {
+      let lastModified: Date | undefined;
+      if (p === '/blog') lastModified = newest;
+      else if (LEGAL[p]) lastModified = toDate((await getLegalDoc(LEGAL[p], locale))?.updated);
       entries.push({
         url: `${base}/${locale}${p}`,
-        lastModified: buildDate,
+        ...(lastModified ? { lastModified } : {}),
         changeFrequency: 'monthly',
         priority: p === '' ? 1 : 0.7,
         alternates: { languages: languagesFor(p, routing.locales) },
       });
     }
-    for (const post of getAllPosts(locale)) {
-      const d = post.date ? new Date(post.date) : undefined;
+    for (const post of posts) {
+      const d = toDate(post.updated || post.date);
       entries.push({
         url: `${base}/${locale}/blog/${post.slug}`,
-        lastModified: d && !Number.isNaN(d.getTime()) ? d : buildDate,
+        ...(d ? { lastModified: d } : {}),
         changeFrequency: 'yearly',
         priority: 0.5,
         alternates: {
