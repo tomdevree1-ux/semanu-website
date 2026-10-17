@@ -29,7 +29,6 @@
     "blog": "Blog",
     "faq": "FAQ",
     "contact": "Contact",
-    "analysis": "Analyse SEO du site",
     "strategyCall": "Réserver un appel stratégique",
     "cta": "Commencer",
     "services": "Services",
@@ -46,49 +45,6 @@
     "pill3d": "Configurateurs 3D",
     "pillAi": "Logiciel d’entreprise"
   },
-  "funnel": {
-    "metaTitle": "Analyse gratuite de site web",
-    "metaDescription": "Faites analyser votre site maintenant et recevez un rapport objectif avec des pistes concrètes. Gratuit et sans engagement.",
-    "eyebrow": "Analyse gratuite de votre site",
-    "title": "Faites analyser votre site actuel gratuitement.",
-    "intro": "Vous recevez un rapport objectif avec des pistes concrètes pour la visibilité, la vitesse et l'impact. Gratuit et sans engagement.",
-    "benefitsTitle": "Ce que vous recevez",
-    "benefits": [
-      "Une évaluation honnête de votre site actuel",
-      "Des recommandations concrètes pour plus de visibilité et de demandes",
-      "Une vue claire sur la vitesse, la technique et les bases SEO"
-    ],
-    "afterTitle": "La suite",
-    "afterText": "Nous revenons vers vous sous deux jours ouvrables avec votre analyse. Aucune pression commerciale, juste une évaluation claire.",
-    "sampleTitle": "À quoi ressemble votre rapport",
-    "sampleIntro": "Feuilletez un exemple réel d’une analyse de site web gratuite.",
-    "samplePage": "Page",
-    "sampleOf": "sur",
-    "samplePrev": "Précédent",
-    "sampleNext": "Suivant",
-    "sampleDownload": "Télécharger en PDF",
-    "sampleAlt": "Exemple de rapport page",
-    "close": "Fermer",
-    "formTitle": "Demander votre analyse",
-    "firstName": "Prénom",
-    "lastName": "Nom",
-    "email": "Email",
-    "website": "Votre site web",
-    "consent": "J'accepte la politique de confidentialité et le traitement de mes données.",
-    "marketing": "Je souhaite recevoir occasionnellement des conseils et nouveautés d'semanu (optionnel)",
-    "submit": "Demander l'analyse",
-    "sending": "Envoi en cours …",
-    "okTitle": "Merci !",
-    "okText": "Demande reçue ! Nous analysons votre site web en profondeur et votre rapport personnel arrivera dans votre boîte mail dans les 24 heures. Gardez un œil sur votre messagerie !",
-    "okButton": "Compris",
-    "dupTitle": "Demande déjà en cours",
-    "dupText": "Vous avez déjà demandé une analyse avec cette adresse le {date}. Votre rapport est en route vers cette boîte mail. Une nouvelle analyse est possible après 30 jours.",
-    "errRequired": "Veuillez remplir ce champ.",
-    "errEmail": "Veuillez saisir une adresse Email valide.",
-    "errConsent": "Veuillez accepter la politique de confidentialité.",
-    "errGeneric": "Une erreur est survenue. Veuillez réessayer.",
-    "errRateLimit": "Vous avez envoyé ce formulaire plusieurs fois en peu de temps. Réessayez dans une heure ou écrivez-nous à {email}."
-  },
   "footer": {
     "tagline": "Le partenaire digital des PME en Europe: configurateurs 3D et logiciels d’entreprise sur mesure, avec l’AI comme moteur.",
     "servicesTitle": "Services",
@@ -102,12 +58,7 @@
     "topicsTitle": "Thèmes",
     "topics": {
       "digitalisierung": "Digitalisation pour PME",
-      "workflow": "Automatisation des workflows",
       "konfigurator": "Configurateur 3D"
-    },
-    "freeToolsTitle": "Outils gratuits",
-    "freeTools": {
-      "analysis": "Analyse gratuite du site"
     },
     "legal": {
       "imprint": "Mentions légales (Impressum)",

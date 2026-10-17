@@ -44,7 +44,7 @@ Cette boucle de vérification et d'amélioration est le cœur du sujet. On peut 
 <div style="margin:2.5rem 0;padding:1.5rem 1.75rem;border-radius:0.75rem;background:#E9F3EE;border:1px solid #C7EBD8">
   <strong style="display:block;font-size:1.15rem;color:#16233D;margin-bottom:0.4rem">L'IA cite t elle déjà votre entreprise aujourd'hui ?</strong>
   <p style="margin:0 0 1rem;color:#5B667C">Nous le vérifions gratuitement. Vous saurez si et comment ChatGPT, Perplexity et Google vous citent dans votre région. Nous vous indiquons aussi le premier pas le plus rapide.</p>
-  <a href="/fr/website-analyse"><strong>Demander un check gratuit →</strong></a>
+  <a href="/fr/kontakt"><strong>Demander un check gratuit →</strong></a>
 </div>
 
 ## SEO ou GEO, lequel alors ?

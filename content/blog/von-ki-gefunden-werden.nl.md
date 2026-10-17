@@ -44,7 +44,7 @@ Die lus van meten en bijsturen is de kern. Je kunt het een Feedback Loop noemen:
 <div style="margin:2.5rem 0;padding:1.5rem 1.75rem;border-radius:0.75rem;background:#E9F3EE;border:1px solid #C7EBD8">
   <strong style="display:block;font-size:1.15rem;color:#16233D;margin-bottom:0.4rem">Noemt de AI jouw bedrijf vandaag al?</strong>
   <p style="margin:0 0 1rem;color:#5B667C">Wij checken het gratis. Je hoort of en hoe ChatGPT, Perplexity en Google je in jouw regio noemen. Ook zeggen we je de snelste eerste stap.</p>
-  <a href="/nl/website-analyse"><strong>Gratis check aanvragen →</strong></a>
+  <a href="/nl/kontakt"><strong>Gratis check aanvragen →</strong></a>
 </div>
 
 ## SEO of GEO: wat dan?

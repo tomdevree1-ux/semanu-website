@@ -12,7 +12,6 @@ import { AREA_SERVED } from '@/lib/seo/area-served';
 // schema.org serviceType per landing page (country-neutral since 2026-10).
 const SERVICE_TYPE: Record<string, string> = {
   '3d-konfigurator': '3D product configurator',
-  'workflow-automatisierung': 'Workflow automation',
   'digitalisierung-kmu': 'Custom business software and digitalisation',
 };
 

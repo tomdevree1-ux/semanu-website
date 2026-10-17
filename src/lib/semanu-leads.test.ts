@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { analysisPayload, contactPayload } from '@/lib/semanu-leads';
-import { contactLeadSchema, leadSchema } from '@/lib/validation';
+import { contactPayload } from '@/lib/semanu-leads';
+import { contactLeadSchema } from '@/lib/validation';
 import { hitRateLimit, resetRateLimits } from '@/lib/security/memory-ratelimit';
 
 const base = {
@@ -58,25 +58,6 @@ describe('contact form → submit-contact payload', () => {
 
   it('rejects an unknown correspondence language', () => {
     expect(contactLeadSchema.safeParse({ ...base, lang: 'it' }).success).toBe(false);
-  });
-});
-
-describe('website analysis → submit-contact payload', () => {
-  it('carries the website and maps es to en', () => {
-    const d = leadSchema.parse({
-      formType: 'analysis',
-      firstName: 'Jan',
-      lastName: 'Smit',
-      email: 'jan@example.nl',
-      website: 'example.nl',
-      consentPrivacy: true,
-      sourceLocale: 'es',
-    });
-    if (d.formType !== 'analysis') throw new Error('wrong branch');
-    const p = analysisPayload(d);
-    expect(p.topic).toBe('website-analyse');
-    expect(p.lang).toBe('en');
-    expect(p.message).toContain('example.nl');
   });
 });
 

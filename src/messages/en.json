@@ -29,7 +29,6 @@
     "blog": "Blog",
     "faq": "FAQ",
     "contact": "Contact",
-    "analysis": "Website SEO analysis",
     "strategyCall": "Book a strategy call",
     "cta": "Let’s start",
     "services": "Services",
@@ -46,49 +45,6 @@
     "pill3d": "3D configurators",
     "pillAi": "Business software"
   },
-  "funnel": {
-    "metaTitle": "Free website analysis",
-    "metaDescription": "Have your website analysed now and get an objective report with concrete improvements. Free and no obligation.",
-    "eyebrow": "Free website analysis",
-    "title": "Get your current website analysed for free.",
-    "intro": "You get an objective report with concrete improvements for visibility, speed and impact. Free and no obligation.",
-    "benefitsTitle": "What you get",
-    "benefits": [
-      "An honest assessment of your current website",
-      "Concrete recommendations for more visibility and enquiries",
-      "A clear view of speed, tech and SEO basics"
-    ],
-    "afterTitle": "What happens next",
-    "afterText": "We get back to you within two working days with your analysis. No sales pressure, just a clear assessment.",
-    "sampleTitle": "What your report looks like",
-    "sampleIntro": "Page through a real example of a free website analysis.",
-    "samplePage": "Page",
-    "sampleOf": "of",
-    "samplePrev": "Previous",
-    "sampleNext": "Next",
-    "sampleDownload": "Download as PDF",
-    "sampleAlt": "Sample report page",
-    "close": "Close",
-    "formTitle": "Request your analysis",
-    "firstName": "First name",
-    "lastName": "Last name",
-    "email": "Email",
-    "website": "Your website",
-    "consent": "I accept the privacy policy and consent to my data being processed.",
-    "marketing": "I would like to receive occasional tips and news from semanu (optional)",
-    "submit": "Request analysis",
-    "sending": "Sending …",
-    "okTitle": "Thank you!",
-    "okText": "Request received! Our team is putting your website through a thorough analysis and your personal report will land in your inbox within 24 hours. Keep an eye out!",
-    "okButton": "Got it",
-    "dupTitle": "Request already in progress",
-    "dupText": "You already requested an analysis with this email on {date}. Your report is on its way to this inbox. You can request a new analysis after 30 days.",
-    "errRequired": "Please fill in this field.",
-    "errEmail": "Please enter a valid Email address.",
-    "errConsent": "Please accept the privacy policy.",
-    "errGeneric": "Something went wrong. Please try again.",
-    "errRateLimit": "You have sent this form several times in a short time. Please try again in an hour or email us at {email}."
-  },
   "footer": {
     "tagline": "The digital partner for SMEs in Europe: 3D configurators and custom business software, with AI as the engine.",
     "servicesTitle": "Services",
@@ -102,12 +58,7 @@
     "topicsTitle": "Topics",
     "topics": {
       "digitalisierung": "Digitalisation for SMEs",
-      "workflow": "Workflow automation",
       "konfigurator": "3D configurator"
-    },
-    "freeToolsTitle": "Free tools",
-    "freeTools": {
-      "analysis": "Free website analysis"
     },
     "legal": {
       "imprint": "Imprint",

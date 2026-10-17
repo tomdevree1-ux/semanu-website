@@ -323,20 +323,6 @@
 }
 .semanu-pulse { animation: semanu-pulse-kf 2.4s ease-in-out infinite; }
 
-/* CTA "buzz": a short attention shake that fires on load and replays every 5s
-   (~0.5s of motion, then rest). Applied to a wrapper so the button's own hover
-   transform is unaffected. Neutralised under reduced motion. */
-@keyframes btn-buzz {
-  0%, 10%, 100% { transform: none; }
-  2% { transform: translate3d(-3px, 0, 0) rotate(-1.2deg); }
-  4% { transform: translate3d(3px, 0, 0) rotate(1.2deg); }
-  6% { transform: translate3d(-2px, 0, 0) rotate(-0.8deg); }
-  8% { transform: translate3d(2px, 0, 0) rotate(0.8deg); }
-}
-@media (prefers-reduced-motion: no-preference) {
-  .btn-buzz { animation: btn-buzz 5s ease-in-out 1s infinite; }
-}
-
 /* ── Portfolio marquee ─────────────────────────────────────────────
    Full-width, continuously sliding showcase. The track holds THREE
    identical copies of the tiles and translates by exactly one copy

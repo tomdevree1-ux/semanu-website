@@ -19,7 +19,6 @@ const PATHS = [
   ...SERVICE_SLUGS.map((s) => `/services/${s}`),
   '/services/ai-native',
   ...CONFIG_SLUGS.map((s) => `/configurator/${s}`),
-  '/website-analyse',
   '/blog',
   '/faq',
   '/kontakt',

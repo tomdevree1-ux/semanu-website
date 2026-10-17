@@ -2,16 +2,15 @@ import { NextResponse, type NextRequest } from 'next/server';
 import { leadSchema } from '@/lib/validation';
 import { verifyTurnstile } from '@/lib/security/turnstile';
 import { clientIp } from '@/lib/security/client-ip';
-import { analysisPayload, contactPayload, forwardToSubmitContact } from '@/lib/semanu-leads';
+import { contactPayload, forwardToSubmitContact } from '@/lib/semanu-leads';
 import { hitRateLimit } from '@/lib/security/memory-ratelimit';
 
 export const runtime = 'nodejs';
 
 /**
- * POST /api/leads: receives the contact form (formType 'contact') and the
- * website analysis form (formType 'analysis'), validates them and forwards them
- * server side to the SEMANU edge function submit-contact, which creates
- * company + person + card on the SEMANU leads board. Nothing is stored here.
+ * POST /api/leads: receives the contact form (formType 'contact'), validates it
+ * and forwards it server side to the SEMANU edge function submit-contact, which
+ * creates company + person + card on the SEMANU leads board. Nothing is stored here.
  */
 export async function POST(req: NextRequest) {
   let payload: unknown;
@@ -28,7 +27,7 @@ export async function POST(req: NextRequest) {
   const data = parsed.data;
 
   // Honeypots: silently accept (so bots think they succeeded) but do not forward.
-  if (data.formType === 'contact' ? data.website : data.companyUrl) {
+  if (data.website) {
     return NextResponse.json({ ok: true });
   }
 
@@ -44,7 +43,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'captcha' }, { status: 400 });
   }
 
-  const body = data.formType === 'contact' ? contactPayload(data) : analysisPayload(data);
+  const body = contactPayload(data);
   const result = await forwardToSubmitContact(body, ip === 'unknown' ? undefined : ip);
   if (result === 'rate_limited') return NextResponse.json({ error: 'rate_limited' }, { status: 429 });
   if (result !== 'ok') return NextResponse.json({ error: 'server_error' }, { status: 502 });

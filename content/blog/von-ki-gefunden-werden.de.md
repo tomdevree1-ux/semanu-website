@@ -44,7 +44,7 @@ Diese Schleife aus Prüfen und Nachbessern ist der Kern. Man kann sie einen Feed
 <div style="margin:2.5rem 0;padding:1.5rem 1.75rem;border-radius:0.75rem;background:#E9F3EE;border:1px solid #C7EBD8">
   <strong style="display:block;font-size:1.15rem;color:#16233D;margin-bottom:0.4rem">Nennt die KI Ihr Unternehmen heute schon?</strong>
   <p style="margin:0 0 1rem;color:#5B667C">Wir prüfen es kostenlos. Sie erfahren, ob und wie ChatGPT, Perplexity und Google Sie in Ihrer Region nennen. Dazu sagen wir Ihnen den schnellsten ersten Schritt.</p>
-  <a href="/de/website-analyse"><strong>Kostenlosen Check anfragen →</strong></a>
+  <a href="/de/kontakt"><strong>Kostenlosen Check anfragen →</strong></a>
 </div>
 
 ## SEO oder GEO: was denn nun?

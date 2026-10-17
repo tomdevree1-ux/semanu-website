@@ -26,11 +26,10 @@ export async function LandingTemplate({
   content: LandingContent;
   slug: string;
 }) {
-  // Cold ad traffic converts better on the low-barrier free analysis than on
-  // contact or checkout, so the landing pages lead with it as the primary CTA
-  // and keep contact as the secondary action.
+  // The landing pages lead with booking a call as the primary CTA and keep
+  // contact as the secondary action.
   const tn = await getTranslations('nav');
-  const analysisLabel = tn('strategyCall');
+  const callLabel = tn('strategyCall');
   const num = (i: number) => String(i + 1).padStart(2, '0');
 
   return (
@@ -69,7 +68,7 @@ export async function LandingTemplate({
             ) : null}
             <div className="mt-8 flex flex-wrap gap-3.5">
               <BookCallButton className="btn btn-primary">
-                {analysisLabel} <span aria-hidden className="btn-arrow" />
+                {callLabel} <span aria-hidden className="btn-arrow" />
               </BookCallButton>
               <Link href={content.heroSecondaryCta?.href ?? '/kontakt'} className="btn btn-ghost-ink">
                 {content.heroSecondaryCta?.label ?? content.ctaButton}
@@ -374,7 +373,7 @@ export async function LandingTemplate({
             <p className="mt-2 max-w-xl text-paper/80"><BrandText>{content.ctaText}</BrandText></p>
           </div>
           <BookCallButton className="btn btn-spark shrink-0">
-            {analysisLabel} <span aria-hidden className="btn-arrow" />
+            {callLabel} <span aria-hidden className="btn-arrow" />
           </BookCallButton>
         </div>
       </section>

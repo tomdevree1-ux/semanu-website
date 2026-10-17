@@ -44,7 +44,7 @@ That loop of checking and improving is the core of it. You could call it a feedb
 <div style="margin:2.5rem 0;padding:1.5rem 1.75rem;border-radius:0.75rem;background:#E9F3EE;border:1px solid #C7EBD8">
   <strong style="display:block;font-size:1.15rem;color:#16233D;margin-bottom:0.4rem">Does the AI name your business today?</strong>
   <p style="margin:0 0 1rem;color:#5B667C">We check it for free. You learn whether and how ChatGPT, Perplexity and Google name you in your region. We also point you to the fastest first step.</p>
-  <a href="/en/website-analyse"><strong>Request a free check →</strong></a>
+  <a href="/en/kontakt"><strong>Request a free check →</strong></a>
 </div>
 
 ## SEO or GEO: which one then?

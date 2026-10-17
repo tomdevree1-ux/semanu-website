@@ -1,7 +1,7 @@
 import 'server-only';
 import { env } from '@/lib/env';
 import { isValidIp } from '@/lib/security/client-ip';
-import type { AnalysisLeadInput, ContactLeadInput, ContactInterest } from '@/lib/validation';
+import type { ContactLeadInput, ContactInterest } from '@/lib/validation';
 
 /**
  * Forwards a public form submission to the SEMANU edge function
@@ -110,26 +110,6 @@ export function contactPayload(d: ContactLeadInput, now = Date.now()): SubmitCon
     utm_medium: d.utmMedium ?? null,
     utm_campaign: d.utmCampaign ?? null,
     _company_url: d.website ?? '',
-    _ts: d.renderedAt ?? now - 5000,
-  };
-}
-
-export function analysisPayload(d: AnalysisLeadInput, now = Date.now()): SubmitContactPayload {
-  const body =
-    `Aanvraag website-analyse voor: ${d.website}` +
-    `\nMarketingtoestemming: ${d.consentMarketing ? 'ja' : 'nee'}`;
-  return {
-    name: `${d.firstName} ${d.lastName}`.trim(),
-    email: d.email,
-    company: '',
-    topic: 'website-analyse',
-    topic_label: 'Website-analyse',
-    message: clampMessage(body, originTail(d)),
-    lang: langFor(d.sourceLocale),
-    utm_source: d.utmSource ?? null,
-    utm_medium: d.utmMedium ?? null,
-    utm_campaign: d.utmCampaign ?? null,
-    _company_url: d.companyUrl ?? '',
     _ts: d.renderedAt ?? now - 5000,
   };
 }

@@ -12,7 +12,7 @@ Werkinstructies voor Claude Code in deze repo (semanu.eu). Houd dit kort en up-t
 
 De publieke website van **SEMANU** op **www.semanu.eu**: een rebrand van de vorige merksite (Zwitsers merk, zelfde eigenaar)
 (zelfde diensten, zelfde huisstijl). Alleen een marketingsite: geen portaal, geen betalingen, geen
-eigen database. Formulieren gaan server side naar de bestaande SEMANU-backend (Supabase, zie onder).
+eigen database. Het contactformulier gaat server side naar de bestaande SEMANU-backend (Supabase, zie onder).
 
 - **Merk:** woordmerk `semanu` in kleine letters (Instrument Sans 600) met de chevron; juridisch
   `SEMANU BV`. Componenten: `Brand`, `BrandText` (zet "semanu" in lopende tekst om naar het
@@ -27,8 +27,9 @@ eigen database. Formulieren gaan server side naar de bestaande SEMANU-backend (S
 - **Doelgroep (beslissing oktober 2026):** Europees en landneutraal ("KMU in Europa", "SMEs in Europe" waar een
   regio helpt, anders gewoon "KMU/SMEs/kmo's"). Locatie alleen waar ze hoort: bedrijfsgegevens (Antwerpen, België)
   in footer, contact, about, juridische pagina's en JSON-LD (`src/lib/seo/area-served.ts`). Geen landenpagina's;
-  landingspagina's hebben neutrale slugs (`/3d-konfigurator`, `/workflow-automatisierung`, `/digitalisierung-kmu`),
-  de oude `*-schweiz`-slugs en Zwitserse blogs 301'en (zie `next.config.mjs`).
+  landingspagina's hebben neutrale slugs (`/3d-konfigurator`, `/digitalisierung-kmu`),
+  de oude `*-schweiz`-slugs en Zwitserse blogs 301'en (zie `next.config.mjs`). De workflowlandingspagina en de
+  gratis websiteanalyse zijn sinds oktober 2026 weg (301 naar `/services/ai-native` en `/kontakt`).
 
 ## Stack
 
@@ -50,7 +51,7 @@ Controle na wijzigingen: `npx tsc --noEmit`, `npm test`, pariteit van de vijf be
 
 ## Contactformulier → SEMANU leadsbord
 
-`ContactForm.tsx` en `FunnelForm.tsx` (website-analyse) posten naar `/api/leads`
+`ContactForm.tsx` post naar `/api/leads`
 (`src/app/api/leads/route.ts`). Die route valideert (`src/lib/validation.ts`), checkt honeypot,
 een in-memory limiet (5 per IP per uur) en Turnstile (optioneel), en stuurt door naar de edge
 function **`submit-contact`** van de SEMANU-backend (`src/lib/semanu-leads.ts`):
@@ -63,7 +64,7 @@ Bezoekers-IP: Caddy zet `X-Real-IP` (`src/lib/security/client-ip.ts` leest enkel
 route stuurt het als `X-Visitor-IP` mee met `X-Forward-Secret` (env `SEMANU_EU_FORWARD_SECRET`,
 server side, gelijk aan de Supabase-secret). Met een geldig geheim rekent submit-contact zijn limiet
 per bezoeker, zet bron `contact_form_semanu_eu` en geeft bij een limiet 429; `/api/leads` geeft dan
-ook 429 en de formulieren tonen `errRateLimit`. Node luistert op localhost (zie `deploy/`).
+ook 429 en het formulier toont `errRateLimit`. Node luistert op localhost (zie `deploy/`).
 
 `submit-contact` doet spamscore, rate limit, MX-check, dubbels en `create_lead` (bedrijf + persoon +
 kaart in "Nieuw") en mailt hello@. Dienstkeuze → topic: 3D → `configurator`, bedrijfssoftware →

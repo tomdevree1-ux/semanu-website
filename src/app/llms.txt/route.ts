@@ -37,7 +37,6 @@ ${caseLines}
 - Client stories: ${base}/en/referenzen
 - FAQ: ${base}/en/faq
 - Blog: ${base}/en/blog
-- Free website analysis: ${base}/en/website-analyse
 - Contact: ${base}/en/kontakt
 
 ## Practical

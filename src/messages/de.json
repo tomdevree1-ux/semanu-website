@@ -29,7 +29,6 @@
     "blog": "Blog",
     "faq": "FAQ",
     "contact": "Kontakt",
-    "analysis": "Website SEO Analyse",
     "strategyCall": "Strategiegespräch buchen",
     "cta": "Jetzt starten",
     "services": "Leistungen",
@@ -46,49 +45,6 @@
     "pill3d": "3D-Konfiguratoren",
     "pillAi": "Unternehmenssoftware"
   },
-  "funnel": {
-    "metaTitle": "Kostenlose Website Analyse",
-    "metaDescription": "Lassen Sie Ihre Website jetzt analysieren und erhalten Sie einen objektiven Bericht mit konkreten Verbesserungschancen. Kostenlos und unverbindlich.",
-    "eyebrow": "Kostenlose Website Analyse",
-    "title": "Lassen Sie Ihre aktuelle Website kostenlos analysieren.",
-    "intro": "Sie erhalten einen objektiven Bericht mit konkreten Verbesserungschancen für Sichtbarkeit, Tempo und Wirkung. Kostenlos und unverbindlich.",
-    "benefitsTitle": "Was Sie erhalten",
-    "benefits": [
-      "Eine ehrliche Einschätzung Ihrer aktuellen Website",
-      "Konkrete Empfehlungen für mehr Sichtbarkeit und Anfragen",
-      "Eine klare Übersicht über Tempo, Technik und SEO Grundlagen"
-    ],
-    "afterTitle": "Wie es weitergeht",
-    "afterText": "Wir melden uns innert zwei Werktagen mit Ihrer Analyse. Kein Verkaufsdruck, nur eine klare Einschätzung.",
-    "sampleTitle": "So sieht Ihr Bericht aus",
-    "sampleIntro": "Blättern Sie durch ein echtes Beispiel einer kostenlosen Website Analyse.",
-    "samplePage": "Seite",
-    "sampleOf": "von",
-    "samplePrev": "Zurück",
-    "sampleNext": "Weiter",
-    "sampleDownload": "Als PDF herunterladen",
-    "sampleAlt": "Beispielbericht Seite",
-    "close": "Schließen",
-    "formTitle": "Jetzt Analyse anfordern",
-    "firstName": "Vorname",
-    "lastName": "Name",
-    "email": "Email",
-    "website": "Ihre Website",
-    "consent": "Ich akzeptiere die Datenschutzerklärung und bin mit der Bearbeitung meiner Angaben einverstanden.",
-    "marketing": "Ich möchte gelegentlich Tipps und Neuigkeiten von semanu erhalten. (optional)",
-    "submit": "Analyse anfordern",
-    "sending": "Wird gesendet …",
-    "okTitle": "Vielen Dank!",
-    "okText": "Anfrage erhalten! Wir nehmen Ihre Website jetzt gründlich unter die Lupe und Ihr persönlicher Bericht landet innerhalb von 24 Stunden in Ihrem Postfach. Behalten Sie Ihr Postfach im Auge!",
-    "okButton": "Verstanden",
-    "dupTitle": "Anfrage läuft bereits",
-    "dupText": "Sie haben mit dieser Email am {date} bereits eine Analyse angefordert. Ihr Bericht ist unterwegs an dieses Postfach. Eine neue Analyse ist nach 30 Tagen wieder möglich.",
-    "errRequired": "Bitte ausfüllen.",
-    "errEmail": "Bitte geben Sie eine gültige Email Adresse ein.",
-    "errConsent": "Bitte stimmen Sie der Datenschutzerklärung zu.",
-    "errGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
-    "errRateLimit": "Sie haben dieses Formular in kurzer Zeit mehrmals gesendet. Bitte versuchen Sie es in einer Stunde erneut oder schreiben Sie uns an {email}."
-  },
   "footer": {
     "tagline": "Der digitale Partner für KMU in Europa: 3D Konfiguratoren und Unternehmenssoftware nach Maß, mit AI als Motor.",
     "servicesTitle": "Leistungen",
@@ -102,12 +58,7 @@
     "topicsTitle": "Themen",
     "topics": {
       "digitalisierung": "Digitalisierung für KMU",
-      "workflow": "Workflow Automatisierung",
       "konfigurator": "3D Konfigurator"
-    },
-    "freeToolsTitle": "Gratis Tools",
-    "freeTools": {
-      "analysis": "Kostenlose Website Analyse"
     },
     "legal": {
       "imprint": "Impressum",

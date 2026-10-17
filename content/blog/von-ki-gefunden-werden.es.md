@@ -44,7 +44,7 @@ Ese bucle de comprobar y mejorar es el núcleo del asunto. Se le puede llamar Fe
 <div style="margin:2.5rem 0;padding:1.5rem 1.75rem;border-radius:0.75rem;background:#E9F3EE;border:1px solid #C7EBD8">
   <strong style="display:block;font-size:1.15rem;color:#16233D;margin-bottom:0.4rem">¿Nombra hoy la IA a tu empresa?</strong>
   <p style="margin:0 0 1rem;color:#5B667C">Lo comprobamos gratis. Sabrás si ChatGPT, Perplexity y Google te nombran en tu región y cómo. También te decimos el primer paso más rápido.</p>
-  <a href="/es/website-analyse"><strong>Solicitar un check gratis →</strong></a>
+  <a href="/es/kontakt"><strong>Solicitar un check gratis →</strong></a>
 </div>
 
 ## ¿SEO o GEO, entonces cuál?

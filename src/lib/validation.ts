@@ -3,10 +3,10 @@ import { z } from 'zod';
 /**
  * Shared validation for the public lead forms. Used both server-side (the
  * /api/leads route) and client-side (form components) so messages stay
- * consistent. Both forms are forwarded server side to the SEMANU edge function
- * submit-contact, which creates company + person + card on the leads board.
+ * consistent. The contact form is forwarded server side to the SEMANU edge
+ * function submit-contact, which creates company + person + card on the leads board.
  *
- * `website` (contact form) and `companyUrl` (analysis form) are honeypots.
+ * `website` is the honeypot.
  */
 
 /** Service ids a visitor can tick on the contact form (internal service ids). */
@@ -59,24 +59,8 @@ export const contactLeadSchema = z.object({
   ...attribution,
 });
 
-/**
- * Website analysis request (lead magnet on /website-analyse). `website` is the
- * REAL field (the site to analyse), so the honeypot is `companyUrl`.
- */
-export const analysisLeadSchema = z.object({
-  formType: z.literal('analysis'),
-  firstName: z.string().trim().min(1, 'required').max(100),
-  lastName: z.string().trim().min(1, 'required').max(100),
-  email: z.string().trim().min(1, 'required').email('email').max(200),
-  website: z.string().trim().min(1, 'required').max(300),
-  consentPrivacy: z.literal(true, { errorMap: () => ({ message: 'consent_required' }) }),
-  consentMarketing: z.boolean().optional().default(false),
-  companyUrl: z.string().max(0).optional(), // honeypot: must be empty
-  ...attribution,
-});
-
-export const leadSchema = z.discriminatedUnion('formType', [contactLeadSchema, analysisLeadSchema]);
+/** The only public lead form today is the contact form. */
+export const leadSchema = contactLeadSchema;
 
 export type ContactLeadInput = z.infer<typeof contactLeadSchema>;
-export type AnalysisLeadInput = z.infer<typeof analysisLeadSchema>;
 export type LeadInput = z.infer<typeof leadSchema>;

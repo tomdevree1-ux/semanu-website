@@ -192,7 +192,6 @@ export const digitalisierungKmu: LandingLocales = {
     sections: [],
     links: [
       { href: '/services/ai-native', label: 'Software nach Maß', desc: 'Tools verbinden, Abläufe automatisieren, Portale und CRM.' },
-      { href: '/workflow-automatisierung', label: 'Workflow Automatisierung', desc: 'Wiederkehrende Abläufe laufen automatisch.' },
       { href: '/services/3d-configurators', label: '3D Konfiguratoren', desc: 'Produkte nach Maß online konfigurieren.' },
       { href: '/3d-konfigurator', label: 'Produktkonfigurator und Webshop', desc: 'Konfigurieren und direkt bestellen.' },
       { href: '/referenzen', label: 'Referenzen', desc: 'Projekte, die wir umgesetzt haben.' },
@@ -434,7 +433,6 @@ export const digitalisierungKmu: LandingLocales = {
     sections: [],
     links: [
       { href: '/services/ai-native', label: 'Logiciels sur mesure', desc: 'Connecter les outils, automatiser, portails et CRM.' },
-      { href: '/workflow-automatisierung', label: 'Automatisation des workflows', desc: 'Les tâches récurrentes tournent automatiquement.' },
       { href: '/services/3d-configurators', label: 'Configurateurs 3D', desc: 'Configurer en ligne des produits sur mesure.' },
       { href: '/3d-konfigurator', label: 'Configurateur et webshop', desc: 'Configurer et commander directement.' },
       { href: '/referenzen', label: 'Références', desc: 'Des projets que nous avons réalisés.' },
@@ -676,7 +674,6 @@ export const digitalisierungKmu: LandingLocales = {
     sections: [],
     links: [
       { href: '/services/ai-native', label: 'Custom software', desc: 'Connect tools, automate workflows, portals and CRM.' },
-      { href: '/workflow-automatisierung', label: 'Workflow automation', desc: 'Recurring tasks run automatically.' },
       { href: '/services/3d-configurators', label: '3D configurators', desc: 'Configure made to measure products online.' },
       { href: '/3d-konfigurator', label: 'Product configurator and webshop', desc: 'Configure and order directly.' },
       { href: '/referenzen', label: 'References', desc: 'Projects we have delivered.' },

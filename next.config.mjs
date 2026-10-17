@@ -101,9 +101,14 @@ const nextConfig = {
     // Landing pages (2026-10): the copy went country-neutral (Europe), so the
     // *-schweiz slugs got neutral slugs, and the pages for services no longer
     // offered (websites, website subscriptions, SEO/GEO packages) were removed.
+    // The workflow automation landing page and the free website analysis were
+    // removed later that month: workflow goes to the business software service,
+    // the analysis to the contact page.
     const landingMoved = [
       ['3d-konfigurator-schweiz', '/3d-konfigurator'],
-      ['workflow-automatisierung-schweiz', '/workflow-automatisierung'],
+      ['workflow-automatisierung-schweiz', '/services/ai-native'],
+      ['workflow-automatisierung', '/services/ai-native'],
+      ['website-analyse', '/kontakt'],
       ['digitalisierung-kmu-schweiz', '/digitalisierung-kmu'],
       ['geo-schweiz', '/blog/von-ki-gefunden-werden'],
       ['website-abo-schweiz', ''],

@@ -1,6 +1,5 @@
 import type { LandingLocale, LandingLocales } from './types';
 import { digitalisierungKmu } from './digitalisierung-kmu';
-import { workflowAutomatisierung } from './workflow-automatisierung';
 import { konfigurator3d } from './3d-konfigurator';
 
 /**
@@ -12,7 +11,6 @@ import { konfigurator3d } from './3d-konfigurator';
  */
 export const LANDING: Record<string, LandingLocales> = {
   'digitalisierung-kmu': digitalisierungKmu,
-  'workflow-automatisierung': workflowAutomatisierung,
   '3d-konfigurator': konfigurator3d,
 };
 

@@ -29,7 +29,6 @@
     "blog": "Blog",
     "faq": "FAQ",
     "contact": "Contact",
-    "analysis": "Website SEO analyse",
     "strategyCall": "Strategiegesprek boeken",
     "cta": "Nu starten",
     "services": "Diensten",
@@ -46,49 +45,6 @@
     "pill3d": "3D-configuratoren",
     "pillAi": "Bedrijfssoftware"
   },
-  "funnel": {
-    "metaTitle": "Gratis websiteanalyse",
-    "metaDescription": "Laat uw website nu analyseren en ontvang een objectief rapport met concrete verbeterkansen. Gratis en vrijblijvend.",
-    "eyebrow": "Gratis websiteanalyse",
-    "title": "Laat uw huidige website gratis analyseren.",
-    "intro": "U ontvangt een objectief rapport met concrete verbeterkansen voor zichtbaarheid, snelheid en impact. Gratis en vrijblijvend.",
-    "benefitsTitle": "Wat u ontvangt",
-    "benefits": [
-      "Een eerlijke beoordeling van uw huidige website",
-      "Concrete aanbevelingen voor meer zichtbaarheid en aanvragen",
-      "Een helder overzicht van snelheid, techniek en SEO basis"
-    ],
-    "afterTitle": "Hoe het verdergaat",
-    "afterText": "Wij nemen binnen twee werkdagen contact met u op met uw analyse. Geen verkoopdruk, alleen een heldere beoordeling.",
-    "sampleTitle": "Zo ziet uw rapport eruit",
-    "sampleIntro": "Blader door een echt voorbeeld van een gratis websiteanalyse.",
-    "samplePage": "Pagina",
-    "sampleOf": "van",
-    "samplePrev": "Vorige",
-    "sampleNext": "Volgende",
-    "sampleDownload": "Downloaden als PDF",
-    "sampleAlt": "Voorbeeldrapport pagina",
-    "close": "Sluiten",
-    "formTitle": "Vraag nu uw analyse aan",
-    "firstName": "Voornaam",
-    "lastName": "Naam",
-    "email": "Email",
-    "website": "Uw website",
-    "consent": "Ik accepteer de privacyverklaring en ga akkoord met de verwerking van mijn gegevens.",
-    "marketing": "Ik ontvang graag af en toe tips en nieuws van semanu (optioneel)",
-    "submit": "Analyse aanvragen",
-    "sending": "Wordt verzonden …",
-    "okTitle": "Hartelijk dank!",
-    "okText": "Aanvraag ontvangen! Wij nemen uw website nu grondig onder de loep en uw persoonlijke rapport belandt binnen 24 uur in uw mailbox. Houd uw mailbox in de gaten!",
-    "okButton": "Begrepen",
-    "dupTitle": "Aanvraag loopt al",
-    "dupText": "U heeft met dit Email adres op {date} al een analyse aangevraagd. Uw rapport is onderweg naar deze mailbox. Een nieuwe analyse is na 30 dagen weer mogelijk.",
-    "errRequired": "Gelieve in te vullen.",
-    "errEmail": "Voer een geldig Email adres in.",
-    "errConsent": "Ga akkoord met de privacyverklaring.",
-    "errGeneric": "Er is iets misgegaan. Probeer het opnieuw.",
-    "errRateLimit": "U hebt dit formulier kort na elkaar meerdere keren verstuurd. Probeer het over een uur opnieuw of mail ons op {email}."
-  },
   "footer": {
     "tagline": "De digitale partner voor kmo's in Europa: 3D-configuratoren en bedrijfssoftware op maat, met AI als motor.",
     "servicesTitle": "Diensten",
@@ -102,12 +58,7 @@
     "topicsTitle": "Onderwerpen",
     "topics": {
       "digitalisierung": "Digitalisering voor kmo's",
-      "workflow": "Workflowautomatisering",
       "konfigurator": "3D configurator"
-    },
-    "freeToolsTitle": "Gratis tools",
-    "freeTools": {
-      "analysis": "Gratis websiteanalyse"
     },
     "legal": {
       "imprint": "Colofon",
