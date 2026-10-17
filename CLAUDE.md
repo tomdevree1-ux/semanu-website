@@ -22,19 +22,29 @@ eigen database. Het contactformulier gaat server side naar de bestaande SEMANU-b
   (één bron: `src/lib/contact.ts`).
 - **Diensten:** 3D-configuratoren en bedrijfssoftware (`/services/business-software`, incl. workflowautomatisering).
   Consultancy is sinds oktober 2026 geen dienst meer (`/services/consultancy` 301 naar `/services/business-software`).
-  Oude dienst-URL's 301'en (zie `next.config.mjs`).
+  Oude dienst-URL's 301'en (lijst in `src/lib/legacy-redirects.mjs`, gebruikt door `next.config.mjs` en de middleware).
 - **URL's (beslissing oktober 2026):** één Engelse slug per pagina, gelijk in alle talen (alleen het
   taalprefix verschilt): `/contact`, `/references`, `/about`, `/faq`, `/blog/<engelse-slug>`, `/privacy`,
-  `/terms`, `/legal-notice`, `/services/3d-configurators`, `/services/business-software`, `/configurator/<type>`.
-  Oude Duitse slugs 301'en rechtstreeks naar het eindadres (`next.config.mjs`). Nieuwe pagina's en blogs
-  krijgen meteen een Engelse slug.
+  `/legal-notice`, `/services/3d-configurators`, `/services/business-software`, `/configurator/<type>`
+  (cabinet, table, railing, gate). Oude Duitse slugs 301'en rechtstreeks naar het eindadres
+  (`src/lib/legacy-redirects.mjs`); oude URL's zonder taalprefix bereiken het eindadres ook in één hop
+  (`src/middleware.ts`). Nieuwe pagina's en blogs krijgen meteen een Engelse slug.
+- **Geen algemene voorwaarden op de site (beslissing oktober 2026):** `/terms` en `/agb` 301'en naar
+  `/legal-notice`. Toestemmingen in formulieren verwijzen enkel naar de privacyverklaring.
+- **Blogs (oktober 2026):** enkel `ai-native-digital-business` en `getting-found-by-ai`. De blogs over
+  websites, SEO en het website-abonnement zijn weg en 301'en (ook hun oude Duitse slugs) naar `/blog`.
+  Nieuwe blogs gaan over AI, bedrijfssoftware of 3D-configuratoren.
+- **Breadcrumbs (beslissing oktober 2026):** geen zichtbaar kruimelpad op de site (klein, de navigatie volstaat).
+  Wel `BreadcrumbList` JSON-LD op dieperliggende pagina's: dienstpagina's en configuratordemo's
+  (Home → pagina), blogartikels (Home → Blog → artikel). Nooit een tussenstap naar een URL die redirect
+  (`/services` bestaat niet).
 - **Prijzen:** nergens bedragen op de site; overal "op aanvraag" (per taal). Valuta EUR, excl. btw.
 - **Doelgroep (beslissing oktober 2026):** Europees en landneutraal ("KMU in Europa", "SMEs in Europe" waar een
   regio helpt, anders gewoon "KMU/SMEs/kmo's"). Locatie alleen waar ze hoort: bedrijfsgegevens (Antwerpen, België)
   in footer, contact, about, juridische pagina's en JSON-LD (`src/lib/seo/area-served.ts`). Geen landenpagina's
   en sinds oktober 2026 geen landingspagina's meer: `/3d-configurator` en `/sme-digitalisation` (en hun oude
   `*-schweiz`/Duitse slugs) 301'en rechtstreeks naar `/services/3d-configurators` en `/services/business-software`;
-  Zwitserse blogs 301'en ook (zie `next.config.mjs`). De workflowlandingspagina en de
+  Zwitserse blogs 301'en ook (zie `src/lib/legacy-redirects.mjs`). De workflowlandingspagina en de
   gratis websiteanalyse zijn weg (301 naar `/services/business-software` en `/contact`).
 
 ## Stack
