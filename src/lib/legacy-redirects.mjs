@@ -71,7 +71,10 @@ export const pageMoved = [
 // Blog posts with a former German slug, now English.
 export const blogRenamed = [
   ['von-ki-gefunden-werden', 'getting-found-by-ai'],
-  ['ai-native-digitalunternehmen', 'ai-native-digital-business'],
+  // The AI-native post was renamed AI-first (2026-10); both older slugs go
+  // straight to the new slug.
+  ['ai-native-digitalunternehmen', 'ai-first-digital-business'],
+  ['ai-native-digital-business', 'ai-first-digital-business'],
 ];
 // Removed blog posts: 301 to the blog index. Switzerland-only posts (the Swiss
 // SME website study and its spin-offs, the revDSG check, the Röstigraben post)

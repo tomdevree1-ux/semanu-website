@@ -1,11 +1,11 @@
 ---
-title: "Ce que signifie être une entreprise digitale AI-native"
-description: "semanu est une entreprise digitale AI-native et votre partenaire pour les configurateurs 3D et les logiciels métier sur mesure. Ce que cela change pour vous."
+title: "Ce que signifie être une entreprise digitale AI-first"
+description: "semanu est une entreprise digitale AI-first et votre partenaire pour les configurateurs 3D et les logiciels métier sur mesure. Ce que cela change pour vous."
 date: "2026-07-10"
 updated: "2026-10-17"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-native-digital-business-cover.svg"
+cover: "/blog/ai-first-digital-business-cover.svg"
 ---
 
 La technologie digitale doit faire avancer une entreprise et non la rendre plus complexe. Pourtant, beaucoup d'entreprises travaillent aujourd'hui avec des prestataires différents pour leur site web, leur boutique en ligne, l'e-mail marketing, les automatisations, les logiciels et l'AI. Résultat : des systèmes dispersés, une communication lente et des solutions qui s'accordent mal entre elles.
@@ -14,11 +14,11 @@ Chez <span class="brand-mark">semanu</span>, nous faisons les choses autrement.
 
 Nous nous concentrons sur deux domaines : les configurateurs 3D et les logiciels métier sur mesure. Des configurateurs de produits à l'automatisation des processus en passant par les portails clients et l'AI dans vos processus, nous réunissons stratégie, technologie et réalisation chez un seul partenaire digital.
 
-Mais un autre élément nous distingue. <span class="brand-mark">semanu</span> est une entreprise AI-native.
+Mais un autre élément nous distingue. <span class="brand-mark">semanu</span> est une entreprise AI-first.
 
-## Qu'est-ce qu'une entreprise AI-native ?
+## Qu'est-ce qu'une entreprise AI-first ?
 
-AI-native signifie que l'AI n'est ni un produit à part ni une tendance passagère. L'AI fait partie de notre façon de penser, de collaborer et de réaliser nos projets.
+AI-first signifie que l'AI passe en premier à chaque étape de notre façon de penser, de collaborer et de réaliser nos projets. L'AI n'est ni un produit à part ni une tendance passagère. Le contrôle reste entre les mains de l'humain : ce sont nos équipes qui décident, vérifient et assument la responsabilité.
 
 Nos collaborateurs ne sont pas remplacés par l'AI. Ils sont renforcés par elle.
 
@@ -26,7 +26,7 @@ Nous utilisons l'AI comme un collègue digital qui nous aide notamment pour la r
 
 L'AI accélère notre travail. L'expertise humaine reste la base. Chaque solution est toujours conçue, vérifiée et améliorée par des personnes qui comprennent l'entreprise et ses objectifs.
 
-<img src="/blog/ai-native-digital-business-visual.svg" alt="Illustration : l'expertise humaine associée à l'AI" style="display:block;width:100%;height:auto;margin:2.5rem 0;border-radius:0.5rem;border:1px solid #E9EEF6" />
+<img src="/blog/ai-first-digital-business-visual.svg" alt="Illustration : l'expertise humaine associée à l'AI" style="display:block;width:100%;height:auto;margin:2.5rem 0;border-radius:0.5rem;border:1px solid #E9EEF6" />
 
 ## Plus vite de l'idée au résultat
 
@@ -42,7 +42,7 @@ Il reste ainsi plus de place pour le sur mesure, l'échange et la qualité.
 
 Les projets digitaux sont généralement facturés selon le temps nécessaire à leur réalisation. Quand une équipe peut travailler plus efficacement, cela se répercute directement sur le prix du projet.
 
-Grâce à notre façon de travailler AI-native, nous pouvons souvent réaliser des projets avec moins d'étapes répétitives et des cycles de développement plus courts. Nous pouvons donc proposer des solutions digitales professionnelles à un prix plus juste qu'avec une approche entièrement traditionnelle.
+Grâce à notre façon de travailler AI-first, nous pouvons souvent réaliser des projets avec moins d'étapes répétitives et des cycles de développement plus courts. Nous pouvons donc proposer des solutions digitales professionnelles à un prix plus juste qu'avec une approche entièrement traditionnelle.
 
 Nous faisons profiter nos clients de cette efficacité.
 
@@ -98,6 +98,6 @@ Le monde digital évolue vite. Une entreprise n'a pourtant pas à suivre elle-m�
 
 Avec <span class="brand-mark">semanu</span>, vous avez un seul partenaire pour l'ensemble de votre environnement digital. Un partenaire qui ne voit pas les configurateurs, les automatisations, les plateformes et l'AI comme des éléments séparés. Il les réunit dans une approche claire.
 
-Comme nous travaillons de façon AI-native, nous pouvons développer plus vite, collaborer plus efficacement et proposer des projets à un prix plus juste. Sans perdre de vue l'expertise humaine, l'accompagnement personnel et la qualité.
+Comme nous travaillons de façon AI-first, nous pouvons développer plus vite, collaborer plus efficacement et proposer des projets à un prix plus juste. Sans perdre de vue l'expertise humaine, l'accompagnement personnel et la qualité.
 
 Vous souhaitez découvrir comment votre entreprise peut travailler plus intelligemment grâce à la technologie digitale et à l'AI ? Contactez <span class="brand-mark">semanu</span> pour discuter de votre idée.

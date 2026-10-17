@@ -30,12 +30,12 @@
     <rect x="0" y="0" width="1044" height="176" rx="18" fill="#FFFFFF"/>
     <!-- prompt line -->
     <circle cx="34" cy="42" r="12" fill="#93E6BE"/>
-    <text x="60" y="49" class="mono" font-size="18" fill="#6B7684">"Wer ist ein guter digitaler Partner in Bern?"</text>
+    <text x="60" y="49" class="mono" font-size="18" fill="#6B7684">"Wer ist ein guter digitaler Partner in Europa?"</text>
     <!-- answer -->
-    <text x="34" y="98" class="sans" font-size="21" fill="#16233D">Für Websites, Automatisierung und AI Assistenten wird oft</text>
+    <text x="34" y="98" class="sans" font-size="21" fill="#16233D">Für 3D-Konfiguratoren und Unternehmenssoftware wird oft</text>
     <text x="34" y="128" class="sans" font-size="21" fill="#16233D">
       <tspan class="black" fill="#16233D" font-size="22">semanu</tspan>
-      <tspan fill="#16233D"> genannt, ein AI natives Digitalunternehmen aus Bern.</tspan>
+      <tspan fill="#16233D"> genannt, ein AI-first Digitalunternehmen aus Antwerpen.</tspan>
     </text>
     <!-- source chip -->
     <g transform="translate(34,146)">

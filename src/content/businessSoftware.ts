@@ -45,7 +45,7 @@ export const BUSINESS_SOFTWARE: Record<ServicesLocale, BusinessSoftwareCopy> = {
     metaTitle: 'Bedrijfssoftware op maat laten bouwen · semanu.eu',
     metaDescription:
       'Bedrijfssoftware op maat voor kmo’s, AI-first ontwikkeld: van offertebeheer en werkvoorbereiding tot productie en planning. Modulair en uitbreidbaar.',
-    serviceName: 'AI-native bedrijfssoftware',
+    serviceName: 'AI-first bedrijfssoftware',
     serviceType: 'Bedrijfssoftware op maat',
     heroHeadline: 'Bedrijfssoftware opnieuw uitgevonden.',
     heroSub:
@@ -91,7 +91,7 @@ export const BUSINESS_SOFTWARE: Record<ServicesLocale, BusinessSoftwareCopy> = {
     metaTitle: 'Have custom business software built · semanu.eu',
     metaDescription:
       'Custom business software for SMEs, developed AI-first: from quotes and work preparation to production and planning. Modular, so you start small and grow.',
-    serviceName: 'AI-native business software',
+    serviceName: 'AI-first business software',
     serviceType: 'Custom business software',
     heroHeadline: 'Business software, reinvented.',
     heroSub:
@@ -137,7 +137,7 @@ export const BUSINESS_SOFTWARE: Record<ServicesLocale, BusinessSoftwareCopy> = {
     metaTitle: 'Unternehmenssoftware nach Maß entwickeln lassen · semanu.eu',
     metaDescription:
       'Unternehmenssoftware nach Maß für KMU, AI-first entwickelt: von Angeboten und Arbeitsvorbereitung bis Produktion und Planung. Modular und erweiterbar.',
-    serviceName: 'AI-native Unternehmenssoftware',
+    serviceName: 'AI-first Unternehmenssoftware',
     serviceType: 'Unternehmenssoftware nach Maß',
     heroHeadline: 'Unternehmenssoftware, neu gedacht.',
     heroSub:
@@ -183,7 +183,7 @@ export const BUSINESS_SOFTWARE: Record<ServicesLocale, BusinessSoftwareCopy> = {
     metaTitle: 'Faire développer un logiciel d’entreprise sur mesure · semanu.eu',
     metaDescription:
       'Logiciel d’entreprise sur mesure pour PME, développé AI-first : des devis et de la préparation du travail à la production et au planning. Modulaire.',
-    serviceName: 'Logiciel d’entreprise AI-native',
+    serviceName: 'Logiciel d’entreprise AI-first',
     serviceType: 'Logiciel d’entreprise sur mesure',
     heroHeadline: 'Le logiciel d’entreprise réinventé.',
     heroSub:
@@ -229,7 +229,7 @@ export const BUSINESS_SOFTWARE: Record<ServicesLocale, BusinessSoftwareCopy> = {
     metaTitle: 'Encargar software empresarial a medida · semanu.eu',
     metaDescription:
       'Software empresarial a medida para pymes, desarrollado AI-first: de presupuestos y preparación del trabajo a producción y planificación. Modular.',
-    serviceName: 'Software empresarial AI-native',
+    serviceName: 'Software empresarial AI-first',
     serviceType: 'Software empresarial a medida',
     heroHeadline: 'El software empresarial, reinventado.',
     heroSub:

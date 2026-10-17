@@ -1,4 +1,4 @@
-// FAQ for the AI-native business software page (/services/business-software), one block
+// FAQ for the AI-first business software page (/services/business-software), one block
 // per locale. The German block is Tom's original (meaning kept verbatim, standard German spelling with ß since 2026-10);
 // nl/en/fr/es are faithful translations with the same structure and order.
 // House style in every language: no em/en dashes, no comma before a
@@ -15,8 +15,8 @@ export const AI_NATIVE_FAQ: Record<ServicesLocale, AiNativeFaq> = {
     title: 'Veelgestelde vragen over bedrijfssoftware op maat',
     items: [
       {
-        q: 'Wat is AI-native bedrijfssoftware?',
-        a: 'AI-native bedrijfssoftware is software waarin artificiële intelligentie van bij het begin is meegedacht. Ze helpt bedrijven om bedrijfsprocessen te automatiseren, gegevens slim te verwerken en terugkerende taken te verminderen. Bij semanu combineren we die aanpak met een AI-first ontwikkelmethode. Zo ontstaat software op maat die precies is afgestemd op uw bedrijfsprocessen.',
+        q: 'Wat is AI-first bedrijfssoftware?',
+        a: 'AI-first bedrijfssoftware is software waarin artificiële intelligentie bij elke stap vooropstaat, van het eerste ontwerp tot het dagelijkse gebruik. Ze helpt bedrijven om bedrijfsprocessen te automatiseren, gegevens slim te verwerken en terugkerende taken te verminderen. De controle blijft bij mensen: uw team beslist en ons team beoordeelt en verbetert wat AI voorstelt. Zo ontstaat software op maat die precies is afgestemd op uw bedrijfsprocessen.',
       },
       {
         q: 'Wat kost de ontwikkeling van bedrijfssoftware op maat?',
@@ -52,8 +52,8 @@ export const AI_NATIVE_FAQ: Record<ServicesLocale, AiNativeFaq> = {
     title: 'Frequently asked questions about custom business software',
     items: [
       {
-        q: 'What is AI-native business software?',
-        a: 'AI-native business software is software designed around artificial intelligence from the start. It helps companies automate business processes, handle data intelligently and reduce repetitive tasks. At semanu we combine this approach with an AI-first development method. The result is custom software tailored precisely to your business processes.',
+        q: 'What is AI-first business software?',
+        a: 'AI-first business software is software in which artificial intelligence comes first at every step, from the first design to daily use. It helps companies automate business processes, handle data intelligently and reduce repetitive tasks. People stay in control: your team decides and our team reviews and improves what AI suggests. The result is custom software tailored precisely to your business processes.',
       },
       {
         q: 'How much does custom business software cost to develop?',
@@ -89,8 +89,8 @@ export const AI_NATIVE_FAQ: Record<ServicesLocale, AiNativeFaq> = {
     title: 'Häufige Fragen zu maßgeschneiderter Unternehmenssoftware',
     items: [
       {
-        q: 'Was ist AI-native Unternehmenssoftware?',
-        a: 'AI-native Unternehmenssoftware ist eine Software, bei der künstliche Intelligenz von Anfang an mitgedacht wird. Sie unterstützt Unternehmen dabei, Geschäftsprozesse zu automatisieren, Daten intelligent zu verarbeiten und wiederkehrende Aufgaben zu reduzieren. Bei semanu kombinieren wir diesen Ansatz mit einer AI-first Entwicklungsmethode. So entsteht maßgeschneiderte Software, die genau auf Ihre Geschäftsprozesse abgestimmt ist.',
+        q: 'Was ist AI-first Unternehmenssoftware?',
+        a: 'AI-first Unternehmenssoftware ist Software, bei der künstliche Intelligenz bei jedem Schritt an erster Stelle steht, vom ersten Entwurf bis zum täglichen Einsatz. Sie unterstützt Unternehmen dabei, Geschäftsprozesse zu automatisieren, Daten intelligent zu verarbeiten und wiederkehrende Aufgaben zu reduzieren. Die Kontrolle bleibt beim Menschen: Ihr Team entscheidet und unser Team prüft und verbessert, was AI vorschlägt. So entsteht maßgeschneiderte Software, die genau auf Ihre Geschäftsprozesse abgestimmt ist.',
       },
       {
         q: 'Was kostet die Entwicklung einer individuellen Unternehmenssoftware?',
@@ -126,8 +126,8 @@ export const AI_NATIVE_FAQ: Record<ServicesLocale, AiNativeFaq> = {
     title: 'Questions fréquentes sur le logiciel d’entreprise sur mesure',
     items: [
       {
-        q: 'Un logiciel d’entreprise AI-native, c’est quoi ?',
-        a: 'Un logiciel d’entreprise AI-native est conçu dès le départ autour de l’intelligence artificielle. Il aide les entreprises à automatiser leurs processus, à traiter les données de manière intelligente et à réduire les tâches répétitives. Chez semanu, nous combinons cette approche avec une méthode de développement AI-first. Vous obtenez ainsi un logiciel sur mesure parfaitement adapté à vos processus métier.',
+        q: 'Un logiciel d’entreprise AI-first, c’est quoi ?',
+        a: 'Un logiciel d’entreprise AI-first place l’intelligence artificielle en premier à chaque étape, de la première conception à l’usage quotidien. Il aide les entreprises à automatiser leurs processus, à traiter les données de manière intelligente et à réduire les tâches répétitives. Le contrôle reste humain : votre équipe décide et la nôtre vérifie et améliore ce que l’AI propose. Vous obtenez ainsi un logiciel sur mesure parfaitement adapté à vos processus métier.',
       },
       {
         q: 'Combien coûte le développement d’un logiciel d’entreprise sur mesure ?',
@@ -163,8 +163,8 @@ export const AI_NATIVE_FAQ: Record<ServicesLocale, AiNativeFaq> = {
     title: 'Preguntas frecuentes sobre software empresarial a medida',
     items: [
       {
-        q: '¿Qué es el software empresarial AI-native?',
-        a: 'El software empresarial AI-native es software concebido desde el principio en torno a la inteligencia artificial. Ayuda a las empresas a automatizar procesos de negocio, tratar los datos de forma inteligente y reducir las tareas repetitivas. En semanu combinamos este enfoque con un método de desarrollo AI-first. Así nace un software a medida, ajustado exactamente a sus procesos de negocio.',
+        q: '¿Qué es el software empresarial AI-first?',
+        a: 'El software empresarial AI-first es software en el que la inteligencia artificial va primero en cada paso, desde el primer diseño hasta el uso diario. Ayuda a las empresas a automatizar procesos de negocio, tratar los datos de forma inteligente y reducir las tareas repetitivas. El control sigue en manos de las personas: su equipo decide y el nuestro revisa y mejora lo que propone la AI. Así nace un software a medida, ajustado exactamente a sus procesos de negocio.',
       },
       {
         q: '¿Cuánto cuesta desarrollar software empresarial a medida?',
@@ -198,7 +198,7 @@ export const AI_NATIVE_FAQ: Record<ServicesLocale, AiNativeFaq> = {
   },
 };
 
-/** FAQ for the AI-native page in the given locale, falling back to Dutch. */
+/** FAQ for the AI-first business software page in the given locale, falling back to Dutch. */
 export function getAiNativeFaq(locale: string): AiNativeFaq {
   return AI_NATIVE_FAQ[locale as ServicesLocale] ?? AI_NATIVE_FAQ.nl;
 }

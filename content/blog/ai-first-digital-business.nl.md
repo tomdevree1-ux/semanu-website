@@ -1,11 +1,11 @@
 ---
-title: "Wat het betekent om een AI-native digitaal bedrijf te zijn"
-description: "Wat AI-native betekent en hoe uw onderneming daarvan profiteert: semanu als partner voor 3D-configuratoren en bedrijfssoftware op maat."
+title: "Wat het betekent om een AI-first digitaal bedrijf te zijn"
+description: "Wat AI-first betekent en hoe uw onderneming daarvan profiteert: semanu als partner voor 3D-configuratoren en bedrijfssoftware op maat."
 date: "2026-07-10"
 updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-native-digital-business-cover.svg"
+cover: "/blog/ai-first-digital-business-cover.svg"
 ---
 
 Digitale technologie moet een onderneming vooruithelpen en niet ingewikkelder maken. Toch werken veel bedrijven vandaag met verschillende aanbieders voor hun website, hun webshop, het Email Marketing, automatiseringen, software en AI. Het resultaat zijn verspreide systemen, trage communicatie en oplossingen die te weinig op elkaar zijn afgestemd.
@@ -14,11 +14,11 @@ Bij <span class="brand-mark">semanu</span> pakken we dat anders aan.
 
 We richten ons op twee dingen: 3D-configurators en bedrijfssoftware op maat. Van productconfigurator over workflow automatisering tot klantenportalen en AI in uw processen: we brengen strategie, technologie en uitvoering samen bij één digitale partner.
 
-Maar er is nog iets dat ons onderscheidt. <span class="brand-mark">semanu</span> is een AI-native bedrijf.
+Maar er is nog iets dat ons onderscheidt. <span class="brand-mark">semanu</span> is een AI-first bedrijf.
 
-## Wat is een AI-native bedrijf?
+## Wat is een AI-first bedrijf?
 
-AI-native betekent dat AI geen apart product en geen voorbijgaande trend is. AI is een deel van hoe we denken, samenwerken en projecten uitvoeren.
+AI-first betekent dat AI bij elke stap vooropstaat in hoe we denken, samenwerken en projecten uitvoeren. AI is geen apart product en geen voorbijgaande trend. De controle blijft bij mensen: zij beslissen, beoordelen en dragen de verantwoordelijkheid.
 
 Onze medewerkers worden niet vervangen door AI. Ze worden erdoor versterkt.
 
@@ -26,7 +26,7 @@ We gebruiken AI als een digitale collega die ons onder meer helpt bij onderzoek,
 
 AI versnelt ons werk. De menselijke expertise blijft echter de basis. Elke oplossing wordt nog steeds ontworpen, gecontroleerd en verbeterd door mensen die de onderneming en haar doelen begrijpen.
 
-<img src="/blog/ai-native-digital-business-visual.svg" alt="Illustratie: menselijke expertise gecombineerd met AI" style="display:block;width:100%;height:auto;margin:2.5rem 0;border-radius:0.5rem;border:1px solid #E9EEF6" />
+<img src="/blog/ai-first-digital-business-visual.svg" alt="Illustratie: menselijke expertise gecombineerd met AI" style="display:block;width:100%;height:auto;margin:2.5rem 0;border-radius:0.5rem;border:1px solid #E9EEF6" />
 
 ## Sneller van idee naar resultaat
 
@@ -42,7 +42,7 @@ Zo ontstaat er meer ruimte voor maatwerk, uitwisseling en kwaliteit.
 
 Digitale projecten worden meestal berekend op basis van de tijd die nodig is voor de uitvoering. Wanneer een team efficiënter kan werken, heeft dat een directe invloed op de projectprijs.
 
-Dankzij onze AI-native werkwijze kunnen we projecten vaak met minder terugkerende handelingen en kortere ontwikkelcycli realiseren. Daardoor bieden we professionele digitale oplossingen aan een voordeligere prijs dan bij een volledig traditionele aanpak.
+Dankzij onze AI-first werkwijze kunnen we projecten vaak met minder terugkerende handelingen en kortere ontwikkelcycli realiseren. Daardoor bieden we professionele digitale oplossingen aan een voordeligere prijs dan bij een volledig traditionele aanpak.
 
 Deze efficiëntie geven we door aan onze klanten.
 
@@ -98,6 +98,6 @@ De digitale wereld ontwikkelt zich snel. Toch moet een onderneming niet elke nie
 
 Met <span class="brand-mark">semanu</span> krijgt u een partner voor uw volledige digitale omgeving. Een partner die configurators, automatiseringen, platformen en AI niet als losse delen beschouwt. Hij brengt ze samen in een heldere aanpak.
 
-Omdat we AI-native werken, kunnen we sneller ontwikkelen, efficiënter samenwerken en projecten aan een voordeligere prijs aanbieden. Zonder de menselijke expertise, de persoonlijke begeleiding en de kwaliteit uit het oog te verliezen.
+Omdat we AI-first werken, kunnen we sneller ontwikkelen, efficiënter samenwerken en projecten aan een voordeligere prijs aanbieden. Zonder de menselijke expertise, de persoonlijke begeleiding en de kwaliteit uit het oog te verliezen.
 
 Wilt u ontdekken hoe uw onderneming met digitale technologie en AI slimmer kan werken? Neem contact op met <span class="brand-mark">semanu</span> en bespreek uw idee met ons.

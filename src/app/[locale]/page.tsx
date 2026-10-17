@@ -48,7 +48,7 @@ type HomeContent = {
   trio: { title: string; text: string }[];
   factsHead: { title: string; link: string };
   facts: { value: number | null; prefix?: string; label: string; desc: string }[];
-  aiNative: { body: string; cta: string };
+  aiFirst: { body: string; cta: string };
   refHead: { title: string; link: string };
   refIntro: string;
   cases: { label: string; client: string; text: string; alt: string }[];
@@ -66,11 +66,11 @@ const en: HomeContent = {
     p1: 'Your team copies data between systems, quotes take manual work and customer information is scattered across CRM, ERP and spreadsheets. Existing software no longer fits your processes or systems work together poorly. That costs time, causes errors and makes further growth harder.',
     p2: 'At the same time the digital standard in the market keeps rising. Customers expect speed, simplicity and a seamless experience across every touchpoint. When your organisation cannot keep up with that evolution, friction grows with direct consequences for efficiency, conversion, customer retention and your position in the market.',
   },
-  servicesHead: { title: 'From advice to execution.' },
+  servicesHead: { title: 'From idea to working software.' },
   trio: [
     { title: 'One plan', text: 'Strong results start with a clear plan that connects your processes and goals.' },
-    { title: 'One team', text: 'Advice, design and engineering in one team with AI as an amplifier instead of silos.' },
-    { title: 'One partner', text: 'From strategy to execution, without handovers or gaps in the flow. Focused on the long term.' },
+    { title: 'One team', text: 'Design and engineering in one team with AI as an amplifier instead of silos.' },
+    { title: 'One partner', text: 'From the first sketch to software that runs every day, without handovers or gaps in the flow. Focused on the long term.' },
   ],
   factsHead: { title: 'Why businesses choose semanu', link: 'About us' },
   facts: [
@@ -79,8 +79,8 @@ const en: HomeContent = {
     { value: 125, prefix: '+', label: 'projects', desc: 'Delivered for SMEs across many sectors.' },
     { value: null, prefix: 'AI', label: 'driven', desc: 'AI as the engine but only where it is demonstrably useful.' },
   ],
-  aiNative: {
-    body: 'We use AI as an amplifier, not a replacement. Our experts combine AI with human expertise to make software development, business processes and digital workflows faster and smarter. Control stays with our people: through continuous feedback they review and improve what AI produces. The result is better software, more efficient processes and faster digital solutions for your business.',
+  aiFirst: {
+    body: 'AI comes first in every step we take, as an amplifier and not a replacement. Our experts combine AI with human expertise to make software development, business processes and digital workflows faster and smarter. Control stays with our people: through continuous feedback they review and improve what AI produces. The result is better software, more efficient processes and faster digital solutions for your business.',
     cta: 'Start the conversation',
   },
   refHead: { title: 'From expertise to measurable results.', link: 'All client stories' },
@@ -114,11 +114,11 @@ const de: HomeContent = {
     p1: 'Ihr Team kopiert Daten zwischen Systemen, Angebote erfordern manuelle Arbeit und Kundendaten sind über CRM, ERP und Tabellen verteilt. Bestehende Software passt nicht mehr zu Ihren Prozessen oder Systeme arbeiten zu wenig zusammen. Das kostet Zeit, verursacht Fehler und erschwert weiteres Wachstum.',
     p2: 'Gleichzeitig steigt der digitale Standard im Markt. Kunden erwarten Tempo, Einfachheit und ein nahtloses Erlebnis über jeden Kontaktpunkt. Wenn Ihre Organisation dieser Entwicklung nicht folgen kann, wächst die Reibung mit direkten Folgen für Effizienz, Conversion, Kundenbindung und Ihre Position im Markt.',
   },
-  servicesHead: { title: 'Von Beratung bis Umsetzung.' },
+  servicesHead: { title: 'Von der Idee zur funktionierenden Software.' },
   trio: [
     { title: 'Ein Plan', text: 'Starke Resultate beginnen mit einem klaren Plan, der Ihre Prozesse und Ziele verbindet.' },
-    { title: 'Ein Team', text: 'Beratung, Design und Entwicklung in einem Team mit AI als Verstärker statt Silos.' },
-    { title: 'Ein Partner', text: 'Von der Strategie bis zur Umsetzung, ohne Übergaben oder Lücken im Ablauf. Auf lange Sicht ausgerichtet.' },
+    { title: 'Ein Team', text: 'Design und Entwicklung in einem Team mit AI als Verstärker statt Silos.' },
+    { title: 'Ein Partner', text: 'Von der ersten Skizze bis zur Software im täglichen Einsatz, ohne Übergaben oder Lücken im Ablauf. Auf lange Sicht ausgerichtet.' },
   ],
   factsHead: { title: 'Warum Unternehmen semanu wählen.', link: 'Über uns' },
   facts: [
@@ -127,8 +127,8 @@ const de: HomeContent = {
     { value: 125, prefix: '+', label: 'Projekte', desc: 'Für KMU in unterschiedlichen Branchen umgesetzt.' },
     { value: null, prefix: 'AI', label: 'driven', desc: 'AI als Motor aber nur dort, wo es nachweisbar nützlich ist.' },
   ],
-  aiNative: {
-    body: 'Wir setzen AI als Verstärker ein, nicht als Ersatz. Unsere Experten kombinieren AI mit menschlicher Expertise, um Softwareentwicklung, Geschäftsprozesse und digitale Workflows schneller und intelligenter zu machen. Die Kontrolle bleibt bei unseren Menschen: über kontinuierliches Feedback prüfen und verbessern sie die Ergebnisse der AI. So entstehen bessere Software, effizientere Prozesse und schnellere digitale Lösungen für Ihr Unternehmen.',
+  aiFirst: {
+    body: 'AI steht bei jedem Schritt an erster Stelle, als Verstärker und nicht als Ersatz. Unsere Experten kombinieren AI mit menschlicher Expertise, um Softwareentwicklung, Geschäftsprozesse und digitale Workflows schneller und intelligenter zu machen. Die Kontrolle bleibt bei unseren Menschen: über kontinuierliches Feedback prüfen und verbessern sie die Ergebnisse der AI. So entstehen bessere Software, effizientere Prozesse und schnellere digitale Lösungen für Ihr Unternehmen.',
     cta: 'Gespräch starten',
   },
   refHead: { title: 'Von Expertise zu messbarem Resultat.', link: 'Alle Referenzen' },
@@ -162,11 +162,11 @@ const fr: HomeContent = {
     p1: 'Votre équipe copie des données entre les systèmes, les devis demandent un travail manuel et les informations clients sont dispersées entre CRM, ERP et tableurs. Les logiciels existants ne correspondent plus à vos processus ou les systèmes collaborent mal. Cela coûte du temps, génère des erreurs et complique la croissance.',
     p2: 'En même temps, le standard digital du marché ne cesse de monter. Les clients attendent de la rapidité, de la simplicité et une expérience fluide à chaque point de contact. Quand votre organisation ne suit pas cette évolution, la friction augmente avec des conséquences directes sur l’efficacité, la conversion, la fidélisation et votre position sur le marché.',
   },
-  servicesHead: { title: 'Du conseil à l’exécution.' },
+  servicesHead: { title: 'De l’idée au logiciel opérationnel.' },
   trio: [
     { title: 'Un plan', text: 'Les bons résultats commencent par un plan clair qui relie vos processus et vos objectifs.' },
-    { title: 'Une équipe', text: 'Conseil, design et développement dans une seule équipe avec l’AI comme amplificateur plutôt que des silos.' },
-    { title: 'Un partenaire', text: 'De la stratégie à l’exécution, sans transferts ni ruptures dans le flux. Orienté long terme.' },
+    { title: 'Une équipe', text: 'Design et développement dans une seule équipe avec l’AI comme amplificateur plutôt que des silos.' },
+    { title: 'Un partenaire', text: 'De la première esquisse au logiciel utilisé chaque jour, sans transferts ni ruptures dans le flux. Orienté long terme.' },
   ],
   factsHead: { title: 'Pourquoi les entreprises choisissent semanu', link: 'À propos' },
   facts: [
@@ -175,8 +175,8 @@ const fr: HomeContent = {
     { value: 125, prefix: '+', label: 'projets', desc: 'Livrés pour des PME dans des secteurs variés.' },
     { value: null, prefix: 'AI', label: 'driven', desc: 'L’AI comme moteur mais seulement là où elle est réellement utile.' },
   ],
-  aiNative: {
-    body: 'Nous utilisons l’AI comme amplificateur, pas comme remplacement. Nos experts combinent l’AI avec l’expertise humaine pour rendre le développement logiciel, les processus métier et les workflows digitaux plus rapides et plus intelligents. Le contrôle reste chez nos équipes : grâce à un feedback continu, elles évaluent et améliorent les résultats de l’AI. Ainsi nous obtenons de meilleurs logiciels, des processus plus efficaces et des solutions digitales plus rapides pour votre entreprise.',
+  aiFirst: {
+    body: 'L’AI passe en premier à chaque étape, comme amplificateur et non comme remplacement. Nos experts combinent l’AI avec l’expertise humaine pour rendre le développement logiciel, les processus métier et les workflows digitaux plus rapides et plus intelligents. Le contrôle reste chez nos équipes : grâce à un feedback continu, elles évaluent et améliorent les résultats de l’AI. Ainsi nous obtenons de meilleurs logiciels, des processus plus efficaces et des solutions digitales plus rapides pour votre entreprise.',
     cta: 'Démarrer la conversation',
   },
   refHead: { title: 'De l’expertise à des résultats mesurables.', link: 'Toutes les références' },
@@ -210,11 +210,11 @@ const es: HomeContent = {
     p1: 'Su equipo copia datos entre sistemas, los presupuestos exigen trabajo manual y la información de clientes está dispersa entre CRM, ERP y hojas de cálculo. El software existente ya no encaja con sus procesos o los sistemas colaboran poco. Eso cuesta tiempo, provoca errores y dificulta seguir creciendo.',
     p2: 'Al mismo tiempo, el estándar digital del mercado no deja de subir. Los clientes esperan rapidez, sencillez y una experiencia fluida en cada punto de contacto. Cuando su organización no puede seguir esa evolución, la fricción crece con consecuencias directas en la eficiencia, la conversión, la retención de clientes y su posición en el mercado.',
   },
-  servicesHead: { title: 'Del asesoramiento a la ejecución.' },
+  servicesHead: { title: 'De la idea al software en funcionamiento.' },
   trio: [
     { title: 'Un plan', text: 'Los buenos resultados empiezan con un plan claro que conecta sus procesos y objetivos.' },
-    { title: 'Un equipo', text: 'Asesoramiento, diseño y desarrollo en un solo equipo con la AI como amplificador en lugar de silos.' },
-    { title: 'Un socio', text: 'De la estrategia a la ejecución, sin traspasos ni huecos en el flujo. Orientado al largo plazo.' },
+    { title: 'Un equipo', text: 'Diseño y desarrollo en un solo equipo con la AI como amplificador en lugar de silos.' },
+    { title: 'Un socio', text: 'Del primer boceto al software que funciona cada día, sin traspasos ni huecos en el flujo. Orientado al largo plazo.' },
   ],
   factsHead: { title: 'Por qué las empresas eligen semanu', link: 'Sobre nosotros' },
   facts: [
@@ -223,8 +223,8 @@ const es: HomeContent = {
     { value: 125, prefix: '+', label: 'proyectos', desc: 'Entregados para pymes de sectores muy diversos.' },
     { value: null, prefix: 'AI', label: 'driven', desc: 'la AI como motor pero solo donde resulta demostrablemente útil.' },
   ],
-  aiNative: {
-    body: 'Usamos la AI como amplificador, no como sustituto. Nuestros expertos combinan la AI con la experiencia humana para hacer el desarrollo de software, los procesos de negocio y los flujos digitales más rápidos e inteligentes. El control sigue en manos de nuestro equipo: mediante feedback continuo revisan y mejoran los resultados de la AI. Así logramos mejor software, procesos más eficientes y soluciones digitales más rápidas para su empresa.',
+  aiFirst: {
+    body: 'La AI va primero en cada paso, como amplificador y no como sustituto. Nuestros expertos combinan la AI con la experiencia humana para hacer el desarrollo de software, los procesos de negocio y los flujos digitales más rápidos e inteligentes. El control sigue en manos de nuestro equipo: mediante feedback continuo revisan y mejoran los resultados de la AI. Así logramos mejor software, procesos más eficientes y soluciones digitales más rápidas para su empresa.',
     cta: 'Iniciar la conversación',
   },
   refHead: { title: 'De la experiencia a resultados medibles.', link: 'Todas las referencias' },
@@ -258,11 +258,11 @@ const nl: HomeContent = {
     p1: 'Uw team kopieert gegevens tussen systemen, offertes vragen manueel werk en klantinformatie zit verspreid over CRM, ERP en spreadsheets. Bestaande software sluit niet meer aan op uw processen of systemen werken onvoldoende samen. Dat kost tijd, veroorzaakt fouten en maakt verdere groei moeilijker.',
     p2: 'Tegelijkertijd stijgt de digitale standaard in de markt. Klanten verwachten snelheid, eenvoud en een naadloze ervaring over elk contactmoment. Wanneer uw organisatie die evolutie niet kan volgen, ontstaat er steeds meer frictie met directe gevolgen voor efficiëntie, conversie, klantretentie en uw positie in de markt.',
   },
-  servicesHead: { title: 'Van advies tot uitvoering.' },
+  servicesHead: { title: 'Van idee tot werkende software.' },
   trio: [
     { title: 'Eén plan', text: 'Sterke resultaten beginnen met een helder plan dat uw processen en doelen verbindt.' },
-    { title: 'Eén team', text: 'Advies, ontwerp en ontwikkeling in één team met AI als versterker in plaats van silo’s.' },
-    { title: 'Eén partner', text: 'Van strategie tot uitvoering, zonder overdrachten of gaten in de flow. Gericht op lange termijn.' },
+    { title: 'Eén team', text: 'Ontwerp en ontwikkeling in één team met AI als versterker in plaats van silo’s.' },
+    { title: 'Eén partner', text: 'Van de eerste schets tot software die elke dag draait, zonder overdrachten of gaten in de flow. Gericht op lange termijn.' },
   ],
   factsHead: { title: 'Waarom bedrijven voor semanu kiezen.', link: 'Over ons' },
   facts: [
@@ -271,8 +271,8 @@ const nl: HomeContent = {
     { value: 125, prefix: '+', label: 'projecten', desc: 'Opgeleverd voor kmo’s in uiteenlopende sectoren.' },
     { value: null, prefix: 'AI', label: 'driven', desc: 'AI als motor maar alleen daar waar het aantoonbaar nuttig is.' },
   ],
-  aiNative: {
-    body: 'Wij zetten AI in als versterker, niet als vervanger. Onze experts combineren AI met menselijke expertise om softwareontwikkeling, bedrijfsprocessen en digitale workflows sneller en slimmer te maken. De controle blijft bij onze mensen: via continue feedback beoordelen en verbeteren zij de output van AI. Zo realiseren we betere software, efficiëntere processen en snellere digitale oplossingen voor uw bedrijf.',
+  aiFirst: {
+    body: 'AI staat bij elke stap voorop, als versterker en niet als vervanger. Onze experts combineren AI met menselijke expertise om softwareontwikkeling, bedrijfsprocessen en digitale workflows sneller en slimmer te maken. De controle blijft bij onze mensen: via continue feedback beoordelen en verbeteren zij de output van AI. Zo realiseren we betere software, efficiëntere processen en snellere digitale oplossingen voor uw bedrijf.',
     cta: 'Start het gesprek',
   },
   refHead: { title: 'Van expertise naar meetbaar resultaat.', link: 'Alle referenties' },
@@ -475,7 +475,7 @@ export default async function HomePage({
             <ServicesPuzzle services={services} />
           </div>
 
-          {/* AI Native feature banner */}
+          {/* AI-first feature banner */}
           <div
             className="relative mt-16 overflow-hidden rounded-[32px] bg-navy p-[clamp(32px,5vw,72px)] text-white sm:rounded-[40px]"
             style={{
@@ -485,11 +485,11 @@ export default async function HomePage({
           >
             <div className="relative">
               <h2 className="font-mono text-[clamp(34px,4.5vw,58px)] font-extrabold leading-[1.02] tracking-[-0.03em]">
-                <span className="text-mint">AI</span> Native
+                <span className="text-mint">AI</span>-first
               </h2>
-              <p className="mt-5 text-[clamp(17px,1.6vw,20px)] leading-relaxed text-paper/80">{h.aiNative.body}</p>
+              <p className="mt-5 text-[clamp(17px,1.6vw,20px)] leading-relaxed text-paper/80">{h.aiFirst.body}</p>
               <Link href="/contact" className="btn btn-spark mt-8">
-                {h.aiNative.cta} <span aria-hidden className="btn-arrow" />
+                {h.aiFirst.cta} <span aria-hidden className="btn-arrow" />
               </Link>
             </div>
           </div>

@@ -1,11 +1,11 @@
 ---
-title: "What it means to be an AI-native digital company"
-description: "semanu is an AI-native digital company and your partner for 3D configurators and custom business software. What AI-native means and how your business benefits."
+title: "What it means to be an AI-first digital company"
+description: "semanu is an AI-first digital company and your partner for 3D configurators and custom business software. What AI-first means and how your business benefits."
 date: "2026-07-10"
 updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-native-digital-business-cover.svg"
+cover: "/blog/ai-first-digital-business-cover.svg"
 ---
 
 Digital technology should move a business forward and not make it more complex. Yet many businesses today work with different providers for their website, their webshop, email marketing, automations, software and AI. The result is scattered systems, slow communication and solutions that fit together too poorly.
@@ -14,11 +14,11 @@ At <span class="brand-mark">semanu</span> we do it differently.
 
 We focus on two things: 3D configurators and custom business software. From product configurators through workflow automation to customer portals and AI in your processes: we bring strategy, technology and delivery together with one digital partner.
 
-But there is something else that sets us apart. <span class="brand-mark">semanu</span> is an AI-native company.
+But there is something else that sets us apart. <span class="brand-mark">semanu</span> is an AI-first company.
 
-## What is an AI-native company?
+## What is an AI-first company?
 
-AI-native means that AI is not a separate product and not a passing trend. AI is part of how we think, work together and deliver projects.
+AI-first means that AI comes first in every step of how we think, work together and deliver projects. It is not a separate product and not a passing trend. People stay in control: they decide, review and take responsibility.
 
 Our people are not replaced by AI. They are strengthened by it.
 
@@ -26,7 +26,7 @@ We use AI as a digital colleague that supports us with research, concept develop
 
 AI speeds up our work. Human expertise stays the base. Every solution is still designed, reviewed and improved by people who understand the business and its goals.
 
-<img src="/blog/ai-native-digital-business-visual.svg" alt="Illustration: human expertise combined with AI" style="display:block;width:100%;height:auto;margin:2.5rem 0;border-radius:0.5rem;border:1px solid #E9EEF6" />
+<img src="/blog/ai-first-digital-business-visual.svg" alt="Illustration: human expertise combined with AI" style="display:block;width:100%;height:auto;margin:2.5rem 0;border-radius:0.5rem;border:1px solid #E9EEF6" />
 
 ## Faster from idea to result
 
@@ -42,7 +42,7 @@ This creates more room for tailored work, discussion and quality.
 
 Digital projects are usually priced on the time needed to deliver them. When a team can work more efficiently, that has a direct effect on the project price.
 
-Thanks to our AI-native way of working, we can often deliver projects with fewer repetitive steps and shorter development cycles. That lets us offer professional digital solutions at a fairer price than a fully traditional approach.
+Thanks to our AI-first way of working, we can often deliver projects with fewer repetitive steps and shorter development cycles. That lets us offer professional digital solutions at a fairer price than a fully traditional approach.
 
 We pass that efficiency on to our clients.
 
@@ -98,6 +98,6 @@ The digital world evolves fast. Still, a business does not have to follow every 
 
 With <span class="brand-mark">semanu</span> you get one partner for your entire digital environment. A partner that does not see configurators, automations, platforms and AI as separate parts. It brings them together in one clear approach.
 
-Because we work AI-native, we can develop faster, collaborate more efficiently and offer projects at a fairer price. Without losing sight of the human expertise, the personal support and the quality.
+Because we work AI-first, we can develop faster, collaborate more efficiently and offer projects at a fairer price. Without losing sight of the human expertise, the personal support and the quality.
 
 Would you like to discover how your business can work smarter with digital technology and AI? Get in touch with <span class="brand-mark">semanu</span> and discuss your idea with us.
