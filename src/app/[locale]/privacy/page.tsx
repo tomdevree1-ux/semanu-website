@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { SiteShell } from '@/components/SiteShell';
-import { Breadcrumb } from '@/components/Breadcrumb';
 import { getLegalDoc } from '@/lib/legal';
 import { pageMetadata } from '@/lib/seo/metadata';
 
@@ -54,7 +53,6 @@ export default async function DatenschutzPage({
 
   return (
     <SiteShell>
-      <Breadcrumb items={[{ name: 'semanu.eu', href: '/' }, { name: doc.title }]} locale={locale} />
       <section className="bg-paper text-ink">
         <div className="container-site max-w-3xl pb-20 pt-10">
           <h1 className="h2">{doc.title}</h1>

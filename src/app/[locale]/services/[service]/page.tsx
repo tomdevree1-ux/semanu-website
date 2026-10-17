@@ -65,10 +65,9 @@ export default async function ServicePage({
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'semanu.eu', item: `${env.siteUrl}/${locale}` },
-      { '@type': 'ListItem', position: 2, name: navServicesLabel, item: `${env.siteUrl}/${locale}/services` },
       {
         '@type': 'ListItem',
-        position: 3,
+        position: 2,
         name: s.title,
         item: `${env.siteUrl}/${locale}/services/${service}`,
       },

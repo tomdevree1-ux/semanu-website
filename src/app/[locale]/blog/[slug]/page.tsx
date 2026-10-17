@@ -3,7 +3,6 @@ import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { SiteShell } from '@/components/SiteShell';
-import { Breadcrumb } from '@/components/Breadcrumb';
 import { BrandText } from '@/components/BrandText';
 import { JsonLd } from '@/components/JsonLd';
 import { routing } from '@/i18n/routing';
@@ -108,11 +107,6 @@ export default async function BlogPostPage({
   return (
     <SiteShell>
       <JsonLd data={[articleLd, breadcrumbLd]} />
-      <Breadcrumb
-        items={[{ name: 'semanu.eu', href: '/' }, { name: tn('blog'), href: '/blog' }, { name: meta.title }]}
-        locale={locale}
-        jsonLd={false}
-      />
       <article className="bg-paper text-ink">
         <div className="container-site max-w-4xl pt-14">
           <Link

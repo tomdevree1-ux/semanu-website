@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { SiteShell } from '@/components/SiteShell';
-import { Breadcrumb } from '@/components/Breadcrumb';
 import { JsonLd } from '@/components/JsonLd';
 import { getAllPosts } from '@/lib/blog';
 import { pageMetadata } from '@/lib/seo/metadata';
@@ -41,7 +40,6 @@ export default async function BlogIndexPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('blog');
-  const tnav = await getTranslations('nav');
   const posts = getAllPosts(locale);
   // The blog is small; the two service pages below give readers a next step and
   // give the index real substance next to the post list.
@@ -83,7 +81,6 @@ export default async function BlogIndexPage({
   return (
     <SiteShell>
       <JsonLd data={[blogLd, itemListLd]} />
-      <Breadcrumb items={[{ name: 'semanu.eu', href: '/' }, { name: tnav('blog') }]} locale={locale} />
       <section className="bg-paper py-24 text-ink">
         <div className="container-site max-w-4xl">
           <span className="eyebrow eyebrow-spark text-red">{t('title')}</span>

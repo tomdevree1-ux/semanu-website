@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { SiteShell } from '@/components/SiteShell';
-import { Breadcrumb } from '@/components/Breadcrumb';
 import { BrandText } from '@/components/BrandText';
 import { JsonLd } from '@/components/JsonLd';
 import { pageMetadata } from '@/lib/seo/metadata';
@@ -27,7 +26,6 @@ export default async function AboutPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('about');
-  const tnav = await getTranslations('nav');
 
   const orgId = `${env.siteUrl}/#organization`;
   // A Person node for the founder, linked to the single canonical org by @id (the
@@ -65,7 +63,6 @@ export default async function AboutPage({
   return (
     <SiteShell>
       <JsonLd data={[aboutPageLd, personLd, orgFounderLd]} />
-      <Breadcrumb items={[{ name: 'semanu.eu', href: '/' }, { name: tnav('about') }]} locale={locale} />
       <section className="bg-paper py-24 text-ink">
         <div className="container-site">
           {/* Intro + story on the left, founder (Tom) card sticky on the right, so

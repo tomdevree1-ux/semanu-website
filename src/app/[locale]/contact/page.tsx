@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { SiteShell } from '@/components/SiteShell';
-import { Breadcrumb } from '@/components/Breadcrumb';
 import { ContactForm } from '@/components/ContactForm';
 import { env } from '@/lib/env';
 import { PHONE_DISPLAY, PHONE_TEL_HREF } from '@/lib/contact';
@@ -33,7 +32,6 @@ export default async function KontaktPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('contact');
-  const tn = await getTranslations('nav');
 
   // SEO: structured data so search engines + Google Business can read the
   // contact info from a stable, indexable URL (the whole point of /contact
@@ -59,7 +57,6 @@ export default async function KontaktPage({
 
   return (
     <SiteShell>
-      <Breadcrumb items={[{ name: 'semanu.eu', href: '/' }, { name: tn('contact') }]} locale={locale} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

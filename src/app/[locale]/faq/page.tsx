@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
-import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import { SiteShell } from '@/components/SiteShell';
-import { Breadcrumb } from '@/components/Breadcrumb';
 import { JsonLd } from '@/components/JsonLd';
 import { FaqSearch } from '@/components/faq/FaqSearch';
 import { FAQ_SERVICES, FAQ_UI, type FaqLocale } from '@/content/faqServices';
@@ -49,7 +48,6 @@ export default async function FaqPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const tnav = await getTranslations('nav');
 
   // The FAQ content is its own typed source (src/content/faqServices.ts), one
   // block per locale. Fall back to DE for any unexpected locale.
@@ -79,7 +77,6 @@ export default async function FaqPage({
   return (
     <SiteShell>
       <JsonLd data={faqLd} />
-      <Breadcrumb items={[{ name: 'semanu.eu', href: '/' }, { name: tnav('faq') }]} locale={locale} />
       <section className="flow-herowash-paper py-16 text-ink sm:py-20">
         <div className="container-site grid gap-12 lg:grid-cols-[0.82fr_1.18fr]">
           <div className="max-w-md lg:sticky lg:top-28 lg:self-start">

@@ -4,10 +4,8 @@ import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { TrackedLink } from '@/components/TrackedLink';
 import { SiteShell } from '@/components/SiteShell';
-import { Breadcrumb } from '@/components/Breadcrumb';
 import { BrandText } from '@/components/BrandText';
 import { JsonLd } from '@/components/JsonLd';
-import { env } from '@/lib/env';
 import { pageMetadata } from '@/lib/seo/metadata';
 import { REFERENCES, REF_IMAGES, type RefLocale } from '@/content/references';
 
@@ -64,18 +62,10 @@ export default async function ReferenzenPage({
       ...(cs.href ? { url: cs.href } : {}),
     })),
   };
-  const breadcrumbLd = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'semanu.eu', item: `${env.siteUrl}/${locale}` },
-      { '@type': 'ListItem', position: 2, name: c.h1.replace(/\n/g, ' '), item: `${env.siteUrl}/${locale}/references` },
-    ],
-  };
 
   return (
     <SiteShell>
-      <JsonLd data={[itemListLd, breadcrumbLd]} />
+      <JsonLd data={itemListLd} />
 
       {/* Hero — full-bleed light photo (tablet). Navy text on the bright left side,
           with a soft light wash for legibility and a scroll-down affordance. */}
@@ -115,12 +105,6 @@ export default async function ReferenzenPage({
         </div>
       </section>
 
-      <Breadcrumb
-        items={[{ name: 'semanu.eu', href: '/' }, { name: c.h1.replace(/\n/g, ' ') }]}
-        locale={locale}
-        jsonLd={false}
-        className="bg-paper pt-8"
-      />
 
       {/* Cases — two-column grid: image, category, title, one-line teaser. */}
       <section id="cases" className="bg-paper py-[clamp(56px,9vh,110px)] text-ink">
