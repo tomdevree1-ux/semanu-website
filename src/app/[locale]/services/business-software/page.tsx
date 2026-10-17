@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
-import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { SiteShell } from '@/components/SiteShell';
 import { BrandText } from '@/components/BrandText';
@@ -11,68 +11,13 @@ import { TrackedLink } from '@/components/TrackedLink';
 import { pageMetadata } from '@/lib/seo/metadata';
 import { env } from '@/lib/env';
 import { getAiNativeFaq } from '@/content/aiNativeFaq';
+import { getBusinessSoftware } from '@/content/businessSoftware';
 import { AREA_SERVED } from '@/lib/seo/area-served';
 
-// AI-native bedrijfssoftware — dedicated service page. Same visual language as the
-// 3D-configurators page (fonts, colours, rounded corners, cards, dark blocks).
-// Authored NL-first; the body copy is shown in every locale until translated.
-// The FAQ is localized per locale in src/content/aiNativeFaq.ts.
-const AI = {
-  metaTitle: 'Bedrijfssoftware op maat & AI-native software · semanu.eu',
-  metaDescription:
-    'AI-first ontwikkelde bedrijfssoftware op maat voor KMO. Van offertebeheer tot productieplanning. Modulair, intelligent en uitbreidbaar.',
-  heroHeadline: 'Bedrijfssoftware opnieuw uitgevonden.',
-  heroSub:
-    'Dankzij onze AI-first ontwikkelaanpak maken we geavanceerde bedrijfssoftware toegankelijk voor KMO. Van offertebeheer en werkvoorbereiding tot productie en planning. Volledig op maat, modulair uitbreidbaar en verbonden door AI.',
-  heroCta: 'Bespreek uw softwareproject',
-  introTitle: 'Wat is modulaire bedrijfssoftware?',
-  introText:
-    'Modulaire bedrijfssoftware is software die rond uw processen wordt gebouwd, niet andersom. Wij ontwikkelen slimme modules op maat voor alle bedrijfsprocessen.\n\nStarten kan al vanaf één module en u breidt uit wanneer uw onderneming daar klaar voor is. Een intelligente AI-laag verbindt de modules, coördineert processen en automatiseert terugkerend werk.',
-  featTitle: 'Van offerte tot levering.\nEén verbonden proces.',
-  featSub:
-    'Wij bouwen alleen de modules die uw onderneming nu nodig heeft, sneller en betaalbaar door onze AI-first aanpak. U start klein en breidt uit wanneer het nodig is.',
-  diffKicker: 'WAAROM SEMANU',
-  diffTitle: 'Wat ons anders maakt.',
-  diffCards: [
-    { n: '01', title: 'Sneller met AI', text: 'Wij zetten AI in tijdens het volledige ontwikkelproces, zodat u sneller en betaalbaar maatwerk krijgt.' },
-    { n: '02', title: 'Op uw tempo', text: 'We digitaliseren alleen de bedrijfsflows die u nu nodig heeft en breiden uit wanneer uw onderneming daar klaar voor is. Zo houdt u de kosten in de hand en groeit uw bedrijfssoftware mee met uw processen.' },
-    { n: '03', title: 'U wordt eigenaar', text: 'Wij bouwen op maat van uw bedrijf en u wordt eigenaar van de software, inclusief de source code. U zit niet vast aan één leverancier en blijft zelf de baas over uw systeem.' },
-  ],
-  features: [
-    { n: '01', title: 'Offertebeheer', text: 'Automatiseer prijsberekeningen, offertes en orders.' },
-    { n: '02', title: 'Werkvoorbereiding', text: 'Genereer technische documenten en productiegegevens.' },
-    { n: '03', title: 'Productie', text: 'Verbind orders, materialen en productieprocessen.' },
-    { n: '04', title: 'Planning', text: 'Beheer capaciteit, werkzaamheden en deadlines.' },
-    { n: '05', title: 'Levering', text: 'Volg bestellingen van productie tot verzending.' },
-    { n: '06', title: 'AI-automatisering', text: 'Laat AI informatie verwerken en processen coördineren.' },
-  ],
-  aiTitle: 'Maatwerksoftware.\nOpnieuw uitgevonden.',
-  aiText:
-    'Traditionele maatwerksoftware vraagt vaak grote budgetten en lange ontwikkeltrajecten. Wij gebruiken AI tijdens het volledige ontwikkelproces. Zo bouwen we efficiënter software op maat en maken we geavanceerde oplossingen toegankelijk voor KMO.',
-  aiOldLabel: 'Traditioneel maatwerk',
-  aiOld: ['Lange ontwikkeltrajecten', 'Hoge ontwikkelkosten', 'Grote investering vooraf'],
-  aiNewLabel: 'semanu · AI-first',
-  aiNew: ['Sneller van idee naar software', 'Efficiënter ontwikkelen met AI', 'Klein starten, flexibel groeien'],
-  modTitle: 'Start klein.\nGroei zonder grenzen.',
-  modText:
-    'U hoeft niet meteen uw volledige organisatie te digitaliseren. We starten waar de grootste meerwaarde ligt en bouwen verder wanneer uw onderneming daar klaar voor is.',
-  modSteps: [
-    { n: '01', title: 'Eerste module' },
-    { n: '02', title: 'Processen verbinden' },
-    { n: '03', title: 'Functionaliteiten uitbreiden' },
-    { n: '04', title: 'AI-automatisering' },
-  ],
-  confTitle: 'Van 3D-configurator tot volledig bedrijfsplatform.',
-  confText:
-    'Onze 3D-configuratoren kunnen het vertrekpunt vormen van een geïntegreerd bedrijfsproces. Van productconfiguratie en offerte tot werkvoorbereiding, productie en levering. Met aanvullende modules groeit de configurator uit tot een centrale schakel binnen uw onderneming.',
-  confCta: 'Ontdek onze 3D-configuratoren',
-  finalTitle: 'Bespreek uw softwareproject.',
-  finalText:
-    'Vertel ons welke processen u wilt digitaliseren. Wij bekijken hoe maatwerksoftware en AI uw onderneming kunnen versterken.',
-  finalCta: 'Bespreek uw project',
-  finalSecondary: 'Ontdek onze 3D-configuratoren',
-  ctaHref: '/contact?interest=business-software',
-};
+// Business software service page. Same visual language as the 3D-configurators
+// page (fonts, colours, rounded corners, cards, dark blocks). Copy per locale in
+// src/content/businessSoftware.ts; the FAQ in src/content/aiNativeFaq.ts.
+const CTA_HREF = '/contact?interest=business-software';
 
 const DARK_GRADIENT =
   'radial-gradient(120% 140% at 88% 8%, rgba(147,230,190,0.20), rgba(147,230,190,0) 55%), radial-gradient(90% 120% at 0% 100%, rgba(147,230,190,0.10), rgba(147,230,190,0) 50%)';
@@ -85,6 +30,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  const AI = getBusinessSoftware(locale);
   return pageMetadata({
     title: AI.metaTitle,
     description: AI.metaDescription,
@@ -100,7 +46,7 @@ export default async function AiNativePage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const navServicesLabel = (await getTranslations('nav'))('services');
+  const AI = getBusinessSoftware(locale);
   const faq = getAiNativeFaq(locale);
 
   const url = `${env.siteUrl}/${locale}/services/business-software`;
@@ -109,16 +55,15 @@ export default async function AiNativePage({
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'semanu.eu', item: `${env.siteUrl}/${locale}` },
-      { '@type': 'ListItem', position: 2, name: navServicesLabel, item: `${env.siteUrl}/${locale}/services` },
-      { '@type': 'ListItem', position: 3, name: 'AI-native bedrijfssoftware', item: url },
+      { '@type': 'ListItem', position: 2, name: AI.serviceName, item: url },
     ],
   };
   const serviceLd = {
     '@context': 'https://schema.org',
     '@type': 'Service',
-    name: 'AI-native bedrijfssoftware',
+    name: AI.serviceName,
     description: AI.metaDescription,
-    serviceType: 'Bedrijfssoftware op maat',
+    serviceType: AI.serviceType,
     provider: { '@id': `${env.siteUrl}/#organization` },
     areaServed: AREA_SERVED,
     url,
@@ -160,7 +105,7 @@ export default async function AiNativePage({
               <BrandText>{AI.heroSub}</BrandText>
             </p>
             <TrackedLink
-              href={AI.ctaHref}
+              href={CTA_HREF}
               className="btn btn-primary mt-[clamp(32px,3.4vw,48px)]"
               event="service_cta_clicked"
               eventParams={{ service: 'ai-native', from: 'service_hero' }}
@@ -175,7 +120,7 @@ export default async function AiNativePage({
                 <div className="relative aspect-[16/10] overflow-hidden rounded-[7px] bg-white">
                   <Image
                     src="/hero-dashboard.jpg"
-                    alt="Voorbeeld van bedrijfssoftware op maat: urenregistratie dashboard"
+                    alt={AI.heroImageAlt}
                     fill
                     priority
                     sizes="(min-width:1024px) 42vw, 100vw"
@@ -345,7 +290,7 @@ export default async function AiNativePage({
         title={AI.finalTitle}
         text={AI.finalText}
         ctaLabel={AI.finalCta}
-        ctaHref={AI.ctaHref}
+        ctaHref={CTA_HREF}
         secondaryLabel={AI.finalSecondary}
         secondaryHref="/services/3d-configurators"
         serviceId="ai-native"
