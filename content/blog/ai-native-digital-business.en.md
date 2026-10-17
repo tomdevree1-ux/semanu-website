@@ -10,11 +10,11 @@ cover: "/blog/ai-native-digital-business-cover.svg"
 
 Digital technology should move a business forward and not make it more complex. Yet many businesses today work with different providers for their website, their webshop, email marketing, automations, software and AI. The result is scattered systems, slow communication and solutions that fit together too poorly.
 
-At <span class="brand-mark">semanu<span class="spark">!</span></span> we do it differently.
+At <span class="brand-mark">semanu</span> we do it differently.
 
 We focus on two things: 3D configurators and custom business software. From product configurators through workflow automation to customer portals and AI in your processes: we bring strategy, technology and delivery together with one digital partner.
 
-But there is something else that sets us apart. <span class="brand-mark">semanu<span class="spark">!</span></span> is an AI native company.
+But there is something else that sets us apart. <span class="brand-mark">semanu</span> is an AI native company.
 
 ## What is an AI native company?
 
@@ -46,7 +46,7 @@ Thanks to our AI native way of working, we can often deliver projects with fewer
 
 We pass that efficiency on to our clients.
 
-A lower project price does not mean a project gets less attention at <span class="brand-mark">semanu<span class="spark">!</span></span> On the contrary. Because AI supports part of the executing and repetitive work, our team can give more attention to the choices that make the difference.
+A lower project price does not mean a project gets less attention at <span class="brand-mark">semanu</span>. On the contrary. Because AI supports part of the executing and repetitive work, our team can give more attention to the choices that make the difference.
 
 Think of a user friendly structure, a strong customer experience, reliable technology and a solution that fits the processes of the business.
 
@@ -54,7 +54,7 @@ Think of a user friendly structure, a strong customer experience, reliable techn
 
 Software never stands on its own. A 3D configurator should collect enquiries, calculate prices and pass data on to production or the ERP. A customer portal should work together with the CRM, invoicing and customer service. AI needs access to the right information and has to fit within existing workflows.
 
-That is why <span class="brand-mark">semanu<span class="spark">!</span></span> brings two services together under one roof: [3D configurators](/en/services/3d-configurators) for manufacturers and webshops, plus [custom business software](/en/services/business-software) covering workflow automation, customer portals, CRM systems, dashboards, integrations and AI in your processes.
+That is why <span class="brand-mark">semanu</span> brings two services together under one roof: [3D configurators](/en/services/3d-configurators) for manufacturers and webshops, plus [custom business software](/en/services/business-software) covering workflow automation, customer portals, CRM systems, dashboards, integrations and AI in your processes.
 
 Because these disciplines are brought together by one partner, the individual parts fit together better. Clients do not have to keep switching between different agencies, developers and software specialists.
 
@@ -68,7 +68,7 @@ AI in your processes can help staff find information, summarise documents, proce
 
 The best AI solution is therefore not necessarily the most eye catching. It is the solution that solves a clear problem and saves time every week.
 
-At <span class="brand-mark">semanu<span class="spark">!</span></span> we do not start with the question of where we can add AI. We begin with other questions. Where is a lot of time lost today? Which questions keep coming back? Which information is hard to reach? Which steps can run smarter, faster or more consistently?
+At <span class="brand-mark">semanu</span> we do not start with the question of where we can add AI. We begin with other questions. Where is a lot of time lost today? Which questions keep coming back? Which information is hard to reach? Which steps can run smarter, faster or more consistently?
 
 On that basis we build AI into software that fits the business, the people and the existing systems.
 
@@ -78,7 +78,7 @@ A digital solution is never finished for good. Businesses change, processes evol
 
 That is why we do not believe in technology that is forgotten after launch. We build solutions that can be maintained, extended and improved. A business can start with a 3D configurator and later add an ERP connection, a customer portal or workflow automation.
 
-Because <span class="brand-mark">semanu<span class="spark">!</span></span> combines different digital disciplines, there is no need to find a new partner for every next step. The existing knowledge, technology and strategy can be built on further.
+Because <span class="brand-mark">semanu</span> combines different digital disciplines, there is no need to find a new partner for every next step. The existing knowledge, technology and strategy can be built on further.
 
 That makes digital growth clearer and more sustainable.
 
@@ -96,8 +96,8 @@ AI helps us work faster. Our people make sure we work on the right things.
 
 The digital world evolves fast. Still, a business does not have to follow every new tool, trend and technology itself.
 
-With <span class="brand-mark">semanu<span class="spark">!</span></span> you get one partner for your entire digital environment. A partner that does not see configurators, automations, platforms and AI as separate parts. It brings them together in one clear approach.
+With <span class="brand-mark">semanu</span> you get one partner for your entire digital environment. A partner that does not see configurators, automations, platforms and AI as separate parts. It brings them together in one clear approach.
 
 Because we work AI native, we can develop faster, collaborate more efficiently and offer projects at a fairer price. Without losing sight of the human expertise, the personal support and the quality.
 
-Would you like to discover how your business can work smarter with digital technology and AI? Get in touch with <span class="brand-mark">semanu<span class="spark">!</span></span> and discuss your idea with us.
+Would you like to discover how your business can work smarter with digital technology and AI? Get in touch with <span class="brand-mark">semanu</span> and discuss your idea with us.
