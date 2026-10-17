@@ -13,6 +13,8 @@ import { Link } from '@/i18n/navigation';
 export type DemoOption = { label: string; price?: number; swatch?: string };
 export type DemoStep = { label: string; options: DemoOption[] };
 export type DemoConfig = {
+  /** Page locale, used to format the price (e.g. € 2.200 in nl, €2,200 in en). */
+  locale: string;
   currency: string; // e.g. 'EUR'
   basePrice: number;
   priceNote: string; // "indicative price" line
@@ -23,10 +25,12 @@ export type DemoConfig = {
   ctaHref: string;
 };
 
-function formatPrice(n: number): string {
-  return Math.round(n)
-    .toString()
-    .replace(/\B(?=(\d{3})+(?!\d))/g, "'");
+function formatPrice(n: number, locale: string, currency: string): string {
+  return new Intl.NumberFormat(locale, {
+    style: 'currency',
+    currency,
+    maximumFractionDigits: 0,
+  }).format(Math.round(n));
 }
 
 export function ConfiguratorDemo({ config }: { config: DemoConfig }) {
@@ -115,7 +119,7 @@ export function ConfiguratorDemo({ config }: { config: DemoConfig }) {
           <div>
             <div className="font-mono text-[11px] uppercase tracking-wider text-ink-soft">{config.priceNote}</div>
             <div className="font-display text-2xl text-ink">
-              {config.currency} {formatPrice(price)}
+              {formatPrice(price, config.locale, config.currency)}
             </div>
           </div>
           <Link href={config.ctaHref} className="btn btn-primary">

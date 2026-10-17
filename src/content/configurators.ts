@@ -1,65 +1,1008 @@
-// Generated content for the 3D configurator demo pages (/configurator/[type]).
-// Original semanu sample data only. No third party product names, code or assets.
-import type { DemoOption } from '@/components/configurator/ConfiguratorDemo';
+// Content for the 3D configurator demo pages (/configurator/[type]).
+// Every type has the same structure (hero, demo, intro, what the customer
+// configures, what you receive, who it is for, FAQ), with copy specific to the
+// real configurator SEMANU built for that product: a fitted wardrobe planner
+// (cabinet), a dining table configurator (table), a glass balustrade
+// configurator (railing) and a steel swing gate configurator with a technical
+// dossier (gate). Original semanu sample data only; no third party product names.
+// House style: no dashes, no comma before a coordinating conjunction.
 
 export type ConfLocale = 'de' | 'fr' | 'en' | 'es' | 'nl';
-export type StepKey = 'model' | 'size' | 'material' | 'colour';
+type Loc = Record<ConfLocale, string>;
+
+/** Compact helper: one string per locale, in the order nl, en, de, fr, es. */
+const L = (nl: string, en: string, de: string, fr: string, es: string): Loc => ({ nl, en, de, fr, es });
+
 export type ConfContent = {
-  title: string; eyebrow: string; h1: string; heroSub: string;
-  metaTitle: string; metaDescription: string; demoNote: string;
-  introHeading: string; introBody: string; geoHeading: string; geoBody: string;
-  benefits: string[]; faqTitle: string; faq: { q: string; a: string }[];
-  moreTitle: string; serviceLabel: string; finalTitle: string; finalText: string; finalCta: string;
-  // Optional: link to the real, locale-specific configurator (external). When
-  // set, the page shows a launch button to this URL instead of the sample demo.
-  configUrl?: string; launchLabel?: string;
+  title: string;
+  h1: string;
+  heroSub: string;
+  metaTitle: string;
+  metaDescription: string;
+  introHeading: string;
+  introBody: string;
+  /** What the customer configures (real options of this configurator type). */
+  features: string[];
+  /** What the business receives (outputs). */
+  outputs: string[];
+  /** Who it is for. */
+  useCases: string[];
+  faq: { q: string; a: string }[];
+  /** Optional link to the full, live configurator (opens in a new tab). */
+  configUrl?: string;
+  launchLabel?: string;
 };
-export type ConfDemo = { currency: string; basePrice: number; steps: { key: StepKey; options: DemoOption[] }[] };
+
+export type ConfDemoOption = { label: Loc | string; price?: number; swatch?: string };
+export type ConfDemo = {
+  currency: string;
+  basePrice: number;
+  steps: { label: Loc; options: ConfDemoOption[] }[];
+};
 
 export const CONFIG_SLUGS = ['cabinet', 'table', 'railing', 'gate'] as const;
 
-export const UI: Record<ConfLocale, Record<StepKey, string> & { previewLabel: string; summaryLabel: string; priceNote: string; ctaLabel: string }> = {
-  de: { model: 'Modell', size: 'Größe', material: 'Material', colour: 'Farbe', previewLabel: 'Vorschau', summaryLabel: 'Ihre Auswahl', priceNote: 'Richtpreis', ctaLabel: 'Anfrage senden' },
-  fr: { model: 'Modèle', size: 'Taille', material: 'Matière', colour: 'Couleur', previewLabel: 'Aperçu', summaryLabel: 'Votre choix', priceNote: 'Prix indicatif', ctaLabel: 'Envoyer la demande' },
-  en: { model: 'Model', size: 'Size', material: 'Material', colour: 'Colour', previewLabel: 'Preview', summaryLabel: 'Your choice', priceNote: 'Indicative price', ctaLabel: 'Send enquiry' },
-  es: { model: 'Modelo', size: 'Tamaño', material: 'Material', colour: 'Color', previewLabel: 'Vista previa', summaryLabel: 'Su elección', priceNote: 'Precio indicativo', ctaLabel: 'Enviar solicitud' },
-  nl: { model: 'Model', size: 'Maat', material: 'Materiaal', colour: 'Kleur', previewLabel: 'Preview', summaryLabel: 'Uw keuze', priceNote: 'Richtprijs', ctaLabel: 'Aanvraag sturen' },
-};
-
-export const DEMOS: Record<string, ConfDemo> = {
-  table: { currency: 'EUR', basePrice: 900, steps: [{ key: 'model', options: [{ label: 'Edge' }, { label: 'Frame', price: 180 }, { label: 'Trestle', price: 320 }] }, { key: 'size', options: [{ label: '180 cm' }, { label: '220 cm', price: 220 }, { label: '260 cm', price: 420 }] }, { key: 'material', options: [{ label: 'Oak' }, { label: 'Ash', price: 120 }, { label: 'Walnut', price: 300 }] }, { key: 'colour', options: [{ label: 'Natural', swatch: '#c9a97e' }, { label: 'White oil', swatch: '#e6ddcd' }, { label: 'Smoked', swatch: '#6b5842' }, { label: 'Black', swatch: '#2b2b2b' }] }] },
-  cabinet: { currency: 'EUR', basePrice: 1500, steps: [{ key: 'model', options: [{ label: 'Open', price: -100 }, { label: 'Swing', price: 150 }, { label: 'Slide' }] }, { key: 'size', options: [{ label: '160 cm' }, { label: '200 cm', price: 260 }, { label: '240 cm', price: 520 }] }, { key: 'material', options: [{ label: 'Melamine' }, { label: 'Veneer', price: 340 }, { label: 'Lacquer', price: 520 }] }, { key: 'colour', options: [{ label: 'White', swatch: '#eceae4' }, { label: 'Sand', swatch: '#d9cbb3' }, { label: 'Clay', swatch: '#b98e6e' }, { label: 'Graphite', swatch: '#3a3d42' }] }] },
-  railing: { currency: 'EUR', basePrice: 1800, steps: [{ key: 'model', options: [{ label: 'Bar', price: -200 }, { label: 'Cable', price: 120 }, { label: 'Glass' }] }, { key: 'size', options: [{ label: '3 m' }, { label: '6 m', price: 900 }, { label: '9 m', price: 1800 }] }, { key: 'material', options: [{ label: 'Aluminium' }, { label: 'Steel', price: 260 }, { label: 'Stainless', price: 540 }] }, { key: 'colour', options: [{ label: 'RAL 9016', swatch: '#f1f0ea' }, { label: 'RAL 7016', swatch: '#383e42' }, { label: 'RAL 9005', swatch: '#0e0e10' }, { label: 'Inox', swatch: '#b8bcc0' }] }] },
-  gate: { currency: 'EUR', basePrice: 2400, steps: [{ key: 'model', options: [{ label: 'Swing' }, { label: 'Double', price: 300 }, { label: 'Sliding', price: 600 }] }, { key: 'size', options: [{ label: '3 m' }, { label: '4 m', price: 350 }, { label: '5 m', price: 720 }] }, { key: 'material', options: [{ label: 'Steel', price: -200 }, { label: 'Aluminium' }, { label: 'Wood look', price: 280 }] }, { key: 'colour', options: [{ label: 'RAL 7016', swatch: '#383e42' }, { label: 'RAL 9005', swatch: '#0e0e10' }, { label: 'RAL 6009', swatch: '#31372b' }, { label: 'RAL 9010', swatch: '#f4f4ef' }] }] },
-};
-
-export const CONFIGURATORS: Record<string, Record<ConfLocale, ConfContent>> = {
-  table: {
-    de: { title: 'Tischkonfigurator', eyebrow: '3D-Konfigurator', h1: 'Tisch online zusammenstellen mit einem Konfigurator.', heroSub: 'Mit unserem Tischkonfigurator wählt Ihr Kunde Modell, Größe, Material und Farbe, sieht das Ergebnis sofort und erhält einen Richtpreis. semanu baut denselben Konfigurator für Ihr eigenes Produkt in Ihre Website.', metaTitle: 'Tischkonfigurator · semanu.eu', metaDescription: 'Interaktiver Tischkonfigurator von semanu. Ihr Kunde stellt sein Produkt selbst zusammen, sieht es sofort und erhält einen Richtpreis. In Ihre Website und ins semanu Design integriert.', demoNote: 'Beispiel mit Musterdaten. Preise sind rein indikativ.', introHeading: 'Warum ein Tischkonfigurator?', introBody: 'Maßarbeit kostet Zeit: jede Variante wird per Mail besprochen. Bei einem Tisch wählt er Holzart, Größe und Gestell oder Kante. Ein Tischkonfigurator macht daraus einen klaren Schritt: Ihr Kunde konfiguriert selbst und die fertige Auswahl erreicht Sie als konkrete Anfrage.', geoHeading: 'Auch von der KI empfohlen werden', geoBody: 'Immer mehr Menschen fragen einen KI-Assistenten statt eine Suchmaschine. Wer nach einem Tischkonfigurator sucht, soll auch semanu finden. Darum ist jede Konfigurator Seite auf SEO und GEO gebaut. Klare Struktur und beantwortete Fragen.', benefits: ['Ihre Kunden konfigurieren selbst', 'Sofort ein Richtpreis statt langer Angebotsrunden', 'In Ihre Website und ins semanu Design integriert', 'Auffindbar bei der Suche nach einem Tischkonfigurator'], faqTitle: 'Häufige Fragen', faq: [{ q: 'Was kostet ein Tischkonfigurator?', a: 'Der Konfigurator läuft in einem klaren Monatsabo. Der Preis hängt von der Zahl der Varianten und der Preislogik ab. Erzählen Sie uns von Ihrem Produkt und Sie erhalten eine klare Antwort.' }, { q: 'Ist die Vorschau ein 3D-Modell?', a: 'Beides ist möglich. Wir starten oft mit einer klaren 2D-Vorschau und bauen bei Bedarf eine echte 3D-Ansicht.' }, { q: 'Zeigt der Konfigurator einen Preis?', a: 'Ja, einen Richtpreis auf Basis der Auswahl. Das finale Angebot erstellen Sie danach wie gewohnt.' }, { q: 'Kann ich meine eigenen Modelle und Farben nutzen?', a: 'Ja. Wir bringen Ihre Modelle, Optionen und Farben in den Konfigurator. Nichts wird von anderen übernommen.' }], moreTitle: 'Weitere Konfiguratoren', serviceLabel: 'Alle 3D-Konfiguratoren', finalTitle: 'Wollen Sie so einen Konfigurator?', finalText: 'Erzählen Sie uns von Ihrem Produkt und wir bauen Ihren Konfigurator in Ihre Website.', finalCta: 'Konfigurator besprechen' },
-    fr: { title: 'Table configurateur', eyebrow: 'configurateur 3D', h1: 'Composez votre table en ligne avec un configurateur.', heroSub: 'Avec notre configurateur de table, votre client choisit le modèle, la taille, la matière et la couleur, voit le résultat aussitôt et obtient un prix indicatif. semanu intègre le même configurateur pour votre propre produit dans votre site.', metaTitle: 'Table configurateur · semanu.eu', metaDescription: 'Configurateur de table interactif par semanu. Votre client compose son produit, le voit aussitôt et obtient un prix indicatif. Intégré à votre site au design semanu.', demoNote: 'Données d’exemple. Les prix sont purement indicatifs.', introHeading: 'Pourquoi un configurateur de table ?', introBody: 'Le sur mesure prend du temps : chaque variante se discute par mail. Pour une table, le client choisit l’essence, la taille et le piètement. Un configurateur de table en fait une étape claire : votre client configure et le choix final vous arrive comme une demande concrète.', geoHeading: 'Recommandé aussi par l’IA', geoBody: 'De plus en plus de gens interrogent une IA au lieu d’un moteur de recherche. Qui cherche un configurateur de table doit aussi trouver semanu. Chaque page de configurateur est donc conçue pour le SEO et le GEO. Une structure claire et des questions traitées.', benefits: ['Vos clients configurent seuls', 'Un prix indicatif immédiat au lieu de devis lents', 'Intégré à votre site et au design semanu', 'Visible quand on cherche un configurateur de table'], faqTitle: 'Questions fréquentes', faq: [{ q: 'Combien coûte un configurateur de table ?', a: 'Le configurateur fonctionne dans un abonnement mensuel clair. Le prix dépend du nombre de variantes et de la logique de prix. Parlez-nous de votre produit et vous obtenez une réponse claire.' }, { q: 'L’aperçu est-il un modèle 3D ?', a: 'Les deux sont possibles. Nous commençons souvent par un aperçu 2D clair et créons une vraie vue 3D quand cela apporte de la valeur.' }, { q: 'Le configurateur affiche-t-il un prix ?', a: 'Oui, un prix indicatif selon les choix. Vous faites le devis final comme d’habitude.' }, { q: 'Puis-je utiliser mes propres modèles et couleurs ?', a: 'Oui. Nous intégrons vos modèles, vos options et vos couleurs. Rien n’est repris d’ailleurs.' }], moreTitle: 'Autres configurateurs', serviceLabel: 'Tous les configurateurs 3D', finalTitle: 'Vous voulez un configurateur de ce type ?', finalText: 'Parlez-nous de votre produit et nous construisons votre configurateur dans votre site.', finalCta: 'Parler d’un configurateur' },
-    en: { title: 'Table configurator', eyebrow: '3D configurator', h1: 'Build your table online with a configurator.', heroSub: 'With our table configurator your customer chooses model, size, material and colour, sees the result instantly and gets an indicative price. semanu builds the same configurator for your own product into your website.', metaTitle: 'Table configurator · semanu.eu', metaDescription: 'Interactive table configurator by semanu. Your customer composes their product, sees it instantly and gets an indicative price. Built into your website in semanu design.', demoNote: 'Sample data for illustration. Prices are indicative only.', introHeading: 'Why a table configurator?', introBody: 'Custom work costs time: every variant is discussed by email. For a table they choose the wood type, the size and the base or edge. A table configurator turns that into a clear step: your customer configures and the finished choice reaches you as a concrete enquiry.', geoHeading: 'Recommended by AI too', geoBody: 'More and more people ask an AI assistant instead of a search engine. Someone looking for a table configurator should find semanu too. That is why every configurator page is built for SEO and GEO. A clear structure and answered questions.', benefits: ['Your customers configure it themselves', 'An instant indicative price instead of slow quotes', 'Built into your website and in semanu design', 'Found when people search for a table configurator'], faqTitle: 'Frequently asked questions', faq: [{ q: 'What does a table configurator cost?', a: 'The configurator runs in a clear monthly plan. The price depends on the number of variants and the pricing logic. Tell us about your product and you get a straight answer.' }, { q: 'Is the preview a 3D model?', a: 'Both are possible. We often start with a clear 2D preview and build a real 3D view when it adds value.' }, { q: 'Does the configurator show a price?', a: 'Yes, an indicative price based on the choices. You still make the final quote as usual.' }, { q: 'Can I use my own models and colours?', a: 'Yes. We put your models, options and colours into the configurator. Nothing is taken from anyone else.' }], moreTitle: 'More configurators', serviceLabel: 'All 3D configurators', finalTitle: 'Want a configurator like this?', finalText: 'Tell us about your product and we build your configurator into your website.', finalCta: 'Discuss a configurator' },
-    es: { title: 'Mesa configurador', eyebrow: 'configurador 3D', h1: 'Componga su mesa en línea con un configurador.', heroSub: 'Con nuestro configurador de mesa su cliente elige modelo, tamaño, material y color, ve el resultado al instante y obtiene un precio indicativo. semanu integra el mismo configurador para su propio producto en su web.', metaTitle: 'Mesa configurador · semanu.eu', metaDescription: 'Mesa configurador interactivo de semanu. Su cliente compone su producto, lo ve al instante y obtiene un precio indicativo. Integrado en su web con el diseño de semanu.', demoNote: 'Datos de ejemplo. Los precios son solo indicativos.', introHeading: '¿Por qué un configurador de mesa?', introBody: 'El trabajo a medida cuesta tiempo: cada variante se habla por correo. Para una mesa, elige la madera, el tamaño y la base o el canto. Un configurador de mesa lo convierte en un paso claro: su cliente configura y la elección final le llega como una solicitud concreta.', geoHeading: 'Recomendado también por la IA', geoBody: 'Cada vez más gente pregunta a una IA en lugar de a un buscador. Quien busca un configurador de mesa también debe encontrar a semanu. Por eso cada página de configurador está hecha para SEO y GEO. Una estructura clara y preguntas respondidas.', benefits: ['Sus clientes configuran solos', 'Un precio indicativo al momento en lugar de presupuestos lentos', 'Integrado en su web y en el diseño de semanu', 'Visible cuando buscan un configurador de mesa'], faqTitle: 'Preguntas frecuentes', faq: [{ q: '¿Cuánto cuesta un configurador de mesa?', a: 'El configurador funciona en una suscripción mensual clara. El precio depende del número de variantes y de la lógica de precios. Cuéntenos sobre su producto y obtiene una respuesta clara.' }, { q: '¿La vista previa es un modelo 3D?', a: 'Ambos son posibles. Solemos empezar con una vista previa 2D clara y creamos una vista 3D real cuando aporta valor.' }, { q: '¿El configurador muestra un precio?', a: 'Sí, un precio indicativo según las opciones. El presupuesto final lo hace usted como siempre.' }, { q: '¿Puedo usar mis propios modelos y colores?', a: 'Sí. Integramos sus modelos, opciones y colores. No se copia nada de nadie.' }], moreTitle: 'Más configuradores', serviceLabel: 'Todos los configuradores 3D', finalTitle: '¿Quiere un configurador así?', finalText: 'Cuéntenos sobre su producto y construimos su configurador en su web.', finalCta: 'Hablar de un configurador' },
-    nl: { title: 'Tafel configurator', eyebrow: '3D configurator', h1: 'Stel uw tafel online samen met een configurator.', heroSub: 'Met onze tafel configurator kiest uw klant model, maat, materiaal en kleur, ziet het resultaat meteen en krijgt een richtprijs. semanu bouwt dezelfde configurator voor uw eigen product in uw website.', metaTitle: 'Tafel configurator · semanu.eu', metaDescription: 'Interactieve tafel configurator van semanu. Uw klant stelt zijn product zelf samen, ziet het meteen en krijgt een richtprijs. In uw website en in semanu design.', demoNote: 'Voorbeeld met testdata. Prijzen zijn louter indicatief.', introHeading: 'Waarom een tafel configurator?', introBody: 'Maatwerk kost tijd: elke variant wordt per mail besproken. Voor een tafel kiest men houtsoort, maat en onderstel of rand. Een tafel configurator maakt daar een heldere stap van: uw klant configureert zelf en de afgewerkte keuze bereikt u als een concrete aanvraag.', geoHeading: 'Ook door de AI aanbevolen worden', geoBody: 'Steeds meer mensen vragen het aan een AI in plaats van aan een zoekmachine. Wie zoekt naar een tafel configurator moet ook semanu vinden. Daarom is elke configurator pagina op SEO en GEO gebouwd. Een heldere structuur en beantwoorde vragen.', benefits: ['Uw klanten configureren zelf', 'Meteen een richtprijs in plaats van trage offertes', 'In uw website en in semanu design ingebouwd', 'Vindbaar wanneer men zoekt naar een tafel configurator'], faqTitle: 'Veelgestelde vragen', faq: [{ q: 'Wat kost een tafel configurator?', a: 'De configurator draait in een helder maandabonnement. De prijs hangt af van het aantal varianten en de prijslogica. Vertel ons over uw product en u krijgt een helder antwoord.' }, { q: 'Is de preview een 3D-model?', a: 'Beide kan. We starten vaak met een heldere 2D-preview en bouwen een echte 3D-weergave wanneer dat waarde toevoegt.' }, { q: 'Toont de configurator een prijs?', a: 'Ja, een richtprijs op basis van de keuzes. De finale offerte maakt u daarna zoals gewoonlijk.' }, { q: 'Kan ik mijn eigen modellen en kleuren gebruiken?', a: 'Ja. We zetten uw modellen, opties en kleuren in de configurator. Er wordt niets van anderen overgenomen.' }], moreTitle: 'Meer configuratoren', serviceLabel: 'Alle 3D configuratoren', finalTitle: 'Wilt u zo’n configurator?', finalText: 'Vertel ons over uw product en we bouwen uw configurator in uw website.', finalCta: 'Configurator bespreken' },
+/** Labels shared by every configurator page, per locale. */
+export const UI: Record<
+  ConfLocale,
+  {
+    eyebrow: string;
+    featuresHeading: string;
+    outputsHeading: string;
+    useCasesHeading: string;
+    faqTitle: string;
+    moreTitle: string;
+    serviceLabel: string;
+    finalTitle: string;
+    finalText: string;
+    finalCta: string;
+    demoNote: string;
+    previewLabel: string;
+    summaryLabel: string;
+    priceNote: string;
+    ctaLabel: string;
+  }
+> = {
+  nl: {
+    eyebrow: '3D-configurator',
+    featuresHeading: 'Wat uw klant samenstelt',
+    outputsHeading: 'Wat u ontvangt',
+    useCasesHeading: 'Voor wie',
+    faqTitle: 'Veelgestelde vragen',
+    moreTitle: 'Meer configuratoren',
+    serviceLabel: 'Alles over 3D-configuratoren',
+    finalTitle: 'Een configurator voor uw product?',
+    finalText: 'Vertel ons over uw product en de opties. Wij tonen hoe een configurator in uw verkoop en productie past.',
+    finalCta: 'Bespreek een configurator',
+    demoNote: 'Vereenvoudigde demo met voorbeelddata. Prijzen zijn indicatief.',
+    previewLabel: 'Voorbeeld',
+    summaryLabel: 'Uw keuze',
+    priceNote: 'Richtprijs',
+    ctaLabel: 'Aanvraag sturen',
   },
+  en: {
+    eyebrow: '3D configurator',
+    featuresHeading: 'What your customer configures',
+    outputsHeading: 'What you receive',
+    useCasesHeading: 'Who it is for',
+    faqTitle: 'Frequently asked questions',
+    moreTitle: 'More configurators',
+    serviceLabel: 'All about 3D configurators',
+    finalTitle: 'Want a configurator for your product?',
+    finalText: 'Tell us about your product and its options. We show you how a configurator fits your sales and production.',
+    finalCta: 'Discuss a configurator',
+    demoNote: 'Simplified demo with sample data. Prices are indicative only.',
+    previewLabel: 'Preview',
+    summaryLabel: 'Your choice',
+    priceNote: 'Indicative price',
+    ctaLabel: 'Send enquiry',
+  },
+  de: {
+    eyebrow: '3D-Konfigurator',
+    featuresHeading: 'Was Ihr Kunde konfiguriert',
+    outputsHeading: 'Was Sie erhalten',
+    useCasesHeading: 'Für wen',
+    faqTitle: 'Häufige Fragen',
+    moreTitle: 'Weitere Konfiguratoren',
+    serviceLabel: 'Alles über 3D-Konfiguratoren',
+    finalTitle: 'Ein Konfigurator für Ihr Produkt?',
+    finalText: 'Erzählen Sie uns von Ihrem Produkt und seinen Optionen. Wir zeigen, wie ein Konfigurator in Vertrieb und Fertigung passt.',
+    finalCta: 'Konfigurator besprechen',
+    demoNote: 'Vereinfachte Demo mit Beispieldaten. Preise sind unverbindliche Richtwerte.',
+    previewLabel: 'Vorschau',
+    summaryLabel: 'Ihre Auswahl',
+    priceNote: 'Richtpreis',
+    ctaLabel: 'Anfrage senden',
+  },
+  fr: {
+    eyebrow: 'Configurateur 3D',
+    featuresHeading: 'Ce que votre client configure',
+    outputsHeading: 'Ce que vous recevez',
+    useCasesHeading: 'Pour qui',
+    faqTitle: 'Questions fréquentes',
+    moreTitle: 'Autres configurateurs',
+    serviceLabel: 'Tout sur les configurateurs 3D',
+    finalTitle: 'Un configurateur pour votre produit ?',
+    finalText: 'Parlez-nous de votre produit et de ses options. Nous vous montrons comment un configurateur s’intègre à vos ventes et à votre production.',
+    finalCta: 'Parler d’un configurateur',
+    demoNote: 'Démo simplifiée avec des données d’exemple. Prix indicatifs uniquement.',
+    previewLabel: 'Aperçu',
+    summaryLabel: 'Votre choix',
+    priceNote: 'Prix indicatif',
+    ctaLabel: 'Envoyer la demande',
+  },
+  es: {
+    eyebrow: 'Configurador 3D',
+    featuresHeading: 'Lo que configura su cliente',
+    outputsHeading: 'Lo que usted recibe',
+    useCasesHeading: 'Para quién',
+    faqTitle: 'Preguntas frecuentes',
+    moreTitle: 'Más configuradores',
+    serviceLabel: 'Todo sobre configuradores 3D',
+    finalTitle: '¿Un configurador para su producto?',
+    finalText: 'Cuéntenos su producto y sus opciones. Le mostramos cómo encaja un configurador en sus ventas y su producción.',
+    finalCta: 'Hablar de un configurador',
+    demoNote: 'Demo simplificada con datos de ejemplo. Precios solo orientativos.',
+    previewLabel: 'Vista previa',
+    summaryLabel: 'Su elección',
+    priceNote: 'Precio indicativo',
+    ctaLabel: 'Enviar solicitud',
+  },
+};
+
+/** Sample demo data per type: the step and option labels follow the real configurator. */
+export const DEMOS: Record<string, ConfDemo> = {
   cabinet: {
-    de: { title: 'Schrankkonfigurator', eyebrow: '3D-Konfigurator', configUrl: 'https://www.semanu.be/schrankplaner', launchLabel: 'Konfigurator öffnen', h1: 'Schrank online zusammenstellen mit einem 3D-Konfigurator.', heroSub: 'Mit unserem Schrankkonfigurator legt Ihr Kunde Maße, Aufteilung, Material und Oberfläche fest, sieht das Ergebnis sofort und erhält einen Richtpreis. semanu baut denselben Konfigurator für Ihr eigenes Sortiment in Ihre Website und Ihre Systeme.', metaTitle: 'Schrankkonfigurator · semanu.eu', metaDescription: 'Interaktiver Schrankkonfigurator von semanu. Ihr Kunde bemaßt und stellt einen Schrank zusammen, sieht ihn sofort und erhält einen Richtpreis mit Stückliste. In Ihre Website und ins semanu Design integriert.', demoNote: 'Beispiel mit Musterdaten. Preise sind rein indikativ.', introHeading: 'Warum ein Schrankkonfigurator?', introBody: 'Schränke sind Maßarbeit: Breite, Höhe, Fachböden, Schubladen und Oberfläche variieren alle. Jede Variante wird normalerweise per Mail besprochen. Ein Schrankkonfigurator macht daraus einen klaren Schritt: Ihr Kunde legt Maße und Aufteilung fest, wählt Material und Oberfläche und sendet Ihnen die fertige Auswahl als konkrete Anfrage mit den richtigen Maßen.', geoHeading: 'Auch von der KI empfohlen werden', geoBody: 'Immer mehr Menschen fragen einen KI-Assistenten statt eine Suchmaschine. Wer nach einem Schrankkonfigurator sucht, soll auch semanu finden. Darum ist jede Konfigurator Seite auf SEO und GEO gebaut: klare Struktur und beantwortete Fragen.', benefits: ['Ihre Kunden stellen den Schrank selbst zusammen', 'Sofort ein Richtpreis statt langer Angebotsrunden', 'Nur baubare Kombinationen, keine unmöglichen Bestellungen', 'Eine Stückliste und Schnittliste bereit für Produktion oder ERP', 'In Ihre Website und ins semanu Design integriert'], faqTitle: 'Häufige Fragen', faq: [{ q: 'Was kostet ein Schrankkonfigurator?', a: 'Der Konfigurator läuft in einem klaren Monatsabo. Der Preis hängt von der Zahl der Varianten und der Preislogik ab. Erzählen Sie uns von Ihrem Sortiment und Sie erhalten eine klare Antwort.' }, { q: 'Können Kunden die Maße selbst festlegen?', a: 'Ja. Breite, Höhe und Tiefe gehören zur Konfiguration, innerhalb der Grenzen und Regeln, die Sie festlegen, sodass jedes Ergebnis baubar bleibt.' }, { q: 'Zeigt der Konfigurator einen Preis?', a: 'Ja, einen Richtpreis auf Basis von Maße, Materialien und gewählten Optionen. Das finale Angebot erstellen Sie danach wie gewohnt.' }, { q: 'Kann der Konfigurator eine Stückliste oder Schnittliste erstellen?', a: 'Ja. Jede Konfiguration kann eine Stückliste, Schnittliste und Beschlagliste exportieren, bereit für Produktion oder ERP.' }, { q: 'Kann ich meine eigenen Materialien, Oberflächen und Beschläge nutzen?', a: 'Ja. Wir bringen Ihre Modelle, Materialien, Farben und Beschläge in den Konfigurator. Nichts wird von anderen übernommen.' }], moreTitle: 'Weitere Konfiguratoren', serviceLabel: 'Alle 3D-Konfiguratoren', finalTitle: 'Wollen Sie so einen Konfigurator?', finalText: 'Erzählen Sie uns von Ihrem Schranksortiment und wir bauen Ihren Konfigurator in Ihre Website.', finalCta: 'Konfigurator besprechen' },
-    fr: { title: 'Armoire configurateur', eyebrow: 'configurateur 3D', configUrl: 'https://www.semanu.be/configurateurdressing', launchLabel: 'Ouvrir le configurateur', h1: 'Composez votre armoire en ligne avec un configurateur 3D.', heroSub: 'Avec notre configurateur d’armoire, votre client règle les dimensions, l’agencement, le matériau et la finition, voit le résultat aussitôt et obtient un prix indicatif. semanu intègre le même configurateur pour votre propre gamme dans votre site et vos systèmes.', metaTitle: 'Armoire configurateur · semanu.eu', metaDescription: 'Configurateur d’armoire interactif par semanu. Votre client dimensionne et compose une armoire, la voit aussitôt et obtient un prix indicatif avec nomenclature. Intégré à votre site au design semanu.', demoNote: 'Données d’exemple. Les prix sont purement indicatifs.', introHeading: 'Pourquoi un configurateur d’armoire ?', introBody: 'Les armoires sont du sur mesure : largeur, hauteur, étagères, tiroirs et finition varient tous. Chaque variante se discute normalement par mail. Un configurateur d’armoire en fait une étape claire : votre client règle les dimensions et l’agencement, choisit le matériau et la finition et vous envoie le choix final comme une demande concrète avec les bonnes mesures.', geoHeading: 'Recommandé aussi par l’IA', geoBody: 'De plus en plus de gens interrogent une IA au lieu d’un moteur de recherche. Qui cherche un configurateur d’armoire doit aussi trouver semanu. Chaque page de configurateur est donc conçue pour le SEO et le GEO : une structure claire et des questions traitées.', benefits: ['Vos clients composent l’armoire eux-mêmes', 'Un prix indicatif immédiat au lieu de devis lents', 'Uniquement des combinaisons réalisables, pas de commandes impossibles', 'Une nomenclature et une liste de débit prêtes pour la production ou l’ERP', 'Intégré à votre site et au design semanu'], faqTitle: 'Questions fréquentes', faq: [{ q: 'Combien coûte un configurateur d’armoire ?', a: 'Le configurateur fonctionne dans un abonnement mensuel clair. Le prix dépend du nombre de variantes et de la logique de prix. Parlez-nous de votre gamme et vous obtenez une réponse claire.' }, { q: 'Les clients peuvent-ils définir leurs propres dimensions ?', a: 'Oui. La largeur, la hauteur et la profondeur font partie de la configuration, dans les limites et règles que vous fixez, de sorte que chaque résultat reste réalisable.' }, { q: 'Le configurateur affiche-t-il un prix ?', a: 'Oui, un prix indicatif selon les dimensions, les matériaux et les options choisies. Vous faites le devis final comme d’habitude.' }, { q: 'Le configurateur peut-il générer une nomenclature ou une liste de débit ?', a: 'Oui. Chaque configuration peut exporter une nomenclature, une liste de débit et une liste de quincaillerie, prêtes pour la production ou l’ERP.' }, { q: 'Puis-je utiliser mes propres matériaux, finitions et quincaillerie ?', a: 'Oui. Nous intégrons vos modèles, matériaux, couleurs et quincaillerie. Rien n’est repris d’ailleurs.' }], moreTitle: 'Autres configurateurs', serviceLabel: 'Tous les configurateurs 3D', finalTitle: 'Vous voulez un configurateur de ce type ?', finalText: 'Parlez-nous de votre gamme d’armoires et nous construisons votre configurateur dans votre site.', finalCta: 'Parler d’un configurateur' },
-    en: { title: 'Cabinet configurator', eyebrow: '3D configurator', configUrl: 'https://www.semanu.be/cabinetconfigurator', launchLabel: 'Open the configurator', h1: 'Build your cabinet online with a 3D configurator.', heroSub: 'With our cabinet configurator your customer sets the dimensions, layout, material and finish, sees the result instantly and gets an indicative price. semanu builds the same configurator for your own range into your website and your systems.', metaTitle: 'Cabinet configurator · semanu.eu', metaDescription: 'Interactive cabinet configurator by semanu. Your customer sizes and composes a cabinet, sees it instantly and gets an indicative price with a parts list. Built into your website in semanu design.', demoNote: 'Sample data for illustration. Prices are indicative only.', introHeading: 'Why a cabinet configurator?', introBody: 'Cabinets are custom work: width, height, shelves, drawers and finish all vary. Every variant is normally discussed by email. A cabinet configurator turns that into a clear step: your customer sets the dimensions and layout, picks the material and finish and sends you the finished choice as a concrete enquiry with the right measurements.', geoHeading: 'Recommended by AI too', geoBody: 'More and more people ask an AI assistant instead of a search engine. Someone looking for a cabinet configurator should find semanu too. That is why every configurator page is built for SEO and GEO: a clear structure and answered questions.', benefits: ['Your customers configure the cabinet themselves', 'An instant indicative price instead of slow quotes', 'Only buildable combinations, no impossible orders', 'A parts list and cut list ready for production or ERP', 'Built into your website and in semanu design'], faqTitle: 'Frequently asked questions', faq: [{ q: 'What does a cabinet configurator cost?', a: 'The configurator runs in a clear monthly plan. The price depends on the number of variants and the pricing logic. Tell us about your range and you get a straight answer.' }, { q: 'Can customers set their own dimensions?', a: 'Yes. Width, height and depth are part of the configuration, within the limits and rules you set, so every result stays buildable.' }, { q: 'Does the configurator show a price?', a: 'Yes, an indicative price based on the size, materials and options chosen. You still make the final quote as usual.' }, { q: 'Can the configurator generate a parts list or cut list?', a: 'Yes. Each configuration can export a parts list, cut list and fittings list, ready for production or ERP.' }, { q: 'Can I use my own materials, finishes and fittings?', a: 'Yes. We put your models, materials, colours and fittings into the configurator. Nothing is taken from anyone else.' }], moreTitle: 'More configurators', serviceLabel: 'All 3D configurators', finalTitle: 'Want a configurator like this?', finalText: 'Tell us about your cabinet range and we build your configurator into your website.', finalCta: 'Discuss a configurator' },
-    es: { title: 'Armario configurador', eyebrow: 'configurador 3D', configUrl: 'https://www.semanu.be/configuradorarmarios', launchLabel: 'Abrir el configurador', h1: 'Componga su armario en línea con un configurador 3D.', heroSub: 'Con nuestro configurador de armario su cliente define las dimensiones, la distribución, el material y el acabado, ve el resultado al instante y obtiene un precio indicativo. semanu integra el mismo configurador para su propia gama en su web y sus sistemas.', metaTitle: 'Armario configurador · semanu.eu', metaDescription: 'Configurador de armario interactivo de semanu. Su cliente dimensiona y compone un armario, lo ve al instante y obtiene un precio indicativo con lista de piezas. Integrado en su web con el diseño de semanu.', demoNote: 'Datos de ejemplo. Los precios son solo indicativos.', introHeading: '¿Por qué un configurador de armario?', introBody: 'Los armarios son trabajo a medida: ancho, alto, baldas, cajones y acabado varían todos. Cada variante se habla normalmente por correo. Un configurador de armario lo convierte en un paso claro: su cliente define las dimensiones y la distribución, elige el material y el acabado y le envía la elección final como una solicitud concreta con las medidas correctas.', geoHeading: 'Recomendado también por la IA', geoBody: 'Cada vez más gente pregunta a una IA en lugar de a un buscador. Quien busca un configurador de armario también debe encontrar a semanu. Por eso cada página de configurador está hecha para SEO y GEO: una estructura clara y preguntas respondidas.', benefits: ['Sus clientes componen el armario ellos mismos', 'Un precio indicativo al momento en lugar de presupuestos lentos', 'Solo combinaciones fabricables, sin pedidos imposibles', 'Una lista de piezas y de corte lista para producción o ERP', 'Integrado en su web y en el diseño de semanu'], faqTitle: 'Preguntas frecuentes', faq: [{ q: '¿Cuánto cuesta un configurador de armario?', a: 'El configurador funciona en una suscripción mensual clara. El precio depende del número de variantes y de la lógica de precios. Cuéntenos sobre su gama y obtiene una respuesta clara.' }, { q: '¿Pueden los clientes definir sus propias dimensiones?', a: 'Sí. El ancho, el alto y el fondo forman parte de la configuración, dentro de los límites y las reglas que usted fija, de modo que cada resultado sigue siendo fabricable.' }, { q: '¿El configurador muestra un precio?', a: 'Sí, un precio indicativo según las dimensiones, los materiales y las opciones elegidas. El presupuesto final lo hace usted como siempre.' }, { q: '¿El configurador puede generar una lista de piezas o de corte?', a: 'Sí. Cada configuración puede exportar una lista de piezas, una lista de corte y una lista de herrajes, lista para producción o ERP.' }, { q: '¿Puedo usar mis propios materiales, acabados y herrajes?', a: 'Sí. Integramos sus modelos, materiales, colores y herrajes. No se copia nada de nadie.' }], moreTitle: 'Más configuradores', serviceLabel: 'Todos los configuradores 3D', finalTitle: '¿Quiere un configurador así?', finalText: 'Cuéntenos sobre su gama de armarios y construimos su configurador en su web.', finalCta: 'Hablar de un configurador' },
-    nl: { title: 'Kast configurator', eyebrow: '3D configurator', configUrl: 'https://www.semanu.be/kastenconfigurator', launchLabel: 'Open de configurator', h1: 'Stel uw kast online samen met een 3D-configurator.', heroSub: 'Met onze kast configurator stelt uw klant de afmetingen, indeling, het materiaal en de afwerking in, ziet het resultaat meteen en krijgt een richtprijs. semanu bouwt dezelfde configurator voor uw eigen gamma in uw website en uw systemen.', metaTitle: 'Kast configurator · semanu.eu', metaDescription: 'Interactieve kast configurator van semanu. Uw klant bepaalt de maten en stelt een kast samen, ziet het meteen en krijgt een richtprijs met stuklijst. In uw website en in semanu design.', demoNote: 'Voorbeeld met testdata. Prijzen zijn louter indicatief.', introHeading: 'Waarom een kast configurator?', introBody: 'Kasten zijn maatwerk: breedte, hoogte, legplanken, lades en afwerking verschillen allemaal. Elke variant wordt normaal per mail besproken. Een kast configurator maakt daar een heldere stap van: uw klant stelt de afmetingen en indeling in, kiest het materiaal en de afwerking en stuurt u de afgewerkte keuze als een concrete aanvraag met de juiste maten.', geoHeading: 'Ook door de AI aanbevolen worden', geoBody: 'Steeds meer mensen vragen het aan een AI in plaats van aan een zoekmachine. Wie zoekt naar een kast configurator moet ook semanu vinden. Daarom is elke configurator pagina op SEO en GEO gebouwd: een heldere structuur en beantwoorde vragen.', benefits: ['Uw klanten stellen de kast zelf samen', 'Meteen een richtprijs in plaats van trage offertes', 'Alleen maakbare combinaties, geen onmogelijke bestellingen', 'Een stuklijst en zaaglijst klaar voor productie of ERP', 'In uw website en in semanu design ingebouwd'], faqTitle: 'Veelgestelde vragen', faq: [{ q: 'Wat kost een kast configurator?', a: 'De configurator draait in een helder maandabonnement. De prijs hangt af van het aantal varianten en de prijslogica. Vertel ons over uw gamma en u krijgt een helder antwoord.' }, { q: 'Kunnen klanten zelf de afmetingen instellen?', a: 'Ja. Breedte, hoogte en diepte horen bij de configuratie, binnen de grenzen en regels die u instelt, zodat elk resultaat maakbaar blijft.' }, { q: 'Toont de configurator een prijs?', a: 'Ja, een richtprijs op basis van de maat, materialen en gekozen opties. De finale offerte maakt u daarna zoals gewoonlijk.' }, { q: 'Kan de configurator een stuklijst of zaaglijst maken?', a: 'Ja. Elke configuratie kan een stuklijst, zaaglijst en beslaglijst exporteren, klaar voor productie of ERP.' }, { q: 'Kan ik mijn eigen materialen, afwerkingen en beslag gebruiken?', a: 'Ja. We zetten uw modellen, materialen, kleuren en beslag in de configurator. Er wordt niets van anderen overgenomen.' }], moreTitle: 'Meer configuratoren', serviceLabel: 'Alle 3D configuratoren', finalTitle: 'Wilt u zo’n configurator?', finalText: 'Vertel ons over uw kastengamma en we bouwen uw configurator in uw website.', finalCta: 'Configurator bespreken' },
+    currency: 'EUR',
+    basePrice: 1500,
+    steps: [
+      {
+        label: L('Front', 'Front', 'Front', 'Façade', 'Frente'),
+        options: [
+          { label: L('Met deuren', 'With doors', 'Mit Türen', 'Avec portes', 'Con puertas') },
+          { label: L('Open', 'Open', 'Offen', 'Ouvert', 'Abierto'), price: -150 },
+        ],
+      },
+      {
+        label: L('Breedte', 'Width', 'Breite', 'Largeur', 'Ancho'),
+        options: [{ label: '160 cm' }, { label: '200 cm', price: 260 }, { label: '240 cm', price: 520 }],
+      },
+      {
+        label: L('Indeling', 'Interior', 'Innenausstattung', 'Aménagement', 'Interior'),
+        options: [
+          { label: L('Legplanken', 'Shelves', 'Böden', 'Étagères', 'Baldas') },
+          { label: L('Hangroede', 'Hanging rail', 'Kleiderstange', 'Penderie', 'Barra'), price: 40 },
+          { label: L('Hangroede en laden', 'Rail and drawers', 'Stange und Schubladen', 'Penderie et tiroirs', 'Barra y cajones'), price: 340 },
+        ],
+      },
+      {
+        label: L('Afwerking', 'Finish', 'Oberfläche', 'Finition', 'Acabado'),
+        options: [
+          { label: L('Eik licht', 'Light oak', 'Eiche hell', 'Chêne clair', 'Roble claro'), swatch: '#cfb08a' },
+          { label: L('Notelaar', 'Walnut', 'Nussbaum', 'Noyer', 'Nogal'), swatch: '#6b4a33', price: 180 },
+          { label: L('Hoogglans wit', 'High gloss white', 'Hochglanz weiß', 'Blanc brillant', 'Blanco brillo'), swatch: '#f4f3ef', price: 120 },
+          { label: L('Antraciet', 'Anthracite', 'Anthrazit', 'Anthracite', 'Antracita'), swatch: '#3a3d42', price: 120 },
+        ],
+      },
+    ],
+  },
+  table: {
+    currency: 'EUR',
+    basePrice: 1500,
+    steps: [
+      {
+        label: L('Vorm', 'Shape', 'Form', 'Forme', 'Forma'),
+        options: [
+          { label: L('Rechthoekig', 'Rectangular', 'Rechteckig', 'Rectangulaire', 'Rectangular') },
+          { label: L('Ovaal', 'Oval', 'Oval', 'Ovale', 'Ovalada'), price: 150 },
+          { label: L('Rond', 'Round', 'Rund', 'Ronde', 'Redonda'), price: 100 },
+        ],
+      },
+      {
+        label: L('Maat', 'Size', 'Größe', 'Taille', 'Tamaño'),
+        options: [{ label: '180 cm' }, { label: '220 cm', price: 220 }, { label: '260 cm', price: 420 }],
+      },
+      {
+        label: L('Blad', 'Top', 'Platte', 'Plateau', 'Tablero'),
+        options: [
+          { label: L('Eik', 'Oak', 'Eiche', 'Chêne', 'Roble') },
+          { label: L('Notelaar', 'Walnut', 'Nussbaum', 'Noyer', 'Nogal'), price: 300 },
+          { label: L('Keramiek', 'Ceramic', 'Keramik', 'Céramique', 'Cerámica'), price: 450 },
+          { label: L('Linoleum', 'Linoleum', 'Linoleum', 'Linoléum', 'Linóleo'), price: 80 },
+        ],
+      },
+      {
+        label: L('Kleur onderstel', 'Base colour', 'Gestellfarbe', 'Couleur du piétement', 'Color de la base'),
+        options: [
+          { label: 'RAL 9005', swatch: '#0e0e10' },
+          { label: 'RAL 7016', swatch: '#383e42' },
+          { label: 'RAL 3000', swatch: '#a72920' },
+          { label: 'RAL 5015', swatch: '#2271b3' },
+        ],
+      },
+    ],
   },
   railing: {
-    de: { title: 'Geländerkonfigurator', eyebrow: '3D-Konfigurator', h1: 'Geländer online zusammenstellen mit einem Konfigurator.', heroSub: 'Mit unserem Geländerkonfigurator wählt Ihr Kunde Modell, Größe, Material und Farbe, sieht das Ergebnis sofort und erhält einen Richtpreis. semanu baut denselben Konfigurator für Ihr eigenes Produkt in Ihre Website.', metaTitle: 'Geländerkonfigurator · semanu.eu', metaDescription: 'Interaktiver Geländerkonfigurator von semanu. Ihr Kunde stellt sein Produkt selbst zusammen, sieht es sofort und erhält einen Richtpreis. In Ihre Website und ins semanu Design integriert.', demoNote: 'Beispiel mit Musterdaten. Preise sind rein indikativ.', introHeading: 'Warum ein Geländerkonfigurator?', introBody: 'Maßarbeit kostet Zeit: jede Variante wird per Mail besprochen. Bei einem Geländer wählt er Typ, Länge in Metern und RAL-Farbe. Ein Geländerkonfigurator macht daraus einen klaren Schritt: Ihr Kunde konfiguriert selbst und die fertige Auswahl erreicht Sie als konkrete Anfrage.', geoHeading: 'Auch von der KI empfohlen werden', geoBody: 'Immer mehr Menschen fragen einen KI-Assistenten statt eine Suchmaschine. Wer nach einem Geländerkonfigurator sucht, soll auch semanu finden. Darum ist jede Konfigurator Seite auf SEO und GEO gebaut. Klare Struktur und beantwortete Fragen.', benefits: ['Ihre Kunden konfigurieren selbst', 'Sofort ein Richtpreis statt langer Angebotsrunden', 'In Ihre Website und ins semanu Design integriert', 'Auffindbar bei der Suche nach einem Geländerkonfigurator'], faqTitle: 'Häufige Fragen', faq: [{ q: 'Was kostet ein Geländerkonfigurator?', a: 'Der Konfigurator läuft in einem klaren Monatsabo. Der Preis hängt von der Zahl der Varianten und der Preislogik ab. Erzählen Sie uns von Ihrem Produkt und Sie erhalten eine klare Antwort.' }, { q: 'Ist die Vorschau ein 3D-Modell?', a: 'Beides ist möglich. Wir starten oft mit einer klaren 2D-Vorschau und bauen bei Bedarf eine echte 3D-Ansicht.' }, { q: 'Zeigt der Konfigurator einen Preis?', a: 'Ja, einen Richtpreis auf Basis der Auswahl. Das finale Angebot erstellen Sie danach wie gewohnt.' }, { q: 'Kann ich meine eigenen Modelle und Farben nutzen?', a: 'Ja. Wir bringen Ihre Modelle, Optionen und Farben in den Konfigurator. Nichts wird von anderen übernommen.' }], moreTitle: 'Weitere Konfiguratoren', serviceLabel: 'Alle 3D-Konfiguratoren', finalTitle: 'Wollen Sie so einen Konfigurator?', finalText: 'Erzählen Sie uns von Ihrem Produkt und wir bauen Ihren Konfigurator in Ihre Website.', finalCta: 'Konfigurator besprechen' },
-    fr: { title: 'Garde corps configurateur', eyebrow: 'configurateur 3D', h1: 'Composez votre garde-corps en ligne avec un configurateur.', heroSub: 'Avec notre configurateur de garde-corps, votre client choisit le modèle, la taille, la matière et la couleur, voit le résultat aussitôt et obtient un prix indicatif. semanu intègre le même configurateur pour votre propre produit dans votre site.', metaTitle: 'Garde corps configurateur · semanu.eu', metaDescription: 'Configurateur de garde-corps interactif par semanu. Votre client compose son produit, le voit aussitôt et obtient un prix indicatif. Intégré à votre site au design semanu.', demoNote: 'Données d’exemple. Les prix sont purement indicatifs.', introHeading: 'Pourquoi un configurateur de garde-corps ?', introBody: 'Le sur mesure prend du temps : chaque variante se discute par mail. Pour un garde-corps, le client choisit le type, la longueur en mètres et la couleur RAL. Un configurateur de garde-corps en fait une étape claire : votre client configure et le choix final vous arrive comme une demande concrète.', geoHeading: 'Recommandé aussi par l’IA', geoBody: 'De plus en plus de gens interrogent une IA au lieu d’un moteur de recherche. Qui cherche un configurateur de garde-corps doit aussi trouver semanu. Chaque page de configurateur est donc conçue pour le SEO et le GEO. Une structure claire et des questions traitées.', benefits: ['Vos clients configurent seuls', 'Un prix indicatif immédiat au lieu de devis lents', 'Intégré à votre site et au design semanu', 'Visible quand on cherche un configurateur de garde-corps'], faqTitle: 'Questions fréquentes', faq: [{ q: 'Combien coûte un configurateur de garde-corps ?', a: 'Le configurateur fonctionne dans un abonnement mensuel clair. Le prix dépend du nombre de variantes et de la logique de prix. Parlez-nous de votre produit et vous obtenez une réponse claire.' }, { q: 'L’aperçu est-il un modèle 3D ?', a: 'Les deux sont possibles. Nous commençons souvent par un aperçu 2D clair et créons une vraie vue 3D quand cela apporte de la valeur.' }, { q: 'Le configurateur affiche-t-il un prix ?', a: 'Oui, un prix indicatif selon les choix. Vous faites le devis final comme d’habitude.' }, { q: 'Puis-je utiliser mes propres modèles et couleurs ?', a: 'Oui. Nous intégrons vos modèles, vos options et vos couleurs. Rien n’est repris d’ailleurs.' }], moreTitle: 'Autres configurateurs', serviceLabel: 'Tous les configurateurs 3D', finalTitle: 'Vous voulez un configurateur de ce type ?', finalText: 'Parlez-nous de votre produit et nous construisons votre configurateur dans votre site.', finalCta: 'Parler d’un configurateur' },
-    en: { title: 'Railing configurator', eyebrow: '3D configurator', h1: 'Build your railing online with a configurator.', heroSub: 'With our railing configurator your customer chooses model, size, material and colour, sees the result instantly and gets an indicative price. semanu builds the same configurator for your own product into your website.', metaTitle: 'Railing configurator · semanu.eu', metaDescription: 'Interactive railing configurator by semanu. Your customer composes their product, sees it instantly and gets an indicative price. Built into your website in semanu design.', demoNote: 'Sample data for illustration. Prices are indicative only.', introHeading: 'Why a railing configurator?', introBody: 'Custom work costs time: every variant is discussed by email. For a railing they pick the type, the length in metres and the RAL colour. A railing configurator turns that into a clear step: your customer configures and the finished choice reaches you as a concrete enquiry.', geoHeading: 'Recommended by AI too', geoBody: 'More and more people ask an AI assistant instead of a search engine. Someone looking for a railing configurator should find semanu too. That is why every configurator page is built for SEO and GEO. A clear structure and answered questions.', benefits: ['Your customers configure it themselves', 'An instant indicative price instead of slow quotes', 'Built into your website and in semanu design', 'Found when people search for a railing configurator'], faqTitle: 'Frequently asked questions', faq: [{ q: 'What does a railing configurator cost?', a: 'The configurator runs in a clear monthly plan. The price depends on the number of variants and the pricing logic. Tell us about your product and you get a straight answer.' }, { q: 'Is the preview a 3D model?', a: 'Both are possible. We often start with a clear 2D preview and build a real 3D view when it adds value.' }, { q: 'Does the configurator show a price?', a: 'Yes, an indicative price based on the choices. You still make the final quote as usual.' }, { q: 'Can I use my own models and colours?', a: 'Yes. We put your models, options and colours into the configurator. Nothing is taken from anyone else.' }], moreTitle: 'More configurators', serviceLabel: 'All 3D configurators', finalTitle: 'Want a configurator like this?', finalText: 'Tell us about your product and we build your configurator into your website.', finalCta: 'Discuss a configurator' },
-    es: { title: 'Barandilla configurador', eyebrow: 'configurador 3D', h1: 'Componga su barandilla en línea con un configurador.', heroSub: 'Con nuestro configurador de barandilla su cliente elige modelo, tamaño, material y color, ve el resultado al instante y obtiene un precio indicativo. semanu integra el mismo configurador para su propio producto en su web.', metaTitle: 'Barandilla configurador · semanu.eu', metaDescription: 'Barandilla configurador interactivo de semanu. Su cliente compone su producto, lo ve al instante y obtiene un precio indicativo. Integrado en su web con el diseño de semanu.', demoNote: 'Datos de ejemplo. Los precios son solo indicativos.', introHeading: '¿Por qué un configurador de barandilla?', introBody: 'El trabajo a medida cuesta tiempo: cada variante se habla por correo. Para una barandilla, elige el tipo, la longitud en metros y el color RAL. Un configurador de barandilla lo convierte en un paso claro: su cliente configura y la elección final le llega como una solicitud concreta.', geoHeading: 'Recomendado también por la IA', geoBody: 'Cada vez más gente pregunta a una IA en lugar de a un buscador. Quien busca un configurador de barandilla también debe encontrar a semanu. Por eso cada página de configurador está hecha para SEO y GEO. Una estructura clara y preguntas respondidas.', benefits: ['Sus clientes configuran solos', 'Un precio indicativo al momento en lugar de presupuestos lentos', 'Integrado en su web y en el diseño de semanu', 'Visible cuando buscan un configurador de barandilla'], faqTitle: 'Preguntas frecuentes', faq: [{ q: '¿Cuánto cuesta un configurador de barandilla?', a: 'El configurador funciona en una suscripción mensual clara. El precio depende del número de variantes y de la lógica de precios. Cuéntenos sobre su producto y obtiene una respuesta clara.' }, { q: '¿La vista previa es un modelo 3D?', a: 'Ambos son posibles. Solemos empezar con una vista previa 2D clara y creamos una vista 3D real cuando aporta valor.' }, { q: '¿El configurador muestra un precio?', a: 'Sí, un precio indicativo según las opciones. El presupuesto final lo hace usted como siempre.' }, { q: '¿Puedo usar mis propios modelos y colores?', a: 'Sí. Integramos sus modelos, opciones y colores. No se copia nada de nadie.' }], moreTitle: 'Más configuradores', serviceLabel: 'Todos los configuradores 3D', finalTitle: '¿Quiere un configurador así?', finalText: 'Cuéntenos sobre su producto y construimos su configurador en su web.', finalCta: 'Hablar de un configurador' },
-    nl: { title: 'Balustrade configurator', eyebrow: '3D configurator', h1: 'Stel uw balustrade online samen met een configurator.', heroSub: 'Met onze balustrade configurator kiest uw klant model, maat, materiaal en kleur, ziet het resultaat meteen en krijgt een richtprijs. semanu bouwt dezelfde configurator voor uw eigen product in uw website.', metaTitle: 'Balustrade configurator · semanu.eu', metaDescription: 'Interactieve balustrade configurator van semanu. Uw klant stelt zijn product zelf samen, ziet het meteen en krijgt een richtprijs. In uw website en in semanu design.', demoNote: 'Voorbeeld met testdata. Prijzen zijn louter indicatief.', introHeading: 'Waarom een balustrade configurator?', introBody: 'Maatwerk kost tijd: elke variant wordt per mail besproken. Voor een balustrade kiest men type, lengte in meter en RAL-kleur. Een balustrade configurator maakt daar een heldere stap van: uw klant configureert zelf en de afgewerkte keuze bereikt u als een concrete aanvraag.', geoHeading: 'Ook door de AI aanbevolen worden', geoBody: 'Steeds meer mensen vragen het aan een AI in plaats van aan een zoekmachine. Wie zoekt naar een balustrade configurator moet ook semanu vinden. Daarom is elke configurator pagina op SEO en GEO gebouwd. Een heldere structuur en beantwoorde vragen.', benefits: ['Uw klanten configureren zelf', 'Meteen een richtprijs in plaats van trage offertes', 'In uw website en in semanu design ingebouwd', 'Vindbaar wanneer men zoekt naar een balustrade configurator'], faqTitle: 'Veelgestelde vragen', faq: [{ q: 'Wat kost een balustrade configurator?', a: 'De configurator draait in een helder maandabonnement. De prijs hangt af van het aantal varianten en de prijslogica. Vertel ons over uw product en u krijgt een helder antwoord.' }, { q: 'Is de preview een 3D-model?', a: 'Beide kan. We starten vaak met een heldere 2D-preview en bouwen een echte 3D-weergave wanneer dat waarde toevoegt.' }, { q: 'Toont de configurator een prijs?', a: 'Ja, een richtprijs op basis van de keuzes. De finale offerte maakt u daarna zoals gewoonlijk.' }, { q: 'Kan ik mijn eigen modellen en kleuren gebruiken?', a: 'Ja. We zetten uw modellen, opties en kleuren in de configurator. Er wordt niets van anderen overgenomen.' }], moreTitle: 'Meer configuratoren', serviceLabel: 'Alle 3D configuratoren', finalTitle: 'Wilt u zo’n configurator?', finalText: 'Vertel ons over uw product en we bouwen uw configurator in uw website.', finalCta: 'Configurator bespreken' },
+    currency: 'EUR',
+    basePrice: 900,
+    steps: [
+      {
+        label: L('Vorm', 'Shape', 'Form', 'Forme', 'Forma'),
+        options: [
+          { label: L('Recht', 'Straight', 'Gerade', 'Droite', 'Recta') },
+          { label: L('L-vorm', 'L shape', 'L-Form', 'En L', 'En L'), price: 150 },
+          { label: L('U-vorm', 'U shape', 'U-Form', 'En U', 'En U'), price: 300 },
+        ],
+      },
+      {
+        label: L('Lengte', 'Length', 'Länge', 'Longueur', 'Longitud'),
+        options: [{ label: '3 m' }, { label: '6 m', price: 780 }, { label: '9 m', price: 1560 }],
+      },
+      {
+        label: L('Montage', 'Mounting', 'Montage', 'Fixation', 'Montaje'),
+        options: [
+          { label: L('Op de vloer', 'On the floor', 'Auf dem Boden', 'Au sol', 'Sobre el suelo') },
+          { label: L('Tegen de zijkant', 'Side mounted', 'Seitlich', 'En applique', 'Lateral'), price: 180 },
+          { label: L('Ingebouwd', 'Recessed', 'Eingelassen', 'Encastrée', 'Empotrado'), price: 360 },
+        ],
+      },
+      {
+        label: L('Profielkleur', 'Profile colour', 'Profilfarbe', 'Couleur du profil', 'Color del perfil'),
+        options: [
+          { label: 'RAL 9005', swatch: '#0e0e10' },
+          { label: 'RAL 7016', swatch: '#383e42' },
+          { label: 'RAL 9016', swatch: '#f1f0ea' },
+          { label: L('Brons', 'Bronze', 'Bronze', 'Bronze', 'Bronce'), swatch: '#8c6a43', price: 120 },
+        ],
+      },
+    ],
   },
   gate: {
-    de: { title: 'Torkonfigurator', eyebrow: '3D-Konfigurator', h1: 'Tor online zusammenstellen mit einem Konfigurator.', heroSub: 'Mit unserem Torkonfigurator wählt Ihr Kunde Modell, Größe, Material und Farbe, sieht das Ergebnis sofort und erhält einen Richtpreis. semanu baut denselben Konfigurator für Ihr eigenes Produkt in Ihre Website.', metaTitle: 'Torkonfigurator · semanu.eu', metaDescription: 'Interaktiver Torkonfigurator von semanu. Ihr Kunde stellt sein Produkt selbst zusammen, sieht es sofort und erhält einen Richtpreis. In Ihre Website und ins semanu Design integriert.', demoNote: 'Beispiel mit Musterdaten. Preise sind rein indikativ.', introHeading: 'Warum ein Torkonfigurator?', introBody: 'Maßarbeit kostet Zeit: jede Variante wird per Mail besprochen. Bei einem Tor wählt er Dreh oder Schiebe, Breite und RAL-Farbe. Ein Torkonfigurator macht daraus einen klaren Schritt: Ihr Kunde konfiguriert selbst und die fertige Auswahl erreicht Sie als konkrete Anfrage.', geoHeading: 'Auch von der KI empfohlen werden', geoBody: 'Immer mehr Menschen fragen einen KI-Assistenten statt eine Suchmaschine. Wer nach einem Torkonfigurator sucht, soll auch semanu finden. Darum ist jede Konfigurator Seite auf SEO und GEO gebaut. Klare Struktur und beantwortete Fragen.', benefits: ['Ihre Kunden konfigurieren selbst', 'Sofort ein Richtpreis statt langer Angebotsrunden', 'In Ihre Website und ins semanu Design integriert', 'Auffindbar bei der Suche nach einem Torkonfigurator'], faqTitle: 'Häufige Fragen', faq: [{ q: 'Was kostet ein Torkonfigurator?', a: 'Der Konfigurator läuft in einem klaren Monatsabo. Der Preis hängt von der Zahl der Varianten und der Preislogik ab. Erzählen Sie uns von Ihrem Produkt und Sie erhalten eine klare Antwort.' }, { q: 'Ist die Vorschau ein 3D-Modell?', a: 'Beides ist möglich. Wir starten oft mit einer klaren 2D-Vorschau und bauen bei Bedarf eine echte 3D-Ansicht.' }, { q: 'Zeigt der Konfigurator einen Preis?', a: 'Ja, einen Richtpreis auf Basis der Auswahl. Das finale Angebot erstellen Sie danach wie gewohnt.' }, { q: 'Kann ich meine eigenen Modelle und Farben nutzen?', a: 'Ja. Wir bringen Ihre Modelle, Optionen und Farben in den Konfigurator. Nichts wird von anderen übernommen.' }], moreTitle: 'Weitere Konfiguratoren', serviceLabel: 'Alle 3D-Konfiguratoren', finalTitle: 'Wollen Sie so einen Konfigurator?', finalText: 'Erzählen Sie uns von Ihrem Produkt und wir bauen Ihren Konfigurator in Ihre Website.', finalCta: 'Konfigurator besprechen' },
-    fr: { title: 'Portail configurateur', eyebrow: 'configurateur 3D', h1: 'Composez votre portail en ligne avec un configurateur.', heroSub: 'Avec notre configurateur de portail, votre client choisit le modèle, la taille, la matière et la couleur, voit le résultat aussitôt et obtient un prix indicatif. semanu intègre le même configurateur pour votre propre produit dans votre site.', metaTitle: 'Portail configurateur · semanu.eu', metaDescription: 'Configurateur de portail interactif par semanu. Votre client compose son produit, le voit aussitôt et obtient un prix indicatif. Intégré à votre site au design semanu.', demoNote: 'Données d’exemple. Les prix sont purement indicatifs.', introHeading: 'Pourquoi un configurateur de portail ?', introBody: 'Le sur mesure prend du temps : chaque variante se discute par mail. Pour un portail, le client choisit battant ou coulissant, la largeur et la couleur RAL. Un configurateur de portail en fait une étape claire : votre client configure et le choix final vous arrive comme une demande concrète.', geoHeading: 'Recommandé aussi par l’IA', geoBody: 'De plus en plus de gens interrogent une IA au lieu d’un moteur de recherche. Qui cherche un configurateur de portail doit aussi trouver semanu. Chaque page de configurateur est donc conçue pour le SEO et le GEO. Une structure claire et des questions traitées.', benefits: ['Vos clients configurent seuls', 'Un prix indicatif immédiat au lieu de devis lents', 'Intégré à votre site et au design semanu', 'Visible quand on cherche un configurateur de portail'], faqTitle: 'Questions fréquentes', faq: [{ q: 'Combien coûte un configurateur de portail ?', a: 'Le configurateur fonctionne dans un abonnement mensuel clair. Le prix dépend du nombre de variantes et de la logique de prix. Parlez-nous de votre produit et vous obtenez une réponse claire.' }, { q: 'L’aperçu est-il un modèle 3D ?', a: 'Les deux sont possibles. Nous commençons souvent par un aperçu 2D clair et créons une vraie vue 3D quand cela apporte de la valeur.' }, { q: 'Le configurateur affiche-t-il un prix ?', a: 'Oui, un prix indicatif selon les choix. Vous faites le devis final comme d’habitude.' }, { q: 'Puis-je utiliser mes propres modèles et couleurs ?', a: 'Oui. Nous intégrons vos modèles, vos options et vos couleurs. Rien n’est repris d’ailleurs.' }], moreTitle: 'Autres configurateurs', serviceLabel: 'Tous les configurateurs 3D', finalTitle: 'Vous voulez un configurateur de ce type ?', finalText: 'Parlez-nous de votre produit et nous construisons votre configurateur dans votre site.', finalCta: 'Parler d’un configurateur' },
-    en: { title: 'Gate configurator', eyebrow: '3D configurator', h1: 'Build your gate online with a configurator.', heroSub: 'With our gate configurator your customer chooses model, size, material and colour, sees the result instantly and gets an indicative price. semanu builds the same configurator for your own product into your website.', metaTitle: 'Gate configurator · semanu.eu', metaDescription: 'Interactive gate configurator by semanu. Your customer composes their product, sees it instantly and gets an indicative price. Built into your website in semanu design.', demoNote: 'Sample data for illustration. Prices are indicative only.', introHeading: 'Why a gate configurator?', introBody: 'Custom work costs time: every variant is discussed by email. For a gate they choose swing or sliding, the width and the RAL colour. A gate configurator turns that into a clear step: your customer configures and the finished choice reaches you as a concrete enquiry.', geoHeading: 'Recommended by AI too', geoBody: 'More and more people ask an AI assistant instead of a search engine. Someone looking for a gate configurator should find semanu too. That is why every configurator page is built for SEO and GEO. A clear structure and answered questions.', benefits: ['Your customers configure it themselves', 'An instant indicative price instead of slow quotes', 'Built into your website and in semanu design', 'Found when people search for a gate configurator'], faqTitle: 'Frequently asked questions', faq: [{ q: 'What does a gate configurator cost?', a: 'The configurator runs in a clear monthly plan. The price depends on the number of variants and the pricing logic. Tell us about your product and you get a straight answer.' }, { q: 'Is the preview a 3D model?', a: 'Both are possible. We often start with a clear 2D preview and build a real 3D view when it adds value.' }, { q: 'Does the configurator show a price?', a: 'Yes, an indicative price based on the choices. You still make the final quote as usual.' }, { q: 'Can I use my own models and colours?', a: 'Yes. We put your models, options and colours into the configurator. Nothing is taken from anyone else.' }], moreTitle: 'More configurators', serviceLabel: 'All 3D configurators', finalTitle: 'Want a configurator like this?', finalText: 'Tell us about your product and we build your configurator into your website.', finalCta: 'Discuss a configurator' },
-    es: { title: 'Portón configurador', eyebrow: 'configurador 3D', h1: 'Componga su portón en línea con un configurador.', heroSub: 'Con nuestro configurador de portón su cliente elige modelo, tamaño, material y color, ve el resultado al instante y obtiene un precio indicativo. semanu integra el mismo configurador para su propio producto en su web.', metaTitle: 'Portón configurador · semanu.eu', metaDescription: 'Portón configurador interactivo de semanu. Su cliente compone su producto, lo ve al instante y obtiene un precio indicativo. Integrado en su web con el diseño de semanu.', demoNote: 'Datos de ejemplo. Los precios son solo indicativos.', introHeading: '¿Por qué un configurador de portón?', introBody: 'El trabajo a medida cuesta tiempo: cada variante se habla por correo. Para un portón, elige batiente o corredero, el ancho y el color RAL. Un configurador de portón lo convierte en un paso claro: su cliente configura y la elección final le llega como una solicitud concreta.', geoHeading: 'Recomendado también por la IA', geoBody: 'Cada vez más gente pregunta a una IA en lugar de a un buscador. Quien busca un configurador de portón también debe encontrar a semanu. Por eso cada página de configurador está hecha para SEO y GEO. Una estructura clara y preguntas respondidas.', benefits: ['Sus clientes configuran solos', 'Un precio indicativo al momento en lugar de presupuestos lentos', 'Integrado en su web y en el diseño de semanu', 'Visible cuando buscan un configurador de portón'], faqTitle: 'Preguntas frecuentes', faq: [{ q: '¿Cuánto cuesta un configurador de portón?', a: 'El configurador funciona en una suscripción mensual clara. El precio depende del número de variantes y de la lógica de precios. Cuéntenos sobre su producto y obtiene una respuesta clara.' }, { q: '¿La vista previa es un modelo 3D?', a: 'Ambos son posibles. Solemos empezar con una vista previa 2D clara y creamos una vista 3D real cuando aporta valor.' }, { q: '¿El configurador muestra un precio?', a: 'Sí, un precio indicativo según las opciones. El presupuesto final lo hace usted como siempre.' }, { q: '¿Puedo usar mis propios modelos y colores?', a: 'Sí. Integramos sus modelos, opciones y colores. No se copia nada de nadie.' }], moreTitle: 'Más configuradores', serviceLabel: 'Todos los configuradores 3D', finalTitle: '¿Quiere un configurador así?', finalText: 'Cuéntenos sobre su producto y construimos su configurador en su web.', finalCta: 'Hablar de un configurador' },
-    nl: { title: 'Poort configurator', eyebrow: '3D configurator', h1: 'Stel uw poort online samen met een configurator.', heroSub: 'Met onze poort configurator kiest uw klant model, maat, materiaal en kleur, ziet het resultaat meteen en krijgt een richtprijs. semanu bouwt dezelfde configurator voor uw eigen product in uw website.', metaTitle: 'Poort configurator · semanu.eu', metaDescription: 'Interactieve poort configurator van semanu. Uw klant stelt zijn product zelf samen, ziet het meteen en krijgt een richtprijs. In uw website en in semanu design.', demoNote: 'Voorbeeld met testdata. Prijzen zijn louter indicatief.', introHeading: 'Waarom een poort configurator?', introBody: 'Maatwerk kost tijd: elke variant wordt per mail besproken. Voor een poort kiest men draai of schuif, breedte en RAL-kleur. Een poort configurator maakt daar een heldere stap van: uw klant configureert zelf en de afgewerkte keuze bereikt u als een concrete aanvraag.', geoHeading: 'Ook door de AI aanbevolen worden', geoBody: 'Steeds meer mensen vragen het aan een AI in plaats van aan een zoekmachine. Wie zoekt naar een poort configurator moet ook semanu vinden. Daarom is elke configurator pagina op SEO en GEO gebouwd. Een heldere structuur en beantwoorde vragen.', benefits: ['Uw klanten configureren zelf', 'Meteen een richtprijs in plaats van trage offertes', 'In uw website en in semanu design ingebouwd', 'Vindbaar wanneer men zoekt naar een poort configurator'], faqTitle: 'Veelgestelde vragen', faq: [{ q: 'Wat kost een poort configurator?', a: 'De configurator draait in een helder maandabonnement. De prijs hangt af van het aantal varianten en de prijslogica. Vertel ons over uw product en u krijgt een helder antwoord.' }, { q: 'Is de preview een 3D-model?', a: 'Beide kan. We starten vaak met een heldere 2D-preview en bouwen een echte 3D-weergave wanneer dat waarde toevoegt.' }, { q: 'Toont de configurator een prijs?', a: 'Ja, een richtprijs op basis van de keuzes. De finale offerte maakt u daarna zoals gewoonlijk.' }, { q: 'Kan ik mijn eigen modellen en kleuren gebruiken?', a: 'Ja. We zetten uw modellen, opties en kleuren in de configurator. Er wordt niets van anderen overgenomen.' }], moreTitle: 'Meer configuratoren', serviceLabel: 'Alle 3D configuratoren', finalTitle: 'Wilt u zo’n configurator?', finalText: 'Vertel ons over uw product en we bouwen uw configurator in uw website.', finalCta: 'Configurator bespreken' },
+    currency: 'EUR',
+    basePrice: 2400,
+    steps: [
+      {
+        label: L('Type', 'Type', 'Typ', 'Type', 'Tipo'),
+        options: [
+          { label: L('Enkele draaipoort', 'Single swing gate', 'Einflügelig', 'Battant simple', 'Una hoja') },
+          { label: L('Dubbele draaipoort', 'Double swing gate', 'Zweiflügelig', 'Battant double', 'Dos hojas'), price: 600 },
+        ],
+      },
+      {
+        label: L('Breedte', 'Width', 'Breite', 'Largeur', 'Ancho'),
+        options: [{ label: '3 m' }, { label: '4 m', price: 350 }, { label: '5 m', price: 720 }],
+      },
+      {
+        label: L('Motorisatie', 'Automation', 'Antrieb', 'Motorisation', 'Motorización'),
+        options: [
+          { label: L('Manueel', 'Manual', 'Manuell', 'Manuel', 'Manual') },
+          { label: L('Vijzelmotoren', 'Ram motors', 'Spindelantrieb', 'Moteurs à vérin', 'Motores de brazo'), price: 1400 },
+          { label: L('Ondergrondse motoren', 'Underground motors', 'Unterflurantrieb', 'Moteurs enterrés', 'Motores enterrados'), price: 2400 },
+        ],
+      },
+      {
+        label: L('Kleur', 'Colour', 'Farbe', 'Couleur', 'Color'),
+        options: [
+          { label: 'RAL 7016', swatch: '#383e42' },
+          { label: 'RAL 7021', swatch: '#2e3234' },
+          { label: 'RAL 9005', swatch: '#0e0e10' },
+          { label: 'RAL 9016', swatch: '#f1f0ea' },
+        ],
+      },
+    ],
   },
 };
+
+const CABINET_URL: Loc = L(
+  'https://www.semanu.be/kastenconfigurator',
+  'https://www.semanu.be/cabinetconfigurator',
+  'https://www.semanu.be/schrankplaner',
+  'https://www.semanu.be/configurateurdressing',
+  'https://www.semanu.be/configuradorarmarios',
+);
+
+export const CONFIGURATORS: Record<string, Record<ConfLocale, ConfContent>> = {
+  cabinet: {
+    nl: {
+      title: 'Kastconfigurator',
+      metaTitle: 'Kastconfigurator voor maatkasten in 3D · semanu.eu',
+      metaDescription: 'Demo van een kastconfigurator: maten van de ruimte, schuine plafonds, vakken, indelingen met laden en roedes, afwerkingen en grepen, met live prijs.',
+      h1: 'Maatkasten in 3D samenstellen met een kastconfigurator.',
+      heroSub: 'Uw klant geeft de breedte, hoogte en diepte van de ruimte in, verdeelt de kast in vakken en kiest indeling, afwerking en grepen. Het 3D-beeld en de prijs passen zich bij elke keuze aan.',
+      introHeading: 'Waarom een kastconfigurator?',
+      introBody: 'Een maatkast is nooit twee keer dezelfde: muur, plafond en indeling verschillen telkens. Zonder configurator gaat elke variant heen en weer per mail. Met een configurator ontwerpt uw klant zelf een kast die past, ziet hij ze in 3D en krijgt u een aanvraag met de juiste maten.',
+      features: [
+        'Breedte, hoogte en diepte van de ruimte, vrijstaand of tussen twee muren',
+        'Schuine plafonds aan één of beide kanten',
+        'Vakken met deuren of open, draairichting per deur',
+        'Indelingen met legplanken, hangroedes, laden, kledinglift of schoenenrek',
+        'Houtstructuren of hoogglanskleuren, binnen en buiten apart',
+        'Staafgrepen, knopjes of greeploos met push to open',
+      ],
+      outputs: [
+        'Een live prijs op basis van maten, materialen en beslag',
+        'Alleen bouwbare combinaties, met de reden wanneer een optie niet past',
+        'Een deellink die de volledige configuratie bewaart',
+        'Een offerteaanvraag met de exacte maten en een overzicht',
+      ],
+      useCases: [
+        'Meubelmakers die maatkasten en inbouwkasten verkopen',
+        'Interieurbouwers die sneller willen offreren',
+        'Winkels die kasten op maat online verkopen',
+      ],
+      faq: [
+        { q: 'Wat kost een kastconfigurator?', a: 'Elke configurator krijgt een offerte op aanvraag. De prijs hangt af van het aantal opties, de prijsregels en de koppelingen met uw systemen. Vertel ons over uw assortiment en u krijgt een schriftelijke offerte.' },
+        { q: 'Kunnen klanten hun eigen maten ingeven?', a: 'Ja. Breedte, hoogte en diepte maken deel uit van de configuratie, binnen de grenzen die u bepaalt. Indelingen die niet in een vak passen, worden verborgen met een korte uitleg.' },
+        { q: 'Werkt de configurator met schuine plafonds?', a: 'Ja. De klant stelt per kant de kniehoogte en de breedte van de schuinte in. De kast volgt het plafond en het 3D-beeld toont meteen het resultaat.' },
+        { q: 'Kan ik mijn eigen materialen, afwerkingen en beslag gebruiken?', a: 'Ja. Wij zetten uw eigen decors, kleuren, grepen en prijslogica in de configurator. Niets wordt van anderen overgenomen.' },
+      ],
+      configUrl: CABINET_URL.nl,
+      launchLabel: 'Open de volledige kastconfigurator',
+    },
+    en: {
+      title: 'Cabinet configurator',
+      metaTitle: 'Cabinet configurator for fitted wardrobes in 3D · semanu.eu',
+      metaDescription: 'Cabinet configurator demo: room dimensions, sloped ceilings, bays, interiors with drawers and rails, finishes and handles, with a live price in 3D.',
+      h1: 'Fitted wardrobes made to measure, configured in 3D.',
+      heroSub: 'Your customer enters the width, height and depth of the room, divides the cabinet into bays and picks interiors, finishes and handles. The 3D view and the price update with every choice.',
+      introHeading: 'Why a cabinet configurator?',
+      introBody: 'A fitted wardrobe is never the same twice: the wall, the ceiling and the bays all differ. Without a configurator every variant goes back and forth by email. With one, your customer designs a cabinet that fits, sees it in 3D and sends you an enquiry with the exact measurements.',
+      features: [
+        'Room width, height and depth, freestanding or between two walls',
+        'Sloped ceilings on one or both sides',
+        'Bays with doors or open, swing direction per door',
+        'Interiors with shelves, hanging rails, drawers, a wardrobe lift or a shoe rack',
+        'Wood textures or high gloss colours, inside and outside',
+        'Bar handles, knobs or handleless push to open',
+      ],
+      outputs: [
+        'A live price based on dimensions, materials and fittings',
+        'Only buildable combinations, with the reason when an option does not fit',
+        'A share link that stores the full configuration',
+        'A quote request with the exact measurements and a summary',
+      ],
+      useCases: [
+        'Furniture makers selling fitted wardrobes and storage cabinets',
+        'Interior builders who want to quote faster',
+        'Retailers who sell made-to-measure cabinets online',
+      ],
+      faq: [
+        { q: 'What does a cabinet configurator cost?', a: 'Every configurator is quoted on request. The price depends on the number of options, the pricing rules and the links to your systems. Tell us about your range and you get a written quote.' },
+        { q: 'Can customers enter their own dimensions?', a: 'Yes. Width, height and depth are part of the configuration, within the limits you set. Interiors that do not fit a bay are hidden with a short explanation.' },
+        { q: 'Does the configurator handle sloped ceilings?', a: 'Yes. The customer sets the knee wall height and the width of the slope per side. The cabinet follows the ceiling and the 3D view shows the result straight away.' },
+        { q: 'Can I use my own materials, finishes and fittings?', a: 'Yes. We put your own decors, colours, handles and price logic into the configurator. Nothing is taken from anyone else.' },
+      ],
+      configUrl: CABINET_URL.en,
+      launchLabel: 'Open the full cabinet configurator',
+    },
+    de: {
+      title: 'Schrankkonfigurator',
+      metaTitle: 'Schrankkonfigurator für Maßschränke in 3D · semanu.eu',
+      metaDescription: 'Demo eines Schrankkonfigurators: Raummaße, Dachschrägen, Fächer, Innenausstattung mit Schubladen und Kleiderstangen, Oberflächen und Griffe in 3D.',
+      h1: 'Maßschränke in 3D planen mit einem Schrankkonfigurator.',
+      heroSub: 'Ihr Kunde gibt Breite, Höhe und Tiefe des Raums ein, teilt den Schrank in Fächer und wählt Innenausstattung, Oberflächen und Griffe. 3D-Ansicht und Preis passen sich bei jeder Wahl an.',
+      introHeading: 'Warum ein Schrankkonfigurator?',
+      introBody: 'Ein Maßschrank ist nie zweimal gleich: Wand, Decke und Einteilung unterscheiden sich jedes Mal. Ohne Konfigurator geht jede Variante per E-Mail hin und her. Mit einem Konfigurator plant Ihr Kunde selbst einen passenden Schrank, sieht ihn in 3D und Sie erhalten eine Anfrage mit den richtigen Maßen.',
+      features: [
+        'Breite, Höhe und Tiefe des Raums, freistehend oder zwischen zwei Wänden',
+        'Dachschrägen auf einer oder beiden Seiten',
+        'Fächer mit Türen oder offen, Öffnungsrichtung pro Tür',
+        'Innenausstattung mit Böden, Kleiderstangen, Schubladen, Kleiderlift oder Schuhregal',
+        'Holzdekore oder Hochglanzfarben, innen und außen getrennt',
+        'Stangengriffe, Knöpfe oder grifflos mit Push to Open',
+      ],
+      outputs: [
+        'Ein Live-Preis auf Basis von Maßen, Materialien und Beschlägen',
+        'Nur baubare Kombinationen, mit Begründung, wenn eine Option nicht passt',
+        'Ein Link, der die komplette Konfiguration speichert',
+        'Eine Angebotsanfrage mit exakten Maßen und Übersicht',
+      ],
+      useCases: [
+        'Möbelhersteller, die Maß- und Einbauschränke verkaufen',
+        'Innenausbauer, die schneller Angebote erstellen möchten',
+        'Händler, die Schränke nach Maß online verkaufen',
+      ],
+      faq: [
+        { q: 'Was kostet ein Schrankkonfigurator?', a: 'Jeder Konfigurator wird auf Anfrage angeboten. Der Preis hängt von der Anzahl der Optionen, den Preisregeln und den Anbindungen an Ihre Systeme ab. Erzählen Sie uns von Ihrem Sortiment und Sie erhalten ein schriftliches Angebot.' },
+        { q: 'Können Kunden eigene Maße eingeben?', a: 'Ja. Breite, Höhe und Tiefe sind Teil der Konfiguration, innerhalb der Grenzen, die Sie festlegen. Einteilungen, die nicht in ein Fach passen, werden mit einer kurzen Erklärung ausgeblendet.' },
+        { q: 'Funktioniert der Konfigurator mit Dachschrägen?', a: 'Ja. Der Kunde stellt pro Seite Kniestockhöhe und Breite der Schräge ein. Der Schrank folgt der Decke und die 3D-Ansicht zeigt sofort das Ergebnis.' },
+        { q: 'Kann ich eigene Materialien, Oberflächen und Beschläge verwenden?', a: 'Ja. Wir hinterlegen Ihre eigenen Dekore, Farben, Griffe und Preislogik im Konfigurator. Nichts wird von anderen übernommen.' },
+      ],
+      configUrl: CABINET_URL.de,
+      launchLabel: 'Vollständigen Schrankkonfigurator öffnen',
+    },
+    fr: {
+      title: 'Configurateur d’armoire',
+      metaTitle: 'Configurateur d’armoire sur mesure en 3D · semanu.eu',
+      metaDescription: 'Démo d’un configurateur d’armoire : dimensions, plafonds mansardés, caissons, aménagements avec tiroirs et penderies, finitions et poignées en 3D.',
+      h1: 'Composez une armoire sur mesure en 3D avec un configurateur.',
+      heroSub: 'Votre client saisit la largeur, la hauteur et la profondeur de la pièce, divise l’armoire en caissons et choisit aménagements, finitions et poignées. La vue 3D et le prix suivent chaque choix.',
+      introHeading: 'Pourquoi un configurateur d’armoire ?',
+      introBody: 'Une armoire sur mesure n’est jamais deux fois la même : le mur, le plafond et l’aménagement changent à chaque fois. Sans configurateur, chaque variante fait des allers-retours par e-mail. Avec un configurateur, votre client conçoit lui-même une armoire qui s’adapte, la voit en 3D et vous envoie une demande avec les bonnes mesures.',
+      features: [
+        'Largeur, hauteur et profondeur de la pièce, en pose libre ou entre deux murs',
+        'Plafonds mansardés d’un côté ou des deux',
+        'Caissons avec portes ou ouverts, sens d’ouverture par porte',
+        'Aménagements avec étagères, penderies, tiroirs, ascenseur de penderie ou range-chaussures',
+        'Décors bois ou couleurs laquées brillantes, intérieur et extérieur séparément',
+        'Poignées barres, boutons ou sans poignée avec ouverture par pression',
+      ],
+      outputs: [
+        'Un prix en direct selon les dimensions, les matériaux et les ferrures',
+        'Uniquement des combinaisons réalisables, avec la raison quand une option ne convient pas',
+        'Un lien de partage qui conserve toute la configuration',
+        'Une demande de devis avec les mesures exactes et un récapitulatif',
+      ],
+      useCases: [
+        'Fabricants de meubles qui vendent des armoires et placards sur mesure',
+        'Agenceurs d’intérieur qui veulent chiffrer plus vite',
+        'Magasins qui vendent des armoires sur mesure en ligne',
+      ],
+      faq: [
+        { q: 'Combien coûte un configurateur d’armoire ?', a: 'Chaque configurateur fait l’objet d’un devis sur demande. Le prix dépend du nombre d’options, des règles de prix et des liaisons avec vos systèmes. Parlez-nous de votre gamme : vous recevez un devis écrit.' },
+        { q: 'Les clients peuvent-ils saisir leurs propres dimensions ?', a: 'Oui. Largeur, hauteur et profondeur font partie de la configuration, dans les limites que vous fixez. Les aménagements qui ne tiennent pas dans un caisson sont masqués avec une courte explication.' },
+        { q: 'Le configurateur gère-t-il les plafonds mansardés ?', a: 'Oui. Le client règle la hauteur sous pente et la largeur de la pente de chaque côté. L’armoire suit le plafond et la vue 3D montre aussitôt le résultat.' },
+        { q: 'Puis-je utiliser mes propres matériaux, finitions et ferrures ?', a: 'Oui. Nous intégrons vos décors, couleurs, poignées et votre logique de prix dans le configurateur. Rien n’est repris d’ailleurs.' },
+      ],
+      configUrl: CABINET_URL.fr,
+      launchLabel: 'Ouvrir le configurateur d’armoire complet',
+    },
+    es: {
+      title: 'Configurador de armarios',
+      metaTitle: 'Configurador de armarios a medida en 3D · semanu.eu',
+      metaDescription: 'Demo de un configurador de armarios: medidas del espacio, techos inclinados, módulos, interiores con cajones y barras, acabados y tiradores en 3D.',
+      h1: 'Diseñe armarios a medida en 3D con un configurador.',
+      heroSub: 'Su cliente introduce el ancho, el alto y el fondo del espacio, divide el armario en módulos y elige interiores, acabados y tiradores. La vista 3D y el precio se actualizan con cada elección.',
+      introHeading: '¿Por qué un configurador de armarios?',
+      introBody: 'Un armario a medida nunca es igual a otro: la pared, el techo y la distribución cambian cada vez. Sin configurador, cada variante va y viene por correo. Con un configurador, su cliente diseña un armario que encaja, lo ve en 3D y usted recibe una solicitud con las medidas correctas.',
+      features: [
+        'Ancho, alto y fondo del espacio, exento o entre dos paredes',
+        'Techos inclinados a uno o ambos lados',
+        'Módulos con puertas o abiertos, sentido de apertura por puerta',
+        'Interiores con baldas, barras, cajones, barra abatible o zapatero',
+        'Texturas de madera o colores alto brillo, por dentro y por fuera',
+        'Tiradores de barra, pomos o sin tirador con apertura por presión',
+      ],
+      outputs: [
+        'Un precio en directo según medidas, materiales y herrajes',
+        'Solo combinaciones fabricables, con el motivo cuando una opción no cabe',
+        'Un enlace que guarda toda la configuración',
+        'Una solicitud de presupuesto con las medidas exactas y un resumen',
+      ],
+      useCases: [
+        'Fabricantes de muebles que venden armarios y empotrados a medida',
+        'Interioristas que quieren presupuestar más rápido',
+        'Tiendas que venden armarios a medida en línea',
+      ],
+      faq: [
+        { q: '¿Cuánto cuesta un configurador de armarios?', a: 'Cada configurador se presupuesta a petición. El precio depende del número de opciones, las reglas de precio y las conexiones con sus sistemas. Cuéntenos su gama y recibirá un presupuesto por escrito.' },
+        { q: '¿Pueden los clientes introducir sus propias medidas?', a: 'Sí. Ancho, alto y fondo forman parte de la configuración, dentro de los límites que usted fija. Los interiores que no caben en un módulo se ocultan con una breve explicación.' },
+        { q: '¿Funciona el configurador con techos inclinados?', a: 'Sí. El cliente ajusta en cada lado la altura de la pared baja y el ancho de la pendiente. El armario sigue el techo y la vista 3D muestra el resultado al instante.' },
+        { q: '¿Puedo usar mis propios materiales, acabados y herrajes?', a: 'Sí. Incorporamos sus decorados, colores, tiradores y su lógica de precios al configurador. No se toma nada de otros.' },
+      ],
+      configUrl: CABINET_URL.es,
+      launchLabel: 'Abrir el configurador de armarios completo',
+    },
+  },
+  table: {
+    nl: {
+      title: 'Tafelconfigurator',
+      metaTitle: 'Tafelconfigurator: vorm, blad en onderstel in 3D · semanu.eu',
+      metaDescription: 'Demo van een tafelconfigurator: vorm en maten, bladen in eik, notelaar, keramiek of linoleum, RAL-kleuren voor het onderstel en verlengstukken.',
+      h1: 'Stel een eettafel samen in 3D met een tafelconfigurator.',
+      heroSub: 'Uw klant kiest vorm, lengte en breedte, het blad en de kleur van het stalen onderstel. Verlengstukken of een bijpassende bank zijn één klik verder. De richtprijs volgt elke keuze.',
+      introHeading: 'Waarom een tafelconfigurator?',
+      introBody: 'Een tafel kiest men op gevoel: de juiste maat voor de ruimte, een blad dat bij de vloer past, een onderstel in de juiste kleur. Met een configurator probeert uw klant die combinaties in 3D, ziet hij hoeveel personen eraan passen en stuurt hij u een volledige aanvraag met alle keuzes.',
+      features: [
+        'Rechthoekig, ovaal of rond, met lengte, breedte of diameter per 5 cm',
+        'Hoogte binnen de marge die u toelaat',
+        'Bladen in massieve eik, notelaar, keramiek, linoleum of staal',
+        'Gepoedercoat onderstel in elke RAL-kleur',
+        'Verlengstukken en een bijpassende bank als optie',
+        'Aantal zitplaatsen berekend op basis van de maat',
+      ],
+      outputs: [
+        'Een richtprijs met opsplitsing per onderdeel',
+        'Een beeld van de samengestelde tafel met een specificatielijst',
+        'Een vooraf ingevuld aanvraagbericht en een link die de configuratie opnieuw opent',
+        'Maten zichtbaar in het 3D-beeld',
+      ],
+      useCases: [
+        'Meubelmakers met tafels op maat',
+        'Staal- en houtateliers met een vast gamma onderstellen en bladen',
+        'Showrooms die klanten thuis willen laten ontwerpen',
+      ],
+      faq: [
+        { q: 'Wat kost een tafelconfigurator?', a: 'Elke configurator krijgt een offerte op aanvraag. De prijs hangt af van het aantal modellen, materialen en prijsregels. Vertel ons over uw gamma en u krijgt een schriftelijke offerte.' },
+        { q: 'Kan de configurator bladen in echte materialen tonen?', a: 'Ja. Hout, keramiek, linoleum en staal worden met hun eigen textuur en dikte getoond, zodat de klant het verschil in 3D ziet.' },
+        { q: 'Kan ik de maten per model beperken?', a: 'Ja. Elk model krijgt een eigen minimum en maximum, stappen en regels. Opties die niet gelden, zoals een verlengstuk bij een ronde tafel, worden gewoon niet aangeboden.' },
+        { q: 'Toont de configurator een prijs?', a: 'Ja, een richtprijs op basis van de keuzes, met een opsplitsing per onderdeel. De definitieve offerte maakt u zoals gewoonlijk.' },
+      ],
+    },
+    en: {
+      title: 'Table configurator',
+      metaTitle: 'Table configurator: shape, top and base in 3D · semanu.eu',
+      metaDescription: 'Table configurator demo: shape and size, tops in oak, walnut, ceramic or linoleum, RAL colours for the steel base and extension leaves.',
+      h1: 'Design a dining table in 3D with a table configurator.',
+      heroSub: 'Your customer picks the shape, length and width, the top and the colour of the steel base. Extension leaves or a matching bench are one click away. The indicative price follows every choice.',
+      introHeading: 'Why a table configurator?',
+      introBody: 'A table is chosen on feel: the right size for the room, a top that matches the floor, a base in the right colour. A configurator lets your customer try those combinations in 3D, see how many people fit and send you a complete enquiry with all choices.',
+      features: [
+        'Rectangular, oval or round, with length, width or diameter in 5 cm steps',
+        'Height within the range you allow',
+        'Tops in solid oak, walnut, ceramic, linoleum or steel',
+        'Powder coated base in any RAL colour',
+        'Extension leaves and a matching bench as options',
+        'Number of seats calculated from the size',
+      ],
+      outputs: [
+        'An indicative price with a breakdown per part',
+        'An image of the configured table with a specification list',
+        'A prefilled enquiry message and a link that reopens the configuration',
+        'Dimensions shown in the 3D view',
+      ],
+      useCases: [
+        'Furniture makers with made-to-measure tables',
+        'Steel and wood workshops with a fixed range of bases and tops',
+        'Showrooms that want customers to design at home',
+      ],
+      faq: [
+        { q: 'What does a table configurator cost?', a: 'Every configurator is quoted on request. The price depends on the number of models, materials and pricing rules. Tell us about your range and you get a written quote.' },
+        { q: 'Can it show tops in real materials?', a: 'Yes. Wood, ceramic, linoleum and steel are shown with their own texture and thickness, so the customer sees the difference in 3D.' },
+        { q: 'Can I limit the sizes per model?', a: 'Yes. Each model gets its own minimum and maximum, steps and rules. Options that do not apply, such as an extension on a round table, are simply not offered.' },
+        { q: 'Does the configurator show a price?', a: 'Yes, an indicative price based on the choices, with a breakdown per part. You still make the final quote as usual.' },
+      ],
+    },
+    de: {
+      title: 'Tischkonfigurator',
+      metaTitle: 'Tischkonfigurator: Form, Platte und Gestell in 3D · semanu.eu',
+      metaDescription: 'Demo eines Tischkonfigurators: Form und Maße, Platten aus Eiche, Nussbaum, Keramik oder Linoleum, RAL-Farben für das Gestell und Ansteckplatten.',
+      h1: 'Esstisch in 3D gestalten mit einem Tischkonfigurator.',
+      heroSub: 'Ihr Kunde wählt Form, Länge und Breite, die Platte und die Farbe des Stahlgestells. Ansteckplatten oder eine passende Bank sind einen Klick entfernt. Der Richtpreis folgt jeder Wahl.',
+      introHeading: 'Warum ein Tischkonfigurator?',
+      introBody: 'Einen Tisch wählt man nach Gefühl: die richtige Größe für den Raum, eine Platte, die zum Boden passt, ein Gestell in der richtigen Farbe. Mit einem Konfigurator probiert Ihr Kunde diese Kombinationen in 3D aus. Er sieht die Zahl der Sitzplätze und sendet Ihnen eine vollständige Anfrage mit allen Entscheidungen.',
+      features: [
+        'Rechteckig, oval oder rund, Länge, Breite oder Durchmesser in 5-cm-Schritten',
+        'Höhe innerhalb des Spielraums, den Sie zulassen',
+        'Platten aus massiver Eiche, Nussbaum, Keramik, Linoleum oder Stahl',
+        'Pulverbeschichtetes Gestell in jeder RAL-Farbe',
+        'Ansteckplatten und eine passende Bank als Option',
+        'Anzahl der Sitzplätze aus der Größe berechnet',
+      ],
+      outputs: [
+        'Ein Richtpreis mit Aufschlüsselung pro Bauteil',
+        'Ein Bild des konfigurierten Tischs mit Spezifikationsliste',
+        'Eine vorausgefüllte Anfrage und ein Link, der die Konfiguration wieder öffnet',
+        'Maße direkt in der 3D-Ansicht',
+      ],
+      useCases: [
+        'Möbelhersteller mit Tischen nach Maß',
+        'Stahl- und Holzwerkstätten mit festem Sortiment an Gestellen und Platten',
+        'Showrooms, deren Kunden zu Hause planen sollen',
+      ],
+      faq: [
+        { q: 'Was kostet ein Tischkonfigurator?', a: 'Jeder Konfigurator wird auf Anfrage angeboten. Der Preis hängt von der Anzahl der Modelle, Materialien und Preisregeln ab. Erzählen Sie uns von Ihrem Sortiment und Sie erhalten ein schriftliches Angebot.' },
+        { q: 'Kann der Konfigurator Platten in echten Materialien zeigen?', a: 'Ja. Holz, Keramik, Linoleum und Stahl erscheinen mit eigener Textur und Stärke, damit der Kunde den Unterschied in 3D sieht.' },
+        { q: 'Kann ich die Maße pro Modell begrenzen?', a: 'Ja. Jedes Modell erhält eigene Mindest- und Höchstmaße, Schritte und Regeln. Optionen, die nicht gelten, etwa eine Ansteckplatte bei einem runden Tisch, werden einfach nicht angeboten.' },
+        { q: 'Zeigt der Konfigurator einen Preis?', a: 'Ja, einen Richtpreis auf Basis der Auswahl, aufgeschlüsselt pro Bauteil. Das endgültige Angebot erstellen Sie wie gewohnt.' },
+      ],
+    },
+    fr: {
+      title: 'Configurateur de table',
+      metaTitle: 'Configurateur de table : forme, plateau et piétement · semanu.eu',
+      metaDescription: 'Démo d’un configurateur de table : forme et dimensions, plateaux en chêne, noyer, céramique ou linoléum, couleurs RAL pour le piétement et allonges.',
+      h1: 'Composez une table à manger en 3D avec un configurateur.',
+      heroSub: 'Votre client choisit la forme, la longueur et la largeur, le plateau et la couleur du piétement en acier. Allonges ou banc assorti sont à un clic. Le prix indicatif suit chaque choix.',
+      introHeading: 'Pourquoi un configurateur de table ?',
+      introBody: 'On choisit une table au ressenti : la bonne taille pour la pièce, un plateau assorti au sol, un piétement de la bonne couleur. Avec un configurateur, votre client essaie ces combinaisons en 3D, voit combien de personnes peuvent s’asseoir et vous envoie une demande complète avec tous ses choix.',
+      features: [
+        'Rectangulaire, ovale ou ronde, longueur, largeur ou diamètre par pas de 5 cm',
+        'Hauteur dans la marge que vous autorisez',
+        'Plateaux en chêne massif, noyer, céramique, linoléum ou acier',
+        'Piétement thermolaqué dans toute couleur RAL',
+        'Allonges et banc assorti en option',
+        'Nombre de places calculé selon la taille',
+      ],
+      outputs: [
+        'Un prix indicatif détaillé par élément',
+        'Une image de la table configurée avec la liste des caractéristiques',
+        'Un message de demande prérempli et un lien qui rouvre la configuration',
+        'Les cotes affichées dans la vue 3D',
+      ],
+      useCases: [
+        'Fabricants de meubles avec des tables sur mesure',
+        'Ateliers acier et bois avec une gamme fixe de piétements et de plateaux',
+        'Showrooms qui veulent laisser leurs clients concevoir chez eux',
+      ],
+      faq: [
+        { q: 'Combien coûte un configurateur de table ?', a: 'Chaque configurateur fait l’objet d’un devis sur demande. Le prix dépend du nombre de modèles, de matériaux et de règles de prix. Parlez-nous de votre gamme : vous recevez un devis écrit.' },
+        { q: 'Peut-il montrer des plateaux dans de vrais matériaux ?', a: 'Oui. Bois, céramique, linoléum et acier apparaissent avec leur propre texture et épaisseur, pour que le client voie la différence en 3D.' },
+        { q: 'Puis-je limiter les dimensions par modèle ?', a: 'Oui. Chaque modèle reçoit ses propres minimum, maximum, pas et règles. Les options qui ne s’appliquent pas, comme une allonge sur une table ronde, ne sont tout simplement pas proposées.' },
+        { q: 'Le configurateur affiche-t-il un prix ?', a: 'Oui, un prix indicatif selon les choix, détaillé par élément. Vous établissez le devis final comme d’habitude.' },
+      ],
+    },
+    es: {
+      title: 'Configurador de mesas',
+      metaTitle: 'Configurador de mesas: forma, tablero y base en 3D · semanu.eu',
+      metaDescription: 'Demo de un configurador de mesas: forma y medidas, tableros de roble, nogal, cerámica o linóleo, colores RAL para la base de acero y extensiones.',
+      h1: 'Diseñe una mesa de comedor en 3D con un configurador.',
+      heroSub: 'Su cliente elige la forma, el largo y el ancho, el tablero y el color de la base de acero. Las extensiones o un banco a juego están a un clic. El precio indicativo sigue cada elección.',
+      introHeading: '¿Por qué un configurador de mesas?',
+      introBody: 'Una mesa se elige por sensación: el tamaño adecuado para la sala, un tablero que combine con el suelo, una base del color correcto. Con un configurador, su cliente prueba esas combinaciones en 3D, ve cuántas personas caben y le envía una solicitud completa con todas sus elecciones.',
+      features: [
+        'Rectangular, ovalada o redonda, con largo, ancho o diámetro en pasos de 5 cm',
+        'Altura dentro del margen que usted permite',
+        'Tableros de roble macizo, nogal, cerámica, linóleo o acero',
+        'Base con pintura en polvo en cualquier color RAL',
+        'Extensiones y banco a juego como opción',
+        'Número de plazas calculado según el tamaño',
+      ],
+      outputs: [
+        'Un precio indicativo desglosado por pieza',
+        'Una imagen de la mesa configurada con la lista de especificaciones',
+        'Un mensaje de solicitud ya rellenado y un enlace que vuelve a abrir la configuración',
+        'Medidas visibles en la vista 3D',
+      ],
+      useCases: [
+        'Fabricantes de muebles con mesas a medida',
+        'Talleres de acero y madera con una gama fija de bases y tableros',
+        'Showrooms que quieren que sus clientes diseñen desde casa',
+      ],
+      faq: [
+        { q: '¿Cuánto cuesta un configurador de mesas?', a: 'Cada configurador se presupuesta a petición. El precio depende del número de modelos, materiales y reglas de precio. Cuéntenos su gama y recibirá un presupuesto por escrito.' },
+        { q: '¿Puede mostrar tableros en materiales reales?', a: 'Sí. Madera, cerámica, linóleo y acero se muestran con su propia textura y grosor, para que el cliente vea la diferencia en 3D.' },
+        { q: '¿Puedo limitar las medidas por modelo?', a: 'Sí. Cada modelo tiene su propio mínimo, máximo, pasos y reglas. Las opciones que no aplican, como una extensión en una mesa redonda, simplemente no se ofrecen.' },
+        { q: '¿Muestra el configurador un precio?', a: 'Sí, un precio indicativo según las elecciones, desglosado por pieza. El presupuesto final lo hace usted como siempre.' },
+      ],
+    },
+  },
+  railing: {
+    nl: {
+      title: 'Balustradeconfigurator',
+      metaTitle: 'Balustradeconfigurator voor glazen balustrades · semanu.eu',
+      metaDescription: 'Demo van een balustradeconfigurator: recht, L, U of vrije vorm, lengte per zijde, hoogte, montage, glassoort, profielkleur en toplijst, met live prijs.',
+      h1: 'Plan een glazen balustrade in 3D met een balustradeconfigurator.',
+      heroSub: 'Uw klant tekent de vorm van het terras of trapgat, geeft lengtes en hoogte in en kiest glas, montage en profielkleur. De prijs wordt per meter live berekend.',
+      introHeading: 'Waarom een balustradeconfigurator?',
+      introBody: 'Een balustrade rekent u in meters, hoeken en bevestigingen. Elk project vraagt een berekening voor de klant weet of het binnen het budget past. Een configurator maakt die berekening meteen: uw klant ziet de balustrade op de vorm van zijn eigen terras en u krijgt een aanvraag met elke lengte en hoek.',
+      features: [
+        'Rechte vorm, L-vorm, U-vorm of een vrije vorm getekend op een raster',
+        'Lengte per zijde en een hoogte binnen de grenzen die u bepaalt',
+        'Montage op de vloer, tegen de zijkant of ingebouwd',
+        'Helder, extra helder, getint of opaal veiligheidsglas',
+        'Profielkleuren in RAL of geanodiseerd',
+        'Geen afwerking bovenaan, een toplijst of een inox handregel',
+      ],
+      outputs: [
+        'Een prijs per lopende meter met toeslagen voor hoeken, glas en montage',
+        'Aantal en breedte van de panelen automatisch berekend',
+        'Een bovenaanzicht en maten in de 3D-scène',
+        'Een offerteaanvraag met alle lengtes, hoeken en keuzes',
+      ],
+      useCases: [
+        'Glas- en metaalateliers die balustrades plaatsen',
+        'Leveranciers van balustradesystemen die via plaatsers verkopen',
+        'Bouwers van terrassen, balkons en trapgaten',
+      ],
+      faq: [
+        { q: 'Wat kost een balustradeconfigurator?', a: 'Elke configurator krijgt een offerte op aanvraag. De prijs hangt af van de vormen, opties en prijsregels die u wilt aanbieden. Vertel ons over uw systeem en u krijgt een schriftelijke offerte.' },
+        { q: 'Kan de prijslogica afgeschermd blijven?', a: 'Ja. De berekening kan op de server draaien. Bezoekers zien het resultaat, nooit de formule of uw marges.' },
+        { q: 'Kunnen klanten een onregelmatige vorm tekenen?', a: 'Ja. Naast rechte vormen, L-vormen en U-vormen kan de klant hoekpunten op een raster plaatsen. Hoeken en minimale lengtes volgen de regels van uw systeem.' },
+        { q: 'Kan ik mijn eigen profielen en glassoorten gebruiken?', a: 'Ja. Wij zetten uw eigen profielen, glassoorten, kleuren en prijzen in de configurator. Niets wordt van anderen overgenomen.' },
+      ],
+    },
+    en: {
+      title: 'Railing configurator',
+      metaTitle: 'Railing configurator for glass balustrades · semanu.eu',
+      metaDescription: 'Railing configurator demo: straight, L, U or free shape, lengths per side, height, mounting, glass type, profile colour and top rail, priced live.',
+      h1: 'Plan a glass balustrade in 3D with a railing configurator.',
+      heroSub: 'Your customer draws the shape of the terrace or stairwell, enters the lengths and the height and chooses glass, mounting and profile colour. The price is calculated live for every metre.',
+      introHeading: 'Why a railing configurator?',
+      introBody: 'A balustrade is measured in metres, corners and fixings. Every project needs a calculation before the customer knows whether it fits the budget. A configurator does that calculation instantly: your customer sees the railing on their own terrace layout and you receive an enquiry with every length and corner.',
+      features: [
+        'A straight, L or U shape or a free shape drawn on a grid',
+        'Length per side and a height within the limits you set',
+        'Mounting on the floor, against the side or recessed',
+        'Clear, extra clear, tinted or opal safety glass',
+        'Profile colours in RAL or anodised finishes',
+        'No top edge, a cap profile or a stainless steel handrail',
+      ],
+      outputs: [
+        'A price per running metre with surcharges for corners, glass and mounting',
+        'Panel count and widths calculated automatically',
+        'A top view and dimensions in the 3D scene',
+        'A quote request with all lengths, corners and choices',
+      ],
+      useCases: [
+        'Glass and metal workshops installing balustrades',
+        'Suppliers of railing systems who sell through installers',
+        'Builders of terraces, balconies and stairwells',
+      ],
+      faq: [
+        { q: 'What does a railing configurator cost?', a: 'Every configurator is quoted on request. The price depends on the shapes, options and pricing rules you want to offer. Tell us about your system and you get a written quote.' },
+        { q: 'Can the price logic stay private?', a: 'Yes. The calculation can run on the server. Visitors see the result, never the formula or your margins.' },
+        { q: 'Can customers draw an irregular shape?', a: 'Yes. Besides straight, L and U shapes the customer can place corner points on a grid. Angles and minimum lengths follow the rules of your system.' },
+        { q: 'Can I use my own profiles and glass types?', a: 'Yes. We put your own profiles, glass types, colours and prices into the configurator. Nothing is taken from anyone else.' },
+      ],
+    },
+    de: {
+      title: 'Geländerkonfigurator',
+      metaTitle: 'Geländerkonfigurator für Glasgeländer in 3D · semanu.eu',
+      metaDescription: 'Demo eines Geländerkonfigurators: gerade, L, U oder freie Form, Länge pro Seite, Höhe, Montage, Glasart, Profilfarbe und Abschluss, mit Live-Preis.',
+      h1: 'Glasgeländer in 3D planen mit einem Geländerkonfigurator.',
+      heroSub: 'Ihr Kunde zeichnet die Form von Terrasse oder Treppenauge, gibt Längen und Höhe ein und wählt Glas, Montage und Profilfarbe. Der Preis wird pro Meter live berechnet.',
+      introHeading: 'Warum ein Geländerkonfigurator?',
+      introBody: 'Ein Geländer rechnet man in Metern, Ecken und Befestigungen. Jedes Projekt braucht eine Kalkulation, bevor der Kunde weiß, ob es ins Budget passt. Ein Konfigurator erledigt diese Kalkulation sofort: Ihr Kunde sieht das Geländer auf dem Grundriss seiner Terrasse und Sie erhalten eine Anfrage mit jeder Länge und Ecke.',
+      features: [
+        'Gerade Form, L-Form, U-Form oder eine freie Form auf einem Raster',
+        'Länge pro Seite und eine Höhe innerhalb Ihrer Grenzen',
+        'Montage auf dem Boden, seitlich oder eingelassen',
+        'Klares, extra klares, getöntes oder opales Sicherheitsglas',
+        'Profilfarben in RAL oder eloxiert',
+        'Ohne Abschluss, mit Abdeckprofil oder mit Edelstahlhandlauf',
+      ],
+      outputs: [
+        'Ein Preis pro laufendem Meter mit Zuschlägen für Ecken, Glas und Montage',
+        'Anzahl und Breite der Glasfelder automatisch berechnet',
+        'Draufsicht und Maße in der 3D-Szene',
+        'Eine Angebotsanfrage mit allen Längen, Ecken und Optionen',
+      ],
+      useCases: [
+        'Glas- und Metallbaubetriebe, die Geländer montieren',
+        'Anbieter von Geländersystemen, die über Monteure verkaufen',
+        'Bauunternehmen für Terrassen, Balkone und Treppenhäuser',
+      ],
+      faq: [
+        { q: 'Was kostet ein Geländerkonfigurator?', a: 'Jeder Konfigurator wird auf Anfrage angeboten. Der Preis hängt von den Formen, Optionen und Preisregeln ab, die Sie anbieten möchten. Erzählen Sie uns von Ihrem System und Sie erhalten ein schriftliches Angebot.' },
+        { q: 'Kann die Preislogik geschützt bleiben?', a: 'Ja. Die Berechnung kann auf dem Server laufen. Besucher sehen nur das Ergebnis. Formel und Margen bleiben verborgen.' },
+        { q: 'Können Kunden eine unregelmäßige Form zeichnen?', a: 'Ja. Neben geraden Formen, L-Formen und U-Formen kann der Kunde Eckpunkte auf einem Raster setzen. Winkel und Mindestlängen folgen den Regeln Ihres Systems.' },
+        { q: 'Kann ich eigene Profile und Glasarten verwenden?', a: 'Ja. Wir hinterlegen Ihre eigenen Profile, Glasarten, Farben und Preise im Konfigurator. Nichts wird von anderen übernommen.' },
+      ],
+    },
+    fr: {
+      title: 'Configurateur de garde-corps',
+      metaTitle: 'Configurateur de garde-corps en verre en 3D · semanu.eu',
+      metaDescription: 'Démo d’un configurateur de garde-corps : forme droite, en L, en U ou libre, longueurs, hauteur, fixation, verre, couleur du profil et main courante.',
+      h1: 'Planifiez un garde-corps en verre en 3D avec un configurateur.',
+      heroSub: 'Votre client dessine la forme de la terrasse ou de la trémie, saisit les longueurs et la hauteur et choisit le verre, la fixation et la couleur du profil. Le prix est calculé en direct au mètre.',
+      introHeading: 'Pourquoi un configurateur de garde-corps ?',
+      introBody: 'Un garde-corps se calcule en mètres, en angles et en fixations. Chaque projet demande un calcul avant que le client sache s’il tient dans son budget. Un configurateur fait ce calcul immédiatement : votre client voit le garde-corps sur le plan de sa terrasse et vous recevez une demande avec chaque longueur et chaque angle.',
+      features: [
+        'Forme droite, en L, en U ou forme libre dessinée sur une grille',
+        'Longueur par côté et hauteur dans les limites que vous fixez',
+        'Fixation au sol, en applique ou encastrée',
+        'Verre de sécurité clair, extra-clair, teinté ou opale',
+        'Couleurs de profil RAL ou anodisées',
+        'Sans finition haute, avec profil de couverture ou main courante inox',
+      ],
+      outputs: [
+        'Un prix au mètre linéaire avec suppléments pour angles, verre et fixation',
+        'Nombre et largeur des panneaux calculés automatiquement',
+        'Une vue de dessus et les cotes dans la scène 3D',
+        'Une demande de devis avec toutes les longueurs, angles et options',
+      ],
+      useCases: [
+        'Ateliers verre et métal qui posent des garde-corps',
+        'Fournisseurs de systèmes de garde-corps qui vendent via des installateurs',
+        'Constructeurs de terrasses, balcons et cages d’escalier',
+      ],
+      faq: [
+        { q: 'Combien coûte un configurateur de garde-corps ?', a: 'Chaque configurateur fait l’objet d’un devis sur demande. Le prix dépend des formes, des options et des règles de prix que vous voulez proposer. Parlez-nous de votre système : vous recevez un devis écrit.' },
+        { q: 'La logique de prix peut-elle rester confidentielle ?', a: 'Oui. Le calcul peut tourner sur le serveur. Les visiteurs voient le résultat, jamais la formule ni vos marges.' },
+        { q: 'Les clients peuvent-ils dessiner une forme irrégulière ?', a: 'Oui. En plus des formes droites, en L et en U, le client peut placer des points d’angle sur une grille. Les angles et longueurs minimales suivent les règles de votre système.' },
+        { q: 'Puis-je utiliser mes propres profils et types de verre ?', a: 'Oui. Nous intégrons vos profils, types de verre, couleurs et prix dans le configurateur. Rien n’est repris d’ailleurs.' },
+      ],
+    },
+    es: {
+      title: 'Configurador de barandillas',
+      metaTitle: 'Configurador de barandillas de vidrio en 3D · semanu.eu',
+      metaDescription: 'Demo de un configurador de barandillas: forma recta, en L, en U o libre, longitudes, altura, montaje, tipo de vidrio, color del perfil y pasamanos.',
+      h1: 'Planifique una barandilla de vidrio en 3D con un configurador.',
+      heroSub: 'Su cliente dibuja la forma de la terraza o del hueco de escalera, introduce las longitudes y la altura y elige vidrio, montaje y color del perfil. El precio se calcula en directo por metro.',
+      introHeading: '¿Por qué un configurador de barandillas?',
+      introBody: 'Una barandilla se calcula en metros, esquinas y fijaciones. Cada proyecto necesita un cálculo antes de que el cliente sepa si encaja en su presupuesto. Un configurador hace ese cálculo al instante: su cliente ve la barandilla sobre la forma de su terraza y usted recibe una solicitud con cada longitud y cada esquina.',
+      features: [
+        'Forma recta, en L, en U o libre dibujada sobre una cuadrícula',
+        'Longitud por lado y altura dentro de los límites que usted fija',
+        'Montaje sobre el suelo, lateral o empotrado',
+        'Vidrio de seguridad claro, extraclaro, tintado u opal',
+        'Colores de perfil RAL o anodizados',
+        'Sin remate, con perfil superior o con pasamanos de acero inoxidable',
+      ],
+      outputs: [
+        'Un precio por metro lineal con recargos por esquinas, vidrio y montaje',
+        'Número y ancho de los paneles calculados automáticamente',
+        'Una vista superior y medidas en la escena 3D',
+        'Una solicitud de presupuesto con todas las longitudes, esquinas y opciones',
+      ],
+      useCases: [
+        'Talleres de vidrio y metal que instalan barandillas',
+        'Proveedores de sistemas de barandillas que venden a través de instaladores',
+        'Constructores de terrazas, balcones y huecos de escalera',
+      ],
+      faq: [
+        { q: '¿Cuánto cuesta un configurador de barandillas?', a: 'Cada configurador se presupuesta a petición. El precio depende de las formas, opciones y reglas de precio que quiera ofrecer. Cuéntenos su sistema y recibirá un presupuesto por escrito.' },
+        { q: '¿Puede la lógica de precios quedar oculta?', a: 'Sí. El cálculo puede ejecutarse en el servidor. Los visitantes ven el resultado, nunca la fórmula ni sus márgenes.' },
+        { q: '¿Pueden los clientes dibujar una forma irregular?', a: 'Sí. Además de formas rectas, en L y en U, el cliente puede colocar vértices sobre una cuadrícula. Los ángulos y las longitudes mínimas siguen las reglas de su sistema.' },
+        { q: '¿Puedo usar mis propios perfiles y tipos de vidrio?', a: 'Sí. Incorporamos sus perfiles, tipos de vidrio, colores y precios al configurador. No se toma nada de otros.' },
+      ],
+    },
+  },
+  gate: {
+    nl: {
+      title: 'Poortconfigurator',
+      metaTitle: 'Poortconfigurator met technische tekening · semanu.eu',
+      metaDescription: 'Demo van een poortconfigurator: enkele of dubbele draaipoort, breedte, hoogte, helling, RAL-kleur, palen en motoren, met tekening en stuklijst.',
+      h1: 'Configureer een stalen draaipoort in 3D, tot en met de technische tekening.',
+      heroSub: 'Uw klant kiest een enkele of dubbele poort, de doorgangsbreedte, hoogte en kleur, de palen en de motorisatie. Dezelfde geometrie levert de stuklijst en de productietekeningen.',
+      introHeading: 'Waarom een poortconfigurator?',
+      introBody: 'Een poort is metaalwerk op de millimeter: doorgang, helling, palen, scharnieren en motoren bepalen samen de bouw. Met een configurator stelt uw klant dat in 3D samen, terwijl de regels van uw atelier elk resultaat bouwbaar houden. Dezelfde configuratie wordt daarna een tekening en een stuklijst voor uw werkplaats.',
+      features: [
+        'Enkele of dubbele draaipoort, scharnierzijde links of rechts',
+        'Doorgangsbreedte en hoogte in millimeter, afgestemd op het vulraster',
+        'Hellende grond, oplopend naar links of rechts',
+        'Poedercoatkleuren met fijnstructuur of glad satijn',
+        'Palen of bevestiging tegen de muur, op voetplaat of ingebetonneerd',
+        'Manueel, vijzelmotoren of ondergrondse motoren en een optionele brievenbuspaal',
+      ],
+      outputs: [
+        'Een technische tekening in PDF met vooraanzicht, bovenaanzicht, isometrie en details',
+        'Een stuklijst in PDF en Excel met aantallen en lengtes',
+        'Productiefiches per onderdeel',
+        'CAD-bestanden in DXF, STEP en GLB uit dezelfde geometrie als het 3D-beeld',
+      ],
+      useCases: [
+        'Metaalateliers die poorten en hekwerk op maat bouwen',
+        'Plaatsers van poorten en omheiningen die ter plaatse willen offreren',
+        'Fabrikanten die bestellingen rechtstreeks naar productie willen sturen',
+      ],
+      faq: [
+        { q: 'Wat kost een poortconfigurator?', a: 'Elke configurator krijgt een offerte op aanvraag. De prijs hangt af van de productregels, de gewenste uitvoer en de koppelingen met uw systemen. Vertel ons over uw poorten en u krijgt een schriftelijke offerte.' },
+        { q: 'Welke bestanden kan de configurator maken?', a: 'Een technische tekening, een stuklijst, productiefiches per onderdeel en CAD-bestanden in DXF, STEP en GLB. Ze komen allemaal uit dezelfde geometrie als het 3D-beeld, dus de maten kloppen altijd.' },
+        { q: 'Worden scharnieren en sloten automatisch toegevoegd?', a: 'Ja. Regels bepalen het beslag: een extra scharnier bij hoge vleugels, een slot met krukgarnituur, een valgrendel bij een dubbele poort en een middenstijl bij zeer brede vleugels.' },
+        { q: 'Toont de configurator een prijs?', a: 'Dat kiest u zelf. Hij kan een richtprijs tonen of een offerteaanvraag met de volledige configuratie sturen die u zelf prijst.' },
+      ],
+    },
+    en: {
+      title: 'Gate configurator',
+      metaTitle: 'Gate configurator with technical drawings · semanu.eu',
+      metaDescription: 'Gate configurator demo: single or double swing gate, width, height, slope, RAL colour, posts and motors, with a technical drawing and parts list.',
+      h1: 'Configure a steel swing gate in 3D, down to the technical drawing.',
+      heroSub: 'Your customer chooses a single or double gate, the opening width, height and colour, the posts and the automation. The same geometry produces the parts list and the production drawings.',
+      introHeading: 'Why a gate configurator?',
+      introBody: 'A gate is metalwork to the millimetre: opening, slope, posts, hinges and motors all affect the build. A configurator lets your customer put that together in 3D while the rules of your workshop keep every result buildable. The same configuration then becomes a drawing and a parts list for your workshop.',
+      features: [
+        'Single or double swing gate, hinge side left or right',
+        'Opening width and height in millimetres, snapped to the infill grid',
+        'Ground slope rising to the left or right',
+        'Powder coat colours with a fine texture or smooth satin finish',
+        'Posts or wall mounting, on a base plate or cast in concrete',
+        'Manual, ram motors or underground motors and an optional mailbox post',
+      ],
+      outputs: [
+        'A technical drawing in PDF with front, top, isometric and detail views',
+        'A parts list in PDF and Excel with quantities and lengths',
+        'Production sheets per part',
+        'CAD files in DXF, STEP and GLB from the same geometry as the 3D view',
+      ],
+      useCases: [
+        'Metal workshops building gates and fences to measure',
+        'Gate and fence installers who want to quote on the spot',
+        'Manufacturers who want orders to go straight to production',
+      ],
+      faq: [
+        { q: 'What does a gate configurator cost?', a: 'Every configurator is quoted on request. The price depends on the product rules, the outputs you need and the links to your systems. Tell us about your gates and you get a written quote.' },
+        { q: 'Which files can the configurator generate?', a: 'A technical drawing, a parts list, production sheets per part and CAD files in DXF, STEP and GLB. They all come from the same geometry as the 3D view, so the dimensions always match.' },
+        { q: 'Are hinges and locks added automatically?', a: 'Yes. Rules decide the hardware: an extra hinge on tall leaves, a lock with handle set, a drop bolt on a double gate and a middle stile on very wide leaves.' },
+        { q: 'Does the configurator show a price?', a: 'That is your choice. It can show an indicative price or send a quote request with the full configuration that you price yourself.' },
+      ],
+    },
+    de: {
+      title: 'Torkonfigurator',
+      metaTitle: 'Torkonfigurator mit technischer Zeichnung · semanu.eu',
+      metaDescription: 'Demo eines Torkonfigurators: Drehtor ein- oder zweiflügelig, Breite, Höhe, Gefälle, RAL-Farbe, Pfosten und Antrieb, mit Zeichnung und Stückliste.',
+      h1: 'Stahl-Drehtor in 3D konfigurieren, bis zur technischen Zeichnung.',
+      heroSub: 'Ihr Kunde wählt ein- oder zweiflügelig, Durchfahrtsbreite, Höhe und Farbe, Pfosten und Antrieb. Dieselbe Geometrie liefert Stückliste und Fertigungszeichnungen.',
+      introHeading: 'Warum ein Torkonfigurator?',
+      introBody: 'Ein Tor ist Metallbau auf den Millimeter: Durchfahrt, Gefälle, Pfosten, Scharniere und Antriebe bestimmen gemeinsam die Konstruktion. Mit einem Konfigurator stellt Ihr Kunde das in 3D zusammen, während die Regeln Ihrer Werkstatt jedes Ergebnis baubar halten. Dieselbe Konfiguration wird danach zu Zeichnung und Stückliste für Ihre Fertigung.',
+      features: [
+        'Ein- oder zweiflügeliges Drehtor, Anschlagseite links oder rechts',
+        'Durchfahrtsbreite und Höhe in Millimetern, abgestimmt auf das Füllungsraster',
+        'Gefälle, ansteigend nach links oder rechts',
+        'Pulverbeschichtung in Feinstruktur oder glattem Satin',
+        'Pfosten oder Wandmontage, auf Fußplatte oder einbetoniert',
+        'Manuell, Spindelantrieb oder Unterflurantrieb und optionaler Briefkastenpfosten',
+      ],
+      outputs: [
+        'Eine technische Zeichnung als PDF mit Vorderansicht, Draufsicht, Isometrie und Details',
+        'Eine Stückliste als PDF und Excel mit Mengen und Längen',
+        'Fertigungsblätter pro Bauteil',
+        'CAD-Dateien in DXF, STEP und GLB aus derselben Geometrie wie die 3D-Ansicht',
+      ],
+      useCases: [
+        'Metallbaubetriebe, die Tore und Zäune nach Maß bauen',
+        'Tor- und Zaunmonteure, die vor Ort anbieten möchten',
+        'Hersteller, deren Bestellungen direkt in die Fertigung gehen sollen',
+      ],
+      faq: [
+        { q: 'Was kostet ein Torkonfigurator?', a: 'Jeder Konfigurator wird auf Anfrage angeboten. Der Preis hängt von den Produktregeln, den gewünschten Ausgaben und den Anbindungen an Ihre Systeme ab. Erzählen Sie uns von Ihren Toren und Sie erhalten ein schriftliches Angebot.' },
+        { q: 'Welche Dateien kann der Konfigurator erzeugen?', a: 'Eine technische Zeichnung, eine Stückliste, Fertigungsblätter pro Bauteil und CAD-Dateien in DXF, STEP und GLB. Alle stammen aus derselben Geometrie wie die 3D-Ansicht. Die Maße stimmen also immer.' },
+        { q: 'Werden Scharniere und Schlösser automatisch ergänzt?', a: 'Ja. Regeln bestimmen die Beschläge: ein zusätzliches Scharnier bei hohen Flügeln, ein Schloss mit Drückergarnitur, ein Bodenriegel beim zweiflügeligen Tor und ein Mittelholm bei sehr breiten Flügeln.' },
+        { q: 'Zeigt der Konfigurator einen Preis?', a: 'Das entscheiden Sie. Er kann einen Richtpreis zeigen oder eine Angebotsanfrage mit der vollständigen Konfiguration senden, die Sie selbst kalkulieren.' },
+      ],
+    },
+    fr: {
+      title: 'Configurateur de portail',
+      metaTitle: 'Configurateur de portail avec plan technique · semanu.eu',
+      metaDescription: 'Démo d’un configurateur de portail : battant simple ou double, largeur, hauteur, pente, couleur RAL, poteaux et moteurs, avec plan et nomenclature.',
+      h1: 'Configurez un portail battant en acier en 3D, jusqu’au plan technique.',
+      heroSub: 'Votre client choisit un portail simple ou double, la largeur de passage, la hauteur et la couleur, les poteaux et la motorisation. La même géométrie produit la nomenclature et les plans de fabrication.',
+      introHeading: 'Pourquoi un configurateur de portail ?',
+      introBody: 'Un portail, c’est de la métallerie au millimètre : passage, pente, poteaux, charnières et moteurs déterminent ensemble la construction. Avec un configurateur, votre client compose tout cela en 3D tandis que les règles de votre atelier gardent chaque résultat réalisable. La même configuration devient ensuite un plan et une nomenclature pour votre atelier.',
+      features: [
+        'Portail battant simple ou double, côté charnières à gauche ou à droite',
+        'Largeur de passage et hauteur au millimètre, alignées sur la trame du remplissage',
+        'Terrain en pente, montant vers la gauche ou la droite',
+        'Thermolaquage en finition fine texture ou satin lisse',
+        'Poteaux ou fixation au mur, sur platine ou scellés dans le béton',
+        'Manuel, moteurs à vérin ou moteurs enterrés et un poteau boîte aux lettres en option',
+      ],
+      outputs: [
+        'Un plan technique en PDF avec vues de face, de dessus, isométrique et détails',
+        'Une nomenclature en PDF et Excel avec quantités et longueurs',
+        'Des fiches de fabrication par pièce',
+        'Des fichiers CAO en DXF, STEP et GLB issus de la même géométrie que la vue 3D',
+      ],
+      useCases: [
+        'Ateliers de métallerie qui fabriquent portails et clôtures sur mesure',
+        'Installateurs de portails et clôtures qui veulent chiffrer sur place',
+        'Fabricants qui veulent envoyer les commandes directement en production',
+      ],
+      faq: [
+        { q: 'Combien coûte un configurateur de portail ?', a: 'Chaque configurateur fait l’objet d’un devis sur demande. Le prix dépend des règles produit, des sorties souhaitées et des liaisons avec vos systèmes. Parlez-nous de vos portails : vous recevez un devis écrit.' },
+        { q: 'Quels fichiers le configurateur peut-il générer ?', a: 'Un plan technique, une nomenclature, des fiches de fabrication par pièce et des fichiers CAO en DXF, STEP et GLB. Tous proviennent de la même géométrie que la vue 3D : les cotes concordent toujours.' },
+        { q: 'Les charnières et serrures sont-elles ajoutées automatiquement ?', a: 'Oui. Des règles déterminent la quincaillerie : une charnière supplémentaire sur les vantaux hauts, une serrure avec garniture, un verrou au sol sur un portail double et un montant central sur les vantaux très larges.' },
+        { q: 'Le configurateur affiche-t-il un prix ?', a: 'C’est vous qui choisissez. Il peut afficher un prix indicatif ou envoyer une demande de devis avec la configuration complète que vous chiffrez vous-même.' },
+      ],
+    },
+    es: {
+      title: 'Configurador de portones',
+      metaTitle: 'Configurador de portones con plano técnico · semanu.eu',
+      metaDescription: 'Demo de un configurador de portones: batiente de una o dos hojas, ancho, altura, pendiente, color RAL, postes y motores, con plano y lista de piezas.',
+      h1: 'Configure un portón batiente de acero en 3D, hasta el plano técnico.',
+      heroSub: 'Su cliente elige un portón de una o dos hojas, el ancho de paso, la altura y el color, los postes y la motorización. La misma geometría genera la lista de piezas y los planos de fabricación.',
+      introHeading: '¿Por qué un configurador de portones?',
+      introBody: 'Un portón es cerrajería al milímetro: paso, pendiente, postes, bisagras y motores determinan juntos la construcción. Con un configurador, su cliente lo compone en 3D mientras las reglas de su taller mantienen cada resultado fabricable. La misma configuración se convierte después en un plano y una lista de piezas para su taller.',
+      features: [
+        'Portón batiente de una o dos hojas, bisagras a la izquierda o a la derecha',
+        'Ancho de paso y altura en milímetros, ajustados a la trama del relleno',
+        'Terreno en pendiente, subiendo hacia la izquierda o la derecha',
+        'Pintura en polvo con acabado texturizado fino o satinado liso',
+        'Postes o fijación a la pared, sobre placa base o empotrados en hormigón',
+        'Manual, motores de brazo o motores enterrados y un poste buzón opcional',
+      ],
+      outputs: [
+        'Un plano técnico en PDF con vistas frontal, superior, isométrica y detalles',
+        'Una lista de piezas en PDF y Excel con cantidades y longitudes',
+        'Fichas de fabricación por pieza',
+        'Archivos CAD en DXF, STEP y GLB a partir de la misma geometría que la vista 3D',
+      ],
+      useCases: [
+        'Talleres de cerrajería que fabrican portones y vallas a medida',
+        'Instaladores de portones y vallas que quieren presupuestar in situ',
+        'Fabricantes que quieren enviar los pedidos directamente a producción',
+      ],
+      faq: [
+        { q: '¿Cuánto cuesta un configurador de portones?', a: 'Cada configurador se presupuesta a petición. El precio depende de las reglas de producto, los resultados que necesita y las conexiones con sus sistemas. Cuéntenos sus portones y recibirá un presupuesto por escrito.' },
+        { q: '¿Qué archivos puede generar el configurador?', a: 'Un plano técnico, una lista de piezas, fichas de fabricación por pieza y archivos CAD en DXF, STEP y GLB. Todos salen de la misma geometría que la vista 3D, así que las medidas siempre coinciden.' },
+        { q: '¿Se añaden automáticamente bisagras y cerraduras?', a: 'Sí. Unas reglas deciden los herrajes: una bisagra extra en hojas altas, una cerradura con manillas, un pasador de suelo en un portón de dos hojas y un montante central en hojas muy anchas.' },
+        { q: '¿Muestra el configurador un precio?', a: 'Usted decide. Puede mostrar un precio indicativo o enviar una solicitud de presupuesto con la configuración completa que usted mismo valora.' },
+      ],
+    },
+  },
+};
+
+/** Resolve a demo label for a locale (plain strings such as '3 m' or 'RAL 7016' are universal). */
+export function demoLabel(label: Loc | string, locale: ConfLocale): string {
+  return typeof label === 'string' ? label : label[locale];
+}
