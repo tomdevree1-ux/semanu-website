@@ -2,7 +2,6 @@ import type { MetadataRoute } from 'next';
 import { routing } from '@/i18n/routing';
 import { env } from '@/lib/env';
 import { getAllPosts } from '@/lib/blog';
-import { LANDING_LOCALES, LANDING_SLUGS } from '@/content/landing';
 import { SERVICE_SLUGS } from '@/content/services';
 import { CONFIG_SLUGS } from '@/content/configurators';
 
@@ -27,8 +26,6 @@ const PATHS = [
   '/terms',
   '/legal-notice',
   '/references',
-  // SEO landing pages (driven by the landing registry).
-  ...LANDING_SLUGS.map((slug) => `/${slug}`),
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -57,25 +54,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // lastModified on every entry. Static + landing pages use the build/deploy
+  // lastModified on every entry. Static pages use the build/deploy
   // time (regenerated on each deploy); blog posts use their authored date
   // below. This is the strongest sitemap freshness signal for search + AI
   // crawlers to re-fetch.
   const buildDate = new Date();
-  const landingPaths = new Set(LANDING_SLUGS.map((s) => `/${s}`));
 
   for (const locale of routing.locales) {
     for (const p of PATHS) {
-      const isLanding = landingPaths.has(p);
-      // Landing pages exist in de/fr/en only; the es/nl fallbacks are noindex
-      // duplicates of the German page and must not be advertised here.
-      if (isLanding && !(LANDING_LOCALES as readonly string[]).includes(locale)) continue;
       entries.push({
         url: `${base}/${locale}${p}`,
         lastModified: buildDate,
-        changeFrequency: isLanding ? 'weekly' : 'monthly',
-        priority: p === '' ? 1 : isLanding ? 0.8 : 0.7,
-        alternates: { languages: languagesFor(p, isLanding ? LANDING_LOCALES : routing.locales) },
+        changeFrequency: 'monthly',
+        priority: p === '' ? 1 : 0.7,
+        alternates: { languages: languagesFor(p, routing.locales) },
       });
     }
     for (const post of getAllPosts(locale)) {

@@ -1,8 +1,7 @@
 // Content for the Referenzen page: extended business cases instead of a
 // classic portfolio. Per case we tell one story in four steps (what the
 // company does, where it got stuck, how semanu helped, the result) plus a real
-// client quote where we have one. Kept as a typed module per locale, like the
-// landing pages, so the long copy stays readable and the message files stay
+// client quote where we have one. Kept as a typed module per locale, so the long copy stays readable and the message files stay
 // lean. Honest descriptions only: no invented metrics, rankings or quotes.
 
 export type RefStatus = 'live' | 'dev';

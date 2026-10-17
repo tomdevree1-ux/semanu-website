@@ -4,9 +4,8 @@ import { SiteShell } from '@/components/SiteShell';
 
 /**
  * Localised 404. Next.js renders this for every notFound() inside the [locale]
- * segment: an unknown service slug, an unknown landing slug (dynamicParams:false),
- * and any unmatched path — the always-on locale prefix routes those through here
- * too. Uses the next-intl request locale (same pattern as Footer) so DE/FR/EN all
+ * segment: an unknown service or blog slug, and any unmatched path (routed here
+ * by the [...rest] catch-all, since the locale prefix is always on). Uses the next-intl request locale (same pattern as Footer) so DE/FR/EN all
  * render on brand, with a real 404 status and clear links back into the site,
  * instead of Next's bare default page.
  */

@@ -31,10 +31,11 @@ eigen database. Het contactformulier gaat server side naar de bestaande SEMANU-b
 - **Prijzen:** nergens bedragen op de site; overal "op aanvraag" (per taal). Valuta EUR, excl. btw.
 - **Doelgroep (beslissing oktober 2026):** Europees en landneutraal ("KMU in Europa", "SMEs in Europe" waar een
   regio helpt, anders gewoon "KMU/SMEs/kmo's"). Locatie alleen waar ze hoort: bedrijfsgegevens (Antwerpen, België)
-  in footer, contact, about, juridische pagina's en JSON-LD (`src/lib/seo/area-served.ts`). Geen landenpagina's;
-  landingspagina's hebben neutrale slugs (`/3d-configurator`, `/sme-digitalisation`),
-  de oude `*-schweiz`-slugs en Zwitserse blogs 301'en (zie `next.config.mjs`). De workflowlandingspagina en de
-  gratis websiteanalyse zijn sinds oktober 2026 weg (301 naar `/services/business-software` en `/contact`).
+  in footer, contact, about, juridische pagina's en JSON-LD (`src/lib/seo/area-served.ts`). Geen landenpagina's
+  en sinds oktober 2026 geen landingspagina's meer: `/3d-configurator` en `/sme-digitalisation` (en hun oude
+  `*-schweiz`/Duitse slugs) 301'en rechtstreeks naar `/services/3d-configurators` en `/services/business-software`;
+  Zwitserse blogs 301'en ook (zie `next.config.mjs`). De workflowlandingspagina en de
+  gratis websiteanalyse zijn weg (301 naar `/services/business-software` en `/contact`).
 
 ## Stack
 

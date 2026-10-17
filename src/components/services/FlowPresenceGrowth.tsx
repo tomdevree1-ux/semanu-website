@@ -19,7 +19,6 @@ import {
   ScenarioCard,
   FinalCTA,
   RelatedServices,
-  RelatedGuides,
   Eyebrow,
 } from './blocks';
 import { ServiceSignature } from './visuals';
@@ -211,7 +210,6 @@ export async function FlowPresenceGrowth({ service, detail, content, navServices
         </div>
       </section>
 
-      <RelatedGuides currentId={service.id} />
 
       <RelatedServices currentId={service.id} services={content.services} />
 

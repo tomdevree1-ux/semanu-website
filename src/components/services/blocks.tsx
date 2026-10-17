@@ -11,7 +11,7 @@ import { BrandText } from '@/components/BrandText';
 import { TrackedLink } from '@/components/TrackedLink';
 import { ServiceIcon } from '@/components/ServiceIcon';
 import { SERVICE_SLUG, type Service } from '@/content/services';
-import { RELATED_SERVICES, SERVICE_LANDINGS, type DetailCard, type ServiceDetail } from '@/content/serviceDetail';
+import { RELATED_SERVICES, type DetailCard, type ServiceDetail } from '@/content/serviceDetail';
 
 /** Small mint check, decorative. */
 export function Check({ className = 'h-4 w-4' }: { className?: string }) {
@@ -388,33 +388,3 @@ export async function RelatedServices({
   );
 }
 
-/**
- * Contextual links to the local-SEO landing pages most relevant to this service
- * (currently only the website-themed ones). Connects the landing cluster to the
- * service cluster beyond the global footer. Reuses the footer.topics labels, so
- * no new copy. Renders nothing for services without matching landings.
- */
-export async function RelatedGuides({ currentId }: { currentId: string }) {
-  const items = SERVICE_LANDINGS[currentId] ?? [];
-  if (items.length === 0) return null;
-  const t = await getTranslations();
-  return (
-    <section className="flow-soft-bandtint py-16 sm:py-20">
-      <div className="container-site">
-        <h2 className="h3 text-ink"><BrandText>{t('footer.topicsTitle')}</BrandText></h2>
-        <ul className="mt-6 flex flex-wrap gap-3">
-          {items.map(({ slug, labelKey }) => (
-            <li key={slug}>
-              <Link
-                href={`/${slug}`}
-                className="inline-flex items-center gap-2 rounded-pill border border-[var(--line)] bg-white px-4 py-2 text-sm text-ink-soft transition-colors hover:border-navy hover:text-navy"
-              >
-                <BrandText>{t(`footer.topics.${labelKey}`)}</BrandText> <span aria-hidden className="btn-arrow" />
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </section>
-  );
-}

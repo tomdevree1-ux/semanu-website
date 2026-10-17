@@ -102,8 +102,8 @@ const nextConfig = {
       ['ai-assistants', 'business-software'],
       ['booking-appointment', 'business-software'],
     ];
-    // Top-level pages: former German slugs, country slugs of the landing pages
-    // (the copy went country-neutral), and pages for services no longer offered
+    // Top-level pages: former German slugs, the removed landing pages and their
+    // older country slugs, and pages for services no longer offered
     // (websites, website subscriptions, SEO/GEO packages, the workflow automation
     // landing page, the free website analysis, checkout and payment).
     // '' = the home page.
@@ -113,10 +113,14 @@ const nextConfig = {
       ['impressum', '/legal-notice'],
       ['agb', '/terms'],
       ['referenzen', '/references'],
-      ['3d-konfigurator', '/3d-configurator'],
-      ['3d-konfigurator-schweiz', '/3d-configurator'],
-      ['digitalisierung-kmu', '/sme-digitalisation'],
-      ['digitalisierung-kmu-schweiz', '/sme-digitalisation'],
+      // The landing pages were removed (2026-10); their URLs and every older
+      // slug that pointed at them go straight to the matching service page.
+      ['3d-configurator', '/services/3d-configurators'],
+      ['3d-konfigurator', '/services/3d-configurators'],
+      ['3d-konfigurator-schweiz', '/services/3d-configurators'],
+      ['sme-digitalisation', '/services/business-software'],
+      ['digitalisierung-kmu', '/services/business-software'],
+      ['digitalisierung-kmu-schweiz', '/services/business-software'],
       ['workflow-automatisierung-schweiz', '/services/business-software'],
       ['workflow-automatisierung', '/services/business-software'],
       ['website-analyse', '/contact'],
@@ -139,8 +143,7 @@ const nextConfig = {
       // The sofa configurator demo was retired; the cabinet configurator replaces it.
       ['configurator/sofa', '/configurator/cabinet'],
     ];
-    // Blog posts with a former German slug, now English. ai-native-digital-business
-    // has no French version, so its French URL goes to the blog index.
+    // Blog posts with a former German slug, now English.
     const blogRenamed = [
       ['haeufige-website-fehler', 'common-website-mistakes'],
       ['von-ki-gefunden-werden', 'getting-found-by-ai'],
@@ -149,7 +152,7 @@ const nextConfig = {
       ['website-kostet-kunden', 'website-losing-customers'],
       ['website-sicherheit', 'website-security'],
       ['warum-website-abo', 'why-website-subscription'],
-      ['ai-native-digitalunternehmen', 'ai-native-digital-business', '/:locale(de|en|es|nl)'],
+      ['ai-native-digitalunternehmen', 'ai-native-digital-business'],
     ];
     // Switzerland-only blog posts (the Swiss SME website study and its spin-offs,
     // the revDSG check, the Röstigraben post) were removed: 301 to the blog index.
@@ -174,16 +177,11 @@ const nextConfig = {
         destination: `/:locale${to}`,
         permanent: true,
       })),
-      ...blogRenamed.map(([from, to, locales = L]) => ({
-        source: `${locales}/blog/${from}`,
+      ...blogRenamed.map(([from, to]) => ({
+        source: `${L}/blog/${from}`,
         destination: `/:locale/blog/${to}`,
         permanent: true,
       })),
-      {
-        source: '/fr/blog/ai-native-digitalunternehmen',
-        destination: '/fr/blog',
-        permanent: true,
-      },
       ...blogRemoved.map((slug) => ({
         source: `${L}/blog/${slug}`,
         destination: '/:locale/blog',

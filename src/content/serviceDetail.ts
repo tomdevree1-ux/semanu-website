@@ -37,15 +37,6 @@ export const RELATED_SERVICES: Record<string, string[]> = {
   '3d-configurators': ['business-systems', 'marketing-automation'],
 };
 
-/**
- * Local-SEO landing pages most relevant to a service, surfaced as contextual
- * links on the service page. `labelKey` reuses existing `footer.topics.*`
- * translations, so no new strings are needed.
- */
-export const SERVICE_LANDINGS: Record<string, { slug: string; labelKey: string }[]> = {
-  '3d-configurators': [{ slug: '3d-configurator', labelKey: 'konfigurator' }],
-};
-
 export type DetailCard = { title: string; text: string };
 
 export type ServiceDetail = {
