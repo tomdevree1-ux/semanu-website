@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" width="1200" height="560" role="img" aria-label="Three cost scenarios for an AI application: base, downside and growth at ten times the volume">
+  <defs>
+    <style>
+      .mono{font-family:'Space Mono','DejaVu Sans Mono',monospace}
+    </style>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#93E6BE" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#93E6BE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="560" fill="#F4F6FA"/>
+
+  <!-- grid -->
+  <g stroke="#E9EEF6" stroke-width="2">
+    <line x1="140" y1="110" x2="1100" y2="110"/>
+    <line x1="140" y1="200" x2="1100" y2="200"/>
+    <line x1="140" y1="290" x2="1100" y2="290"/>
+    <line x1="140" y1="380" x2="1100" y2="380"/>
+    <line x1="380" y1="70" x2="380" y2="470"/>
+    <line x1="620" y1="70" x2="620" y2="470"/>
+    <line x1="860" y1="70" x2="860" y2="470"/>
+  </g>
+  <circle cx="760" cy="220" r="210" fill="url(#glow)"/>
+  <!-- axes -->
+  <g stroke="#16233D" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M140 60 L140 470 L1110 470"/>
+    <path d="M130 74 L140 60 L150 74"/>
+    <path d="M1096 460 L1110 470 L1096 480"/>
+  </g>
+  <text x="96" y="76" class="mono" font-size="26" fill="#16233D">€</text>
+
+  <!-- base: flat, dashed -->
+  <polyline points="160,430 300,425 440,421 580,416 720,412 860,407 1000,402" fill="none" stroke="#16233D" stroke-opacity="0.4" stroke-width="3" stroke-dasharray="8 8"/>
+  <!-- downside: gradual -->
+  <polyline points="160,430 300,414 440,392 580,366 720,332 860,292 1000,256" fill="none" stroke="#16233D" stroke-opacity="0.7" stroke-width="3"/>
+  <!-- growth: steep -->
+  <polyline points="160,430 300,404 440,364 580,304 720,226 860,146 1000,98" fill="none" stroke="#0B7E63" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#0B7E63">
+    <circle cx="160" cy="430" r="7"/>
+    <circle cx="440" cy="364" r="7"/>
+    <circle cx="720" cy="226" r="8"/>
+    <circle cx="1000" cy="98" r="10"/>
+  </g>
+  <g fill="#16233D" fill-opacity="0.7">
+    <circle cx="1000" cy="256" r="8"/>
+  </g>
+  <g fill="#16233D" fill-opacity="0.4">
+    <circle cx="1000" cy="402" r="8"/>
+  </g>
+
+  <!-- neutral labels -->
+  <g transform="translate(1022,82)">
+    <rect x="0" y="0" width="76" height="34" rx="17" fill="#0B7E63"/>
+    <text x="38" y="23" text-anchor="middle" class="mono" font-size="17" fill="#FFFFFF">10×</text>
+  </g>
+  <g transform="translate(1022,386)">
+    <rect x="0" y="0" width="76" height="34" rx="17" fill="#FFFFFF" stroke="#16233D" stroke-opacity="0.3"/>
+    <text x="38" y="23" text-anchor="middle" class="mono" font-size="17" fill="#16233D">1×</text>
+  </g>
+</svg>

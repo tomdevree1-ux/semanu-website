@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-label="semanu illustratie: facturen gaan door een AI-stap naar een menselijke controle en de boekhouding">
+  <rect width="1200" height="520" fill="#16233D"/>
+  <circle cx="1080" cy="70" r="240" fill="#F4F6FA" opacity="0.07"/>
+  <circle cx="120" cy="470" r="200" fill="#93E6BE" opacity="0.12"/>
+
+  <!-- stacked invoices -->
+  <g fill="#16233D" stroke="#93E6BE" stroke-width="3">
+    <rect x="160" y="182" width="120" height="156" rx="10" stroke-opacity="0.4"/>
+    <rect x="176" y="166" width="120" height="156" rx="10" stroke-opacity="0.7"/>
+    <rect x="192" y="150" width="120" height="156" rx="10"/>
+  </g>
+  <g stroke="#F4F6FA" stroke-opacity="0.45" stroke-width="3" stroke-linecap="round">
+    <line x1="214" y1="184" x2="290" y2="184"/>
+    <line x1="214" y1="210" x2="290" y2="210"/>
+    <line x1="214" y1="236" x2="262" y2="236"/>
+    <line x1="248" y1="276" x2="290" y2="276" stroke="#93E6BE" stroke-opacity="1"/>
+  </g>
+
+  <!-- flows -->
+  <g fill="none" stroke="#F4F6FA" stroke-opacity="0.28" stroke-width="2">
+    <path d="M312 228 C 420 228 470 260 534 260"/>
+    <path d="M666 250 C 760 230 800 160 880 160"/>
+    <path d="M666 270 C 760 290 800 360 880 360"/>
+  </g>
+
+  <!-- AI step -->
+  <circle cx="600" cy="260" r="66" fill="#93E6BE"/>
+  <circle cx="600" cy="260" r="22" fill="#16233D"/>
+
+  <!-- human check -->
+  <rect x="880" y="112" width="150" height="96" rx="16" fill="#16233D" stroke="#93E6BE" stroke-width="3"/>
+  <polyline points="930,160 948,178 982,142" fill="none" stroke="#93E6BE" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- ledger -->
+  <rect x="880" y="312" width="150" height="96" rx="16" fill="#16233D" stroke="#F4F6FA" stroke-opacity="0.6" stroke-width="3"/>
+  <g stroke="#F4F6FA" stroke-opacity="0.45" stroke-width="3" stroke-linecap="round">
+    <line x1="904" y1="340" x2="1006" y2="340"/>
+    <line x1="904" y1="360" x2="1006" y2="360"/>
+    <line x1="904" y1="380" x2="1006" y2="380"/>
+    <line x1="955" y1="330" x2="955" y2="390"/>
+  </g>
+</svg>

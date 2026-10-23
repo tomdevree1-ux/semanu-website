@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" role="img" aria-label="semanu illustration: the ERP quote is one fifth of the total cost of ownership over five years">
+  <rect width="1200" height="520" fill="#16233D"/>
+  <circle cx="1080" cy="70" r="240" fill="#F4F6FA" opacity="0.07"/>
+  <circle cx="120" cy="470" r="200" fill="#93E6BE" opacity="0.12"/>
+
+  <!-- eight cost categories around the total -->
+  <g stroke="#F4F6FA" stroke-opacity="0.28" stroke-width="2">
+    <line x1="600" y1="230" x2="800" y2="230"/>
+    <line x1="600" y1="230" x2="741" y2="371"/>
+    <line x1="600" y1="230" x2="600" y2="430"/>
+    <line x1="600" y1="230" x2="459" y2="371"/>
+    <line x1="600" y1="230" x2="400" y2="230"/>
+    <line x1="600" y1="230" x2="459" y2="89"/>
+    <line x1="600" y1="230" x2="600" y2="30"/>
+    <line x1="600" y1="230" x2="741" y2="89"/>
+  </g>
+
+  <g fill="#16233D" stroke="#93E6BE" stroke-width="3">
+    <circle cx="800" cy="230" r="22"/>
+    <circle cx="741" cy="371" r="22"/>
+    <circle cx="600" cy="430" r="22"/>
+    <circle cx="459" cy="371" r="22"/>
+    <circle cx="400" cy="230" r="22"/>
+    <circle cx="459" cy="89" r="22"/>
+    <circle cx="741" cy="89" r="22"/>
+  </g>
+  <!-- the one category the quote covers -->
+  <circle cx="600" cy="30" r="22" fill="#93E6BE"/>
+
+  <circle cx="600" cy="230" r="66" fill="#93E6BE"/>
+  <text x="600" y="246" text-anchor="middle" font-family="Archivo Black, Arial, sans-serif" font-weight="800" font-size="40" fill="#16233D">TCO</text>
+
+</svg>

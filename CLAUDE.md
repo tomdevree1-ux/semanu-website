@@ -31,7 +31,10 @@ eigen database. Het contactformulier gaat server side naar de bestaande SEMANU-b
   (`src/middleware.ts`). Nieuwe pagina's en blogs krijgen meteen een Engelse slug.
 - **Geen algemene voorwaarden op de site (beslissing oktober 2026):** `/terms` en `/agb` 301'en naar
   `/legal-notice`. Toestemmingen in formulieren verwijzen enkel naar de privacyverklaring.
-- **Blogs (oktober 2026):** enkel `ai-first-digital-business` (vroeger `ai-native-digital-business`, 301) en `getting-found-by-ai`. De blogs over
+- **Blogs (oktober 2026):** `ai-first-digital-business` (vroeger `ai-native-digital-business`, 301), `getting-found-by-ai` en sinds 23 oktober tien artikels
+  overgenomen van semanu.be (3d-configurator-cost, ai-budgets, ai-data-silos, ai-finance-automation, ai-vendor-exit, ai-roadmap,
+  business-data-for-ai, erp-integration-mistakes, erp-total-cost-of-ownership, software-built-with-ai). semanu.eu is het origineel;
+  de Belgische artikels (ERP-prijs België, tijdsregistratie 2027) zijn bewust niet overgenomen. De blogs over
   websites, SEO en het website-abonnement zijn weg en 301'en (ook hun oude Duitse slugs) naar `/blog`.
   Nieuwe blogs gaan over AI, bedrijfssoftware of 3D-configuratoren.
 - **Breadcrumbs (beslissing oktober 2026):** geen zichtbaar kruimelpad op de site (klein, de navigatie volstaat).

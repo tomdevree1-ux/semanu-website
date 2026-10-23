@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="Timeline of an ERP project: mistakes one to four before the contract, mistake five after go-live">
+  <rect width="1200" height="420" fill="#F4F6FA"/>
+  <!-- before the contract -->
+  <rect x="60" y="90" width="680" height="250" rx="18" fill="#FFFFFF" stroke="#E9EEF6" stroke-width="2"/>
+  <!-- after go-live -->
+  <rect x="880" y="90" width="260" height="250" rx="18" fill="#16233D"/>
+
+  <!-- timeline -->
+  <line x1="90" y1="215" x2="1106" y2="215" stroke="#C7D0DE" stroke-width="4" stroke-linecap="round"/>
+  <path d="M1094 203 L1110 215 L1094 227" fill="none" stroke="#C7D0DE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- contract: document icon and dashed line -->
+  <line x1="800" y1="88" x2="800" y2="360" stroke="#0B7E63" stroke-width="3" stroke-dasharray="9 7"/>
+  <g transform="translate(776,18)">
+    <path d="M0 0 H34 L48 14 V60 H0 Z" fill="#FFFFFF" stroke="#0B7E63" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M34 0 V14 H48" fill="none" stroke="#0B7E63" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M9 26 H39 M9 36 H39 M9 46 H28" stroke="#C7D0DE" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <circle cx="800" cy="215" r="14" fill="#0B7E63"/>
+
+  <!-- go-live: flag icon -->
+  <g transform="translate(912,116)">
+    <path d="M0 0 V60" stroke="#93E6BE" stroke-width="4" stroke-linecap="round"/>
+    <path d="M2 2 H40 L32 14 L40 26 H2 Z" fill="#93E6BE"/>
+  </g>
+
+  <!-- five mistakes -->
+  <circle cx="190" cy="215" r="34" fill="#16233D"/>
+  <text x="190" y="226" text-anchor="middle" font-family="Archivo Black, Arial, sans-serif" font-weight="800" font-size="30" fill="#93E6BE">1</text>
+  <circle cx="340" cy="215" r="34" fill="#16233D"/>
+  <text x="340" y="226" text-anchor="middle" font-family="Archivo Black, Arial, sans-serif" font-weight="800" font-size="30" fill="#93E6BE">2</text>
+  <circle cx="490" cy="215" r="34" fill="#16233D"/>
+  <text x="490" y="226" text-anchor="middle" font-family="Archivo Black, Arial, sans-serif" font-weight="800" font-size="30" fill="#93E6BE">3</text>
+  <circle cx="630" cy="215" r="34" fill="#16233D"/>
+  <text x="630" y="226" text-anchor="middle" font-family="Archivo Black, Arial, sans-serif" font-weight="800" font-size="30" fill="#93E6BE">4</text>
+  <circle cx="1010" cy="215" r="34" fill="#93E6BE"/>
+  <text x="1010" y="226" text-anchor="middle" font-family="Archivo Black, Arial, sans-serif" font-weight="800" font-size="30" fill="#16233D">5</text>
+</svg>

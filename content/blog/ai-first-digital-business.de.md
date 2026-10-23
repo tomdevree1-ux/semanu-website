@@ -1,5 +1,5 @@
 ---
-title: "Was es bedeutet, ein AI-first Digitalunternehmen zu sein"
+title: "Was AI-first für Ihr Unternehmen bedeutet"
 description: "Was AI-first bedeutet und wie Ihr Unternehmen davon profitiert: semanu als Partner für 3D-Konfiguratoren und Unternehmenssoftware nach Maß."
 date: "2026-07-10"
 updated: "2026-10-16"

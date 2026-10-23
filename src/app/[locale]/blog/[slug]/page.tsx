@@ -163,7 +163,7 @@ export default async function BlogPostPage({
           </div>
 
           <div
-            className="mt-10 space-y-4 leading-relaxed text-ink-soft [&_a]:text-red [&_a]:underline [&_h2]:mt-9 [&_h2]:font-display [&_h2]:text-2xl [&_h2]:text-ink [&_strong]:text-ink [&_ul]:list-disc [&_ul]:pl-5"
+            className="mt-10 space-y-4 leading-relaxed text-ink-soft [&_a]:text-red [&_a]:underline [&_h2]:mt-9 [&_h2]:font-display [&_h2]:text-2xl [&_h2]:text-ink [&_strong]:text-ink [&_ul]:list-disc [&_ul]:pl-5 [&_ol]:list-decimal [&_ol]:pl-5 [&_li]:mt-1 [&_h3]:mt-6 [&_h3]:font-semibold [&_h3]:text-ink [&_blockquote]:border-l-4 [&_blockquote]:border-[var(--line)] [&_blockquote]:pl-4 [&_table]:block [&_table]:w-full [&_table]:overflow-x-auto [&_table]:border-collapse [&_table]:text-sm [&_th]:border [&_th]:border-[var(--line)] [&_th]:bg-white [&_th]:p-2 [&_th]:text-left [&_th]:text-ink [&_td]:border [&_td]:border-[var(--line)] [&_td]:p-2 [&_td]:align-top"
             dangerouslySetInnerHTML={{ __html: post.html }}
           />
 

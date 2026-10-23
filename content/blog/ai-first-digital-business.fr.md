@@ -1,5 +1,5 @@
 ---
-title: "Ce que signifie être une entreprise digitale AI-first"
+title: "Être une entreprise digitale AI-first"
 description: "semanu est une entreprise digitale AI-first et votre partenaire pour les configurateurs 3D et les logiciels métier sur mesure. Ce que cela change pour vous."
 date: "2026-07-10"
 updated: "2026-10-17"
