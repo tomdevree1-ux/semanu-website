@@ -26,6 +26,7 @@ export default async function AboutPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('about');
+  const principles = t.raw('principles') as { title: string; text: string }[];
 
   const orgId = `${env.siteUrl}/#organization`;
   // A Person node for the founder, linked to the single canonical org by @id (the
@@ -75,10 +76,21 @@ export default async function AboutPage({
               <p className="lead mt-5 text-ink-soft"><BrandText>{t('intro')}</BrandText></p>
 
               <div className="mt-14">
-                <h2 className="h3"><BrandText>{t('nameTitle')}</BrandText></h2>
-                <p className="mt-3 leading-relaxed text-ink-soft"><BrandText>{t('nameText')}</BrandText></p>
-                <h2 className="h3 mt-14"><BrandText>{t('missionTitle')}</BrandText></h2>
-                <p className="mt-3 leading-relaxed text-ink-soft"><BrandText>{t('missionText')}</BrandText></p>
+                {(['mission', 'saas', 'vision'] as const).map((key, i) => (
+                  <div key={key} className={i > 0 ? 'mt-14' : undefined}>
+                    <h2 className="h3"><BrandText>{t(`${key}Title`)}</BrandText></h2>
+                    <p className="mt-3 leading-relaxed text-ink-soft"><BrandText>{t(`${key}Text`)}</BrandText></p>
+                  </div>
+                ))}
+                <h2 className="h3 mt-14">{t('principlesTitle')}</h2>
+                <ul className="mt-5 grid gap-4 sm:grid-cols-2">
+                  {principles.map((item) => (
+                    <li key={item.title} className="rounded-2xl border border-[var(--line)] bg-white p-5">
+                      <p className="font-semibold text-ink">{item.title}</p>
+                      <p className="mt-1.5 text-sm leading-relaxed text-ink-soft"><BrandText>{item.text}</BrandText></p>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
 

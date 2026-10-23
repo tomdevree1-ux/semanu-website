@@ -146,18 +146,47 @@
   "about": {
     "eyebrow": "Over ons",
     "title": "Persoonlijk, niet anoniem.",
-    "intro": "semanu is een AI-first digitale partner uit Antwerpen. Wij bouwen 3D-configuratoren en bedrijfssoftware op maat voor kmo’s in Europa, van de eerste schets tot de software die elke dag draait.",
-    "nameTitle": "Waar semanu vandaan komt",
-    "nameText": "semanu komt uit het Antwerpse dialect en daarmee uit het Vlaams. Het is een uitroep van bewondering, een spontane wow wanneer iets echt overtuigt. Precies dat willen wij teweegbrengen. Bij uw klanten, wanneer ze hun product zelf in 3D samenstellen. Bij uw team, wanneer software het repetitieve werk overneemt.",
-    "missionTitle": "Ons idee",
-    "missionText": "Kmo’s verdienen dezelfde digitale slagkracht als grote bedrijven, zonder lange trajecten of grote budgetten. Daarom ontwikkelen wij AI-first: AI versnelt elke stap van analyse tot code, zodat wij 3D-configuratoren en bedrijfssoftware sneller en betaalbaarder opleveren. U start met wat nu de meeste waarde oplevert en breidt stap voor stap uit. U krijgt de volledige broncode en kunt altijd zonder ons verder.",
+    "intro": "semanu is een AI-first digitale partner voor kmo’s in Europa. Wij bouwen geïntegreerde bedrijfssoftware: één toepassing met de functies die u nodig hebt, zoals offertes, orders, planning, productie, facturatie en klantenbeheer. Wat vandaag al goed werkt, zoals uw boekhouding, webshop of mailbox, blijft. Wij koppelen het eraan, zodat uw volledige ecosysteem met elkaar communiceert. Daarnaast maken wij 3D-configuratoren waarmee uw klanten hun product zelf samenstellen.",
+    "missionTitle": "Waarom we bestaan",
+    "missionText": "Kmo’s moeten vandaag kiezen tussen standaardsoftware die nooit helemaal past en maatwerk dat te duur en te traag is. Wij vinden dat die keuze niet meer nodig is. Kmo’s verdienen dezelfde digitale slagkracht als grote bedrijven, zonder lange trajecten of grote budgetten.",
+    "saasTitle": "Maatwerk met het gemak van SaaS",
+    "saasText": "U krijgt software die volgt hoe uw bedrijf werkt, niet omgekeerd. Toch voelt het als een abonnement. Wij hosten de software op een eigen Europese server en houden ze veilig en up-to-date. U betaalt een vast bedrag per maand. U start met de module die nu de meeste waarde oplevert. Groeit uw bedrijf, dan groeit de software mee: extra modules, gebruikers of koppelingen zonder opnieuw te beginnen.",
+    "visionTitle": "Waar we naartoe gaan",
+    "visionText": "Wij willen dat geen enkele kmo in Europa nog achterblijft omdat maatwerk te duur of te traag is. AI verandert hoe software gemaakt wordt. Wat vroeger alleen multinationals konden betalen, komt nu binnen bereik van elk bedrijf. semanu wil de toonaangevende partner in Europa zijn voor kmo’s die AI-first willen werken. AI doet het werk. Mensen houden de controle.",
+    "principlesTitle": "Hoe we werken",
+    "principles": [
+      {
+        "title": "Persoonlijk",
+        "text": "U spreekt rechtstreeks met de persoon die uw oplossing bouwt."
+      },
+      {
+        "title": "Geïntegreerd",
+        "text": "We koppelen aan wat al werkt in plaats van alles te vervangen."
+      },
+      {
+        "title": "Betaalbaar en voorspelbaar",
+        "text": "Een vast maandbedrag in plaats van een groot project vooraf."
+      },
+      {
+        "title": "Schaalbaar",
+        "text": "U breidt module per module uit wanneer u er klaar voor bent."
+      },
+      {
+        "title": "Eerlijk over AI",
+        "text": "We zetten AI in waar het helpt. Helpt het niet, dan zeggen we dat."
+      },
+      {
+        "title": "Uw software is van u",
+        "text": "U krijgt de volledige broncode en kunt altijd zonder ons verder."
+      }
+    ],
     "founderTitle": "Achter semanu",
     "founderName": "Tom de Vree",
     "founderRole": "Oprichter & eigenaar",
-    "founderText": "semanu wordt geleid door Tom de Vree en is gevestigd in Antwerpen. Wij werken persoonlijk met kmo's en fabrikanten in heel Europa. U spreekt rechtstreeks met de persoon die uw oplossing bouwt.",
+    "founderText": "semanu wordt geleid door Tom de Vree en is gevestigd in Antwerpen, België. Wij werken persoonlijk met kmo’s en fabrikanten in heel Europa. U spreekt rechtstreeks met de persoon die uw oplossing bouwt.",
     "ctaTitle": "Een configurator of softwareproject in gedachten?",
     "ctaButton": "Bespreek uw project",
-    "metaDescription": "semanu is een AI-first digitale partner uit Antwerpen: 3D-configuratoren en bedrijfssoftware op maat voor kmo’s in Europa. Lees wie erachter zit."
+    "metaDescription": "semanu is een AI-first digitale partner voor kmo’s in Europa: geïntegreerde bedrijfssoftware op maat en 3D-configuratoren. Lees wie erachter zit."
   },
   "serviceUi": {
     "analysisEyebrow": "Voorbereiding",

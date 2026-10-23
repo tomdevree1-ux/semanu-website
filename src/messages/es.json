@@ -146,18 +146,47 @@
   "about": {
     "eyebrow": "Sobre nosotros",
     "title": "Personal, no anónimo.",
-    "intro": "semanu es un socio digital AI-first de Amberes. Creamos configuradores 3D y software empresarial a medida para pymes en Europa, desde el primer boceto hasta el software que funciona cada día.",
-    "nameTitle": "De dónde viene semanu",
-    "nameText": "semanu procede del dialecto de Amberes, de raíces flamencas. Es una exclamación de admiración, un wow espontáneo cuando algo convence de verdad. Esa es justo la reacción que buscamos. En sus clientes, cuando configuran ellos mismos su producto en 3D. En su equipo, cuando el software asume el trabajo repetitivo.",
-    "missionTitle": "Nuestra idea",
-    "missionText": "Las pymes merecen la misma fuerza digital que las grandes empresas, sin largos proyectos ni grandes presupuestos. Por eso desarrollamos AI-first: la AI acelera cada paso, del análisis al código. Así entregamos configuradores 3D y software empresarial más rápido y a menor coste. Empieza por lo que hoy aporta más valor. Después amplía paso a paso. Recibe el código fuente completo y siempre puede continuar sin nosotros.",
+    "intro": "semanu es un socio digital AI-first para pymes en Europa. Creamos software empresarial integrado: una sola aplicación con las funciones que necesita, como presupuestos, pedidos, planificación, producción, facturación y gestión de clientes. Lo que ya funciona bien se mantiene, como su contabilidad, su tienda online o su correo. Lo conectamos para que todo su ecosistema se comunique. Además creamos configuradores 3D con los que sus clientes configuran ellos mismos su producto.",
+    "missionTitle": "Por qué existimos",
+    "missionText": "Hoy las pymes tienen que elegir entre un software estándar que nunca encaja del todo y un desarrollo a medida demasiado caro y lento. Creemos que esa elección ya no es necesaria. Las pymes merecen la misma fuerza digital que las grandes empresas, sin largos proyectos ni grandes presupuestos.",
+    "saasTitle": "A medida con la comodidad del SaaS",
+    "saasText": "Recibe un software que se adapta a cómo funciona su empresa, no al revés. Aun así, funciona como una suscripción. Alojamos el software en un servidor europeo propio y lo mantenemos seguro y actualizado. Paga un importe fijo al mes. Empieza por el módulo que hoy aporta más valor. Si su empresa crece, el software crece con ella: más módulos, usuarios o integraciones sin empezar de cero.",
+    "visionTitle": "Hacia dónde vamos",
+    "visionText": "Queremos que ninguna pyme en Europa se quede atrás porque el software a medida es demasiado caro o lento. La AI está cambiando cómo se crea el software. Lo que antes solo podían pagar las multinacionales ahora está al alcance de cualquier empresa. semanu quiere ser el socio de referencia en Europa para las pymes que quieren trabajar AI-first. La AI hace el trabajo. Las personas mantienen el control.",
+    "principlesTitle": "Cómo trabajamos",
+    "principles": [
+      {
+        "title": "Personal",
+        "text": "Habla directamente con la persona que construye su solución."
+      },
+      {
+        "title": "Integrado",
+        "text": "Nos conectamos a lo que ya funciona en lugar de sustituirlo todo."
+      },
+      {
+        "title": "Asequible y previsible",
+        "text": "Un importe mensual fijo en lugar de un gran proyecto por adelantado."
+      },
+      {
+        "title": "Escalable",
+        "text": "Amplía módulo a módulo cuando esté preparado."
+      },
+      {
+        "title": "Honestos con la AI",
+        "text": "Usamos la AI donde ayuda. Cuando no ayuda, se lo decimos."
+      },
+      {
+        "title": "Su software es suyo",
+        "text": "Recibe el código fuente completo y siempre puede continuar sin nosotros."
+      }
+    ],
     "founderTitle": "Detrás de semanu",
     "founderName": "Tom de Vree",
     "founderRole": "Fundador y propietario",
-    "founderText": "semanu está dirigida por Tom de Vree y tiene su sede en Amberes. Trabajamos de forma personal con pymes y fabricantes de toda Europa. Habla directamente con la persona que construye su solución.",
+    "founderText": "semanu está dirigida por Tom de Vree y tiene su sede en Amberes, Bélgica. Trabajamos de forma personal con pymes y fabricantes de toda Europa. Habla directamente con la persona que construye su solución.",
     "ctaTitle": "¿Tiene en mente un proyecto de configurador o de software?",
     "ctaButton": "Hable de su proyecto",
-    "metaDescription": "semanu es un socio digital AI-first de Amberes: configuradores 3D y software empresarial a medida para pymes en Europa. Conozca quién está detrás."
+    "metaDescription": "semanu es un socio digital AI-first para pymes en Europa: software empresarial integrado a medida y configuradores 3D. Conozca quién está detrás."
   },
   "serviceUi": {
     "analysisEyebrow": "Preparación",

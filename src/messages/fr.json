@@ -146,18 +146,47 @@
   "about": {
     "eyebrow": "À propos",
     "title": "Personnel, pas anonyme.",
-    "intro": "semanu est un partenaire digital AI-first basé à Anvers. Nous créons des configurateurs 3D et des logiciels d’entreprise sur mesure pour les PME en Europe, de la première esquisse au logiciel utilisé chaque jour.",
-    "nameTitle": "D’où vient semanu",
-    "nameText": "semanu vient du dialecte d’Anvers, issu du flamand. C’est une exclamation d’admiration, un wow spontané quand quelque chose impressionne vraiment. C’est exactement la réaction que nous recherchons. Chez vos clients, quand ils configurent eux-mêmes leur produit en 3D. Dans votre équipe, quand le logiciel prend en charge le travail répétitif.",
-    "missionTitle": "Notre idée",
-    "missionText": "Les PME méritent la même force digitale que les grandes entreprises, sans longs projets ni gros budgets. C’est pourquoi nous développons AI-first : l’AI accélère chaque étape, de l’analyse au code. Nous livrons ainsi des configurateurs 3D et des logiciels d’entreprise plus vite et à moindre coût. Vous commencez là où la valeur est la plus forte aujourd’hui. Ensuite, vous étendez étape par étape. Vous recevez le code source complet et pouvez toujours continuer sans nous.",
+    "intro": "semanu est un partenaire digital AI-first pour les PME en Europe. Nous créons des logiciels d’entreprise intégrés : une seule application avec les fonctions dont vous avez besoin, comme les devis, les commandes, la planification, la production, la facturation et la gestion clients. Ce qui fonctionne déjà bien reste en place, comme votre comptabilité, votre boutique en ligne ou votre messagerie. Nous l’y connectons pour que tout votre écosystème communique. Nous créons aussi des configurateurs 3D qui permettent à vos clients de composer eux-mêmes leur produit.",
+    "missionTitle": "Pourquoi nous existons",
+    "missionText": "Aujourd’hui les PME doivent choisir entre un logiciel standard qui ne convient jamais tout à fait et un développement sur mesure trop cher et trop lent. Nous pensons que ce choix n’est plus nécessaire. Les PME méritent la même force digitale que les grandes entreprises, sans longs projets ni gros budgets.",
+    "saasTitle": "Le sur mesure avec la simplicité du SaaS",
+    "saasText": "Vous obtenez un logiciel qui suit le fonctionnement de votre entreprise, pas l’inverse. Pourtant, il s’utilise comme un abonnement. Nous hébergeons le logiciel sur un serveur européen dédié et le maintenons sûr et à jour. Vous payez un montant fixe par mois. Vous commencez par le module qui apporte le plus de valeur aujourd’hui. Si votre entreprise grandit, le logiciel grandit aussi : modules, utilisateurs ou connexions supplémentaires sans repartir de zéro.",
+    "visionTitle": "Où nous allons",
+    "visionText": "Nous voulons qu’aucune PME en Europe ne reste à la traîne parce que le sur mesure est trop cher ou trop lent. L’AI change la façon dont les logiciels sont créés. Ce que seules les multinationales pouvaient se permettre devient accessible à toute entreprise. semanu veut être le partenaire de référence en Europe pour les PME qui veulent travailler AI-first. L’AI fait le travail. Les humains gardent le contrôle.",
+    "principlesTitle": "Notre façon de travailler",
+    "principles": [
+      {
+        "title": "Personnel",
+        "text": "Vous parlez directement à la personne qui construit votre solution."
+      },
+      {
+        "title": "Intégré",
+        "text": "Nous nous connectons à ce qui fonctionne déjà au lieu de tout remplacer."
+      },
+      {
+        "title": "Abordable et prévisible",
+        "text": "Un montant mensuel fixe au lieu d’un gros projet au départ."
+      },
+      {
+        "title": "Évolutif",
+        "text": "Vous ajoutez des modules quand vous êtes prêt."
+      },
+      {
+        "title": "Honnête sur l’AI",
+        "text": "Nous utilisons l’AI là où elle aide. Quand elle n’aide pas, nous le disons."
+      },
+      {
+        "title": "Votre logiciel vous appartient",
+        "text": "Vous recevez le code source complet et pouvez toujours continuer sans nous."
+      }
+    ],
     "founderTitle": "Derrière semanu",
     "founderName": "Tom de Vree",
     "founderRole": "Fondateur et propriétaire",
-    "founderText": "semanu est dirigé par Tom de Vree et a son siège à Anvers. Nous travaillons personnellement avec des PME et des fabricants dans toute l’Europe. Vous parlez directement à la personne qui construit votre solution.",
+    "founderText": "semanu est dirigé par Tom de Vree et a son siège à Anvers, en Belgique. Nous travaillons personnellement avec des PME et des fabricants dans toute l’Europe. Vous parlez directement à la personne qui construit votre solution.",
     "ctaTitle": "Un projet de configurateur ou de logiciel en tête ?",
     "ctaButton": "Parler de votre projet",
-    "metaDescription": "semanu est un partenaire digital AI-first basé à Anvers : configurateurs 3D et logiciels d’entreprise sur mesure pour les PME en Europe. Qui sommes-nous ?"
+    "metaDescription": "semanu est un partenaire digital AI-first pour les PME en Europe : logiciels d’entreprise intégrés sur mesure et configurateurs 3D. Qui sommes-nous ?"
   },
   "serviceUi": {
     "analysisEyebrow": "Préparation",

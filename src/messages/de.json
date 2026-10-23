@@ -146,18 +146,47 @@
   "about": {
     "eyebrow": "Über uns",
     "title": "Persönlich, nicht anonym.",
-    "intro": "semanu ist ein AI-first Digitalpartner aus Antwerpen. Wir entwickeln 3D-Konfiguratoren und Unternehmenssoftware nach Maß für KMU in Europa, von der ersten Skizze bis zur Software im täglichen Einsatz.",
-    "nameTitle": "Woher semanu kommt",
-    "nameText": "semanu stammt aus dem Antwerpener Dialekt und damit aus dem Flämischen. Es ist ein Ausruf der Bewunderung, ein spontanes Wow, wenn etwas wirklich überzeugt. Genau diese Reaktion wollen wir auslösen. Bei Ihren Kunden, wenn sie ihr Produkt selbst in 3D zusammenstellen. Bei Ihrem Team, wenn Software die wiederkehrende Arbeit übernimmt.",
-    "missionTitle": "Unsere Idee",
-    "missionText": "KMU verdienen dieselbe digitale Schlagkraft wie große Unternehmen, ohne lange Projekte oder große Budgets. Deshalb entwickeln wir AI-first: AI beschleunigt jeden Schritt von der Analyse bis zum Code. So liefern wir 3D-Konfiguratoren und Unternehmenssoftware schneller und günstiger. Sie beginnen dort, wo heute der größte Nutzen liegt. Danach erweitern Sie Schritt für Schritt. Sie erhalten den vollständigen Quellcode und können jederzeit ohne uns weitermachen.",
+    "intro": "semanu ist ein AI-first Digitalpartner für KMU in Europa. Wir entwickeln integrierte Unternehmenssoftware: eine Anwendung mit den Funktionen, die Sie brauchen, etwa Angebote, Aufträge, Planung, Produktion, Rechnungsstellung und Kundenverwaltung. Was heute schon gut funktioniert, bleibt bestehen, etwa Ihre Buchhaltung, Ihr Webshop oder Ihr Postfach. Wir binden es an, damit Ihr gesamtes Ökosystem miteinander kommuniziert. Außerdem entwickeln wir 3D-Konfiguratoren, mit denen Ihre Kunden ihr Produkt selbst zusammenstellen.",
+    "missionTitle": "Warum es uns gibt",
+    "missionText": "KMU stehen heute vor einer Wahl. Standardsoftware passt nie ganz. Individualsoftware ist zu teuer und zu langsam. Wir finden, dass diese Wahl nicht mehr nötig ist. KMU verdienen dieselbe digitale Schlagkraft wie große Unternehmen, ohne lange Projekte oder große Budgets.",
+    "saasTitle": "Maßarbeit mit dem Komfort von SaaS",
+    "saasText": "Sie erhalten Software, die sich nach Ihrem Unternehmen richtet, nicht umgekehrt. Trotzdem fühlt sie sich an wie ein Abonnement. Wir hosten die Software auf einem eigenen europäischen Server und halten sie sicher und aktuell. Sie zahlen einen festen Betrag pro Monat. Sie beginnen mit dem Modul, das heute den größten Nutzen bringt. Wächst Ihr Unternehmen, wächst die Software mit: zusätzliche Module, Nutzer oder Anbindungen, ohne neu anzufangen.",
+    "visionTitle": "Wohin wir wollen",
+    "visionText": "Wir wollen, dass kein KMU in Europa zurückbleibt, weil Individualsoftware zu teuer oder zu langsam ist. AI verändert, wie Software entsteht. Was sich früher nur Konzerne leisten konnten, ist heute für jedes Unternehmen erreichbar. semanu will der führende Partner in Europa für KMU sein, die AI-first arbeiten wollen. AI erledigt die Arbeit. Die Kontrolle bleibt beim Menschen.",
+    "principlesTitle": "So arbeiten wir",
+    "principles": [
+      {
+        "title": "Persönlich",
+        "text": "Sie sprechen direkt mit der Person, die Ihre Lösung baut."
+      },
+      {
+        "title": "Integriert",
+        "text": "Wir binden an, was bereits funktioniert, statt alles zu ersetzen."
+      },
+      {
+        "title": "Bezahlbar und planbar",
+        "text": "Ein fester Monatsbetrag statt eines großen Projekts im Voraus."
+      },
+      {
+        "title": "Skalierbar",
+        "text": "Sie erweitern Modul für Modul, wenn Sie bereit sind."
+      },
+      {
+        "title": "Ehrlich über AI",
+        "text": "Wir setzen AI dort ein, wo sie hilft. Wo sie nicht hilft, sagen wir es."
+      },
+      {
+        "title": "Ihre Software gehört Ihnen",
+        "text": "Sie erhalten den vollständigen Quellcode und können jederzeit ohne uns weitermachen."
+      }
+    ],
     "founderTitle": "Hinter semanu",
     "founderName": "Tom de Vree",
     "founderRole": "Gründer & Inhaber",
-    "founderText": "semanu wird von Tom de Vree geführt und hat den Sitz in Antwerpen. Wir arbeiten persönlich mit KMU und Herstellern in ganz Europa. Sie sprechen direkt mit der Person, die Ihre Lösung baut.",
+    "founderText": "semanu wird von Tom de Vree geführt und hat den Sitz in Antwerpen, Belgien. Wir arbeiten persönlich mit KMU und Herstellern in ganz Europa. Sie sprechen direkt mit der Person, die Ihre Lösung baut.",
     "ctaTitle": "Ein Konfigurator- oder Softwareprojekt geplant?",
     "ctaButton": "Projekt besprechen",
-    "metaDescription": "semanu ist ein AI-first Digitalpartner aus Antwerpen: 3D-Konfiguratoren und Unternehmenssoftware nach Maß für KMU in Europa. Lernen Sie uns kennen."
+    "metaDescription": "semanu ist ein AI-first Digitalpartner für KMU in Europa: integrierte Unternehmenssoftware nach Maß und 3D-Konfiguratoren. Lernen Sie uns kennen."
   },
   "serviceUi": {
     "analysisEyebrow": "Vorbereitung",
