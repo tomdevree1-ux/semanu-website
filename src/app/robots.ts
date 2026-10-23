@@ -19,7 +19,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/*/styleguide', '/api/'],
+        disallow: ['/api/'],
       },
       {
         // AI assistants and search engines are explicitly welcome to read and cite this content.

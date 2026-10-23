@@ -13,7 +13,7 @@ import { getLegalDoc } from '@/lib/legal';
 // next.config.mjs keeps it instant and edge cacheable.
 export const dynamic = 'force-static';
 
-// Indexable paths (locale prefix is added per entry). /styleguide is excluded (noindex).
+// Indexable paths (locale prefix is added per entry).
 const PATHS = [
   '',
   ...SERVICE_SLUGS.map((s) => `/services/${s}`),
