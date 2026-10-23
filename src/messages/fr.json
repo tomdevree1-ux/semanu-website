@@ -79,16 +79,7 @@
     "formTitle": "Envoyer un message",
     "formSub": "Nous vous répondons personnellement.",
     "okTitle": "Merci pour votre message !",
-    "okText": "Nous vous répondons personnellement et dès que possible.",
-    "sendTitle": "Ce que vous pouvez nous envoyer",
-    "sendItems": [
-      "De quoi il s’agit et votre objectif",
-      "Des exemples qui vous plaisent",
-      "Votre secteur et votre ville",
-      "Un site existant, le cas échéant"
-    ],
-    "afterTitle": "Après l’envoi",
-    "afterText": "Nous revenons vers vous sous 1 jour ouvré, sans engagement."
+    "okText": "Nous vous répondons personnellement et dès que possible."
   },
   "form": {
     "firstname": "Prénom",
@@ -117,8 +108,7 @@
     "errRateLimit": "Vous avez envoyé ce formulaire plusieurs fois en peu de temps. Réessayez dans une heure ou écrivez-nous à {email}.",
     "interest": "Quel service vous intéresse ?",
     "interestNotSure": "Pas encore sûr",
-    "interestHelp": "Pas sûr de votre choix ? Sélectionnez Pas encore sûr et nous vous aidons à définir la bonne prochaine étape.",
-    "messagePlaceholder": "Par exemple : nous voulons un configurateur 3D pour nos armoires. Ou : nous cherchons un logiciel qui relie devis et planning."
+    "messagePlaceholder": "Écrivez votre message ici…"
   },
   "blog": {
     "title": "Blog",

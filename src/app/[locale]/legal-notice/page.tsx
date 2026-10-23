@@ -14,9 +14,11 @@ const UPDATED_LABEL: Record<string, string> = {
 // One-line factual meta description per locale (house copy rules: no dashes, no
 // comma before und/et/and, standard German ß).
 const DESC: Record<string, string> = {
-  de: 'Impressum von semanu: Anbieter, Kontakt und rechtliche Angaben der SEMANU BV in Antwerpen.',
-  fr: 'Mentions légales de semanu : fournisseur, contact et informations légales de SEMANU BV à Anvers.',
-  en: 'Legal notice of semanu: provider, contact and legal information of SEMANU BV in Antwerp.',
+  de: "Impressum von semanu: Anbieter, Kontaktdaten, Unternehmens- und Mehrwertsteuernummer sowie rechtliche Angaben der SEMANU BV in Antwerpen, Belgien.",
+  fr: "Mentions légales de semanu : éditeur, coordonnées, numéros d’entreprise et de TVA et informations juridiques de SEMANU BV à Anvers, en Belgique.",
+  en: "Legal notice of semanu: provider, contact details, company and VAT number and the legal information of SEMANU BV in Antwerp, Belgium.",
+  nl: "Colofon van semanu: aanbieder, contactgegevens, ondernemings- en btw-nummer en de juridische gegevens van SEMANU BV in Antwerpen, België.",
+  es: "Aviso legal de semanu: titular, datos de contacto, número de empresa y de IVA y la información legal de SEMANU BV en Amberes, Bélgica.",
 };
 
 export async function generateMetadata({

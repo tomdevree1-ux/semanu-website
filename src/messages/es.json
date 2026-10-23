@@ -79,16 +79,7 @@
     "formTitle": "Enviar mensaje",
     "formSub": "Le responderemos de forma personal.",
     "okTitle": "Gracias por su mensaje!",
-    "okText": "Le responderemos de forma personal y lo antes posible.",
-    "sendTitle": "Lo que puede enviarnos",
-    "sendItems": [
-      "De qué se trata y su objetivo",
-      "Ejemplos que le gusten",
-      "Su sector y su localidad",
-      "Su sitio web actual, si tiene uno"
-    ],
-    "afterTitle": "Después de enviar",
-    "afterText": "Le respondemos en un plazo de 1 día laborable, sin ningún compromiso."
+    "okText": "Le responderemos de forma personal y lo antes posible."
   },
   "form": {
     "firstname": "Nombre",
@@ -117,8 +108,7 @@
     "errRateLimit": "Ha enviado este formulario varias veces en poco tiempo. Inténtelo de nuevo dentro de una hora o escríbanos a {email}.",
     "interest": "¿En qué está interesado?",
     "interestNotSure": "Aún no estoy seguro",
-    "interestHelp": "¿No sabe qué elegir? Seleccione Aún no estoy seguro y le ayudamos a encontrar el siguiente paso adecuado.",
-    "messagePlaceholder": "Por ejemplo: queremos un configurador 3D para nuestros armarios. O bien: buscamos software que conecte presupuestos y planificación."
+    "messagePlaceholder": "Escriba aquí su mensaje…"
   },
   "blog": {
     "title": "Blog",

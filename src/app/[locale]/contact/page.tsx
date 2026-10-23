@@ -102,30 +102,6 @@ export default async function KontaktPage({
                 <dd className="mt-1">{t('time')}</dd>
               </div>
             </dl>
-
-            <div className="mt-10 space-y-6 border-t border-[var(--line)] pt-8">
-              <div>
-                <h2 className="font-mono text-xs uppercase tracking-widest text-navy">
-                  {t('sendTitle')}
-                </h2>
-                <ul className="mt-3 space-y-1.5 text-sm text-ink-soft">
-                  {(t.raw('sendItems') as string[]).map((it, i) => (
-                    <li key={i} className="flex gap-2">
-                      <span aria-hidden className="text-navy">
-                        →
-                      </span>
-                      <span>{it}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div>
-                <h2 className="font-mono text-xs uppercase tracking-widest text-navy">
-                  {t('afterTitle')}
-                </h2>
-                <p className="mt-2 text-sm text-ink-soft">{t('afterText')}</p>
-              </div>
-            </div>
           </div>
 
           <div>

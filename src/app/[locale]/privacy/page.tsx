@@ -14,9 +14,11 @@ const UPDATED_LABEL: Record<string, string> = {
 // One-line factual meta description per locale (house copy rules: no dashes, no
 // comma before und/et/and, standard German ß).
 const DESC: Record<string, string> = {
-  de: 'Datenschutzerklärung von semanu: welche Daten wir erheben, wie wir sie verwenden und welche Rechte Sie haben.',
-  fr: 'Déclaration de confidentialité de semanu : quelles données nous collectons, comment nous les utilisons et quels sont vos droits.',
-  en: 'Privacy policy of semanu: which data we collect, how we use it and what rights you have.',
+  de: "Datenschutzerklärung von semanu: welche personenbezogenen Daten wir erheben, wofür wir sie verwenden, wie lange wir sie speichern und welche Rechte Sie haben.",
+  fr: "Confidentialité chez semanu : quelles données personnelles nous collectons, pourquoi, combien de temps nous les conservons et quels sont vos droits.",
+  en: "Privacy policy of semanu: which personal data we collect, why we use it, how long we keep it and which rights you have under the GDPR.",
+  nl: "Privacyverklaring van semanu: welke persoonsgegevens we verzamelen, waarvoor we ze gebruiken, hoe lang we ze bewaren en welke rechten u hebt.",
+  es: "Política de privacidad de semanu: qué datos personales recogemos, para qué los usamos, cuánto tiempo los conservamos y qué derechos tiene usted.",
 };
 
 export async function generateMetadata({

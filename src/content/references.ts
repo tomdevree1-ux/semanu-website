@@ -54,7 +54,7 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
   de: {
     title: 'Referenzen: echte Business Cases',
     description:
-      'Vier echte Fälle statt Portfolio: was das Unternehmen macht, wo es hakte und wie semanu geholfen hat. Poortland, eine Plattform, ein 3D-Konfigurator und ein interaktiver Kiosk.',
+      'Vier echte Fälle statt Portfolio: was das Unternehmen macht, wo es hakte und wie semanu half. Mit Poortland, einem 3D-Konfigurator und einem Kiosk.',
     eyebrow: 'Referenzen',
     h1: 'Was Unternehmen mit semanu erreichen',
     heroViewProjects: 'Zu den Fällen',
@@ -84,7 +84,7 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
         solution:
           'Een interactieve kiosk waarmee bezoekers ruimte, indeling en afwerking kiezen, live in 3D zien en meteen de prijs krijgen.',
         result:
-          'Klanten stellen immersief hun producten zelf samen op een interactieve kiosk, live in 3D en met meteen de juiste prijs.',
+          'Kunden stellen ihr Produkt an einem interaktiven Kiosk selbst zusammen, live in 3D und sofort mit dem richtigen Preis.',
       },
       {
         name: 'Poortland',
@@ -142,7 +142,7 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
   fr: {
     title: 'Références : des business cases réels',
     description:
-      'Quatre cas réels plutôt qu’un portfolio : ce que fait l’entreprise, où ça coinçait et comment semanu a aidé. Poortland, une plateforme, un configurateur 3D et une borne interactive.',
+      'Quatre cas réels plutôt qu’un portfolio : ce que fait l’entreprise, où ça coinçait et comment semanu a aidé. Dont Poortland et un configurateur 3D.',
     eyebrow: 'Références',
     h1: 'Ce que les entreprises accomplissent avec semanu',
     heroViewProjects: 'Voir les cas',
@@ -172,7 +172,7 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
         solution:
           'Een interactieve kiosk waarmee bezoekers ruimte, indeling en afwerking kiezen, live in 3D zien en meteen de prijs krijgen.',
         result:
-          'Klanten stellen immersief hun producten zelf samen op een interactieve kiosk, live in 3D en met meteen de juiste prijs.',
+          'Les clients composent eux-mêmes leur produit sur une borne interactive, en 3D et en direct, avec le bon prix immédiatement.',
       },
       {
         name: 'Poortland',
@@ -230,7 +230,7 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
   en: {
     title: 'Client stories: real business cases',
     description:
-      'Four real cases instead of a portfolio: what the company does, where it got stuck and how semanu helped. Poortland, a platform, a 3D configurator and an interactive kiosk.',
+      'Four real cases instead of a portfolio: what the company does, where it got stuck and how semanu helped. Including Poortland and a 3D configurator.',
     eyebrow: 'Client stories',
     h1: 'What businesses achieve with semanu',
     heroViewProjects: 'See the cases',
@@ -260,7 +260,7 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
         solution:
           'Een interactieve kiosk waarmee bezoekers ruimte, indeling en afwerking kiezen, live in 3D zien en meteen de prijs krijgen.',
         result:
-          'Klanten stellen immersief hun producten zelf samen op een interactieve kiosk, live in 3D en met meteen de juiste prijs.',
+          'Customers configure their own product on an interactive kiosk, live in 3D and with the right price straight away.',
       },
       {
         name: 'Poortland',
@@ -318,7 +318,7 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
   es: {
     title: 'Referencias: casos de negocio reales',
     description:
-      'Cuatro casos reales en lugar de un portfolio: qué hace la empresa, dónde se atascaba y cómo ayudó semanu. Poortland, una plataforma, un configurador 3D y un quiosco interactivo.',
+      'Cuatro casos reales en lugar de un portfolio: qué hace la empresa, dónde se atascaba y cómo ayudó semanu. Entre ellos Poortland y un configurador 3D.',
     eyebrow: 'Referencias',
     h1: 'Lo que las empresas logran con semanu',
     heroViewProjects: 'Ver los casos',
@@ -348,7 +348,7 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
         solution:
           'Een interactieve kiosk waarmee bezoekers ruimte, indeling en afwerking kiezen, live in 3D zien en meteen de prijs krijgen.',
         result:
-          'Klanten stellen immersief hun producten zelf samen op een interactieve kiosk, live in 3D en met meteen de juiste prijs.',
+          'Los clientes configuran ellos mismos su producto en un quiosco interactivo, en 3D y en directo, con el precio correcto al instante.',
       },
       {
         name: 'Poortland',
@@ -406,7 +406,7 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
   nl: {
     title: 'Referenties: echte business cases',
     description:
-      'Vier echte cases in plaats van een portfolio: wat het bedrijf doet, waar het vastliep en hoe semanu hielp. Poortland, een platform, een 3D-configurator en een interactieve kiosk.',
+      'Vier echte cases in plaats van een portfolio: wat het bedrijf doet, waar het vastliep en hoe semanu hielp. Met onder meer Poortland en een 3D-configurator.',
     eyebrow: 'Referenties',
     h1: 'Wat bedrijven met\nsemanu bereiken.',
     heroViewProjects: 'Naar de cases',

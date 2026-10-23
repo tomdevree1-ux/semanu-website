@@ -79,16 +79,7 @@
     "formTitle": "Send a message",
     "formSub": "We’ll get back to you personally.",
     "okTitle": "Thanks for your message!",
-    "okText": "We’ll reply personally and as soon as possible.",
-    "sendTitle": "What you can send us",
-    "sendItems": [
-      "What it is about and your goal",
-      "Examples you like",
-      "Your sector and your town",
-      "An existing website, if you have one"
-    ],
-    "afterTitle": "After you send",
-    "afterText": "We get back to you within 1 working day. No obligation."
+    "okText": "We’ll reply personally and as soon as possible."
   },
   "form": {
     "firstname": "First name",
@@ -117,8 +108,7 @@
     "errRateLimit": "You have sent this form several times in a short time. Please try again in an hour or email us at {email}.",
     "interest": "What are you interested in?",
     "interestNotSure": "Not sure yet",
-    "interestHelp": "Not sure what to choose? Select Not sure yet and we will help you define the right next step.",
-    "messagePlaceholder": "For example: we want customers to configure our cabinets in 3D. Or: we need software that connects quotes and planning."
+    "messagePlaceholder": "Type your message here…"
   },
   "blog": {
     "title": "Blog",

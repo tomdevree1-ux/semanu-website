@@ -79,16 +79,7 @@
     "formTitle": "Nachricht senden",
     "formSub": "Wir melden uns persönlich bei Ihnen.",
     "okTitle": "Danke für Ihre Nachricht!",
-    "okText": "Wir melden uns persönlich und so schnell wie möglich bei Ihnen.",
-    "sendTitle": "Was Sie uns senden können",
-    "sendItems": [
-      "Worum es geht und Ihr Ziel",
-      "Beispiele, die Ihnen gefallen",
-      "Ihre Branche und Ihr Ort",
-      "Bestehende Website, falls vorhanden"
-    ],
-    "afterTitle": "Nach dem Absenden",
-    "afterText": "Wir melden uns innerhalb von 1 Werktag, ganz unverbindlich."
+    "okText": "Wir melden uns persönlich und so schnell wie möglich bei Ihnen."
   },
   "form": {
     "firstname": "Vorname",
@@ -117,8 +108,7 @@
     "errRateLimit": "Sie haben dieses Formular in kurzer Zeit mehrmals gesendet. Bitte versuchen Sie es in einer Stunde erneut oder schreiben Sie uns an {email}.",
     "interest": "Woran sind Sie interessiert?",
     "interestNotSure": "Noch nicht sicher",
-    "interestHelp": "Nicht sicher, was Sie wählen sollen? Wählen Sie Noch nicht sicher und wir helfen Ihnen, den richtigen nächsten Schritt zu finden.",
-    "messagePlaceholder": "Zum Beispiel: Wir möchten einen 3D-Konfigurator für unsere Schränke. Oder: Wir suchen Software, die Angebote und Planung verbindet."
+    "messagePlaceholder": "Schreiben Sie hier Ihre Nachricht…"
   },
   "blog": {
     "title": "Blog",

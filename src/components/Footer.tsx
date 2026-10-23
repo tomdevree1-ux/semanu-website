@@ -9,8 +9,6 @@ import { PHONE_DISPLAY, PHONE_TEL_HREF } from '@/lib/contact';
 const COMPANY_LINKS = [
   { key: 'aboutUs', href: '/about' },
   { key: 'work', href: '/references' },
-  { key: 'blog', href: '/blog' },
-  { key: 'faq', href: '/faq' },
   { key: 'contact', href: '/contact' },
 ] as const;
 
@@ -101,7 +99,11 @@ export function Footer() {
                   {PHONE_DISPLAY}
                 </a>
               </li>
-              <li>{t('location')}</li>
+              <li>
+                {t('location').split(', ').map((line, i) => (
+                  <span key={i} className="block">{line}</span>
+                ))}
+              </li>
             </ul>
             <div className="mt-5">
               <h5 className={`mb-2 ${headingCls}`}>{t('langLabel')}</h5>

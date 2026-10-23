@@ -193,7 +193,6 @@ export function ContactForm() {
               </label>
             ))}
           </div>
-          <p className="mt-2 text-xs text-ink-soft">{t('interestHelp')}</p>
         </div>
         <div className="sm:col-span-2">
           <label htmlFor="message" className="mb-1.5 block text-sm font-semibold">

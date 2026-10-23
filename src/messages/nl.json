@@ -79,16 +79,7 @@
     "formTitle": "Bericht versturen",
     "formSub": "Wij nemen persoonlijk contact met u op.",
     "okTitle": "Bedankt voor uw bericht!",
-    "okText": "Wij nemen persoonlijk en zo snel mogelijk contact met u op.",
-    "sendTitle": "Wat u ons kunt sturen",
-    "sendItems": [
-      "Waar het om gaat en uw doel",
-      "Voorbeelden die u aanspreken",
-      "Uw branche en uw plaats",
-      "Bestaande website, indien aanwezig"
-    ],
-    "afterTitle": "Na het versturen",
-    "afterText": "Wij nemen binnen 1 werkdag contact met u op, geheel vrijblijvend."
+    "okText": "Wij nemen persoonlijk en zo snel mogelijk contact met u op."
   },
   "form": {
     "firstname": "Voornaam",
@@ -117,8 +108,7 @@
     "errRateLimit": "U hebt dit formulier kort na elkaar meerdere keren verstuurd. Probeer het over een uur opnieuw of mail ons op {email}.",
     "interest": "Waarin bent u geïnteresseerd?",
     "interestNotSure": "Nog niet zeker",
-    "interestHelp": "Niet zeker wat u moet kiezen? Kies Nog niet zeker en wij helpen u de juiste volgende stap te bepalen.",
-    "messagePlaceholder": "Bijvoorbeeld: we willen een 3D-configurator voor onze kasten. Of: we zoeken software die offertes en planning met elkaar verbindt."
+    "messagePlaceholder": "Typ hier uw bericht…"
   },
   "blog": {
     "title": "Blog",
