@@ -178,7 +178,15 @@ export default async function AiNativePage({
                 className="relative flex min-h-[clamp(360px,34vw,460px)] flex-col overflow-hidden rounded-[28px] border border-[var(--line)] p-[clamp(28px,2.6vw,40px)]"
                 style={{ backgroundImage: 'linear-gradient(180deg, #E2E8F2 0%, #ffffff 68%)' }}
               >
-                <span className="font-mono text-[14px] tracking-[0.12em] text-ink-soft">{c.n}</span>
+                {/* Card number shown as that many favicon marks (1, 2, 3). */}
+                <span className="flex gap-1.5" role="img" aria-label={c.n}>
+                  {Array.from({ length: Number(c.n) || 1 }, (_, k) => (
+                    <svg key={k} viewBox="0 0 44 44" aria-hidden className="h-7 w-7 rounded-[6px]">
+                      <rect width="44" height="44" fill="#16233D" />
+                      <path d="M16 12L27 22L16 32" fill="none" stroke="#93E6BE" strokeWidth="6" strokeLinejoin="miter" />
+                    </svg>
+                  ))}
+                </span>
                 <div className="mt-[clamp(120px,15vw,200px)]">
                   <h3 className="font-display font-semibold tracking-[-0.02em] text-navy text-[clamp(22px,2vw,30px)]">
                     {c.title}
