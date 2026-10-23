@@ -11,6 +11,7 @@ import { BrandText } from '@/components/BrandText';
 import { TrackedLink } from '@/components/TrackedLink';
 import { FaqAccordion } from '@/components/FaqAccordion';
 import { DemoNotice } from '@/components/configurator/DemoNotice';
+import { TryMeEmbed } from '@/components/configurator/TryMeEmbed';
 import { FinalCTA } from './blocks';
 import type { Service, ServicesContent } from '@/content/services';
 import type { ServiceDetail } from '@/content/serviceDetail';
@@ -216,16 +217,11 @@ export function ServiceFlow({ service, detail, content, navServicesLabel, locale
       {isConfigurator && (
         <section className="bg-paper py-[clamp(72px,11vw,150px)] text-ink">
           <div className="container-site">
-            <DemoNotice locale={locale} className="mb-4" />
-            <div className="relative w-full overflow-hidden rounded-[28px] border border-[var(--line)] bg-white shadow-[0_34px_90px_-50px_rgba(16,35,61,0.55)]">
-              <iframe
-                src={`${CONFIGURATOR_URL[locale] ?? CONFIGURATOR_URL.nl}/#e30`}
-                title="3D configurator"
-                loading="lazy"
-                allow="fullscreen"
-                className="block h-[clamp(560px,80vh,880px)] w-full"
-              />
-            </div>
+            <TryMeEmbed
+              src={`${CONFIGURATOR_URL[locale] ?? CONFIGURATOR_URL.nl}/#e30`}
+              title="3D configurator"
+              locale={locale}
+            />
           </div>
         </section>
       )}

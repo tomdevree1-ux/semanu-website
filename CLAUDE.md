@@ -45,8 +45,9 @@ eigen database. Het contactformulier gaat server side naar de bestaande SEMANU-b
   bijvoeglijk naamwoord ("een AI-first bedrijf", "ein AI-first Unternehmen", "une entreprise AI-first",
   "una empresa AI-first"). Betekenis: AI bij elke stap voorop, de controle blijft bij mensen. Interne ids als
   `ai-native` (dienst-id, interessewaarde in het formulier) blijven ongewijzigd.
-- **Democonfigurators:** elke ingebouwde demo krijgt `DemoNotice` (`src/components/configurator/DemoNotice.tsx`):
-  aanvragen en bestellingen worden er niet verwerkt.
+- **Democonfigurators:** elke ingebouwde demo meldt dat aanvragen en bestellingen er niet verwerkt worden: via
+  `DemoNotice` (`src/components/configurator/DemoNotice.tsx`) of, bij de grote live kastconfigurator op de 3D-dienstpagina,
+  via de activatielaag `TryMeEmbed` (eerst "Probeer het zelf" klikken; tekst in `TRY_ME`).
 - **Prijzen:** nergens bedragen op de site; overal "op aanvraag" (per taal). Valuta EUR, excl. btw.
 - **Doelgroep (beslissing oktober 2026):** Europees en landneutraal ("KMU in Europa", "SMEs in Europe" waar een
   regio helpt, anders gewoon "KMU/SMEs/kmo's"). Locatie alleen waar ze hoort: bedrijfsgegevens (Antwerpen, België)

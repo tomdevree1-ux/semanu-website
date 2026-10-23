@@ -152,6 +152,15 @@ export const UI: Record<
 
 /** Notice shown next to every embedded demo configurator: nothing entered there is
  *  processed, plus a contact link for visitors who want one for their own products. */
+// Activation layer over the embedded live configurator on the 3D service page.
+export const TRY_ME: Record<ConfLocale, { button: string; text: string }> = {
+  nl: { button: 'Probeer het zelf', text: 'Demo: offerteaanvragen en bestellingen worden niet verwerkt.' },
+  en: { button: 'Try me', text: 'Demo: quote requests and orders are not processed.' },
+  de: { button: 'Selbst ausprobieren', text: 'Demo: Angebotsanfragen und Bestellungen werden nicht verarbeitet.' },
+  fr: { button: 'Essayez-le', text: 'Démo : les demandes de devis et les commandes ne sont pas traitées.' },
+  es: { button: 'Pruébelo', text: 'Demo: las solicitudes de presupuesto y los pedidos no se procesan.' },
+};
+
 export const DEMO_NOTICE: Record<ConfLocale, { badge: string; text: string; cta: string }> = {
   nl: {
     badge: 'Demo',
