@@ -5,7 +5,7 @@ date: "2026-07-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/business-data-for-ai-cover.svg"
+cover: "/blog/business-data-for-ai-cover.jpg"
 ---
 
 «Nuestros datos no son perfectos. ¿Podemos empezar igualmente con IA?» Es la pregunta que más oímos en una primera reunión. La respuesta tranquilizadora: sus datos no tienen que ser perfectos. La respuesta menos sencilla: sí tienen que ser lo bastante buenos para la aplicación concreta. Un asistente de búsqueda interno plantea requisitos de calidad muy distintos de los de un sistema que evalúa transacciones financieras.

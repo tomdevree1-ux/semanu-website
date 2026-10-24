@@ -5,7 +5,7 @@ date: "2026-07-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/business-data-for-ai-cover.svg"
+cover: "/blog/business-data-for-ai-cover.jpg"
 ---
 
 "Onze data is niet perfect. Kunnen we dan wel met AI starten?" Dat is de vraag die we het vaakst horen in een eerste gesprek. Het geruststellende antwoord: je data hoeft niet perfect te zijn. Het minder eenvoudige antwoord: ze moet wel goed genoeg zijn voor de specifieke toepassing. Een interne zoekassistent stelt fundamenteel andere kwaliteitseisen dan een systeem dat financiële transacties beoordeelt.

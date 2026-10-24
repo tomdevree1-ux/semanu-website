@@ -5,7 +5,7 @@ date: "2026-07-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/business-data-for-ai-cover.svg"
+cover: "/blog/business-data-for-ai-cover.jpg"
 ---
 
 « Nos données ne sont pas parfaites. Pouvons-nous quand même démarrer avec l'IA ? » C'est la question que nous entendons le plus souvent lors d'un premier entretien. La réponse rassurante : vos données n'ont pas besoin d'être parfaites. La réponse moins simple : elles doivent être suffisamment bonnes pour l'application visée. Un assistant de recherche interne pose des exigences de qualité très différentes de celles d'un système qui évalue des transactions financières.

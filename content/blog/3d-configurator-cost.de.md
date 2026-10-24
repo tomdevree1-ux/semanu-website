@@ -5,7 +5,7 @@ date: "2026-07-30"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/3d-configurator-cost-cover.svg"
+cover: "/blog/3d-configurator-cost-cover.jpg"
 ---
 
 Wer sich mit einem 3D-Konfigurator beschäftigt, hat meist schon ein Bild vor Augen. Der Kunde stellt auf Ihrer Website selbst seine Überdachung, sein Gartenhaus, sein Sofa oder seine Maschine zusammen. Er sieht 3D-Ansicht und Preis live und bestellt ohne tagelanges Hin und Her um Angebote. Dieser Leitfaden erklärt den Weg dorthin: was ein 3D-Konfigurator genau ist, ob Ihr Produkt dafür geeignet ist, was er kostet und ob Sie Software kaufen oder bauen lassen sollten.

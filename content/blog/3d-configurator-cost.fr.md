@@ -5,7 +5,7 @@ date: "2026-07-30"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/3d-configurator-cost-cover.svg"
+cover: "/blog/3d-configurator-cost-cover.jpg"
 ---
 
 Si vous vous intéressez à un configurateur 3D, vous avez sans doute déjà l'image en tête. Votre client compose lui-même sa pergola, son abri de jardin, son canapé ou sa machine sur votre site. Il voit la vue 3D et le prix évoluer en direct puis commande sans des jours d'allers-retours de devis. Ce guide explique comment y arriver : ce qu'est exactement un configurateur 3D, si votre produit s'y prête, ce que cela coûte et s'il vaut mieux acheter un logiciel ou le faire développer.

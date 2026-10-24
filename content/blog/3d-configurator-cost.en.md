@@ -5,7 +5,7 @@ date: "2026-07-30"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/3d-configurator-cost-cover.svg"
+cover: "/blog/3d-configurator-cost-cover.jpg"
 ---
 
 If you are looking into a 3D configurator, you probably already picture it. Your customer composes their own carport, garden room, sofa or machine on your website. They watch the 3D view and the price update live and order without days of back and forth over quotes. This guide explains how to get there: what a 3D configurator is, whether your product is suited for one, what it costs and whether to buy software or have it built.

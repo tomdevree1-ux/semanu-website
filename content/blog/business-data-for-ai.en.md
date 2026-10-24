@@ -5,7 +5,7 @@ date: "2026-07-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/business-data-for-ai-cover.svg"
+cover: "/blog/business-data-for-ai-cover.jpg"
 ---
 
 "Our data isn't perfect. Can we still start with AI?" That is the question we hear most often in a first meeting. The reassuring answer: your data does not have to be perfect. The less simple answer: it does have to be good enough for the specific application. An internal search assistant sets fundamentally different quality requirements than a system that assesses financial transactions.

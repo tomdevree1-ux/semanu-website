@@ -126,7 +126,7 @@ export default async function BlogPostPage({
               alt={meta.title}
               width={1200}
               height={520}
-              className="mt-6 h-auto w-full rounded-lg"
+              className="mt-6 aspect-[1200/520] h-auto w-full rounded-lg object-cover"
             />
           ) : null}
         </div>

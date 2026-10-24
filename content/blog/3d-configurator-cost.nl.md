@@ -5,7 +5,7 @@ date: "2026-07-30"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/3d-configurator-cost-cover.svg"
+cover: "/blog/3d-configurator-cost-cover.jpg"
 ---
 
 Wie zoekt naar een 3D-configurator heeft meestal al een beeld voor ogen. De klant stelt op je website zelf zijn overkapping, tuinhuis, zetel of machine samen. Hij ziet het 3D-beeld en de prijs live veranderen en bestelt zonder dagenlang offerteverkeer. Dit artikel legt uit hoe je daar komt: wat een 3D-configurator precies is, wanneer je product er geschikt voor is, wat het kost en of je beter software koopt of laat bouwen.

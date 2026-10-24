@@ -5,7 +5,7 @@ date: "2026-07-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/business-data-for-ai-cover.svg"
+cover: "/blog/business-data-for-ai-cover.jpg"
 ---
 
 „Unsere Daten sind nicht perfekt. Können wir trotzdem mit KI starten?“ Das ist die Frage, die wir im ersten Gespräch am häufigsten hören. Die beruhigende Antwort: Ihre Daten müssen nicht perfekt sein. Die weniger einfache Antwort: Sie müssen gut genug für die konkrete Anwendung sein. Ein interner Suchassistent stellt grundlegend andere Qualitätsanforderungen als ein System, das Finanztransaktionen beurteilt.
