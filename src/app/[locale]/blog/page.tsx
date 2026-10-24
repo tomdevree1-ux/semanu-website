@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
+import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
 import { SiteShell } from '@/components/SiteShell';
 import { JsonLd } from '@/components/JsonLd';
@@ -82,16 +83,24 @@ export default async function BlogIndexPage({
   return (
     <SiteShell>
       <JsonLd data={[blogLd, itemListLd]} />
-      {/* Header: wide, asymmetric like the rest of the site. Large title on the
-          left, intro pushed to the right column and aligned to the title's baseline. */}
-      <section className="bg-paper pt-[clamp(40px,6vw,88px)] text-ink">
-        <div className="container-site grid items-end gap-x-16 gap-y-6 lg:grid-cols-12">
-          <h1 className="font-display font-semibold leading-[1.0] tracking-[-0.04em] text-navy text-[clamp(44px,6vw,104px)] lg:col-span-7">
+      {/* Hero: full-bleed photo (laptop on the right) like the references page.
+          Navy title and intro on the light left side, with a soft wash for legibility. */}
+      <section className="relative -mt-[72px] flex min-h-[520px] items-end overflow-hidden text-ink md:min-h-0 md:aspect-[2/1]">
+        <Image src="/blog-hero.jpg" alt="" fill priority sizes="100vw" className="object-cover object-[70%_center]" />
+        <div
+          aria-hidden
+          className="absolute inset-0"
+          style={{
+            background:
+              'linear-gradient(90deg, rgba(244,246,250,0.95) 0%, rgba(244,246,250,0.82) 36%, rgba(244,246,250,0.2) 58%, rgba(244,246,250,0) 72%)',
+          }}
+        />
+        <div aria-hidden className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-b from-transparent to-paper" />
+        <div className="container-site relative pb-14 pt-[calc(72px+3rem)]">
+          <h1 className="font-display font-semibold leading-[1.0] tracking-[-0.04em] text-navy text-[clamp(44px,6vw,104px)]">
             {t('title')}
           </h1>
-          <p className="max-w-[46ch] text-[clamp(17px,1.3vw,21px)] leading-[1.6] text-ink-soft lg:col-span-5 lg:pb-3">
-            {t('intro')}
-          </p>
+          <p className="mt-6 max-w-[40ch] text-[clamp(17px,1.3vw,21px)] leading-[1.6] text-ink-soft">{t('intro')}</p>
         </div>
       </section>
 
