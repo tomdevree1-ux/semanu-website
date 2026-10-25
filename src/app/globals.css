@@ -469,3 +469,15 @@ select {
   .hero-word { opacity: 1; animation: none; filter: none; transform: none; }
 }
 
+
+/* Try-me layer over embedded configurators (TryMeEmbed): turning cube + tapping hand. */
+@keyframes tryme-turn {
+  0%, 100% { transform: rotateY(0deg) rotate(0deg); }
+  25% { transform: rotateY(28deg) rotate(-6deg); }
+  75% { transform: rotateY(-28deg) rotate(6deg); }
+}
+@keyframes tryme-tap {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  45% { transform: translate(-3px, -3px) scale(0.88); }
+  60% { transform: translate(0, 0) scale(1); }
+}
