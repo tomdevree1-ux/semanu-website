@@ -238,24 +238,31 @@ export function ServiceFlow({ service, detail, content, navServicesLabel, locale
               <BrandText>{detail.exports.intro}</BrandText>
             </p>
             <div className="mt-[clamp(40px,5vw,72px)] grid gap-6 md:grid-cols-3">
-              {detail.exports.docs.map((doc) => (
+              {detail.exports.docs.map((doc) => {
+                // Label is "TYPE · FORMAT": the type goes in the navy header, the format stays below.
+                const [docType, docFormat] = doc.label.split(' · ');
+                return (
                 <div
                   key={doc.label}
                   className="flex flex-col overflow-hidden rounded-[24px] border border-[var(--line)] bg-white"
                 >
+                  <div className="bg-navy px-[clamp(20px,1.6vw,28px)] py-4">
+                    <span className="font-mono text-[13px] font-semibold tracking-[0.14em] text-white">{docType}</span>
+                  </div>
                   <div className="relative aspect-[3/4] w-full border-b border-[var(--line)] bg-paper">
                     <Image src={doc.img} alt={doc.alt} fill sizes="(min-width:768px) 33vw, 100vw" className="object-contain p-4" />
                   </div>
                   <div className="p-[clamp(20px,1.6vw,28px)]">
-                    <span className="font-mono text-[12px] font-medium tracking-[0.12em] text-mint-deep">
-                      {doc.label}
-                    </span>
+                    {docFormat ? (
+                      <span className="font-mono text-[12px] font-medium tracking-[0.12em] text-mint-deep">{docFormat}</span>
+                    ) : null}
                     <p className="mt-3 text-[15.5px] leading-relaxed text-ink-soft">
                       <BrandText>{doc.caption}</BrandText>
                     </p>
                   </div>
                 </div>
-              ))}
+                );
+              })}
             </div>
           </div>
         </section>
