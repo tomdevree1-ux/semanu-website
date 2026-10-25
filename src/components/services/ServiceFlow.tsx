@@ -215,7 +215,7 @@ export function ServiceFlow({ service, detail, content, navServicesLabel, locale
       {/* ── 3D CONFIGURATOR DEMO VIDEO — drop the clip at /public/configurator-demo.mp4
           (optional poster at /public/configurator-demo-poster.jpg). ── */}
       {isConfigurator && (
-        <section className="bg-paper py-[clamp(72px,11vw,150px)] text-ink">
+        <section id="live-demo" className="scroll-mt-24 bg-paper py-[clamp(72px,11vw,150px)] text-ink">
           <div className="container-site">
             <TryMeEmbed
               src={`${CONFIGURATOR_URL[locale] ?? CONFIGURATOR_URL.nl}/#e30`}

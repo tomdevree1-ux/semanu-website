@@ -351,7 +351,7 @@ const nl: DetailMap = {
     finalText: 'Vertel ons over uw product en we tonen hoe een configurator er in uw website kan uitzien.',
     finalCta: 'Bespreek uw productconfigurator',
     finalSecondaryLabel: 'Bekijk een live configurator',
-    finalSecondaryHref: '/configurator/cabinet',
+    finalSecondaryHref: '/services/3d-configurators#live-demo',
   },
 };
 
@@ -556,7 +556,7 @@ const en: DetailMap = {
     finalText: 'Tell us about your product and we show how a configurator could look in your website.',
     finalCta: 'Discuss your product configurator',
     finalSecondaryLabel: 'See a live configurator',
-    finalSecondaryHref: '/configurator/cabinet',
+    finalSecondaryHref: '/services/3d-configurators#live-demo',
   },
 };
 
@@ -761,7 +761,7 @@ const de: DetailMap = {
     finalText: 'Erzählen Sie uns von Ihrem Produkt und wir zeigen, wie ein Konfigurator in Ihrer Website aussehen kann.',
     finalCta: 'Besprechen Sie Ihren Produktkonfigurator',
     finalSecondaryLabel: 'Einen Live-Konfigurator ansehen',
-    finalSecondaryHref: '/configurator/cabinet',
+    finalSecondaryHref: '/services/3d-configurators#live-demo',
   },
 };
 
@@ -966,7 +966,7 @@ const fr: DetailMap = {
     finalText: 'Parlez-nous de votre produit et nous montrons à quoi un configurateur pourrait ressembler dans votre site.',
     finalCta: 'Parlons de votre configurateur produit',
     finalSecondaryLabel: 'Voir un configurateur en ligne',
-    finalSecondaryHref: '/configurator/cabinet',
+    finalSecondaryHref: '/services/3d-configurators#live-demo',
   },
 };
 
@@ -1171,7 +1171,7 @@ const es: DetailMap = {
     finalText: 'Cuéntenos sobre su producto y mostramos cómo podría verse un configurador en su sitio web.',
     finalCta: 'Hablemos de su configurador de producto',
     finalSecondaryLabel: 'Ver un configurador en vivo',
-    finalSecondaryHref: '/configurator/cabinet',
+    finalSecondaryHref: '/services/3d-configurators#live-demo',
   },
 };
 

@@ -65,8 +65,13 @@ export const pageMoved = [
   ['services', ''],
   // Email marketing is no longer a standalone service.
   ['services/email-marketing', ''],
-  // The sofa configurator demo was retired; the cabinet configurator replaces it.
-  ['configurator/sofa', '/configurator/cabinet'],
+  // The separate configurator demo pages were removed (2026-10); the live
+  // configurator now sits on the 3D configurators service page.
+  ['configurator/sofa', '/services/3d-configurators'],
+  ['configurator/cabinet', '/services/3d-configurators'],
+  ['configurator/table', '/services/3d-configurators'],
+  ['configurator/railing', '/services/3d-configurators'],
+  ['configurator/gate', '/services/3d-configurators'],
 ];
 // Blog posts with a former German slug, now English.
 export const blogRenamed = [

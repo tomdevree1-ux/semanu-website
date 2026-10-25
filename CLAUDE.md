@@ -25,8 +25,9 @@ eigen database. Het contactformulier gaat server side naar de bestaande SEMANU-b
   Oude dienst-URL's 301'en (lijst in `src/lib/legacy-redirects.mjs`, gebruikt door `next.config.mjs` en de middleware).
 - **URL's (beslissing oktober 2026):** één Engelse slug per pagina, gelijk in alle talen (alleen het
   taalprefix verschilt): `/contact`, `/references`, `/about`, `/faq`, `/blog/<engelse-slug>`, `/privacy`,
-  `/legal-notice`, `/services/3d-configurators`, `/services/business-software`, `/configurator/<type>`
-  (cabinet, table, railing, gate). Oude Duitse slugs 301'en rechtstreeks naar het eindadres
+  `/legal-notice`, `/services/3d-configurators`, `/services/business-software`. De losse
+  configuratorpagina's (`/configurator/<type>`) zijn sinds oktober 2026 weg en 301'en naar `/services/3d-configurators`,
+  waar de live kastconfigurator staat (`#live-demo`). Oude Duitse slugs 301'en rechtstreeks naar het eindadres
   (`src/lib/legacy-redirects.mjs`); oude URL's zonder taalprefix bereiken het eindadres ook in één hop
   (`src/middleware.ts`). Nieuwe pagina's en blogs krijgen meteen een Engelse slug.
 - **Geen algemene voorwaarden op de site (beslissing oktober 2026):** `/terms` en `/agb` 301'en naar
@@ -38,7 +39,7 @@ eigen database. Het contactformulier gaat server side naar de bestaande SEMANU-b
   websites, SEO en het website-abonnement zijn weg en 301'en (ook hun oude Duitse slugs) naar `/blog`.
   Nieuwe blogs gaan over AI, bedrijfssoftware of 3D-configuratoren.
 - **Breadcrumbs (beslissing oktober 2026):** geen zichtbaar kruimelpad op de site (klein, de navigatie volstaat).
-  Wel `BreadcrumbList` JSON-LD op dieperliggende pagina's: dienstpagina's en configuratordemo's
+  Wel `BreadcrumbList` JSON-LD op dieperliggende pagina's: dienstpagina's
   (Home → pagina), blogartikels (Home → Blog → artikel). Nooit een tussenstap naar een URL die redirect
   (`/services` bestaat niet).
 - **AI-first, niet AI-native (beslissing oktober 2026):** in elke taal "AI-first" met koppelteken als
@@ -47,7 +48,7 @@ eigen database. Het contactformulier gaat server side naar de bestaande SEMANU-b
   `ai-native` (dienst-id, interessewaarde in het formulier) blijven ongewijzigd.
 - **Democonfigurators:** elke ingebouwde demo meldt dat aanvragen en bestellingen er niet verwerkt worden: via
   `DemoNotice` (`src/components/configurator/DemoNotice.tsx`) of, bij de grote live kastconfigurator op de 3D-dienstpagina,
-  via de activatielaag `TryMeEmbed` (eerst "Probeer het zelf" klikken; tekst in `TRY_ME`).
+  via de activatielaag `TryMeEmbed` (eerst "Probeer het zelf" klikken). Teksten in `src/content/demo.ts`.
 - **Prijzen:** nergens bedragen op de site; overal "op aanvraag" (per taal). Valuta EUR, excl. btw.
 - **Doelgroep (beslissing oktober 2026):** Europees en landneutraal ("KMU in Europa", "SMEs in Europe" waar een
   regio helpt, anders gewoon "KMU/SMEs/kmo's"). Locatie alleen waar ze hoort: bedrijfsgegevens (Antwerpen, België)

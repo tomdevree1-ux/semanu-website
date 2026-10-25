@@ -3,7 +3,6 @@ import { routing } from '@/i18n/routing';
 import { env } from '@/lib/env';
 import { getAllPosts } from '@/lib/blog';
 import { SERVICE_SLUGS } from '@/content/services';
-import { CONFIG_SLUGS } from '@/content/configurators';
 import { getLegalDoc } from '@/lib/legal';
 
 // Generate the sitemap once at build time instead of on every request. It reads
@@ -18,7 +17,6 @@ const PATHS = [
   '',
   ...SERVICE_SLUGS.map((s) => `/services/${s}`),
   '/services/business-software',
-  ...CONFIG_SLUGS.map((s) => `/configurator/${s}`),
   '/blog',
   '/faq',
   '/contact',

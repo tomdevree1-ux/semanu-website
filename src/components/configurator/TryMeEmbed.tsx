@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { TRY_ME, type ConfLocale } from '@/content/configurators';
+import { TRY_ME, type ConfLocale } from '@/content/demo';
 
 /**
  * Embedded live configurator behind an activation layer. Until the visitor

@@ -1,5 +1,5 @@
 import { Link } from '@/i18n/navigation';
-import { DEMO_NOTICE, type ConfLocale } from '@/content/configurators';
+import { DEMO_NOTICE, type ConfLocale } from '@/content/demo';
 
 /**
  * Friendly notice placed directly above or below an embedded demo configurator:
