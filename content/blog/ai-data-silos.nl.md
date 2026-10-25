@@ -5,7 +5,7 @@ date: "2026-07-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-data-silos-cover.svg"
+cover: "/blog/ai-data-silos-cover.jpg"
 ---
 
 Veel bedrijven starten hun eerste AI-project als een afzonderlijk experiment. Een team verzamelt documenten, bouwt een eigen databank en koppelt die aan een AI-toepassing. De eerste resultaten zien er veelbelovend uit en het gevoel groeit dat je iets in handen hebt. Na een tijdje merk je dat dezelfde informatie ook in het ERP zit, in het CRM, in gedeelde mappen en in een handvol Excels. Niemand weet nog welke versie klopt. De AI die informatie toegankelijker moest maken, heeft ondertussen een nieuwe datasilo opgebouwd.

@@ -5,7 +5,7 @@ date: "2026-07-10"
 updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-first-digital-business-cover.svg"
+cover: "/blog/ai-first-digital-business-cover.jpg"
 ---
 
 Digitale Technologie soll ein Unternehmen voranbringen und nicht komplizierter machen. Trotzdem arbeiten viele Unternehmen heute mit verschiedenen Anbietern für ihre Website, ihren Webshop, das Email Marketing, Automatisierungen, Software und AI. Das Ergebnis sind verstreute Systeme, langsame Kommunikation und Lösungen, die zu wenig aufeinander abgestimmt sind.

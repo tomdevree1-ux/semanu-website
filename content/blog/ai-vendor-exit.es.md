@@ -5,7 +5,7 @@ date: "2026-07-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-vendor-exit-cover.svg"
+cover: "/blog/ai-vendor-exit-cover.jpg"
 ---
 
 Una solución de IA que hoy funciona bien puede quedar mañana fuera de servicio, fuera de presupuesto o sin soporte. Su proveedor no tiene que quebrar para que eso ocurra. Basta una adquisición, un cambio de estrategia, una subida de precios, un producto descatalogado o una tecnología que el proveedor ha sustituido.

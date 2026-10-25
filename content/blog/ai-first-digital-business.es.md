@@ -5,7 +5,7 @@ date: "2026-07-10"
 updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-first-digital-business-cover.svg"
+cover: "/blog/ai-first-digital-business-cover.jpg"
 ---
 
 La tecnología digital debe hacer avanzar a una empresa y no complicarla. Aun así, muchas empresas trabajan hoy con distintos proveedores para su sitio web, su tienda online, el email marketing, las automatizaciones, el software y la AI. El resultado son sistemas dispersos, comunicación lenta y soluciones que están poco coordinadas entre sí.

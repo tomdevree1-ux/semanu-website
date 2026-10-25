@@ -5,7 +5,7 @@ date: "2026-07-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-data-silos-cover.svg"
+cover: "/blog/ai-data-silos-cover.jpg"
 ---
 
 Muchas empresas lanzan su primer proyecto de IA como un experimento aislado. Un equipo reúne documentos, monta su propia base de datos y la conecta a una herramienta de IA. Los primeros resultados parecen prometedores y crece la sensación de tener algo valioso entre manos. Unos meses después, usted descubre que la misma información también está en el ERP, en el CRM, en carpetas compartidas y en un puñado de hojas de Excel. Nadie sabe ya qué versión es la correcta. La IA que debía hacer la información más accesible ha construido, entretanto, un nuevo silo de datos.

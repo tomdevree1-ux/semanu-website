@@ -5,7 +5,7 @@ date: "2026-07-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-data-silos-cover.svg"
+cover: "/blog/ai-data-silos-cover.jpg"
 ---
 
 Many companies kick off their first AI project as a standalone experiment. A team gathers documents, builds its own database and connects it to an AI tool. The early results look promising and there is a real sense that you are on to something. A few months later you notice that the same information also lives in the ERP, in the CRM, in shared folders and in a handful of spreadsheets. Nobody knows anymore which version is right. The AI that was supposed to make information easier to find has quietly built a new data silo.

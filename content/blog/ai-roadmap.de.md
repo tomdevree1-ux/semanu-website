@@ -5,7 +5,7 @@ date: "2026-07-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-roadmap-cover.svg"
+cover: "/blog/ai-roadmap-cover.jpg"
 ---
 
 Viele KI-Initiativen starten mit einer Demo. Ein Anbieter zeigt eine beeindruckende Anwendung, jemand im Betrieb spielt mit einem neuen Tool oder die Geschäftsleitung hört, dass ein Wettbewerber bereits mit KI arbeitet. Dann kommt die Frage: Wie setzen wir diese Technologie im eigenen Unternehmen ein?

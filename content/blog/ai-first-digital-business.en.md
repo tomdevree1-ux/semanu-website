@@ -5,7 +5,7 @@ date: "2026-07-10"
 updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-first-digital-business-cover.svg"
+cover: "/blog/ai-first-digital-business-cover.jpg"
 ---
 
 Digital technology should move a business forward and not make it more complex. Yet many businesses today work with different providers for their website, their webshop, email marketing, automations, software and AI. The result is scattered systems, slow communication and solutions that fit together too poorly.

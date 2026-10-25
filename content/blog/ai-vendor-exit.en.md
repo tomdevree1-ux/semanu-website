@@ -5,7 +5,7 @@ date: "2026-07-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-vendor-exit-cover.svg"
+cover: "/blog/ai-vendor-exit-cover.jpg"
 ---
 
 An AI solution that runs fine today can be unavailable, unaffordable or unsupported tomorrow. Your vendor doesn't have to go bankrupt for that. An acquisition, a strategy shift, a price hike, a discontinued product or a technology the vendor swapped out is enough.

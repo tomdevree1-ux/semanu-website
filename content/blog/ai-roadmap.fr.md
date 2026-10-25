@@ -5,7 +5,7 @@ date: "2026-07-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-roadmap-cover.svg"
+cover: "/blog/ai-roadmap-cover.jpg"
 ---
 
 Beaucoup d'initiatives IA démarrent par une démonstration. Un fournisseur montre une application impressionnante, un collaborateur teste un nouvel outil ou la direction apprend qu'un concurrent travaille déjà avec l'IA. Vient alors la question : comment utiliser cette technologie dans notre entreprise ?

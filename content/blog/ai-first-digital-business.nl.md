@@ -5,7 +5,7 @@ date: "2026-07-10"
 updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-first-digital-business-cover.svg"
+cover: "/blog/ai-first-digital-business-cover.jpg"
 ---
 
 Digitale technologie moet een onderneming vooruithelpen en niet ingewikkelder maken. Toch werken veel bedrijven vandaag met verschillende aanbieders voor hun website, hun webshop, het Email Marketing, automatiseringen, software en AI. Het resultaat zijn verspreide systemen, trage communicatie en oplossingen die te weinig op elkaar zijn afgestemd.

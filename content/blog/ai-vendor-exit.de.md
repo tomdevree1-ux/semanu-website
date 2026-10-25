@@ -5,7 +5,7 @@ date: "2026-07-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-vendor-exit-cover.svg"
+cover: "/blog/ai-vendor-exit-cover.jpg"
 ---
 
 Eine KI-Lösung, die heute läuft, kann morgen nicht verfügbar, unbezahlbar oder ohne Support sein. Ihr Anbieter muss dafür nicht insolvent werden. Eine Übernahme, ein Strategiewechsel, eine Preiserhöhung, ein eingestelltes Produkt oder eine Technologie, die der Anbieter ausgetauscht hat, genügt.

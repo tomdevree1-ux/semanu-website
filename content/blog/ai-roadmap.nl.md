@@ -5,7 +5,7 @@ date: "2026-07-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-roadmap-cover.svg"
+cover: "/blog/ai-roadmap-cover.jpg"
 ---
 
 Veel AI-initiatieven starten met een demo. Een leverancier toont een indrukwekkende toepassing, iemand op de werkvloer speelt met een nieuwe tool of het management hoort dat een concurrent al met AI aan de slag is. Dan komt de vraag: hoe zetten we die technologie bij ons in?

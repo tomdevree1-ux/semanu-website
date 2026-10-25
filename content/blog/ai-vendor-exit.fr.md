@@ -5,7 +5,7 @@ date: "2026-07-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-vendor-exit-cover.svg"
+cover: "/blog/ai-vendor-exit-cover.jpg"
 ---
 
 Une solution d'IA qui tourne aujourd'hui peut être indisponible, hors budget ou sans support demain. Votre fournisseur n'a pas besoin de faire faillite pour cela. Un rachat, un changement de stratégie, une hausse des tarifs, un produit arrêté ou une technologie que le fournisseur a remplacée suffisent.

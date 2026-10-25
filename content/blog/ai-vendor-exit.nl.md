@@ -5,7 +5,7 @@ date: "2026-07-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-vendor-exit-cover.svg"
+cover: "/blog/ai-vendor-exit-cover.jpg"
 ---
 
 Een AI-oplossing die vandaag draait, kan morgen onbeschikbaar, onbetaalbaar of niet langer ondersteund zijn. Je leverancier hoeft daarvoor niet failliet te gaan. Een overname, een strategiewijziging, een prijsverhoging, een stopgezet product of een technologie die de leverancier vervangen heeft volstaat.

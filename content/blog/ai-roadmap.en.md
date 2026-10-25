@@ -5,7 +5,7 @@ date: "2026-07-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-roadmap-cover.svg"
+cover: "/blog/ai-roadmap-cover.jpg"
 ---
 
 Most AI initiatives start with a demo. A vendor shows an impressive application, someone on the shop floor plays with a new tool or management hears that a competitor is already working with AI. Then comes the question: how do we use this technology in our own company?

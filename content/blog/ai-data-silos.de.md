@@ -5,7 +5,7 @@ date: "2026-07-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-data-silos-cover.svg"
+cover: "/blog/ai-data-silos-cover.jpg"
 ---
 
 Viele Unternehmen starten ihr erstes KI-Projekt als eigenständiges Experiment. Ein Team sammelt Dokumente, baut eine eigene Datenbank auf und verbindet sie mit einer KI-Anwendung. Die ersten Ergebnisse sehen vielversprechend aus und man hat das Gefühl, wirklich etwas in der Hand zu halten. Nach einigen Monaten stellen Sie fest, dass dieselben Informationen auch im ERP, im CRM, in gemeinsam genutzten Ordnern und in einer Handvoll Excel-Dateien liegen. Niemand weiß mehr, welche Version stimmt. Die KI, die Informationen zugänglicher machen sollte, hat inzwischen ein neues Datensilo aufgebaut.
