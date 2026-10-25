@@ -296,16 +296,10 @@ export function FaqSearch({
         )}
       </div>
 
-      {/* ── Closing CTA ─────────────────────────────────────── */}
-      <div className="mt-14 flex flex-col items-start gap-4 border-t border-[var(--line)] pt-10 sm:flex-row sm:items-center">
+      {/* ── Closing CTA: one action, both used to lead to /contact ── */}
+      <div className="mt-14 border-t border-[var(--line)] pt-10">
         <Link href={contactHref} className="btn btn-spark">
-          {ui.ctaStart} <span aria-hidden className="btn-arrow" />
-        </Link>
-        <Link
-          href={contactHref}
-          className="font-medium text-navy underline decoration-mint decoration-2 underline-offset-4 hover:text-ink"
-        >
-          {ui.askMore}
+          {ui.askMore} <span aria-hidden className="btn-arrow" />
         </Link>
       </div>
     </div>
