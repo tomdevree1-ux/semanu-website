@@ -392,7 +392,7 @@ select {
    fields keep their caret. Hotspot sits on the chevron tip (19,14 of 28px). */
 @media (hover: hover) and (pointer: fine) {
   * {
-    cursor: url('/cursor.svg') 6 6, auto;
+    cursor: url('/cursor.svg?v=2') 6 6, auto;
   }
   /* Clickable elements use the native hand/pointer cursor. */
   a, button, [role="button"], .btn, label, summary, select,
@@ -406,7 +406,7 @@ select {
   /* On dark sections the navy chevron disappears, so the default (non-clickable)
      cursor switches to a white chevron. Clickable elements keep the hand above. */
   .bg-navy, .bg-ink {
-    cursor: url('/cursor-white.svg') 6 6, auto;
+    cursor: url('/cursor-white.svg?v=2') 6 6, auto;
   }
 }
 
