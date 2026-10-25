@@ -94,7 +94,7 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
         name: 'Poortland',
         tag: 'Workflowautomatisering',
         summary:
-          "Poortland entwirft und montiert architektonische Tore und Überdachungen. semanu baute eine mehrsprachige Website mit CMS und Angebotstool, verbunden mit Unternehmenssoftware nach Maß. Jeder Lead aus Instagram, Facebook, dem Kontaktformular, E-Mail oder Telefon landet in einem CRM und wird bis zum unterschriebenen Angebot nachverfolgt. Produktion, Planung und Montage laufen danach im selben digitalen Workflow. So bleibt Poortland in Google und AI-Assistenten sichtbar (SEO und GEO) und verliert keine Anfrage mehr.",
+          "Poortland entwirft und montiert architektonische Tore und Überdachungen. semanu baute Unternehmenssoftware nach Maß, die den gesamten Ablauf in einer Übersicht bündelt: vom ersten Lead bis zu Planung und Produktion. Anfragen aus Instagram, Facebook, dem Kontaktformular, E-Mail oder Telefon landen in einem CRM. Von dort verfolgt das Team jedes Angebot und plant Produktion und Montage, ohne lose Listen oder E-Mail-Ketten. Die mehrsprachige Website mit Angebotstool und CMS speist diese Übersicht und hält Poortland in Google und AI-Assistenten sichtbar (SEO und GEO).",
         status: 'live',
         href: 'https://www.poortland.be',
         company:
@@ -186,7 +186,7 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
         name: 'Poortland',
         tag: 'Workflowautomatisering',
         summary:
-          "Poortland conçoit et installe des portails et des auvents architecturaux. semanu a créé un site multilingue avec CMS et outil de devis, relié à un logiciel d’entreprise sur mesure. Chaque lead venant d’Instagram, de Facebook, du formulaire de contact, de l’e-mail ou du téléphone arrive dans un seul CRM et est suivi jusqu’au devis signé. La production, la planification et la pose suivent ensuite le même workflow digital. Poortland reste visible dans Google et les assistants AI (SEO et GEO) et ne perd plus aucune demande.",
+          "Poortland conçoit et installe des portails et des auvents architecturaux. semanu a créé un logiciel d’entreprise sur mesure qui réunit tout le parcours dans une seule vue : du premier lead à la planification et à la production. Les demandes venant d’Instagram, de Facebook, du formulaire de contact, de l’e-mail ou du téléphone arrivent dans un seul CRM. L’équipe y suit chaque devis et planifie la production et la pose, sans listes éparses ni chaînes d’e-mails. Le site multilingue avec outil de devis et CMS alimente cette vue et garde Poortland visible dans Google et les assistants AI (SEO et GEO).",
         status: 'live',
         href: 'https://www.poortland.be',
         company:
@@ -278,7 +278,7 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
         name: 'Poortland',
         tag: 'Workflowautomatisering',
         summary:
-          "Poortland designs and installs architectural gates and canopies. semanu built a multilingual website with a CMS and a quote tool, connected to custom business software. Every lead from Instagram, Facebook, the contact form, email or phone lands in one CRM and is followed up until the signed quote. Production, planning and installation then run through the same digital workflow. Poortland stays visible in Google and AI assistants (SEO and GEO) and no longer loses a single request.",
+          "Poortland designs and installs architectural gates and canopies. semanu built custom business software that brings the whole journey into one overview: from the first lead to planning and production. Requests from Instagram, Facebook, the contact form, email or phone land in one CRM. From there the team follows up every quote and plans production and installation, without loose lists or email threads. The multilingual website with quote tool and CMS feeds that overview and keeps Poortland visible in Google and AI assistants (SEO and GEO).",
         status: 'live',
         href: 'https://www.poortland.be',
         company:
@@ -370,7 +370,7 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
         name: 'Poortland',
         tag: 'Workflowautomatisering',
         summary:
-          "Poortland diseña e instala puertas y pérgolas arquitectónicas. semanu creó una web multilingüe con CMS y herramienta de presupuestos, conectada a software empresarial a medida. Cada lead de Instagram, Facebook, el formulario de contacto, el correo o el teléfono llega a un único CRM y se sigue hasta el presupuesto firmado. Después, la producción, la planificación y la instalación pasan por el mismo flujo digital. Así Poortland sigue visible en Google y en los asistentes de AI (SEO y GEO) y ya no pierde ninguna solicitud.",
+          "Poortland diseña e instala puertas y pérgolas arquitectónicas. semanu creó software empresarial a medida que reúne todo el recorrido en una sola vista: desde el primer lead hasta la planificación y la producción. Las solicitudes de Instagram, Facebook, el formulario de contacto, el correo o el teléfono llegan a un único CRM. Desde ahí el equipo sigue cada presupuesto y planifica la producción y la instalación, sin listas sueltas ni cadenas de correos. La web multilingüe con herramienta de presupuestos y CMS alimenta esa vista y mantiene a Poortland visible en Google y en los asistentes de AI (SEO y GEO).",
         status: 'live',
         href: 'https://www.poortland.be',
         company:
@@ -462,7 +462,7 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
         name: 'Poortland',
         tag: 'Workflowautomatisering',
         summary:
-          "Poortland ontwerpt en plaatst architecturale poorten en overkappingen. semanu bouwde een meertalige website met CMS en een offertetool, gekoppeld aan bedrijfssoftware op maat. Elke lead uit Instagram, Facebook, het contactformulier, e-mail of telefoon komt in één CRM terecht en wordt opgevolgd tot de getekende offerte. Daarna lopen productie, planning en plaatsing door dezelfde digitale workflow. Zo blijft Poortland zichtbaar in Google en AI-assistenten (SEO en GEO) en verliest het geen enkele aanvraag meer.",
+          "Poortland ontwerpt en plaatst architecturale poorten en overkappingen. semanu bouwde bedrijfssoftware op maat die het volledige traject in één overzicht brengt: van de eerste lead tot planning en productie. Aanvragen uit Instagram, Facebook, het contactformulier, e-mail of telefoon komen in één CRM terecht. Van daaruit volgt het team elke offerte op en plant het productie en plaatsing, zonder losse lijstjes of mailketens. De meertalige website met offertetool en CMS voedt dat overzicht en houdt Poortland zichtbaar in Google en AI-assistenten (SEO en GEO).",
         status: 'live',
         href: 'https://www.poortland.be',
         company:
