@@ -9,6 +9,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { FaqAccordion } from '@/components/FaqAccordion';
 import { ConfiguratorDemo, type DemoConfig } from '@/components/configurator/ConfiguratorDemo';
 import { DemoNotice } from '@/components/configurator/DemoNotice';
+import { TryMeEmbed } from '@/components/configurator/TryMeEmbed';
 import { pageMetadata } from '@/lib/seo/metadata';
 import { env } from '@/lib/env';
 import {
@@ -130,26 +131,24 @@ export default async function ConfiguratorPage({
         </div>
       </section>
 
-      {/* Configurator: sample demo, plus a link to the full live configurator when there is one */}
+      {/* Configurator: the live configurator behind a try-me layer when there is
+          one (the layer carries the demo notice); otherwise the sample demo. */}
       <section className="bg-paper pb-16 text-ink sm:pb-20">
         <div className="container-site">
-          <DemoNotice locale={loc} className="mb-4" />
-          {config ? (
-            <>
-              <ConfiguratorDemo config={config} />
-              <p className="mt-3 font-mono text-[11px] text-ink-soft">{ui.demoNote}</p>
-            </>
-          ) : null}
           {c.configUrl ? (
-            <a
-              href={c.configUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-primary mt-6"
-            >
-              {c.launchLabel ?? ui.finalCta} <span aria-hidden className="btn-arrow" />
-            </a>
-          ) : null}
+            // "#e30" is an empty default state that skips the configurator's landing page.
+            <TryMeEmbed src={`${c.configUrl}/#e30`} title={c.title} locale={loc} />
+          ) : (
+            <>
+              <DemoNotice locale={loc} className="mb-4" />
+              {config ? (
+                <>
+                  <ConfiguratorDemo config={config} />
+                  <p className="mt-3 font-mono text-[11px] text-ink-soft">{ui.demoNote}</p>
+                </>
+              ) : null}
+            </>
+          )}
         </div>
       </section>
 
