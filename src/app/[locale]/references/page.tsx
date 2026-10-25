@@ -133,8 +133,8 @@ export default async function ReferenzenPage({
                   <h2 className="mt-2.5 font-mono text-[24px] font-extrabold leading-tight tracking-[-0.015em] text-navy sm:text-[28px]">
                     <BrandText>{cs.name}</BrandText>
                   </h2>
-                  <p className="mt-2.5 max-w-[46ch] leading-relaxed text-ink-soft">
-                    <BrandText>{teaser(cs.result)}</BrandText>
+                  <p className="mt-2.5 max-w-[62ch] leading-relaxed text-ink-soft">
+                    <BrandText>{cs.summary ?? teaser(cs.result)}</BrandText>
                   </p>
                 </>
               );

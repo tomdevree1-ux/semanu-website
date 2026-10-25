@@ -21,6 +21,8 @@ export type RefCase = {
   solution: string;
   /** What changed for them (the trust maker). */
   result: string;
+  /** Card text on the references overview (3 to 6 sentences); falls back to the first sentence of result. */
+  summary?: string;
   /** Real client quote, only where one exists. */
   quote?: RefQuote;
 };
@@ -76,6 +78,8 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
       {
         name: 'semanu interactieve kiosk',
         tag: '3D-configurator',
+        summary:
+          "Ein Showcase von semanu: ein interaktiver Kiosk mit einem 3D-Schrankkonfigurator für Showrooms. Besucher wählen Maße, Einteilung, Materialien und Oberflächen selbst und sehen ihren Schrank sofort in 3D. Der Preis passt sich bei jeder Wahl an. So beginnt das Verkaufsgespräch mit einem konkreten Entwurf statt mit einer vagen Frage. Derselbe 3D-Konfigurator läuft auch online auf der Website.",
         status: 'live',
         company:
           'semanu bouwt interactieve 3D-configuratoren en kiosks waarmee klanten een product zelf samenstellen.',
@@ -89,6 +93,8 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
       {
         name: 'Poortland',
         tag: 'Workflowautomatisering',
+        summary:
+          "Poortland entwirft und montiert architektonische Tore und Überdachungen. semanu baute eine mehrsprachige Website mit CMS und Angebotstool, verbunden mit Unternehmenssoftware nach Maß. Jeder Lead aus Instagram, Facebook, dem Kontaktformular, E-Mail oder Telefon landet in einem CRM und wird bis zum unterschriebenen Angebot nachverfolgt. Produktion, Planung und Montage laufen danach im selben digitalen Workflow. So bleibt Poortland in Google und AI-Assistenten sichtbar (SEO und GEO) und verliert keine Anfrage mehr.",
         status: 'live',
         href: 'https://www.poortland.be',
         company:
@@ -164,6 +170,8 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
       {
         name: 'semanu interactieve kiosk',
         tag: '3D-configurator',
+        summary:
+          "Une vitrine de semanu : une borne interactive avec un configurateur 3D d’armoires pour les showrooms. Les visiteurs choisissent eux-mêmes dimensions, aménagement, matériaux et finitions et voient leur armoire en 3D immédiatement. Le prix s’adapte à chaque choix. La discussion commerciale démarre ainsi sur un projet concret plutôt que sur une question vague. Le même configurateur 3D fonctionne aussi en ligne, sur le site web.",
         status: 'live',
         company:
           'semanu bouwt interactieve 3D-configuratoren en kiosks waarmee klanten een product zelf samenstellen.',
@@ -177,6 +185,8 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
       {
         name: 'Poortland',
         tag: 'Workflowautomatisering',
+        summary:
+          "Poortland conçoit et installe des portails et des auvents architecturaux. semanu a créé un site multilingue avec CMS et outil de devis, relié à un logiciel d’entreprise sur mesure. Chaque lead venant d’Instagram, de Facebook, du formulaire de contact, de l’e-mail ou du téléphone arrive dans un seul CRM et est suivi jusqu’au devis signé. La production, la planification et la pose suivent ensuite le même workflow digital. Poortland reste visible dans Google et les assistants AI (SEO et GEO) et ne perd plus aucune demande.",
         status: 'live',
         href: 'https://www.poortland.be',
         company:
@@ -252,6 +262,8 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
       {
         name: 'semanu interactieve kiosk',
         tag: '3D-configurator',
+        summary:
+          "A semanu showcase: an interactive kiosk with a 3D cabinet configurator for showrooms. Visitors choose dimensions, layout, materials and finish themselves and see their cabinet in 3D right away. The price updates with every choice. The sales conversation starts from a concrete design instead of a vague question. The same 3D configurator also runs online on the website.",
         status: 'live',
         company:
           'semanu bouwt interactieve 3D-configuratoren en kiosks waarmee klanten een product zelf samenstellen.',
@@ -265,6 +277,8 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
       {
         name: 'Poortland',
         tag: 'Workflowautomatisering',
+        summary:
+          "Poortland designs and installs architectural gates and canopies. semanu built a multilingual website with a CMS and a quote tool, connected to custom business software. Every lead from Instagram, Facebook, the contact form, email or phone lands in one CRM and is followed up until the signed quote. Production, planning and installation then run through the same digital workflow. Poortland stays visible in Google and AI assistants (SEO and GEO) and no longer loses a single request.",
         status: 'live',
         href: 'https://www.poortland.be',
         company:
@@ -340,6 +354,8 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
       {
         name: 'semanu interactieve kiosk',
         tag: '3D-configurator',
+        summary:
+          "Un escaparate propio de semanu: un quiosco interactivo con un configurador 3D de armarios para showrooms. Los visitantes eligen ellos mismos medidas, distribución, materiales y acabados y ven su armario en 3D al instante. El precio se ajusta con cada elección. Así la conversación de venta empieza con un diseño concreto en lugar de una pregunta vaga. El mismo configurador 3D también funciona en línea, en la web.",
         status: 'live',
         company:
           'semanu bouwt interactieve 3D-configuratoren en kiosks waarmee klanten een product zelf samenstellen.',
@@ -353,6 +369,8 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
       {
         name: 'Poortland',
         tag: 'Workflowautomatisering',
+        summary:
+          "Poortland diseña e instala puertas y pérgolas arquitectónicas. semanu creó una web multilingüe con CMS y herramienta de presupuestos, conectada a software empresarial a medida. Cada lead de Instagram, Facebook, el formulario de contacto, el correo o el teléfono llega a un único CRM y se sigue hasta el presupuesto firmado. Después, la producción, la planificación y la instalación pasan por el mismo flujo digital. Así Poortland sigue visible en Google y en los asistentes de AI (SEO y GEO) y ya no pierde ninguna solicitud.",
         status: 'live',
         href: 'https://www.poortland.be',
         company:
@@ -428,6 +446,8 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
       {
         name: 'semanu interactieve kiosk',
         tag: '3D-configurator',
+        summary:
+          "Een eigen showcase van semanu: een interactieve kiosk met een 3D-kastconfigurator voor showrooms. Bezoekers kiezen zelf afmetingen, indeling, materialen en afwerking en zien hun kast meteen in 3D. De prijs past zich bij elke keuze aan. Zo start het verkoopgesprek met een concreet ontwerp in plaats van een vage vraag. Dezelfde 3D-configurator draait ook online, op de website.",
         status: 'live',
         company:
           'semanu bouwt interactieve 3D-configuratoren en kiosks waarmee klanten een product zelf samenstellen.',
@@ -441,6 +461,8 @@ export const REFERENCES: Record<RefLocale, RefContent> = {
       {
         name: 'Poortland',
         tag: 'Workflowautomatisering',
+        summary:
+          "Poortland ontwerpt en plaatst architecturale poorten en overkappingen. semanu bouwde een meertalige website met CMS en een offertetool, gekoppeld aan bedrijfssoftware op maat. Elke lead uit Instagram, Facebook, het contactformulier, e-mail of telefoon komt in één CRM terecht en wordt opgevolgd tot de getekende offerte. Daarna lopen productie, planning en plaatsing door dezelfde digitale workflow. Zo blijft Poortland zichtbaar in Google en AI-assistenten (SEO en GEO) en verliest het geen enkele aanvraag meer.",
         status: 'live',
         href: 'https://www.poortland.be',
         company:
