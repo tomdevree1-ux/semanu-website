@@ -5,7 +5,7 @@ date: "2026-08-24"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/software-built-with-ai-cover.svg"
+cover: "/blog/software-built-with-ai-cover.jpg"
 ---
 
 Ein Angebotsformular, ein Kundenportal, ein Planungstool: Mit KI-Codetools steht so etwas in Tagen statt Monaten. Das ist echter Fortschritt. Wir raten niemandem zur Umkehr. Doch wir schauen beruflich unter die Haube solcher Anwendungen und dabei entsteht immer dasselbe Bild. Die Software tut, was die Demo verspricht. Die Probleme stecken in allem, was die Demo nicht zeigt.

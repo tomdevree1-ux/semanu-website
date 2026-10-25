@@ -5,7 +5,7 @@ date: "2026-06-11"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/erp-integration-mistakes-cover.svg"
+cover: "/blog/erp-integration-mistakes-cover.jpg"
 ---
 
 Una integración ERP rara vez es un proyecto puramente técnico. El software suele funcionar. Lo que falla está casi siempre en la preparación: procesos que nadie ha documentado, integraciones que aparecen demasiado tarde, datos que se migran sucios. La mayoría de los errores no son por tanto accidentes. Son patrones previsibles. A continuación, los cinco que vemos con más frecuencia, cada uno con una forma de evitarlo.

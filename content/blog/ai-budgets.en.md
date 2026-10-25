@@ -5,7 +5,7 @@ date: "2026-07-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-budgets-cover.svg"
+cover: "/blog/ai-budgets-cover.jpg"
 ---
 
 With traditional business software, the budget is fairly straightforward. You pay for licences, implementation, training and perhaps annual maintenance. Once everything runs, the costs stay within a range that anyone can explain to the board. Artificial intelligence is different. An AI project that starts as a limited pilot can turn out more expensive than expected when usage grows, when data proves to be missing or when staff need to review results more often than assumed. That does not make AI budgets unmanageable. It does mean you need to build and track them differently than you are used to with your ERP or CRM.

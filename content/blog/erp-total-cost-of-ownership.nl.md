@@ -5,7 +5,7 @@ date: "2026-05-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/erp-total-cost-of-ownership-cover.svg"
+cover: "/blog/erp-total-cost-of-ownership-cover.jpg"
 ---
 
 De offerte van je ERP-leverancier vermeldt licenties of abonnementen en een basisimplementatie. Wat erin staat is gemiddeld **één vijfde** van wat het project je over vijf jaar werkelijk kost. De overige 80% zit in zes tot acht andere posten die zelden expliciet in de offerte staan. Niet omdat de leverancier je wil misleiden. Zonder jouw context kan hij ze gewoon niet inschatten. Het is dus een gedeelde verantwoordelijkheid en je begint een ERP-project best goed voorbereid.

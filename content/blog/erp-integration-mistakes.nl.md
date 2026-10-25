@@ -5,7 +5,7 @@ date: "2026-06-11"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/erp-integration-mistakes-cover.svg"
+cover: "/blog/erp-integration-mistakes-cover.jpg"
 ---
 
 Een ERP-integratie is zelden een puur technisch project. De software werkt meestal wel. Wat misloopt, zit bijna altijd in de voorbereiding: processen die niemand in kaart bracht, koppelingen die te laat opduiken, data die vervuild migreert. De meeste fouten zijn dus geen ongelukken. Het zijn voorspelbare patronen. Hieronder de vijf die we het vaakst zien, telkens met de manier om ze te voorkomen.

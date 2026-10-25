@@ -5,7 +5,7 @@ date: "2026-08-24"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/software-built-with-ai-cover.svg"
+cover: "/blog/software-built-with-ai-cover.jpg"
 ---
 
 A quote form, a client portal, a planning tool: with AI coding tools it is up and running in days instead of months. That is real progress. We advise nobody to go back. Still, we look under the hood of these applications for a living and the same picture comes out every time. The software does what the demo promises. The problems sit in everything the demo does not show.

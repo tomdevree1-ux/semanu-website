@@ -5,7 +5,7 @@ date: "2026-08-24"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/software-built-with-ai-cover.svg"
+cover: "/blog/software-built-with-ai-cover.jpg"
 ---
 
 Un formulaire de devis, un portail client, un outil de planning : avec les outils de code IA, c'est opérationnel en quelques jours au lieu de plusieurs mois. C'est un vrai progrès. Nous ne conseillons à personne de revenir en arrière. Pourtant, nous regardons sous le capot de ces applications par métier et le même tableau ressort à chaque fois. Le logiciel fait ce que la démo promet. Les problèmes se trouvent dans tout ce que la démo ne montre pas.

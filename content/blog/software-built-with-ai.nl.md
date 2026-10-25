@@ -5,7 +5,7 @@ date: "2026-08-24"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/software-built-with-ai-cover.svg"
+cover: "/blog/software-built-with-ai-cover.jpg"
 ---
 
 Een offerteformulier, een klantenportaal, een planningstool: met AI-codetools staat het er in dagen in plaats van maanden. Dat is echte winst. We raden niemand aan om terug te gaan. Maar wij kijken beroepshalve onder de motorkap van dit soort applicaties en daar komt telkens hetzelfde beeld uit. De software doet wat de demo belooft. De problemen zitten in alles wat de demo niet toont.

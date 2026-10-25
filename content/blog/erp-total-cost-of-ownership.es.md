@@ -5,7 +5,7 @@ date: "2026-05-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/erp-total-cost-of-ownership-cover.svg"
+cover: "/blog/erp-total-cost-of-ownership-cover.jpg"
 ---
 
 El presupuesto de su proveedor de ERP incluye licencias o suscripciones y una implantación básica. Lo que cubre es, de media, **una quinta parte** de lo que el proyecto le costará realmente en cinco años. El 80% restante se reparte entre seis y ocho partidas que rara vez aparecen de forma explícita en el presupuesto. No es que el proveedor quiera engañarle. Sin conocer su contexto, sencillamente no puede estimarlas. Es una responsabilidad compartida. Por eso conviene empezar cualquier proyecto de ERP bien preparado.

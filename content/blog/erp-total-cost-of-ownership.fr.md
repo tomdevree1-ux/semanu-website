@@ -5,7 +5,7 @@ date: "2026-05-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/erp-total-cost-of-ownership-cover.svg"
+cover: "/blog/erp-total-cost-of-ownership-cover.jpg"
 ---
 
 Le devis de votre fournisseur ERP mentionne des licences ou abonnements ainsi qu'une implémentation de base. Ce qu'il couvre représente en moyenne **un cinquième** de ce que le projet vous coûtera réellement sur cinq ans. Les 80% restants se répartissent sur six à huit autres postes qui figurent rarement de façon explicite dans le devis. Non pas parce que le fournisseur veut vous induire en erreur. Sans votre contexte, il ne peut tout simplement pas les estimer. C'est donc une responsabilité partagée. Mieux vaut aborder un projet ERP bien préparé.

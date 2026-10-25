@@ -5,7 +5,7 @@ date: "2026-08-11"
 updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/getting-found-by-ai-cover.svg"
+cover: "/blog/getting-found-by-ai-cover.jpg"
 ---
 
 Your customers search differently than they did two years ago. Instead of comparing ten blue links, more and more people ask a question to ChatGPT, to Perplexity or to Google's AI overview. [Gartner predicts](https://www.gartner.com/en/newsroom/press-releases/2024-02-19-gartner-predicts-search-engine-volume-will-drop-25-percent-by-2026-due-to-ai-chatbots-and-other-virtual-agents) that search engine volume will fall by a quarter by 2026. What comes back is not a list but a finished answer. And that answer often contains just one name.

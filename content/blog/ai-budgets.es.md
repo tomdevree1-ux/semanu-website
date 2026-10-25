@@ -5,7 +5,7 @@ date: "2026-07-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-budgets-cover.svg"
+cover: "/blog/ai-budgets-cover.jpg"
 ---
 
 Con el software empresarial clásico, el presupuesto es bastante sencillo. Usted paga licencias, implantación, formación y quizá un mantenimiento anual. Cuando todo funciona, los costes se mantienen dentro de un margen que cualquiera puede explicar a la dirección. Con la inteligencia artificial las cosas son distintas. Un proyecto de IA que empieza como piloto limitado puede salir más caro de lo previsto cuando aumenta el uso, cuando faltan datos o cuando el personal tiene que revisar resultados más a menudo de lo que se pensaba. Eso no hace que los presupuestos de IA sean ingobernables. Sí significa que hay que construirlos y seguirlos de otra manera que con su ERP o su CRM.

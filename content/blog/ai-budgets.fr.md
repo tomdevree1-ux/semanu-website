@@ -5,7 +5,7 @@ date: "2026-07-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-budgets-cover.svg"
+cover: "/blog/ai-budgets-cover.jpg"
 ---
 
 Avec les logiciels d'entreprise classiques, le budget est assez simple à construire. Vous payez les licences, l'implémentation, la formation et parfois la maintenance annuelle. Une fois que tout tourne, les coûts restent dans une fourchette que chacun peut expliquer à la direction. Avec l'intelligence artificielle, c'est autre chose. Un projet IA qui démarre comme pilote limité peut coûter plus cher que prévu lorsque l'usage augmente, lorsqu'il manque des données ou lorsque les collaborateurs doivent contrôler plus souvent qu'on ne le pensait. Cela ne rend pas les budgets IA ingérables. Cela signifie en revanche que vous devez les construire et les suivre autrement que pour votre ERP ou votre CRM.

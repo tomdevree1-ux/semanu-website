@@ -5,7 +5,7 @@ date: "2026-06-11"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/erp-integration-mistakes-cover.svg"
+cover: "/blog/erp-integration-mistakes-cover.jpg"
 ---
 
 Eine ERP-Integration ist selten ein rein technisches Projekt. Die Software funktioniert meist. Was schiefläuft, liegt fast immer in der Vorbereitung: Prozesse, die niemand erfasst hat, Schnittstellen, die zu spät auftauchen, Daten, die verschmutzt migriert werden. Die meisten Fehler sind also keine Unfälle. Es sind vorhersehbare Muster. Im Folgenden die fünf, die wir am häufigsten sehen, jeweils mit einem Weg, sie zu vermeiden.

@@ -5,7 +5,7 @@ date: "2026-07-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-budgets-cover.svg"
+cover: "/blog/ai-budgets-cover.jpg"
 ---
 
 Bei klassischer Unternehmenssoftware ist das Budget recht einfach aufgebaut. Sie zahlen für Lizenzen, Implementierung, Schulung und vielleicht jährliche Wartung. Sobald alles läuft, bleiben die Kosten in einer Bandbreite, die jeder der Geschäftsführung erklären kann. Bei künstlicher Intelligenz sieht das anders aus. Ein KI-Projekt, das als begrenzter Pilot startet, kann unerwartet teurer werden. Das passiert, wenn die Nutzung steigt, wenn Daten fehlen oder wenn Mitarbeitende mehr kontrollieren müssen als gedacht. Das macht KI-Budgets nicht unbeherrschbar. Es bedeutet jedoch, dass Sie sie anders aufbauen und verfolgen müssen, als Sie es von Ihrem ERP oder CRM gewohnt sind.

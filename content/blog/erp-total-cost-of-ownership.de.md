@@ -5,7 +5,7 @@ date: "2026-05-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/erp-total-cost-of-ownership-cover.svg"
+cover: "/blog/erp-total-cost-of-ownership-cover.jpg"
 ---
 
 Das Angebot Ihres ERP-Anbieters nennt Lizenzen oder Abonnements und eine Basisimplementierung. Was darin steht, ist im Durchschnitt **ein Fünftel** dessen, was Sie das Projekt über fünf Jahre tatsächlich kostet. Die übrigen 80% verteilen sich auf sechs bis acht weitere Posten, die selten ausdrücklich im Angebot stehen. Nicht weil der Anbieter Sie täuschen will. Ohne Ihren Kontext kann er sie schlicht nicht schätzen. Es ist also eine geteilte Verantwortung. Ein ERP-Projekt gehen Sie deshalb besser gut vorbereitet an.

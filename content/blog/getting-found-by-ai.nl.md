@@ -5,7 +5,7 @@ date: "2026-08-11"
 updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/getting-found-by-ai-cover.svg"
+cover: "/blog/getting-found-by-ai-cover.jpg"
 ---
 
 Je klanten zoeken anders dan twee jaar geleden. In plaats van tien blauwe links te vergelijken, stellen steeds meer mensen een vraag aan ChatGPT, aan Perplexity of aan het AI-overzicht van Google. [Gartner voorspelt](https://www.gartner.com/en/newsroom/press-releases/2024-02-19-gartner-predicts-search-engine-volume-will-drop-25-percent-by-2026-due-to-ai-chatbots-and-other-virtual-agents) dat het zoekmachine volume tegen 2026 met een kwart daalt. Wat terugkomt is geen lijst maar een kant en klaar antwoord. En in dat antwoord staat vaak maar één naam.

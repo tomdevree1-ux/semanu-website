@@ -5,7 +5,7 @@ date: "2026-08-24"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/software-built-with-ai-cover.svg"
+cover: "/blog/software-built-with-ai-cover.jpg"
 ---
 
 Un formulario de presupuestos, un portal de clientes, una herramienta de planificación: con las herramientas de código con IA está en marcha en días en lugar de meses. Es un avance real. No aconsejamos a nadie volver atrás. Sin embargo, nuestro trabajo consiste en mirar bajo el capó de este tipo de aplicaciones y siempre aparece la misma imagen. El software hace lo que promete la demo. Los problemas están en todo lo que la demo no muestra.

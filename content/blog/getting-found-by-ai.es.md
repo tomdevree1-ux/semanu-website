@@ -5,7 +5,7 @@ date: "2026-08-11"
 updated: "2026-10-16"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/getting-found-by-ai-cover.svg"
+cover: "/blog/getting-found-by-ai-cover.jpg"
 ---
 
 Sus clientes buscan de otra manera que hace dos años. En lugar de comparar diez enlaces azules, cada vez más personas hacen una pregunta a ChatGPT, a Perplexity o al resumen de IA de Google. [Gartner prevé](https://www.gartner.com/en/newsroom/press-releases/2024-02-19-gartner-predicts-search-engine-volume-will-drop-25-percent-by-2026-due-to-ai-chatbots-and-other-virtual-agents) que el volumen de los buscadores caerá una cuarta parte para 2026. Lo que reciben no es una lista sino una respuesta ya hecha. Y esa respuesta a menudo contiene un solo nombre.

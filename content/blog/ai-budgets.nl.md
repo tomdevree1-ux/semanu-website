@@ -5,7 +5,7 @@ date: "2026-07-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/ai-budgets-cover.svg"
+cover: "/blog/ai-budgets-cover.jpg"
 ---
 
 Bij klassieke bedrijfssoftware zit het budget vrij eenvoudig in elkaar. Je betaalt voor licenties, implementatie, opleiding en misschien jaarlijks onderhoud. Zodra alles draait, blijven de kosten binnen een vork die iedereen aan het bestuur kan uitleggen. Bij artificiële intelligentie ligt dat anders. Een AI-project dat als beperkte proef start, kan onverwacht duurder uitvallen wanneer het gebruik toeneemt, wanneer er data blijkt te ontbreken of wanneer medewerkers meer moeten controleren dan vooraf gedacht. Dat maakt AI-budgetten niet onbeheersbaar. Het betekent wel dat je ze anders moet opbouwen en opvolgen dan je gewend bent van je ERP of CRM.

@@ -5,7 +5,7 @@ date: "2026-05-17"
 updated: "2026-10-23"
 author: "Tom"
 authorImage: "/team/tom.png"
-cover: "/blog/erp-total-cost-of-ownership-cover.svg"
+cover: "/blog/erp-total-cost-of-ownership-cover.jpg"
 ---
 
 Your ERP vendor's quote lists licences or subscriptions and a basic implementation. What it covers is on average **one fifth** of what the project really costs you over five years. The other 80% sits in six to eight further cost lines that rarely appear explicitly in the quote. Not because the vendor wants to mislead you. Without your context they simply cannot estimate them. It is a shared responsibility, so you are better off starting any ERP project well prepared.
