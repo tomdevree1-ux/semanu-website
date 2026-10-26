@@ -61,14 +61,16 @@ export default async function KontaktPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <section className="bg-band-tint py-24 text-ink">
-        <div className="container-site grid gap-12 lg:grid-cols-2">
-          <div>
+      {/* Form left (read first, left to right), heading and contact details right.
+          Compact vertical rhythm so the whole form fits one desktop screen. */}
+      <section className="bg-band-tint py-10 text-ink lg:py-12">
+        <div className="container-site grid items-start gap-10 lg:grid-cols-12 lg:gap-14">
+          <div className="lg:order-2 lg:col-span-5 lg:pt-6">
             <span className="eyebrow text-navy">{t('eyebrow')}</span>
             <h1 className="h2 mt-4 text-ink">{t('h2')}</h1>
             <p className="lead mt-4 text-ink-soft">{t('intro')}</p>
 
-            <dl className="mt-10 space-y-5">
+            <dl className="mt-8 space-y-4">
               <div>
                 <dt className="font-mono text-xs uppercase tracking-widest text-navy">
                   {t('emailLabel')}
@@ -104,10 +106,8 @@ export default async function KontaktPage({
             </dl>
           </div>
 
-          <div>
-            <h2 className="mb-4 font-mono text-xs uppercase tracking-widest text-navy">
-              {t('formTitle')}
-            </h2>
+          <div className="lg:order-1 lg:col-span-7">
+            <h2 className="sr-only">{t('formTitle')}</h2>
             <ContactForm />
           </div>
         </div>
