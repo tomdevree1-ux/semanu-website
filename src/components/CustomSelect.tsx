@@ -64,7 +64,7 @@ export function CustomSelect({
         aria-expanded={open}
         aria-controls={listId}
         onClick={() => setOpen((o) => !o)}
-        className="flex w-full items-center justify-between rounded-lg border border-[var(--line)] bg-paper px-3.5 py-2.5 text-left text-sm transition-colors focus:border-red focus:outline-none"
+        className="flex w-full items-center justify-between rounded-2xl border border-transparent bg-[#EEF1F6] px-5 py-4 text-left text-[17px] text-ink transition focus:border-navy/40 focus:bg-white focus:outline-none focus:ring-4 focus:ring-navy/10"
       >
         <span>{selected?.label}</span>
         <svg
@@ -73,7 +73,7 @@ export function CustomSelect({
           fill="none"
           stroke="currentColor"
           strokeWidth={2}
-          className={`h-4 w-4 text-ink-soft transition-transform ${open ? 'rotate-180' : ''}`}
+          className={`h-5 w-5 text-ink-soft transition-transform ${open ? 'rotate-180' : ''}`}
         >
           <path d="M6 8l4 4 4-4" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
@@ -83,7 +83,7 @@ export function CustomSelect({
         <ul
           id={listId}
           role="listbox"
-          className="absolute z-30 mt-1 w-full overflow-hidden rounded-lg border border-[var(--line)] bg-white shadow-[var(--shadow-pop)]"
+          className="absolute z-30 mt-2 w-full overflow-hidden rounded-2xl border border-[var(--line)] bg-white shadow-[var(--shadow-pop)]"
         >
           {options.map((o) => {
             const active = o.value === value;
@@ -94,7 +94,7 @@ export function CustomSelect({
                 aria-selected={active}
                 onClick={() => choose(o.value)}
                 className={[
-                  'cursor-pointer px-3.5 py-2.5 text-sm transition-colors',
+                  'cursor-pointer px-5 py-3 text-[16px] transition-colors',
                   active ? 'bg-paper font-semibold text-red' : 'text-ink hover:bg-paper',
                 ].join(' ')}
               >

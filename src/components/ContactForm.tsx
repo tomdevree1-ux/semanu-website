@@ -146,7 +146,7 @@ export function ContactForm() {
 
   if (status === 'success') {
     return (
-      <div className="rounded-lg bg-white p-8 text-ink">
+      <div className="rounded-[28px] bg-white p-8 text-ink sm:p-10">
         <h3 className="h3 text-ok">{tc('okTitle')}</h3>
         <p className="mt-2 text-ink-soft">{tc('okText')}</p>
       </div>
@@ -159,9 +159,9 @@ export function ContactForm() {
       onSubmit={onSubmit}
       onFocusCapture={markStarted}
       onChangeCapture={markStarted}
-      className="rounded-lg bg-white p-6 text-ink sm:p-8"
+      className="rounded-[28px] bg-white p-6 text-ink shadow-[0_30px_80px_-50px_rgba(16,35,61,0.35)] sm:p-10"
     >
-      <div className="grid gap-4 sm:grid-cols-2">
+      <div className="grid gap-x-5 gap-y-6 sm:grid-cols-2">
         <Field label={t('firstname')} name="firstname" required error={errors.firstname} />
         <Field label={t('lastname')} name="lastname" required error={errors.lastname} />
         <Field label={t('company')} name="company" required error={errors.company} />
@@ -175,34 +175,34 @@ export function ContactForm() {
           error={errors.email}
         />
         <div className="sm:col-span-2">
-          <span className="mb-1.5 block text-sm font-semibold">{t('interest')}</span>
-          <div key={preselect.join(',')} className="grid gap-2.5 sm:grid-cols-2">
+          <span className="mb-2 block text-[15px] font-semibold text-navy">{t('interest')}</span>
+          <div key={preselect.join(',')} className="flex flex-wrap gap-2.5">
             {interestOptions.map((o) => (
-              <label
-                key={o.value}
-                className="flex cursor-pointer items-center gap-2.5 text-sm text-ink-soft"
-              >
+              // Interest options as toggle chips: a visually hidden checkbox drives the pill.
+              <label key={o.value} className="cursor-pointer">
                 <input
                   type="checkbox"
                   name="interests"
                   value={o.value}
                   defaultChecked={preselect.includes(o.value)}
-                  className="h-4 w-4 shrink-0 cursor-pointer accent-red"
+                  className="peer sr-only"
                 />
-                <span>{o.label}</span>
+                <span className="inline-flex items-center rounded-full border border-[var(--line)] bg-[#EEF1F6] px-5 py-3 text-[15px] text-ink transition-colors hover:border-navy/30 peer-checked:border-navy peer-checked:bg-navy peer-checked:text-white peer-focus-visible:ring-4 peer-focus-visible:ring-navy/15">
+                  {o.label}
+                </span>
               </label>
             ))}
           </div>
         </div>
         <div className="sm:col-span-2">
-          <label htmlFor="message" className="mb-1.5 block text-sm font-semibold">
+          <label htmlFor="message" className="mb-2 block text-[15px] font-semibold text-navy">
             {t('message')} <span className="text-red">*</span>
           </label>
           <textarea
             key={prefillMessage ? 'prefilled' : 'empty'}
             id="message"
             name="message"
-            rows={prefillMessage ? 8 : 4}
+            rows={prefillMessage ? 8 : 5}
             defaultValue={prefillMessage}
             placeholder={t('messagePlaceholder')}
             className={fieldClass(!!errors.message)}
@@ -210,7 +210,7 @@ export function ContactForm() {
           {errors.message && <FieldError msg={errors.message} />}
         </div>
         <div className="sm:col-span-2">
-          <label htmlFor="lang" className="mb-1.5 block text-sm font-semibold">
+          <label htmlFor="lang" className="mb-2 block text-[15px] font-semibold text-navy">
             {t('lang')}
           </label>
           <CustomSelect
@@ -235,7 +235,7 @@ export function ContactForm() {
         </label>
       </div>
 
-      <label className="mt-4 flex items-start gap-3 text-sm text-ink-soft">
+      <label className="mt-6 flex items-start gap-3 text-sm text-ink-soft">
         <span className="relative mt-0.5 inline-flex h-5 w-5 shrink-0">
           <input
             type="checkbox"
@@ -273,7 +273,7 @@ export function ContactForm() {
       <button
         type="submit"
         disabled={status === 'submitting'}
-        className="btn btn-onink mt-6 w-full justify-center disabled:opacity-60"
+        className="btn btn-onink mt-8 min-h-[60px] w-full justify-center text-[17px] disabled:opacity-60"
       >
         {status === 'submitting' ? t('sending') : t('send')}
       </button>
@@ -288,9 +288,9 @@ function toContactLang(v: string): (typeof CONTACT_LANGS)[number] {
 
 function fieldClass(hasError: boolean) {
   return [
-    'w-full rounded-lg border bg-paper px-3.5 py-2.5 text-sm outline-none transition-colors',
-    'focus:border-red',
-    hasError ? 'border-red' : 'border-[var(--line)]',
+    'w-full rounded-2xl border bg-[#EEF1F6] px-5 py-4 text-[17px] text-ink outline-none transition',
+    'placeholder:text-ink-soft/70 focus:bg-white focus:ring-4 focus:ring-navy/10',
+    hasError ? 'border-red' : 'border-transparent focus:border-navy/40',
   ].join(' ');
 }
 
@@ -315,7 +315,7 @@ function Field({
 }) {
   return (
     <div className={className}>
-      <label htmlFor={name} className="mb-1.5 block text-sm font-semibold">
+      <label htmlFor={name} className="mb-2 block text-[15px] font-semibold text-navy">
         {label} {required && <span className="text-red">*</span>}
       </label>
       <input id={name} name={name} type={type} className={fieldClass(!!error)} />
