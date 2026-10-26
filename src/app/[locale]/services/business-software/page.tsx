@@ -155,7 +155,7 @@ export default async function AiNativePage({
             <div className="relative order-1 min-h-[260px] lg:order-2 lg:min-h-[460px]">
               <Image
                 src="/ai-native-intro.jpg"
-                alt=""
+                alt={AI.introImageAlt}
                 fill
                 sizes="(min-width:1024px) 50vw, 100vw"
                 className="object-cover"

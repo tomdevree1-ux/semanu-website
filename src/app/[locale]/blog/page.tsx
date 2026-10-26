@@ -120,7 +120,7 @@ export default async function BlogIndexPage({
                     // eslint-disable-next-line @next/next/no-img-element
                     <img
                       src={featured.cover}
-                      alt=""
+                      alt={featured.title}
                       className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                     />
                   ) : null}
@@ -152,7 +152,7 @@ export default async function BlogIndexPage({
                         // eslint-disable-next-line @next/next/no-img-element
                         <img
                           src={post.cover}
-                          alt=""
+                          alt={post.title}
                           loading="lazy"
                           className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                         />

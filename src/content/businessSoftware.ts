@@ -19,6 +19,8 @@ export type BusinessSoftwareCopy = {
   heroCta: string;
   heroImageAlt: string;
   introTitle: string;
+  /** Alt text for the intro illustration (modules linked by an AI layer). */
+  introImageAlt: string;
   introText: string;
   diffTitle: string;
   diffCards: Numbered[];
@@ -53,6 +55,7 @@ export const BUSINESS_SOFTWARE: Record<ServicesLocale, BusinessSoftwareCopy> = {
     heroCta: 'Bespreek uw softwareproject',
     heroImageAlt: 'Voorbeeld van bedrijfssoftware op maat: dashboard voor urenregistratie',
     introTitle: 'Wat is modulaire bedrijfssoftware?',
+    introImageAlt: 'Softwaremodules die via een AI-laag met elkaar verbonden zijn',
     introText:
       'Modulaire bedrijfssoftware is software die rond uw processen wordt gebouwd, niet andersom. Wij ontwikkelen slimme modules op maat voor alle bedrijfsprocessen.\n\nStarten kan al vanaf één module en u breidt uit wanneer uw onderneming daar klaar voor is. Een intelligente AI-laag verbindt de modules, coördineert processen en automatiseert terugkerend werk.',
     diffTitle: 'Wat ons anders maakt.',
@@ -99,6 +102,7 @@ export const BUSINESS_SOFTWARE: Record<ServicesLocale, BusinessSoftwareCopy> = {
     heroCta: 'Discuss your software project',
     heroImageAlt: 'Example of custom business software: a time tracking dashboard',
     introTitle: 'What is modular business software?',
+    introImageAlt: 'Software modules connected to each other by an AI layer',
     introText:
       'Modular business software is built around your processes, not the other way round. We develop smart custom modules for every business process.\n\nYou can start with a single module and expand when your business is ready. An intelligent AI layer connects the modules, coordinates processes and automates recurring work.',
     diffTitle: 'What makes us different.',
@@ -145,6 +149,7 @@ export const BUSINESS_SOFTWARE: Record<ServicesLocale, BusinessSoftwareCopy> = {
     heroCta: 'Ihr Softwareprojekt besprechen',
     heroImageAlt: 'Beispiel für Unternehmenssoftware nach Maß: Dashboard zur Zeiterfassung',
     introTitle: 'Was ist modulare Unternehmenssoftware?',
+    introImageAlt: 'Softwaremodule, die über eine AI-Schicht miteinander verbunden sind',
     introText:
       'Modulare Unternehmenssoftware wird um Ihre Prozesse herum gebaut, nicht umgekehrt. Wir entwickeln intelligente Module nach Maß für alle Geschäftsprozesse.\n\nSie können mit einem einzigen Modul starten und erweitern, sobald Ihr Unternehmen bereit ist. Eine intelligente AI-Schicht verbindet die Module, koordiniert Prozesse und automatisiert wiederkehrende Arbeit.',
     diffTitle: 'Was uns unterscheidet.',
@@ -191,6 +196,7 @@ export const BUSINESS_SOFTWARE: Record<ServicesLocale, BusinessSoftwareCopy> = {
     heroCta: 'Parler de votre projet logiciel',
     heroImageAlt: 'Exemple de logiciel d’entreprise sur mesure : tableau de bord de suivi du temps',
     introTitle: 'Qu’est-ce qu’un logiciel d’entreprise modulaire ?',
+    introImageAlt: 'Des modules logiciels reliés entre eux par une couche d’AI',
     introText:
       'Un logiciel d’entreprise modulaire est construit autour de vos processus. Pas l’inverse. Nous développons des modules intelligents sur mesure pour tous vos processus métier.\n\nVous pouvez démarrer avec un seul module puis étendre quand votre entreprise est prête. Une couche d’AI intelligente relie les modules, coordonne les processus et automatise le travail répétitif.',
     diffTitle: 'Ce qui nous distingue.',
@@ -237,6 +243,7 @@ export const BUSINESS_SOFTWARE: Record<ServicesLocale, BusinessSoftwareCopy> = {
     heroCta: 'Hable de su proyecto de software',
     heroImageAlt: 'Ejemplo de software empresarial a medida: panel de registro de horas',
     introTitle: '¿Qué es el software empresarial modular?',
+    introImageAlt: 'Módulos de software conectados entre sí mediante una capa de AI',
     introText:
       'El software empresarial modular se construye en torno a sus procesos. No al revés. Desarrollamos módulos inteligentes a medida para todos los procesos de negocio.\n\nPuede empezar con un solo módulo y ampliar cuando su empresa esté preparada. Una capa inteligente de AI conecta los módulos, coordina los procesos y automatiza el trabajo repetitivo.',
     diffTitle: 'Lo que nos diferencia.',
