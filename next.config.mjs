@@ -77,6 +77,12 @@ const nextConfig = {
           },
         ],
       },
+      // Email signature photos: public (mail clients load them), never indexed.
+      // Not blocked in robots.txt on purpose, so crawlers can read this header.
+      {
+        source: '/email/:path*',
+        headers: [{ key: 'X-Robots-Tag', value: 'noindex, noimageindex' }],
+      },
     ];
   },
   async redirects() {
