@@ -36,6 +36,10 @@ export type BusinessSoftwareCopy = {
   confTitle: string;
   confText: string;
   confCta: string;
+  /** IT to OT block: office systems connected to the shop floor. */
+  otTitle: string;
+  otText: string;
+  otCards: { label: string; title: string; text: string }[];
   finalTitle: string;
   finalText: string;
   finalCta: string;
@@ -84,6 +88,14 @@ export const BUSINESS_SOFTWARE: Record<ServicesLocale, BusinessSoftwareCopy> = {
     confText:
       'Onze 3D-configuratoren kunnen het vertrekpunt vormen van een geïntegreerd bedrijfsproces. Van productconfiguratie en offerte tot werkvoorbereiding, productie en levering. Met aanvullende modules groeit de configurator uit tot een centrale schakel binnen uw onderneming.',
     confCta: 'Ontdek onze 3D-configuratoren',
+    otTitle: "Van kantoor tot werkvloer.\nIT en OT verbonden.",
+    otText:
+      "In veel kmo’s stopt de software aan de deur van de werkplaats. Offerte, order en planning zitten in de IT-systemen. De machines en operators op de werkvloer (OT) werken los daarvan, met papier, USB-sticks en overtypen ertussen.\n\nWij slaan die brug. Een goedgekeurde order wordt automatisch een productieopdracht met de juiste bestanden voor uw CNC-machine, zaag of printer. Omgekeerd komt de status van de werkvloer terug naar kantoor: wat in productie is, wat klaar is en waar het stilvalt.",
+    otCards: [
+      { label: "IT → OT", title: "Van order naar machine", text: "Productiebestanden, tekeningen en stuklijsten gaan rechtstreeks naar de werkvloer, zonder overtypen en altijd in de juiste versie." },
+      { label: "OT → IT", title: "Van machine naar planning", text: "Status en voortgang komen vanzelf terug. Zo kloppen planning en klantcommunicatie met wat er echt gebeurt." },
+      { label: "Koppelingen", title: "Uw machines blijven", text: "We koppelen via wat uw machines ondersteunen, zoals OPC UA, MQTT, bestandsuitwisseling of de software van de leverancier." },
+    ],
     finalTitle: 'Bespreek uw softwareproject.',
     finalText:
       'Vertel ons welke processen u wilt digitaliseren. Wij bekijken hoe maatwerksoftware en AI uw onderneming kunnen versterken.',
@@ -131,6 +143,14 @@ export const BUSINESS_SOFTWARE: Record<ServicesLocale, BusinessSoftwareCopy> = {
     confText:
       'Our 3D configurators can be the starting point of an integrated business process. From product configuration and quote to work preparation, production and delivery. With additional modules the configurator becomes a central link in your business.',
     confCta: 'Explore our 3D configurators',
+    otTitle: "From office to shop floor.\nIT and OT connected.",
+    otText:
+      "In many SMEs the software stops at the workshop door. Quotes, orders and planning live in the IT systems. The machines and operators on the shop floor (OT) work separately, with paper, USB sticks and retyping in between.\n\nWe bridge that gap. An approved order automatically becomes a production order with the right files for your CNC machine, saw or printer. In return the status of the shop floor flows back to the office: what is in production, what is finished and where work has stopped.",
+    otCards: [
+      { label: "IT → OT", title: "From order to machine", text: "Production files, drawings and parts lists go straight to the shop floor without retyping and always in the right version." },
+      { label: "OT → IT", title: "From machine to planning", text: "Status and progress come back automatically. Planning and customer updates then match what really happens." },
+      { label: "Integrations", title: "Your machines stay", text: "We connect through what your machines support, such as OPC UA, MQTT, file exchange or the vendor’s own software." },
+    ],
     finalTitle: 'Discuss your software project.',
     finalText:
       'Tell us which processes you want to digitalise. We will look at how custom software and AI can strengthen your business.',
@@ -178,6 +198,14 @@ export const BUSINESS_SOFTWARE: Record<ServicesLocale, BusinessSoftwareCopy> = {
     confText:
       'Unsere 3D-Konfiguratoren können der Ausgangspunkt eines integrierten Geschäftsprozesses sein. Von Produktkonfiguration und Angebot bis Arbeitsvorbereitung, Produktion und Lieferung. Mit zusätzlichen Modulen wird der Konfigurator zu einem zentralen Glied in Ihrem Unternehmen.',
     confCta: 'Unsere 3D-Konfiguratoren entdecken',
+    otTitle: "Vom Büro bis in die Fertigung.\nIT und OT verbunden.",
+    otText:
+      "In vielen KMU endet die Software an der Tür zur Werkstatt. Angebot, Auftrag und Planung liegen in den IT-Systemen. Maschinen und Bediener in der Fertigung (OT) arbeiten getrennt davon, mit Papier, USB-Sticks und Abtippen dazwischen.\n\nWir schlagen die Brücke. Ein freigegebener Auftrag wird automatisch zum Fertigungsauftrag mit den richtigen Dateien für Ihre CNC-Maschine, Säge oder Ihren Drucker. Umgekehrt fließt der Status der Fertigung zurück ins Büro: was in Produktion ist, was fertig ist und wo es stockt.",
+    otCards: [
+      { label: "IT → OT", title: "Vom Auftrag zur Maschine", text: "Fertigungsdateien, Zeichnungen und Stücklisten gehen direkt in die Fertigung, ohne Abtippen und immer in der richtigen Version." },
+      { label: "OT → IT", title: "Von der Maschine zur Planung", text: "Status und Fortschritt kommen automatisch zurück. So stimmen Planung und Kundeninformation mit dem überein, was wirklich passiert." },
+      { label: "Anbindungen", title: "Ihre Maschinen bleiben", text: "Wir binden an, was Ihre Maschinen unterstützen, etwa OPC UA, MQTT, Dateiaustausch oder die Software des Herstellers." },
+    ],
     finalTitle: 'Besprechen Sie Ihr Softwareprojekt.',
     finalText:
       'Sagen Sie uns, welche Prozesse Sie digitalisieren möchten. Wir prüfen, wie Software nach Maß und AI Ihr Unternehmen stärken können.',
@@ -225,6 +253,14 @@ export const BUSINESS_SOFTWARE: Record<ServicesLocale, BusinessSoftwareCopy> = {
     confText:
       'Nos configurateurs 3D peuvent être le point de départ d’un processus métier intégré. De la configuration du produit et du devis à la préparation du travail, la production et la livraison. Avec des modules complémentaires, le configurateur devient un maillon central de votre entreprise.',
     confCta: 'Découvrir nos configurateurs 3D',
+    otTitle: "Du bureau à l’atelier.\nIT et OT connectés.",
+    otText:
+      "Dans beaucoup de PME, le logiciel s’arrête à la porte de l’atelier. Devis, commande et planning sont dans les systèmes IT. Les machines et les opérateurs de l’atelier (OT) travaillent à part, avec du papier, des clés USB et de la ressaisie entre les deux.\n\nNous faisons le lien. Une commande validée devient automatiquement un ordre de fabrication avec les bons fichiers pour votre machine CNC, votre scie ou votre imprimante. En retour, l’état de l’atelier remonte au bureau : ce qui est en production, ce qui est terminé et où cela bloque.",
+    otCards: [
+      { label: "IT → OT", title: "De la commande à la machine", text: "Fichiers de production, plans et nomenclatures arrivent directement à l’atelier, sans ressaisie et toujours dans la bonne version." },
+      { label: "OT → IT", title: "De la machine au planning", text: "L’état et l’avancement reviennent automatiquement. Le planning et l’information client correspondent ainsi à la réalité." },
+      { label: "Connexions", title: "Vos machines restent", text: "Nous nous connectons via ce que vos machines prennent en charge, comme OPC UA, MQTT, l’échange de fichiers ou le logiciel du fabricant." },
+    ],
     finalTitle: 'Parlons de votre projet logiciel.',
     finalText:
       'Dites-nous quels processus vous voulez digitaliser. Nous examinons comment un logiciel sur mesure et l’AI peuvent renforcer votre entreprise.',
@@ -272,6 +308,14 @@ export const BUSINESS_SOFTWARE: Record<ServicesLocale, BusinessSoftwareCopy> = {
     confText:
       'Nuestros configuradores 3D pueden ser el punto de partida de un proceso empresarial integrado. De la configuración del producto y el presupuesto a la preparación del trabajo, la producción y la entrega. Con módulos adicionales, el configurador se convierte en un eslabón central de su empresa.',
     confCta: 'Descubra nuestros configuradores 3D',
+    otTitle: "De la oficina al taller.\nIT y OT conectados.",
+    otText:
+      "En muchas pymes el software se detiene en la puerta del taller. Presupuesto, pedido y planificación están en los sistemas IT. Las máquinas y los operarios del taller (OT) trabajan por separado, con papel, memorias USB y datos que se vuelven a teclear.\n\nNosotros tendemos ese puente. Un pedido aprobado se convierte automáticamente en una orden de fabricación con los archivos correctos para su máquina CNC, su sierra o su impresora. A la inversa, el estado del taller vuelve a la oficina: qué está en producción, qué está terminado y dónde se ha detenido.",
+    otCards: [
+      { label: "IT → OT", title: "Del pedido a la máquina", text: "Archivos de producción, planos y listas de materiales llegan directamente al taller, sin volver a teclear y siempre en la versión correcta." },
+      { label: "OT → IT", title: "De la máquina a la planificación", text: "El estado y el avance vuelven solos. Así la planificación y la información al cliente coinciden con lo que de verdad ocurre." },
+      { label: "Integraciones", title: "Sus máquinas se quedan", text: "Nos conectamos a través de lo que admiten sus máquinas, como OPC UA, MQTT, intercambio de archivos o el software del fabricante." },
+    ],
     finalTitle: 'Hablemos de su proyecto de software.',
     finalText:
       'Cuéntenos qué procesos quiere digitalizar. Estudiaremos cómo el software a medida y la AI pueden reforzar su empresa.',

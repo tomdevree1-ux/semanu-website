@@ -282,6 +282,32 @@ export default async function AiNativePage({
         </div>
       </section>
 
+      {/* ── IT TO OT (office systems connected to the shop floor) ── */}
+      <section className="bg-paper py-[clamp(72px,11vw,150px)] text-ink">
+        <div className="container-site">
+          <div className="max-w-[60ch]">
+            <h2 className="whitespace-pre-line font-display font-semibold tracking-[-0.03em] text-navy text-[clamp(30px,3.6vw,54px)]">
+              {AI.otTitle}
+            </h2>
+            {AI.otText.split('\n\n').map((para) => (
+              <p key={para.slice(0, 24)} className="mt-6 text-[clamp(17px,1.3vw,20px)] leading-[1.65] text-ink-soft">
+                <BrandText>{para}</BrandText>
+              </p>
+            ))}
+          </div>
+          <div className="mt-[clamp(40px,5vw,72px)] grid gap-6 lg:grid-cols-3">
+            {AI.otCards.map((c) => (
+              <div key={c.title} className="rounded-[24px] border border-[var(--line)] bg-white p-[clamp(24px,2.4vw,36px)]">
+                <span className="font-mono text-[13px] tracking-[0.1em] text-mint-deep">{c.label}</span>
+                <h3 className="mt-4 font-display text-[clamp(20px,1.7vw,26px)] font-semibold leading-tight tracking-[-0.02em] text-navy">
+                  {c.title}
+                </h3>
+                <p className="mt-3 text-[clamp(15px,1.15vw,17px)] leading-relaxed text-ink-soft">{c.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* ── FAQ ──────────────────────────────────────────────── */}
       <section className="bg-paper py-[clamp(72px,11vw,150px)] text-ink">
