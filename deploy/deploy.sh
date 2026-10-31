@@ -47,6 +47,7 @@ rollback() {
     prev=\$(ls -1 | sort | grep -B1 -x \"\$cur\" | head -1)
     [ -n \"\$prev\" ] && [ \"\$prev\" != \"\$cur\" ] || { echo 'No previous release'; exit 1; }
     ln -sfn $BASE/releases/\$prev $BASE/current
+    systemctl enable --quiet $SERVICE
     systemctl restart $SERVICE
     echo \"Rolled back to \$prev\""
 }
@@ -110,6 +111,8 @@ deploy() {
     install -d -o semanu-web -g semanu-web $BASE/cache
     rm -rf \"\$REL/.next/cache\" && ln -sfn $BASE/cache \"\$REL/.next/cache\"
     ln -sfn \"\$REL\" $BASE/current
+    # enable: the service must come back by itself after the nightly security reboot (03:30).
+    systemctl enable --quiet $SERVICE
     systemctl restart $SERVICE
     for i in \$(seq 1 30); do
       code=\$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:$PORT/nl || true)
