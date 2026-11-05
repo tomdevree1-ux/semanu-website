@@ -24,7 +24,7 @@ const csp = [
   `font-src 'self' data: https://fonts.gstatic.com`,
   `style-src 'self' 'unsafe-inline' https://fonts.googleapis.com`,
   `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ''} https://cdnjs.cloudflare.com https://www.googletagmanager.com https://www.google-analytics.com https://challenges.cloudflare.com https://cal.com https://*.cal.com`,
-  `connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://challenges.cloudflare.com https://cal.com https://*.cal.com${isDev ? ' ws:' : ''}`,
+  `connect-src 'self' https://bjpcgqejprkdqqohhere.supabase.co https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://challenges.cloudflare.com https://cal.com https://*.cal.com${isDev ? ' ws:' : ''}`,
   `frame-src 'self' https://challenges.cloudflare.com https://cal.com https://*.cal.com https://www.semanu.be https://semanu.be`,
   `form-action 'self'`,
   `upgrade-insecure-requests`,

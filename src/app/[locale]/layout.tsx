@@ -6,6 +6,7 @@ import { Instrument_Sans, Archivo } from 'next/font/google';
 import { OG_LOCALE, routing, type Locale } from '@/i18n/routing';
 import { CookieBanner } from '@/components/CookieBanner';
 import { Analytics } from '@/components/Analytics';
+import { VisitBeacon } from '@/components/VisitBeacon';
 import { JsonLd } from '@/components/JsonLd';
 import { WhatsAppButton } from '@/components/WhatsAppButton';
 import { CONTACT_EMAIL, PHONE_E164 } from '@/lib/contact';
@@ -197,6 +198,7 @@ export default async function LocaleLayout({
           <WhatsAppButton />
           <CookieBanner />
           <Analytics />
+          <VisitBeacon />
         </NextIntlClientProvider>
       </body>
     </html>
