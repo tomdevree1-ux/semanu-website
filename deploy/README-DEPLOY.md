@@ -163,7 +163,7 @@ het geheim komt nooit op het scherm, in de shellgeschiedenis of in een procesarg
 ```bash
 read -rs ACC_SECRET  < <(openssl rand -hex 32)
 read -rs LIVE_SECRET < <(openssl rand -hex 32)
-cd ~/Desktop/SEMANU/Website
+cd ~/SEMANU/semanu-ops
 (umask 077; printf 'SEMANU_EU_FORWARD_SECRET=%s\n' "$ACC_SECRET" > /tmp/fw-acc.env; printf 'SEMANU_EU_FORWARD_SECRET=%s\n' "$LIVE_SECRET" > /tmp/fw-live.env)
 supabase secrets set --env-file /tmp/fw-acc.env  --project-ref kiiyvctcfvfrivpjsfjo
 supabase secrets set --env-file /tmp/fw-live.env --project-ref bjpcgqejprkdqqohhere

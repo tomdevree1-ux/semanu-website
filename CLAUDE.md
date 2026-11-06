@@ -16,7 +16,7 @@ eigen database. Het contactformulier gaat server side naar de bestaande SEMANU-b
 
 - **Merk:** woordmerk `semanu` in kleine letters (Instrument Sans 600) met de chevron; juridisch
   `SEMANU BV`. Componenten: `Brand`, `BrandText` (zet "semanu" in lopende tekst om naar het
-  woordmerk, niet in "semanu.eu"), `BrandLogo`, `BrandBullet`. Logobron: `~/Desktop/SEMANU/Huisstijl/Logo`.
+  woordmerk, niet in "semanu.eu"), `BrandLogo`, `BrandBullet`. Logobron: gedeelde drive SEMANU (Google Drive), Huisstijl/Logo.
 - **Bedrijf:** SEMANU BV, Kattendijkdok-Oostkaai 9, 2000 Antwerpen, België. Ondernemingsnummer
   0828.291.116, btw BE0828.291.116. Zaakvoerder Tom de Vree. hello@semanu.eu, +32 496 04 56 06
   (één bron: `src/lib/contact.ts`).
@@ -101,8 +101,8 @@ ook 429 en het formulier toont `errRateLimit`. Node luistert op localhost (zie `
 kaart in "Nieuw") en mailt hello@. Dienstkeuze → topic: 3D → `configurator`, bedrijfssoftware →
 `custom`, workflow → `ai`, rest (bv. alleen "nog niet zeker") → consultancy (enkel nog als backendwaarde op
 het bord; het formulier biedt consultancy niet meer aan). Telefoon en herkomst (pagina, taal, referrer) gaan
-als staartregel mee in het bericht. De bron van de function staat in de Website-repo
-(`~/Desktop/SEMANU/Website/supabase/functions/submit-contact`); **die repo niet vanuit hier wijzigen.**
+als staartregel mee in het bericht. De bron van de function staat in de repo semanu-ops
+(`~/SEMANU/semanu-ops/supabase/functions/submit-contact`); **die repo niet vanuit hier wijzigen.**
 
 ## Hosting en deploy
 
