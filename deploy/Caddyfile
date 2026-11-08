@@ -42,9 +42,27 @@
 	}
 }
 
+# Plate configurator (semanu-configurators, metal sheet engine) under a language slug:
+# /plaatconfigurator/ (nl), /sheetconfigurator/ (en), ... The list must match
+# deploy/cfg-base.js in the configurator repo. Caddy strips the slug, so the Node
+# backend keeps its root routes. Always noindex. Usage: import metalsheet <port>
+(metalsheet) {
+	@cfgbare path_regexp ^/(plaatconfigurator|sheetconfigurator|plattenkonfigurator|configurateurplaques|configuradorplacas|configuratorelastre|configuradorchapas|konfiguratorplyt|konfiguratordesek|konfiguratordosiek|konfiguratorplosc|konfiguratorploca|lemezkonfigurator|configuratorplaci|konfiguratorplochi|diamorfotisplakon|pladekonfigurator|skivkonfigurator|levykonfiguraattori|plaadikonfiguraator|plaksnukonfigurators|ploksciukonfiguratorius|cumraitheoirleatha|konfiguraturpjanci|platekonfigurator|plotustillir|levhakonfiguratoru)$
+	redir @cfgbare {path}/ 308
+	@cfg path_regexp ^/(plaatconfigurator|sheetconfigurator|plattenkonfigurator|configurateurplaques|configuradorplacas|configuratorelastre|configuradorchapas|konfiguratorplyt|konfiguratordesek|konfiguratordosiek|konfiguratorplosc|konfiguratorploca|lemezkonfigurator|configuratorplaci|konfiguratorplochi|diamorfotisplakon|pladekonfigurator|skivkonfigurator|levykonfiguraattori|plaadikonfiguraator|plaksnukonfigurators|ploksciukonfiguratorius|cumraitheoirleatha|konfiguraturpjanci|platekonfigurator|plotustillir|levhakonfiguratoru)/
+	handle @cfg {
+		header X-Robots-Tag "noindex, nofollow"
+		uri path_regexp ^/(plaatconfigurator|sheetconfigurator|plattenkonfigurator|configurateurplaques|configuradorplacas|configuratorelastre|configuradorchapas|konfiguratorplyt|konfiguratordesek|konfiguratordosiek|konfiguratorplosc|konfiguratorploca|lemezkonfigurator|configuratorplaci|konfiguratorplochi|diamorfotisplakon|pladekonfigurator|skivkonfigurator|levykonfiguraattori|plaadikonfiguraator|plaksnukonfigurators|ploksciukonfiguratorius|cumraitheoirleatha|konfiguraturpjanci|platekonfigurator|plotustillir|levhakonfiguratoru)/ /
+		reverse_proxy 127.0.0.1:{args[0]} {
+			header_up X-Real-IP {remote_host}
+		}
+	}
+}
+
 # Live: canonical host.
 www.semanu.eu {
 	import common semanu-eu-live
+	import metalsheet 3100
 	import node 3000
 }
 
@@ -58,5 +76,6 @@ acc.semanu.eu {
 	import common semanu-eu-acc
 	header X-Robots-Tag "noindex, nofollow"
 	# No password on staging (decision Tom, October 2026); noindex stays.
+	import metalsheet 3101
 	import node 3001
 }
