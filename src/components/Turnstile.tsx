@@ -36,7 +36,8 @@ declare global {
  * (instead of the Cloudflare badge), which disappears once a token arrives or on
  * error. Renders nothing when no site key is configured, and a render failure
  * (e.g. a misconfigured sitekey) fails safe and never crashes the host page — the
- * server side `verifyTurnstile` is fail-safe in that case.
+ * server side `verifyTurnstile` rejects the form on production in that case
+ * (fail closed) and lets it through on acc.
  */
 export function Turnstile({ onToken }: { onToken: (token: string) => void }) {
   const ref = useRef<HTMLDivElement>(null);
