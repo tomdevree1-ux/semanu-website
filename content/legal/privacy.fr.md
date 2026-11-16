@@ -1,68 +1,84 @@
 ---
 title: "Politique de confidentialité"
-updated: "2026-10-16"
+updated: "2026-11-16"
 ---
 
-Cette politique explique comment semanu traite les données personnelles lorsque vous utilisez notre site ou nous contactez. Le Règlement général sur la protection des données (RGPD) et la législation belge en matière de protection des données s’appliquent.
+Cette politique explique comment SEMANU traite les données personnelles sur semanu.eu, semanu.be, dans le portail client et dans nos contacts professionnels. Elle suit le Règlement général sur la protection des données (RGPD) et la législation belge sur la vie privée.
 
-## 1. Responsable
+## 1. Responsable du traitement
 
-SEMANU BV (semanu), Kattendijkdok-Oostkaai 9, 2000 Antwerpen, Belgique. Numéro d’entreprise 0828.291.116. E-mail : hello@semanu.eu. Téléphone : +32 496 04 56 06.
+SEMANU BV, Kattendijkdok-Oostkaai 9, 2000 Anvers, Belgique. Numéro d'entreprise et de TVA : BE0828.291.116. E-mail : [hello@semanu.eu](mailto:hello@semanu.eu). Téléphone : +32 496 04 56 06. SEMANU n'est pas tenue de désigner un délégué à la protection des données. Notre adresse générale est le point de contact pour la vie privée.
 
-## 2. Quelles données nous traitons
+## 2. En bref
 
-**Données des formulaires.** Via le formulaire de contact, nous collectons votre nom, votre e-mail, votre entreprise (optionnel), votre téléphone (optionnel), votre message, le service qui vous intéresse, votre langue, la page depuis laquelle vous avez envoyé le formulaire, la source de campagne (par exemple un clic sur une annonce Google) ainsi que votre consentement. Ces données sont transmises au système de gestion de la clientèle (CRM) propre à semanu afin que nous puissions donner suite à votre demande.
+Nous ne traitons que les données nécessaires aux finalités ci-dessous. Nous ne vendons pas de données personnelles, ne les partageons pas avec des tiers pour leur propre marketing et n'utilisons ni décision automatisée ni profilage.
 
-**Données collectées automatiquement.** Journaux serveur et de sécurité (adresse IP, navigateur, horodatage, pages consultées) chez notre hébergeur, pour la diffusion, la stabilité et la prévention des abus.
+## 3. Ce que nous traitons, pourquoi et sur quelle base
 
-**Protection contre le spam.** Un champ honeypot et Cloudflare Turnstile protègent nos formulaires contre le spam et les abus automatisés. Turnstile vérifie des signaux techniques de votre navigateur (par exemple l’adresse IP et les caractéristiques du navigateur) pour distinguer les personnes des robots.
+**3.1 Contact, Readiness Check et rendez-vous.** Via nos formulaires, nous recevons votre nom, votre adresse e-mail, votre entreprise et votre téléphone (facultatif), votre message ou vos réponses, le service qui vous intéresse, votre langue, la page et la source de campagne ainsi que votre consentement. Si vous réservez un rendez-vous, notre service de planification nous transmet votre nom et votre adresse e-mail. Nous les utilisons pour répondre à votre question, planifier un entretien ou vous remettre un rapport. Base : mesures précontractuelles (art. 6.1.b) ou votre consentement (art. 6.1.a).
 
-**Cookies et analyse.** Un cookie enregistre votre consentement. Google Analytics 4 utilise le Google Consent Mode : sans votre consentement, aucun cookie d’analyse n’est déposé et seuls des signaux anonymes et agrégés sont traités sans cookies. Ce n’est qu’après votre consentement via la bannière de cookies que des cookies d’analyse sont déposés et que des données de mesure complètes sont collectées. Avec le même consentement, nous activons Google Ads pour la mesure des conversions. Sans votre consentement, aucun cookie publicitaire n’est déposé.
+**3.2 Clients, offres, factures et portail client.** Pour nos clients, nous traitons les données de l'entreprise et des contacts ainsi que le contenu des offres, factures, contrats et documents de projet. Si vous payez en ligne, Stripe traite le paiement. Nous recevons uniquement le statut du paiement et aucune donnée de carte. Base : exécution du contrat (art. 6.1.b) et obligation comptable légale (art. 6.1.c). Lors de la connexion au portail et d'une signature électronique, nous enregistrons l'adresse IP, les données du navigateur et l'heure, pour la sécurité et comme preuve de signature. Base : intérêt légitime (art. 6.1.f).
 
-## 3. Finalités et bases légales
+**3.3 Gestion des relations (CRM).** Nous tenons un CRM interne des prospects, clients et partenaires : nom, fonction, entreprise, adresse e-mail et téléphone professionnels, profil LinkedIn si disponible et un historique de nos contacts. Sources : vous-même, des sources publiques d'entreprise et des contacts antérieurs (événements, recommandations, réseau). Base : intérêt légitime à développer et entretenir des relations professionnelles (art. 6.1.f).
 
-- Répondre aux demandes, assurer leur suivi dans notre CRM et étapes précontractuelles : contrat ou mesure précontractuelle (RGPD art. 6 par. 1 let. b).
-- Fournir, gérer et facturer nos services : contrat (art. 6 par. 1 let. b).
-- Sécurité, lutte contre le spam et bon fonctionnement : intérêt légitime (art. 6 par. 1 let. f).
-- Analyse avec Google Analytics 4 : consentement (art. 6 par. 1 let. a).
-- Mesure des conversions avec Google Ads : consentement (art. 6 par. 1 let. a).
-- Comptabilité et conservation légale : obligation légale (art. 6 par. 1 let. c).
+**3.4 Prospection commerciale.** Il nous arrive de contacter nous-mêmes des entreprises pour lesquelles nos configurateurs 3D ou nos logiciels peuvent être utiles.
 
-## 4. Sous-traitants et tiers
+- **Données :** uniquement des coordonnées professionnelles (nom, fonction, entreprise, adresse e-mail professionnelle), jamais de données privées.
+- **Source :** d'abord le site web de l'entreprise elle-même. S'il ne mentionne pas de personne de contact adéquate, des bases de données de contacts professionnels comme Hunter.io ou RocketReach. Pour chaque contact, nous notons la source.
+- **Sélection :** si une entreprise mentionne sur son propre site des personnes de contact avec leur adresse e-mail professionnelle, nous n'écrivons qu'aux personnes dont la fonction correspond à notre proposition (p. ex. direction, ventes, marketing). Si aucune personne de contact n'est mentionnée, nous cherchons via une base de données de contacts professionnels (Hunter.io ou RocketReach) une personne dans une telle fonction ou nous utilisons l'adresse générale de l'entreprise, comme info@. Nous n'écrivons jamais à plus de trois personnes par entreprise.
+- **Finalité et base :** une proposition commerciale et au maximum un message de relance, sur la base de l'intérêt légitime (art. 6.1.f). Nous avons vérifié au préalable que cet intérêt ne l'emporte pas sur celui du destinataire et nous tenons compte des règles de marketing par e-mail du pays du destinataire.
+- **Information :** chaque message indique qui nous sommes, où nous avons trouvé l'adresse, un lien vers cette politique et comment se désinscrire.
+- **Opposition et désinscription :** une seule réponse suffit. Nous supprimons vos données dans les cinq jours ouvrables et ajoutons votre adresse à notre liste d'opposition afin que vous ne soyez plus contacté.
 
-Nous travaillons avec des prestataires sélectionnés avec soin. Lorsque c’est possible, nous choisissons une région au sein de l’Union européenne et avons conclu un accord de sous-traitance.
+**3.5 Site web, sécurité et spam.** Nos hébergeurs conservent des journaux serveur et de sécurité (adresse IP, navigateur, heure, pages consultées). Un honeypot et Cloudflare Turnstile protègent nos formulaires contre les abus. Base : intérêt légitime (art. 6.1.f).
 
-- **Hetzner Online GmbH** (Allemagne) : hébergement du site sur des serveurs dans l’UE (Falkenstein, Nuremberg ou Helsinki).
-- **Supabase** : base de données de notre système de gestion de la clientèle, dans laquelle sont enregistrées les demandes du formulaire de contact (région UE).
-- **Cloudflare Turnstile** : protection contre le spam pour nos formulaires.
-- **Google Analytics 4** : analyse du site, uniquement avec consentement.
-- **Google Ads** : mesure des conversions et publicité, uniquement avec consentement.
+**3.6 Cookies et statistiques.** Un cookie enregistre votre choix et le localStorage retient votre langue. Cela ne nécessite pas de consentement. Ce n'est qu'avec votre consentement que nous plaçons des cookies pour Google Analytics 4 (statistiques), Google Ads (mesure des conversions) et le LinkedIn Insight Tag. Sans consentement, Google ne reçoit que des signaux agrégés sans cookies (Consent Mode). Vous pouvez modifier votre choix à tout moment via le lien en bas du site. Base : consentement (art. 6.1.a).
 
-Nous ne vendons pas de données personnelles.
+**3.7 Configurateurs sur les sites de clients.** Pour les configurateurs que nous développons et hébergeons pour des clients, nous traitons les demandes de leurs visiteurs pour le compte de ce client. Le client est alors responsable du traitement et SEMANU sous-traitant. La politique de confidentialité du client s'applique.
 
-## 5. Transferts internationaux
+## 4. Sous-traitants
 
-Google Analytics et Google Ads peuvent transférer des données à Google et Cloudflare Turnstile à Cloudflare, y compris aux États-Unis. Ces transferts sont encadrés par des garanties appropriées (clauses contractuelles types et, le cas échéant, le cadre EU-US Data Privacy Framework).
+Nous travaillons avec des prestataires choisis avec soin, si possible dans l'UE et avec un contrat de sous-traitance :
 
-## 6. Conservation
+- **Hetzner Online (Allemagne) :** hébergement de semanu.eu et des configurateurs de clients (UE)
+- **Combell (Belgique) :** hébergement de semanu.be, du portail client et des démos (UE)
+- **Cloudflare :** sécurité et mise en cache de semanu.be, Turnstile contre le spam
+- **Supabase :** base de données, CRM, portail client et stockage de documents (région UE)
+- **Resend :** envoi d'e-mails depuis nos systèmes
+- **Stripe :** paiements en ligne et liens de paiement, nous ne conservons aucune donnée de carte
+- **Onfact :** facturation
+- **Calendly :** prise de rendez-vous
+- **UptimeRobot :** surveillance de la disponibilité de nos sites
+- **Microsoft 365 et Google Workspace :** messagerie professionnelle
+- **Google (Analytics, Ads) et LinkedIn :** statistiques et mesure publicitaire, uniquement avec consentement
+- **Hunter.io et RocketReach :** coordonnées professionnelles pour la prospection (voir 3.4)
 
-- Demandes : en général jusqu’à 24 mois après le dernier contact, sauf si un contrat suit.
-- Contrats et pièces comptables : durée légale (en Belgique 10 ans pour les pièces comptables).
-- Journaux serveur et de sécurité : environ 90 jours.
-- Données d’analyse : selon le réglage de Google Analytics 4 (environ 14 mois).
+## 5. Transferts hors de l'UE
+
+Certains prestataires (p. ex. Google, Cloudflare, Stripe, UptimeRobot, LinkedIn, RocketReach) peuvent traiter des données en dehors de l'Espace économique européen, y compris aux États-Unis. Cela se fait sur la base des clauses contractuelles types de la Commission européenne et, le cas échéant, du EU-US Data Privacy Framework.
+
+## 6. Durées de conservation
+
+- **Demandes via les formulaires et le Readiness Check :** 12 mois après le dernier contact, sauf si une relation client s'ensuit
+- **Données de prospection sans réponse :** 12 mois après le dernier message
+- **Liste d'opposition :** uniquement l'adresse e-mail, aussi longtemps que nécessaire pour ne plus vous contacter
+- **Données CRM :** tant que la relation est active, au maximum 36 mois après le dernier contact significatif
+- **Offres, factures et documents de projet :** le délai comptable légal (10 ans)
+- **Contrats signés et journal de signature :** durée de la collaboration plus 5 ans
+- **Journaux d'accès au portail client :** 24 mois
+- **Journaux serveur et de sécurité :** environ 90 jours
+- **Google Analytics :** 14 mois
 
 ## 7. Vos droits
 
-Vous avez le droit d’accès, de rectification, d’effacement, de limitation, d’opposition et de portabilité, ainsi que le droit de retirer votre consentement à tout moment. Pour cela, écrivez à hello@semanu.eu. Vous pouvez aussi déposer une réclamation auprès d’une autorité de contrôle, en Belgique l’Autorité de protection des données (Gegevensbeschermingsautoriteit), rue de la Presse 35, 1000 Bruxelles.
+Vous avez le droit d'accès, de rectification, d'effacement, de limitation et de portabilité de vos données et vous pouvez retirer votre consentement à tout moment. Vous pouvez aussi toujours vous **opposer** à un traitement fondé sur l'intérêt légitime. Pour le marketing direct et la prospection, nous arrêtons alors immédiatement et sans condition. Écrivez à [hello@semanu.eu](mailto:hello@semanu.eu). Nous répondons dans un délai d'un mois. Vous pouvez introduire une plainte auprès de l'Autorité de protection des données, Rue de la Presse 35, 1000 Bruxelles ([autoriteprotectiondonnees.be](https://www.autoriteprotectiondonnees.be)) ou auprès de l'autorité de contrôle de votre pays.
 
-## 8. Cookies
+## 8. Sécurité
 
-Nous utilisons des éléments nécessaires (enregistrement de votre consentement, sécurité) qui ne requièrent pas de consentement, ainsi que des cookies d’analyse (Google Analytics 4) et des cookies publicitaires (Google Ads) placés uniquement avec votre consentement. Via la bannière, vous pouvez tout accepter ou ne garder que le nécessaire et modifier votre choix à tout moment.
+Nous protégeons les données grâce au HTTPS, à un hébergement dans l'UE avec pare-feu, à un contrôle d'accès avec authentification à deux facteurs et à des mises à jour de sécurité régulières. Nous tenons un registre de nos activités de traitement, comme l'exige le RGPD.
 
-## 9. Sécurité
+## 9. Modifications
 
-Nous protégeons les données personnelles avec TLS (HTTPS), un hébergement sécurisé sur des serveurs dans l’UE, des contrôles d’accès et des mises à jour de sécurité régulières.
+Nous adaptons cette politique lorsque notre façon de travailler change. La date en haut indique la dernière version.
 
-## 10. Modifications
-
-Nous pouvons adapter cette politique. La version en vigueur figure toujours sur cette page avec la date de dernière mise à jour.
+*Dernière mise à jour : 16 novembre 2026. Historique des modifications : 16 novembre 2026 politiques de semanu.eu et semanu.be fusionnées, section prospection commerciale (3.4) ajoutée, droit d'opposition précisé. 16 octobre 2026 (semanu.eu) et août 2026 (semanu.be) : versions précédentes.*

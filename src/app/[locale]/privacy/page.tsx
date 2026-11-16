@@ -9,6 +9,8 @@ const UPDATED_LABEL: Record<string, string> = {
   de: 'Zuletzt aktualisiert',
   fr: 'Dernière mise à jour',
   en: 'Last updated',
+  nl: 'Laatst bijgewerkt',
+  es: 'Última actualización',
 };
 
 // One-line factual meta description per locale (house copy rules: no dashes, no
