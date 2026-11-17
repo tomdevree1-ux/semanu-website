@@ -24,8 +24,8 @@ We verwerken enkel de gegevens die we nodig hebben voor het doel hieronder. We v
 **3.4 Zakelijke prospectie.** We nemen soms zelf contact op met bedrijven waarvoor onze 3D configurators of software relevant kunnen zijn.
 
 - **Gegevens:** enkel zakelijke contactgegevens (naam, functie, bedrijf, zakelijk e-mailadres), nooit privégegevens.
-- **Bron:** in eerste instantie de website van het bedrijf zelf. Staat daar geen geschikte contactpersoon, dan zakelijke contactdatabanken zoals Hunter.io of RocketReach. Per contact noteren we de bron.
-- **Selectie:** vermeldt een bedrijf op zijn eigen website contactpersonen met hun zakelijk e-mailadres, dan schrijven we daarvan enkel personen aan in een functie die bij ons voorstel past (bv. directie, verkoop, marketing). Staan er geen contactpersonen vermeld, dan zoeken we via een zakelijke contactdatabank (Hunter.io of RocketReach) een persoon in zo'n functie of gebruiken we het algemene adres van het bedrijf, zoals info@. We schrijven nooit meer dan drie personen per bedrijf aan.
+- **Bron:** standaard het algemene bedrijfsadres dat openbaar staat (info@, sales@, contact@ en gelijkaardig). Publiceert een bedrijf op zijn eigen website een direct adres van een medewerker met een rol die bij ons voorstel past, dan kunnen we die persoon eenmalig aanschrijven. We gebruiken geen zakelijke contactdatabanken. Per contact noteren we de bron.
+- **Selectie:** we schrijven enkel personen aan in een functie die bij ons voorstel past (bv. directie, verkoop, marketing) en nooit meer dan drie personen per bedrijf.
 - **Doel en grond:** een zakelijk voorstel en hoogstens één opvolgbericht, op basis van gerechtvaardigd belang (art. 6.1.f). We hebben vooraf afgewogen dat dit belang niet zwaarder weegt dan dat van de ontvanger en houden rekening met de regels voor e-mailmarketing van het land van de ontvanger.
 - **Informatie:** elk bericht vermeldt wie we zijn, waar we het adres vonden, een link naar deze verklaring en hoe u zich afmeldt.
 - **Bezwaar en afmelden:** één antwoord volstaat. We verwijderen uw gegevens binnen vijf werkdagen en zetten uw adres op onze afmeldlijst, zodat u niet opnieuw benaderd wordt.
@@ -51,11 +51,10 @@ We werken met zorgvuldig gekozen dienstverleners, waar mogelijk in de EU en met 
 - **UptimeRobot:** bewaking van de beschikbaarheid van onze sites
 - **Microsoft 365 en Google Workspace:** zakelijke e-mail
 - **Google (Analytics, Ads) en LinkedIn:** statistiek en advertentiemeting, enkel met toestemming
-- **Hunter.io en RocketReach:** zakelijke contactgegevens voor prospectie (zie 3.4)
 
 ## 5. Doorgifte buiten de EU
 
-Sommige dienstverleners (bv. Google, Cloudflare, Stripe, UptimeRobot, LinkedIn, RocketReach) kunnen gegevens verwerken buiten de Europese Economische Ruimte, ook in de VS. Dat gebeurt onder de standaardcontractbepalingen van de Europese Commissie en, waar van toepassing, het EU-US Data Privacy Framework.
+Sommige dienstverleners (bv. Google, Cloudflare, Stripe, UptimeRobot, LinkedIn) kunnen gegevens verwerken buiten de Europese Economische Ruimte, ook in de VS. Dat gebeurt onder de standaardcontractbepalingen van de Europese Commissie en, waar van toepassing, het EU-US Data Privacy Framework.
 
 ## 6. Bewaartermijnen
 

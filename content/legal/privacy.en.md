@@ -24,8 +24,8 @@ We only process the data we need for the purposes below. We do not sell personal
 **3.4 Business prospecting.** We sometimes contact companies for which our 3D configurators or software may be relevant.
 
 - **Data:** business contact details only (name, role, company, business email address), never private data.
-- **Source:** first the company's own website. If it lists no suitable contact person, business contact databases such as Hunter.io or RocketReach. We record the source for each contact.
-- **Selection:** if a company lists contact persons with their business email address on its own website, we only write to those in a role that fits our proposal (e.g. management, sales, marketing). If no contact persons are listed, we use a business contact database (Hunter.io or RocketReach) to find a person in such a role or we use the company's general address, such as info@. We never write to more than three people per company.
+- **Source:** by default the company's general public address (info@, sales@, contact@ and similar). If a company publishes a direct address of a staff member in a role that fits our proposal on its own website, we may contact that person once. We do not use business contact databases. We record the source for each contact.
+- **Selection:** we only write to people in a role that fits our proposal (e.g. management, sales, marketing) and never to more than three people per company.
 - **Purpose and legal basis:** a business proposal and at most one follow up, based on legitimate interest (Art. 6.1.f). We have assessed beforehand that this interest does not override that of the recipient and we take into account the email marketing rules of the recipient's country.
 - **Information:** every message states who we are, where we found the address, a link to this policy and how to unsubscribe.
 - **Objection and unsubscribing:** one reply is enough. We delete your data within five working days and put your address on our suppression list so that you are not contacted again.
@@ -51,11 +51,10 @@ We work with carefully selected service providers, in the EU where possible and 
 - **UptimeRobot:** monitoring the availability of our sites
 - **Microsoft 365 and Google Workspace:** business email
 - **Google (Analytics, Ads) and LinkedIn:** analytics and ad measurement, only with consent
-- **Hunter.io and RocketReach:** business contact details for prospecting (see 3.4)
 
 ## 5. Transfers outside the EU
 
-Some providers (e.g. Google, Cloudflare, Stripe, UptimeRobot, LinkedIn, RocketReach) may process data outside the European Economic Area, including in the US. This takes place under the Standard Contractual Clauses of the European Commission and, where applicable, the EU-US Data Privacy Framework.
+Some providers (e.g. Google, Cloudflare, Stripe, UptimeRobot, LinkedIn) may process data outside the European Economic Area, including in the US. This takes place under the Standard Contractual Clauses of the European Commission and, where applicable, the EU-US Data Privacy Framework.
 
 ## 6. Retention periods
 

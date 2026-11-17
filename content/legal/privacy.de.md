@@ -24,8 +24,8 @@ Wir verarbeiten nur die Daten, die wir für die unten genannten Zwecke benötige
 **3.4 Geschäftliche Akquise.** Wir nehmen manchmal selbst Kontakt mit Unternehmen auf, für die unsere 3D Konfiguratoren oder Software relevant sein können.
 
 - **Daten:** nur geschäftliche Kontaktdaten (Name, Funktion, Unternehmen, geschäftliche E-Mail-Adresse), niemals private Daten.
-- **Quelle:** zunächst die Website des Unternehmens selbst. Nennt sie keine geeignete Kontaktperson, nutzen wir geschäftliche Kontaktdatenbanken wie Hunter.io oder RocketReach. Für jeden Kontakt halten wir die Quelle fest.
-- **Auswahl:** nennt ein Unternehmen auf seiner eigenen Website Kontaktpersonen mit ihrer geschäftlichen E-Mail-Adresse, schreiben wir davon nur Personen in einer Funktion an, die zu unserem Angebot passt (z. B. Geschäftsführung, Vertrieb, Marketing). Sind keine Kontaktpersonen genannt, suchen wir über eine geschäftliche Kontaktdatenbank (Hunter.io oder RocketReach) eine Person in einer solchen Funktion oder nutzen die allgemeine Adresse des Unternehmens, etwa info@. Wir schreiben nie mehr als drei Personen pro Unternehmen an.
+- **Quelle:** standardmäßig die allgemeine öffentliche Adresse des Unternehmens (info@, sales@, contact@ und ähnlich). Veröffentlicht ein Unternehmen auf seiner eigenen Website eine direkte Adresse einer Person in einer Funktion, die zu unserem Angebot passt, können wir diese Person einmalig anschreiben. Wir nutzen keine geschäftlichen Kontaktdatenbanken. Für jeden Kontakt halten wir die Quelle fest.
+- **Auswahl:** wir schreiben nur Personen in einer Funktion an, die zu unserem Angebot passt (z. B. Geschäftsführung, Vertrieb, Marketing) und nie mehr als drei Personen pro Unternehmen.
 - **Zweck und Grundlage:** ein geschäftliches Angebot und höchstens eine Nachfassnachricht, auf Grundlage des berechtigten Interesses (Art. 6 Abs. 1 lit. f). Wir haben vorab abgewogen, dass dieses Interesse nicht schwerer wiegt als das des Empfängers und berücksichtigen die Regeln für E-Mail-Marketing im Land des Empfängers.
 - **Information:** jede Nachricht nennt, wer wir sind, wo wir die Adresse gefunden haben, einen Link zu dieser Erklärung und wie Sie sich abmelden.
 - **Widerspruch und Abmeldung:** eine Antwort genügt. Wir löschen Ihre Daten innerhalb von fünf Werktagen und setzen Ihre Adresse auf unsere Sperrliste, damit Sie nicht erneut kontaktiert werden.
@@ -51,11 +51,10 @@ Wir arbeiten mit sorgfältig ausgewählten Dienstleistern, wo möglich in der EU
 - **UptimeRobot:** Überwachung der Verfügbarkeit unserer Websites
 - **Microsoft 365 und Google Workspace:** geschäftliche E-Mail
 - **Google (Analytics, Ads) und LinkedIn:** Statistik und Werbemessung, nur mit Einwilligung
-- **Hunter.io und RocketReach:** geschäftliche Kontaktdaten für die Akquise (siehe 3.4)
 
 ## 5. Übermittlung außerhalb der EU
 
-Einige Dienstleister (z. B. Google, Cloudflare, Stripe, UptimeRobot, LinkedIn, RocketReach) können Daten außerhalb des Europäischen Wirtschaftsraums verarbeiten, auch in den USA. Dies erfolgt auf Grundlage der Standardvertragsklauseln der Europäischen Kommission und, soweit anwendbar, des EU-US Data Privacy Framework.
+Einige Dienstleister (z. B. Google, Cloudflare, Stripe, UptimeRobot, LinkedIn) können Daten außerhalb des Europäischen Wirtschaftsraums verarbeiten, auch in den USA. Dies erfolgt auf Grundlage der Standardvertragsklauseln der Europäischen Kommission und, soweit anwendbar, des EU-US Data Privacy Framework.
 
 ## 6. Speicherfristen
 

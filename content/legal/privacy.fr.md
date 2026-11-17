@@ -24,8 +24,8 @@ Nous ne traitons que les données nécessaires aux finalités ci-dessous. Nous n
 **3.4 Prospection commerciale.** Il nous arrive de contacter nous-mêmes des entreprises pour lesquelles nos configurateurs 3D ou nos logiciels peuvent être utiles.
 
 - **Données :** uniquement des coordonnées professionnelles (nom, fonction, entreprise, adresse e-mail professionnelle), jamais de données privées.
-- **Source :** d'abord le site web de l'entreprise elle-même. S'il ne mentionne pas de personne de contact adéquate, des bases de données de contacts professionnels comme Hunter.io ou RocketReach. Pour chaque contact, nous notons la source.
-- **Sélection :** si une entreprise mentionne sur son propre site des personnes de contact avec leur adresse e-mail professionnelle, nous n'écrivons qu'aux personnes dont la fonction correspond à notre proposition (p. ex. direction, ventes, marketing). Si aucune personne de contact n'est mentionnée, nous cherchons via une base de données de contacts professionnels (Hunter.io ou RocketReach) une personne dans une telle fonction ou nous utilisons l'adresse générale de l'entreprise, comme info@. Nous n'écrivons jamais à plus de trois personnes par entreprise.
+- **Source :** par défaut l'adresse générale publique de l'entreprise (info@, sales@, contact@ et similaires). Si une entreprise publie sur son propre site web l'adresse directe d'un collaborateur dont la fonction correspond à notre proposition, nous pouvons contacter cette personne une seule fois. Nous n'utilisons pas de bases de données de contacts professionnels. Pour chaque contact, nous notons la source.
+- **Sélection :** nous n'écrivons qu'aux personnes dont la fonction correspond à notre proposition (p. ex. direction, ventes, marketing) et jamais à plus de trois personnes par entreprise.
 - **Finalité et base :** une proposition commerciale et au maximum un message de relance, sur la base de l'intérêt légitime (art. 6.1.f). Nous avons vérifié au préalable que cet intérêt ne l'emporte pas sur celui du destinataire et nous tenons compte des règles de marketing par e-mail du pays du destinataire.
 - **Information :** chaque message indique qui nous sommes, où nous avons trouvé l'adresse, un lien vers cette politique et comment se désinscrire.
 - **Opposition et désinscription :** une seule réponse suffit. Nous supprimons vos données dans les cinq jours ouvrables et ajoutons votre adresse à notre liste d'opposition afin que vous ne soyez plus contacté.
@@ -51,11 +51,10 @@ Nous travaillons avec des prestataires choisis avec soin, si possible dans l'UE 
 - **UptimeRobot :** surveillance de la disponibilité de nos sites
 - **Microsoft 365 et Google Workspace :** messagerie professionnelle
 - **Google (Analytics, Ads) et LinkedIn :** statistiques et mesure publicitaire, uniquement avec consentement
-- **Hunter.io et RocketReach :** coordonnées professionnelles pour la prospection (voir 3.4)
 
 ## 5. Transferts hors de l'UE
 
-Certains prestataires (p. ex. Google, Cloudflare, Stripe, UptimeRobot, LinkedIn, RocketReach) peuvent traiter des données en dehors de l'Espace économique européen, y compris aux États-Unis. Cela se fait sur la base des clauses contractuelles types de la Commission européenne et, le cas échéant, du EU-US Data Privacy Framework.
+Certains prestataires (p. ex. Google, Cloudflare, Stripe, UptimeRobot, LinkedIn) peuvent traiter des données en dehors de l'Espace économique européen, y compris aux États-Unis. Cela se fait sur la base des clauses contractuelles types de la Commission européenne et, le cas échéant, du EU-US Data Privacy Framework.
 
 ## 6. Durées de conservation
 
