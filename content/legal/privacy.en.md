@@ -24,7 +24,7 @@ We only process the data we need for the purposes below. We do not sell personal
 **3.4 Business prospecting.** We sometimes contact companies for which our 3D configurators or software may be relevant.
 
 - **Data:** business contact details only (name, role, company, business email address), never private data.
-- **Source:** by default the company's general public address (info@, sales@, contact@ and similar). If a company publishes a direct address of a staff member in a role that fits our proposal on its own website, we may contact that person once. We do not use business contact databases. We record the source for each contact.
+- **Source:** public and business sources, primarily company websites. We record the source for each contact.
 - **Selection:** we only write to people in a role that fits our proposal (e.g. management, sales, marketing) and never to more than three people per company.
 - **Purpose and legal basis:** a business proposal and at most one follow up, based on legitimate interest (Art. 6.1.f). We have assessed beforehand that this interest does not override that of the recipient and we take into account the email marketing rules of the recipient's country.
 - **Information:** every message states who we are, where we found the address, a link to this policy and how to unsubscribe.

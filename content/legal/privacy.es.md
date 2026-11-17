@@ -24,7 +24,7 @@ Solo tratamos los datos que necesitamos para los fines indicados a continuación
 **3.4 Prospección comercial.** A veces contactamos nosotros mismos con empresas para las que nuestros configuradores 3D o nuestro software pueden ser relevantes.
 
 - **Datos:** solo datos de contacto profesionales (nombre, cargo, empresa, correo electrónico profesional), nunca datos privados.
-- **Fuente:** por defecto la dirección general pública de la empresa (info@, sales@, contact@ y similares). Si una empresa publica en su propio sitio web la dirección directa de un empleado con un cargo que encaja con nuestra propuesta, podemos escribir a esa persona una sola vez. No usamos bases de datos de contactos profesionales. Para cada contacto anotamos la fuente.
+- **Fuente:** fuentes públicas y profesionales, en primer lugar los sitios web de las empresas. Anotamos la fuente de cada contacto.
 - **Selección:** solo escribimos a personas con un cargo que encaje con nuestra propuesta (p. ej. dirección, ventas, marketing) y nunca a más de tres personas por empresa.
 - **Finalidad y base:** una propuesta comercial y como máximo un mensaje de seguimiento, sobre la base del interés legítimo (art. 6.1.f). Hemos ponderado previamente que este interés no prevalece sobre el del destinatario y tenemos en cuenta las normas de marketing por correo electrónico del país del destinatario.
 - **Información:** cada mensaje indica quiénes somos, dónde encontramos la dirección, un enlace a esta política y cómo darse de baja.

@@ -24,7 +24,7 @@ Wir verarbeiten nur die Daten, die wir für die unten genannten Zwecke benötige
 **3.4 Geschäftliche Akquise.** Wir nehmen manchmal selbst Kontakt mit Unternehmen auf, für die unsere 3D Konfiguratoren oder Software relevant sein können.
 
 - **Daten:** nur geschäftliche Kontaktdaten (Name, Funktion, Unternehmen, geschäftliche E-Mail-Adresse), niemals private Daten.
-- **Quelle:** standardmäßig die allgemeine öffentliche Adresse des Unternehmens (info@, sales@, contact@ und ähnlich). Veröffentlicht ein Unternehmen auf seiner eigenen Website eine direkte Adresse einer Person in einer Funktion, die zu unserem Angebot passt, können wir diese Person einmalig anschreiben. Wir nutzen keine geschäftlichen Kontaktdatenbanken. Für jeden Kontakt halten wir die Quelle fest.
+- **Quelle:** öffentliche und geschäftliche Quellen, in erster Linie Unternehmenswebseiten. Für jeden Kontakt halten wir die Quelle fest.
 - **Auswahl:** wir schreiben nur Personen in einer Funktion an, die zu unserem Angebot passt (z. B. Geschäftsführung, Vertrieb, Marketing) und nie mehr als drei Personen pro Unternehmen.
 - **Zweck und Grundlage:** ein geschäftliches Angebot und höchstens eine Nachfassnachricht, auf Grundlage des berechtigten Interesses (Art. 6 Abs. 1 lit. f). Wir haben vorab abgewogen, dass dieses Interesse nicht schwerer wiegt als das des Empfängers und berücksichtigen die Regeln für E-Mail-Marketing im Land des Empfängers.
 - **Information:** jede Nachricht nennt, wer wir sind, wo wir die Adresse gefunden haben, einen Link zu dieser Erklärung und wie Sie sich abmelden.

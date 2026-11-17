@@ -24,7 +24,7 @@ We verwerken enkel de gegevens die we nodig hebben voor het doel hieronder. We v
 **3.4 Zakelijke prospectie.** We nemen soms zelf contact op met bedrijven waarvoor onze 3D configurators of software relevant kunnen zijn.
 
 - **Gegevens:** enkel zakelijke contactgegevens (naam, functie, bedrijf, zakelijk e-mailadres), nooit privégegevens.
-- **Bron:** standaard het algemene bedrijfsadres dat openbaar staat (info@, sales@, contact@ en gelijkaardig). Publiceert een bedrijf op zijn eigen website een direct adres van een medewerker met een rol die bij ons voorstel past, dan kunnen we die persoon eenmalig aanschrijven. We gebruiken geen zakelijke contactdatabanken. Per contact noteren we de bron.
+- **Bron:** openbare en zakelijke bronnen, in de eerste plaats bedrijfswebsites. Per contact noteren we de bron.
 - **Selectie:** we schrijven enkel personen aan in een functie die bij ons voorstel past (bv. directie, verkoop, marketing) en nooit meer dan drie personen per bedrijf.
 - **Doel en grond:** een zakelijk voorstel en hoogstens één opvolgbericht, op basis van gerechtvaardigd belang (art. 6.1.f). We hebben vooraf afgewogen dat dit belang niet zwaarder weegt dan dat van de ontvanger en houden rekening met de regels voor e-mailmarketing van het land van de ontvanger.
 - **Informatie:** elk bericht vermeldt wie we zijn, waar we het adres vonden, een link naar deze verklaring en hoe u zich afmeldt.

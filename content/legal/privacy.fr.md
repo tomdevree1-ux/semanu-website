@@ -24,7 +24,7 @@ Nous ne traitons que les données nécessaires aux finalités ci-dessous. Nous n
 **3.4 Prospection commerciale.** Il nous arrive de contacter nous-mêmes des entreprises pour lesquelles nos configurateurs 3D ou nos logiciels peuvent être utiles.
 
 - **Données :** uniquement des coordonnées professionnelles (nom, fonction, entreprise, adresse e-mail professionnelle), jamais de données privées.
-- **Source :** par défaut l'adresse générale publique de l'entreprise (info@, sales@, contact@ et similaires). Si une entreprise publie sur son propre site web l'adresse directe d'un collaborateur dont la fonction correspond à notre proposition, nous pouvons contacter cette personne une seule fois. Nous n'utilisons pas de bases de données de contacts professionnels. Pour chaque contact, nous notons la source.
+- **Source :** des sources publiques et professionnelles, en premier lieu les sites web des entreprises. Pour chaque contact, nous notons la source.
 - **Sélection :** nous n'écrivons qu'aux personnes dont la fonction correspond à notre proposition (p. ex. direction, ventes, marketing) et jamais à plus de trois personnes par entreprise.
 - **Finalité et base :** une proposition commerciale et au maximum un message de relance, sur la base de l'intérêt légitime (art. 6.1.f). Nous avons vérifié au préalable que cet intérêt ne l'emporte pas sur celui du destinataire et nous tenons compte des règles de marketing par e-mail du pays du destinataire.
 - **Information :** chaque message indique qui nous sommes, où nous avons trouvé l'adresse, un lien vers cette politique et comment se désinscrire.
