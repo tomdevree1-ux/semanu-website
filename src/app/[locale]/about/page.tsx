@@ -95,8 +95,9 @@ export default async function AboutPage({
             </div>
 
             <div className="w-full lg:sticky lg:top-28">
-              <div className="semanu-reveal rounded-2xl border border-[var(--line)] bg-white p-6 sm:p-7">
-                <span className="font-mono text-xs uppercase tracking-wider text-navy"><BrandText>{t('founderTitle')}</BrandText></span>
+              {/* Founder card on navy with the mint accent (Tom, 17 Nov 2026). */}
+              <div className="semanu-reveal rounded-2xl bg-navy p-6 text-white sm:p-7">
+                <span className="font-mono text-xs uppercase tracking-wider text-mint"><BrandText>{t('founderTitle')}</BrandText></span>
                 <div className="mt-4 flex items-center gap-4">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
@@ -104,14 +105,14 @@ export default async function AboutPage({
                     alt={`${t('founderName')}, ${t('founderRole')}`}
                     width={64}
                     height={64}
-                    className="h-16 w-16 shrink-0 rounded-full object-cover"
+                    className="h-16 w-16 shrink-0 rounded-full object-cover ring-2 ring-mint ring-offset-2 ring-offset-navy"
                   />
                   <div>
-                    <p className="font-semibold text-ink">{t('founderName')}</p>
-                    <p className="font-mono text-xs uppercase tracking-wider text-ink-soft">{t('founderRole')}</p>
+                    <p className="font-semibold text-white">{t('founderName')}</p>
+                    <p className="font-mono text-xs uppercase tracking-wider text-mint">{t('founderRole')}</p>
                   </div>
                 </div>
-                <p className="mt-4 text-sm leading-relaxed text-ink-soft"><BrandText>{t('founderText')}</BrandText></p>
+                <p className="mt-4 text-sm leading-relaxed text-white/80"><BrandText>{t('founderText')}</BrandText></p>
               </div>
             </div>
           </div>
