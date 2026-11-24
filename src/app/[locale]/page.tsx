@@ -51,7 +51,7 @@ type HomeContent = {
   aiFirst: { body: string; cta: string };
   refHead: { title: string; link: string };
   refIntro: string;
-  cases: { label: string; client: string; text: string; alt: string }[];
+  cases: { client: string; text: string; alt: string }[];
   final: { title: string; cta: string };
 };
 
@@ -88,14 +88,12 @@ const en: HomeContent = {
     'See how semanu helps SMEs digitalise with 3D configurators and custom business software with concrete results from practice.',
   cases: [
     {
-      label: 'Business software',
-      client: 'Poortland',
+      client: 'Poortland ERP',
       text: 'From first customer contact to installation: quoting, production and planning connected in one digital flow.',
       alt: 'Poortland website on a laptop',
     },
     {
-      label: '3D configurator',
-      client: 'semanu interactive kiosk',
+      client: 'SEMANU 3D Configurator Kiosk',
       text: 'Customers configure their products themselves on an immersive interactive kiosk, live in 3D and with the right price straight away.',
       alt: 'semanu interactive kiosk in a showroom',
     },
@@ -136,14 +134,12 @@ const de: HomeContent = {
     'Entdecken Sie, wie semanu KMU beim Digitalisieren hilft mit 3D-Konfiguratoren und Unternehmenssoftware nach Maß mit konkreten Resultaten aus der Praxis.',
   cases: [
     {
-      label: 'Unternehmenssoftware',
-      client: 'Poortland',
+      client: 'Poortland ERP',
       text: 'Vom ersten Kundenkontakt bis zur Montage: Angebot, Produktion und Planung verbunden in einem digitalen Ablauf.',
       alt: 'Poortland Website auf einem Laptop',
     },
     {
-      label: '3D-Konfigurator',
-      client: 'semanu interaktiver Kiosk',
+      client: 'SEMANU 3D Configurator Kiosk',
       text: 'Kunden stellen ihre Produkte selbst an einem immersiven interaktiven Kiosk zusammen, live in 3D und sofort mit dem richtigen Preis.',
       alt: 'semanu interaktiver Kiosk in einem Showroom',
     },
@@ -184,14 +180,12 @@ const fr: HomeContent = {
     'Découvrez comment semanu aide les PME à se digitaliser avec des configurateurs 3D et des logiciels d’entreprise sur mesure avec des résultats concrets issus du terrain.',
   cases: [
     {
-      label: 'Logiciel d’entreprise',
-      client: 'Poortland',
+      client: 'Poortland ERP',
       text: 'Du premier contact client à la pose : devis, production et planification reliés dans un seul flux digital.',
       alt: 'Site Poortland sur un ordinateur portable',
     },
     {
-      label: 'Configurateur 3D',
-      client: 'semanu kiosque interactif',
+      client: 'SEMANU 3D Configurator Kiosk',
       text: 'Les clients configurent leurs produits sur un kiosque interactif immersif, en direct en 3D et avec le bon prix tout de suite.',
       alt: 'Kiosque interactif semanu dans un showroom',
     },
@@ -232,14 +226,12 @@ const es: HomeContent = {
     'Descubra cómo semanu ayuda a las pymes a digitalizarse con configuradores 3D y software empresarial a medida con resultados concretos de la práctica.',
   cases: [
     {
-      label: 'Software empresarial',
-      client: 'Poortland',
+      client: 'Poortland ERP',
       text: 'Del primer contacto con el cliente a la instalación: presupuesto, producción y planificación conectados en un único flujo digital.',
       alt: 'Web de Poortland en un portátil',
     },
     {
-      label: 'Configurador 3D',
-      client: 'semanu quiosco interactivo',
+      client: 'SEMANU 3D Configurator Kiosk',
       text: 'Los clientes configuran sus productos en un quiosco interactivo inmersivo, en directo en 3D y con el precio correcto al instante.',
       alt: 'Quiosco interactivo semanu en un showroom',
     },
@@ -280,14 +272,12 @@ const nl: HomeContent = {
     'Ontdek hoe semanu kmo’s helpt digitaliseren met 3D-configuratoren en bedrijfssoftware op maat met concrete resultaten uit de praktijk.',
   cases: [
     {
-      label: 'Bedrijfssoftware',
-      client: 'Poortland',
+      client: 'Poortland ERP',
       text: 'Van eerste klantcontact tot plaatsing: offerte, productie en planning verbonden in één digitale flow.',
       alt: 'Poortland website op een laptop',
     },
     {
-      label: '3D-configurator',
-      client: 'semanu interactieve kiosk',
+      client: 'SEMANU 3D Configurator Kiosk',
       text: 'Klanten stellen immersief hun producten zelf samen op een interactieve kiosk, live in 3D en met meteen de juiste prijs.',
       alt: 'semanu interactieve kiosk in een showroom',
     },
@@ -444,10 +434,7 @@ export default async function HomePage({
                 </div>
                 <div className="mt-6 flex items-start justify-between gap-6 border-t border-[var(--line)] pt-5">
                   <div className="min-w-0">
-                    <span className="font-mono text-xs font-bold uppercase tracking-[0.14em] text-mint-deep">
-                      {c.label}
-                    </span>
-                    <h3 className="mt-2 font-mono text-[22px] font-extrabold leading-tight tracking-[-0.015em] text-navy sm:text-[26px]">
+                    <h3 className="font-mono text-[22px] font-extrabold leading-tight tracking-[-0.015em] text-navy sm:text-[26px]">
                       {c.client}
                     </h3>
                     <p className="mt-2 max-w-[44ch] text-[clamp(17px,1.6vw,20px)] text-ink-soft">{c.text}</p>

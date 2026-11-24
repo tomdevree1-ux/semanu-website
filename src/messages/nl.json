@@ -97,7 +97,7 @@
     "country": "Land",
     "message": "Bericht",
     "lang": "Taalvoorkeur",
-    "consent": "Ik ga akkoord met de verwerking van mijn gegevens volgens de privacyverklaring.",
+    "consent": "Ik ga akkoord met de verwerking van mijn gegevens volgens de <link>privacyverklaring</link>.",
     "send": "Bericht versturen",
     "sending": "Versturen …",
     "errRequired": "Dit veld is verplicht.",

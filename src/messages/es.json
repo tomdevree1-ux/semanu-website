@@ -97,7 +97,7 @@
     "country": "País",
     "message": "Mensaje",
     "lang": "Idioma preferido",
-    "consent": "Acepto el tratamiento de mis datos conforme a la política de privacidad.",
+    "consent": "Acepto el tratamiento de mis datos conforme a la <link>política de privacidad</link>.",
     "send": "Enviar mensaje",
     "sending": "Enviando …",
     "errRequired": "Este campo es obligatorio.",

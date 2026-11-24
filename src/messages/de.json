@@ -97,7 +97,7 @@
     "country": "Land",
     "message": "Nachricht",
     "lang": "Sprachpräferenz",
-    "consent": "Ich stimme der Verarbeitung meiner Daten gemäß Datenschutzerklärung zu.",
+    "consent": "Ich stimme der Verarbeitung meiner Daten gemäß <link>Datenschutzerklärung</link> zu.",
     "send": "Nachricht senden",
     "sending": "Senden …",
     "errRequired": "Dieses Feld ist erforderlich.",

@@ -9,6 +9,7 @@ import { CustomSelect } from '@/components/CustomSelect';
 import { track } from '@/lib/analytics';
 import { Turnstile } from '@/components/Turnstile';
 import { CONTACT_EMAIL } from '@/lib/contact';
+import { Link } from '@/i18n/navigation';
 
 type Status = 'idle' | 'submitting' | 'success' | 'error' | 'rateLimited';
 type Errors = Partial<Record<string, string>>;
@@ -248,7 +249,19 @@ export function ContactForm() {
             </svg>
           </span>
           <span>
-            {t('consent')} <span className="text-red">*</span>
+            {t.rich('consent', {
+              link: (chunks) => (
+                <Link
+                  href="/privacy"
+                  target="_blank"
+                  rel="noopener"
+                  className="font-medium text-ink underline underline-offset-2 hover:text-red"
+                >
+                  {chunks}
+                </Link>
+              ),
+            })}{' '}
+            <span className="text-red">*</span>
             {errors.consent && <FieldError msg={errors.consent} />}
           </span>
         </label>
